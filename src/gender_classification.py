@@ -6,27 +6,28 @@ from difflib import SequenceMatcher
 nlp = spacy.load('pt_core_news_lg')
 
 
-def classify_gender(excerpts, entities):
+def classify_gender(entities):
     """
     Classify the gender of the entities based on the excerpts and the dependency analysis.
 
     Args:
-        excerpts (list): List of excerpts.
-        entities (list): List of entities.
+        entities (dict): Dictionary with the entities extracted from the text.
 
     Returns:
         list: List of entities with gender classification.
     """
-    
-    try:
-        doc = nlp(excerpts)
-    except ValueError:
-        doc = nlp(excerpts[:1000000])
-    
+       
     for entity in entities:
+                
+        excerpt = entity['excerpt']        
+        try:
+            doc = nlp(excerpt)
+        except ValueError:
+            doc = nlp(excerpt[:1000000])
+        
         person = entity['person']
-        dep_gender = get_dependency_gender(doc, person, excerpts)
-        br_gender = get_gender_br(person)        
+        dep_gender = get_dependency_gender(doc, person, excerpt)
+        br_gender = get_gender_br(person)
         entity['gender'] = get_final_gender(dep_gender, br_gender)
     
     return entities

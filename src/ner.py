@@ -1,11 +1,19 @@
 import torch
+
+from TorchCRF import CRF
+from src.utils.tag_encoder import NERTagsEncoder
 from transformers import BertTokenizer, BertForTokenClassification
-from torchcrf import CRF
 
 # Load the BERT tokenizer and model
-MODEL_PATH = '../data/models/litbert-crf'
-tokenizer = BertTokenizer.from_pretrained(MODEL_PATH)
-model = BertForTokenClassification.from_pretrained(MODEL_PATH)
+MODEL_PATH = './data/models/litbert-crf'
+CLASSES_PATH = './data/models/litbert-crf/classes-selective.txt'
+tokenizer = BertTokenizer.from_pretrained(MODEL_PATH, do_lower_case=False)
+tag_encoder = NERTagsEncoder.from_labels_file(CLASSES_PATH, scheme='BIO')
+
+model = BertForTokenClassification.from_pretrained(
+    MODEL_PATH,
+    num_labels=tag_encoder.num_labels,
+    output_hidden_states=True)
 crf = CRF(model.config.num_labels, batch_first=True)
 
 def extract_person_entities(sentences):
@@ -28,9 +36,9 @@ def extract_person_entities(sentences):
         with torch.no_grad():
             emissions = model(input_tensor).logits
             tags = crf.decode(emissions)
-
+        
         entities = decode_entities(tokens, tags[0])
-        person_entities.extend([entity for entity in entities if entity['entity'] == 'PERSON'])
+        person_entities.extend([entity for entity in entities if entity['entity'] == 'PESSOA'])
 
     return person_entities
 
@@ -47,25 +55,25 @@ def decode_entities(tokens, tags):
     """
     entities = []
     entity = {}
-    current_tag = None
 
     for token, tag in zip(tokens, tags):
-        tag_name = model.config.id2label[tag]
+        tag_name = tag_encoder.convert_ids_to_tags([tag])[0]
+        
         if tag_name.startswith('B-'):
             if entity:
                 entities.append(entity)
                 entity = {}
             entity['entity'] = tag_name[2:]
-            entity['text'] = token
+            entity['person'] = token
         elif tag_name.startswith('I-') and entity:
-            if entity['entity'] == tag_name[2:]:
-                entity['text'] += ' ' + token
+           if entity['entity'] == tag_name[2:]:
+               entity['person'] += ' ' + token
         else:
             if entity:
                 entities.append(entity)
                 entity = {}
-
-    if entity:
+        
+    if entity:        
         entities.append(entity)
 
     return entities
