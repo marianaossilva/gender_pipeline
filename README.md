@@ -2,40 +2,6 @@
 
 This project implements an NLP pipeline to detect gender bias in Portuguese literature. The pipeline consists of six steps, from preprocessing the text to gender bias analysis. The main script processes multiple text files, extracting entities, classifying gender, analyzing dependencies, and calculating gender skewness, outputting the results into CSV files.
 
-## Project Structure
-
-```plaintext
-gender_bias_detection/
-│
-├── data/
-│   ├── raw/               # Folder for raw input text files
-│   ├── preprocessed/      # Folder for preprocessed text files
-│   ├── results/           # Folder for output files
-│   │   ├── book_dicts/    # Folder for intermediate JSON files
-│   │   └── gender_bias/   # Folder for gender bias calculation results
-│
-├── src/
-│   ├── __init__.py        # Init file for the src module
-│   ├── preprocessing.py   # Step 1: Preprocessing and Sentencer
-│   ├── ner.py             # Step 2: Entity Recognition
-│   ├── segmentation.py    # Step 3: Excerpt Segmentation
-│   ├── gender_classification.py # Step 4: Gender Classification
-│   ├── dependency_analysis.py   # Step 5: Dependency Analysis
-│   ├── gender_skewness.py       # Step 6: Gender Skewness
-│   ├── plot_results.py          # Step 7: Plot Results
-│   ├── utils/               # Utility functions
-│       ├── files.py         # File read/write functions
-│       ├── log_utils.py     # Logging configuration
-│
-├── notebooks/             # Jupyter notebooks for exploration and analysis
-│
-├── tests/                 # Unit tests for the pipeline components
-│
-├── requirements.txt       # List of Python packages required
-├── README.md              # Project overview and instructions
-└── main.py                # Main script to run the entire pipeline
-```
-
 ## Instalation
 
 1. Clone the repository:
