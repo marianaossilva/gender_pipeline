@@ -5,13 +5,13 @@ from src.utils.tag_encoder import NERTagsEncoder
 from transformers import BertTokenizer, BertForTokenClassification
 
 # Load the BERT tokenizer and model
-MODEL_PATH = './data/models/litbert-crf'
+MODEL_NAME = 'marianaossilva/LitBERT-CRF'
 CLASSES_PATH = './data/models/litbert-crf/classes-selective.txt'
-tokenizer = BertTokenizer.from_pretrained(MODEL_PATH, do_lower_case=False)
+tokenizer = BertTokenizer.from_pretrained(MODEL_NAME, do_lower_case=False)
 tag_encoder = NERTagsEncoder.from_labels_file(CLASSES_PATH, scheme='BIO')
 
 model = BertForTokenClassification.from_pretrained(
-    MODEL_PATH,
+    MODEL_NAME,
     num_labels=tag_encoder.num_labels,
     output_hidden_states=True)
 crf = CRF(model.config.num_labels, batch_first=True)
