@@ -6,7 +6,7 @@ from transformers import BertTokenizer, BertForTokenClassification
 
 # Load the BERT tokenizer and model
 MODEL_NAME = 'marianaossilva/LitBERT-CRF'
-CLASSES_PATH = './data/models/litbert-crf/classes-selective.txt'
+CLASSES_PATH = './data/dictionaries/classes-selective.txt'
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME, do_lower_case=False)
 tag_encoder = NERTagsEncoder.from_labels_file(CLASSES_PATH, scheme='BIO')
 
