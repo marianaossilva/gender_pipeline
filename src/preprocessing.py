@@ -5,6 +5,13 @@ import string
 # Load the Portuguese language model
 nlp = spacy.load('pt_core_news_lg')
 
+noisy_headers = [
+    "<voluntario@futuro.usp.br>", 
+    "<bibvirt@futuro.usp.br> e saiba como isso é possível.", 
+    "<http://www.bibvirt.futuro.usp.br>", 
+    "LITERATURA BRASILEIRA Textos literários em meio eletrônico"
+]
+
 def preprocess_text(text):
     """
     Preprocesses a text by removing extra spaces, noise, special characters, emails, websites and multiple dots.
@@ -35,17 +42,20 @@ def clean_text(text):
         str: The cleaned text.
     """
     
-    # Remove extra spaces
-    text = re.sub(r'\s+', ' ', text)
+    # Remove extra spaces, tabs and breaklines
+    text = re.sub(r'\s+|\t+|\n+', ' ', text)
     
     # Remove noisy headers
-    text = remove_noisy_headers(text)
+    for header in noisy_headers:
+        if header in text:
+            text = text.split(header)[1]
+            break
        
     # Remove special characters (except hyphens, punctuation and breaklines)
     text = re.sub(r"[^\w\s\-\n'{}]+".format(re.escape(string.punctuation)), '', text)
     
     # Remove multiple dots followed by a space or a number or a capital letter
-    text = re.sub(r'\.{4,}(?:\s|\d|[A-Z])', '', text)
+    text = re.sub(r'\.{4,}(?:.+)\n', '', text)
     
     # Remove emails
     text = re.sub(r'\S+@\S+', '', text)

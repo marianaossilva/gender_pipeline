@@ -58,7 +58,7 @@ def get_dependency_gender(doc, person, excerpt):
 
 def get_final_gender(dp_gender, br_gender):
     if br_gender == None and dp_gender == None:
-        return "Unk"    
+        return "Unknow"    
     if (br_gender == "Unk" or br_gender == "Unisex"):
         return 'Male' if dp_gender == 'Masc' else 'Female'
     else:
