@@ -1,0 +1,519 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta",
+        "sentence": "No Jardim das Oliveiras Auta de Souza Minhalma é triste até à morte...",
+        "start_char": 24,
+        "end_char": 28,
+        "excerpt": "No Jardim das Oliveiras Auta de Souza Minhalma é triste até à morte... Doce, Jesus falou... E o Nazareno santo Chorava, como se a sualma fosse Um mar imenso de amargura e pranto.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Jardim",
+                "child": "Oliveiras Auta de Souza Minhalma",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Jardim",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Oliveiras",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Oliveiras Auta de Souza Minhalma",
+                "child": "Jardim",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Oliveiras",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Jardim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Doce, Jesus falou...",
+        "start_char": 77,
+        "end_char": 82,
+        "excerpt": "No Jardim das Oliveiras Auta de Souza Minhalma é triste até à morte... Doce, Jesus falou... E o Nazareno santo Chorava, como se a sualma fosse Um mar imenso de amargura e pranto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falou",
+                "child": "Jesus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Nazareno santo",
+        "sentence": "E o Nazareno santo Chorava, como se a sualma fosse Um mar imenso de amargura e pranto.",
+        "start_char": 94,
+        "end_char": 110,
+        "excerpt": "No Jardim das Oliveiras Auta de Souza Minhalma é triste até à morte... Doce, Jesus falou... E o Nazareno santo Chorava, como se a sualma fosse Um mar imenso de amargura e pranto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Chorava",
+                "child": "o Nazareno santo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Chorava",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nazareno",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pai",
+        "sentence": "Pai, tem piedade...",
+        "start_char": 324,
+        "end_char": 327,
+        "excerpt": "Depois, silencioso, ele afastou-se E foi rezar no mais sombrio canto. Seu grande olhar formoso iluminou-se Fitando o etéreo e estrelejado manto. Pai, tem piedade...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tremia",
+        "sentence": "E sua vez plangente Tremia, enquanto pelas trevas",
+        "start_char": 364,
+        "end_char": 370,
+        "excerpt": "Seu grande olhar formoso iluminou-se Fitando o etéreo e estrelejado manto. Pai, tem piedade... E sua vez plangente Tremia, enquanto pelas trevas",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sua vez",
+                "child": "Tremia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tremia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tremia",
+                "child": "trevas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Tremia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "treva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "trevas",
+                "child": "Tremia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "treva",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tremia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Pobre Jesus!",
+        "start_char": 444,
+        "end_char": 449,
+        "excerpt": "E sua vez plangente Tremia, enquanto pelas trevas mudas Baixava manso o triste olhar dolente. Pobre Jesus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Judas",
+        "sentence": "Em cada sombra a traição de Judas, Em cada estrela os olhos de Maria!",
+        "start_char": 499,
+        "end_char": 504,
+        "excerpt": "Pobre Jesus! Como num sonho via: Em cada sombra a traição de Judas, Em cada estrela os olhos de Maria!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a traição",
+                "child": "Judas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "traição",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Judas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Judas",
+                "child": "a traição",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Judas",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "traição",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Judas",
+                "child": "cada sombra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Judas",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sombra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Judas",
+                "child": "olhos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Judas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cada sombra",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "sombra",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "a traição",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "traição",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "Judas",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Judas",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "cada estrela",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "estrela",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada sombra",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "sombra"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada estrela",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "estrela"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Maria",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Maria"
+                    },
+                    {
+                        "head": "Maria",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Maria",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Em cada sombra a traição de Judas, Em cada estrela os olhos de Maria!",
+        "start_char": 534,
+        "end_char": 539,
+        "excerpt": "Pobre Jesus! Como num sonho via: Em cada sombra a traição de Judas, Em cada estrela os olhos de Maria!",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olhos",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cada sombra",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "sombra",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "a traição",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "traição",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "Judas",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Judas",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "cada estrela",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "estrela",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada sombra",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "sombra"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada estrela",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "estrela"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Maria",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Maria"
+                    },
+                    {
+                        "head": "Maria",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Maria",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            },
+            {
+                "head": "Maria",
+                "child": "olhos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cada sombra",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "sombra",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "a traição",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "traição",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "Judas",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Judas",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "cada estrela",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "estrela",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada sombra",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "sombra"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "cada estrela",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "estrela"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Maria",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Maria"
+                    },
+                    {
+                        "head": "Maria",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Maria",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            }
+        ]
+    }
+]

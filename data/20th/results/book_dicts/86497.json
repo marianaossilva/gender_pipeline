@@ -1,0 +1,273 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Visão Casimiro de Abreu",
+        "start_char": 6,
+        "end_char": 23,
+        "excerpt": "Visão Casimiro de Abreu Uma noite, meu Deus, que noite aquela! Por entre as galas, no fervor da dança, Vi passar, qual num sonho vaporoso,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Uma noite, meu Deus, que noite aquela!",
+        "start_char": 39,
+        "end_char": 43,
+        "excerpt": "Visão Casimiro de Abreu Uma noite, meu Deus, que noite aquela! Por entre as galas, no fervor da dança, Vi passar, qual num sonho vaporoso,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Uma noite",
+                "child": "meu Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": "Uma noite",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o lábio",
+        "sentence": "Esse riso infantil que o lábio tinha:",
+        "start_char": 229,
+        "end_char": 236,
+        "excerpt": "O rosto virginal duma criança. Sorri-me - era o sonho de minh'alma Esse riso infantil que o lábio tinha:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "o lábio",
+                "dep_h": "acl:relcl",
+                "pos_h": "AUX",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "lábio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o lábio",
+                "child": "Esse riso",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "lábio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "riso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criança",
+        "sentence": "Depois eu indolente descuidei-me Da planta nova dos gentis amores, E a criança, correndo pela vida, Foi colher nos jardins mais lindas flores.",
+        "start_char": 535,
+        "end_char": 544,
+        "excerpt": "Minh'alma despertou-se à luz da vida, E as vozes duma lira e dum piano Juntas se uniram na canção querida. Depois eu indolente descuidei-me Da planta nova dos gentis amores, E a criança, correndo pela vida, Foi colher nos jardins mais lindas flores.",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "Juntas",
+                    "Junta"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criança",
+        "sentence": "Não voltou; - talvez ela adormecesse Junto à fonte, deitada na verdura, E - sonhando - a criança se recorde",
+        "start_char": 696,
+        "end_char": 705,
+        "excerpt": "Juntas se uniram na canção querida. Depois eu indolente descuidei-me Da planta nova dos gentis amores, E a criança, correndo pela vida, Foi colher nos jardins mais lindas flores. Não voltou; - talvez ela adormecesse Junto à fonte, deitada na verdura, E - sonhando - a criança se recorde",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "Juntas",
+                    "Junta"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sonhando",
+                "child": "a criança",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minh ' alma",
+        "sentence": "Minh'alma sem te ver louca suspira!",
+        "start_char": 1082,
+        "end_char": 1093,
+        "excerpt": "... doce mistério! Minh'alma despertou-se à luz da vida, E as vozes duma lira e dum piano Juntas se uniram na canção querida. Depois eu indolente descuidei-me Da planta nova dos gentis amores, E a criança, correndo pela vida, Foi colher nos jardins mais lindas flores. Não voltou; - talvez ela adormecesse Junto à fonte, deitada na verdura, E - sonhando - a criança se recorde Do moço que ela viu e que a procura! Corri pelas campinas noite e dia Atrás do berço d'ouro dessa fada; Rasguei-me nos espinhos do caminho... Cansei-me a procurar e não vi nada! Agora como um louco eu fito as turbas Sempre a ver se descubro a face linda... - Os outros a sorrir passam cantando, Só eu a suspirar procuro ainda! ... Onde foste, visão dos meus amores! Minh'alma sem te ver louca suspira!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "Juntas",
+                    "Junta"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sombra",
+        "sentence": "- Nunca mais unirás, sombra encantada,",
+        "start_char": 1140,
+        "end_char": 1146,
+        "excerpt": "Onde foste, visão dos meus amores! Minh'alma sem te ver louca suspira! - Nunca mais unirás, sombra encantada,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "lira",
+        "sentence": "O som do teu piano à voz da lira?",
+        "start_char": 1186,
+        "end_char": 1190,
+        "excerpt": "Minh'alma sem te ver louca suspira! - Nunca mais unirás, sombra encantada, O som do teu piano à voz da lira?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voz",
+                "child": "lira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lira",
+                "child": "voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lira",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lira",
+                "child": "teu piano",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lira",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "piano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lira",
+                "child": "O som",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lira",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

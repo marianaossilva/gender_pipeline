@@ -1,0 +1,359 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Apolo",
+        "sentence": "Soneto Arcádico Bocage Não tendo que fazer Apolo um dia Às Musas disse:",
+        "start_char": 43,
+        "end_char": 48,
+        "excerpt": "Soneto Arcádico Bocage Não tendo que fazer Apolo um dia Às Musas disse: \"Irmãs, é benefício",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fazer",
+                "child": "Apolo",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Apolo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Irmãs",
+        "sentence": "\"Irmãs,",
+        "start_char": 73,
+        "end_char": 78,
+        "excerpt": "Soneto Arcádico Bocage Não tendo que fazer Apolo um dia Às Musas disse: \"Irmãs, é benefício",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Irmãs",
+                "child": "benefício",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Irmãs",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "benefício",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "benefício",
+                "child": "Irmãs",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "benefício",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Irmãs",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Caldas",
+        "sentence": "O Caldas satisfaça à padaria;",
+        "start_char": 161,
+        "end_char": 169,
+        "excerpt": "Aos sócios vãos da magra Academia! \" \" O Caldas satisfaça à padaria;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Caldas",
+                "child": "satisfaça",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Caldas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "satisfaça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "satisfaça",
+                "child": "O Caldas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "satisfaça",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Caldas",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rei Egípcio",
+        "sentence": "O França d'enjoar tenha exercício, E o autor do entremez do Rei Egípcio",
+        "start_char": 251,
+        "end_char": 262,
+        "excerpt": "\" \" O Caldas satisfaça à padaria; O França d'enjoar tenha exercício, E o autor do entremez do Rei Egípcio",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entremez",
+                "child": "Rei Egípcio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "entremez",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Rei",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rei Egípcio",
+                "child": "entremez",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "entremez",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rei Egípcio",
+                "child": ", E o autor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Pégas",
+        "sentence": "O Pégaso veloz conduza à pia!",
+        "start_char": 263,
+        "end_char": 270,
+        "excerpt": "O Caldas satisfaça à padaria; O França d'enjoar tenha exercício, E o autor do entremez do Rei Egípcio O Pégaso veloz conduza à pia!",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O Pégaso",
+                "child": "veloz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pégaso",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "veloz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Pégaso",
+                "child": "conduza",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pégaso",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "conduza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Pégaso",
+                "child": "pia",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pégaso",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "pia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pia",
+                "child": "O Pégaso",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "pia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pégaso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ex - frade",
+        "sentence": "o ex-frade:",
+        "start_char": 321,
+        "end_char": 333,
+        "excerpt": "O Pégaso veloz conduza à pia! \" \"Vá na Ulisséia tasquinhar o ex-frade:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bernardo nênia",
+        "sentence": "Bernardo nênias faça, e cague nelas;",
+        "start_char": 410,
+        "end_char": 424,
+        "excerpt": "Da sala o Quintanilha acenda as velas, Em se juntando alguma sociedade! \" \" Bernardo nênias faça, e cague nelas;",
+        "gender": "male",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Belmiro",
+        "sentence": "E Belmiro, por ter habilidade, Como d'antes trabalhe em bagatelas!",
+        "start_char": 449,
+        "end_char": 456,
+        "excerpt": "\" \" O Caldas satisfaça à padaria; O França d'enjoar tenha exercício, E o autor do entremez do Rei Egípcio O Pégaso veloz conduza à pia! \" \"Vá na Ulisséia tasquinhar o ex-frade: Da sala o Quintanilha acenda as velas, Em se juntando alguma sociedade! \" \" Bernardo nênias faça, e cague nelas; E Belmiro, por ter habilidade, Como d'antes trabalhe em bagatelas!",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "E Belmiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Belmiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "d '",
+        "sentence": "E Belmiro, por ter habilidade, Como d'antes trabalhe em bagatelas!",
+        "start_char": 446,
+        "end_char": 449,
+        "excerpt": "\" \" O Caldas satisfaça à padaria; O França d'enjoar tenha exercício, E o autor do entremez do Rei Egípcio O Pégaso veloz conduza à pia! \" \"Vá na Ulisséia tasquinhar o ex-frade: Da sala o Quintanilha acenda as velas, Em se juntando alguma sociedade! \" \" Bernardo nênias faça, e cague nelas; E Belmiro, por ter habilidade, Como d'antes trabalhe em bagatelas!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

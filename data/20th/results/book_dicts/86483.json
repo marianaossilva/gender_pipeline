@@ -1,0 +1,148 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 17,
+        "end_char": 34,
+        "excerpt": "Quando tu choras Casimiro de Abreu Quando tu choras, meu amor, teu rosto Brilha formoso com mais doce encanto, E as leves sombras de infantil desgosto Tornam mais belo o cristalino pranto.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gentil donzela",
+        "sentence": "É doce o pranto de gentil donzela, É sempre belo quando a virgem chora: - Semelha a rosa pudibunda e bela",
+        "start_char": 354,
+        "end_char": 368,
+        "excerpt": "Oh! nessa idade da paixão lasciva Como o prazer, é o chorar preciso: Mas breve passa - qual a chuva estiva - E quase ao pranto se mistura o riso. É doce o pranto de gentil donzela, É sempre belo quando a virgem chora: - Semelha a rosa pudibunda e bela",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a virgem",
+        "sentence": "É doce o pranto de gentil donzela, É sempre belo quando a virgem chora: - Semelha a rosa pudibunda e bela",
+        "start_char": 391,
+        "end_char": 399,
+        "excerpt": "Oh! nessa idade da paixão lasciva Como o prazer, é o chorar preciso: Mas breve passa - qual a chuva estiva - E quase ao pranto se mistura o riso. É doce o pranto de gentil donzela, É sempre belo quando a virgem chora: - Semelha a rosa pudibunda e bela",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chora",
+                "child": "a virgem",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a virgem",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a virgem",
+                "child": "doce",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "doce",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu anjo",
+        "sentence": "Chora, meu anjo, - beberei teu pranto!",
+        "start_char": 894,
+        "end_char": 902,
+        "excerpt": "Depois o sol, como sultão brilhante, De luz inunda o seu gentil serralho, E às flores todas - tão feliz amante - Cioso sorve o matutino orvalho. Assim, se choras, inda és mais formosa, Brilha teu rosto com mais doce encanto: - Serei o sol e tu serás a rosa... Chora, meu anjo, - beberei teu pranto!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Chora",
+                "child": "meu anjo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "chora",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu anjo",
+                "child": "Chora",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "chora",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

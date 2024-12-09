@@ -1,0 +1,95 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Violeta Casimiro de Abreu",
+        "sentence": "Violeta Casimiro de Abreu",
+        "start_char": 0,
+        "end_char": 25,
+        "excerpt": "Violeta Casimiro de Abreu Sempre teu lábio severo Me chama de borboleta! - Se eu deixo as rosas do prado É só por ti - violeta!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "borboleta",
+        "sentence": "Sempre teu lábio severo Me chama de borboleta!",
+        "start_char": 62,
+        "end_char": 71,
+        "excerpt": "Violeta Casimiro de Abreu Sempre teu lábio severo Me chama de borboleta! - Se eu deixo as rosas do prado É só por ti - violeta!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chama",
+                "child": "borboleta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "borboleta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As outras",
+        "sentence": "Tu és formosa e modesta, As outras são tão vaidosas!",
+        "start_char": 153,
+        "end_char": 162,
+        "excerpt": "Sempre teu lábio severo Me chama de borboleta! - Se eu deixo as rosas do prado É só por ti - violeta! Tu és formosa e modesta, As outras são tão vaidosas!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A borboleta travessa",
+        "sentence": "A borboleta travessa Vive de sol e de flores.",
+        "start_char": 233,
+        "end_char": 253,
+        "excerpt": "Embora vivas na sombra Amo-te mais do que às rosas. A borboleta travessa Vive de sol e de flores.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

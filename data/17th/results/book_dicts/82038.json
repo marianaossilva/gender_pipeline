@@ -1,0 +1,112 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Orraca López",
+        "sentence": "Orraca López vi doente un día",
+        "start_char": 0,
+        "end_char": 12,
+        "excerpt": "Orraca López vi doente un día Afonso Eanes de Coton Cancioneiro da Biblioteca Nacional 1589, Cancioneiro da Vaticana 1121",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "Orraca López",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Orraca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Eanes",
+        "sentence": "Afonso Eanes de Coton Cancioneiro da Biblioteca Nacional 1589,",
+        "start_char": 30,
+        "end_char": 42,
+        "excerpt": "Orraca López vi doente un día Afonso Eanes de Coton Cancioneiro da Biblioteca Nacional 1589, Cancioneiro da Vaticana 1121",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "día Afonso Eanes de Coton Cancioneiro da Biblioteca Nacional 1589",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "día",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Orraca López",
+        "sentence": "Orraca López vi doente un día e preguntei-a se guarecería.",
+        "start_char": 122,
+        "end_char": 134,
+        "excerpt": "Afonso Eanes de Coton Cancioneiro da Biblioteca Nacional 1589, Cancioneiro da Vaticana 1121 Orraca López vi doente un día e preguntei-a se guarecería.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "Orraca López",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Orraca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus quiser leixar viver; mais en velhice non vos atrevades, ca i máis vej'eu das velhas morrer.",
+        "start_char": 432,
+        "end_char": 436,
+        "excerpt": "E dixe-lh'eu: Gran folía pensades, se per velhece a guarecer cuidades; pero non vos digu'eu que non vivades quanto vos Deus quiser leixar viver; mais en velhice non vos atrevades, ca i máis vej'eu das velhas morrer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quiser",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "digu'eu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "digu'eu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

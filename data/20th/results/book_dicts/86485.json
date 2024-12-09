@@ -1,0 +1,225 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Queixumes Casimiro de Abreu Olho e vejo...",
+        "start_char": 10,
+        "end_char": 27,
+        "excerpt": "Queixumes Casimiro de Abreu Olho e vejo... tudo é gala, Tudo canta e tudo fala, Só minh'alma Não se acalma, Muda e triste não se ri! Minha mente já delira, E meu peito só suspira",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olho"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Erguera",
+        "sentence": "Esta minh'alma nos hinos Erguera cantos divinos",
+        "start_char": 660,
+        "end_char": 667,
+        "excerpt": "se eu pudesse, formosa, Roçar-te os lábios de rosa Como às flores - Seus amores - Faz o louco colibri; Esta minh'alma nos hinos Erguera cantos divinos",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Esta minh'alma",
+                "child": "Erguera",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "minh'alma",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Erguera",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Erguera",
+                "child": "Esta minh'alma",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Erguera",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "minh'alma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Morrerei, meu Deus, bem moço, - Qual n'aurora",
+        "start_char": 740,
+        "end_char": 744,
+        "excerpt": "Por ti! Por ti! Ai! quem me dera essa vida Tão bela e doce vivida Nos meus lares Sem pesares No sossego só dali! Não tinha-te visto as tranças, Nem rasgado as esperanças Por ti! Por ti! Perdi as flores da idade, E na flor da mocidade É meu canto - Todo pranto - Qual a voz da juriti! No teu sorriso embebido Deixei meu sonho querido Por ti! Por ti! Ai! se eu pudesse, formosa, Roçar-te os lábios de rosa Como às flores - Seus amores - Faz o louco colibri; Esta minh'alma nos hinos Erguera cantos divinos Por ti! Por ti! Ai! assim viver não posso! Morrerei, meu Deus, bem moço, - Qual n'aurora",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Morrerei",
+                "child": "meu Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Morrerei",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": "Morrerei",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Morrerei",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Desfolhado",
+        "sentence": "Que descora, Desfolhado bogari;",
+        "start_char": 785,
+        "end_char": 795,
+        "excerpt": "Ai! assim viver não posso! Morrerei, meu Deus, bem moço, - Qual n'aurora Que descora, Desfolhado bogari;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Que descora",
+                "child": "Desfolhado bogari",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "descorar",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Desfolhar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Desfolhado bogari",
+                "child": "Que descora",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Desfolhar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "descorar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "não t'esqueças, senhora, Da flor pendida n'aurora",
+        "start_char": 1000,
+        "end_char": 1007,
+        "excerpt": "descansa aqui! \" - Ai! não t'esqueças, senhora, Da flor pendida n'aurora",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "não t'esqueças",
+                "child": "senhora",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "t'esqueças",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhora",
+                "child": "não t'esqueças",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "t'esqueças",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

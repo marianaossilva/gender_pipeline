@@ -1,0 +1,75 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "No túmulo dum menino Casimiro de Abreu",
+        "start_char": 21,
+        "end_char": 38,
+        "excerpt": "No túmulo dum menino Casimiro de Abreu Um anjo dorme aqui: na aurora apenas, Disse adeus ao brilhar das açucenas Sem ter da vida alevantado o véu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "- Rosa tocada do cruel granizo - Cedo finou-se e no infantil sorriso Passou do berço p'ra brincar no céu!",
+        "start_char": 149,
+        "end_char": 153,
+        "excerpt": "Um anjo dorme aqui: na aurora apenas, Disse adeus ao brilhar das açucenas Sem ter da vida alevantado o véu. - Rosa tocada do cruel granizo - Cedo finou-se e no infantil sorriso Passou do berço p'ra brincar no céu!",
+        "gender": "female",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "finou-se",
+                "child": "- Rosa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "finar se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Rosa",
+                "child": "cruel",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cruel",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cruel",
+                "child": "- Rosa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cruel",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

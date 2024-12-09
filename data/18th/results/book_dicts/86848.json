@@ -1,0 +1,804 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "O Hóspede Castro Alves",
+        "sentence": "O Hóspede Castro Alves Choro por ver que os dias passam breves E te esqueces de mim quando tu fores",
+        "start_char": 0,
+        "end_char": 22,
+        "excerpt": "O Hóspede Castro Alves Choro por ver que os dias passam breves E te esqueces de mim quando tu fores Como as brisas que passam doudas, leves, E não tornam atrás a ver as flores. TEÓFILO BRAGA",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "estrangeiro",
+        "sentence": "Onde vais estrangeiro!",
+        "start_char": 201,
+        "end_char": 212,
+        "excerpt": "Como as brisas que passam doudas, leves, E não tornam atrás a ver as flores. TEÓFILO BRAGA Onde vais estrangeiro!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Páli",
+        "sentence": "Pálido moço!",
+        "start_char": 377,
+        "end_char": 381,
+        "excerpt": "Por que transpor o píncaro dos montes, Quando podes achar o amor tão perto?... \" Pálido moço!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Pálido",
+                "child": "moço",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "pálido",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "moço",
+                "child": "Pálido",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "pálido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "do moço",
+        "sentence": "Pálido moço!",
+        "start_char": 381,
+        "end_char": 388,
+        "excerpt": "Por que transpor o píncaro dos montes, Quando podes achar o amor tão perto?... \" Pálido moço!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "estrangeiro",
+        "sentence": "\"Onde vais, estrangeiro?",
+        "start_char": 918,
+        "end_char": 929,
+        "excerpt": "Que eu derramei a lágrima primeira Quando enxuguei teu manto gotejante! \"Onde vais, estrangeiro?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Onde vais",
+                "child": ", estrangeiro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vais",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "estrangeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", estrangeiro",
+                "child": "Onde vais",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "estrangeiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vais",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esta",
+        "sentence": "Por que deixas Esta infeliz, misérrima cabana?",
+        "start_char": 946,
+        "end_char": 950,
+        "excerpt": "Quando enxuguei teu manto gotejante! \"Onde vais, estrangeiro? Por que deixas Esta infeliz, misérrima cabana?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as mulheres",
+        "sentence": "Que as mulheres de lá te apunhalaram.",
+        "start_char": 1251,
+        "end_char": 1262,
+        "excerpt": "... \" Pálido moço! Um dia tu chegaste De outros climas, de terras bem distantes... Era noite!... A tormenta além rugia... Nos abetos da serra a ventania Tinha gemidos longos, delirantes. \" Uma buzina restrugiu no vale Junto aos barrancos onde geme o rio... De teu cavalo o galopar soava, E teu cão ululando replicava Aos surdos roncos do trovão bravio. \" Entraste! A loura chama do brasido Lambia um velho cedro crepitante, Eras tão triste ao lume da fogueira... Que eu derramei a lágrima primeira Quando enxuguei teu manto gotejante! \"Onde vais, estrangeiro? Por que deixas Esta infeliz, misérrima cabana? Inda as aves te afagam do arvoredo... Se quiseres... as flores do silvedo Verás inda nas tranças da serrana. \"Queres voltar a este país maldito Onde a alegria e o riso te deixaram? Eu não sei tua história... mas que importa?... ... Bóia em teus olhos a esperança morta Que as mulheres de lá te apunhalaram.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "apunhalaram",
+                "child": "as mulheres",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "apunhalar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as mulheres",
+                "child": "Bóia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Bóia",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minhas aves amigas",
+        "sentence": "Minhas aves amigas te conhecem.",
+        "start_char": 1325,
+        "end_char": 1343,
+        "excerpt": "\"Não partas, não! Aqui todos te querem! Minhas aves amigas te conhecem.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "belo moço",
+        "sentence": "\"Onde vais, belo moço?",
+        "start_char": 1643,
+        "end_char": 1652,
+        "excerpt": "\" Pálido moço! Um dia tu chegaste De outros climas, de terras bem distantes... Era noite!... A tormenta além rugia... Nos abetos da serra a ventania Tinha gemidos longos, delirantes. \" Uma buzina restrugiu no vale Junto aos barrancos onde geme o rio... De teu cavalo o galopar soava, E teu cão ululando replicava Aos surdos roncos do trovão bravio. \" Entraste! A loura chama do brasido Lambia um velho cedro crepitante, Eras tão triste ao lume da fogueira... Que eu derramei a lágrima primeira Quando enxuguei teu manto gotejante! \"Onde vais, estrangeiro? Por que deixas Esta infeliz, misérrima cabana? Inda as aves te afagam do arvoredo... Se quiseres... as flores do silvedo Verás inda nas tranças da serrana. \"Queres voltar a este país maldito Onde a alegria e o riso te deixaram? Eu não sei tua história... mas que importa?... ... Bóia em teus olhos a esperança morta Que as mulheres de lá te apunhalaram. \"Não partas, não! Aqui todos te querem! Minhas aves amigas te conhecem. Quando à tardinha volves da colina Sem receio da longa carabina De lajedo em lajedo as corças descem! \" Teu cavalo nitrindo na savana Lambe as úmidas gramas em meus dedos, Quando a fanfarra tocas na montanha, A matilha dos ecos te acompanha Ladrando pela ponta dos penedos. \"Onde vais, belo moço?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vais",
+                "child": ", belo moço",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "val",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "irmão",
+        "sentence": "Se partires Quem será teu amigo, irmão e pajem?",
+        "start_char": 1687,
+        "end_char": 1692,
+        "excerpt": "Teu cavalo nitrindo na savana Lambe as úmidas gramas em meus dedos, Quando a fanfarra tocas na montanha, A matilha dos ecos te acompanha Ladrando pela ponta dos penedos. \"Onde vais, belo moço? Se partires Quem será teu amigo, irmão e pajem?",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amigo",
+                "child": "irmão",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "irmão",
+                "child": "amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "irmão",
+                "child": "partires",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "partir",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pajem",
+        "sentence": "Se partires Quem será teu amigo, irmão e pajem?",
+        "start_char": 1695,
+        "end_char": 1700,
+        "excerpt": "Teu cavalo nitrindo na savana Lambe as úmidas gramas em meus dedos, Quando a fanfarra tocas na montanha, A matilha dos ecos te acompanha Ladrando pela ponta dos penedos. \"Onde vais, belo moço? Se partires Quem será teu amigo, irmão e pajem?",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amigo",
+                "child": "pajem",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pajem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pajem",
+                "child": "amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pajem",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pajem",
+                "child": "partires",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pajem",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "partir",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "nho moço",
+        "sentence": "Estranho moço!",
+        "start_char": 2012,
+        "end_char": 2020,
+        "excerpt": "Que tenda mais sutil que meus cabelos Estrelados no pranto de teus olhos?... \" Estranho moço!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A esposa",
+        "sentence": "Acaso fulge ao sol de outros países, Por entre as balças de cheirosos lises, A esposa que tua alma assim procura?",
+        "start_char": 2159,
+        "end_char": 2167,
+        "excerpt": "Eu vejo em tua fronte Esta amargura atroz que não tem cura. Acaso fulge ao sol de outros países, Por entre as balças de cheirosos lises, A esposa que tua alma assim procura?",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "servos",
+        "sentence": "\"Talvez tenhas além servos e amantes, Um palácio em lugar de uma choupana, E aqui só tens uma guitarra e um beija, E o fogo ardente de ideal desejo Nos seios virgens da infeliz serrana!...",
+        "start_char": 2216,
+        "end_char": 2222,
+        "excerpt": "Esta amargura atroz que não tem cura. Acaso fulge ao sol de outros países, Por entre as balças de cheirosos lises, A esposa que tua alma assim procura? \"Talvez tenhas além servos e amantes, Um palácio em lugar de uma choupana, E aqui só tens uma guitarra e um beija, E o fogo ardente de ideal desejo Nos seios virgens da infeliz serrana!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Talvez tenhas além servos e amantes, Um palácio",
+                "child": "lugar",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "palácio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lugar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Talvez tenhas além servos e amantes, Um palácio",
+                "child": ", E aqui só tens",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "palácio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Talvez tenhas além servos e amantes, Um palácio",
+                "child": ", E o fogo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "palácio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fogo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lugar",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lugar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma choupana",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "choupana",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", E aqui só tens",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "tem",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma guitarra",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "guitarra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um beija",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "beija",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", E o fogo",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fogo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desejo",
+                "child": "Talvez tenhas além servos e amantes, Um palácio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desejo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "infeliz serrana",
+        "sentence": "\"Talvez tenhas além servos e amantes, Um palácio em lugar de uma choupana, E aqui só tens uma guitarra e um beija, E o fogo ardente de ideal desejo Nos seios virgens da infeliz serrana!...",
+        "start_char": 2365,
+        "end_char": 2380,
+        "excerpt": "Esta amargura atroz que não tem cura. Acaso fulge ao sol de outros países, Por entre as balças de cheirosos lises, A esposa que tua alma assim procura? \"Talvez tenhas além servos e amantes, Um palácio em lugar de uma choupana, E aqui só tens uma guitarra e um beija, E o fogo ardente de ideal desejo Nos seios virgens da infeliz serrana!...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu",
+        "sentence": "Seu volto ao longe Escondeu-se onde a vista não alcança... ...",
+        "start_char": 2414,
+        "end_char": 2417,
+        "excerpt": "No entanto Ele partiu! ... Seu volto ao longe Escondeu-se onde a vista não alcança... ...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Escondeu-se",
+                "child": "Seu volto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Escondeur se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Seu volto",
+                "child": "longe",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "volto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "longe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "longe",
+                "child": "Seu volto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "longe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o triste forasteiro",
+        "sentence": "Mas não penseis que o triste forasteiro Foi procurar nos lares do estrangeiro",
+        "start_char": 2497,
+        "end_char": 2516,
+        "excerpt": "... \" Pálido moço! Um dia tu chegaste De outros climas, de terras bem distantes... Era noite!... A tormenta além rugia... Nos abetos da serra a ventania Tinha gemidos longos, delirantes. \" Uma buzina restrugiu no vale Junto aos barrancos onde geme o rio... De teu cavalo o galopar soava, E teu cão ululando replicava Aos surdos roncos do trovão bravio. \" Entraste! A loura chama do brasido Lambia um velho cedro crepitante, Eras tão triste ao lume da fogueira... Que eu derramei a lágrima primeira Quando enxuguei teu manto gotejante! \"Onde vais, estrangeiro? Por que deixas Esta infeliz, misérrima cabana? Inda as aves te afagam do arvoredo... Se quiseres... as flores do silvedo Verás inda nas tranças da serrana. \"Queres voltar a este país maldito Onde a alegria e o riso te deixaram? Eu não sei tua história... mas que importa?... ... Bóia em teus olhos a esperança morta Que as mulheres de lá te apunhalaram. \"Não partas, não! Aqui todos te querem! Minhas aves amigas te conhecem. Quando à tardinha volves da colina Sem receio da longa carabina De lajedo em lajedo as corças descem! \" Teu cavalo nitrindo na savana Lambe as úmidas gramas em meus dedos, Quando a fanfarra tocas na montanha, A matilha dos ecos te acompanha Ladrando pela ponta dos penedos. \"Onde vais, belo moço? Se partires Quem será teu amigo, irmão e pajem? E quando a negra insônia te devora, Quem, na guitarra que suspira e chora, Há de cantar-te seu amor selvagem? \" A choça do desterro é nua e frial O caminho do exílio é só de abrolhosl Que família melhor que meus desvelos? ... Que tenda mais sutil que meus cabelos Estrelados no pranto de teus olhos?... \" Estranho moço! Eu vejo em tua fronte Esta amargura atroz que não tem cura. Acaso fulge ao sol de outros países, Por entre as balças de cheirosos lises, A esposa que tua alma assim procura? \"Talvez tenhas além servos e amantes, Um palácio em lugar de uma choupana, E aqui só tens uma guitarra e um beija, E o fogo ardente de ideal desejo Nos seios virgens da infeliz serrana!... \" No entanto Ele partiu! ... Seu volto ao longe Escondeu-se onde a vista não alcança... ... Mas não penseis que o triste forasteiro Foi procurar nos lares do estrangeiro",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O fantasma",
+        "sentence": "O fantasma sequer de uma esperança!",
+        "start_char": 2555,
+        "end_char": 2565,
+        "excerpt": "Seu volto ao longe Escondeu-se onde a vista não alcança... ... Mas não penseis que o triste forasteiro Foi procurar nos lares do estrangeiro O fantasma sequer de uma esperança!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O fantasma",
+                "child": "sequer de uma esperança",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fantasma",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sequer de uma esperança",
+                "child": "O fantasma",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "esperança",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fantasma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

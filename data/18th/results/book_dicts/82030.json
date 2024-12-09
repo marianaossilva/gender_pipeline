@@ -1,0 +1,49 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Frei Caneca",
+        "sentence": "A PÁTRIA Frei Caneca",
+        "start_char": 23,
+        "end_char": 34,
+        "excerpt": "PARA DEFENDER A PÁTRIA Frei Caneca Para defender a pátria",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Menino homem",
+        "sentence": "Menino homem se faz, Em dando a vida por ela;",
+        "start_char": 58,
+        "end_char": 70,
+        "excerpt": "A PÁTRIA Frei Caneca Para defender a pátria Menino homem se faz, Em dando a vida por ela;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a pátria",
+                "child": "Menino homem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pátria",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Menino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Menino homem",
+                "child": "a pátria",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Menino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pátria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

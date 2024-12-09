@@ -1,0 +1,366 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bernardo de Bonaval",
+        "sentence": "A dona que eu ame tenho por senhor Bernardo de Bonaval",
+        "start_char": 35,
+        "end_char": 54,
+        "excerpt": "A dona que eu ame tenho por senhor Bernardo de Bonaval A dona que eu ame tenho por senhor amostráde-mi-a Deus, se vos en prazer for, se non, dáde-mi a morte. A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A dona que eu ame tenho por senhor amostráde-mi-a Deus, se vos en prazer for, se non, dáde-mi a morte.",
+        "start_char": 105,
+        "end_char": 109,
+        "excerpt": "A dona que eu ame tenho por senhor Bernardo de Bonaval A dona que eu ame tenho por senhor amostráde-mi-a Deus, se vos en prazer for, se non, dáde-mi a morte. A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "senhor",
+                "child": "amostráde-mi-a Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "amostráde-mi-a",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "senhor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "A dona",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dona",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tenheu",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tenheu",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte.",
+        "start_char": 238,
+        "end_char": 242,
+        "excerpt": "A dona que eu ame tenho por senhor Bernardo de Bonaval A dona que eu ame tenho por senhor amostráde-mi-a Deus, se vos en prazer for, se non, dáde-mi a morte. A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "senhor",
+                "child": "amostráde-mi-a Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "amostráde-mi-a",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "senhor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "A dona",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dona",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tenheu",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tenheu",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Essa que vós fezestes melhor parecer de quantas sei, ai Deus!, fazéde-mi-a veer, se non, dáde-mi a morte.",
+        "start_char": 325,
+        "end_char": 329,
+        "excerpt": "A dona que eu ame tenho por senhor amostráde-mi-a Deus, se vos en prazer for, se non, dáde-mi a morte. A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte. Essa que vós fezestes melhor parecer de quantas sei, ai Deus!, fazéde-mi-a veer, se non, dáde-mi a morte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "senhor",
+                "child": "amostráde-mi-a Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "amostráde-mi-a",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "senhor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amostráde-mi-a Deus",
+                "child": "A dona",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "amostráde-mi-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dona",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tenheu",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tenheu",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ai",
+                "child": "Deus",
+                "dep_h": "case",
+                "pos_h": "PROPN",
+                "lemma_h": "ai",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "ai",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "case",
+                "pos_c": "PROPN",
+                "lemma_c": "ai",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, que mi-a fezestes mais ca min amar, mostráde-mi-a u possa con ela falar, se non, dáde-mi a morte.",
+        "start_char": 378,
+        "end_char": 382,
+        "excerpt": "A que tenheu por lume destes olhos meus e por que choran sempr, amostráde-mi-a, Deus, se non, dáde-mi a morte. Essa que vós fezestes melhor parecer de quantas sei, ai Deus!, fazéde-mi-a veer, se non, dáde-mi a morte. Ai Deus, que mi-a fezestes mais ca min amar, mostráde-mi-a u possa con ela falar, se non, dáde-mi a morte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tenheu",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tenheu",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ai",
+                "child": "Deus",
+                "dep_h": "case",
+                "pos_h": "PROPN",
+                "lemma_h": "ai",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "ai",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "case",
+                "pos_c": "PROPN",
+                "lemma_c": "ai",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

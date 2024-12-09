@@ -1,0 +1,171 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "JuritiCasimiro de Abreu",
+        "sentence": "JuritiCasimiro de Abreu",
+        "start_char": 0,
+        "end_char": 23,
+        "excerpt": "JuritiCasimiro de Abreu Na minha terra, no bulir do mato, A juriti suspira; E como o arrulo dos gentis amores, São os meus cantos de secretas dores",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A triste",
+        "sentence": "A triste geme nessa voz plangente",
+        "start_char": 258,
+        "end_char": 266,
+        "excerpt": "No chorar da lira. De tarde a pomba vem gemer sentida À beira do caminho;  Talvez perdida na floresta ingente A triste geme nessa voz plangente",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A triste geme nessa voz",
+                "child": "plangente",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "triste",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "plangente",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A juriti",
+        "sentence": "A juriti suspira sobre as folhas secas Seu canto de saudade;",
+        "start_char": 467,
+        "end_char": 475,
+        "excerpt": "Eu definho, chorando noite e dia Saudades do meu lar. A juriti suspira sobre as folhas secas Seu canto de saudade;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A juriti",
+                "child": "suspira",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "juriti",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "Suspira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A juriti",
+                "child": "as folhas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "juriti",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "folha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "suspira",
+                "child": "A juriti",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "Suspira",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "juriti",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as folhas",
+                "child": "A juriti",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "folha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "juriti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o caçador",
+        "sentence": "Depois... o caçador chega cantando.",
+        "start_char": 625,
+        "end_char": 634,
+        "excerpt": "A juriti suspira sobre as folhas secas Seu canto de saudade; Hino de angústia, férvido lamento, Um poema de amor e sentimento, Um grito dorfandade! Depois... o caçador chega cantando.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chega",
+                "child": "o caçador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caçador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o caçador",
+        "sentence": "E como o caçador, a morte em breve Levar-me-á consigo;",
+        "start_char": 771,
+        "end_char": 780,
+        "excerpt": "À pomba faz o tiro... A bala acerta e ela cai de bruços, E a voz lhe morre nos gentis soluços, No final suspiro. E como o caçador, a morte em breve Levar-me-á consigo;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Levar-me-á",
+                "child": "como o caçador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Levar-me-á",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "caçador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pomba",
+        "sentence": "E  morta  a pomba nunca mais suspira",
+        "start_char": 917,
+        "end_char": 924,
+        "excerpt": "E como o caçador, a morte em breve Levar-me-á consigo; E descuidado, no sorrir da vida, Irei sozinho, a voz desfalecida, Dormir no meu jazigo. E  morta  a pomba nunca mais suspira",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E  morta  a pomba nunca mais",
+                "child": "suspira",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pomba",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "suspiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

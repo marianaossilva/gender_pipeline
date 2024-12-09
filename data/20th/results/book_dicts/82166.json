@@ -1,0 +1,76 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Dizem que em cada coisa uma coisa oculta mora Alberto Caeiro Escrito em 5-6-1922.",
+        "start_char": 46,
+        "end_char": 60,
+        "excerpt": "Dizem que em cada coisa uma coisa oculta mora Alberto Caeiro Escrito em 5-6-1922. Dizem que em cada coisa uma coisa oculta mora. Sim, é ela própria, a coisa sem ser oculta, Que mora nela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "uma coisa",
+                "child": "Alberto Caeiro Escrito",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "coisa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "uma coisa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "coisa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "Dizem",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Dizem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A planta",
+        "sentence": "A planta vive sem saber.",
+        "start_char": 462,
+        "end_char": 470,
+        "excerpt": "Que coisa a mais ou a menos é que eu sou? O vento sopra sem saber. A planta vive sem saber.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vive",
+                "child": "A planta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "planto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

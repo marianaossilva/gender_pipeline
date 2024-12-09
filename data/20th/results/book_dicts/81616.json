@@ -1,0 +1,40 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "a Criatura",
+        "sentence": "É dor, que mortifica a Criatura;",
+        "start_char": 247,
+        "end_char": 257,
+        "excerpt": "É mal, que as forças tira de repente. É fogo, que consome ocultamente; É dor, que mortifica a Criatura;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mortifica",
+                "child": "a Criatura",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "mortificar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Criatura",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Criatura",
+                "child": "É dor",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Criatura",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Assí me trax coitado Dom Dinis Cancioneiro da Biblioteca Nacional 531, Cancioneiro da Vaticana 134",
+        "start_char": 21,
+        "end_char": 30,
+        "excerpt": "Assí me trax coitado Dom Dinis Cancioneiro da Biblioteca Nacional 531, Cancioneiro da Vaticana 134 Assí me trax coitado e aficad'Amore tan atormentado que, se Nostro Senhor a ma senhor non met'en cor que se de mi doia, da mor- t'haverei prazer e sabor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "me trax",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 531, Cancioneiro da Vaticana 134",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "trax",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 531, Cancioneiro da Vaticana 134",
+                "child": "me trax",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "trax",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nostro Senhor",
+        "sentence": "Assí me trax coitado e aficad'Amore tan atormentado que, se Nostro Senhor a ma senhor non met'en cor",
+        "start_char": 159,
+        "end_char": 172,
+        "excerpt": "Assí me trax coitado Dom Dinis Cancioneiro da Biblioteca Nacional 531, Cancioneiro da Vaticana 134 Assí me trax coitado e aficad'Amore tan atormentado que, se Nostro Senhor a ma senhor non met'en cor que se de mi doia, da mor- t'haverei prazer e sabor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", se Nostro Senhor a ma senhor",
+                "child": "trax",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Nostro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "trax",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,961 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "A M .",
+        "sentence": "A M.*** Tu, ontem, Na dança Que cansa, VoavasCo'as faces",
+        "start_char": 25,
+        "end_char": 30,
+        "excerpt": "A valsa Casimiro de Abreu A M.*** Tu, ontem, Na dança Que cansa, VoavasCo'as faces Em rosas FormosasDe vivo, LascivoCarmim;Na valsa",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "LascivoCarmim",
+        "sentence": "Em rosas FormosasDe vivo, LascivoCarmim;Na valsa",
+        "start_char": 109,
+        "end_char": 122,
+        "excerpt": "A valsa Casimiro de Abreu A M.*** Tu, ontem, Na dança Que cansa, VoavasCo'as faces Em rosas FormosasDe vivo, LascivoCarmim;Na valsa",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "FormosasDe",
+                "child": "LascivoCarmim;Na",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "formosasDe",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "LascivoCarmim;Na",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "LascivoCarmim;Na",
+                "child": "valsa",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "LascivoCarmim;Na",
+                "dep_c": "flat:name",
+                "pos_c": "NOUN",
+                "lemma_c": "valsar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "LascivoCarmim;Na",
+                "child": "FormosasDe",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "LascivoCarmim;Na",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "formosasDe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "valsa",
+                "child": "LascivoCarmim;Na",
+                "dep_h": "flat:name",
+                "pos_h": "NOUN",
+                "lemma_h": "valsar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "LascivoCarmim;Na",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Corr",
+        "sentence": "Tão falsa, Corrias,Fugias,Ardente,Contente,Tranqüila,Serena,Sem pena",
+        "start_char": 143,
+        "end_char": 147,
+        "excerpt": "A M.*** Tu, ontem, Na dança Que cansa, VoavasCo'as faces Em rosas FormosasDe vivo, LascivoCarmim;Na valsa Tão falsa, Corrias,Fugias,Ardente,Contente,Tranqüila,Serena,Sem pena",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "valsa",
+                "child": ", Corrias",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "valsar",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Corrias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Corrias",
+                "child": "valsa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Corrias",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "valsar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Corrias",
+                "child": "FormosasDe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Corrias",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "formosasDe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valsavas",
+        "sentence": "Valsavas:-",
+        "start_char": 325,
+        "end_char": 333,
+        "excerpt": "Eu vi! ... Valsavas:-",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tremia",
+        "sentence": "E os olhos EscurosTão puros, Os olhos PerjurosVolvias,Tremias,SorriasP'ra outro Não eu!",
+        "start_char": 473,
+        "end_char": 479,
+        "excerpt": "Teus belos Cabelos,Já soltos, Revoltos,Saltavam,Voavam,BrincavamNo colo Que é meu; E os olhos EscurosTão puros, Os olhos PerjurosVolvias,Tremias,SorriasP'ra outro Não eu!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "Cabelo",
+                    "Cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olhos",
+                "child": "Tremias",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tremias",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "os olhos",
+                        "child": "EscurosTão",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "EscurosTão"
+                    },
+                    {
+                        "head": "os olhos",
+                        "child": "puros",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "amod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "puro"
+                    },
+                    {
+                        "head": "EscurosTão",
+                        "child": "os olhos",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "EscurosTão",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "puros",
+                        "child": "os olhos",
+                        "dep_h": "amod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "puro",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "SorriasP'ra",
+                        "child": "olhos",
+                        "dep_h": "advcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "SorriasP'ra",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "PerjurosVolvias",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "PerjurosVolvias"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Tremias",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Tremias"
+                    },
+                    {
+                        "head": "PerjurosVolvias",
+                        "child": "olhos",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "PerjurosVolvias",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "Tremias",
+                        "child": "olhos",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Tremias",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            },
+            {
+                "head": "Tremias",
+                "child": "olhos",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tremias",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "os olhos",
+                        "child": "EscurosTão",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "EscurosTão"
+                    },
+                    {
+                        "head": "os olhos",
+                        "child": "puros",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "amod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "puro"
+                    },
+                    {
+                        "head": "EscurosTão",
+                        "child": "os olhos",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "EscurosTão",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "puros",
+                        "child": "os olhos",
+                        "dep_h": "amod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "puro",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "SorriasP'ra",
+                        "child": "olhos",
+                        "dep_h": "advcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "SorriasP'ra",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "PerjurosVolvias",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "PerjurosVolvias"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Tremias",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Tremias"
+                    },
+                    {
+                        "head": "PerjurosVolvias",
+                        "child": "olhos",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "PerjurosVolvias",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "Tremias",
+                        "child": "olhos",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Tremias",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus!",
+        "start_char": 632,
+        "end_char": 636,
+        "excerpt": "- Não negues, Não mintas... - Eu vi!... Meu Deus!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Donzela",
+        "sentence": "Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho",
+        "start_char": 648,
+        "end_char": 655,
+        "excerpt": "Meu Deus! Eras bela Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Donzela",
+                "child": "bela",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "Donzela",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Val",
+        "sentence": "Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho",
+        "start_char": 656,
+        "end_char": 659,
+        "excerpt": "Meu Deus! Eras bela Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Valsando",
+                "child": "Fugindo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "valsar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Fugindo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Formosa",
+        "sentence": "De rosa, Formosa,Tu davas, MandavasA quem?!",
+        "start_char": 778,
+        "end_char": 785,
+        "excerpt": "Que tinhas Nos lábios De rosa, Formosa,Tu davas, MandavasA quem?!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rosa",
+                "child": ", Formosa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Formosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Formosa",
+                "child": "rosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Formosa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Formosa",
+                "child": "lábios",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Formosa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lábio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Que tinhas",
+                        "child": "lábios",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "tinha",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "rosa",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Rosa"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Tu davas,",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Tu"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Que tinhas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "tinha"
+                    },
+                    {
+                        "head": "rosa",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Rosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": ", Formosa",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Formosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "Tu davas,",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Tu",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    }
+                ]
+            },
+            {
+                "head": ", Formosa",
+                "child": "Que tinhas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Formosa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tu dava",
+        "sentence": "De rosa, Formosa,Tu davas, MandavasA quem?!",
+        "start_char": 786,
+        "end_char": 793,
+        "excerpt": "Que tinhas Nos lábios De rosa, Formosa,Tu davas, MandavasA quem?!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lábios",
+                "child": "Tu davas,",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lábio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Que tinhas",
+                        "child": "lábios",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "tinha",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "rosa",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Rosa"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Tu davas,",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Tu"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Que tinhas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "tinha"
+                    },
+                    {
+                        "head": "rosa",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Rosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": ", Formosa",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Formosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "Tu davas,",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Tu",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    }
+                ]
+            },
+            {
+                "head": "Tu davas,",
+                "child": "lábios",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tu",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lábio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Que tinhas",
+                        "child": "lábios",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "tinha",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "rosa",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Rosa"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Tu davas,",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Tu"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "Que tinhas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "tinha"
+                    },
+                    {
+                        "head": "rosa",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Rosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": ", Formosa",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Formosa",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "Tu davas,",
+                        "child": "lábios",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Tu",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    }
+                ]
+            },
+            {
+                "head": "Tu davas,",
+                "child": "Que tinhas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tu",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mesquinho",
+        "sentence": "Calado,Sozinho, Mesquinho,Em zelos",
+        "start_char": 950,
+        "end_char": 959,
+        "excerpt": "- Não negues, Não mintas... - Eu vi!... Meu Deus! Eras bela Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho Nos vem! Mas esse SorrisoTão liso Que tinhas Nos lábios De rosa, Formosa,Tu davas, MandavasA quem?! Quem dera Que sintas As dores De amores Que louco Senti!Quem dera Que sintas!... - Não negues, Não mintas... - Eu vi!... Calado,Sozinho, Mesquinho,Em zelos",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "Sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Calado",
+                "child": "Mesquinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Calado",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mesquinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cismavas",
+        "sentence": "Na valsa Cansaste;FicasteProstrada,Turbada!Pensavas,Cismavas,E estavas Tão pálida Então;Qual pálida",
+        "start_char": 1291,
+        "end_char": 1299,
+        "excerpt": "- Não negues, Não mintas... - Eu vi!... Meu Deus! Eras bela Donzela,Valsando,Sorrindo,Fugindo,Qual silfo RisonhoQue em sonho Nos vem! Mas esse SorrisoTão liso Que tinhas Nos lábios De rosa, Formosa,Tu davas, MandavasA quem?! Quem dera Que sintas As dores De amores Que louco Senti!Quem dera Que sintas!... - Não negues, Não mintas... - Eu vi!... Calado,Sozinho, Mesquinho,Em zelos Ardendo,Eu vi-te CorrendoTão falsa Na valsa Veloz!Eu triste Vi tudo! Mas mudo Não tive Nas galas Das salas, Nem falas, Nem cantos, Nem prantos Nem voz! Quem dera Que sintas As dores De amores Que louco Senti!Quem dera Que sintas! - Não negues, Não mintas... - Eu vi!... Na valsa Cansaste;FicasteProstrada,Turbada!Pensavas,Cismavas,E estavas Tão pálida Então;Qual pálida",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "Sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "valsa",
+                "child": ",Cismavas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "valsa",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cismavas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ",Cismavas",
+                "child": "valsa",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cismavas",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "valsa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,251 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Auta de Souza",
+        "start_char": 16,
+        "end_char": 29,
+        "excerpt": "Versos ligeiros Auta de Souza Eu acho tão feiticeira",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Noemita",
+        "sentence": "A Noemita da esquina, Com o seu recato de freira, Muito morena e franzina; Que fico toda encantada Quando na Igreja a contemplo, Pois cuido ver uma fada Ajoelhada no Templo.",
+        "start_char": 53,
+        "end_char": 62,
+        "excerpt": "Auta de Souza Eu acho tão feiticeira A Noemita da esquina, Com o seu recato de freira, Muito morena e franzina; Que fico toda encantada Quando na Igreja a contemplo, Pois cuido ver uma fada Ajoelhada no Templo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A Noemita",
+                "child": "esquina",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Noemita",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "esquina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A Noemita",
+                "child": "o seu recato",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Noemita",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "recato",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A Noemita",
+                "child": "morena",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Noemita",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "morena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esquina",
+                "child": "A Noemita",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "esquina",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Noemita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seu recato",
+                "child": "A Noemita",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "recato",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Noemita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "freira",
+                "child": "A Noemita",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Freira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Noemita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Doce nuvem cor de rosa Parece que a Deus se eleva.",
+        "start_char": 263,
+        "end_char": 267,
+        "excerpt": "Eu acho tão feiticeira A Noemita da esquina, Com o seu recato de freira, Muito morena e franzina; Que fico toda encantada Quando na Igreja a contemplo, Pois cuido ver uma fada Ajoelhada no Templo. Doce nuvem cor de rosa Parece que a Deus se eleva.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "eleva",
+                "child": "a Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "eleva",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "A trança de seu cabelo, (Como ela é negra, Jesus!) Semelha um lindo novelo",
+        "start_char": 464,
+        "end_char": 469,
+        "excerpt": "Daquela boca mimosa, Daquele olhar cor de treva. É sua prece que voa, Indefinida e tão mansa, Como um hino que ressoa, Como uma voz de criança A trança de seu cabelo, (Como ela é negra, Jesus!) Semelha um lindo novelo",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Jesus",
+                "child": "negra",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "negro",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus",
+                "child": "A trança",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "trança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minhalma",
+        "sentence": "Minhalma nunca se cansa De vê-la assim, tão divina, Sempre formosa e criança Com seu perfil de menina.",
+        "start_char": 623,
+        "end_char": 631,
+        "excerpt": "É um favo de mel de abelha Aquela boca sorrindo! Minhalma nunca se cansa De vê-la assim, tão divina, Sempre formosa e criança Com seu perfil de menina.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cansa",
+                "child": "Minhalma",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cansar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Minhalma",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus!",
+        "start_char": 878,
+        "end_char": 882,
+        "excerpt": "Às vezes, eu olho-a tanto, Com tanta veneração, Que fico muda de espanto, Depois da contemplação. É verdade que não faz Mal nenhum fitá-la assim... Meu Deus!",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

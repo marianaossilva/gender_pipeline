@@ -1,0 +1,61 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Quem me dera que eu fosse o pó da estrada Alberto Caeiro",
+        "start_char": 42,
+        "end_char": 56,
+        "excerpt": "Quem me dera que eu fosse o pó da estrada Alberto Caeiro Quem me dera que eu fosse o pó da estrada E que os pés dos pobres me estivessem pisando... Quem me dera que eu fosse os rios que correm E que as lavadeiras estivessem à minha beira...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "estrada",
+                "child": "Alberto Caeiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "estrada",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "estrada",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "estrada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "pó",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "pó",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,303 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "DoresCasimiro de Abreu",
+        "sentence": "DoresCasimiro de Abreu Há dores fundas, agonias lentas, Dramas pungentes que ninguém consola, Ou suspeita sequer!",
+        "start_char": 0,
+        "end_char": 22,
+        "excerpt": "DoresCasimiro de Abreu Há dores fundas, agonias lentas, Dramas pungentes que ninguém consola, Ou suspeita sequer! Mágoas maiores do que a dor dum dia, Do que a morte bebida em taça morna De lábios de mulher!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o vento",
+        "sentence": "Doces falas de amor que o vento espalha.",
+        "start_char": 232,
+        "end_char": 239,
+        "excerpt": "Mágoas maiores do que a dor dum dia, Do que a morte bebida em taça morna De lábios de mulher! Doces falas de amor que o vento espalha.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o vento",
+                "child": "espalha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "espalhar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o vento",
+                "child": "amor",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o vento",
+                "child": "falas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fala",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o vento",
+                "child": "Doces",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Doces",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Perfídia",
+        "sentence": "Perfídia e olvido de passados beijos...",
+        "start_char": 306,
+        "end_char": 314,
+        "excerpt": "Doces falas de amor que o vento espalha. Juras sentidas de constância eterna Quebradas ao nascer; Perfídia e olvido de passados beijos...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Perfídia",
+                "child": "beijos",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "perfídia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "beijo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "beijos",
+                "child": "Perfídia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "beijo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "perfídia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a donzela infiel",
+        "sentence": "Se a donzela infiel nos rasga as folhas Do livro d'alma, magoado e triste Suspira o coração;",
+        "start_char": 407,
+        "end_char": 423,
+        "excerpt": "Perfídia e olvido de passados beijos... São dores essas que o tempo cicatriza Dos anos no volver. Se a donzela infiel nos rasga as folhas Do livro d'alma, magoado e triste Suspira o coração;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "É ver que nos arrancam uma a uma Das asas do talento as penas de ouro, Que voam para Deus!",
+        "start_char": 1251,
+        "end_char": 1255,
+        "excerpt": "A dúvida a sorrir! É a perda dura dum futuro inteiro E o desfolhar sentido das sentis coroas, Dos sonhos do porvir! É ver que nos arrancam uma a uma Das asas do talento as penas de ouro, Que voam para Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voam",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "voar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frinés",
+        "sentence": "Frinés!",
+        "start_char": 2473,
+        "end_char": 2479,
+        "excerpt": "Ergue-se a taça do festim da orgia, Gasta-se a vida em noites de luxúria No leito dos bordéis, E o veneno se sorve a longos tragos Nos seios brancos e nos lábios frios Das lânguidas Frinés!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lânguidas",
+                "child": "Frinés",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "lânguida",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Frinés",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Frinés",
+                "child": "lânguidas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frinés",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "lânguida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Margôs",
+        "sentence": "A dor se afoga no fervor dos vinhos, E no regaço das Margôs modernas É doce então morrer!",
+        "start_char": 2632,
+        "end_char": 2638,
+        "excerpt": "- mortalha para as dores - Aqui na terra é a embriaguez do gozo, A febre do prazer: A dor se afoga no fervor dos vinhos, E no regaço das Margôs modernas É doce então morrer!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "regaço",
+                "child": "Margôs",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "regaço",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Margôs",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Margôs",
+                "child": "modernas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Margôs",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "moderno",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Margôs",
+                "child": "regaço",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Margôs",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "regaço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Margôs",
+                "child": "doce",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Margôs",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

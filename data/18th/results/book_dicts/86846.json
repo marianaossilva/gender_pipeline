@@ -1,0 +1,660 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "o tufão",
+        "sentence": "bate?-\"É rijo o tufão!",
+        "start_char": 207,
+        "end_char": 214,
+        "excerpt": "\" A noite é sombrio! \" Quem bate?-\"É rijo o tufão!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rijo",
+                "child": "o tufão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rijar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "tufão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mendigo",
+        "sentence": "Mendigo!",
+        "start_char": 415,
+        "end_char": 422,
+        "excerpt": "Necessidade é o meu nome! \" Mendigo!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "c ' roa imperial",
+        "sentence": "Pela c'roa imperial.",
+        "start_char": 595,
+        "end_char": 611,
+        "excerpt": "Nas cãs deste velho Verás fanados lauréis Há no meu crânio enrugado O fundo sulco traçado Pela c'roa imperial.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "manto",
+        "sentence": "Meus trapos  manto real!",
+        "start_char": 684,
+        "end_char": 689,
+        "excerpt": "Pela c'roa imperial. Foragido, errante espectro, Meu cajado  já foi cetro! Meus trapos  manto real!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meus trapos",
+                "child": "manto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "trapo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "manto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "manto",
+                "child": "real",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "manto",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "real",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "manto",
+                "child": "Meus trapos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "manto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "trapo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "\"  Senhor, minha casa é pobre...",
+        "start_char": 699,
+        "end_char": 705,
+        "excerpt": "Foragido, errante espectro, Meu cajado  já foi cetro! Meus trapos  manto real! \"  Senhor, minha casa é pobre...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "\"",
+                "child": "Senhor",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "\"",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "pobre",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "pobre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Rei - fantasma",
+        "sentence": "O Rei-fantasma Baniram do próprio lar.",
+        "start_char": 768,
+        "end_char": 784,
+        "excerpt": "Ide bater a um solar!  \" De lá venho... O Rei-fantasma Baniram do próprio lar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Rei",
+        "sentence": "O Rei coberto de cãs!",
+        "start_char": 941,
+        "end_char": 946,
+        "excerpt": "Festa' Festa! E ninguém via O Rei coberto de cãs!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Rei",
+                "child": "coberto",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "coberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Rei",
+                "child": "cãs",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cãs",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cãs",
+                "child": "O Rei",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cãs",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Rei",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fantasmas",
+        "sentence": "\"  Fantasmas!",
+        "start_char": 966,
+        "end_char": 975,
+        "excerpt": "E ninguém via O Rei coberto de cãs! \"  Fantasmas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Átila",
+        "sentence": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "start_char": 1166,
+        "end_char": 1171,
+        "excerpt": "O séc'lo-traça que medra Nos livros feitos de pedra Rói o mármore, cruel. O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pata",
+                "child": ", Átila",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "patar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Átila",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Átila",
+                "child": "terrível",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Átila",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "terrível",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Átila",
+                "child": "Quebra",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Átila",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Quebra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Quebra",
+                "child": ", Átila",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Quebra",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Átila",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sarcófago",
+        "sentence": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "start_char": 1208,
+        "end_char": 1217,
+        "excerpt": "O séc'lo-traça que medra Nos livros feitos de pedra Rói o mármore, cruel. O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sarcófago",
+                "child": "capitel",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Sarcófago",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "capitel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "capitel",
+                "child": "Sarcófago",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "capitel",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Sarcófago",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "capitel",
+        "sentence": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "start_char": 1220,
+        "end_char": 1227,
+        "excerpt": "O séc'lo-traça que medra Nos livros feitos de pedra Rói o mármore, cruel. O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sarcófago",
+                "child": "capitel",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Sarcófago",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "capitel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "capitel",
+                "child": "Sarcófago",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "capitel",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Sarcófago",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "start_char": 1273,
+        "end_char": 1279,
+        "excerpt": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel. \" Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Quer",
+                "child": "seja Homero",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "Querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seja Homero",
+                "child": "Sólon",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sólon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sólon",
+                "child": "seja Homero",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sólon",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sólon",
+        "sentence": "Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "start_char": 1283,
+        "end_char": 1288,
+        "excerpt": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel. \" Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seja Homero",
+                "child": "Sólon",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sólon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sólon",
+                "child": "seja Homero",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sólon",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Panteon",
+        "sentence": "Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "start_char": 1330,
+        "end_char": 1337,
+        "excerpt": "O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel. \" Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "bater",
+                "child": "Panteon",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Panteon",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "O motim  Nero profano",
+        "start_char": 1350,
+        "end_char": 1354,
+        "excerpt": "\" A noite é sombrio! \" Quem bate?-\"É rijo o tufão! ... Não ouvis? a ventania Ladra à lua como um cão. \" Quem bate?-\"O nome qu'importa? Chamo-me dor... abre a porta! Chamo-me frio... abre o lar! Dá-me pão... chamo-me fome! Necessidade é o meu nome! \" Mendigo! podes passar! \"Mulher, se eu falar, prometes A porta abrir-me?\"-Talvez . \"Olha... Nas cãs deste velho Verás fanados lauréis Há no meu crânio enrugado O fundo sulco traçado Pela c'roa imperial. Foragido, errante espectro, Meu cajado  já foi cetro! Meus trapos  manto real! \"  Senhor, minha casa é pobre... Ide bater a um solar!  \" De lá venho... O Rei-fantasma Baniram do próprio lar. Nas largas escadarias, Nas vetustas galerias, Os pajens e as cortesãs Cantavam! ... Reinava a orgia! ... Festa' Festa! E ninguém via O Rei coberto de cãs! \"  Fantasmas! Aos grandes, que tombam, É palácio o mausoléu!  \"Silêncio! De longe eu venho... Também meu túmulo morreu. O séc'lo-traça que medra Nos livros feitos de pedra Rói o mármore, cruel. O tempo, Átila terrível Quebra cota pata invisível Sarcófago e capitel. \" Desgraça então para o espectro, Quer seja Homero ou Sólon, Se, medindo a treva imensa Vai bater ao Panteon... O motim  Nero profano",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O motim",
+                "child": "Nero",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "motim",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "nero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nero",
+                "child": "O motim",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "nero",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "motim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o morto",
+        "sentence": "Se abismam mesmo os abismos E o morto morre outra vez!",
+        "start_char": 1469,
+        "end_char": 1476,
+        "excerpt": "No ventre da cova insano Mergulha os dedos cruéis. Da guerra nos paroxismos Se abismam mesmo os abismos E o morto morre outra vez!",
+        "gender": "male",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "ventre"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morre",
+                "child": "o morto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "morto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "S '",
+        "sentence": "'Então, nas sombras infindas, S'esbarram em confusão",
+        "start_char": 1493,
+        "end_char": 1496,
+        "excerpt": "Da guerra nos paroxismos Se abismam mesmo os abismos E o morto morre outra vez! 'Então, nas sombras infindas, S'esbarram em confusão",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os fantasmas",
+        "sentence": "Os fantasmas sem abrigo Nem no espaço, nem no chão...",
+        "start_char": 1547,
+        "end_char": 1559,
+        "excerpt": "Se abismam mesmo os abismos E o morto morre outra vez! 'Então, nas sombras infindas, S'esbarram em confusão Os fantasmas sem abrigo Nem no espaço, nem no chão...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os fantasmas",
+                "child": "abrigo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fantasma",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "abrigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "abrigo",
+                "child": "Os fantasmas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "abrigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fantasma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As almas angusti",
+        "sentence": "As almas angustiadas, Como águias desaninhadas, Gemendo voam no ar.",
+        "start_char": 1601,
+        "end_char": 1617,
+        "excerpt": "'Então, nas sombras infindas, S'esbarram em confusão Os fantasmas sem abrigo Nem no espaço, nem no chão... As almas angustiadas, Como águias desaninhadas, Gemendo voam no ar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aos reis",
+        "sentence": "Aos reis que perdidos vão.",
+        "start_char": 1912,
+        "end_char": 1920,
+        "excerpt": "Sombra exilada, Entra! O verso é uma pousada Aos reis que perdidos vão.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Último trono",
+        "sentence": "A estrofe: é a púrpura extrema, Último trono: é o poema!",
+        "start_char": 1971,
+        "end_char": 1983,
+        "excerpt": "O verso é uma pousada Aos reis que perdidos vão. A estrofe: é a púrpura extrema, Último trono: é o poema!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,294 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "TiranaCastro Alves",
+        "sentence": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há;",
+        "start_char": 0,
+        "end_char": 18,
+        "excerpt": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há; O beija-flor quando passa Julga ver o manacá. \"Minha Maria é morena, Como as tardes de verão;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há;",
+        "start_char": 26,
+        "end_char": 31,
+        "excerpt": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há; O beija-flor quando passa Julga ver o manacá. \"Minha Maria é morena, Como as tardes de verão;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Minha Maria",
+                "child": "bonita",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bonito",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minha Maria",
+                "child": "morena",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "morena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O beija - flor",
+        "sentence": "O beija-flor quando passa Julga ver o manacá.",
+        "start_char": 66,
+        "end_char": 80,
+        "excerpt": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há; O beija-flor quando passa Julga ver o manacá. \"Minha Maria é morena, Como as tardes de verão;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o manacá",
+        "sentence": "O beija-flor quando passa Julga ver o manacá.",
+        "start_char": 103,
+        "end_char": 111,
+        "excerpt": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há; O beija-flor quando passa Julga ver o manacá. \"Minha Maria é morena, Como as tardes de verão;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "o manacá",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "manacá",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "\"Minha Maria é morena, Como as tardes de verão;",
+        "start_char": 120,
+        "end_char": 125,
+        "excerpt": "TiranaCastro Alves \"Minha Maria é bonita, Tão bonita assim não há; O beija-flor quando passa Julga ver o manacá. \"Minha Maria é morena, Como as tardes de verão;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Minha Maria",
+                "child": "bonita",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bonito",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minha Maria",
+                "child": "morena",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "morena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Companheiros",
+        "sentence": "Companheiros!",
+        "start_char": 214,
+        "end_char": 226,
+        "excerpt": "Tem as tranças da palmeira Quando sopra a viração. \" Companheiros!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um passarinho",
+        "sentence": "Hoje tem um passarinho P'ra cantar o seu amor.",
+        "start_char": 274,
+        "end_char": 287,
+        "excerpt": "Companheiros! o meu peito Era um ninho sem senhor; Hoje tem um passarinho P'ra cantar o seu amor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "um passarinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "passarinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Trovadores da floresta",
+        "sentence": "\"Trovadores da floresta!",
+        "start_char": 313,
+        "end_char": 335,
+        "excerpt": "o meu peito Era um ninho sem senhor; Hoje tem um passarinho P'ra cantar o seu amor. \"Trovadores da floresta!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Que Maria é a baunilha Que me prende o coração.",
+        "start_char": 370,
+        "end_char": 375,
+        "excerpt": "\"Trovadores da floresta! Não digam a ninguém, não!... Que Maria é a baunilha Que me prende o coração.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Maria",
+                "child": "baunilha",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "baunilha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "baunilha",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "baunilha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "\"Quando eu morrer só me enterrem Junto às palmeiras do val, Para eu pensar que é Maria Que geme no taquaral...",
+        "start_char": 495,
+        "end_char": 500,
+        "excerpt": "Não digam a ninguém, não!... Que Maria é a baunilha Que me prende o coração. \"Quando eu morrer só me enterrem Junto às palmeiras do val, Para eu pensar que é Maria Que geme no taquaral...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Maria",
+                "child": "baunilha",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "baunilha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "baunilha",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "baunilha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensar",
+                "child": "Maria",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,173 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "JuramentoCasimiro de Abreu",
+        "sentence": "JuramentoCasimiro de Abreu Tu dizes oh",
+        "start_char": 0,
+        "end_char": 26,
+        "excerpt": "JuramentoCasimiro de Abreu Tu dizes oh Mariquinhas Que não crês nas juras minhas, Que nunca cumpridas são! Mas se eu não te jurei nada, Como hás de tu, estouvada, Saber se eu as cumpro ou não?!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariquinhas",
+        "sentence": "Mariquinhas Que não crês nas juras minhas, Que nunca cumpridas são!",
+        "start_char": 39,
+        "end_char": 50,
+        "excerpt": "JuramentoCasimiro de Abreu Tu dizes oh Mariquinhas Que não crês nas juras minhas, Que nunca cumpridas são! Mas se eu não te jurei nada, Como hás de tu, estouvada, Saber se eu as cumpro ou não?!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizes",
+                "child": "Mariquinhas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "diz",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariquinhas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mariquinhas",
+                "child": "dizes",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariquinhas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "diz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Tu dizes que eu sempre minto, Que protesto o que não sinto, Que todo o poeta é vário, Que é borboleta inconstante;",
+        "start_char": 263,
+        "end_char": 270,
+        "excerpt": "Mariquinhas Que não crês nas juras minhas, Que nunca cumpridas são! Mas se eu não te jurei nada, Como hás de tu, estouvada, Saber se eu as cumpro ou não?! Tu dizes que eu sempre minto, Que protesto o que não sinto, Que todo o poeta é vário, Que é borboleta inconstante;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "todo o poeta",
+                "child": "vário",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "vário",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha inocente",
+        "sentence": "\"Eu juro, minha inocente, \"Embalar-te docemente \"",
+        "start_char": 772,
+        "end_char": 786,
+        "excerpt": "E pelas chamas que lanças \" Desses teus olhos divinos; \"Eu juro, minha inocente, \"Embalar-te docemente \"",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Pelo sol que brilha agora, \"- Eu juro dar-te, Maria, \"Quarenta beijos por dia \"E dez abraços por hora!",
+        "start_char": 1116,
+        "end_char": 1121,
+        "excerpt": "Pelos lírios, pelas rosas, \" Pelas estrelas formosas, \" Pelo sol que brilha agora, \"- Eu juro dar-te, Maria, \"Quarenta beijos por dia \"E dez abraços por hora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dar-te",
+                "child": ", Maria",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "dar-te",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Maria",
+                "child": "dar-te",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "dar-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moreninha",
+        "sentence": "moreninha, Tu verás se o cumpro ou não!",
+        "start_char": 1287,
+        "end_char": 1296,
+        "excerpt": "O juramento está feito, Foi dito co'a mão no peito Apontando ao coração; E agora - por vida minha, Tu verás oh! moreninha, Tu verás se o cumpro ou não!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

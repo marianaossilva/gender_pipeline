@@ -1,0 +1,68 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "O luar através dos altos ramos Alberto Caeiro",
+        "start_char": 31,
+        "end_char": 45,
+        "excerpt": "O luar através dos altos ramos Alberto Caeiro O luar através dos altos ramos, Dizem os poetas todos que ele é mais Que o luar através dos altos ramos. Mas para mim, que não sei o que penso, O que o luar através dos altos ramos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "altos",
+                "child": "Alberto Caeiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "altos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alto",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os poetas",
+        "sentence": "O luar através dos altos ramos, Dizem os poetas todos que ele é mais Que o luar através dos altos ramos.",
+        "start_char": 84,
+        "end_char": 93,
+        "excerpt": "O luar através dos altos ramos Alberto Caeiro O luar através dos altos ramos, Dizem os poetas todos que ele é mais Que o luar através dos altos ramos. Mas para mim, que não sei o que penso, O que o luar através dos altos ramos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dizem",
+                "child": "os poetas",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "Dizem",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

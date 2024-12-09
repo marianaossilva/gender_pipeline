@@ -1,0 +1,115 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "a virgem",
+        "sentence": "Cansada a terra adormeceu sorrindo Bem como a virgem no cair da sesta!",
+        "start_char": 730,
+        "end_char": 738,
+        "excerpt": "Que céu tão puro! que silêncio augusto! Que aromas doces! que natura esta! Cansada a terra adormeceu sorrindo Bem como a virgem no cair da sesta!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorrindo",
+                "child": "Bem como a virgem",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sesta",
+                "child": "Bem como a virgem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sesta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha do sertão",
+        "sentence": "filha do sertão!",
+        "start_char": 942,
+        "end_char": 957,
+        "excerpt": "Tu dormirás ao som dos meus cantares Oh! filha do sertão!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O moço triste",
+        "sentence": "O moço triste, o sonhador mancebo Desfolha rosas no teu casto leito.  - 1858.",
+        "start_char": 978,
+        "end_char": 991,
+        "excerpt": "filha do sertão! sobre o meu peito. O moço triste, o sonhador mancebo Desfolha rosas no teu casto leito.  - 1858.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sonhador mancebo",
+        "sentence": "O moço triste, o sonhador mancebo Desfolha rosas no teu casto leito.  - 1858.",
+        "start_char": 993,
+        "end_char": 1011,
+        "excerpt": "filha do sertão! sobre o meu peito. O moço triste, o sonhador mancebo Desfolha rosas no teu casto leito.  - 1858.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

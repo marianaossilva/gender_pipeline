@@ -1,0 +1,2913 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "CHICO Artur Azevedo",
+        "start_char": 6,
+        "end_char": 19,
+        "excerpt": "CHICO Artur Azevedo Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde. - Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde.",
+        "start_char": 29,
+        "end_char": 34,
+        "excerpt": "CHICO Artur Azevedo Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde. - Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Um dia",
+                "child": "o Chico",
+                "dep_h": "nsubj:pass",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "Um dia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde.",
+        "start_char": 19,
+        "end_char": 31,
+        "excerpt": "CHICO Artur Azevedo Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde. - Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu rapaz",
+        "sentence": "- Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto.",
+        "start_char": 222,
+        "end_char": 231,
+        "excerpt": "CHICO Artur Azevedo Um dia o Chico, moço muito serviçal, muito amigo do seu amigo, foi chamado à casa do Dr. Miranda, que o conhecia desde pequeno, e abusava sempre do seu caráter obsequioso e humilde. - Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Mandei-te",
+                "child": ", meu rapaz",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Mandei-te",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu rapaz",
+                "child": "- Mandei-te",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "rapaz",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Mandei-te",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "- Conheces a Maricota, minha irmã.",
+        "start_char": 346,
+        "end_char": 354,
+        "excerpt": "- Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto. - Estou às suas ordens. - Conheces a Maricota, minha irmã.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "- Conheces a Maricota, minha irmã.",
+        "start_char": 356,
+        "end_char": 366,
+        "excerpt": "- Mandei-te chamar, meu rapaz, para te incumbir de uma comissão que só tu poderás desempenhar a meu gosto. - Estou às suas ordens. - Conheces a Maricota, minha irmã.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os quarenta",
+        "sentence": "É uma tola que, em rapariga, enjeitou bons casamentos, sempre à espera de um príncipe, como nos contos de fadas, e agora, que vai caminhando a passos agigantados para os quarenta, embeiçou- se por um tipo que costuma passar cá por casa e nem ela, nem eu, sabemos quem é.",
+        "start_char": 535,
+        "end_char": 546,
+        "excerpt": "- Estou às suas ordens. - Conheces a Maricota, minha irmã. É uma tola que, em rapariga, enjeitou bons casamentos, sempre à espera de um príncipe, como nos contos de fadas, e agora, que vai caminhando a passos agigantados para os quarenta, embeiçou- se por um tipo que costuma passar cá por casa e nem ela, nem eu, sabemos quem é.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "- Alexandrino Pimentel.",
+        "start_char": 660,
+        "end_char": 680,
+        "excerpt": "É uma tola que, em rapariga, enjeitou bons casamentos, sempre à espera de um príncipe, como nos contos de fadas, e agora, que vai caminhando a passos agigantados para os quarenta, embeiçou- se por um tipo que costuma passar cá por casa e nem ela, nem eu, sabemos quem é. - Ele chama-se...? - Alexandrino Pimentel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "É o nome com que assinou a carta, assaz lacônica, em que declarou à Maricota que a amava e desejava ser seu esposo.",
+        "start_char": 750,
+        "end_char": 758,
+        "excerpt": "- Ele chama-se...? - Alexandrino Pimentel. É o nome com que assinou a carta, assaz lacônica, em que declarou à Maricota que a amava e desejava ser seu esposo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "Maricota",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maricota",
+                "child": "É o nome",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Maricota",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "desse indivíduo",
+        "sentence": "Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo.",
+        "start_char": 978,
+        "end_char": 993,
+        "excerpt": "É o nome com que assinou a carta, assaz lacônica, em que declarou à Maricota que a amava e desejava ser seu esposo. Já me disseram - e é tudo quanto sei a seu respeito - que esteve empregado na estrada de ferro, onde não esquentou lugar. Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "O Chico dissimulou uma careta.",
+        "start_char": 1069,
+        "end_char": 1074,
+        "excerpt": "Já me disseram - e é tudo quanto sei a seu respeito - que esteve empregado na estrada de ferro, onde não esquentou lugar. Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dissimulou",
+                "child": "O Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dissimular",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha irmã",
+        "sentence": "- Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "start_char": 1100,
+        "end_char": 1110,
+        "excerpt": "Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta. - Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "- Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "start_char": 1097,
+        "end_char": 1109,
+        "excerpt": "Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta. - Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "- Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "start_char": 1159,
+        "end_char": 1169,
+        "excerpt": "Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta. - Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": ", mas é minha irmã",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "- Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado.",
+        "start_char": 1397,
+        "end_char": 1417,
+        "excerpt": "- Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas? - Certamente. - Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu cunhado",
+        "sentence": "- Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado.",
+        "start_char": 1432,
+        "end_char": 1443,
+        "excerpt": "- Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas? - Certamente. - Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora de 37 anos",
+        "sentence": "Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana.",
+        "start_char": 1525,
+        "end_char": 1547,
+        "excerpt": "- Certamente. - Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado. Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "O Chico pôs-se a coçar a cabeça e não disse nada.",
+        "start_char": 1644,
+        "end_char": 1649,
+        "excerpt": "- Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado. Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana. O Chico pôs-se a coçar a cabeça e não disse nada.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pôs-se",
+                "child": "O Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôsr se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Bem sabia quanto era espinhosa tal comissão, mas não tinha forças para recusar os seus serviços a pessoa alguma, e muito menos ao Dr. Miranda, que era o seu médico, já o havia sido de seus pais e nunca lhes mandara a conta.",
+        "start_char": 1691,
+        "end_char": 1703,
+        "excerpt": "Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana. O Chico pôs-se a coçar a cabeça e não disse nada. Bem sabia quanto era espinhosa tal comissão, mas não tinha forças para recusar os seus serviços a pessoa alguma, e muito menos ao Dr. Miranda, que era o seu médico, já o havia sido de seus pais e nunca lhes mandara a conta.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja.",
+        "start_char": 1967,
+        "end_char": 1987,
+        "excerpt": "- Está dito? - Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "start_char": 2089,
+        "end_char": 2094,
+        "excerpt": "- Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja. No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "o Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um velho camarada",
+        "sentence": "No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "start_char": 2107,
+        "end_char": 2124,
+        "excerpt": "- Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja. No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "um velho camarada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "camarada",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Central",
+                "child": "um velho camarada",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "central",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "camarada",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "start_char": 2236,
+        "end_char": 2256,
+        "excerpt": "- Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja. No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "chamado",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "chamado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro",
+        "sentence": "- respondeu prontamente o outro.",
+        "start_char": 2295,
+        "end_char": 2302,
+        "excerpt": "No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel. - Um bêbado! - respondeu prontamente o outro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bado",
+        "sentence": "- Bêbado? - Bêbado, sim!",
+        "start_char": 2308,
+        "end_char": 2312,
+        "excerpt": "- Um bêbado! - respondeu prontamente o outro. - Bêbado? - Bêbado, sim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "- Um bêbado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bêbado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bêbado",
+        "sentence": "- Bêbado? - Bêbado, sim!",
+        "start_char": 2306,
+        "end_char": 2312,
+        "excerpt": "- Um bêbado! - respondeu prontamente o outro. - Bêbado? - Bêbado, sim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Passos",
+        "sentence": "Foi por isso que o Passos o pôs na rua! - Mas não se terá corrigido?",
+        "start_char": 2346,
+        "end_char": 2354,
+        "excerpt": "- respondeu prontamente o outro. - Bêbado? - Bêbado, sim! Foi por isso que o Passos o pôs na rua! - Mas não se terá corrigido?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "o Passos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Passos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a filha do Trancoso",
+        "sentence": "- Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro.",
+        "start_char": 2517,
+        "end_char": 2536,
+        "excerpt": "- Não sei; nunca mais ouvi falar nele. Quem te pode informar com segurança é o Trancoso. - Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sogro",
+        "sentence": "- Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro.",
+        "start_char": 2568,
+        "end_char": 2575,
+        "excerpt": "- Não sei; nunca mais ouvi falar nele. Quem te pode informar com segurança é o Trancoso. - Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dava",
+                "child": "o sogro",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sogro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sogro",
+                "child": ", por sinal",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sogro",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sinal",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sogro",
+                "child": "casado",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sogro",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "casado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um ex - colega meu",
+        "sentence": "- Um ex-colega meu, aposentado há uns quatro anos.",
+        "start_char": 2625,
+        "end_char": 2643,
+        "excerpt": "- Casado, sim! - Quem é esse Trancoso? - Um ex-colega meu, aposentado há uns quatro anos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um velho asmático",
+        "sentence": "Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos.",
+        "start_char": 3107,
+        "end_char": 3124,
+        "excerpt": "- Pois não! No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "abrir-lha",
+                "child": "um velho asmático",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir-lha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um velho asmático",
+                "child": "lenço",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "asmático",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "lenço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um velho asmático",
+                "child": ", carapuça",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "asmático",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "carapuça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "capa",
+                "child": "um velho asmático",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "capa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lenço",
+                "child": "um velho asmático",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "lenço",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seda",
+                "child": "um velho asmático",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "seda",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pescoço",
+                "child": "um velho asmático",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pescoço",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", carapuça",
+                "child": "um velho asmático",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "carapuça",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "às orelhas",
+                "child": "um velho asmático",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "orelha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asmático",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "start_char": 3257,
+        "end_char": 3262,
+        "excerpt": "No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o Chico",
+                "child": "Inhaúma",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inhaúma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inhaúma",
+                "child": "o Chico",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inhaúma",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pronunciou",
+                "child": "o Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pronunciar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "start_char": 3284,
+        "end_char": 3304,
+        "excerpt": "No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o nome",
+                "child": "Alexandrino Pimentel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandrino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "o nome",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho",
+        "sentence": "Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "start_char": 3306,
+        "end_char": 3313,
+        "excerpt": "No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha filha",
+        "sentence": "- Foi por desgraça minha, mas já o não é, pois deu tantos desgostos à minha filha, que a matou!",
+        "start_char": 3479,
+        "end_char": 3490,
+        "excerpt": "Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro? - Foi por desgraça minha, mas já o não é, pois deu tantos desgostos à minha filha, que a matou!",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tantos desgostos",
+                "child": "minha filha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "desgosto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha filha",
+                "child": "tantos desgostos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "desgosto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a família da noiva",
+        "sentence": "Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para...",
+        "start_char": 3650,
+        "end_char": 3668,
+        "excerpt": "- Eu desejava apenas tomar algumas informações a respeito desse homem. Trata-se de coisa grave. Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "- Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto.",
+        "start_char": 3707,
+        "end_char": 3713,
+        "excerpt": "Trata-se de coisa grave. Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para... - Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "senhor",
+                "child": "caro",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "caro",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "seguintes",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "seguinte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sujeito",
+        "sentence": "- Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto.",
+        "start_char": 3768,
+        "end_char": 3777,
+        "excerpt": "Trata-se de coisa grave. Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para... - Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o sujeito",
+                "child": "malandro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "Malandro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sujeito",
+                "child": "seguintes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "seguinte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "malandro",
+                "child": "o sujeito",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "Malandro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua própria mulher",
+        "sentence": "Bruto a ponto de bater, como batia na sua própria mulher!",
+        "start_char": 3878,
+        "end_char": 3896,
+        "excerpt": "Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para... - Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto. Bruto a ponto de bater, como batia na sua própria mulher!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "batia",
+                "child": "sua própria mulher",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua própria mulher",
+                "child": "Bruto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Bruto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tal senhora",
+        "sentence": "Se a tal senhora, com quem ele se pretende casar, quiser passar fome e ser armazém de pancada, não poderá escolher melhor!",
+        "start_char": 3901,
+        "end_char": 3914,
+        "excerpt": "- Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto. Bruto a ponto de bater, como batia na sua própria mulher! Se a tal senhora, com quem ele se pretende casar, quiser passar fome e ser armazém de pancada, não poderá escolher melhor!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escolher",
+                "child": "a tal senhora",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "escolher",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo",
+        "sentence": "E agora, meu caro amigo, que tem as informações que desejava, passe muito bem!",
+        "start_char": 4039,
+        "end_char": 4044,
+        "excerpt": "Bruto a ponto de bater, como batia na sua própria mulher! Se a tal senhora, com quem ele se pretende casar, quiser passar fome e ser armazém de pancada, não poderá escolher melhor! E agora, meu caro amigo, que tem as informações que desejava, passe muito bem!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as informações",
+                "child": "E agora, meu caro amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "informação",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho",
+        "sentence": "Dizendo isto, o velho foi empurrando o Chico para a porta da rua.",
+        "start_char": 4181,
+        "end_char": 4188,
+        "excerpt": "Deixe-me em paz, porque sou doente, e as visitas aborrecem-me! ... Dizendo isto, o velho foi empurrando o Chico para a porta da rua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "empurrando",
+                "child": "o velho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "empurrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Chico",
+        "sentence": "Dizendo isto, o velho foi empurrando o Chico para a porta da rua.",
+        "start_char": 4204,
+        "end_char": 4211,
+        "excerpt": "Deixe-me em paz, porque sou doente, e as visitas aborrecem-me! ... Dizendo isto, o velho foi empurrando o Chico para a porta da rua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "empurrando",
+                "child": "o Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "empurrar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino Pimentel",
+        "sentence": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade.",
+        "start_char": 4281,
+        "end_char": 4301,
+        "excerpt": "...? - Alexandrino Pimentel. É o nome com que assinou a carta, assaz lacônica, em que declarou à Maricota que a amava e desejava ser seu esposo. Já me disseram - e é tudo quanto sei a seu respeito - que esteve empregado na estrada de ferro, onde não esquentou lugar. Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta. - Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas? - Certamente. - Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado. Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana. O Chico pôs-se a coçar a cabeça e não disse nada. Bem sabia quanto era espinhosa tal comissão, mas não tinha forças para recusar os seus serviços a pessoa alguma, e muito menos ao Dr. Miranda, que era o seu médico, já o havia sido de seus pais e nunca lhes mandara a conta. - Está dito? - Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja. No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel. - Um bêbado! - respondeu prontamente o outro. - Bêbado? - Bêbado, sim! Foi por isso que o Passos o pôs na rua! - Mas não se terá corrigido? - Não sei; nunca mais ouvi falar nele. Quem te pode informar com segurança é o Trancoso. - Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro. - Casado? - Casado, sim! - Quem é esse Trancoso? - Um ex-colega meu, aposentado há uns quatro anos. Mora lá para os lados de Inhaúma. - Podes dar-me um bilhete de apresentação para ele? - Pois não! No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro? - Foi por desgraça minha, mas já o não é, pois deu tantos desgostos à minha filha, que a matou! - Eu desejava apenas tomar algumas informações a respeito desse homem. Trata-se de coisa grave. Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para... - Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto. Bruto a ponto de bater, como batia na sua própria mulher! Se a tal senhora, com quem ele se pretende casar, quiser passar fome e ser armazém de pancada, não poderá escolher melhor! E agora, meu caro amigo, que tem as informações que desejava, passe muito bem! Deixe-me em paz, porque sou doente, e as visitas aborrecem-me! ... Dizendo isto, o velho foi empurrando o Chico para a porta da rua. Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "chamado",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "chamado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o nome",
+                "child": "Alexandrino Pimentel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandrino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "o nome",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "respeito",
+                "child": "Alexandrino Pimentel",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "respeito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandrino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "respeito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "respeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "colá",
+        "sentence": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade.",
+        "start_char": 4525,
+        "end_char": 4529,
+        "excerpt": "...? - Alexandrino Pimentel. É o nome com que assinou a carta, assaz lacônica, em que declarou à Maricota que a amava e desejava ser seu esposo. Já me disseram - e é tudo quanto sei a seu respeito - que esteve empregado na estrada de ferro, onde não esquentou lugar. Preciso de mais amplas e completas informações a respeito desse indivíduo e, para obtê-las, lembrei-me de ti que és esperto e conheces meio mundo. O Chico dissimulou uma careta. - Minha irmã, continuou o Dr. Miranda, já fez 37 anos, mas é minha irmã, e eu, como chefe de família, farei o possível para evitar que ela se ligue a um homem que não seja um homem de bem, não achas? - Certamente. - Portanto, meu rapaz, peço-te que indagues e me venhas dizer quem é, ao certo, esse Alexandrino Pimentel, que quer ser meu cunhado. Peço-te igualmente que desempenhes essa comissão com a brevidade possível, pois uma senhora de 37 anos, quando lhe falam em casamento, fica assanhada que nem um macaco a quem se mostra uma banana. O Chico pôs-se a coçar a cabeça e não disse nada. Bem sabia quanto era espinhosa tal comissão, mas não tinha forças para recusar os seus serviços a pessoa alguma, e muito menos ao Dr. Miranda, que era o seu médico, já o havia sido de seus pais e nunca lhes mandara a conta. - Está dito? - Está dito. Vou indagar quem é o tal Alexandrino Pimentel, e pode contar que dentro de três ou quatro dias terá os esclarecimentos que deseja. No mesmo dia, o Chico foi ter com um velho camarada, empregado antigo da Central, e perguntou-lhe se conhecia um sujeito que ali tinha estado algum tempo, chamado Alexandrino Pimentel. - Um bêbado! - respondeu prontamente o outro. - Bêbado? - Bêbado, sim! Foi por isso que o Passos o pôs na rua! - Mas não se terá corrigido? - Não sei; nunca mais ouvi falar nele. Quem te pode informar com segurança é o Trancoso. - Sim, que ele era casado com a filha do Trancoso, por sinal que não se dava com o sogro. - Casado? - Casado, sim! - Quem é esse Trancoso? - Um ex-colega meu, aposentado há uns quatro anos. Mora lá para os lados de Inhaúma. - Podes dar-me um bilhete de apresentação para ele? - Pois não! No dia seguinte o Chico estava em Inhaúma, à procura do tal Trancoso, que já lá não morava; havia seis meses que se mudara para Copacabana, onde adquirira uma casinha; entretanto o pobre rapaz não esmoreceu diante de uma tremenda maçada, e no outro dia, depois de duas horas de indagações, batia à porta do Trancoso. Veio abrir-lha um velho asmático, envolvido numa capa, lenço de seda ao pescoço, carapuça enterrada até às orelhas, barba por fazer, cara de poucos amigos. Quando o Chico pronunciou o nome de Alexandrino Pimentel, o velho enfureceu- se, gritando que nada tinha de comum com \"esse bandido\"! - Mas não é ele seu genro? - Foi por desgraça minha, mas já o não é, pois deu tantos desgostos à minha filha, que a matou! - Eu desejava apenas tomar algumas informações a respeito desse homem. Trata-se de coisa grave. Ele pretende casar-se em segundas núpcias, e foi a família da noiva que me pediu para... - Pois, meu caro senhor, as informações que lhe tenho a dar são as seguintes: o sujeito de quem se trata é malandro, bêbado, devasso jogador e bruto. Bruto a ponto de bater, como batia na sua própria mulher! Se a tal senhora, com quem ele se pretende casar, quiser passar fome e ser armazém de pancada, não poderá escolher melhor! E agora, meu caro amigo, que tem as informações que desejava, passe muito bem! Deixe-me em paz, porque sou doente, e as visitas aborrecem-me! ... Dizendo isto, o velho foi empurrando o Chico para a porta da rua. Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda.",
+        "start_char": 4664,
+        "end_char": 4676,
+        "excerpt": "Dizendo isto, o velho foi empurrando o Chico para a porta da rua. Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4819,
+        "end_char": 4827,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "já os amores",
+                "child": "Maricota",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maricota",
+                "child": "já os amores",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Maricota",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4830,
+        "end_char": 4841,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respeito",
+                "child": "Alexandrino Pimentel",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "respeito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandrino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandrino Pimentel",
+                "child": "respeito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "respeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "já os amores",
+                "child": "Alexandrino",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandrino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandrino",
+                "child": "já os amores",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandrino",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4787,
+        "end_char": 4799,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à irmã",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4915,
+        "end_char": 4921,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o obsequioso",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4926,
+        "end_char": 4938,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o obsequioso",
+                "child": "Chico",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "obsequioso",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o obsequioso",
+                "child": "incumbira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "obsequioso",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "incumbira",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Chico",
+                "child": "o obsequioso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "obsequioso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "incumbira",
+                "child": "o obsequioso",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "incumbira",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "obsequioso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "start_char": 4939,
+        "end_char": 4944,
+        "excerpt": "Este saiu perfeitamente edificado a respeito de Alexandrino Pimentel, mas, ao ar livre, refletiu que todas essas informações, partindo de um homem tão apaixonado e tão grosseiro, poderiam ser, pelo menos até certo ponto, injustas; por isso pôs-se de novo em campo e, indaga daqui, pergunta dacolá, chegou, depois de conversar com dez ou doze pessoas fidedignas, à firme convicção de que tudo aquilo era a pura expressão da verdade. Essas pesquisas tomaram-lhe mais tempo do que três ou quatro dias dentro dos quais prometera voltar à casa do Dr. Miranda. Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o obsequioso",
+                "child": "Chico",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "obsequioso",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Chico",
+                "child": "o obsequioso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "obsequioso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Chico",
+                "child": "incumbira",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "incumbira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Julguei que você não me aparecesse mais.",
+        "start_char": 5031,
+        "end_char": 5035,
+        "excerpt": "Quando voltou, já os amores de Maricota e Alexandrino haviam assumido proporções consideráveis, e o Dr. Miranda tinha revelado à irmã que o obsequioso Chico se incumbira de tomar informações a respeito do pretendente. - Que diabo! Julguei que você não me aparecesse mais.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o médico",
+        "sentence": "- exclamou o médico ao ver então o seu cliente gratuito.",
+        "start_char": 5071,
+        "end_char": 5079,
+        "excerpt": "- Que diabo! Julguei que você não me aparecesse mais. - exclamou o médico ao ver então o seu cliente gratuito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "exclamou",
+                "child": "o médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu cliente gratuito",
+        "sentence": "- exclamou o médico ao ver então o seu cliente gratuito.",
+        "start_char": 5093,
+        "end_char": 5115,
+        "excerpt": "- Que diabo! Julguei que você não me aparecesse mais. - exclamou o médico ao ver então o seu cliente gratuito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "O Dr. Miranda chamou a irmã, que acudiu logo.",
+        "start_char": 5253,
+        "end_char": 5265,
+        "excerpt": "- Boas ou más? - Péssimas. O Dr. Miranda chamou a irmã, que acudiu logo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pés",
+                    "Pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a irmã",
+        "sentence": "O Dr. Miranda chamou a irmã, que acudiu logo.",
+        "start_char": 5275,
+        "end_char": 5281,
+        "excerpt": "- Boas ou más? - Péssimas. O Dr. Miranda chamou a irmã, que acudiu logo.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pés",
+                    "Pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "a irmã",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "- Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "start_char": 5308,
+        "end_char": 5316,
+        "excerpt": "- Péssimas. O Dr. Miranda chamou a irmã, que acudiu logo. - Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pés",
+                    "Pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "- Olha",
+                "child": "Maricota",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Olha",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maricota",
+                "child": "- Olha",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Maricota",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "- Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "start_char": 5330,
+        "end_char": 5335,
+        "excerpt": "- Péssimas. O Dr. Miranda chamou a irmã, que acudiu logo. - Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pés",
+                    "Pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aqui tens",
+                "child": "o Chico",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "aqui tens",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "- Olha",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pimentel",
+        "sentence": "- Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "start_char": 5364,
+        "end_char": 5372,
+        "excerpt": "- Péssimas. O Dr. Miranda chamou a irmã, que acudiu logo. - Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pés",
+                    "Pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "- resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico.",
+        "start_char": 5399,
+        "end_char": 5407,
+        "excerpt": "- Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel. - Pois diga! - resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Olha",
+                "child": "Maricota",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Olha",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maricota",
+                "child": "- Olha",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Maricota",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maricota",
+                "child": "tens",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Maricota",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "resmungou",
+                "child": "Maricota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resmungar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "- resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico.",
+        "start_char": 5468,
+        "end_char": 5473,
+        "excerpt": "- Olha, Maricota, aqui tens o Chico; vai dizer-nos quem e o teu Pimentel. - Pois diga! - resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tens",
+                "child": "o Chico",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "tens",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "trazidos",
+                "child": "Chico",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Chico",
+                "child": "os horrores",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "horror",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Este voltou-se para o Dr. Miranda e disse-lhe: -",
+        "start_char": 5474,
+        "end_char": 5486,
+        "excerpt": "- Pois diga! - resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico. Este voltou-se para o Dr. Miranda e disse-lhe: -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "O senhor coloca-me numa situação difícil.",
+        "start_char": 5524,
+        "end_char": 5532,
+        "excerpt": "- resmungou Maricota com um olhar zangado, adivinhando os horrores trazidos pelo Chico. Este voltou-se para o Dr. Miranda e disse-lhe: - O senhor coloca-me numa situação difícil.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "coloca-me",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "colocar me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Maricota",
+        "sentence": "Julguei que isto não passasse de nós dois, mas agora, em presença de D. Maricota, sinto-me acanhado e receoso, porque não posso dizer senão a verdade, e a verdade é muito desagradável.",
+        "start_char": 5565,
+        "end_char": 5577,
+        "excerpt": "Este voltou-se para o Dr. Miranda e disse-lhe: - O senhor coloca-me numa situação difícil. Julguei que isto não passasse de nós dois, mas agora, em presença de D. Maricota, sinto-me acanhado e receoso, porque não posso dizer senão a verdade, e a verdade é muito desagradável.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha irmã",
+        "sentence": "- Minha irmã é a principal interessada neste assunto, redarguiu o doutor, e deve até agradecer-lhe o trabalho que você teve com esse inquérito.",
+        "start_char": 5753,
+        "end_char": 5763,
+        "excerpt": "O senhor coloca-me numa situação difícil. Julguei que isto não passasse de nós dois, mas agora, em presença de D. Maricota, sinto-me acanhado e receoso, porque não posso dizer senão a verdade, e a verdade é muito desagradável. - Minha irmã é a principal interessada neste assunto, redarguiu o doutor, e deve até agradecer-lhe o trabalho que você teve com esse inquérito.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Minha irmã",
+                "child": "principal",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "obl",
+                "pos_c": "ADJ",
+                "lemma_c": "principal",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minha irmã",
+                "child": "interessada",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "interessado",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o doutor",
+        "sentence": "- Minha irmã é a principal interessada neste assunto, redarguiu o doutor, e deve até agradecer-lhe o trabalho que você teve com esse inquérito.",
+        "start_char": 5815,
+        "end_char": 5823,
+        "excerpt": "O senhor coloca-me numa situação difícil. Julguei que isto não passasse de nós dois, mas agora, em presença de D. Maricota, sinto-me acanhado e receoso, porque não posso dizer senão a verdade, e a verdade é muito desagradável. - Minha irmã é a principal interessada neste assunto, redarguiu o doutor, e deve até agradecer-lhe o trabalho que você teve com esse inquérito.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "redarguiu",
+                "child": "o doutor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "redarguir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Chico",
+        "sentence": "O Chico, arrependido já de se haver metido naquele incidente de família, contou minuciosamente as diligências que fizera e o resultado a que chegara.",
+        "start_char": 5995,
+        "end_char": 6002,
+        "excerpt": "O seu dever de amigo está cumprido; ela que o ouça e faça o que entender; é senhora das suas ações. O Chico, arrependido já de se haver metido naquele incidente de família, contou minuciosamente as diligências que fizera e o resultado a que chegara.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contou",
+                "child": "O Chico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "incidente",
+                "child": "O Chico",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "incidente",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "família",
+                "child": "O Chico",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "família",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "Quando ele acabou o relatório: - Tudo isso é calúnia, calúnia, calúnia torpe! - bradou Maricota, fula de raiva e batendo o pé.",
+        "start_char": 6232,
+        "end_char": 6240,
+        "excerpt": "ela que o ouça e faça o que entender; é senhora das suas ações. O Chico, arrependido já de se haver metido naquele incidente de família, contou minuciosamente as diligências que fizera e o resultado a que chegara. Quando ele acabou o relatório: - Tudo isso é calúnia, calúnia, calúnia torpe! - bradou Maricota, fula de raiva e batendo o pé.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "Maricota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o irmão",
+        "sentence": "Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se.",
+        "start_char": 6504,
+        "end_char": 6511,
+        "excerpt": "Ele gosta de mim, e havemos de ser um do outro, venha embora o mundo abaixo! Não houve palavras que a convencessem de que tal casamento seria um desastre. Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ameaçou",
+                "child": "o irmão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ameaçar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o irmão",
+                "child": "Diante da vergonha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "vergonha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "o irmão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seu amado",
+                "child": "o irmão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amado",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se.",
+        "start_char": 6463,
+        "end_char": 6475,
+        "excerpt": "Ele gosta de mim, e havemos de ser um do outro, venha embora o mundo abaixo! Não houve palavras que a convencessem de que tal casamento seria um desastre. Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "casal",
+        "sentence": "Fez-se, e não há notícia de casal mais venturoso!",
+        "start_char": 6639,
+        "end_char": 6644,
+        "excerpt": "Não houve palavras que a convencessem de que tal casamento seria um desastre. Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se. Fez-se, e não há notícia de casal mais venturoso!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notícia",
+                "child": "casal",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "notícia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casal",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casal",
+                "child": "notícia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casal",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "notícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandrino",
+        "sentence": "Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário.",
+        "start_char": 6661,
+        "end_char": 6672,
+        "excerpt": "Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se. Fez-se, e não há notícia de casal mais venturoso! Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Alexandrino",
+                "child": "marido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "alexandrino",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "Alexandrino",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "alexandrino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "Alexandrino",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "alexandrino",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mar",
+        "sentence": "Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário.",
+        "start_char": 6826,
+        "end_char": 6829,
+        "excerpt": "Diante da vergonha, com que ela ameaçou o irmão de sair de casa para ir ter com o seu amado, o Dr. Miranda curvou a cabeça, e o casamento fez- se. Fez-se, e não há notícia de casal mais venturoso! Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levar",
+                "child": "Maricota",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "- Maricota apanhou a sorte grande!",
+        "start_char": 7005,
+        "end_char": 7013,
+        "excerpt": "Fez-se, e não há notícia de casal mais venturoso! Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário. - Maricota apanhou a sorte grande!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levar",
+                "child": "Maricota",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os amigos e parentes",
+        "sentence": "- diziam os amigos e parentes, inclusive o Dr. Miranda.",
+        "start_char": 7047,
+        "end_char": 7067,
+        "excerpt": "Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário. - Maricota apanhou a sorte grande! - diziam os amigos e parentes, inclusive o Dr. Miranda.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Miranda",
+        "sentence": "- diziam os amigos e parentes, inclusive o Dr. Miranda.",
+        "start_char": 7037,
+        "end_char": 7049,
+        "excerpt": "Alexandrino, que se empregara numa importante casa comercial, era um marido solícito, dedicado, carinhoso e previdente; não ia a passeio ou a divertimento sem levar Maricota; não bebia senão água; não jogava senão a bisca em família - e todas essas virtudes eram naturalmente realçadas pela terrível perspectiva de que ele seria o contrário. - Maricota apanhou a sorte grande! - diziam os amigos e parentes, inclusive o Dr. Miranda.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cunhado",
+        "sentence": "Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante.",
+        "start_char": 7125,
+        "end_char": 7132,
+        "excerpt": "- Maricota apanhou a sorte grande! - diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as virtudes",
+                "child": "cunhado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "virtude",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cunhado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cunhado",
+                "child": "as virtudes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cunhado",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "virtude",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o informante",
+        "sentence": "Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante.",
+        "start_char": 7178,
+        "end_char": 7190,
+        "excerpt": "- Maricota apanhou a sorte grande! - diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "start_char": 7200,
+        "end_char": 7205,
+        "excerpt": "- diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante. O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Chico",
+                "child": "pobre",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "pobre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "start_char": 7213,
+        "end_char": 7220,
+        "excerpt": "- diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante. O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perdeu",
+                "child": "o amigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "carater_social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o amigo",
+                "child": "o médico",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o médico",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "médico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o médico",
+        "sentence": "O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "start_char": 7223,
+        "end_char": 7231,
+        "excerpt": "- diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante. O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o amigo",
+                "child": "o médico",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o médico",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "médico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pimentel",
+        "sentence": "O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "start_char": 7316,
+        "end_char": 7324,
+        "excerpt": "- diziam os amigos e parentes, inclusive o Dr. Miranda. Este, desde que as virtudes do cunhado se manifestaram, começou a tratar com frieza o informante. O pobre Chico perdeu o amigo e o médico, foi odiado por Maricota por ter pretendido frustrar a sua aventura, e o regenerado Pimentel, quando soube da comissão que ele desempenhara, segurou-o um dia com as duas mãos pela gola do casaco, e sacudiu-o dizendo-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "regenerado",
+                "child": "Pimentel",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "regenerado",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pimentel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pimentel",
+                "child": "regenerado",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pimentel",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "regenerado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

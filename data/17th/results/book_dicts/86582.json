@@ -1,0 +1,144 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Mesura sería, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 521b, Cancioneiro da Vaticana 124 Mesura[1] sería, senhor, de vós amercear de mí, que vós en grave día vi, e én mui grave voss'amor é",
+        "start_char": 21,
+        "end_char": 30,
+        "excerpt": "Mesura sería, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 521b, Cancioneiro da Vaticana 124 Mesura[1] sería, senhor, de vós amercear de mí, que vós en grave día vi, e én mui grave voss'amor é ; tan grave, que non hei poder daquesta coita máis sofrer de que, muit'ha, fui sofredor. Pero sabe Nostro",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", senhor",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 521b",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 521b",
+                "child": ", senhor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nostro",
+        "sentence": "Pero sabe Nostro",
+        "start_char": 299,
+        "end_char": 305,
+        "excerpt": "Mesura sería, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 521b, Cancioneiro da Vaticana 124 Mesura[1] sería, senhor, de vós amercear de mí, que vós en grave día vi, e én mui grave voss'amor é ; tan grave, que non hei poder daquesta coita máis sofrer de que, muit'ha, fui sofredor. Pero sabe Nostro",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabe",
+                "child": "Nostro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nostro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor que nunca vo-l'eu merecí, mais sabe ben que vós serví, des que vos vi, sempr'o melhor que nunca eu pudi fazer; por én querede-vos doer de min, coitado pecador.",
+        "start_char": 306,
+        "end_char": 312,
+        "excerpt": "; tan grave, que non hei poder daquesta coita máis sofrer de que, muit'ha, fui sofredor. Pero sabe Nostro Senhor que nunca vo-l'eu merecí, mais sabe ben que vós serví, des que vos vi, sempr'o melhor que nunca eu pudi fazer; por én querede-vos doer de min, coitado pecador.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabe",
+                "child": "Nostro Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nostro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mais Deus que de tod'é senhor, me queira poer conselh'i, ca se meu feito vai assí e m'el non for ajudador contra vós, que el fez valer máis de quantas fezo nacer, moir'eu, mais non merecedor.",
+        "start_char": 478,
+        "end_char": 482,
+        "excerpt": "Pero sabe Nostro Senhor que nunca vo-l'eu merecí, mais sabe ben que vós serví, des que vos vi, sempr'o melhor que nunca eu pudi fazer; por én querede-vos doer de min, coitado pecador. Mais Deus que de tod'é senhor, me queira poer conselh'i, ca se meu feito vai assí e m'el non for ajudador contra vós, que el fez valer máis de quantas fezo nacer, moir'eu, mais non merecedor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "queira",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "tod'é senhor",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "tod'é",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tod'é senhor",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "tod'é",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

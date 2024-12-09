@@ -1,0 +1,1027 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "A NOTA DE CEM MIL-RÉIS Artur Azevedo",
+        "start_char": 23,
+        "end_char": 36,
+        "excerpt": "A NOTA DE CEM MIL-RÉIS Artur Azevedo O Cavalcânti era um marido incorreto, para não empregar um adjetivo mais forte; imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Cavalcânti",
+        "sentence": "O Cavalcânti era um marido incorreto, para não empregar um adjetivo mais forte;",
+        "start_char": 37,
+        "end_char": 49,
+        "excerpt": "A NOTA DE CEM MIL-RÉIS Artur Azevedo O Cavalcânti era um marido incorreto, para não empregar um adjetivo mais forte; imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Cavalcânti",
+                "child": "marido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cavalcânti",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "O Cavalcânti",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcânti",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josephine Leveau",
+        "sentence": "imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português.",
+        "start_char": 245,
+        "end_char": 261,
+        "excerpt": "A NOTA DE CEM MIL-RÉIS Artur Azevedo O Cavalcânti era um marido incorreto, para não empregar um adjetivo mais forte; imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amantes",
+                "child": "Josephine Leveau",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Josephine",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Josephine Leveau",
+                "child": "amantes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Josephine",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Josephine Leveau",
+                "child": "conhecido",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Josephine",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "conhecido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a esposa do Cavalcanti",
+        "sentence": "Como a esposa do Cavalcanti era uma hábil costureira, recorreu à sua habilidade para ajudar nas despesas de casa.",
+        "start_char": 425,
+        "end_char": 447,
+        "excerpt": "O Cavalcânti era um marido incorreto, para não empregar um adjetivo mais forte; imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português. Como a esposa do Cavalcanti era uma hábil costureira, recorreu à sua habilidade para ajudar nas despesas de casa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma amiga",
+        "sentence": "Um dia fez um vestido para uma amiga, e, tão bem feito, tão elegante, que a sua fama correu de boca em boca, e valeu-lhe uma freguesia certa, que lhe dava algum dinheiro a ganhar.",
+        "start_char": 561,
+        "end_char": 570,
+        "excerpt": "imaginem que os seus recursos não davam para acudir a todas as necessidades da família e, no entanto, era ele um dos amantes da Josephine Leveau, uma cocotte francesa, cujo nome era muito conhecido nas rodas alegres, e se prestava aos trocadilhos mais interessantes, quer em francês, quer em português. Como a esposa do Cavalcanti era uma hábil costureira, recorreu à sua habilidade para ajudar nas despesas de casa. Um dia fez um vestido para uma amiga, e, tão bem feito, tão elegante, que a sua fama correu de boca em boca, e valeu-lhe uma freguesia certa, que lhe dava algum dinheiro a ganhar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um vestido",
+                "child": "uma amiga",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "vestido",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma amiga",
+                "child": "um vestido",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amiga",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vestido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Cavalcanti",
+        "sentence": "O Cavalcanti não protestou, pelo contrário aprovou.",
+        "start_char": 763,
+        "end_char": 775,
+        "excerpt": "Um dia fez um vestido para uma amiga, e, tão bem feito, tão elegante, que a sua fama correu de boca em boca, e valeu-lhe uma freguesia certa, que lhe dava algum dinheiro a ganhar. Havia meses em que ela fazia trezentos mil-réis. O Cavalcanti não protestou, pelo contrário aprovou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "protestou",
+                "child": "O Cavalcanti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "protestar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcanti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josephine",
+        "sentence": "Uma bela manhã, a Josephine mandou-lhe pedir cem mil-réis para uma necessidade urgente, e ele não os tinha, nem sabia onde ir buscá-los.",
+        "start_char": 857,
+        "end_char": 866,
+        "excerpt": "O Cavalcanti não protestou, pelo contrário aprovou. Fez mais, como vão ver. Uma bela manhã, a Josephine mandou-lhe pedir cem mil-réis para uma necessidade urgente, e ele não os tinha, nem sabia onde ir buscá-los.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mandou-lhe",
+                "child": "a Josephine",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josephine",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o leitor",
+        "sentence": "Já o leitor adivinhou que o miserável pediu à esposa o dinheiro que devia mandar à amante.",
+        "start_char": 1055,
+        "end_char": 1063,
+        "excerpt": "Uma bela manhã, a Josephine mandou-lhe pedir cem mil-réis para uma necessidade urgente, e ele não os tinha, nem sabia onde ir buscá-los. Hesitou durante algum tempo em cometer uma baixeza, mas acabou cometendo-a. Já o leitor adivinhou que o miserável pediu à esposa o dinheiro que devia mandar à amante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "adivinhou",
+                "child": "o leitor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adivinhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o miserável",
+        "sentence": "Já o leitor adivinhou que o miserável pediu à esposa o dinheiro que devia mandar à amante.",
+        "start_char": 1078,
+        "end_char": 1089,
+        "excerpt": "Uma bela manhã, a Josephine mandou-lhe pedir cem mil-réis para uma necessidade urgente, e ele não os tinha, nem sabia onde ir buscá-los. Hesitou durante algum tempo em cometer uma baixeza, mas acabou cometendo-a. Já o leitor adivinhou que o miserável pediu à esposa o dinheiro que devia mandar à amante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pediu",
+                "child": "o miserável",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "miserável",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A pobre senhora",
+        "sentence": "A pobre senhora não manifestou a menor contrariedade:",
+        "start_char": 1143,
+        "end_char": 1158,
+        "excerpt": "Hesitou durante algum tempo em cometer uma baixeza, mas acabou cometendo-a. Já o leitor adivinhou que o miserável pediu à esposa o dinheiro que devia mandar à amante. A pobre senhora não manifestou a menor contrariedade:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "manifestou",
+                "child": "A pobre senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "manifestar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida nota",
+        "sentence": "\"Nunca mais te verei, querida nota!",
+        "start_char": 1550,
+        "end_char": 1562,
+        "excerpt": "foi ao seu quarto, abriu uma gaveta onde guardava o fruto do seu trabalho, e tirou uma nota de cem mil-réis, ainda nova. Antes de levá-la ao marido, que esperava na sala de jantar, contemplou-a durante algum tempo como para despedir-se dela para sempre, e então notou que alguém escrevera num canto estas palavras com letra miúda: \"Nunca mais te verei, querida nota!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Margarida",
+        "sentence": "E como D. Margarida - ela chamava-se Margarida - tivesse um lápis à mão, escreveu por baixo daquelas palavras \"",
+        "start_char": 1565,
+        "end_char": 1578,
+        "excerpt": "\"Nunca mais te verei, querida nota! \" E como D. Margarida - ela chamava-se Margarida - tivesse um lápis à mão, escreveu por baixo daquelas palavras \"",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Margarida",
+        "sentence": "E como D. Margarida - ela chamava-se Margarida - tivesse um lápis à mão, escreveu por baixo daquelas palavras \"",
+        "start_char": 1576,
+        "end_char": 1585,
+        "excerpt": "\"Nunca mais te verei, querida nota! \" E como D. Margarida - ela chamava-se Margarida - tivesse um lápis à mão, escreveu por baixo daquelas palavras \"",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chamava-se",
+                "child": "como D. Margarida",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Margarida",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Margarida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Cavalcanti",
+        "sentence": "O Cavalcanti empalmou os cem mil-réis com um estremeção de alegria.",
+        "start_char": 1689,
+        "end_char": 1701,
+        "excerpt": "Nem eu! \". O Cavalcanti empalmou os cem mil-réis com um estremeção de alegria.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "empalmou",
+                "child": "O Cavalcanti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "empalmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcanti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cavalcânti",
+        "sentence": "Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau.",
+        "start_char": 1893,
+        "end_char": 1905,
+        "excerpt": "- perguntou ele. - Não - respondeu ela - hoje mesmo espero receber igual quantia. Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entregava",
+                "child": "o Cavalcânti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entregar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cavalcânti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josephine Leveau",
+        "sentence": "Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau.",
+        "start_char": 1949,
+        "end_char": 1965,
+        "excerpt": "- perguntou ele. - Não - respondeu ela - hoje mesmo espero receber igual quantia. Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entregava",
+                "child": "a Josephine Leveau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entregar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josephine",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Margarida",
+        "sentence": "Nesse mesmo dia D. Margarida recebeu os outros cem mil-réis que esperava.",
+        "start_char": 1966,
+        "end_char": 1979,
+        "excerpt": "- Não - respondeu ela - hoje mesmo espero receber igual quantia. Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau. Nesse mesmo dia D. Margarida recebeu os outros cem mil-réis que esperava.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cavalcânti",
+        "sentence": "Contra o seu costume, o Cavalcânti estava em casa.",
+        "start_char": 2063,
+        "end_char": 2075,
+        "excerpt": "Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau. Nesse mesmo dia D. Margarida recebeu os outros cem mil-réis que esperava. Contra o seu costume, o Cavalcânti estava em casa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entregava",
+                "child": "o Cavalcânti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entregar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cavalcânti",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Cavalcânti",
+                "child": "casa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cavalcânti",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Cavalcânti",
+                "child": "o seu costume",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cavalcânti",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "costume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "o Cavalcânti",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcânti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A freguesa",
+        "sentence": "A freguesa é boa.",
+        "start_char": 2166,
+        "end_char": 2176,
+        "excerpt": "Contra o seu costume, o Cavalcânti estava em casa. - Olha, disse-lhe ela, aqui estão os cem mil-réis que eu contava receber. A freguesa é boa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A freguesa",
+                "child": "boa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "freguesa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bom",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "perguntou o marido.",
+        "start_char": 2208,
+        "end_char": 2216,
+        "excerpt": "A freguesa é boa. - Quem ela é? perguntou o marido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "o marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora séria",
+        "sentence": "- Mas é senhora séria?",
+        "start_char": 2366,
+        "end_char": 2379,
+        "excerpt": "- Não a conheço; veio ter comigo e pediu-me que lhe fizesse um vestido de seda, riquíssimo. Tinham-lhe dito que eu trabalhava bem e barato. - Mas é senhora séria?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um banqueiro",
+        "sentence": "É francesa, e casada com um banqueiro, disse-me ela.",
+        "start_char": 2416,
+        "end_char": 2428,
+        "excerpt": "- Mas é senhora séria? - Parece. É francesa, e casada com um banqueiro, disse-me ela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um banqueiro",
+                "child": "casada",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "casado",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um banqueiro",
+                "child": "francesa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "francês",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Naturalmente o marido é também francês, porque ela chama-se Madame Leveau.",
+        "start_char": 2457,
+        "end_char": 2465,
+        "excerpt": "- Parece. É francesa, e casada com um banqueiro, disse-me ela. Naturalmente o marido é também francês, porque ela chama-se Madame Leveau.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o marido",
+                "child": "francês",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "francês",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Madame Leveau",
+        "sentence": "Naturalmente o marido é também francês, porque ela chama-se Madame Leveau.",
+        "start_char": 2504,
+        "end_char": 2517,
+        "excerpt": "- Parece. É francesa, e casada com um banqueiro, disse-me ela. Naturalmente o marido é também francês, porque ela chama-se Madame Leveau.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chama-se",
+                "child": "Madame Leveau",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Madame",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Madame Leveau",
+                "child": "francês",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Madame",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "francês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cavalcânti",
+        "sentence": "- Leveau! repetiu o Cavalcânti empalidecendo.",
+        "start_char": 2537,
+        "end_char": 2549,
+        "excerpt": "É francesa, e casada com um banqueiro, disse-me ela. Naturalmente o marido é também francês, porque ela chama-se Madame Leveau. - Leveau! repetiu o Cavalcânti empalidecendo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "o Cavalcânti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Cavalcânti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "freguesa",
+        "sentence": "Boa freguesa!",
+        "start_char": 2634,
+        "end_char": 2642,
+        "excerpt": "- Não. - Então, por que fizeste essa cara espantada? Boa freguesa!",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Boa",
+                "child": "freguesa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Boa",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "freguesa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "freguesa",
+                "child": "Boa",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "freguesa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Boa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Madame Leveau",
+        "sentence": "- Onde mora essa Madame Leveau?",
+        "start_char": 2725,
+        "end_char": 2738,
+        "excerpt": "Boa freguesa! O vestido foi hoje de manhã cedo, e hoje mesmo veio o dinheiro. - Onde mora essa Madame Leveau?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mora",
+                "child": "essa Madame Leveau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Madame",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Margarida",
+        "sentence": "Dizendo isto D. Margarida abriu o envelope e retirou os cem mil-réis.",
+        "start_char": 2759,
+        "end_char": 2772,
+        "excerpt": "- Onde mora essa Madame Leveau? - Na Rua do Catete. Dizendo isto D. Margarida abriu o envelope e retirou os cem mil-réis.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a outra",
+        "sentence": "Por sinal que a outra tinha no canto...",
+        "start_char": 2931,
+        "end_char": 2938,
+        "excerpt": "- Que coincidência! disse ela; a nota é da mesma estampa da qual te dei hoje de manhã! Por sinal que a outra tinha no canto...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Margarida",
+        "sentence": "Este grito quer dizer que D. Margarida tinha lido a frase \"",
+        "start_char": 2963,
+        "end_char": 2976,
+        "excerpt": "Por sinal que a outra tinha no canto... Oh!... Este grito quer dizer que D. Margarida tinha lido a frase \"",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cavalcanti",
+        "sentence": "Que foi? perguntou o Cavalcanti.",
+        "start_char": 3099,
+        "end_char": 3111,
+        "excerpt": "\". O Cavalcanti empalmou os cem mil-réis com um estremeção de alegria. - Este dinheiro faz-te muita falta? - perguntou ele. - Não - respondeu ela - hoje mesmo espero receber igual quantia. Meia hora depois, o Cavalcânti entregava a nota, dentro de um envelope, a Josephine Leveau. Nesse mesmo dia D. Margarida recebeu os outros cem mil-réis que esperava. Contra o seu costume, o Cavalcânti estava em casa. - Olha, disse-lhe ela, aqui estão os cem mil-réis que eu contava receber. A freguesa é boa. - Quem ela é? perguntou o marido. - Não a conheço; veio ter comigo e pediu-me que lhe fizesse um vestido de seda, riquíssimo. Tinham-lhe dito que eu trabalhava bem e barato. - Mas é senhora séria? - Parece. É francesa, e casada com um banqueiro, disse-me ela. Naturalmente o marido é também francês, porque ela chama-se Madame Leveau. - Leveau! repetiu o Cavalcânti empalidecendo. - Conheces? - Não. - Então, por que fizeste essa cara espantada? Boa freguesa! O vestido foi hoje de manhã cedo, e hoje mesmo veio o dinheiro. - Onde mora essa Madame Leveau? - Na Rua do Catete. Dizendo isto D. Margarida abriu o envelope e retirou os cem mil-réis. - Que coincidência! disse ela; a nota é da mesma estampa da qual te dei hoje de manhã! Por sinal que a outra tinha no canto... Oh!... Este grito quer dizer que D. Margarida tinha lido a frase \" Nunca mais te verei\", e o seu acréscimo: \" Nem eu! \". - Que foi? perguntou o Cavalcanti.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "o Cavalcanti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcanti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "- A mesma? repetiu o marido gaguejando.",
+        "start_char": 3156,
+        "end_char": 3164,
+        "excerpt": "- A nota é a mesma! ... - A mesma? repetiu o marido gaguejando.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "o marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Cavalcanti",
+        "sentence": "O Cavalcanti arranjou uma desculpa esfarrapada:",
+        "start_char": 3256,
+        "end_char": 3268,
+        "excerpt": "Vê! a minha letra!... O Cavalcanti arranjou uma desculpa esfarrapada:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "arranjou",
+                "child": "O Cavalcanti",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "arranjar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcanti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "banqueiro Leveau",
+        "sentence": "disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "start_char": 3344,
+        "end_char": 3360,
+        "excerpt": "a minha letra!... O Cavalcanti arranjou uma desculpa esfarrapada: disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Margarida",
+        "sentence": "disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "start_char": 3303,
+        "end_char": 3316,
+        "excerpt": "a minha letra!... O Cavalcanti arranjou uma desculpa esfarrapada: disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu marido",
+        "sentence": "disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "start_char": 3515,
+        "end_char": 3525,
+        "excerpt": "a minha letra!... O Cavalcanti arranjou uma desculpa esfarrapada: disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "freqüentada",
+                "child": "seu marido",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "freqüentar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu marido",
+                "child": "cocotte",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "cocotte",
+                "categories": [
+                    "social",
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A pobre senhora",
+        "sentence": "A pobre senhora separou-se do desgraçado, e abriu casa de modista.",
+        "start_char": 3527,
+        "end_char": 3542,
+        "excerpt": "O Cavalcanti arranjou uma desculpa esfarrapada: disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido. A pobre senhora separou-se do desgraçado, e abriu casa de modista.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "separou-se",
+                "child": "A pobre senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "separou-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "desgraçado",
+        "sentence": "A pobre senhora separou-se do desgraçado, e abriu casa de modista.",
+        "start_char": 3557,
+        "end_char": 3567,
+        "excerpt": "O Cavalcanti arranjou uma desculpa esfarrapada: disse que tinha pago os cem mil-réis ao banqueiro Leveau, a quem os pedira emprestados; mas D. Margarida não engoliu a pílula, e foi à casa de Josephine certificar-se de que esta era uma cocotte freqüentada por seu marido. A pobre senhora separou-se do desgraçado, e abriu casa de modista.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "separou-se",
+                "child": "desgraçado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "separou-se",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desgraçado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "mon pays",
+        "sentence": "mon pays sera mes amour",
+        "start_char": 39,
+        "end_char": 47,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Oh! mon pays sera mes amour Toujours.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Toujours",
+        "sentence": "Toujours.",
+        "start_char": 63,
+        "end_char": 71,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Oh! mon pays sera mes amour Toujours.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sera",
+                "child": "amour Toujours",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "serar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "amour",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chateaubriand",
+        "sentence": "Chateaubriand.",
+        "start_char": 73,
+        "end_char": 86,
+        "excerpt": "mon pays sera mes amour Toujours. Chateaubriand.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meus amores",
+        "sentence": "Os meus lares, Meus amores ficam lá!",
+        "start_char": 128,
+        "end_char": 139,
+        "excerpt": "Chateaubriand. Eu nasci além dos mares: Os meus lares, Meus amores ficam lá!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficam",
+                "child": "Meus amores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Doce e",
+        "sentence": "Falta a luz do lar paterno Doce e terno, Doce e terno para mim.",
+        "start_char": 816,
+        "end_char": 822,
+        "excerpt": "Debalde eu olho e procuro... Tudo escuro Só vejo em roda de mim! Falta a luz do lar paterno Doce e terno, Doce e terno para mim.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

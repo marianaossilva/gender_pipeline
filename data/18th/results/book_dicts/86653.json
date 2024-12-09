@@ -1,0 +1,227 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Luís Castro Alves",
+        "sentence": "A Luís Castro Alves",
+        "start_char": 2,
+        "end_char": 19,
+        "excerpt": "A Luís Castro Alves A imaginação, com O VÔO ousado aspira a princípio à eternidade... Depois um pequeno espaço basta em breve para os destroços de nossas esperanças iludidas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "peregrino",
+        "sentence": "Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino!",
+        "start_char": 249,
+        "end_char": 258,
+        "excerpt": "Goethe Como um perfume de longínquas plagas Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pátria",
+                "child": "peregrino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pátria",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "peregrino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "peregrino",
+                "child": "pátria",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "peregrino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pátria",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "peregrino",
+                "child": "o vento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "peregrino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vento",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "peregrino",
+                "child": "Traz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "peregrino",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Traz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O meu amigo",
+        "sentence": "Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino!",
+        "start_char": 260,
+        "end_char": 271,
+        "excerpt": "Goethe Como um perfume de longínquas plagas Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um anjo",
+        "sentence": "De um anjo, que depois se fez esposa...  Moça, que troca os risos de criança",
+        "start_char": 659,
+        "end_char": 666,
+        "excerpt": "... Depois um pequeno espaço basta em breve para os destroços de nossas esperanças iludidas! ... Goethe Como um perfume de longínquas plagas Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino! É o ledo enxame de sutis abelhas Que vem lembrar à flor o mel d'aurora... Acres perfumes de uma idade ardenteQuando o lábio sorri... mas nunca chora! Que tempos idos! que esperanças louras! Que cismas de poesia e de futuro! Nas páginas do triste Lamartine Quanto sonho de amor pousava puro! ... E tu falavas de um amor celeste, De um anjo, que depois se fez esposa...  Moça, que troca os risos de criança",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moça",
+        "sentence": "De um anjo, que depois se fez esposa...  Moça, que troca os risos de criança",
+        "start_char": 697,
+        "end_char": 701,
+        "excerpt": "... Depois um pequeno espaço basta em breve para os destroços de nossas esperanças iludidas! ... Goethe Como um perfume de longínquas plagas Traz o vento da pátria ao peregrino, O meu amigo! que saudade infinda Tu me trazes dos tempos de menino! É o ledo enxame de sutis abelhas Que vem lembrar à flor o mel d'aurora... Acres perfumes de uma idade ardenteQuando o lábio sorri... mas nunca chora! Que tempos idos! que esperanças louras! Que cismas de poesia e de futuro! Nas páginas do triste Lamartine Quanto sonho de amor pousava puro! ... E tu falavas de um amor celeste, De um anjo, que depois se fez esposa...  Moça, que troca os risos de criança",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os risos",
+                "child": "...  Moça",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "riso",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criança",
+                "child": "...  Moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mãe",
+        "sentence": "Pelo meigo cismar de mãe formosa.",
+        "start_char": 754,
+        "end_char": 757,
+        "excerpt": "E tu falavas de um amor celeste, De um anjo, que depois se fez esposa...  Moça, que troca os risos de criança Pelo meigo cismar de mãe formosa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cismar",
+                "child": "mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cismar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mãe",
+                "child": "formosa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "formoso",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "peregrino",
+        "sentence": "Tu paraste na tenda, ó peregrino!",
+        "start_char": 930,
+        "end_char": 939,
+        "excerpt": "neste doce instante O vento do passado em mim suspira, E minh'alma estremece de alegria, Como ao beijo da noite geme a lira. Tu paraste na tenda, ó peregrino!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "paraste",
+                "child": "ó peregrino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parastir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "peregrino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

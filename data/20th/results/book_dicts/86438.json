@@ -1,0 +1,101 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O homem nasce, cresce, alegre e crente",
+        "start_char": 146,
+        "end_char": 153,
+        "excerpt": "FragmentoCasimiro de Abreu O mundo é uma mentira, a glória - fumo, A morte - um beijo, e esta vida um sonho Pesado ou doce, que s'esvai na campa! O homem nasce, cresce, alegre e crente",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "nasce",
+                "child": "O homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "insensato",
+        "sentence": "Pobre insensato - quer achar por força Pérola fina em lodaçal imundo!",
+        "start_char": 714,
+        "end_char": 723,
+        "excerpt": "Depois - louco sublime - ele se engana, Tenta enganar-se p'ra curar as mágoas, Cria fantasmas na cabeça em fogo, De novo atira o seu batel nas ondas, Trabalha, luta e se afadiga embalde Até que a morte lhe desmancha os sonhos. Pobre insensato - quer achar por força Pérola fina em lodaçal imundo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Pobre",
+                "child": "insensato",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pobre",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "insensato",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Menino louro",
+        "sentence": "- Menino louro que se cansa e mata Atrás da borboleta que travessa Nas moitas do mangal voa e se perde!",
+        "start_char": 780,
+        "end_char": 792,
+        "excerpt": "Até que a morte lhe desmancha os sonhos. Pobre insensato - quer achar por força Pérola fina em lodaçal imundo! - Menino louro que se cansa e mata Atrás da borboleta que travessa Nas moitas do mangal voa e se perde!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

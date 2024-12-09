@@ -1,0 +1,333 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Beata Esperta Bocage",
+        "sentence": "Soneto da Beata Esperta Bocage",
+        "start_char": 10,
+        "end_char": 30,
+        "excerpt": "Soneto da Beata Esperta Bocage Não te crimino a ti, plebe insensata, A vã superstição não te crimino; Foi natural, que o frade era ladino, É esperta em macaquices a beata:",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Beata Esperta Bocage",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Beata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Beata Esperta Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Beata",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "plebe insensata",
+        "sentence": "Não te crimino a ti, plebe insensata, A vã superstição não te crimino;",
+        "start_char": 52,
+        "end_char": 67,
+        "excerpt": "Soneto da Beata Esperta Bocage Não te crimino a ti, plebe insensata, A vã superstição não te crimino; Foi natural, que o frade era ladino, É esperta em macaquices a beata:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o frade",
+        "sentence": "Foi natural, que o frade era ladino, É esperta em macaquices a beata:",
+        "start_char": 119,
+        "end_char": 126,
+        "excerpt": "Soneto da Beata Esperta Bocage Não te crimino a ti, plebe insensata, A vã superstição não te crimino; Foi natural, que o frade era ladino, É esperta em macaquices a beata:",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o frade",
+                "child": "ladino",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "frade",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "ladino",
+                "categories": [
+                    "social",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o frade",
+                "child": "natural",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "frade",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "natural",
+                "categories": [
+                    "social",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ladino",
+                "child": "o frade",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "ladino",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "frade",
+                "categories": [
+                    "carater_social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "falso pastor",
+        "sentence": "Só crimino esse herói de bola chata, Que na escola de Marte inda é menino, E ao falso pastor, pastor sem tino, Que tão mal das ovelhas cura, e trata:",
+        "start_char": 252,
+        "end_char": 264,
+        "excerpt": "Não te crimino a ti, plebe insensata, A vã superstição não te crimino; Foi natural, que o frade era ladino, É esperta em macaquices a beata: Só crimino esse herói de bola chata, Que na escola de Marte inda é menino, E ao falso pastor, pastor sem tino, Que tão mal das ovelhas cura, e trata:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pastor",
+        "sentence": "Só crimino esse herói de bola chata, Que na escola de Marte inda é menino, E ao falso pastor, pastor sem tino, Que tão mal das ovelhas cura, e trata:",
+        "start_char": 258,
+        "end_char": 264,
+        "excerpt": "Não te crimino a ti, plebe insensata, A vã superstição não te crimino; Foi natural, que o frade era ladino, É esperta em macaquices a beata: Só crimino esse herói de bola chata, Que na escola de Marte inda é menino, E ao falso pastor, pastor sem tino, Que tão mal das ovelhas cura, e trata:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "menino",
+                "child": "pastor",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "falso",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "falso",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "pastor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "menino",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "menino",
+                "categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "tino",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "pastor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pastor",
+                "child": "menino",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "menino",
+                "categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tino",
+                "child": "pastor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tino",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tino",
+                "child": "pastor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tino",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cunha",
+        "sentence": "Ítem, crimino o respeitável Cunha, Que a frias petas crédito não dera, A ser filósofo, como supunha:",
+        "start_char": 350,
+        "end_char": 355,
+        "excerpt": "Foi natural, que o frade era ladino, É esperta em macaquices a beata: Só crimino esse herói de bola chata, Que na escola de Marte inda é menino, E ao falso pastor, pastor sem tino, Que tão mal das ovelhas cura, e trata: Ítem, crimino o respeitável Cunha, Que a frias petas crédito não dera, A ser filósofo, como supunha:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Cunha",
+                "child": "respeitável",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cunha",
+                "dep_c": "obj",
+                "pos_c": "ADJ",
+                "lemma_c": "respeitável",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cunha",
+                "child": "Ítem",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cunha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ítem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,909 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "o sr . X",
+        "sentence": "Uma tarde, eram quatro horas, o sr. X... voltava à sua casa para jantar.",
+        "start_char": 163,
+        "end_char": 171,
+        "excerpt": "Três tesouros perdidos, de Machado de Assis Edição referência: Publicado originalmente em A Marmota 1858 Uma tarde, eram quatro horas, o sr. X... voltava à sua casa para jantar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um cabriolé",
+        "sentence": "O apetite que levava não o fez reparar em um cabriolé que estava parado à sua porta.",
+        "start_char": 279,
+        "end_char": 290,
+        "excerpt": "Publicado originalmente em A Marmota 1858 Uma tarde, eram quatro horas, o sr. X... voltava à sua casa para jantar. O apetite que levava não o fez reparar em um cabriolé que estava parado à sua porta.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "reparar",
+                "child": "um cabriolé",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "reparar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cabriolé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um cabriolé",
+                "child": "parado",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cabriolé",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "parado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua porta",
+                "child": "um cabriolé",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cabriolé",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um homem",
+        "sentence": "dá com os olhos em um homem que passeava a largos passos como agitado por uma interna aflição.",
+        "start_char": 386,
+        "end_char": 394,
+        "excerpt": "O apetite que levava não o fez reparar em um cabriolé que estava parado à sua porta. Entrou, subiu a escada, penetra na sala e... dá com os olhos em um homem que passeava a largos passos como agitado por uma interna aflição.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dá",
+                "child": "um homem",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "carater",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "passos",
+                "child": "um homem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "passo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma interna aflição",
+                "child": "um homem",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "aflição",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe:",
+        "start_char": 494,
+        "end_char": 501,
+        "excerpt": "Entrou, subiu a escada, penetra na sala e... dá com os olhos em um homem que passeava a largos passos como agitado por uma interna aflição. Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lançou-se",
+                "child": "o homem",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "lançar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, eu sou F..., marido da senhora Dona",
+        "start_char": 555,
+        "end_char": 561,
+        "excerpt": "dá com os olhos em um homem que passeava a largos passos como agitado por uma interna aflição. Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe: Senhor, eu sou F..., marido da senhora Dona",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "diz-lhe",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "diz-lhe",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora Dona",
+        "sentence": "Senhor, eu sou F..., marido da senhora Dona",
+        "start_char": 586,
+        "end_char": 598,
+        "excerpt": "dá com os olhos em um homem que passeava a largos passos como agitado por uma interna aflição. Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe: Senhor, eu sou F..., marido da senhora Dona",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . X",
+        "sentence": "E...  Estimo muito conhecê-lo, responde o sr. X...; mas não tenho a honra de conhecer a senhora Dona",
+        "start_char": 598,
+        "end_char": 606,
+        "excerpt": "Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe: Senhor, eu sou F..., marido da senhora Dona E...  Estimo muito conhecê-lo, responde o sr. X...; mas não tenho a honra de conhecer a senhora Dona",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora Dona",
+        "sentence": "E...  Estimo muito conhecê-lo, responde o sr. X...; mas não tenho a honra de conhecer a senhora Dona",
+        "start_char": 685,
+        "end_char": 699,
+        "excerpt": "Cumprimentou-o polidamente; mas o homem lançou-se sobre ele e com uma voz alterada, diz-lhe: Senhor, eu sou F..., marido da senhora Dona E...  Estimo muito conhecê-lo, responde o sr. X...; mas não tenho a honra de conhecer a senhora Dona",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor!",
+        "start_char": 774,
+        "end_char": 780,
+        "excerpt": "Não a conhece! Não a conhece! ... quer juntar a zombaria à infâmia? Senhor!",
+        "gender": "male",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . X",
+        "sentence": "E o sr. X... deu um passo para ele.",
+        "start_char": 785,
+        "end_char": 793,
+        "excerpt": "Senhor! ... E o sr. X... deu um passo para ele.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O sr . F .",
+        "sentence": "O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão!",
+        "start_char": 830,
+        "end_char": 840,
+        "excerpt": "E o sr. X... deu um passo para ele. Alto lá! O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão!",
+        "start_char": 889,
+        "end_char": 897,
+        "excerpt": "E o sr. X... deu um passo para ele. Alto lá! O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "o senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . X",
+        "sentence": "Mas, senhor, disse o sr. X..., a quem a eloqüência do sr. F... tinha produzido um certo efeito, que motivo tem o senhor?",
+        "start_char": 949,
+        "end_char": 957,
+        "excerpt": "Alto lá! O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão! Mas, senhor, disse o sr. X..., a quem a eloqüência do sr. F... tinha produzido um certo efeito, que motivo tem o senhor?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sr . F",
+        "sentence": "Mas, senhor, disse o sr. X..., a quem a eloqüência do sr. F... tinha produzido um certo efeito, que motivo tem o senhor?",
+        "start_char": 949,
+        "end_char": 955,
+        "excerpt": "Alto lá! O sr. F... , tirando do bolso uma pistola, continuou:  Ou o senhor há de deixar esta corte, ou vai morrer como um cão! Mas, senhor, disse o sr. X..., a quem a eloqüência do sr. F... tinha produzido um certo efeito, que motivo tem o senhor?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Pois não é um motivo andar o senhor fazendo a corte à minha mulher?",
+        "start_char": 1122,
+        "end_char": 1130,
+        "excerpt": "...  Que motivo! É boa! Pois não é um motivo andar o senhor fazendo a corte à minha mulher?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andar",
+                "child": "o senhor",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "motivo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "motivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "Pois não é um motivo andar o senhor fazendo a corte à minha mulher?",
+        "start_char": 1149,
+        "end_char": 1161,
+        "excerpt": "...  Que motivo! É boa! Pois não é um motivo andar o senhor fazendo a corte à minha mulher?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a corte",
+                "child": "minha mulher",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "corte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "a corte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "corte",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "motivo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "motivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua mulher",
+        "sentence": "A corte à sua mulher!",
+        "start_char": 1173,
+        "end_char": 1183,
+        "excerpt": "É boa! Pois não é um motivo andar o senhor fazendo a corte à minha mulher? A corte à sua mulher!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A corte",
+                "child": "sua mulher",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "corte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua mulher",
+                "child": "A corte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "corte",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Mas, senhor, há de ser outro, que se pareça comigo...",
+        "start_char": 1416,
+        "end_char": 1422,
+        "excerpt": "No Andaraí... por uma porta secreta... Vamos! ou... Mas, senhor, há de ser outro, que se pareça comigo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "senhor",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Não; não; é o senhor mesmo...",
+        "start_char": 1477,
+        "end_char": 1485,
+        "excerpt": "Vamos! ou... Mas, senhor, há de ser outro, que se pareça comigo... Não; não; é o senhor mesmo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O sr . X",
+        "sentence": "O sr. X... compreendeu que estava metido entre um cavalo e uma pistola.",
+        "start_char": 1623,
+        "end_char": 1631,
+        "excerpt": "Escolha! Era um dilema. O sr. X... compreendeu que estava metido entre um cavalo e uma pistola.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cavalo",
+        "sentence": "Pois toda a sua paixão era ir a Minas, escolheu o cavalo.",
+        "start_char": 1744,
+        "end_char": 1752,
+        "excerpt": "Era um dilema. O sr. X... compreendeu que estava metido entre um cavalo e uma pistola. Pois toda a sua paixão era ir a Minas, escolheu o cavalo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escolheu",
+                "child": "o cavalo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escolher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavalo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus o leve a salvamento...",
+        "start_char": 2129,
+        "end_char": 2133,
+        "excerpt": "Oh! a pátria do Tiradentes! Deus o leve a salvamento...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . F .",
+        "sentence": "Dizendo isto, o sr. F... desceu precipitadamente a escada, e entrou no cabriolé, que desapareceu em uma nuvem de poeira.",
+        "start_char": 2210,
+        "end_char": 2220,
+        "excerpt": "Perdôo-lhe, mas não volte a esta corte... Boa viagem! Dizendo isto, o sr. F... desceu precipitadamente a escada, e entrou no cabriolé, que desapareceu em uma nuvem de poeira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O sr . X",
+        "sentence": "O sr. X... ficou por alguns instantes pensativo.",
+        "start_char": 2331,
+        "end_char": 2339,
+        "excerpt": "Boa viagem! Dizendo isto, o sr. F... desceu precipitadamente a escada, e entrou no cabriolé, que desapareceu em uma nuvem de poeira. O sr. X... ficou por alguns instantes pensativo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um moleque",
+        "sentence": "Jantou tranqüilamente, e daí a uma hora partia para a terra de Gonzaga, deixando em sua casa apenas um moleque encarregado de instruir, pelo espaço de oito dias, aos seus amigos sobre o seu destino.",
+        "start_char": 2634,
+        "end_char": 2644,
+        "excerpt": "Não podia acreditar nos seus olhos e ouvidos; pensava sonhar. Um engano trazia-lhe dois contos de réis, e a realização de um dos seus mais caros sonhos. Jantou tranqüilamente, e daí a uma hora partia para a terra de Gonzaga, deixando em sua casa apenas um moleque encarregado de instruir, pelo espaço de oito dias, aos seus amigos sobre o seu destino.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deixando",
+                "child": "apenas um moleque",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "espaço",
+                "child": "apenas um moleque",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "espaço",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "oito dias",
+                "child": "apenas um moleque",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus amigos",
+                "child": "apenas um moleque",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seu destino",
+                "child": "apenas um moleque",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "destino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus amigos",
+        "sentence": "Jantou tranqüilamente, e daí a uma hora partia para a terra de Gonzaga, deixando em sua casa apenas um moleque encarregado de instruir, pelo espaço de oito dias, aos seus amigos sobre o seu destino.",
+        "start_char": 2700,
+        "end_char": 2711,
+        "excerpt": "Não podia acreditar nos seus olhos e ouvidos; pensava sonhar. Um engano trazia-lhe dois contos de réis, e a realização de um dos seus mais caros sonhos. Jantou tranqüilamente, e daí a uma hora partia para a terra de Gonzaga, deixando em sua casa apenas um moleque encarregado de instruir, pelo espaço de oito dias, aos seus amigos sobre o seu destino.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "instruir",
+                "child": "seus amigos",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "instruir",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus amigos",
+                "child": "o seu destino",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "destino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus amigos",
+                "child": "apenas um moleque",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seu destino",
+                "child": "seus amigos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "destino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . F .",
+        "sentence": "No dia seguinte, pelas onze horas da manhã, voltava o sr. F...",
+        "start_char": 2732,
+        "end_char": 2742,
+        "excerpt": "Um engano trazia-lhe dois contos de réis, e a realização de um dos seus mais caros sonhos. Jantou tranqüilamente, e daí a uma hora partia para a terra de Gonzaga, deixando em sua casa apenas um moleque encarregado de instruir, pelo espaço de oito dias, aos seus amigos sobre o seu destino. No dia seguinte, pelas onze horas da manhã, voltava o sr. F...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sr . F",
+        "sentence": "Desesperado, fora de si, o sr. F...",
+        "start_char": 2952,
+        "end_char": 2960,
+        "excerpt": "para a sua chácara de Andaraí, pois tinha passado a noite fora. Entrou, penetrou na sala, e indo deixar o chapéu sobre uma mesa, viu ali o seguinte bilhete: Desesperado, fora de si, o sr. F...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o paquete",
+        "sentence": "lança-se a um jornal que perto estava: o paquete tinha partido às oito horas.",
+        "start_char": 3028,
+        "end_char": 3037,
+        "excerpt": "Entrou, penetrou na sala, e indo deixar o chapéu sobre uma mesa, viu ali o seguinte bilhete: Desesperado, fora de si, o sr. F... lança-se a um jornal que perto estava: o paquete tinha partido às oito horas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "partido",
+                "child": "o paquete",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "partir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "paquete",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "Era P... que eu acreditava meu amigo...",
+        "start_char": 3094,
+        "end_char": 3103,
+        "excerpt": "Desesperado, fora de si, o sr. F... lança-se a um jornal que perto estava: o paquete tinha partido às oito horas. Era P... que eu acreditava meu amigo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acreditava",
+                "child": "meu amigo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "Era P",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "P",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o moleque",
+        "sentence": "Tornou a meter-se no cabriolé e dirigiu-se à casa do sr. X..., subiu; apareceu o moleque.",
+        "start_char": 3238,
+        "end_char": 3247,
+        "excerpt": "maldição! Ao menos não percamos os dois contos! Tornou a meter-se no cabriolé e dirigiu-se à casa do sr. X..., subiu; apareceu o moleque.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "o moleque",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moleque",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O sr . F",
+        "sentence": "O sr. F... desmaiou.",
+        "start_char": 3280,
+        "end_char": 3288,
+        "excerpt": "Tornou a meter-se no cabriolé e dirigiu-se à casa do sr. X..., subiu; apareceu o moleque. Teu senhor?  Partiu para Minas. O sr. F... desmaiou.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o doido",
+        "sentence": "Neste último ponto, o doido tem razão, e parece ser um doido com juízo.",
+        "start_char": 3611,
+        "end_char": 3618,
+        "excerpt": "louco varrido! Hoje, quando alguém o visita, diz ele com um tom lastimoso:  Perdi três tesouros a um tempo: uma mulher sem igual, um amigo a toda prova, e uma linda carteira cheia de encantadoras notas... que bem podiam aquecer-me as algibeiras!... Neste último ponto, o doido tem razão, e parece ser um doido com juízo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o doido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doido",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

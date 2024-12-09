@@ -1,0 +1,94 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Se às vezes digo que as flores sorriem Alberto Caeiro",
+        "start_char": 39,
+        "end_char": 53,
+        "excerpt": "Se às vezes digo que as flores sorriem Alberto Caeiro Se às vezes digo que as flores sorriem E se eu disser que os rios cantam, Não é porque eu julgue que há sorrisos nas flores E cantos no correr dos rios...",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "homens falsos",
+        "sentence": "É porque assim faço mais sentir aos homens falsos",
+        "start_char": 245,
+        "end_char": 258,
+        "excerpt": "Se às vezes digo que as flores sorriem E se eu disser que os rios cantam, Não é porque eu julgue que há sorrisos nas flores E cantos no correr dos rios... É porque assim faço mais sentir aos homens falsos",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Natureza",
+        "sentence": "Não concordo comigo mas absolvo-me, Porque só sou essa cousa séria, um intérprete da Natureza, Porque há homens que não percebem a sua linguagem, Por ela não ser linguagem nenhuma.",
+        "start_char": 488,
+        "end_char": 496,
+        "excerpt": "A existência verdadeiramente real das flores e dos rios. Porque escrevo para eles me lerem sacrifico-me às vezes À sua estupidez de sentidos... Não concordo comigo mas absolvo-me, Porque só sou essa cousa séria, um intérprete da Natureza, Porque há homens que não percebem a sua linguagem, Por ela não ser linguagem nenhuma.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "intérprete",
+                "child": "Natureza",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "intérprete",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Natureza",
+                "child": "intérprete",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Natureza",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "intérprete",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Natureza",
+                "child": "cousa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Natureza",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "cousa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

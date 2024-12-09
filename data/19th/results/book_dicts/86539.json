@@ -1,0 +1,50 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Uma gargalhada de rapariga soa do ar Alberto Caeiro Escrito em 12-4-1919.",
+        "start_char": 37,
+        "end_char": 51,
+        "excerpt": "Uma gargalhada de rapariga soa do ar Alberto Caeiro Escrito em 12-4-1919. Uma gargalhada de raparigas soa do ar da estrada. Riu do que disse quem não vejo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ar",
+                "child": "Alberto Caeiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ar",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "ar",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "Uma gargalhada",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "gargalhada",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

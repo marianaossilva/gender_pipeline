@@ -1,0 +1,2958 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Edgar1 Poe",
+        "sentence": "Um grande escritor, Edgar1 Poe, relata, em um de seus admiráveis contos, a corrida noturna de um desconhecido pelas ruas de Londres, à medida que se despovoam, com o visível intento de nunca ficar só.",
+        "start_char": 498,
+        "end_char": 508,
+        "excerpt": "A um dos lados da chácara corria outra rua. Creio que tudo isso era para os lados de Andaraí. Um grande escritor, Edgar1 Poe, relata, em um de seus admiráveis contos, a corrida noturna de um desconhecido pelas ruas de Londres, à medida que se despovoam, com o visível intento de nunca ficar só.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um desconhecido",
+        "sentence": "Um grande escritor, Edgar1 Poe, relata, em um de seus admiráveis contos, a corrida noturna de um desconhecido pelas ruas de Londres, à medida que se despovoam, com o visível intento de nunca ficar só.",
+        "start_char": 572,
+        "end_char": 587,
+        "excerpt": "A um dos lados da chácara corria outra rua. Creio que tudo isso era para os lados de Andaraí. Um grande escritor, Edgar1 Poe, relata, em um de seus admiráveis contos, a corrida noturna de um desconhecido pelas ruas de Londres, à medida que se despovoam, com o visível intento de nunca ficar só.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a corrida",
+                "child": "um desconhecido",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "corrida",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desconhecido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um desconhecido",
+                "child": "a corrida",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desconhecido",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "corrida",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um desconhecido",
+                "child": "Um grande escritor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desconhecido",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "escritor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "\"* Bonifácio não era capaz de crimes, nem ia agora atrás de lugares povoados, tanto que vinha recolher-se a uma casa vazia.",
+        "start_char": 772,
+        "end_char": 781,
+        "excerpt": "\" Esse homem, conclui ele, é o tipo e o gênio do crime profundo; é o homem das multidões. \"* Bonifácio não era capaz de crimes, nem ia agora atrás de lugares povoados, tanto que vinha recolher-se a uma casa vazia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Bonifácio",
+                "child": "capaz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonifácio",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "capaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Quem lhe meteu isso na cabeça  sem o querer nem saber  foi um esquisitão desse tempo, dizem que filósofo, um tal Tobias que morava para os lados do Jardim Botânico.",
+        "start_char": 1214,
+        "end_char": 1220,
+        "excerpt": "Posto que os seus quarenta e cinco anos não fossem tais que tornassem inverossímil uma fantasia de mulher, não era amor que o trazia à reclusão. Vamos à verdade: ele queria descansar da companhia dos outros. Quem lhe meteu isso na cabeça  sem o querer nem saber  foi um esquisitão desse tempo, dizem que filósofo, um tal Tobias que morava para os lados do Jardim Botânico.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizem",
+                "child": "um tal Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os lados",
+                "child": "um tal Tobias",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "lado",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jardim Botânico",
+                "child": "um tal Tobias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Jardim",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os rapazes",
+        "sentence": "Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio.",
+        "start_char": 1844,
+        "end_char": 1854,
+        "excerpt": "Veio para o Rio de Janeiro, com o plano de passar a S. Paulo; mas foi ficando e aqui morreu. Costumava ele desaparecer da cidade durante um ou dous meses; metia-se em casa, com o único preto que possuía, e a quem dava ordem de lhe não dizer nada. Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a opinião",
+                "child": "os rapazes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os rapazes",
+                "child": "a opinião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rapaz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "opinião",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas;",
+        "start_char": 1983,
+        "end_char": 1992,
+        "excerpt": "Costumava ele desaparecer da cidade durante um ou dous meses; metia-se em casa, com o único preto que possuía, e a quem dava ordem de lhe não dizer nada. Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio. Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus poucos familiares",
+                "child": "Bonifácio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "familiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Tobias respondeu, que era o maior regalo do mundo.",
+        "start_char": 2107,
+        "end_char": 2113,
+        "excerpt": "Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio. Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas; Tobias respondeu, que era o maior regalo do mundo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um escravo",
+        "sentence": "Ora, um escravo, que nem sequer lhe pode tomar a bênção!",
+        "start_char": 2256,
+        "end_char": 2266,
+        "excerpt": "tanto tempo assim, metido entre quatro paredes, sem ninguém! Sem ninguém, não. Ora, um escravo, que nem sequer lhe pode tomar a bênção!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Não, senhor.",
+        "start_char": 2313,
+        "end_char": 2319,
+        "excerpt": "Sem ninguém, não. Ora, um escravo, que nem sequer lhe pode tomar a bênção! Não, senhor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho Tobias",
+        "sentence": "Ele, que andava aborrecido e cansado da vida social, quis imitar o velho Tobias; disse em casa, na loja do Bernardo e a alguns amigos, que ia estar uns dias em Iguaçu, e recolheu-se a Andaraí.",
+        "start_char": 2765,
+        "end_char": 2779,
+        "excerpt": "Algumas vêm já grávidas de outras, e dão à luz cinco, dez, vinte e todo esse povo salta, brinca, desce, sobe, às vezes lutam umas com outras, ferem-se e algumas morrem; e quando dou acordo de mim, lá se vão muitas semanas. Foi pouco depois dessa conversação que vagou uma casa de Bonifácio. Ele, que andava aborrecido e cansado da vida social, quis imitar o velho Tobias; disse em casa, na loja do Bernardo e a alguns amigos, que ia estar uns dias em Iguaçu, e recolheu-se a Andaraí.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "imitar",
+                "child": "o velho Tobias",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "imitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonaparte",
+        "sentence": "Em verdade, pouca gente gostará da música monótona; Bonaparte, entretanto, lambia-se por ela, e sacava dali uma teoria curiosa, a saber, que as impressões que se repetem são as únicas que verdadeiramente se apossam de nós.",
+        "start_char": 3167,
+        "end_char": 3176,
+        "excerpt": "Uma vez que a variedade enfarava, era possível achar sabor da monotonia. Viver só, duas semanas inteiras, no mesmo espaço, com as mesmas cousas, sem andar de casa em casa e de rua em rua, não seria um deleite novo e raro? Em verdade, pouca gente gostará da música monótona; Bonaparte, entretanto, lambia-se por ela, e sacava dali uma teoria curiosa, a saber, que as impressões que se repetem são as únicas que verdadeiramente se apossam de nós.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lambia-se",
+                "child": "Bonaparte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lambiar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaparte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Robinson",
+        "sentence": "A primeira impressão dele, quando ali se achou, espécie de Robinson, foi um pouco estranha, mas agradável.",
+        "start_char": 3527,
+        "end_char": 3535,
+        "excerpt": "Vimo-lo entrar. Vamos vê-lo percorrer tudo, salas e alcovas, jardim e chácara. A primeira impressão dele, quando ali se achou, espécie de Robinson, foi um pouco estranha, mas agradável.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "espécie",
+                "child": "Robinson",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "espécie",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Robinson",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Robinson",
+                "child": "espécie",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Robinson",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "espécie",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Robinson",
+                "child": "estranha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Robinson",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "estranho",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as ave - marias",
+        "sentence": "Só reparou bem que estava só, quando lhe entraram em casa as ave-marias, com o seu ar de viúvas recentes; foi a primeira vez na vida que ele sentiu a melancolia de tais hóspedes.",
+        "start_char": 4205,
+        "end_char": 4220,
+        "excerpt": "Buracos de rato, rasgões no papel da parede, pregos deixados, golpes de canivete no peitoril de algumas janelas, tudo descobriu, e contra tudo tempestuou com uma certa cólera postiça e eficaz na ocasião. A tarde passou depressa. Só reparou bem que estava só, quando lhe entraram em casa as ave-marias, com o seu ar de viúvas recentes; foi a primeira vez na vida que ele sentiu a melancolia de tais hóspedes.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "hóspedes",
+        "sentence": "Só reparou bem que estava só, quando lhe entraram em casa as ave-marias, com o seu ar de viúvas recentes; foi a primeira vez na vida que ele sentiu a melancolia de tais hóspedes.",
+        "start_char": 4375,
+        "end_char": 4383,
+        "excerpt": "Buracos de rato, rasgões no papel da parede, pregos deixados, golpes de canivete no peitoril de algumas janelas, tudo descobriu, e contra tudo tempestuou com uma certa cólera postiça e eficaz na ocasião. A tarde passou depressa. Só reparou bem que estava só, quando lhe entraram em casa as ave-marias, com o seu ar de viúvas recentes; foi a primeira vez na vida que ele sentiu a melancolia de tais hóspedes.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a melancolia",
+                "child": "tais hóspedes",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "melancolia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "hóspede",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tais hóspedes",
+                "child": "a melancolia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "melancolia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tais hóspedes",
+                "child": "vida",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tais hóspedes",
+                "child": "vez",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "vez",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dante",
+        "sentence": "Essa hora eloqüente e profunda, que ninguém mais cantará como o divino Dante, ele só a conhecia pelo gás do jantar, pelo aspecto das viandas, ao tinir dos pratos, ao reluzir dos copos, ao burburinho da conversação, se jantava com outras pessoas, ou pensando nelas, se jantava só.",
+        "start_char": 4456,
+        "end_char": 4461,
+        "excerpt": "A tarde passou depressa. Só reparou bem que estava só, quando lhe entraram em casa as ave-marias, com o seu ar de viúvas recentes; foi a primeira vez na vida que ele sentiu a melancolia de tais hóspedes. Essa hora eloqüente e profunda, que ninguém mais cantará como o divino Dante, ele só a conhecia pelo gás do jantar, pelo aspecto das viandas, ao tinir dos pratos, ao reluzir dos copos, ao burburinho da conversação, se jantava com outras pessoas, ou pensando nelas, se jantava só.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cantará",
+                "child": "Dante",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "Essa hora eloqüente e profunda",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dante",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "conhecia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dante",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "conhecia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pateta",
+        "sentence": "Pateta!",
+        "start_char": 5326,
+        "end_char": 5332,
+        "excerpt": "De manhã, ao voltar do tanque e tomado o café, procurou os jornais do dia, e só então advertiu que, de propósito, os não mandara vir. Estava tão acostumado a lê-los, entre o café e o almoço, que não pôde achar compensação em nada. Pateta!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cabeleireiro",
+        "sentence": "\"Lembrar ao cabeleireiro para ir à casa de D. Amélia\".  \"Comprar um cavalinho de pau para o filho do Vasconcelos\".  \"",
+        "start_char": 5755,
+        "end_char": 5767,
+        "excerpt": "Releu os bilhetes e as notas. Algumas destas falavam de cousas e pessoas dispersas ou extintas: \"Lembrar ao cabeleireiro para ir à casa de D. Amélia\".  \"Comprar um cavalinho de pau para o filho do Vasconcelos\".  \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Lembrar",
+                "child": "cabeleireiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cabeleireiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filho do Vasconcelos",
+        "sentence": "\"Lembrar ao cabeleireiro para ir à casa de D. Amélia\".  \"Comprar um cavalinho de pau para o filho do Vasconcelos\".  \"",
+        "start_char": 5833,
+        "end_char": 5855,
+        "excerpt": "Releu os bilhetes e as notas. Algumas destas falavam de cousas e pessoas dispersas ou extintas: \"Lembrar ao cabeleireiro para ir à casa de D. Amélia\".  \"Comprar um cavalinho de pau para o filho do Vasconcelos\".  \"",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ministro da Marinha",
+        "sentence": "Cumprimentar o ministro da Marinha\".",
+        "start_char": 5874,
+        "end_char": 5895,
+        "excerpt": "Algumas destas falavam de cousas e pessoas dispersas ou extintas: \"Lembrar ao cabeleireiro para ir à casa de D. Amélia\".  \"Comprar um cavalinho de pau para o filho do Vasconcelos\".  \" Cumprimentar o ministro da Marinha\".",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Antônia",
+        "sentence": "Não esquecer de copiar as charadas que D. Antônia me pediu\".  \"",
+        "start_char": 5899,
+        "end_char": 5910,
+        "excerpt": "Cumprimentar o ministro da Marinha\". \" Não esquecer de copiar as charadas que D. Antônia me pediu\".  \"",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "secretário da Câmara",
+        "sentence": "\"Pedir ao secretário da Câmara um bilhete de tribuna para o dia da interpelação\".",
+        "start_char": 6014,
+        "end_char": 6034,
+        "excerpt": "Não esquecer de copiar as charadas que D. Antônia me pediu\".  \" Ver o número da casa dos suspensórios\". \"Pedir ao secretário da Câmara um bilhete de tribuna para o dia da interpelação\".",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Soares",
+        "sentence": "E assim outras algumas tão concisas, que ele mesmo não chegava a entender, como estas, por exemplo:  \"Soares, prendas, a cavalo\".  \"Ouro e pé de mesa\".",
+        "start_char": 6188,
+        "end_char": 6194,
+        "excerpt": "Ver o número da casa dos suspensórios\". \"Pedir ao secretário da Câmara um bilhete de tribuna para o dia da interpelação\". E assim outras algumas tão concisas, que ele mesmo não chegava a entender, como estas, por exemplo:  \"Soares, prendas, a cavalo\".  \"Ouro e pé de mesa\".",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio estremeceu...  Carlota!",
+        "start_char": 6385,
+        "end_char": 6394,
+        "excerpt": "No fundo da gaveta, deu com uma caixinha de tartaruga, e dentro um molhozinho de cabelos, e este papel: \"Cortados ontem, 5 de novembro, de manhã\". Bonifácio estremeceu...  Carlota!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "estremeceu",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estremecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Bonifácio estremeceu...  Carlota!",
+        "start_char": 6410,
+        "end_char": 6417,
+        "excerpt": "No fundo da gaveta, deu com uma caixinha de tartaruga, e dentro um molhozinho de cabelos, e este papel: \"Cortados ontem, 5 de novembro, de manhã\". Bonifácio estremeceu...  Carlota!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "estremeceu",
+                "child": "Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estremecer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Carlota",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Solteiro, e sem parentes, Bonifácio fez da sociedade uma família.",
+        "start_char": 6525,
+        "end_char": 6534,
+        "excerpt": "Compreende-se a comoção. As outras notas eram pedaços da vida social. Solteiro, e sem parentes, Bonifácio fez da sociedade uma família.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "Vivia da convivência, era o elemento obrigado de todas as funções, parceiro infalível, confidente discreto e cordial servidor, principalmente de senhoras.",
+        "start_char": 6760,
+        "end_char": 6767,
+        "excerpt": "Solteiro, e sem parentes, Bonifácio fez da sociedade uma família. Contava numerosas relações, e não poucas íntimas. Vivia da convivência, era o elemento obrigado de todas as funções, parceiro infalível, confidente discreto e cordial servidor, principalmente de senhoras.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "todas as funções, parceiro infalível, confidente discreto e cordial",
+                "child": ", principalmente de senhoras",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "função",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", principalmente de senhoras",
+                "child": "todas as funções, parceiro infalível, confidente discreto e cordial",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "função",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", principalmente de senhoras",
+                "child": "elemento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "elemento",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Carlota! repetiu ainda.",
+        "start_char": 7153,
+        "end_char": 7160,
+        "excerpt": "Nas confidências, como era pacífico e sem opinião, adotava os sentimentos de cada um, e tratava sinceramente de os combinar, de restaurar os edifícios que, ou o tempo, ou as tempestades da vida, iam gastando. Foi uma dessas confidências, que o levou ao amor expresso naquele molhozinho de cabelos, cortados ontem, 5 de novembro; e esse amor foi a grande data memorável da vida dele. Carlota! repetiu ainda.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Reviveu o amor e a carruagem  a carruagem dela , os ombros soberbos e as jóias magníficas  os dedos e os anéis, a ternura da amada e a admiração pública...  Carlota!",
+        "start_char": 7584,
+        "end_char": 7591,
+        "excerpt": "Reclinado na cadeira, contemplava os cabelos, como se fossem a própria pessoa; releu o bilhete, depois fechou os olhos, para recordar melhor. Pode-se dizer que ficou um pouco triste, mas de uma tristeza que a fatuidade tingia de alguns tons alegres. Reviveu o amor e a carruagem  a carruagem dela , os ombros soberbos e as jóias magníficas  os dedos e os anéis, a ternura da amada e a admiração pública...  Carlota!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Reviveu",
+                "child": "...  Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Reviveu",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "Carlota",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Borgonha",
+        "sentence": "E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim.",
+        "start_char": 7743,
+        "end_char": 7751,
+        "excerpt": "Reviveu o amor e a carruagem  a carruagem dela , os ombros soberbos e as jóias magníficas  os dedos e os anéis, a ternura da amada e a admiração pública...  Carlota! Nem almoçando, perdeu a preocupação. E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "contarmos",
+                "child": "o excelente Borgonha",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borgonha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o excelente Borgonha",
+                "child": "melhor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Borgonha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bom",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um diplomata",
+                "child": "o excelente Borgonha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "diplomata",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borgonha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um diplomata",
+        "sentence": "E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim.",
+        "start_char": 7782,
+        "end_char": 7794,
+        "excerpt": "Reviveu o amor e a carruagem  a carruagem dela , os ombros soberbos e as jóias magníficas  os dedos e os anéis, a ternura da amada e a admiração pública...  Carlota! Nem almoçando, perdeu a preocupação. E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um diplomata",
+                "child": "presente",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "diplomata",
+                "dep_c": "advmod",
+                "pos_c": "ADJ",
+                "lemma_c": "presente",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um diplomata",
+                "child": "o excelente Borgonha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "diplomata",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borgonha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um diplomata",
+                "child": "melhor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "diplomata",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bom",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos.",
+        "start_char": 7869,
+        "end_char": 7878,
+        "excerpt": "Nem almoçando, perdeu a preocupação. E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim. Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Uma vez que isto lhe pareceu possível, Bonifácio abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua.",
+        "start_char": 8070,
+        "end_char": 8079,
+        "excerpt": "Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos. Podia ser; morava para os lados da Tijuca. Uma vez que isto lhe pareceu possível, Bonifácio abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "abriu",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Tinha esse gênero de imaginação que a esperança dá a todos os homens; figurou na cabeça a passagem de Carlota, a entrada, o assombro e o reconhecimento.",
+        "start_char": 8282,
+        "end_char": 8289,
+        "excerpt": "Podia ser; morava para os lados da Tijuca. Uma vez que isto lhe pareceu possível, Bonifácio abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua. Tinha esse gênero de imaginação que a esperança dá a todos os homens; figurou na cabeça a passagem de Carlota, a entrada, o assombro e o reconhecimento.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a passagem",
+                "child": "Carlota",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "passagem",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Carlota",
+                "child": "a passagem",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlota",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "passagem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sr . Bonifácio",
+        "sentence": "De quando em quando, chegavam-lhe ao ouvido uns retalhos de frases:  Mas, sr. Bonifácio...  Jogue; a vaza é minha...",
+        "start_char": 8426,
+        "end_char": 8440,
+        "excerpt": "Tinha esse gênero de imaginação que a esperança dá a todos os homens; figurou na cabeça a passagem de Carlota, a entrada, o assombro e o reconhecimento. Supôs até que lhe ouvia a voz; mas era o que lhe acontecia desde manhã, a respeito de outras. De quando em quando, chegavam-lhe ao ouvido uns retalhos de frases:  Mas, sr. Bonifácio...  Jogue; a vaza é minha...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o desembargador",
+        "sentence": "Jantou com o desembargador?",
+        "start_char": 8555,
+        "end_char": 8570,
+        "excerpt": "Supôs até que lhe ouvia a voz; mas era o que lhe acontecia desde manhã, a respeito de outras. De quando em quando, chegavam-lhe ao ouvido uns retalhos de frases:  Mas, sr. Bonifácio...  Jogue; a vaza é minha... Jantou com o desembargador?",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Jantou",
+                "child": "o desembargador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Jantou",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "desembargador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dona dos cabelos",
+        "sentence": "A voz da dona dos cabelos era também um eco.",
+        "start_char": 8603,
+        "end_char": 8619,
+        "excerpt": "Jantou com o desembargador? Eram ecos da memória. A voz da dona dos cabelos era também um eco.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a dama",
+        "sentence": "Chegou a crer que o fato extraordinário da reclusão se prendesse ao encontro com a dama, único modo de a explicar.",
+        "start_char": 8813,
+        "end_char": 8819,
+        "excerpt": "A voz da dona dos cabelos era também um eco. A diferença é que esta lhe pareceu mais perto, e ele cuidou que, realmente, ia ver a pessoa. Chegou a crer que o fato extraordinário da reclusão se prendesse ao encontro com a dama, único modo de a explicar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "encontro",
+                "child": "a dama",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "encontro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dama",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a dama",
+                "child": "encontro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dama",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "encontro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bernardo",
+        "sentence": "Chegou à janela, para ver a chuva, e lembrou-se que um de seus prazeres, em tais ocasiões, era estar à porta do Bernardo ou do Farani, vendo passar a gente, uns para baixo, outros para cima, numa contradança de guarda-chuvas...",
+        "start_char": 9308,
+        "end_char": 9316,
+        "excerpt": "Meu bem! Estremeceu; mas era ilusão. Chegou à janela, para ver a chuva, e lembrou-se que um de seus prazeres, em tais ocasiões, era estar à porta do Bernardo ou do Farani, vendo passar a gente, uns para baixo, outros para cima, numa contradança de guarda-chuvas...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "porta",
+                "child": "Bernardo",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bernardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bernardo",
+                "child": "do Farani",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bernardo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Farani",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bernardo",
+                "child": "porta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bernardo",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Farani",
+                "child": "Bernardo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Farani",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bernardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Farani",
+        "sentence": "Chegou à janela, para ver a chuva, e lembrou-se que um de seus prazeres, em tais ocasiões, era estar à porta do Bernardo ou do Farani, vendo passar a gente, uns para baixo, outros para cima, numa contradança de guarda-chuvas...",
+        "start_char": 9323,
+        "end_char": 9329,
+        "excerpt": "Meu bem! Estremeceu; mas era ilusão. Chegou à janela, para ver a chuva, e lembrou-se que um de seus prazeres, em tais ocasiões, era estar à porta do Bernardo ou do Farani, vendo passar a gente, uns para baixo, outros para cima, numa contradança de guarda-chuvas...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Bernardo",
+                "child": "do Farani",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bernardo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Farani",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Farani",
+                "child": "Bernardo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Farani",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bernardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Farani",
+                "child": "porta",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Farani",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho Tobias",
+        "sentence": "Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias.",
+        "start_char": 9952,
+        "end_char": 9964,
+        "excerpt": "Estava impaciente, zangado, nervoso. A chuva, posto que não forte, prometia durar muitas horas, e talvez dias. Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dou",
+        "sentence": "Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido.",
+        "start_char": 10044,
+        "end_char": 10047,
+        "excerpt": "A chuva, posto que não forte, prometia durar muitas horas, e talvez dias. Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias. Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fugindo",
+                "child": "dous",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "fugir",
+                "dep_c": "compound",
+                "pos_c": "NOUN",
+                "lemma_c": "dous",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dous",
+                "child": "Estava em casa",
+                "dep_h": "compound",
+                "pos_h": "NOUN",
+                "lemma_h": "dous",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "persegu",
+        "sentence": "Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido.",
+        "start_char": 10193,
+        "end_char": 10200,
+        "excerpt": "A chuva, posto que não forte, prometia durar muitas horas, e talvez dias. Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias. Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs.",
+        "start_char": 10232,
+        "end_char": 10238,
+        "excerpt": "Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias. Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido. Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um dito",
+                "child": "Tobias",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tobias",
+                "child": "velho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tobias",
+                "child": "um dito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "dito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tobias",
+                "child": "cainçada",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "cainçado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o dono",
+        "sentence": "Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs.",
+        "start_char": 10247,
+        "end_char": 10253,
+        "excerpt": "Outra cainçada aos fundos, e desta vez trouxe-lhe à memória um dito do velho Tobias. Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido. Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "supunha",
+                "child": "o dono",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "supunhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dono",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio riu-se, e perguntou-lhe se um animal tão nobre era para andar nos tumultos de rua.",
+        "start_char": 10333,
+        "end_char": 10342,
+        "excerpt": "Estava em casa dele, ambos à janela, e viram passar na rua um cão, fugindo de dous, que ladravam; outros cães, porém, saindo das lojas e das esquinas, entravam a ladrar também, com igual ardor e raiva, e todos corriam atrás do perseguido. Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs. Bonifácio riu-se, e perguntou-lhe se um animal tão nobre era para andar nos tumultos de rua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Você fala assim, respondeu Tobias, porque não conhece a máxima social dos cães.",
+        "start_char": 10453,
+        "end_char": 10459,
+        "excerpt": "Entre eles ia o do próprio Tobias, um que o dono supunha ser descendente de algum cão feudal, companheiro das antigas castelãs. Bonifácio riu-se, e perguntou-lhe se um animal tão nobre era para andar nos tumultos de rua. Você fala assim, respondeu Tobias, porque não conhece a máxima social dos cães.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Tobias",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o perseguido",
+        "sentence": "Viu que nenhum deles perguntou aos outros o que é que o perseguido tinha feito; todos entraram no coro e perseguiram também, levados desta máxima universal entre eles:",
+        "start_char": 10560,
+        "end_char": 10572,
+        "excerpt": "Bonifácio riu-se, e perguntou-lhe se um animal tão nobre era para andar nos tumultos de rua. Você fala assim, respondeu Tobias, porque não conhece a máxima social dos cães. Viu que nenhum deles perguntou aos outros o que é que o perseguido tinha feito; todos entraram no coro e perseguiram também, levados desta máxima universal entre eles:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "feito",
+                "child": "o perseguido",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "perseguido",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "perseguido",
+        "sentence": "Quem persegue ou morde, tem sempre razão  ou, em relação à matéria da perseguição, ou, quando menos, em relação às pernas do perseguido.",
+        "start_char": 10799,
+        "end_char": 10809,
+        "excerpt": "Você fala assim, respondeu Tobias, porque não conhece a máxima social dos cães. Viu que nenhum deles perguntou aos outros o que é que o perseguido tinha feito; todos entraram no coro e perseguiram também, levados desta máxima universal entre eles: Quem persegue ou morde, tem sempre razão  ou, em relação à matéria da perseguição, ou, quando menos, em relação às pernas do perseguido.",
+        "gender": "male",
+        "pch_occurrences": {
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "pernas",
+                    "perna"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "feito",
+                "child": "o perseguido",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "perseguido",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pernas",
+                "child": "perseguido",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perna",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "perseguido",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "relação",
+                        "child": "pernas",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "relação",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perna"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "perseguido",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perseguido"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "relação",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "relação"
+                    },
+                    {
+                        "head": "perseguido",
+                        "child": "pernas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perseguido",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perna"
+                    }
+                ]
+            },
+            {
+                "head": "perseguido",
+                "child": "pernas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perseguido",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "perna",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "relação",
+                        "child": "pernas",
+                        "dep_h": "dep",
+                        "pos_h": "NOUN",
+                        "lemma_h": "relação",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perna"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "perseguido",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perseguido"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "relação",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "dep",
+                        "pos_c": "NOUN",
+                        "lemma_c": "relação"
+                    },
+                    {
+                        "head": "perseguido",
+                        "child": "pernas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perseguido",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perna"
+                    }
+                ]
+            },
+            {
+                "head": "perseguido",
+                "child": "relação",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perseguido",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "relação",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bias",
+        "sentence": "Não se lembrava do resto, e, aliás, a idéia do Tobias pareceu-lhe ininteligível, ou, quando menos, obscura.",
+        "start_char": 10887,
+        "end_char": 10891,
+        "excerpt": "Já reparou? Repare e verá. Não se lembrava do resto, e, aliás, a idéia do Tobias pareceu-lhe ininteligível, ou, quando menos, obscura.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a idéia",
+                "child": "Tobias",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "idéia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tobias",
+                "child": "a idéia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os cães",
+        "sentence": "Os cães tinham cessado de latir.",
+        "start_char": 10946,
+        "end_char": 10953,
+        "excerpt": "Repare e verá. Não se lembrava do resto, e, aliás, a idéia do Tobias pareceu-lhe ininteligível, ou, quando menos, obscura. Os cães tinham cessado de latir.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cessado",
+                "child": "Os cães",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cessar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio andou, voltou, foi de um lado para outro, começava a achar-se ridículo.",
+        "start_char": 11002,
+        "end_char": 11011,
+        "excerpt": "Os cães tinham cessado de latir. Só continuava a chuva. Bonifácio andou, voltou, foi de um lado para outro, começava a achar-se ridículo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um comissário de café",
+        "sentence": "Sabia que era segunda-feira, dia em que costumava jantar na Rua dos Beneditinos, com um comissário de café.",
+        "start_char": 11243,
+        "end_char": 11264,
+        "excerpt": "Que horas seriam? Não lhe restava o recurso de calcular o tempo pelo sol. Sabia que era segunda-feira, dia em que costumava jantar na Rua dos Beneditinos, com um comissário de café.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "conselheiro",
+        "sentence": "Pensou nisso; pensou na reunião do conselheiro ***, que conhecera em Petrópolis; pensou em Petrópolis, no whist; era mais feliz no whist que ao voltarete, e ainda agora recordava todas as circunstâncias de uma certa mão, em que ele pedira licença, com quatro trunfos, rei, manilha, basto, dama...",
+        "start_char": 11301,
+        "end_char": 11312,
+        "excerpt": "Não lhe restava o recurso de calcular o tempo pelo sol. Sabia que era segunda-feira, dia em que costumava jantar na Rua dos Beneditinos, com um comissário de café. Pensou nisso; pensou na reunião do conselheiro ***, que conhecera em Petrópolis; pensou em Petrópolis, no whist; era mais feliz no whist que ao voltarete, e ainda agora recordava todas as circunstâncias de uma certa mão, em que ele pedira licença, com quatro trunfos, rei, manilha, basto, dama...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "reunião",
+                "child": "conselheiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "reunião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "conselheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "conselheiro",
+                "child": "reunião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "conselheiro",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "reunião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "manilha",
+        "sentence": "Pensou nisso; pensou na reunião do conselheiro ***, que conhecera em Petrópolis; pensou em Petrópolis, no whist; era mais feliz no whist que ao voltarete, e ainda agora recordava todas as circunstâncias de uma certa mão, em que ele pedira licença, com quatro trunfos, rei, manilha, basto, dama...",
+        "start_char": 11539,
+        "end_char": 11546,
+        "excerpt": "Não lhe restava o recurso de calcular o tempo pelo sol. Sabia que era segunda-feira, dia em que costumava jantar na Rua dos Beneditinos, com um comissário de café. Pensou nisso; pensou na reunião do conselheiro ***, que conhecera em Petrópolis; pensou em Petrópolis, no whist; era mais feliz no whist que ao voltarete, e ainda agora recordava todas as circunstâncias de uma certa mão, em que ele pedira licença, com quatro trunfos, rei, manilha, basto, dama...",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", com quatro trunfos",
+                "child": ", manilha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "trunfo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "manilha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", manilha",
+                "child": ", com quatro trunfos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "manilha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "trunfo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "trop",
+        "sentence": "Era assim que as lembranças de fora, cousas e pessoas, vinham de tropel agitando-se em volta dele, falando, rindo, fazendo-lhe companhia.",
+        "start_char": 11750,
+        "end_char": 11754,
+        "excerpt": "Pensou nisso; pensou na reunião do conselheiro ***, que conhecera em Petrópolis; pensou em Petrópolis, no whist; era mais feliz no whist que ao voltarete, e ainda agora recordava todas as circunstâncias de uma certa mão, em que ele pedira licença, com quatro trunfos, rei, manilha, basto, dama... E reproduzia tudo, as cartas dele com as de cada um dos parceiros, as cartas compradas, a ordem e a composição das vazas. Era assim que as lembranças de fora, cousas e pessoas, vinham de tropel agitando-se em volta dele, falando, rindo, fazendo-lhe companhia.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vinham",
+                "child": "tropel",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "vinhr",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tropel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato.",
+        "start_char": 11823,
+        "end_char": 11832,
+        "excerpt": "E reproduzia tudo, as cartas dele com as de cada um dos parceiros, as cartas compradas, a ordem e a composição das vazas. Era assim que as lembranças de fora, cousas e pessoas, vinham de tropel agitando-se em volta dele, falando, rindo, fazendo-lhe companhia. Bonifácio recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recompunha",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recompunhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o espírito",
+        "sentence": "Cansou, e tentou ler; a princípio, o espírito saltava fora da página, atrás de uma notícia qualquer, um projeto de casamento; depois caiu numa sonolência teimosa.",
+        "start_char": 12024,
+        "end_char": 12034,
+        "excerpt": "Era assim que as lembranças de fora, cousas e pessoas, vinham de tropel agitando-se em volta dele, falando, rindo, fazendo-lhe companhia. Bonifácio recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato. Cansou, e tentou ler; a princípio, o espírito saltava fora da página, atrás de uma notícia qualquer, um projeto de casamento; depois caiu numa sonolência teimosa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saltava",
+                "child": "o espírito",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "saltar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Borgonha",
+        "sentence": "Jantou mal, e, para consolar-se, bebeu muito Borgonha.",
+        "start_char": 12463,
+        "end_char": 12471,
+        "excerpt": "Espertava, lia cinco ou seis linhas, e dormia. Afinal, levantou-se, deixou o livro e chegou à janela para ver a chuva, que era a mesma, sem parar nem crescer, nem diminuir, sempre a mesma cortina dágua despenhando-se de um céu amontoado de nuvens grossas e eternas. Jantou mal, e, para consolar-se, bebeu muito Borgonha.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "bebeu",
+                "child": "muito Borgonha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "beber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borgonha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Sonhou que subia à presença de Deus, e que lhe ouvia a resolução de fazer chover, por todos os séculos restantes do mundo.",
+        "start_char": 12787,
+        "end_char": 12791,
+        "excerpt": "Era um recurso: pôde assim escapar às recordações que o afligiam, se eram más, ou que o empuxavam para fora, se eram boas. Dormiu ao som da chuva, e teve um pesadelo. Sonhou que subia à presença de Deus, e que lhe ouvia a resolução de fazer chover, por todos os séculos restantes do mundo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "presença",
+                "child": "Deus",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "presença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "presença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "presença",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "A cabeça humana é inferior às matemáticas divinas, respondeu o Senhor; mas posso dar-te uma idéia remota e vaga:  multiplica as estrelas do céu por todos os grãos de areia do mar, e terás uma partícula dos séculos...",
+        "start_char": 12969,
+        "end_char": 12977,
+        "excerpt": "Quantos mais? perguntou ele. A cabeça humana é inferior às matemáticas divinas, respondeu o Senhor; mas posso dar-te uma idéia remota e vaga:  multiplica as estrelas do céu por todos os grãos de areia do mar, e terás uma partícula dos séculos...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "o Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Onde irá tanta água, Senhor?",
+        "start_char": 13146,
+        "end_char": 13152,
+        "excerpt": "perguntou ele. A cabeça humana é inferior às matemáticas divinas, respondeu o Senhor; mas posso dar-te uma idéia remota e vaga:  multiplica as estrelas do céu por todos os grãos de areia do mar, e terás uma partícula dos séculos... Onde irá tanta água, Senhor?",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "o Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio agradeceu este favor.",
+        "start_char": 13228,
+        "end_char": 13237,
+        "excerpt": "Onde irá tanta água, Senhor? Não choverá só água, mas também Borgonha e cabelos de mulheres bonitas... Bonifácio agradeceu este favor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "agradeceu",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agradecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor.",
+        "start_char": 13467,
+        "end_char": 13474,
+        "excerpt": "Bonifácio agradeceu este favor. Olhando para o ar, viu que efetivamente chovia muito cabelo e muito vinho, além da água, que se acumulava no fundo de um abismo. Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Carlota",
+                "child": "deliciosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlota",
+                "dep_c": "obj",
+                "pos_c": "ADJ",
+                "lemma_c": "delicioso",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor.",
+        "start_char": 13535,
+        "end_char": 13543,
+        "excerpt": "Bonifácio agradeceu este favor. Olhando para o ar, viu que efetivamente chovia muito cabelo e muito vinho, além da água, que se acumulava no fundo de um abismo. Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fitou",
+                "child": "o Senhor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Já o não viu então, mas somente a figura do Tobias, olhando por cima dos óculos, com um fino sorriso sardônico e as mãos nas algibeiras.",
+        "start_char": 13589,
+        "end_char": 13595,
+        "excerpt": "Olhando para o ar, viu que efetivamente chovia muito cabelo e muito vinho, além da água, que se acumulava no fundo de um abismo. Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor. Já o não viu então, mas somente a figura do Tobias, olhando por cima dos óculos, com um fino sorriso sardônico e as mãos nas algibeiras.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", mas somente a figura",
+                "child": "Tobias",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "figura",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tobias",
+                "child": ", mas somente a figura",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "figura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio soltou um grito e acordou.",
+        "start_char": 13682,
+        "end_char": 13691,
+        "excerpt": "Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor. Já o não viu então, mas somente a figura do Tobias, olhando por cima dos óculos, com um fino sorriso sardônico e as mãos nas algibeiras. Bonifácio soltou um grito e acordou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "algum amigo",
+        "sentence": "Podia ter-lhe morrido algum amigo, ter caído o ministério, ele não sabia de nada.",
+        "start_char": 13869,
+        "end_char": 13880,
+        "excerpt": "De manhã, ao levantar-se, viu que continuava a chover. Nada de jornais: parecia-lhe já um século que estava separado da cidade. Podia ter-lhe morrido algum amigo, ter caído o ministério, ele não sabia de nada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morrido",
+                "child": "algum amigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma.",
+        "start_char": 14472,
+        "end_char": 14481,
+        "excerpt": "As horas eram cada vez mais intermináveis. Nem havia horas; o tempo ia sem as divisões que lhe dá o relógio, como um livro sem capítulos. Bonifácio lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lutou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Di quella",
+        "sentence": "Di quella pira...",
+        "start_char": 14695,
+        "end_char": 14704,
+        "excerpt": "Bonifácio lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma. Não podia ler, não podia estar, ia de um lado para outro, sonolento, cansado, resmungando um trecho de ópera: Di quella pira...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mano alfin",
+        "sentence": "In mia mano alfin tu sei...",
+        "start_char": 14730,
+        "end_char": 14740,
+        "excerpt": "Di quella pira... Ou então: In mia mano alfin tu sei...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dou",
+        "sentence": "ele desdobrava-se em dous homens, um dos quais provava ao outro que estava fazendo uma tolice.",
+        "start_char": 14979,
+        "end_char": 14982,
+        "excerpt": "A solidão, como paredes de um cárcere misterioso, ia-se-lhe apertando em derredor, e não tardaria a esmagá-lo. Já o amor-próprio o não retinha; ele desdobrava-se em dous homens, um dos quais provava ao outro que estava fazendo uma tolice.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iguaçu",
+        "sentence": "Era tão insólita que fez desconfiar algumas pessoas; ele, porém, não contou nada a ninguém, e explicou Iguaçu como pôde.",
+        "start_char": 15265,
+        "end_char": 15271,
+        "excerpt": "Eram três horas da tarde, quando ele resolveu deixar o refúgio. Que alegria, quando chegou à Rua do Ouvidor! Era tão insólita que fez desconfiar algumas pessoas; ele, porém, não contou nada a ninguém, e explicou Iguaçu como pôde.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "explicou",
+                "child": "Iguaçu",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Iguaçu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "O senhor pregou-me um logro...",
+        "start_char": 15567,
+        "end_char": 15575,
+        "excerpt": "Só duas semanas depois, indo a entrar na barca de Niterói, viu adiante de si a grande estatura do esquisitão, e reconheceu-o pela sobrecasaca cor de rapé, comprida e larga. Na barca, falou-lhe: O senhor pregou-me um logro...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pregou-me",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pregou-me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "perguntou Tobias, sentando-se ao lado dele.",
+        "start_char": 15612,
+        "end_char": 15618,
+        "excerpt": "O senhor pregou-me um logro... Eu? perguntou Tobias, sentando-se ao lado dele.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dos amigos",
+        "sentence": "confessou-lhe que, por estar um pouco fatigado dos amigos, tivera a idéia de recolher-se por alguns dias, mas não conseguiu ir além de dous, e, ainda assim, com dificuldade.",
+        "start_char": 15760,
+        "end_char": 15770,
+        "excerpt": "Sem querer, é verdade, mas sempre fiquei logrado. Contou-lhe tudo; confessou-lhe que, por estar um pouco fatigado dos amigos, tivera a idéia de recolher-se por alguns dias, mas não conseguiu ir além de dous, e, ainda assim, com dificuldade.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Tobias ouviu-o calado, com muita atenção; depois, interrogou-o minuciosamente, pediu-lhe todas as sensações, ainda as mais íntimas, e o outro não lhe negou nenhuma, nem as que teve com os cabelos achados na gaveta.",
+        "start_char": 15887,
+        "end_char": 15893,
+        "excerpt": "Contou-lhe tudo; confessou-lhe que, por estar um pouco fatigado dos amigos, tivera a idéia de recolher-se por alguns dias, mas não conseguiu ir além de dous, e, ainda assim, com dificuldade. Tobias ouviu-o calado, com muita atenção; depois, interrogou-o minuciosamente, pediu-lhe todas as sensações, ainda as mais íntimas, e o outro não lhe negou nenhuma, nem as que teve com os cabelos achados na gaveta.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ouviu-o",
+                "child": "Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouviu-o",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "muita atenção",
+                "child": "Tobias",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "atenção",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Você",
+        "sentence": "Você esqueceu-se de levar o principal da matalotagem, que são justamente as idéias...",
+        "start_char": 16222,
+        "end_char": 16226,
+        "excerpt": "Tobias ouviu-o calado, com muita atenção; depois, interrogou-o minuciosamente, pediu-lhe todas as sensações, ainda as mais íntimas, e o outro não lhe negou nenhuma, nem as que teve com os cabelos achados na gaveta. No fim, olhando por cima dos óculos, tal qual como no pesadelo, disse-lhe com um sorriso copiado do diabo:  Quer saber? Você esqueceu-se de levar o principal da matalotagem, que são justamente as idéias...",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio achou-lhe graça, e riu.",
+        "start_char": 16308,
+        "end_char": 16317,
+        "excerpt": "No fim, olhando por cima dos óculos, tal qual como no pesadelo, disse-lhe com um sorriso copiado do diabo:  Quer saber? Você esqueceu-se de levar o principal da matalotagem, que são justamente as idéias... Bonifácio achou-lhe graça, e riu.",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "achou-lhe",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Tobias, rindo também, deu-lhe um piparote na testa.",
+        "start_char": 16342,
+        "end_char": 16348,
+        "excerpt": "Você esqueceu-se de levar o principal da matalotagem, que são justamente as idéias... Bonifácio achou-lhe graça, e riu. Tobias, rindo também, deu-lhe um piparote na testa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "testa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rindo",
+                "child": "Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tobias",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho Tobias",
+        "sentence": "Em seguida, pediu-lhe notícias, e o outro deu-lhas de vária espécie, grandes e pequenas, fatos e boatos, isto e aquilo, que o velho Tobias ouviu, com olhos meio cerrados, pensando em outra cousa.",
+        "start_char": 16518,
+        "end_char": 16532,
+        "excerpt": "Bonifácio achou-lhe graça, e riu. Tobias, rindo também, deu-lhe um piparote na testa. Em seguida, pediu-lhe notícias, e o outro deu-lhas de vária espécie, grandes e pequenas, fatos e boatos, isto e aquilo, que o velho Tobias ouviu, com olhos meio cerrados, pensando em outra cousa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "testa"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "o velho Tobias",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o velho Tobias",
+                "child": "deu-lhas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tobias",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "deu-lha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

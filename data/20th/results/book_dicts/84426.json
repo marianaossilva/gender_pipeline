@@ -1,0 +1,552 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Alberto Caeiro Há metafísica bastante em não pensar em nada.",
+        "start_char": 45,
+        "end_char": 59,
+        "excerpt": "Há metafísica bastante em não pensar em nada Alberto Caeiro Há metafísica bastante em não pensar em nada. O que penso eu do mundo?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que tenho eu meditado sobre Deus e a alma E sobre a criação do Mundo?",
+        "start_char": 299,
+        "end_char": 303,
+        "excerpt": "Que idéia tenho eu das cousas? Que opinião tenho sobre as causas e os efeitos? Que tenho eu meditado sobre Deus e a alma E sobre a criação do Mundo?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "meditado",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "meditar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a alma",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "sobre a criação",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criação",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a alma",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sobre a criação",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criação",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mundo",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "mundo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "todos os poetas",
+        "sentence": "De todos os filósofos e de todos os poetas.",
+        "start_char": 812,
+        "end_char": 827,
+        "excerpt": "Quem está ao sol e fecha os olhos, Começa a não saber o que é o sol E a pensar muitas cousas cheias de calor. Mas abre os olhos e vê o sol, E já não pode pensar em nada, Porque a luz do sol vale mais que os pensamentos De todos os filósofos e de todos os poetas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "todos os filósofos",
+                "child": "de todos os poetas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de todos os poetas",
+                "child": "todos os filósofos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "filósofo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de todos os poetas",
+                "child": "os pensamentos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pensamento",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Metafísica",
+        "sentence": "Metafísica?",
+        "start_char": 898,
+        "end_char": 908,
+        "excerpt": "De todos os filósofos e de todos os poetas. A luz do sol não sabe o que faz E por isso não erra e é comum e boa. Metafísica?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Não acredito em Deus porque nunca o vi.",
+        "start_char": 1697,
+        "end_char": 1701,
+        "excerpt": "Pensar no sentido íntimo das cousas É acrescentado, como pensar na saúde Ou levar um copo à água das fontes. O único sentido íntimo das cousas É elas não terem sentido íntimo nenhum. Não acredito em Deus porque nunca o vi.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acredito",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas se Deus é as flores e as árvores E os montes e sol e o luar, Então acredito nele, Então acredito nele a toda a hora, E a minha vida é toda uma oração e uma missa, E uma comunhão com os olhos e pelos ouvidos.",
+        "start_char": 2033,
+        "end_char": 2037,
+        "excerpt": "De quem, por não saber o que é olhar para as cousas, Não compreende quem fala delas Com o modo de falar que reparar para elas ensina.) Mas se Deus é as flores e as árvores E os montes e sol e o luar, Então acredito nele, Então acredito nele a toda a hora, E a minha vida é toda uma oração e uma missa, E uma comunhão com os olhos e pelos ouvidos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "flores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flores",
+                "child": "Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas se Deus é as árvores e as flores E os montes e o luar e o sol, Para que lhe chamo eu Deus?",
+        "start_char": 2245,
+        "end_char": 2249,
+        "excerpt": "Com o modo de falar que reparar para elas ensina.) Mas se Deus é as flores e as árvores E os montes e sol e o luar, Então acredito nele, Então acredito nele a toda a hora, E a minha vida é toda uma oração e uma missa, E uma comunhão com os olhos e pelos ouvidos. Mas se Deus é as árvores e as flores E os montes e o luar e o sol, Para que lhe chamo eu Deus?",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "flores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flores",
+                "child": "Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "árvores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "árvore",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "árvores",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "árvore",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamo",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "árvores",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "árvore",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas se Deus é as árvores e as flores E os montes e o luar e o sol, Para que lhe chamo eu Deus?",
+        "start_char": 2245,
+        "end_char": 2249,
+        "excerpt": "Com o modo de falar que reparar para elas ensina.) Mas se Deus é as flores e as árvores E os montes e sol e o luar, Então acredito nele, Então acredito nele a toda a hora, E a minha vida é toda uma oração e uma missa, E uma comunhão com os olhos e pelos ouvidos. Mas se Deus é as árvores e as flores E os montes e o luar e o sol, Para que lhe chamo eu Deus?",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "flores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flores",
+                "child": "Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "árvores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "árvore",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "árvores",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "árvore",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamo",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "árvores",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "árvore",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E por isso eu obedeço-lhe, (Que mais sei eu de Deus que Deus de si próprio?).",
+        "start_char": 2654,
+        "end_char": 2658,
+        "excerpt": "E luar e sol e flores, É que ele quer que eu o conheça Como árvores e montes e flores e luar e sol. E por isso eu obedeço-lhe, (Que mais sei eu de Deus que Deus de si próprio?).",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E por isso eu obedeço-lhe, (Que mais sei eu de Deus que Deus de si próprio?).",
+        "start_char": 2654,
+        "end_char": 2658,
+        "excerpt": "E luar e sol e flores, É que ele quer que eu o conheça Como árvores e montes e flores e luar e sol. E por isso eu obedeço-lhe, (Que mais sei eu de Deus que Deus de si próprio?).",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sei",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

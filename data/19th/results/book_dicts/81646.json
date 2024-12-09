@@ -1,0 +1,309 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Ao Meu Bom Anjo Auta de Souza Dizem que a vida não é mais que um sonho, Meu Deus, quero sonhar!",
+        "start_char": 16,
+        "end_char": 29,
+        "excerpt": "Ao Meu Bom Anjo Auta de Souza Dizem que a vida não é mais que um sonho, Meu Deus, quero sonhar! Empresta-me, anjo bom, as tuas asas, Guarda no seio a minha fronte em brasas, Ensina-me a rezar! Vamos, vamos, além...",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ao Meu Bom Anjo Auta de Souza Dizem que a vida não é mais que um sonho, Meu Deus, quero sonhar!",
+        "start_char": 76,
+        "end_char": 80,
+        "excerpt": "Ao Meu Bom Anjo Auta de Souza Dizem que a vida não é mais que um sonho, Meu Deus, quero sonhar! Empresta-me, anjo bom, as tuas asas, Guarda no seio a minha fronte em brasas, Ensina-me a rezar! Vamos, vamos, além...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "quero",
+                "child": ", Meu Deus,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Meu",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo bom",
+        "sentence": "Empresta-me, anjo bom, as tuas asas, Guarda no seio a minha fronte em brasas, Ensina-me a rezar!",
+        "start_char": 109,
+        "end_char": 117,
+        "excerpt": "Ao Meu Bom Anjo Auta de Souza Dizem que a vida não é mais que um sonho, Meu Deus, quero sonhar! Empresta-me, anjo bom, as tuas asas, Guarda no seio a minha fronte em brasas, Ensina-me a rezar! Vamos, vamos, além...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pois bem! vamos viver no Céu da graça, Meu Deus, como dois anjos!",
+        "start_char": 374,
+        "end_char": 378,
+        "excerpt": "Procuremos bem longe um doce abrigo, Na pátria dos arcanjos... A vida é sonho e como um sonho passa... Pois bem! vamos viver no Céu da graça, Meu Deus, como dois anjos!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Meu",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Meu",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Meu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mensa",
+        "sentence": "Mensageiro divino, vem comigo, Quero sonhar, viver, sorrir contigo,",
+        "start_char": 451,
+        "end_char": 456,
+        "excerpt": "Pois bem! vamos viver no Céu da graça, Meu Deus, como dois anjos! Quero fugir do mundo tenebroso, Labirinto de dores... Mensageiro divino, vem comigo, Quero sonhar, viver, sorrir contigo,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vem",
+                "child": "Mensageiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mensageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mensageiro",
+                "child": "divino",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mensageiro",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "divino",
+                "categories": [
+                    "aparencia_carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minhalma",
+        "sentence": "Minhalma, casta rola abandonada, Desfalece sozinha pela estrada, Não pode mais voar...",
+        "start_char": 541,
+        "end_char": 549,
+        "excerpt": "Mensageiro divino, vem comigo, Quero sonhar, viver, sorrir contigo, No Éden há só flores! Minhalma, casta rola abandonada, Desfalece sozinha pela estrada, Não pode mais voar...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rola",
+                "child": "Minhalma",
+                "dep_h": "case",
+                "pos_h": "VERB",
+                "lemma_h": "rolar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Minhalma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minhalma",
+                "child": "abandonada",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minhalma",
+                "dep_c": "obl",
+                "pos_c": "ADJ",
+                "lemma_c": "abandonado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minhalma",
+                "child": "Desfalece",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Minhalma",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "Desfalece",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo bom",
+        "sentence": "Empresta-lhe, anjo bom, as tuas asas:",
+        "start_char": 642,
+        "end_char": 650,
+        "excerpt": "No Éden há só flores! Minhalma, casta rola abandonada, Desfalece sozinha pela estrada, Não pode mais voar... Empresta-lhe, anjo bom, as tuas asas:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo celeste",
+        "sentence": "Assim voando pelo espaço em fora E vendo-te a meu lado a toda hora, Quero - fugindo deste mundo agreste, Unida ao seio teu, Embalada por ti, anjo celeste!",
+        "start_char": 864,
+        "end_char": 876,
+        "excerpt": "Empresta-lhe, anjo bom, as tuas asas: Sinto estalar-me o coração em brasas, Cansado de chorar. Assim voando pelo espaço em fora E vendo-te a meu lado a toda hora, Quero - fugindo deste mundo agreste, Unida ao seio teu, Embalada por ti, anjo celeste!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

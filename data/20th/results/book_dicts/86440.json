@@ -1,0 +1,383 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "IlusãoCasimiro de Abreu",
+        "start_char": 6,
+        "end_char": 23,
+        "excerpt": "IlusãoCasimiro de Abreu Quando o astro do dia desmaia Só brilhando com pálido lume, E que a onda que brinca na praia No murmúrio soletra um queixume;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o astro",
+        "sentence": "Quando o astro do dia desmaia Só brilhando com pálido lume, E que a onda que brinca na praia",
+        "start_char": 31,
+        "end_char": 38,
+        "excerpt": "IlusãoCasimiro de Abreu Quando o astro do dia desmaia Só brilhando com pálido lume, E que a onda que brinca na praia No murmúrio soletra um queixume;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o astro",
+                "child": "dia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "astro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o astro",
+                "child": "desmaia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "astro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "desmaia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dia",
+                "child": "o astro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "astro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desmaia",
+                "child": "o astro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "desmaia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "astro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "Qual donzela formosa embalada Pelos cantos dos seus trovadores;",
+        "start_char": 474,
+        "end_char": 481,
+        "excerpt": "Seus gemidos aos ecos envia, E que o peito que em mágoas anseia Bebe louco essa grave harmonia; Quando a terra, da vida cansada, Adormece num leito de flores Qual donzela formosa embalada Pelos cantos dos seus trovadores;",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "donzela",
+                "child": "formosa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "formoso",
+                "categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus trovadores",
+        "sentence": "Qual donzela formosa embalada Pelos cantos dos seus trovadores;",
+        "start_char": 516,
+        "end_char": 531,
+        "excerpt": "Seus gemidos aos ecos envia, E que o peito que em mágoas anseia Bebe louco essa grave harmonia; Quando a terra, da vida cansada, Adormece num leito de flores Qual donzela formosa embalada Pelos cantos dos seus trovadores;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cantos",
+                "child": "seus trovadores",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "canto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus trovadores",
+                "child": "cantos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "trovador",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "canto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um navio",
+        "sentence": "Um navio nas sombras fugindo, E na popa esse rosto adorado Entre prantos p'ra mim se sorrindo!",
+        "start_char": 826,
+        "end_char": 834,
+        "excerpt": "É então que a minha alma dormente Duma vaga tristeza se inunda, E que um rosto formoso, inocente, Me desperta saudade profunda. Julgo ver sobre o mar sossegado Um navio nas sombras fugindo, E na popa esse rosto adorado Entre prantos p'ra mim se sorrindo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Um navio",
+                "child": "sombras",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "navio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sombra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sombras",
+                "child": "Um navio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sombra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "navio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "popa",
+                "child": "Um navio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "popa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "navio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rosto",
+                "child": "Um navio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "rosto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "navio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "um rosto",
+                        "child": "formoso",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "formoso"
+                    },
+                    {
+                        "head": "um rosto",
+                        "child": "inocente",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "inocente"
+                    },
+                    {
+                        "head": "um rosto",
+                        "child": "saudade",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "saudade"
+                    },
+                    {
+                        "head": "saudade",
+                        "child": "um rosto",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "saudade",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "popa",
+                        "child": "rosto",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "popa",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "sorrindo",
+                        "child": "rosto",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "sorrir",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "popa",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "popa"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "Um navio",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "navio"
+                    }
+                ]
+            },
+            {
+                "head": "prantos",
+                "child": "Um navio",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pranto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "navio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Essa virgem de rosto fagueiro",
+        "sentence": "Esse sonho querido dum dia, Essa virgem de rosto fagueiro, Esse rosto de tanta poesia!",
+        "start_char": 1115,
+        "end_char": 1144,
+        "excerpt": "E de pé sobre a rocha, indeciso, Eu lhe brado: - não fujas, - espera! Mas o vento já leva ligeiro Esse sonho querido dum dia, Essa virgem de rosto fagueiro, Esse rosto de tanta poesia!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

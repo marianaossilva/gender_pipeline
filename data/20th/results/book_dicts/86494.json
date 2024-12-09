@@ -1,0 +1,84 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Três cantos Casimiro de Abreu",
+        "start_char": 12,
+        "end_char": 29,
+        "excerpt": "Três cantos Casimiro de Abreu Quando se brinca contente Ao despontar da existência",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a donzela",
+        "sentence": "- Idolatrando a donzela Soletra em trovas: - amor!",
+        "start_char": 406,
+        "end_char": 415,
+        "excerpt": "Depois... na quadra ditosa, Nos dias da juventude, Quando o peito é um alaúde, E que a fronte tem calor; A alma que então se expande Ardente, fogosa e bela - Idolatrando a donzela Soletra em trovas: - amor!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Idolatrando",
+                "child": "a donzela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "Idolatrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a donzela",
+                "child": "A alma",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

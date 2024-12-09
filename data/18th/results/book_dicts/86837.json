@@ -1,0 +1,377 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "Hino ao Sono Castro Alves",
+        "start_char": 13,
+        "end_char": 25,
+        "excerpt": "Hino ao Sono Castro Alves Ó Sono!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Hino",
+                "child": "Sono Castro Alves Ó Sono",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Hino",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sono",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sono Castro Alves Ó Sono",
+                "child": "Hino",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sono",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Hino",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sono",
+        "sentence": "Sono!",
+        "start_char": 28,
+        "end_char": 32,
+        "excerpt": "Hino ao Sono Castro Alves Ó Sono!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Hino",
+                "child": "Sono Castro Alves Ó Sono",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Hino",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sono",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sono Castro Alves Ó Sono",
+                "child": "Hino",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sono",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Hino",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "noivo pá",
+        "sentence": "Ó noivo pálido Das noites perfumosas, Que um chão de nebulosas Trilhas pela amplidão!",
+        "start_char": 36,
+        "end_char": 44,
+        "excerpt": "Ó Sono! Ó noivo pálido Das noites perfumosas, Que um chão de nebulosas Trilhas pela amplidão!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus do infeliz, do mísero!",
+        "start_char": 385,
+        "end_char": 389,
+        "excerpt": ", Vejo-te cauteloso No espaço viajar! Deus do infeliz, do mísero!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "infeliz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "infeliz",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "infeliz",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "infeliz",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do mísero",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mísero",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gên",
+        "sentence": "Da vide o sumo rúbido, Do hatchiz a essência, O ópio, que a indolência Derrama em nosso ser, Não valem, gênio mágico, Teu seio, onde repousa",
+        "start_char": 860,
+        "end_char": 863,
+        "excerpt": "Envolves meio mundo. E teu seio fecundo De sonhos e visões, Dos templos aos prostíbulos Desde o tugúrio ao Paço, Tu lanças lá do espaço Punhados de ilusões!... Da vide o sumo rúbido, Do hatchiz a essência, O ópio, que a indolência Derrama em nosso ser, Não valem, gênio mágico, Teu seio, onde repousa",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "valem",
+                "child": ", gênio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "valer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "gênio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", gênio",
+                "child": "mágico",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gênio",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mágico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", gênio",
+                "child": "ópio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gênio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "ópio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pastor da Arcádia",
+        "sentence": "Como o pastor da Arcádia, Que uma ave errante aninha...",
+        "start_char": 1044,
+        "end_char": 1063,
+        "excerpt": "Entorna o esquecimento Na luz do pensamento, Que abrasa o crânio meu. Como o pastor da Arcádia, Que uma ave errante aninha...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minh ' alma",
+        "sentence": "Minh'alma é uma andorinha...",
+        "start_char": 1094,
+        "end_char": 1105,
+        "excerpt": "Na luz do pensamento, Que abrasa o crânio meu. Como o pastor da Arcádia, Que uma ave errante aninha... Minh'alma é uma andorinha...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus sereno",
+        "sentence": "Ouve-me, ó Deus sereno!",
+        "start_char": 1401,
+        "end_char": 1412,
+        "excerpt": "Eu sou a flor pendida Que espera a luz do sol. O leite das eufórbias P'ra mim não é veneno... Ouve-me, ó Deus sereno!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ó Deus consolador!",
+        "start_char": 1416,
+        "end_char": 1420,
+        "excerpt": "O leite das eufórbias P'ra mim não é veneno... Ouve-me, ó Deus sereno! Ó Deus consolador!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ó",
+                "child": "Deus",
+                "dep_h": "det",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ouve-me",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ouve-me",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "ó",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "deus",
+                "dep_c": "det",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "sereno",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "deus",
+                "dep_c": "flat:name",
+                "pos_c": "ADJ",
+                "lemma_c": "sereno",
+                "categories": [
+                    "carater_emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a minha amante",
+        "sentence": "Mas quando, ao brilho rútilo Do dia deslumbrante, Vires a minha amante Que volve para mim, Então ergue-me súbito...",
+        "start_char": 1574,
+        "end_char": 1588,
+        "excerpt": "Com teu divino bálsamo Cala-me a ansiedade! Mata-me esta saudade, Apaga-me esta dor. Mas quando, ao brilho rútilo Do dia deslumbrante, Vires a minha amante Que volve para mim, Então ergue-me súbito...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu anjo",
+        "sentence": "Meu anjo...",
+        "start_char": 1658,
+        "end_char": 1666,
+        "excerpt": "Mas quando, ao brilho rútilo Do dia deslumbrante, Vires a minha amante Que volve para mim, Então ergue-me súbito... É minha aurora linda... Meu anjo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha amante",
+        "sentence": "É minha amante enfim!",
+        "start_char": 1686,
+        "end_char": 1698,
+        "excerpt": "Meu anjo... mais ainda... É minha amante enfim!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus noctívago",
+        "sentence": "Ó Deus noctívago!",
+        "start_char": 1716,
+        "end_char": 1730,
+        "excerpt": "É minha amante enfim! Ó sono! Ó Deus noctívago!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

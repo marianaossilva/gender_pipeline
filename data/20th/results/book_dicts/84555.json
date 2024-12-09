@@ -1,0 +1,111 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu NO ÁLBUM DUMA MENINA.",
+        "start_char": 15,
+        "end_char": 32,
+        "excerpt": "Berço e túmulo Casimiro de Abreu NO ÁLBUM DUMA MENINA. Trago-te flores no meu canto amigo - Pobre grinalda com prazer tecida - E - todo amores - deposito um beijo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu anjo",
+        "sentence": "- Então, meu anjo, compassiva e meiga Depõe-me um goivo sobre a cruz singela, E nesse ramo que o sepulcro implora Paga-me as rosas desta infância bela!",
+        "start_char": 362,
+        "end_char": 370,
+        "excerpt": "É cedo ainda! - quando moça fores E percorreres deste livro os cantos, Talvez que eu durma solitário e mudo - Lírio pendido a que ninguém deu prantos! - Então, meu anjo, compassiva e meiga Depõe-me um goivo sobre a cruz singela, E nesse ramo que o sepulcro implora Paga-me as rosas desta infância bela!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "child": "um goivo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Depõe-me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "goivo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um goivo",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "goivo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a cruz singela",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruz",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ramo",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ramo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sepulcro",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sepulcro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as rosas",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "rosa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "infância",
+                "child": "- Então, meu anjo, compassiva e meiga Depõe-me",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "infância",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Depõe-me",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

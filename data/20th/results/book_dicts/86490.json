@@ -1,0 +1,861 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 19,
+        "end_char": 36,
+        "excerpt": "Sempre sonhos! ... Casimiro de Abreu",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se eu tivesse, meu Deus, santos amores, Eu m'erguera cantando essa paixão, E atirara p'ra longe - sem saudade -",
+        "start_char": 56,
+        "end_char": 60,
+        "excerpt": "... Casimiro de Abreu Se eu tivesse, meu Deus, santos amores, Eu m'erguera cantando essa paixão, E atirara p'ra longe - sem saudade -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tivesse",
+                "child": "meu Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": ", santos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", santos",
+                "child": "meu Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "santo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "start_char": 409,
+        "end_char": 413,
+        "excerpt": "De tanta escuridão! Eu que sou como o cardo do rochedo Quase morto dos ventos ao rigor, Encontrara de novo a minha vida, O sol da primavera e a luz perdida, Nos braços desse amor! Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pende",
+                "child": ", meu Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "pender",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gilbert",
+        "sentence": "Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "start_char": 449,
+        "end_char": 456,
+        "excerpt": "De tanta escuridão! Eu que sou como o cardo do rochedo Quase morto dos ventos ao rigor, Encontrara de novo a minha vida, O sol da primavera e a luz perdida, Nos braços desse amor! Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "queimou",
+                "child": "Gilbert",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "queimar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gilbert",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gilbert",
+                "child": "Dante",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gilbert",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gilbert",
+                "child": "o fogo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gilbert",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fogo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "Gilbert",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gilbert",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Correria",
+                "child": "Gilbert",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Correria",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gilbert",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dante",
+        "sentence": "Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "start_char": 459,
+        "end_char": 464,
+        "excerpt": "De tanta escuridão! Eu que sou como o cardo do rochedo Quase morto dos ventos ao rigor, Encontrara de novo a minha vida, O sol da primavera e a luz perdida, Nos braços desse amor! Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Gilbert",
+                "child": "Dante",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gilbert",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "Correria",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Correria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "Gilbert",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gilbert",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "o fogo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fogo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Correria",
+                "child": "Dante",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Correria",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "No mundo tão gentil dos devaneios Minh'alma mais feliz saudara a luz, E apagara, Senhor, num beijo puro",
+        "start_char": 603,
+        "end_char": 609,
+        "excerpt": "Minha fronte, que pende sofredora Acharia, meu Deus, inspirações, E o fogo que queimou Gilbert e Dante Correria mais puro e mais constante Na lira das canções! No mundo tão gentil dos devaneios Minh'alma mais feliz saudara a luz, E apagara, Senhor, num beijo puro",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Senhor",
+                "child": ", num beijo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "beijo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Senhor",
+                "child": "apagara",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "apagaro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", num beijo",
+                "child": ", Senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "beijo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Eu seria, meu Deus, seu doce guia, E ela - minha irmã!",
+        "start_char": 801,
+        "end_char": 805,
+        "excerpt": "Por ela eu deixaria a voz das turbas E esta ânsia infeliz de gloria vã; Na vida que nos corre tão sombria Eu seria, meu Deus, seu doce guia, E ela - minha irmã!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "seu doce guia",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "guia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu doce guia",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "guia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- minha irmã",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Eu seria, meu Deus, seu doce guia, E ela - minha irmã!",
+        "start_char": 830,
+        "end_char": 840,
+        "excerpt": "Por ela eu deixaria a voz das turbas E esta ânsia infeliz de gloria vã; Na vida que nos corre tão sombria Eu seria, meu Deus, seu doce guia, E ela - minha irmã!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- minha irmã",
+                "child": "seu doce guia",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "guia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- minha irmã",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "start_char": 853,
+        "end_char": 859,
+        "excerpt": "Na vida que nos corre tão sombria Eu seria, meu Deus, seu doce guia, E ela - minha irmã! Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "velara",
+                "child": ", Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "velara",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Senhor",
+                "child": ", pelos seus dias",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Senhor",
+                "child": "vela",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "acl",
+                "pos_c": "ADJ",
+                "lemma_c": "vela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", pelos seus dias",
+                "child": ", Senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mãe",
+                "child": ", Senhor",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filho",
+                "child": ", Senhor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "start_char": 883,
+        "end_char": 888,
+        "excerpt": "Na vida que nos corre tão sombria Eu seria, meu Deus, seu doce guia, E ela - minha irmã! Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a mãe",
+                "child": "vela",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "acl",
+                "pos_c": "ADJ",
+                "lemma_c": "vela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mãe",
+                "child": ", Senhor",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filho",
+        "sentence": "Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "start_char": 894,
+        "end_char": 901,
+        "excerpt": "Na vida que nos corre tão sombria Eu seria, meu Deus, seu doce guia, E ela - minha irmã! Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o filho",
+                "child": "vela",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "acl",
+                "pos_c": "ADJ",
+                "lemma_c": "vela",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filho",
+                "child": ", Senhor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu",
+        "sentence": "Se um dia ela soltasse um só gemido, Eu iria saber porque ferido Seu seio assim buliu!",
+        "start_char": 979,
+        "end_char": 982,
+        "excerpt": "Eu seria, meu Deus, seu doce guia, E ela - minha irmã! Eu velara, Senhor, pelos seus dias, Como a mãe vela o filho que dormiu: Se um dia ela soltasse um só gemido, Eu iria saber porque ferido Seu seio assim buliu!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "buliu",
+                "child": "Seu seio",
+                "dep_h": "obj",
+                "pos_h": "VERB",
+                "lemma_h": "bulir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a doce filha dos tupis",
+        "sentence": "S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "start_char": 1046,
+        "end_char": 1068,
+        "excerpt": "Se um dia ela soltasse um só gemido, Eu iria saber porque ferido Seu seio assim buliu! Como à sombra das árvores da pátria S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "start_char": 1119,
+        "end_char": 1123,
+        "excerpt": "Se um dia ela soltasse um só gemido, Eu iria saber porque ferido Seu seio assim buliu! Como à sombra das árvores da pátria S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sombra",
+                "child": ", meu Deus",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "sombra",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu Deus",
+                "child": "sombra",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "sombra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "essa criança",
+        "sentence": "S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "start_char": 1125,
+        "end_char": 1137,
+        "excerpt": "Se um dia ela soltasse um só gemido, Eu iria saber porque ferido Seu seio assim buliu! Como à sombra das árvores da pátria S'embala a doce filha dos tupis, A sombra da ventura e da esperança Embalara, meu Deus, essa criança",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sombra",
+                "child": ", essa criança",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "sombra",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", essa criança",
+                "child": "sombra",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "sombra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se eu tivesse, meu Deus, santos amores, Eu deixara este amor da glória vã;",
+        "start_char": 1511,
+        "end_char": 1515,
+        "excerpt": "Outro mundo, outro céu, outros vergéis; Nossa vida seria um doce afago, Nós - dois cisnes vogando em manso lago, - Amor - nossos batéis! Se eu tivesse, meu Deus, santos amores, Eu deixara este amor da glória vã;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixara",
+                "child": "meu Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": ", santos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", santos",
+                "child": "meu Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "santo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Nesse mundo de luz, doce e risonho, A pudibunda virgem do meu sonho Seria minha irmã!  - 1858",
+        "start_char": 1641,
+        "end_char": 1651,
+        "excerpt": "Nossa vida seria um doce afago, Nós - dois cisnes vogando em manso lago, - Amor - nossos batéis! Se eu tivesse, meu Deus, santos amores, Eu deixara este amor da glória vã; Nesse mundo de luz, doce e risonho, A pudibunda virgem do meu sonho Seria minha irmã!  - 1858",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,2635 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Lima Barreto",
+        "sentence": "Quase Ela deu o sim, mas... de Lima Barreto NEAD  NÚCLEO DE EDUCAÇÃO",
+        "start_char": 57,
+        "end_char": 69,
+        "excerpt": " Universidade da Amazônia Quase Ela deu o sim, mas... de Lima Barreto NEAD  NÚCLEO DE EDUCAÇÃO",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Cazuza",
+        "sentence": "Quase ela deu o \"sim\"; mas... de Lima Barreto João Cazuza era um moço suburbano, forte e saudável, mas pouco ativo e amigo do trabalho.",
+        "start_char": 258,
+        "end_char": 269,
+        "excerpt": "A DISTÂNCIA Av. Alcindo Cacela, 287  Umarizal CEP: 66060-902 Belém  Pará Fones: (91) 210-3196 / 210-3181  E-mail:  1 Quase ela deu o \"sim\"; mas... de Lima Barreto João Cazuza era um moço suburbano, forte e saudável, mas pouco ativo e amigo do trabalho.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "... de Lima Barreto João Cazuza",
+                "child": "moço",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lima",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "moço",
+                "child": "... de Lima Barreto João Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lima",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tia",
+        "sentence": "\"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas.",
+        "start_char": 607,
+        "end_char": 612,
+        "excerpt": "Vivia em casa dos tios, numa estação de subúrbios, onde tinha moradia, comida, roupa, calçado e algum dinheiro que a sua bondosa tia e madrinha lhe dava para os cigarros. Ele, porém, não os comprava; \"filava-os\" dos outros. \"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dava",
+                "child": "a sua bondosa tia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua bondosa tia",
+                "child": "madrinha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "madrinha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua bondosa tia",
+                "child": "algum dinheiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "dinheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua bondosa tia",
+                "child": ", numa estação",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "estação",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua bondosa tia",
+                "child": "Vivia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "madrinha",
+                "child": "a sua bondosa tia",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "madrinha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dava",
+                "child": "a tia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a tia",
+                "child": "níqueis",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "níquel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "camaradas e amigos",
+        "sentence": "O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia:",
+        "start_char": 811,
+        "end_char": 829,
+        "excerpt": "Ele, porém, não os comprava; \"filava-os\" dos outros. \"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas. O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Toma lá o cigarro, Cazuza.",
+        "start_char": 962,
+        "end_char": 968,
+        "excerpt": "\"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas. O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia: Toma lá o cigarro, Cazuza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Toma",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "toma",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "outros companheiros",
+        "sentence": "A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos.",
+        "start_char": 1083,
+        "end_char": 1102,
+        "excerpt": "Toma lá o cigarro, Cazuza. Vivia assim muito bem, sem ambições nem tenções. A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "empregava",
+                "child": ", com outros companheiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "empregar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus tios e padrinhos",
+        "sentence": "A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos.",
+        "start_char": 1223,
+        "end_char": 1244,
+        "excerpt": "Toma lá o cigarro, Cazuza. Vivia assim muito bem, sem ambições nem tenções. A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sujeitos",
+        "sentence": "Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "start_char": 1549,
+        "end_char": 1557,
+        "excerpt": "Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falar",
+                "child": "sujeitos",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "moças",
+                "child": "sujeitos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moças ricas",
+        "sentence": "Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "start_char": 1575,
+        "end_char": 1586,
+        "excerpt": "Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "professoras",
+        "sentence": "Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "start_char": 1635,
+        "end_char": 1646,
+        "excerpt": "Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esposam",
+                "child": "professoras",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "esposar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "professora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os seus tios e padrinhos",
+        "sentence": "Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos.",
+        "start_char": 1934,
+        "end_char": 1958,
+        "excerpt": "Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto. Apesar disso, não desanimou de descobrir uma mulher que lhe servis convenientemente. Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua vizinha",
+        "sentence": "Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \"",
+        "start_char": 2009,
+        "end_char": 2020,
+        "excerpt": "Apesar disso, não desanimou de descobrir uma mulher que lhe servis convenientemente. Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos. Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \"",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "uma sua vizinha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma sua vizinha",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma sua vizinha",
+                "child": "porteira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "porteira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu \" Cazuza",
+        "sentence": "Seu\" Cazuza,",
+        "start_char": 2063,
+        "end_char": 2075,
+        "excerpt": "Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos. Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \" Seu\" Cazuza,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "o senhor vai até à estação?",
+        "start_char": 2077,
+        "end_char": 2085,
+        "excerpt": "Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \" Seu\" Cazuza, o senhor vai até à estação?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Ermelinda",
+        "sentence": "Vou, Dona Ermelinda.",
+        "start_char": 2110,
+        "end_char": 2124,
+        "excerpt": "Seu\" Cazuza, o senhor vai até à estação? Vou, Dona Ermelinda.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu",
+        "sentence": "É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis.",
+        "start_char": 2173,
+        "end_char": 2176,
+        "excerpt": "Podia me fazer um favor? Pois não. É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Seu\"",
+                "child": "Gustavo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Gustavo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gustavo",
+                "child": "Seu\"",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Gustavo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha senhora",
+        "sentence": "Não há dúvida, minha senhora.",
+        "start_char": 2384,
+        "end_char": 2397,
+        "excerpt": "É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis. Tenho que fazer um requerimento ao Tesouro, sobre coisas do meu montepio, com urgência, precisava muito. Não há dúvida, minha senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "minha senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido.",
+        "start_char": 2399,
+        "end_char": 2405,
+        "excerpt": "Tenho que fazer um requerimento ao Tesouro, sobre coisas do meu montepio, com urgência, precisava muito. Não há dúvida, minha senhora. Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensava",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os filhos",
+        "sentence": "o diabo são os filhos!",
+        "start_char": 2499,
+        "end_char": 2508,
+        "excerpt": "Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido. Tem montepio, é viúva; o diabo são os filhos!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Ermelinda",
+        "sentence": "\" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro.",
+        "start_char": 2512,
+        "end_char": 2526,
+        "excerpt": "Tem montepio, é viúva; o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Dona Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "hóspede dos tios",
+        "sentence": "Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas.",
+        "start_char": 2702,
+        "end_char": 2718,
+        "excerpt": "o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro. Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva.",
+        "start_char": 2859,
+        "end_char": 2864,
+        "excerpt": "\" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro. Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas. Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entregá-las",
+                "child": "viúva",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "entregá-las",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Ermelinda",
+        "sentence": "De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública.",
+        "start_char": 2875,
+        "end_char": 2889,
+        "excerpt": "Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas. Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva. De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dona Ermelinda",
+                "child": "viúva",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "Dona Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Viúva",
+        "sentence": "Viúva e com pouco mais de trinta anos, nada se falava da sua reputação.",
+        "start_char": 2960,
+        "end_char": 2965,
+        "excerpt": "Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva. De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Viúva",
+                "child": "com pouco mais de trinta anos",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Viúva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "com pouco mais de trinta anos",
+                "child": "Viúva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua reputação",
+                "child": "Viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "reputação",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma filha",
+        "sentence": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício.",
+        "start_char": 3038,
+        "end_char": 3047,
+        "excerpt": "De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação. Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tinha",
+                "child": "uma filha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma filha",
+                "child": "um filho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um filho",
+                "child": "uma filha",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desvelo",
+                "child": "uma filha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "desvelo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um filho",
+        "sentence": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício.",
+        "start_char": 3050,
+        "end_char": 3058,
+        "excerpt": "De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação. Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "uma filha",
+                "child": "um filho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um filho",
+                "child": "uma filha",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desvelo",
+                "child": "um filho",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "desvelo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu falecido marido",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3234,
+        "end_char": 3255,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esposo",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3339,
+        "end_char": 3345,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", com a morte",
+                "child": "esposo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "esposo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esposo",
+                "child": ", com a morte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "esposo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "escrivães",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3371,
+        "end_char": 3380,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "garras",
+                "child": "escrivães",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "garra",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", escreventes",
+                "child": "escrivães",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "escrevente",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meirinhos",
+                "child": "escrivães",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "meirinho",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", solicitadores",
+                "child": "escrivães",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "solicitador",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "advogados",
+                "child": "escrivães",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "advogado",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meirinhos",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3395,
+        "end_char": 3404,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", meirinhos",
+                "child": "escrivães",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "meirinho",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "escrivão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meirinhos",
+                "child": "garras",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "meirinho",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "garra",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "advogados \" mambembes",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3228,
+        "end_char": 3249,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "marido",
+        "sentence": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "start_char": 3249,
+        "end_char": 3255,
+        "excerpt": "Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "precaução",
+                "child": "marido",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "precaução",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "precaução",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "precaução",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a casa",
+                "child": "marido",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", em nome",
+                "child": "marido",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Hermenegildo",
+        "sentence": "Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde.",
+        "start_char": 3575,
+        "end_char": 3595,
+        "excerpt": "Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "começavam",
+                "child": ", o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\"",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos.",
+        "start_char": 3779,
+        "end_char": 3785,
+        "excerpt": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "bateu",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos.",
+        "start_char": 3803,
+        "end_char": 3808,
+        "excerpt": "Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "porta",
+                "child": "viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "porta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "interior",
+                "child": "viúva",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "interior",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou:",
+        "start_char": 4032,
+        "end_char": 4038,
+        "excerpt": "Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "bateu",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a pobre viúva",
+                "child": "Cazuza",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "a pobre viúva",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu",
+        "sentence": "Entre, \"Seu\" Cazuza.",
+        "start_char": 4084,
+        "end_char": 4087,
+        "excerpt": "De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Entre, \"Seu\" Cazuza.",
+        "start_char": 4089,
+        "end_char": 4095,
+        "excerpt": "De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "bateu",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a pobre viúva",
+                "child": "Cazuza",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "a pobre viúva",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os filhos",
+        "sentence": "Estava só, os filhos ainda não tinham vindo do colégio.",
+        "start_char": 4108,
+        "end_char": 4117,
+        "excerpt": "Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza. Estava só, os filhos ainda não tinham vindo do colégio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinham",
+                "child": "os filhos",
+                "dep_h": "aux",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza entrou.",
+        "start_char": 4153,
+        "end_char": 4159,
+        "excerpt": "Entre, \"Seu\" Cazuza. Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rapaz",
+        "sentence": "Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \"",
+        "start_char": 4203,
+        "end_char": 4210,
+        "excerpt": "Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou. Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "retirar-se",
+                "child": "o rapaz",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "retirar-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ermelinda",
+        "sentence": "Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \"",
+        "start_char": 4243,
+        "end_char": 4252,
+        "excerpt": "Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou. Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \"",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "obstado",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obstar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu \" Cazuza",
+        "sentence": "Seu\" Cazuza.",
+        "start_char": 4083,
+        "end_char": 4095,
+        "excerpt": "De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse.",
+        "start_char": 4433,
+        "end_char": 4440,
+        "excerpt": "Vamos tomar café. Ele aceitou e, embora, ambos se serviram da infusão da \"preciosa rubiácea\" , como se diz no estilo \"valorização\". A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pôs-se",
+                "child": "A viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôs-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "café",
+                "child": "A viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "café",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pão",
+                "child": "A viúva",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "manteiga",
+                "child": "A viúva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "manteiga",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o companheiro",
+        "sentence": "A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse.",
+        "start_char": 4503,
+        "end_char": 4516,
+        "excerpt": "Vamos tomar café. Ele aceitou e, embora, ambos se serviram da infusão da \"preciosa rubiácea\" , como se diz no estilo \"valorização\". A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "olhar",
+                "child": "o companheiro",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o companheiro",
+                "child": "certo interesse",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "companheiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "interesse",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "certo interesse",
+                "child": "o companheiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "interesse",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viuvinha",
+        "sentence": "A viuvinha sorria interiormente de contentamento.",
+        "start_char": 4607,
+        "end_char": 4617,
+        "excerpt": "A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse. Ele notou e fez-se amável e galante, demorando em esvaziar a xícara. A viuvinha sorria interiormente de contentamento.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorria",
+                "child": "A viuvinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viuvinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza pensou com os seus botões:",
+        "start_char": 4657,
+        "end_char": 4663,
+        "excerpt": "Ele notou e fez-se amável e galante, demorando em esvaziar a xícara. A viuvinha sorria interiormente de contentamento. Cazuza pensou com os seus botões:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tia",
+        "sentence": "Se calhou, fico livre das censuras da tia...",
+        "start_char": 4850,
+        "end_char": 4853,
+        "excerpt": "Cazuza pensou com os seus botões: \"Está aí um bom partido: casa própria, montepio, renda das costuras; e além de tudo, há de lavar-me e consertar a roupa. Se calhou, fico livre das censuras da tia...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "censuras",
+                "child": "tia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "censura",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tia",
+                "child": "censuras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "censura",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tia",
+                "child": "fico",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "advmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \"",
+        "start_char": 4902,
+        "end_char": 4909,
+        "excerpt": "Se calhou, fico livre das censuras da tia... \" Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \"",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olhando-lhe",
+                "child": "a viúva",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "olhar ele",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu \" Cazuza",
+        "sentence": "Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado?",
+        "start_char": 4947,
+        "end_char": 4959,
+        "excerpt": "\"sim\"; mas... de Lima Barreto João Cazuza era um moço suburbano, forte e saudável, mas pouco ativo e amigo do trabalho. Vivia em casa dos tios, numa estação de subúrbios, onde tinha moradia, comida, roupa, calçado e algum dinheiro que a sua bondosa tia e madrinha lhe dava para os cigarros. Ele, porém, não os comprava; \"filava-os\" dos outros. \"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas. O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia: Toma lá o cigarro, Cazuza. Vivia assim muito bem, sem ambições nem tenções. A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos. Contudo, ainda não estava satisfeito. Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto. Apesar disso, não desanimou de descobrir uma mulher que lhe servis convenientemente. Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos. Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \" Seu\" Cazuza, o senhor vai até à estação? Vou, Dona Ermelinda. Podia me fazer um favor? Pois não. É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis. Tenho que fazer um requerimento ao Tesouro, sobre coisas do meu montepio, com urgência, precisava muito. Não há dúvida, minha senhora. Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido. Tem montepio, é viúva; o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro. Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas. Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva. De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação. Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza. Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou. Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \" Seu\" Cazuza. Vamos tomar café. Ele aceitou e, embora, ambos se serviram da infusão da \"preciosa rubiácea\" , como se diz no estilo \"valorização\". A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse. Ele notou e fez-se amável e galante, demorando em esvaziar a xícara. A viuvinha sorria interiormente de contentamento. Cazuza pensou com os seus botões: \"Está aí um bom partido: casa própria, montepio, renda das costuras; e além de tudo, há de lavar-me e consertar a roupa. Se calhou, fico livre das censuras da tia... \" Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \" Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fica",
+                "child": "Seu \" Cazuza,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Ermelinda",
+        "sentence": "Ora, qual, Dona Ermelinda?",
+        "start_char": 5023,
+        "end_char": 5037,
+        "excerpt": "Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \" Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado? Ora, qual, Dona Ermelinda?",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "O senhor traz \" ela\" amanhã, que eu conserto \"ela\".",
+        "start_char": 5084,
+        "end_char": 5092,
+        "excerpt": "3   Bem. A sua camisa está rasgada no peito. O senhor traz \" ela\" amanhã, que eu conserto \"ela\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "traz",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também.",
+        "start_char": 5136,
+        "end_char": 5142,
+        "excerpt": "A sua camisa está rasgada no peito. O senhor traz \" ela\" amanhã, que eu conserto \"ela\". Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também.",
+        "start_char": 5191,
+        "end_char": 5198,
+        "excerpt": "A sua camisa está rasgada no peito. O senhor traz \" ela\" amanhã, que eu conserto \"ela\". Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a viúva",
+                "child": "prontificou-",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "prontificou-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prontificou-",
+                "child": "a viúva",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "prontificou-",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O player dos pontapés",
+        "sentence": "O player dos pontapés, fingindo relutância no começo, aceitou afinal; e doido por isso estava ele, pois era uma \" entrada\" , para obter uma lavadeira em condições favoráveis.",
+        "start_char": 5237,
+        "end_char": 5258,
+        "excerpt": "O senhor traz \" ela\" amanhã, que eu conserto \"ela\". Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também. O player dos pontapés, fingindo relutância no começo, aceitou afinal; e doido por isso estava ele, pois era uma \" entrada\" , para obter uma lavadeira em condições favoráveis.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Dito e feito: daí em diante, com jeito e manha, ele conseguiu que a viúva se fizesse a sua lavadeira bem em conta.",
+        "start_char": 5478,
+        "end_char": 5485,
+        "excerpt": "Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também. O player dos pontapés, fingindo relutância no começo, aceitou afinal; e doido por isso estava ele, pois era uma \" entrada\" , para obter uma lavadeira em condições favoráveis. Dito e feito: daí em diante, com jeito e manha, ele conseguiu que a viúva se fizesse a sua lavadeira bem em conta.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a viúva",
+                "child": "prontificou-",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "prontificou-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prontificou-",
+                "child": "a viúva",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "prontificou-",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fizesse",
+                "child": "a viúva",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza, após tal conquista, redobrou de atividade no football, abandonou os biscates e não dava um passo, para obter emprego.",
+        "start_char": 5527,
+        "end_char": 5533,
+        "excerpt": "O player dos pontapés, fingindo relutância no começo, aceitou afinal; e doido por isso estava ele, pois era uma \" entrada\" , para obter uma lavadeira em condições favoráveis. Dito e feito: daí em diante, com jeito e manha, ele conseguiu que a viúva se fizesse a sua lavadeira bem em conta. Cazuza, após tal conquista, redobrou de atividade no football, abandonou os biscates e não dava um passo, para obter emprego.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "redobrou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "redobrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Havia entre ambos, unicamente um \" namoro de caboclo\", com o que Cazuza ganhou uma lavadeira, sem nenhuma exigência monetária e cultivava-o carinhosamente.",
+        "start_char": 5841,
+        "end_char": 5847,
+        "excerpt": "Tinha tudo... Na redondeza, passavam como noivos; mas não eram, nem mesmo namorados declarados. Havia entre ambos, unicamente um \" namoro de caboclo\", com o que Cazuza ganhou uma lavadeira, sem nenhuma exigência monetária e cultivava-o carinhosamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ganhou",
+                "child": "Cazuza",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ganhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "unicamente um \" namoro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "namoro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ermelinda",
+        "sentence": "Porque eu não peço Ermelinda em casamento?",
+        "start_char": 6143,
+        "end_char": 6152,
+        "excerpt": "Ele, à vista da cerimônia e da festa, pensou: \"Porque também eu não me caso? Porque eu não peço Ermelinda em casamento?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "peço",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "peçar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ermelinda",
+        "sentence": "refletiu segunda e, na terça, cheio de coragem, chegou-se à Ermelinda e pediu-a em casamento.",
+        "start_char": 6316,
+        "end_char": 6325,
+        "excerpt": "\"sim\"; mas... de Lima Barreto João Cazuza era um moço suburbano, forte e saudável, mas pouco ativo e amigo do trabalho. Vivia em casa dos tios, numa estação de subúrbios, onde tinha moradia, comida, roupa, calçado e algum dinheiro que a sua bondosa tia e madrinha lhe dava para os cigarros. Ele, porém, não os comprava; \"filava-os\" dos outros. \"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas. O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia: Toma lá o cigarro, Cazuza. Vivia assim muito bem, sem ambições nem tenções. A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos. Contudo, ainda não estava satisfeito. Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto. Apesar disso, não desanimou de descobrir uma mulher que lhe servis convenientemente. Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos. Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \" Seu\" Cazuza, o senhor vai até à estação? Vou, Dona Ermelinda. Podia me fazer um favor? Pois não. É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis. Tenho que fazer um requerimento ao Tesouro, sobre coisas do meu montepio, com urgência, precisava muito. Não há dúvida, minha senhora. Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido. Tem montepio, é viúva; o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro. Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas. Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva. De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação. Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza. Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou. Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \" Seu\" Cazuza. Vamos tomar café. Ele aceitou e, embora, ambos se serviram da infusão da \"preciosa rubiácea\" , como se diz no estilo \"valorização\". A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse. Ele notou e fez-se amável e galante, demorando em esvaziar a xícara. A viuvinha sorria interiormente de contentamento. Cazuza pensou com os seus botões: \"Está aí um bom partido: casa própria, montepio, renda das costuras; e além de tudo, há de lavar-me e consertar a roupa. Se calhou, fico livre das censuras da tia... \" Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \" Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado? Ora, qual, Dona Ermelinda? 3   Bem. A sua camisa está rasgada no peito. O senhor traz \" ela\" amanhã, que eu conserto \"ela\". Cazuza respondeu que era preciso lavá-la primeiro; mas a viúva prontificou- se em fazer isso também. O player dos pontapés, fingindo relutância no começo, aceitou afinal; e doido por isso estava ele, pois era uma \" entrada\" , para obter uma lavadeira em condições favoráveis. Dito e feito: daí em diante, com jeito e manha, ele conseguiu que a viúva se fizesse a sua lavadeira bem em conta. Cazuza, após tal conquista, redobrou de atividade no football, abandonou os biscates e não dava um passo, para obter emprego. Que é que ele queria mais? Tinha tudo... Na redondeza, passavam como noivos; mas não eram, nem mesmo namorados declarados. Havia entre ambos, unicamente um \" namoro de caboclo\", com o que Cazuza ganhou uma lavadeira, sem nenhuma exigência monetária e cultivava-o carinhosamente. Um belo dia, após ano e pouco de tal namoro, houve um casamento na casa dos tios do diligente jogador de football. Ele, à vista da cerimônia e da festa, pensou: \"Porque também eu não me caso? Porque eu não peço Ermelinda em casamento? Ela aceita, por certo; e eu... \" Matutou domingo, pois o casamento tinha sido no sábado; refletiu segunda e, na terça, cheio de coragem, chegou-se à Ermelinda e pediu-a em casamento.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Dona",
+                "child": "Ermelinda",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ermelinda",
+                "child": ", Dona",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Ermelinda",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "Dona Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dona Ermelinda",
+                "child": "viúva",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "Dona Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obstado",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obstar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dona",
+                "child": "Ermelinda",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ermelinda",
+                "child": "Dona",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Ermelinda",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "peço",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "peçar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chegou-se",
+                "child": "Ermelinda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chegou-se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "É grave isto, Cazuza.",
+        "start_char": 6364,
+        "end_char": 6370,
+        "excerpt": "Matutou domingo, pois o casamento tinha sido no sábado; refletiu segunda e, na terça, cheio de coragem, chegou-se à Ermelinda e pediu-a em casamento. É grave isto, Cazuza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Cazuza",
+                "child": "grave",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "grave",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza chegou cedo e os dous estiveram a conversar.",
+        "start_char": 6536,
+        "end_char": 6542,
+        "excerpt": "Sexta-feira, você vem cedo, para almoçar comigo e eu dou a resposta. Assim foi feito. Cazuza chegou cedo e os dous estiveram a conversar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ermelinda",
+        "sentence": "Num dado momento, Ermelinda foi até à gaveta de um móvel e tirou de lá um papel.",
+        "start_char": 6677,
+        "end_char": 6686,
+        "excerpt": "Cazuza chegou cedo e os dous estiveram a conversar. ela, com toda a naturalidade, e ele, cheio de ansiedade e, apreensivo. Num dado momento, Ermelinda foi até à gaveta de um móvel e tirou de lá um papel.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza  disse ela, tendo o papel na mão  você vai à venda e à quitanda e compra o que está aqui nesta \"nota\".",
+        "start_char": 6740,
+        "end_char": 6746,
+        "excerpt": "ela, com toda a naturalidade, e ele, cheio de ansiedade e, apreensivo. Num dado momento, Ermelinda foi até à gaveta de um móvel e tirou de lá um papel. Cazuza  disse ela, tendo o papel na mão  você vai à venda e à quitanda e compra o que está aqui nesta \"nota\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Cazuza agarrou trêmulo o papelucho e pôs-se a ler o seguinte: 1 quilo de feijão 600 rs 1/2 de farinha  200 rs.",
+        "start_char": 6867,
+        "end_char": 6873,
+        "excerpt": "Cazuza  disse ela, tendo o papel na mão  você vai à venda e à quitanda e compra o que está aqui nesta \"nota\". É para o almoço. Cazuza agarrou trêmulo o papelucho e pôs-se a ler o seguinte: 1 quilo de feijão 600 rs 1/2 de farinha  200 rs.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "agarrou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agarrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cebolas",
+        "sentence": "Cebolas  200 rs.",
+        "start_char": 7029,
+        "end_char": 7036,
+        "excerpt": "1/2 de bacalhau  1.200 rs. 1/2 de batatas  360 rs. Cebolas  200 rs.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Azeite",
+        "sentence": "Azeite  300 rs.",
+        "start_char": 7061,
+        "end_char": 7067,
+        "excerpt": "Cebolas  200 rs. Alhos  100 rs. Azeite  300 rs.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Azeite",
+                "child": "rs",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "azeite",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "rs",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rs",
+                "child": "Azeite",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "rs",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "azeite",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carvão 28",
+        "sentence": "Carvão  280 rs.",
+        "start_char": 7123,
+        "end_char": 7132,
+        "excerpt": "Vinagre  200 rs. Quitanda  3.260 rs Carvão  280 rs.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cebolinha",
+        "sentence": "Salsa 100 rs Cebolinha  100 rs.",
+        "start_char": 7168,
+        "end_char": 7177,
+        "excerpt": "Carvão  280 rs. Couve  200 rs. Salsa 100 rs Cebolinha  100 rs.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Acabada a leitura, Cazuza não se levantou logo da cadeira; e, com a lista na mão, a olhar de um lado a outro, parecia atordoado, estuporado.",
+        "start_char": 7224,
+        "end_char": 7230,
+        "excerpt": "Total 3.860 rs. 4 Acabada a leitura, Cazuza não se levantou logo da cadeira; e, com a lista na mão, a olhar de um lado a outro, parecia atordoado, estuporado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Anda Cazuza, fez a viúva.",
+        "start_char": 7351,
+        "end_char": 7357,
+        "excerpt": "4 Acabada a leitura, Cazuza não se levantou logo da cadeira; e, com a lista na mão, a olhar de um lado a outro, parecia atordoado, estuporado. Anda Cazuza, fez a viúva.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fez",
+                "child": "Anda Cazuza,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anda",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Anda Cazuza, fez a viúva.",
+        "start_char": 7363,
+        "end_char": 7370,
+        "excerpt": "4 Acabada a leitura, Cazuza não se levantou logo da cadeira; e, com a lista na mão, a olhar de um lado a outro, parecia atordoado, estuporado. Anda Cazuza, fez a viúva.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "a viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Mas você não quer casar comigo?",
+        "start_char": 7455,
+        "end_char": 7459,
+        "excerpt": "Que há ? Não tenho dinheiro. Mas você não quer casar comigo?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu filho",
+        "sentence": "É mostrar atividade meu filho!",
+        "start_char": 7503,
+        "end_char": 7512,
+        "excerpt": "Não tenho dinheiro. Mas você não quer casar comigo? É mostrar atividade meu filho!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mostrar",
+                "child": "meu filho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um chefe de família",
+        "sentence": "Um chefe de família não se atrapalha...",
+        "start_char": 7539,
+        "end_char": 7558,
+        "excerpt": "Dê os seus passos... Vá! Um chefe de família não se atrapalha...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Cazuza",
+        "sentence": "João Cazuza, tendo a lista de gêneros na mão, ergueu-se da cadeira, saiu e não mais voltou...",
+        "start_char": 7588,
+        "end_char": 7599,
+        "excerpt": "Um chefe de família não se atrapalha... É agir ! João Cazuza, tendo a lista de gêneros na mão, ergueu-se da cadeira, saiu e não mais voltou...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ergueu-se",
+                "child": "João Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergueur se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

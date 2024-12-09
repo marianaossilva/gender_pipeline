@@ -1,0 +1,2952 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "CAVAÇÃO Artur Azevedo",
+        "start_char": 8,
+        "end_char": 21,
+        "excerpt": "CAVAÇÃO Artur Azevedo Naquela manhã o Saldanha estava desesperado: não havia quinze dias que lhe entrara na algibeira, inesperadamente, uma bela nota de quinhentos mil-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia! A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Naquela manhã o Saldanha estava desesperado: não havia quinze dias que lhe entrara na algibeira, inesperadamente, uma bela nota de quinhentos mil-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia!",
+        "start_char": 36,
+        "end_char": 46,
+        "excerpt": "CAVAÇÃO Artur Azevedo Naquela manhã o Saldanha estava desesperado: não havia quinze dias que lhe entrara na algibeira, inesperadamente, uma bela nota de quinhentos mil-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia! A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Saldanha",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nhô - nhô",
+        "sentence": "A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa!",
+        "start_char": 288,
+        "end_char": 297,
+        "excerpt": "CAVAÇÃO Artur Azevedo Naquela manhã o Saldanha estava desesperado: não havia quinze dias que lhe entrara na algibeira, inesperadamente, uma bela nota de quinhentos mil-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia! A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil.",
+        "start_char": 515,
+        "end_char": 523,
+        "excerpt": "Naquela manhã o Saldanha estava desesperado: não havia quinze dias que lhe entrara na algibeira, inesperadamente, uma bela nota de quinhentos mil-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia! A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa! Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Saldanha",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "empregasse",
+                "child": "Saldanha",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "empregar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as crianças",
+        "sentence": "A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes.",
+        "start_char": 670,
+        "end_char": 681,
+        "excerpt": "A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa! Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil. A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um trapinho",
+                "child": "as crianças",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "trapinho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as crianças",
+                "child": "um trapinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "trapinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes.",
+        "start_char": 793,
+        "end_char": 801,
+        "excerpt": "A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa! Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil. A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "empregasse",
+                "child": "Saldanha",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "empregar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "encomendara",
+                "child": "Saldanha",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "encomendarar",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O nosso homem",
+        "sentence": "O nosso homem, que tinha dedo para essa espécie de literatura, fez obra asseada: as descomposturas produziram o desejado efeito.",
+        "start_char": 904,
+        "end_char": 917,
+        "excerpt": "Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil. A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes. O nosso homem, que tinha dedo para essa espécie de literatura, fez obra asseada: as descomposturas produziram o desejado efeito.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "O nosso homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dedo",
+                "child": "O nosso homem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dedo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "essa espécie",
+                "child": "O nosso homem",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "espécie",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "literatura",
+                "child": "O nosso homem",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "literatura",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O prosador",
+        "sentence": "O prosador contava com cem mil-réis.",
+        "start_char": 1033,
+        "end_char": 1043,
+        "excerpt": "A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes. O nosso homem, que tinha dedo para essa espécie de literatura, fez obra asseada: as descomposturas produziram o desejado efeito. O prosador contava com cem mil-réis.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "contava",
+                "child": "O prosador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "prosador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Saldanha",
+        "sentence": "O Saldanha subiu radiante a rua do Ouvidor, com cócegas de comprar tudo quanto via exposto nos mostradores das lojas.",
+        "start_char": 1106,
+        "end_char": 1116,
+        "excerpt": "recebeu quinhentos. Foi um delírio! O Saldanha subiu radiante a rua do Ouvidor, com cócegas de comprar tudo quanto via exposto nos mostradores das lojas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "subiu",
+                "child": "O Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pequenada",
+        "sentence": "- Que surpresa seria para a pequenada! - Mas resistiu e passou.",
+        "start_char": 1302,
+        "end_char": 1313,
+        "excerpt": "O Saldanha subiu radiante a rua do Ouvidor, com cócegas de comprar tudo quanto via exposto nos mostradores das lojas. Parou durante cinco minutos diante de um gramofone. - Que surpresa seria para a pequenada! - Mas resistiu e passou.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre - diabo",
+        "sentence": "E assim vivia o pobre-diabo, desde que, por negligente e ocioso, perdera sucessivamente dezenove empregos e desesperara de obter o vigésimo.",
+        "start_char": 1403,
+        "end_char": 1418,
+        "excerpt": "- Que surpresa seria para a pequenada! - Mas resistiu e passou. Foi esse o único movimento bom que teve depois de endinheirado. E assim vivia o pobre-diabo, desde que, por negligente e ocioso, perdera sucessivamente dezenove empregos e desesperara de obter o vigésimo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões.",
+        "start_char": 1763,
+        "end_char": 1773,
+        "excerpt": "E assim vivia o pobre-diabo, desde que, por negligente e ocioso, perdera sucessivamente dezenove empregos e desesperara de obter o vigésimo. Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "casou-se",
+                "child": "o Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma pobre moça",
+        "sentence": "Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões.",
+        "start_char": 1787,
+        "end_char": 1801,
+        "excerpt": "E assim vivia o pobre-diabo, desde que, por negligente e ocioso, perdera sucessivamente dezenove empregos e desesperara de obter o vigésimo. Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "casou-se",
+                "child": "uma pobre moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casar se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e não de pé",
+                "child": "uma pobre moça",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "parentes",
+        "sentence": "Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "start_char": 2081,
+        "end_char": 2089,
+        "excerpt": "Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "conhecidos",
+        "sentence": "Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "start_char": 2099,
+        "end_char": 2109,
+        "excerpt": "Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "desconhecidos",
+        "sentence": "Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "start_char": 2112,
+        "end_char": 2125,
+        "excerpt": "Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a sua musa",
+        "sentence": "Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "start_char": 2224,
+        "end_char": 2234,
+        "excerpt": "Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "mercadejava",
+                "child": "a sua musa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "mercadejar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "musa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Depois de esgotada completamente a edição, o Saldanha, freqüentador assíduo de todas as lojas de alfarrábios, comprava por baixo preço quantos exemplares, e não eram poucos, apareciam, e vendia-os no bairro comercial, aos negociantes dinheirosos.",
+        "start_char": 2279,
+        "end_char": 2289,
+        "excerpt": "Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa. Depois de esgotada completamente a edição, o Saldanha, freqüentador assíduo de todas as lojas de alfarrábios, comprava por baixo preço quantos exemplares, e não eram poucos, apareciam, e vendia-os no bairro comercial, aos negociantes dinheirosos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "casou-se",
+                "child": "o Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "comprava",
+                "child": "o Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comprar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": ", freqüentador",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "freqüentador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", freqüentador",
+                "child": "o Saldanha",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "freqüentador",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todas as lojas",
+                "child": "o Saldanha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "loja",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alfarrábios",
+                "child": "o Saldanha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrábio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "O expediente dava o melhor resultado, porque o poeta, frenólogo intuitivo, conhecia pela cara, ou, segundo a sua própria expressão, \"pela pinta\", esses mecenas fortuitos, e, além disso, aprendera de cor uma infinidade de lábias para impingir o volume.",
+        "start_char": 2528,
+        "end_char": 2535,
+        "excerpt": "Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa. Depois de esgotada completamente a edição, o Saldanha, freqüentador assíduo de todas as lojas de alfarrábios, comprava por baixo preço quantos exemplares, e não eram poucos, apareciam, e vendia-os no bairro comercial, aos negociantes dinheirosos. O expediente dava o melhor resultado, porque o poeta, frenólogo intuitivo, conhecia pela cara, ou, segundo a sua própria expressão, \"pela pinta\", esses mecenas fortuitos, e, além disso, aprendera de cor uma infinidade de lábias para impingir o volume.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "conhecia",
+                "child": "o poeta",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": ", frenólogo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "frenólogo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", frenólogo",
+                "child": "o poeta",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "frenólogo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as pessoas",
+        "sentence": "Ou por esses motivos, ou porque as pessoas a quem se dirigia quisessem se ver livres de um importuno, a colheita era certa.",
+        "start_char": 2767,
+        "end_char": 2777,
+        "excerpt": "Depois de esgotada completamente a edição, o Saldanha, freqüentador assíduo de todas as lojas de alfarrábios, comprava por baixo preço quantos exemplares, e não eram poucos, apareciam, e vendia-os no bairro comercial, aos negociantes dinheirosos. O expediente dava o melhor resultado, porque o poeta, frenólogo intuitivo, conhecia pela cara, ou, segundo a sua própria expressão, \"pela pinta\", esses mecenas fortuitos, e, além disso, aprendera de cor uma infinidade de lábias para impingir o volume. Ou por esses motivos, ou porque as pessoas a quem se dirigia quisessem se ver livres de um importuno, a colheita era certa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as pessoas",
+                "child": "certa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pessoa",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "certo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as pessoas",
+                "child": "Ou por esses motivos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pessoa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "motivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "livres",
+                "child": "as pessoas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "livre",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "carater_social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um importuno",
+                "child": "as pessoas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "importuno",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "carater",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A . de Pinho",
+        "sentence": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros.",
+        "start_char": 2858,
+        "end_char": 2870,
+        "excerpt": "O expediente dava o melhor resultado, porque o poeta, frenólogo intuitivo, conhecia pela cara, ou, segundo a sua própria expressão, \"pela pinta\", esses mecenas fortuitos, e, além disso, aprendera de cor uma infinidade de lábias para impingir o volume. Ou por esses motivos, ou porque as pessoas a quem se dirigia quisessem se ver livres de um importuno, a colheita era certa. Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ignês",
+        "sentence": "Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito.",
+        "start_char": 3098,
+        "end_char": 3103,
+        "excerpt": "Ou por esses motivos, ou porque as pessoas a quem se dirigia quisessem se ver livres de um importuno, a colheita era certa. Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "linda",
+                "child": "Ignês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "linda",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Ignês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ignês",
+                "child": "linda",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ignês",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "linda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ignês",
+                "child": "d'alma",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ignês",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "d'alma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ignês",
+                "child": "enlevo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ignês",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "enlevo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "primitivos donos",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3162,
+        "end_char": 3178,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os alfarrabistas",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3184,
+        "end_char": 3200,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "primitivos",
+                "child": "os alfarrabistas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "primitivo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "primitivos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "primitivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", à força",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e destes outra vez",
+                "child": "os alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", e destes outra vez",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vez",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alfarrabistas",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3187,
+        "end_char": 3200,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "primitivos",
+                "child": "os alfarrabistas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "primitivo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "primitivos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "primitivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", à força",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viajar",
+                "child": "alfarrabistas",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "viajar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alfarrabistas",
+                "child": "o Saldanha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alfarrabistas",
+                "child": "os protetores",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "protetor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alfarrabistas",
+                "child": ", à força",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os protetores",
+                "child": "alfarrabistas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "protetor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "letras",
+                "child": "alfarrabistas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "letra",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e destes outra vez",
+                "child": "os alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", e destes outra vez",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vez",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3227,
+        "end_char": 3235,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alfarrabistas",
+                "child": "o Saldanha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": ", do Saldanha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": ", à força",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "o Saldanha",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": ", à força",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "Os volumes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3227,
+        "end_char": 3235,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alfarrabistas",
+                "child": "o Saldanha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": ", do Saldanha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": ", à força",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Saldanha",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "o Saldanha",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": ", à força",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Saldanha",
+                "child": "Os volumes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os protetores das letras nacionais",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3254,
+        "end_char": 3288,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os alfarrabistas",
+        "sentence": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "start_char": 3184,
+        "end_char": 3200,
+        "excerpt": "Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "primitivos",
+                "child": "os alfarrabistas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "primitivo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "primitivos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "primitivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", à força",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e destes outra vez",
+                "child": "os alfarrabistas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alfarrabista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": ", e destes outra vez",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vez",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os alfarrabistas",
+                "child": "Os volumes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alfarrabista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "volume",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "industrioso Saldanha",
+        "sentence": "Por isso, a mais séria, a mais firme preocupação do industrioso Saldanha era que uma nova edição dos Gemidos fizesse gemer os prelos.",
+        "start_char": 3502,
+        "end_char": 3522,
+        "excerpt": "Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída. Por isso, a mais séria, a mais firme preocupação do industrioso Saldanha era que uma nova edição dos Gemidos fizesse gemer os prelos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "editor",
+        "sentence": "Por conta dele, já se sabe, porque não havia editor que se arrojasse à empresa.",
+        "start_char": 3629,
+        "end_char": 3635,
+        "excerpt": "Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída. Por isso, a mais séria, a mais firme preocupação do industrioso Saldanha era que uma nova edição dos Gemidos fizesse gemer os prelos. Por conta dele, já se sabe, porque não havia editor que se arrojasse à empresa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "havia",
+                "child": "editor",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "editor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "empresa",
+                "child": "editor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "empresa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "editor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Como já ficou dito, naquela manhã o Saldanha estava desesperado.",
+        "start_char": 3810,
+        "end_char": 3820,
+        "excerpt": "Por conta dele, já se sabe, porque não havia editor que se arrojasse à empresa. E essa preocupação de tal modo absorvia, que ele absolutamente não pensava noutra coisa e vivia de expedientes. Como já ficou dito, naquela manhã o Saldanha estava desesperado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Saldanha",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis.",
+        "start_char": 3876,
+        "end_char": 3884,
+        "excerpt": "E essa preocupação de tal modo absorvia, que ele absolutamente não pensava noutra coisa e vivia de expedientes. Como já ficou dito, naquela manhã o Saldanha estava desesperado. Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os quatro filhos",
+        "sentence": "Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis.",
+        "start_char": 3887,
+        "end_char": 3903,
+        "excerpt": "E essa preocupação de tal modo absorvia, que ele absolutamente não pensava noutra coisa e vivia de expedientes. Como já ficou dito, naquela manhã o Saldanha estava desesperado. Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alimentado",
+                "child": "e os quatro filhos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alimentar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem da venda",
+        "sentence": "O homem da venda já lhe não fiava mais nada.",
+        "start_char": 4007,
+        "end_char": 4023,
+        "excerpt": "Como já ficou dito, naquela manhã o Saldanha estava desesperado. Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis. O homem da venda já lhe não fiava mais nada.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A cozinheira",
+        "sentence": "A cozinheira abandonara-os.",
+        "start_char": 4052,
+        "end_char": 4064,
+        "excerpt": "Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis. O homem da venda já lhe não fiava mais nada. A cozinheira abandonara-os.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O autor dos Gemidos sonoros",
+        "sentence": "O autor dos Gemidos sonoros saiu de casa sem um vintém, dizendo: - Vou cavar! - e baixou à cidade a pé.",
+        "start_char": 4080,
+        "end_char": 4107,
+        "excerpt": "O homem da venda já lhe não fiava mais nada. A cozinheira abandonara-os. O autor dos Gemidos sonoros saiu de casa sem um vintém, dizendo: - Vou cavar! - e baixou à cidade a pé.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estácio de Sá",
+        "sentence": "Morava lá para os lados de Estácio de Sá.",
+        "start_char": 4211,
+        "end_char": 4224,
+        "excerpt": "A cozinheira abandonara-os. O autor dos Gemidos sonoros saiu de casa sem um vintém, dizendo: - Vou cavar! - e baixou à cidade a pé. Morava lá para os lados de Estácio de Sá.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "negociante",
+        "sentence": "Não teve coragem de pedir cinco mil-réis ao negociante que dias antes remunerara com tanta liberalidade a sua prosa agressiva.",
+        "start_char": 4393,
+        "end_char": 4403,
+        "excerpt": "Todas as bolsas a que recorreu encontrou implacavelmente fechadas. Já tantas vezes tinham servido. Não teve coragem de pedir cinco mil-réis ao negociante que dias antes remunerara com tanta liberalidade a sua prosa agressiva.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pedir",
+                "child": "negociante",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "negociante",
+                "child": "coragem",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "negociante",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "coragem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dias",
+                "child": "negociante",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tanta liberalidade",
+                "child": "negociante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "liberalidade",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Sem ser bom pai, pois ninguém pode ser bom pai sem ter juízo, o Saldanha era meigo e carinhoso para os filhos.",
+        "start_char": 4709,
+        "end_char": 4719,
+        "excerpt": "Não teve coragem de pedir cinco mil-réis ao negociante que dias antes remunerara com tanta liberalidade a sua prosa agressiva. Chegou a penetrar no escritório do capitalista, mas limitou-se a comer-lhe o almoço - e comeu-o com remorsos, porque tinha deixado em casa a prole a fazer cruzes na boca. Sem ser bom pai, pois ninguém pode ser bom pai sem ter juízo, o Saldanha era meigo e carinhoso para os filhos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o Saldanha",
+                "child": "Sem ser bom pai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Saldanha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "Depois do almoço, abundantemente regado por um magnífico virgem \"vindo diretamente\", o Saldanha atirou-se de novo ao terrível trabalho de \"cavação\".",
+        "start_char": 5028,
+        "end_char": 5036,
+        "excerpt": "Pudesse ele e comeriam todos em pratos de ouro. Em se apanhando com dinheiro, corria logo para casa, embora pelo caminho fosse esbanjando algum em companhia dos gaudérios que topava. Depois do almoço, abundantemente regado por um magnífico virgem \"vindo diretamente\", o Saldanha atirou-se de novo ao terrível trabalho de \"cavação\".",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atirou-se",
+                "child": "o Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "atirour se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os pequenos",
+        "sentence": "E os pequenos sem comer!Ás",
+        "start_char": 5154,
+        "end_char": 5165,
+        "excerpt": "Depois do almoço, abundantemente regado por um magnífico virgem \"vindo diretamente\", o Saldanha atirou-se de novo ao terrível trabalho de \"cavação\". Passaram-se duas, passaram-se três horas, e nada, nada, nada! E os pequenos sem comer!Ás",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E os pequenos",
+                "child": "comer!Ás",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pequeno",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "comer!Ás",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "comer!Ás",
+                "child": "E os pequenos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "comer!Ás",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o boêmio",
+        "sentence": "três e meia, com o cérebro ainda escaldado pelo vinho do almoço, derreado por um calor sufocante, suando por todos os poros, o boêmio sentou-se extenuado nos degraus do chafariz do Largo do Paço, e aí, pela primeira vez na sua vida errante, atravessou-lhe o espírito a idéia nítida da dolorosa situação em que se achava.",
+        "start_char": 5304,
+        "end_char": 5312,
+        "excerpt": "Passaram-se duas, passaram-se três horas, e nada, nada, nada! E os pequenos sem comer!Ás três e meia, com o cérebro ainda escaldado pelo vinho do almoço, derreado por um calor sufocante, suando por todos os poros, o boêmio sentou-se extenuado nos degraus do chafariz do Largo do Paço, e aí, pela primeira vez na sua vida errante, atravessou-lhe o espírito a idéia nítida da dolorosa situação em que se achava.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "extenuado",
+                "child": "o boêmio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "extenuar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "boêmio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A miséria",
+        "sentence": "A miséria apresentou-se diante dos seus olhos com um aspecto até aquele momento estranho à sua percepção moral, e a lembrança do seu inútil passado o oprimiu tanto que as lágrimas lhe saltaram aos olhos.",
+        "start_char": 5500,
+        "end_char": 5509,
+        "excerpt": "E os pequenos sem comer!Ás três e meia, com o cérebro ainda escaldado pelo vinho do almoço, derreado por um calor sufocante, suando por todos os poros, o boêmio sentou-se extenuado nos degraus do chafariz do Largo do Paço, e aí, pela primeira vez na sua vida errante, atravessou-lhe o espírito a idéia nítida da dolorosa situação em que se achava. A miséria apresentou-se diante dos seus olhos com um aspecto até aquele momento estranho à sua percepção moral, e a lembrança do seu inútil passado o oprimiu tanto que as lágrimas lhe saltaram aos olhos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "apresentou-se",
+                "child": "A miséria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apresentar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "miséria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "Passavam, na direção das barcas de Niterói, muitos homens apressados, e o Saldanha notando que raro era aquele que não levava um embrulho enfiado no dedo.",
+        "start_char": 5776,
+        "end_char": 5786,
+        "excerpt": "três e meia, com o cérebro ainda escaldado pelo vinho do almoço, derreado por um calor sufocante, suando por todos os poros, o boêmio sentou-se extenuado nos degraus do chafariz do Largo do Paço, e aí, pela primeira vez na sua vida errante, atravessou-lhe o espírito a idéia nítida da dolorosa situação em que se achava. A miséria apresentou-se diante dos seus olhos com um aspecto até aquele momento estranho à sua percepção moral, e a lembrança do seu inútil passado o oprimiu tanto que as lágrimas lhe saltaram aos olhos. Passavam, na direção das barcas de Niterói, muitos homens apressados, e o Saldanha notando que raro era aquele que não levava um embrulho enfiado no dedo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notando",
+                "child": "o Saldanha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os filhos",
+        "sentence": "- É para os filhos, pensava;",
+        "start_char": 5868,
+        "end_char": 5877,
+        "excerpt": "A miséria apresentou-se diante dos seus olhos com um aspecto até aquele momento estranho à sua percepção moral, e a lembrança do seu inútil passado o oprimiu tanto que as lágrimas lhe saltaram aos olhos. Passavam, na direção das barcas de Niterói, muitos homens apressados, e o Saldanha notando que raro era aquele que não levava um embrulho enfiado no dedo. - É para os filhos, pensava;",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "As pernas trôpegas, a cabeça pesada, a língua seca, o Saldanha levantou-se com a firme resolução de tomar uma barca e, chegando ao meio da baia, atirar-se ao mar.",
+        "start_char": 6425,
+        "end_char": 6435,
+        "excerpt": "Quando saiu desse torpor, caia a tarde. O lusco-fusco envolvia o mar e os lados da Tijuca estavam coloridos por um crepúsculo de fogo. As pernas trôpegas, a cabeça pesada, a língua seca, o Saldanha levantou-se com a firme resolução de tomar uma barca e, chegando ao meio da baia, atirar-se ao mar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "o Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os órfãos",
+        "sentence": "Os órfãos mais infelizes são os que têm pai...",
+        "start_char": 6621,
+        "end_char": 6630,
+        "excerpt": "As pernas trôpegas, a cabeça pesada, a língua seca, o Saldanha levantou-se com a firme resolução de tomar uma barca e, chegando ao meio da baia, atirar-se ao mar. - É o melhor que tenho a fazer; a minha gente achará quem a ampare melhor do que eu. Os órfãos mais infelizes são os que têm pai...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Os órfãos mais",
+                "child": "infelizes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "órfão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "infeliz",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um sujeito",
+        "sentence": "Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução:",
+        "start_char": 6828,
+        "end_char": 6838,
+        "excerpt": "- É o melhor que tenho a fazer; a minha gente achará quem a ampare melhor do que eu. Os órfãos mais infelizes são os que têm pai... Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "avistou",
+                "child": "um sujeito",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "avistar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "á mesma direção",
+                "child": "um sujeito",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "direção",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "consigo",
+                "child": "um sujeito",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "consigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "transeunte",
+        "sentence": "Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução:",
+        "start_char": 6929,
+        "end_char": 6939,
+        "excerpt": "- É o melhor que tenho a fazer; a minha gente achará quem a ampare melhor do que eu. Os órfãos mais infelizes são os que têm pai... Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dirigiu-se",
+                "child": "transeunte",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dirigir se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "transeunte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O cavalheiro",
+        "sentence": "O cavalheiro dispõe de trezentos réis?",
+        "start_char": 6964,
+        "end_char": 6976,
+        "excerpt": "Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução: - O cavalheiro dispõe de trezentos réis?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dispõe",
+                "child": "O cavalheiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dispor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavalheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Saldanha",
+        "sentence": "O outro mediu-o de alto a baixo, fez uma careta, introduziu dois dedos no bolso do colete, hesitou, arrependeu-se, enfiou a mão na algibeira do casaco, tirou um caderninho de cupons de passagens, destacou um deles, e deu-o ao Saldanha, com uma expressão no rosto em que se lia perfeitamente o seguinte:",
+        "start_char": 7327,
+        "end_char": 7335,
+        "excerpt": "O cavalheiro dispõe de trezentos réis? Não tenho dinheiro comigo, estou doente, e seria para mim um grande transtorno perder esta barca. O outro mediu-o de alto a baixo, fez uma careta, introduziu dois dedos no bolso do colete, hesitou, arrependeu-se, enfiou a mão na algibeira do casaco, tirou um caderninho de cupons de passagens, destacou um deles, e deu-o ao Saldanha, com uma expressão no rosto em que se lia perfeitamente o seguinte:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deu-o",
+                "child": "Saldanha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "deu-o",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O boêmio",
+        "sentence": "\"O boêmio agradeceu, sorrindo tristemente à idéia de que o tal pedacinho de papel era o seupassaporte para a eternidade.",
+        "start_char": 7475,
+        "end_char": 7483,
+        "excerpt": "O outro mediu-o de alto a baixo, fez uma careta, introduziu dois dedos no bolso do colete, hesitou, arrependeu-se, enfiou a mão na algibeira do casaco, tirou um caderninho de cupons de passagens, destacou um deles, e deu-o ao Saldanha, com uma expressão no rosto em que se lia perfeitamente o seguinte: \"A mim não me enganas tu; com este pedacinho de papel não irás beber. \"O boêmio agradeceu, sorrindo tristemente à idéia de que o tal pedacinho de papel era o seupassaporte para a eternidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "agradeceu",
+                "child": "O boêmio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agradecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "boêmio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O sujeito",
+        "sentence": "O sujeito seguiu o seu caminho, e ele ia seguir também quando viu no chão outro pedaço de papel, de maiores dimensões, dobrado em quatro, que lhe pareceu - oh, fortuna - uma nota de banco.",
+        "start_char": 7595,
+        "end_char": 7604,
+        "excerpt": "\"A mim não me enganas tu; com este pedacinho de papel não irás beber. \"O boêmio agradeceu, sorrindo tristemente à idéia de que o tal pedacinho de papel era o seupassaporte para a eternidade. O sujeito seguiu o seu caminho, e ele ia seguir também quando viu no chão outro pedaço de papel, de maiores dimensões, dobrado em quatro, que lhe pareceu - oh, fortuna - uma nota de banco.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seguiu",
+                "child": "O sujeito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "seguir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Terezinha",
+        "sentence": "Tomou um tílburi no 1argo de são Francisco, e ao chegar perto de casa, ainda na rua, gritou como um possesso: - Terezinha!",
+        "start_char": 8483,
+        "end_char": 8492,
+        "excerpt": "Depois, meteu-a no bolso, e \"tocou á toda\" para a rua do Ouvidor, lépido, contente, como se momentos antes não se houvesse representado um drama dentro de sua alma. Entrou no Café do Rio, onde ofereceu cerveja a alguns amigos depois, na Confeitaria Pascoal, arranjou um opulento farnel de comes e bebes: frangos assados, empadinhas, doces, vinho do Porto, etc. Tomou um tílburi no 1argo de são Francisco, e ao chegar perto de casa, ainda na rua, gritou como um possesso: - Terezinha!",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "-",
+                "child": "Terezinha",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "-",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Terezinha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Terezinha",
+                "child": "-",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Terezinha",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "-",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chiquinha",
+        "sentence": "Chiquinha!",
+        "start_char": 8500,
+        "end_char": 8509,
+        "excerpt": "Tomou um tílburi no 1argo de são Francisco, e ao chegar perto de casa, ainda na rua, gritou como um possesso: - Terezinha! Cota! Chiquinha!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nhô - nhô",
+        "sentence": "Nhô-nhô!",
+        "start_char": 8510,
+        "end_char": 8519,
+        "excerpt": "Cota! Chiquinha! Nhô-nhô!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eduardinho",
+        "sentence": "Eduardinho!",
+        "start_char": 8520,
+        "end_char": 8530,
+        "excerpt": "Chiquinha! Nhô-nhô! Eduardinho!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Saldanha",
+        "sentence": "O Saldanha abriu o embrulho na sala de jantar e, com um ar vitorioso, espalhou a comezaina sobre a mesa.",
+        "start_char": 8709,
+        "end_char": 8719,
+        "excerpt": "Foi um alvoroço em casa. Era de ver toda aquela criançada a com os olhos ainda vermelhos de tanto chorar. O Saldanha abriu o embrulho na sala de jantar e, com um ar vitorioso, espalhou a comezaina sobre a mesa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "abriu",
+                "child": "O Saldanha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Saldanha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a esposa",
+        "sentence": "- Mas dize-me: como foi que tu... - ia perguntar a esposa.",
+        "start_char": 8863,
+        "end_char": 8871,
+        "excerpt": "Era de ver toda aquela criançada a com os olhos ainda vermelhos de tanto chorar. O Saldanha abriu o embrulho na sala de jantar e, com um ar vitorioso, espalhou a comezaina sobre a mesa. - Mas dize-me: como foi que tu... - ia perguntar a esposa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perguntar",
+                "child": "a esposa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "esposo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Come! come!, interrompeu o marido; come, depois te contarei.",
+        "start_char": 8900,
+        "end_char": 8908,
+        "excerpt": "- Mas dize-me: como foi que tu... - ia perguntar a esposa. - Come! come!, interrompeu o marido; come, depois te contarei.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "o marido",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o saca - rolhas",
+        "sentence": "Dá cá dali o saca-rolhas!",
+        "start_char": 8935,
+        "end_char": 8950,
+        "excerpt": "-réis, e já não lhe restava um níquel desse dinheiro!É verdade que ele passou uma semana de patuscadas, uma semana cheia! A inesperada fortuna coincidira com o aniversário natalício de um dos pequenos, o Nhô- nhô, e tinha havido peru de forno e até champanhe à mesa! Que diabo, um dia não são dias!O semi-conto de réis voou, sem que o imprevidente Saldanha empregasse dez tostões em qualquer coisa útil. A conta da venda - uma conta de cabelos brancos - ficou por pagar, não se comprou um trapinho para as crianças, tão precisadas de roupa!O dinheiro viera das mãos de certo negociante da rua da Alfândega, que encomendara ao Saldanha uma série de artigos metendo à bulha uma companhia em liquidação, isto é, os respectivos liquidantes. O nosso homem, que tinha dedo para essa espécie de literatura, fez obra asseada: as descomposturas produziram o desejado efeito. O prosador contava com cem mil-réis. recebeu quinhentos. Foi um delírio! O Saldanha subiu radiante a rua do Ouvidor, com cócegas de comprar tudo quanto via exposto nos mostradores das lojas. Parou durante cinco minutos diante de um gramofone. - Que surpresa seria para a pequenada! - Mas resistiu e passou. Foi esse o único movimento bom que teve depois de endinheirado. E assim vivia o pobre-diabo, desde que, por negligente e ocioso, perdera sucessivamente dezenove empregos e desesperara de obter o vigésimo. Era um boêmio incorrigível, um desgraçado, que chegara aos trinta e oito anos sem uma onça de juízo. Um dia em que lhe pareceu, e pareceu a todos, que estava definitiva e solidamente arrumado num cartório de tabelião, o Saldanha casou-se com uma pobre moça a quem fazia versos, e não de pé quebrado, porque para esse outro gênero de literatura também não lhe faltavam aptidões. Tanto assim que, durante muito tempo, viveu quase exclusivamente dos seus Gemidos sonoros, coleção de poesias, cujos dois mil exemplares passou um a um pelos parentes, amigos, conhecidos e desconhecidos, dizendo sempre que fazia aquilo apenas para pagar as despesas de impressão, pois não mercadejava a sua musa. Depois de esgotada completamente a edição, o Saldanha, freqüentador assíduo de todas as lojas de alfarrábios, comprava por baixo preço quantos exemplares, e não eram poucos, apareciam, e vendia-os no bairro comercial, aos negociantes dinheirosos. O expediente dava o melhor resultado, porque o poeta, frenólogo intuitivo, conhecia pela cara, ou, segundo a sua própria expressão, \"pela pinta\", esses mecenas fortuitos, e, além disso, aprendera de cor uma infinidade de lábias para impingir o volume. Ou por esses motivos, ou porque as pessoas a quem se dirigia quisessem se ver livres de um importuno, a colheita era certa. Note-se que ninguém duvidava da identidade do poeta, porque o seu retrato lá estava, litografado pelo A. de Pinho, e parecidíssimo, na primeira página dos Gemidos sonoros. Entretanto, esse ardiloso manejo era como o enlevo d'alma da linda Ignês: não podia durar muito. Os volumes, à força de viajar dos primitivos donos para os alfarrabistas, dos alfarrabistas para o Saldanha, do Saldanha para os protetores das letras nacionais, e destes outra vez para os alfarrabistas, ficaram tão ensebados (\"fatigados\", como se diz em linguagem bibliográfica), que já não havia meio de lhes dar saída. Por isso, a mais séria, a mais firme preocupação do industrioso Saldanha era que uma nova edição dos Gemidos fizesse gemer os prelos. Por conta dele, já se sabe, porque não havia editor que se arrojasse à empresa. E essa preocupação de tal modo absorvia, que ele absolutamente não pensava noutra coisa e vivia de expedientes. Como já ficou dito, naquela manhã o Saldanha estava desesperado. Durante os três últimos dias, ele, a mulher e os quatro filhos tinham-se alimentado com as derradeiras cinco patacas, melancólicos vestígios dos quinhentos mil-réis. O homem da venda já lhe não fiava mais nada. A cozinheira abandonara-os. O autor dos Gemidos sonoros saiu de casa sem um vintém, dizendo: - Vou cavar! - e baixou à cidade a pé. Morava lá para os lados de Estácio de Sá. Parecia uma fatalidade! Todas as bolsas a que recorreu encontrou implacavelmente fechadas. Já tantas vezes tinham servido. Não teve coragem de pedir cinco mil-réis ao negociante que dias antes remunerara com tanta liberalidade a sua prosa agressiva. Chegou a penetrar no escritório do capitalista, mas limitou-se a comer-lhe o almoço - e comeu-o com remorsos, porque tinha deixado em casa a prole a fazer cruzes na boca. Sem ser bom pai, pois ninguém pode ser bom pai sem ter juízo, o Saldanha era meigo e carinhoso para os filhos. Pudesse ele e comeriam todos em pratos de ouro. Em se apanhando com dinheiro, corria logo para casa, embora pelo caminho fosse esbanjando algum em companhia dos gaudérios que topava. Depois do almoço, abundantemente regado por um magnífico virgem \"vindo diretamente\", o Saldanha atirou-se de novo ao terrível trabalho de \"cavação\". Passaram-se duas, passaram-se três horas, e nada, nada, nada! E os pequenos sem comer!Ás três e meia, com o cérebro ainda escaldado pelo vinho do almoço, derreado por um calor sufocante, suando por todos os poros, o boêmio sentou-se extenuado nos degraus do chafariz do Largo do Paço, e aí, pela primeira vez na sua vida errante, atravessou-lhe o espírito a idéia nítida da dolorosa situação em que se achava. A miséria apresentou-se diante dos seus olhos com um aspecto até aquele momento estranho à sua percepção moral, e a lembrança do seu inútil passado o oprimiu tanto que as lágrimas lhe saltaram aos olhos. Passavam, na direção das barcas de Niterói, muitos homens apressados, e o Saldanha notando que raro era aquele que não levava um embrulho enfiado no dedo. - É para os filhos, pensava; são homens que trabalham, que têm como eu poderia ter, o ordenado certo no fim do mês... Não são ociosos nem boêmios, como eu... Idéias negras acudiram-lhe em tropel ao cérebro avinhado, produzindo febre. As horas correram sem que ele desse fé, subjugado como estava pelo sofrimento. Numa espécie de delírio, ouvia apenas rumor - o choro dos filhos. Quando saiu desse torpor, caia a tarde. O lusco-fusco envolvia o mar e os lados da Tijuca estavam coloridos por um crepúsculo de fogo. As pernas trôpegas, a cabeça pesada, a língua seca, o Saldanha levantou-se com a firme resolução de tomar uma barca e, chegando ao meio da baia, atirar-se ao mar. - É o melhor que tenho a fazer; a minha gente achará quem a ampare melhor do que eu. Os órfãos mais infelizes são os que têm pai... Depois dessa reflexão filosófica, ele encaminhou-se para a estação das barcas, e só então se lembrou de que não tinha dinheiro para a passagem; avistou, porém, um sujeito que levava á mesma direção, e dizendo consigo: 'vou cavar pela última vez\", dirigiu-se ao transeunte com toda a resolução: - O cavalheiro dispõe de trezentos réis? Não tenho dinheiro comigo, estou doente, e seria para mim um grande transtorno perder esta barca. O outro mediu-o de alto a baixo, fez uma careta, introduziu dois dedos no bolso do colete, hesitou, arrependeu-se, enfiou a mão na algibeira do casaco, tirou um caderninho de cupons de passagens, destacou um deles, e deu-o ao Saldanha, com uma expressão no rosto em que se lia perfeitamente o seguinte: \"A mim não me enganas tu; com este pedacinho de papel não irás beber. \"O boêmio agradeceu, sorrindo tristemente à idéia de que o tal pedacinho de papel era o seupassaporte para a eternidade. O sujeito seguiu o seu caminho, e ele ia seguir também quando viu no chão outro pedaço de papel, de maiores dimensões, dobrado em quatro, que lhe pareceu - oh, fortuna - uma nota de banco. Apanhou-o. Era, efetivamente, uma nota de cem mil- réis. Trêmulo, nervoso, abriu a nota, percorreu-a no verso e no reverso, e, desconfiado de uma alucinação dos sentidos, examinou-a à luz de um lampião aceso naquele instante. Depois, meteu-a no bolso, e \"tocou á toda\" para a rua do Ouvidor, lépido, contente, como se momentos antes não se houvesse representado um drama dentro de sua alma. Entrou no Café do Rio, onde ofereceu cerveja a alguns amigos depois, na Confeitaria Pascoal, arranjou um opulento farnel de comes e bebes: frangos assados, empadinhas, doces, vinho do Porto, etc. Tomou um tílburi no 1argo de são Francisco, e ao chegar perto de casa, ainda na rua, gritou como um possesso: - Terezinha! Cota! Chiquinha! Nhô-nhô! Eduardinho! aqui estou eu, aqui esta papai com um banquete opíparo! Toca a música! Foi um alvoroço em casa. Era de ver toda aquela criançada a com os olhos ainda vermelhos de tanto chorar. O Saldanha abriu o embrulho na sala de jantar e, com um ar vitorioso, espalhou a comezaina sobre a mesa. - Mas dize-me: como foi que tu... - ia perguntar a esposa. - Come! come!, interrompeu o marido; come, depois te contarei. Dá cá dali o saca-rolhas!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro",
+                    "cérebro"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 6
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido",
+                    "Ouvido"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 3
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedo",
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 4
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Terezinha",
+        "sentence": "E desarrolhando com um estouro alegre a garrafa de vinho do Porto: - Ah, Terezinha! decididamente sou a criatura mais feliz que o céu cobre!",
+        "start_char": 9035,
+        "end_char": 9044,
+        "excerpt": "Come! come!, interrompeu o marido; come, depois te contarei. Dá cá dali o saca-rolhas! E desarrolhando com um estouro alegre a garrafa de vinho do Porto: - Ah, Terezinha! decididamente sou a criatura mais feliz que o céu cobre!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desarrolhando",
+                "child": "Terezinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desarrolhar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Terezinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Saldanha",
+        "sentence": "E durante três dias o Saldanha não \"cavou\".",
+        "start_char": 9123,
+        "end_char": 9133,
+        "excerpt": "Dá cá dali o saca-rolhas! E desarrolhando com um estouro alegre a garrafa de vinho do Porto: - Ah, Terezinha! decididamente sou a criatura mais feliz que o céu cobre! E durante três dias o Saldanha não \"cavou\".",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

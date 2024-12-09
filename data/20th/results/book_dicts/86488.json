@@ -1,0 +1,132 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus!",
+        "start_char": 79,
+        "end_char": 83,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus, eu sinto e tu bem vês que eu morro Respirando este ar;",
+        "start_char": 157,
+        "end_char": 161,
+        "excerpt": "não seja já; Eu quero ouvir na laranjeira, à tarde, Cantar o sabiá! Meu Deus, eu sinto e tu bem vês que eu morro Respirando este ar;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Faz que eu viva, Senhor!",
+        "start_char": 235,
+        "end_char": 241,
+        "excerpt": "Eu quero ouvir na laranjeira, à tarde, Cantar o sabiá! Meu Deus, eu sinto e tu bem vês que eu morro Respirando este ar; Faz que eu viva, Senhor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Faz",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Faz",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mãe",
+        "sentence": "Tão doces duma mãe!",
+        "start_char": 390,
+        "end_char": 393,
+        "excerpt": "O país estrangeiro mais belezas Do que a pátria, não tem; E este mundo não vale um só dos beijos Tão doces duma mãe!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "doces",
+                "child": "mãe",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "doce",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mãe",
+                "child": "doces",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "start_char": 79,
+        "end_char": 83,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "start_char": 79,
+        "end_char": 83,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sabiá",
+        "sentence": "A voz do sabiá!",
+        "start_char": 1080,
+        "end_char": 1085,
+        "excerpt": "não seja já; Eu quero ouvir na laranjeira, à tarde, Cantar o sabiá! Meu Deus, eu sinto e tu bem vês que eu morro Respirando este ar; Faz que eu viva, Senhor! dá-me de novo Os gozos do meu lar! O país estrangeiro mais belezas Do que a pátria, não tem; E este mundo não vale um só dos beijos Tão doces duma mãe! Dá-me os sítios gentis onde eu brincava Lá na quadra infantil; Dá que eu veja uma vez o céu da pátria, O céu do meu Brasil! Se eu tenho de morrer na flor dos anos, Meu Deus! não seja já! Eu quero ouvir na laranjeira, à tarde, Cantar o sabiá! Quero ver esse céu da minha terra Tão lindo e tão azul! E a nuvem cor de rosa que passava Correndo lá do sul! Quero dormir à sombra dos coqueiros, As folhas por dossel; E ver se apanho a borboleta branca, Que voa no vergel! Quero sentar-me à beira do riacho Das tardes ao cair, E sozinho cismando no crepúsculo Os sonhos do porvir! Se eu tenho de morrer na flor dos anos, Meu Deus! não seja já; Eu quero ouvir na laranjeira, à tarde, A voz do sabiá!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "start_char": 79,
+        "end_char": 83,
+        "excerpt": "Canção do Exílio Casimiro de Abreu Se eu tenho de morrer na flor dos anos, Meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

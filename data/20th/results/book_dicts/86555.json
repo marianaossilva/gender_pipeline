@@ -1,0 +1,288 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo!",
+        "start_char": 35,
+        "end_char": 44,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino,",
+                "child": "sabedes",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sabede",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sabedes",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino,",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sabede",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amado",
+        "sentence": "Ai, flores, ai flores do verde ramo, se sabedes novas do meu amado!",
+        "start_char": 254,
+        "end_char": 263,
+        "excerpt": "Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é? Ai, flores, ai flores do verde ramo, se sabedes novas do meu amado!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabedes",
+                "child": "meu amado",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "sabede",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amado",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amado",
+                "child": "sabedes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amado",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "sabede",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "Se sabedes novas do meu amigo, aquel que mentiu do que pos comigo!",
+        "start_char": 301,
+        "end_char": 310,
+        "excerpt": "Ai, flores, ai flores do verde ramo, se sabedes novas do meu amado! Ai Deus, e u é? Se sabedes novas do meu amigo, aquel que mentiu do que pos comigo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Se sabedes",
+                "child": "meu amigo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sabede",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "Se sabedes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sabede",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amado",
+        "sentence": "Se sabedes novas do meu amado aquel que mentiu do que mi ha jurado!",
+        "start_char": 384,
+        "end_char": 393,
+        "excerpt": "Se sabedes novas do meu amigo, aquel que mentiu do que pos comigo! Ai Deus, e u é? Se sabedes novas do meu amado aquel que mentiu do que mi ha jurado!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Se sabedes",
+                "child": "meu amado",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sabede",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amado",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amado",
+                "child": "aquel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amado",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "aquel",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amado",
+                "child": "Se sabedes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amado",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sabede",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquel",
+                "child": "meu amado",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "aquel",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amado",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que mi ha",
+                "child": "meu amado",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amado",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, e u é?",
+        "start_char": 184,
+        "end_char": 188,
+        "excerpt": "Ai flores, ai flores do verde pino Dom Dinis Cancioneiro da Biblioteca Nacional 568, Cancioneiro da Vaticana 171 -Ai flores, ai flores do verde pino, se sabedes novas do meu amigo! Ai Deus, e u é?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

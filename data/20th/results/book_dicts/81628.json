@@ -1,0 +1,163 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Adelina Lopes Vieira Mamãe",
+        "sentence": "Não se perde nada à mesa Adelina Lopes Vieira  Mamãe, tu podes dar-me um bom bocado de cozido, pois não?",
+        "start_char": -1,
+        "end_char": 25,
+        "excerpt": "",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu filho",
+        "sentence": "Meu filho, sabes bem que quem pedir à mesa nada tem.",
+        "start_char": 105,
+        "end_char": 114,
+        "excerpt": "Não se perde nada à mesa Adelina Lopes Vieira  Mamãe, tu podes dar-me um bom bocado de cozido, pois não? Meu filho, sabes bem que quem pedir à mesa nada tem. Oh!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "Meu filho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Meu filho",
+                "child": ", sabes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "sabe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", sabes",
+                "child": "Meu filho",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "sabe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mesa",
+                "child": "Meu filho",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "mesa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valentinzinho",
+        "sentence": "Pois sim, mas tira a mão do saleiro, não posso adivinhar para que queres sal, Valentinzinho!",
+        "start_char": 274,
+        "end_char": 287,
+        "excerpt": "Oh! não peço mais nada, estou calado. Pois sim, mas tira a mão do saleiro, não posso adivinhar para que queres sal, Valentinzinho!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "queres",
+                "child": ", Valentinzinho",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Valentinzinho",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mamãe",
+        "sentence": "Mamãe, é para a carne com toucinho, que eu não pedi, mas sei que me vais dar.",
+        "start_char": 289,
+        "end_char": 294,
+        "excerpt": "não peço mais nada, estou calado. Pois sim, mas tira a mão do saleiro, não posso adivinhar para que queres sal, Valentinzinho! Mamãe, é para a carne com toucinho, que eu não pedi, mas sei que me vais dar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "Mamãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

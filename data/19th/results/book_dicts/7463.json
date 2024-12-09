@@ -1,0 +1,901 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. .",
+        "start_char": 22,
+        "end_char": 35,
+        "excerpt": "HISTÓRIA DE UM DOMINÓ Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. . . que querem?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Perdoem-me",
+                "child": "Artur Azevedo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Perdoem-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os leitores",
+        "sentence": "Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. .",
+        "start_char": 47,
+        "end_char": 58,
+        "excerpt": "HISTÓRIA DE UM DOMINÓ Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. . . que querem?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contar-lhes",
+                "child": "os leitores",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "contar-lhes",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pequeno cavaco",
+        "sentence": "Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "start_char": 358,
+        "end_char": 372,
+        "excerpt": "Tenho uma natureza especial: o carnaval entristece-me, e o \"Abre alas, que quero passar\" soa aos meus ouvidos como um canto de agonia e de morte. * * * Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Dado",
+                "child": "esse pequeno cavaco",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "dado",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavaco",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os leitores",
+        "sentence": "Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "start_char": 381,
+        "end_char": 392,
+        "excerpt": "Tenho uma natureza especial: o carnaval entristece-me, e o \"Abre alas, que quero passar\" soa aos meus ouvidos como um canto de agonia e de morte. * * * Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "saibam",
+                "child": "os leitores",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "saibam",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um homem",
+                "child": "os leitores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Abreu",
+                "child": "os leitores",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Abreu",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "start_char": 415,
+        "end_char": 422,
+        "excerpt": "Tenho uma natureza especial: o carnaval entristece-me, e o \"Abre alas, que quero passar\" soa aos meus ouvidos como um canto de agonia e de morte. * * * Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um homem",
+                "child": ", o Abreu",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Abreu",
+                "child": "um homem",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Abreu",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Abreu",
+                "child": "os leitores",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Abreu",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esse casmurro",
+        "sentence": "Entretanto, esse casmurro, em chegando o carnaval, veste um dominó e sai à rua mascarado.",
+        "start_char": 578,
+        "end_char": 591,
+        "excerpt": "* * * Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir. Entretanto, esse casmurro, em chegando o carnaval, veste um dominó e sai à rua mascarado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veste",
+                "child": "esse casmurro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vestir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "casmurro",
+                "categories": [
+                    "aparencia",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o carnaval",
+                "child": "esse casmurro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "carnaval",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "casmurro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um vizinho",
+        "sentence": "O ano passado um vizinho teve a curiosidade e a pachorra de mascarar-se também para acompanhá-lo a certa distância, e observar o que ele fazia.",
+        "start_char": 709,
+        "end_char": 719,
+        "excerpt": "Entretanto, esse casmurro, em chegando o carnaval, veste um dominó e sai à rua mascarado. Isto são favas contadas todos os anos. O ano passado um vizinho teve a curiosidade e a pachorra de mascarar-se também para acompanhá-lo a certa distância, e observar o que ele fazia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "um vizinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a população",
+        "sentence": "Era domingo gordo; toda a população estava na rua.",
+        "start_char": 863,
+        "end_char": 874,
+        "excerpt": "Isto são favas contadas todos os anos. O ano passado um vizinho teve a curiosidade e a pachorra de mascarar-se também para acompanhá-lo a certa distância, e observar o que ele fazia. Era domingo gordo; toda a população estava na rua.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "toda a população",
+                "child": "rua",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "população",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "toda a população",
+                "child": "gordo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "população",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "gordo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rua",
+                "child": "toda a população",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "população",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Abreu",
+        "sentence": "O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor.",
+        "start_char": 890,
+        "end_char": 897,
+        "excerpt": "O ano passado um vizinho teve a curiosidade e a pachorra de mascarar-se também para acompanhá-lo a certa distância, e observar o que ele fazia. Era domingo gordo; toda a população estava na rua. O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "apeou-se",
+                "child": "O Abreu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apear se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "algumas donas e donzelas",
+        "sentence": "Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda.",
+        "start_char": 1145,
+        "end_char": 1169,
+        "excerpt": "Era domingo gordo; toda a população estava na rua. O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor. Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "grupo das senhoras",
+        "sentence": "Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda.",
+        "start_char": 1279,
+        "end_char": 1297,
+        "excerpt": "Era domingo gordo; toda a população estava na rua. O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor. Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Abreu",
+        "sentence": "O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!...",
+        "start_char": 1367,
+        "end_char": 1374,
+        "excerpt": "O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor. Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda. O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "apeou-se",
+                "child": "O Abreu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apear se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "demorou-se",
+                "child": "O Abreu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "demorou se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o vizinho",
+        "sentence": "O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!...",
+        "start_char": 1415,
+        "end_char": 1424,
+        "excerpt": "O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor. Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda. O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "resolveu",
+                "child": "o vizinho",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "resolver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Deixou-o efetivamente, mas uma hora depois voltou, e ainda lá encontrou o Abreu no mesmo ponto e na mesma posição em que o havia deixado.",
+        "start_char": 1596,
+        "end_char": 1603,
+        "excerpt": "O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!... Deixemo-lo!... Deixou-o efetivamente, mas uma hora depois voltou, e ainda lá encontrou o Abreu no mesmo ponto e na mesma posição em que o havia deixado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "encontrou",
+                "child": "o Abreu",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o grupo das senhoras",
+        "sentence": "Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu.",
+        "start_char": 1694,
+        "end_char": 1714,
+        "excerpt": "Deixemo-lo!... Deixou-o efetivamente, mas uma hora depois voltou, e ainda lá encontrou o Abreu no mesmo ponto e na mesma posição em que o havia deixado. Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher do Abreu",
+        "sentence": "Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu.",
+        "start_char": 1758,
+        "end_char": 1775,
+        "excerpt": "Deixemo-lo!... Deixou-o efetivamente, mas uma hora depois voltou, e ainda lá encontrou o Abreu no mesmo ponto e na mesma posição em que o havia deixado. Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Sim, que o Abreu tinha sido casado com uma bonita mulher que um dia o abandonou para amancebar-se com um sujeito que ele supunha seu amigo, e ao qual abrira confiadamente as portas de sua casa.",
+        "start_char": 1792,
+        "end_char": 1799,
+        "excerpt": "Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu. * * * Sim, que o Abreu tinha sido casado com uma bonita mulher que um dia o abandonou para amancebar-se com um sujeito que ele supunha seu amigo, e ao qual abrira confiadamente as portas de sua casa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Abreu",
+                "child": "casado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abreu",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "casado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O amante",
+        "sentence": "O amante lá estava por trás do grupo também à espera das sociedades.",
+        "start_char": 1977,
+        "end_char": 1985,
+        "excerpt": "* * * Dado esse pequeno cavaco, saibam os leitores que conheço um homem, o Abreu, que é o mais triste dos homens: só se compraz na solidão e no silêncio, não tem amigos, vive só, e nunca ninguém o viu rir, nem mesmo sorrir. Entretanto, esse casmurro, em chegando o carnaval, veste um dominó e sai à rua mascarado. Isto são favas contadas todos os anos. O ano passado um vizinho teve a curiosidade e a pachorra de mascarar-se também para acompanhá-lo a certa distância, e observar o que ele fazia. Era domingo gordo; toda a população estava na rua. O Abreu apeou-se do bonde, o mesmo bonde em que vinha o curioso que o acompanhava, um bonde do Catumbi, o bairro onde moravam ambos, e desceu com muita dificuldade a Rua do Ouvidor. Chegando em frente à casa de um alfaiate, em cuja porta estavam sentadas algumas donas e donzelas à espera das sociedades, parou, encostando-se na parede da casa fronteira, e ali se deixou ficar, pegando no grupo das senhoras os olhos, que faiscavam através dos dois buracos da máscara de seda. O Abreu demorou-se ali seguramente meia hora, e o vizinho, farto de esperar, resolveu abandoná-lo, dizendo consigo: - Ora! é um esquisito!... Deixemo-lo!... Deixou-o efetivamente, mas uma hora depois voltou, e ainda lá encontrou o Abreu no mesmo ponto e na mesma posição em que o havia deixado. Examinou então com mais cuidado o grupo das senhoras, e reconheceu, surpreso, que uma delas era a mulher do Abreu. * * * Sim, que o Abreu tinha sido casado com uma bonita mulher que um dia o abandonou para amancebar-se com um sujeito que ele supunha seu amigo, e ao qual abrira confiadamente as portas de sua casa. O amante lá estava por trás do grupo também à espera das sociedades.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Desde que lhe sucedeu essa desgraça, o Abreu tornou-se triste, e sua tristeza durou e dura ainda, porque ele amava profundamente aquela ingrata.",
+        "start_char": 2114,
+        "end_char": 2121,
+        "excerpt": "O amante lá estava por trás do grupo também à espera das sociedades. Toda a gente os supõe casados. Desde que lhe sucedeu essa desgraça, o Abreu tornou-se triste, e sua tristeza durou e dura ainda, porque ele amava profundamente aquela ingrata.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "o Abreu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os leitores",
+        "sentence": "Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido.",
+        "start_char": 2335,
+        "end_char": 2346,
+        "excerpt": "Desde que lhe sucedeu essa desgraça, o Abreu tornou-se triste, e sua tristeza durou e dura ainda, porque ele amava profundamente aquela ingrata. Amava-a tanto, que neste mundo só uma coisa lhe proporcionava um simulacro de prazer: vê-la de perto. Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "compreendem",
+                "child": "os leitores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compreender",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido.",
+        "start_char": 2363,
+        "end_char": 2370,
+        "excerpt": "Desde que lhe sucedeu essa desgraça, o Abreu tornou-se triste, e sua tristeza durou e dura ainda, porque ele amava profundamente aquela ingrata. Amava-a tanto, que neste mundo só uma coisa lhe proporcionava um simulacro de prazer: vê-la de perto. Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "o Abreu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poderia",
+                "child": "o Abreu",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua mulher",
+        "sentence": "Mas uma vez, há cinco anos, disseram-lhe que sua mulher tinha assistido ao carnaval sentada à porta do alfaiate e, no ano seguinte, o Abreu, metido num dominó alugado, foi verificar se ela escolhera o mesmo ponto.",
+        "start_char": 2592,
+        "end_char": 2602,
+        "excerpt": "Amava-a tanto, que neste mundo só uma coisa lhe proporcionava um simulacro de prazer: vê-la de perto. Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido. Mas uma vez, há cinco anos, disseram-lhe que sua mulher tinha assistido ao carnaval sentada à porta do alfaiate e, no ano seguinte, o Abreu, metido num dominó alugado, foi verificar se ela escolhera o mesmo ponto.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "assistido",
+                "child": "sua mulher",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "assistir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Abreu",
+        "sentence": "Mas uma vez, há cinco anos, disseram-lhe que sua mulher tinha assistido ao carnaval sentada à porta do alfaiate e, no ano seguinte, o Abreu, metido num dominó alugado, foi verificar se ela escolhera o mesmo ponto.",
+        "start_char": 2679,
+        "end_char": 2686,
+        "excerpt": "Amava-a tanto, que neste mundo só uma coisa lhe proporcionava um simulacro de prazer: vê-la de perto. Entretanto os leitores compreendem que o Abreu não poderia procurar a miúdo tão singular espécie de consolação, e nos raros encontros fortuitos que tinha com ela, não a encarava de modo a satisfazer aquele apetite mórbido. Mas uma vez, há cinco anos, disseram-lhe que sua mulher tinha assistido ao carnaval sentada à porta do alfaiate e, no ano seguinte, o Abreu, metido num dominó alugado, foi verificar se ela escolhera o mesmo ponto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "poderia",
+                "child": "o Abreu",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o infeliz marido",
+        "sentence": "Daí por diante o infeliz marido não perdeu um carnaval, e é muito provável que amanhã lá esteja a postos em frente à casa do alfaiate.",
+        "start_char": 2850,
+        "end_char": 2866,
+        "excerpt": "Mas uma vez, há cinco anos, disseram-lhe que sua mulher tinha assistido ao carnaval sentada à porta do alfaiate e, no ano seguinte, o Abreu, metido num dominó alugado, foi verificar se ela escolhera o mesmo ponto. Encontrou-a, e durante muitas horas conseguiu vê-la de perto e à vontade. Daí por diante o infeliz marido não perdeu um carnaval, e é muito provável que amanhã lá esteja a postos em frente à casa do alfaiate.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perdeu",
+                "child": "o infeliz marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "carater_social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os leitores",
+        "sentence": "Os leitores, com alguma pachorra, poderão certificar-se de que este conto não é inventado.",
+        "start_char": 2970,
+        "end_char": 2981,
+        "excerpt": "Encontrou-a, e durante muitas horas conseguiu vê-la de perto e à vontade. Daí por diante o infeliz marido não perdeu um carnaval, e é muito provável que amanhã lá esteja a postos em frente à casa do alfaiate. Os leitores, com alguma pachorra, poderão certificar-se de que este conto não é inventado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "poderão",
+                "child": "Os leitores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

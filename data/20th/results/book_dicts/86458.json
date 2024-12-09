@@ -1,0 +1,268 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 9,
+        "end_char": 26,
+        "excerpt": "O baile! Casimiro de Abreu Se junto de mim te vejo Abre-te a boca um bocejo, Só pelo baile suspiras!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Narcisos - Bonecos",
+        "sentence": "Mais valem risos Fingidos, desses Narcisos - Bonecos que a moda enfeita - Do que a voz sincera e rude De quem, prezando a virtude, Os atavios rejeita.",
+        "start_char": 224,
+        "end_char": 242,
+        "excerpt": "Essas douradas mentiras! Tens razão! Mais valem risos Fingidos, desses Narcisos - Bonecos que a moda enfeita - Do que a voz sincera e rude De quem, prezando a virtude, Os atavios rejeita.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valsa",
+        "sentence": "- Valsa, donzela, A mocidade é tão bela, E a vida dura tão pouco!",
+        "start_char": 355,
+        "end_char": 360,
+        "excerpt": "Mais valem risos Fingidos, desses Narcisos - Bonecos que a moda enfeita - Do que a voz sincera e rude De quem, prezando a virtude, Os atavios rejeita. Tens razão! - Valsa, donzela, A mocidade é tão bela, E a vida dura tão pouco!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tens",
+                "child": "- Valsa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Tens",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Valsa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Valsa",
+                "child": ", donzela",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Valsa",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Valsa",
+                "child": "Tens",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Valsa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", donzela",
+                "child": "- Valsa",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Valsa",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "- Valsa, donzela, A mocidade é tão bela, E a vida dura tão pouco!",
+        "start_char": 362,
+        "end_char": 369,
+        "excerpt": "Mais valem risos Fingidos, desses Narcisos - Bonecos que a moda enfeita - Do que a voz sincera e rude De quem, prezando a virtude, Os atavios rejeita. Tens razão! - Valsa, donzela, A mocidade é tão bela, E a vida dura tão pouco!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Valsa",
+                "child": ", donzela",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Valsa",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", donzela",
+                "child": "- Valsa",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Valsa",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", donzela",
+                "child": "Tens",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valsa",
+        "sentence": "- Valsa, donzela, A mocidade é tão bela E a vida dura tão pouco!",
+        "start_char": 1010,
+        "end_char": 1015,
+        "excerpt": "- \" Tens razão! - Valsa, donzela, A mocidade é tão bela E a vida dura tão pouco!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tens",
+                "child": "- Valsa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Tens",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Valsa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Valsa",
+                "child": "Tens",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Valsa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "- Valsa, donzela, A mocidade é tão bela E a vida dura tão pouco!",
+        "start_char": 1017,
+        "end_char": 1024,
+        "excerpt": "- \" Tens razão! - Valsa, donzela, A mocidade é tão bela E a vida dura tão pouco!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tens",
+                "child": ", donzela",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Tens",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", donzela",
+                "child": "Tens",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "P'ra que fez Deus as mulheres, P'ra que há na vida prazeres?",
+        "start_char": 1086,
+        "end_char": 1090,
+        "excerpt": "Tens razão! Mais valem risos Fingidos, desses Narcisos - Bonecos que a moda enfeita - Do que a voz sincera e rude De quem, prezando a virtude, Os atavios rejeita. Tens razão! - Valsa, donzela, A mocidade é tão bela, E a vida dura tão pouco! No burburinho das salas, Cercada de amor e galas, Sê tu feliz - eu sou louco! E quando eu seja dormido Sem luz, sem voz, sem gemido, No sono que a dor conforta; Ao concertar tuas tranças No meio das contradanças Diz tu sorrindo: \"- Qu'importa?.. \"Era um louco, em noites belas \"Vinha fitar as estrelas \"Nas praias, co'a fronte nua! \" Chorava canções sentidas \" E ficava horas perdidas \"Sozinho, mirando a lua! \" Tremia quando falava \"E - pobre tonto - chamava \" O baile - alegrias falsas! \"- Eu gosto mais dessas falas \"Que me murmuram nas salas \" No ritornelo das valsas. - \" Tens razão! - Valsa, donzela, A mocidade é tão bela E a vida dura tão pouco! P'ra que fez Deus as mulheres, P'ra que há na vida prazeres?",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

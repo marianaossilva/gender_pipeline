@@ -1,0 +1,979 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo Contarei hoje aos meus leitores um caso que se passou no tempo do Segundo Império.",
+        "start_char": 22,
+        "end_char": 35,
+        "excerpt": "ENCONTROS REVELADORES Artur Azevedo Contarei hoje aos meus leitores um caso que se passou no tempo do Segundo Império. A historieta não será talvez muito divertida, mas é humana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus leitores",
+        "sentence": "Artur Azevedo Contarei hoje aos meus leitores um caso que se passou no tempo do Segundo Império.",
+        "start_char": 54,
+        "end_char": 67,
+        "excerpt": "ENCONTROS REVELADORES Artur Azevedo Contarei hoje aos meus leitores um caso que se passou no tempo do Segundo Império. A historieta não será talvez muito divertida, mas é humana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "meus leitores",
+                "child": "caso",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "leitor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "caso",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "juiz de Direito de Niterói",
+        "sentence": "Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho.",
+        "start_char": 252,
+        "end_char": 278,
+        "excerpt": "A historieta não será talvez muito divertida, mas é humana. Lá vai: Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho.",
+        "start_char": 186,
+        "end_char": 196,
+        "excerpt": "A historieta não será talvez muito divertida, mas é humana. Lá vai: Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O ministro",
+        "sentence": "O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "start_char": 355,
+        "end_char": 365,
+        "excerpt": "Lá vai: Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aceitou",
+                "child": "O ministro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aceitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "start_char": 354,
+        "end_char": 367,
+        "excerpt": "Lá vai: Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pequeno",
+        "sentence": "O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "start_char": 578,
+        "end_char": 587,
+        "excerpt": "Lá vai: Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levar",
+                "child": "o pequeno",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "start_char": 594,
+        "end_char": 607,
+        "excerpt": "Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia. À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "start_char": 594,
+        "end_char": 604,
+        "excerpt": "Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia. À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "conselheiro",
+        "sentence": "À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "start_char": 732,
+        "end_char": 743,
+        "excerpt": "Para mostrar-se agradecido ao ministro da Justiça, que o nomeara juiz de Direito de Niterói, lembrou-se o Dr. Sales de convidá-lo para padrinho de seu último pimpolho. O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia. À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Dr.",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Dr.",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O bom homem",
+        "sentence": "O bom homem já estava, aliás, habituado a esses togatés.",
+        "start_char": 745,
+        "end_char": 756,
+        "excerpt": "O ministro aceitou o convite, mas como a época era de grande agitação política e não lhe sobravam lazeres para batizados, passou procuração ao seu oficial de gabinete, Dr. Pinheiro, para representá-lo na cerimônia, e levar o pequeno à pia. À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro. O bom homem já estava, aliás, habituado a esses togatés.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "estava",
+                "child": "O bom homem",
+                "dep_h": "cop",
+                "pos_h": "AUX",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ministro",
+        "sentence": "Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava.",
+        "start_char": 813,
+        "end_char": 823,
+        "excerpt": "À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro. O bom homem já estava, aliás, habituado a esses togatés. Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fizera",
+                "child": "o ministro",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o ministro",
+                "child": ", seu companheiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ministro",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", seu companheiro",
+                "child": "o ministro",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "companheiro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "infância",
+                "child": "o ministro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "infância",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amigo",
+                "child": "o ministro",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava.",
+        "start_char": 801,
+        "end_char": 814,
+        "excerpt": "À hora aprazada, o Dr. Pinheiro apresentou-se em casa do Dr. Sales, onde o receberam com a mesma solenidade com que receberiam o próprio conselheiro. O bom homem já estava, aliás, habituado a esses togatés. Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar.",
+        "start_char": 1199,
+        "end_char": 1212,
+        "excerpt": "Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava. Antes que ele exercesse aquela posição oficial, pouca gente o cumprimentava; depois que a exercia, todos lhe tiravam o chapéu! Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar.",
+        "start_char": 1199,
+        "end_char": 1209,
+        "excerpt": "Depois que o ministro, seu companheiro de infância e amigo íntimo, fizera dele o seu oficial de gabinete, o seu auxiliar de imediata confiança, quase o seu alter ego, o Dr. Pinheiro verificou, surpreso, que tinha inúmeros amigos de cuja existência nem sequer suspeitava. Antes que ele exercesse aquela posição oficial, pouca gente o cumprimentava; depois que a exercia, todos lhe tiravam o chapéu! Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padrinho",
+        "sentence": "Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo.",
+        "start_char": 1401,
+        "end_char": 1411,
+        "excerpt": "Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar. O almoço fez-lhe mal. Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o padrinho",
+                "child": "procuração",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "procuração",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o padrinho",
+                "child": "a sua taça",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "taça",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o padrinho",
+                "child": "ocasião",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "procuração",
+                "child": "o padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "procuração",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua taça",
+                "child": "o padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "taça",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "champanha",
+                "child": "o padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "champanha",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um brinde",
+                "child": "o padrinho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "brinde",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "juiz",
+                "child": "o padrinho",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "juiz",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Direito",
+                "child": "o padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "direito",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "aparencia_carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "compadre",
+                "child": "o padrinho",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "compadre",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Exmo",
+                "child": "o padrinho",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Exmo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "juiz de Direito",
+        "sentence": "Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo.",
+        "start_char": 1494,
+        "end_char": 1509,
+        "excerpt": "Terminada a cerimônia do batizado, o Dr. Pinheiro quis retirar-se: estava cumprida a sua missão, mas o Dr. Sales e toda a família instaram com ele para almoçar. O almoço fez-lhe mal. Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . conselheiro X",
+        "sentence": "Sr. conselheiro X, ministro e secretário de Estado dos negócios da Justiça, o Sr. Pinheiro sentiu turbar-se-lhe a vista e a casa andar à roda.",
+        "start_char": 1542,
+        "end_char": 1560,
+        "excerpt": "O almoço fez-lhe mal. Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo. Sr. conselheiro X, ministro e secretário de Estado dos negócios da Justiça, o Sr. Pinheiro sentiu turbar-se-lhe a vista e a casa andar à roda.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Pinheiro",
+        "sentence": "Sr. conselheiro X, ministro e secretário de Estado dos negócios da Justiça, o Sr. Pinheiro sentiu turbar-se-lhe a vista e a casa andar à roda.",
+        "start_char": 1542,
+        "end_char": 1555,
+        "excerpt": "O almoço fez-lhe mal. Na ocasião em que o padrinho por procuração ergueu a sua taça de champanha para agradecer um brinde feito pelo juiz de Direito ao seu ilustre compadre, o Exmo. Sr. conselheiro X, ministro e secretário de Estado dos negócios da Justiça, o Sr. Pinheiro sentiu turbar-se-lhe a vista e a casa andar à roda.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Pinheiro",
+        "sentence": "Saíram todos dos seus lugares e cercaram o Sr. Pinheiro, que não dava acordo de si.",
+        "start_char": 1789,
+        "end_char": 1802,
+        "excerpt": "Caiu sentado sobre a cadeira, quebrando a taça que tinha na mão, e perdeu os sentidos. Foi um alvoroço. Saíram todos dos seus lugares e cercaram o Sr. Pinheiro, que não dava acordo de si.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um médico",
+        "sentence": "Entre os comensais havia, felizmente, um médico.",
+        "start_char": 1912,
+        "end_char": 1921,
+        "excerpt": "Foi um alvoroço. Saíram todos dos seus lugares e cercaram o Sr. Pinheiro, que não dava acordo de si. Entre os comensais havia, felizmente, um médico.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "havia",
+                "child": ", um médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Transportado para um quarto e estendido sobre um leito, o Dr. Pinheiro foi imediatamente socorrido e medicado.",
+        "start_char": 1922,
+        "end_char": 1935,
+        "excerpt": "Saíram todos dos seus lugares e cercaram o Sr. Pinheiro, que não dava acordo de si. Entre os comensais havia, felizmente, um médico. Transportado para um quarto e estendido sobre um leito, o Dr. Pinheiro foi imediatamente socorrido e medicado.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o médico",
+        "sentence": "- Não há de ser nada, explicou o médico, mas é preciso que o doente fique no mais absoluto repouso; que ninguém lhe fale nem ele fale a ninguém!",
+        "start_char": 2065,
+        "end_char": 2073,
+        "excerpt": "Entre os comensais havia, felizmente, um médico. Transportado para um quarto e estendido sobre um leito, o Dr. Pinheiro foi imediatamente socorrido e medicado. - Não há de ser nada, explicou o médico, mas é preciso que o doente fique no mais absoluto repouso; que ninguém lhe fale nem ele fale a ninguém!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "explicou",
+                "child": "o médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o doente",
+        "sentence": "- Não há de ser nada, explicou o médico, mas é preciso que o doente fique no mais absoluto repouso; que ninguém lhe fale nem ele fale a ninguém!",
+        "start_char": 2093,
+        "end_char": 2101,
+        "excerpt": "Entre os comensais havia, felizmente, um médico. Transportado para um quarto e estendido sobre um leito, o Dr. Pinheiro foi imediatamente socorrido e medicado. - Não há de ser nada, explicou o médico, mas é preciso que o doente fique no mais absoluto repouso; que ninguém lhe fale nem ele fale a ninguém!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fique",
+                "child": "o doente",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o doente",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "doente",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "start_char": 2220,
+        "end_char": 2230,
+        "excerpt": "- Mas, que foi? - Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "start_char": 2220,
+        "end_char": 2233,
+        "excerpt": "- Mas, que foi? - Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um criado",
+        "sentence": "No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "start_char": 2353,
+        "end_char": 2362,
+        "excerpt": "- Mas, que foi? - Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mandou",
+                "child": "Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa",
+                "child": "branca",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "branco",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "start_char": 2425,
+        "end_char": 2435,
+        "excerpt": "- Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca. No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ministro",
+        "sentence": "No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "start_char": 2463,
+        "end_char": 2473,
+        "excerpt": "- Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca. No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "procurou",
+                "child": "o ministro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu compadre",
+        "sentence": "No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "start_char": 2475,
+        "end_char": 2487,
+        "excerpt": "- Um ameaço de congestão. No mesmo dia o Dr. Sales mandou à casa do Dr. Pinheiro, que era viúvo e não tinha família de espécie alguma e morava com ele apenas um criado, que foi ter logo com o amo enfermo, levando-lhe roupa branca. No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "procurou",
+                "child": ", seu compadre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "O Dr. Pinheiro logo no outro dia pretendeu recolher-se aos penates, mas o médico proibiu-lhe terminantemente, dizendo: - uma imprudência pela qual não me responsabilizo!",
+        "start_char": 2689,
+        "end_char": 2702,
+        "excerpt": "No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa. não lhe pôde dar ouvidos: preparava-se para responder a uma interpelação na Câmara, e não podia pensar noutra coisa. O Dr. Pinheiro logo no outro dia pretendeu recolher-se aos penates, mas o médico proibiu-lhe terminantemente, dizendo: - uma imprudência pela qual não me responsabilizo!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o médico",
+        "sentence": "O Dr. Pinheiro logo no outro dia pretendeu recolher-se aos penates, mas o médico proibiu-lhe terminantemente, dizendo: - uma imprudência pela qual não me responsabilizo!",
+        "start_char": 2762,
+        "end_char": 2770,
+        "excerpt": "No dia seguinte o Dr. Sales procurou o ministro, seu compadre, para participar- lhe que o seu oficial de gabinete adoecera em Niterói, mas S. Exa. não lhe pôde dar ouvidos: preparava-se para responder a uma interpelação na Câmara, e não podia pensar noutra coisa. O Dr. Pinheiro logo no outro dia pretendeu recolher-se aos penates, mas o médico proibiu-lhe terminantemente, dizendo: - uma imprudência pela qual não me responsabilizo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "proibiu-lhe",
+                "child": "o médico",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "proibiu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Ficou, pois, o Dr. Pinheiro cinco dias em Niterói, metido entre quatro paredes, sem conversar nem ler.",
+        "start_char": 2859,
+        "end_char": 2872,
+        "excerpt": "não lhe pôde dar ouvidos: preparava-se para responder a uma interpelação na Câmara, e não podia pensar noutra coisa. O Dr. Pinheiro logo no outro dia pretendeu recolher-se aos penates, mas o médico proibiu-lhe terminantemente, dizendo: - uma imprudência pela qual não me responsabilizo! Ficou, pois, o Dr. Pinheiro cinco dias em Niterói, metido entre quatro paredes, sem conversar nem ler.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Sales",
+        "sentence": "Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque.",
+        "start_char": 3027,
+        "end_char": 3037,
+        "excerpt": "Ficou, pois, o Dr. Pinheiro cinco dias em Niterói, metido entre quatro paredes, sem conversar nem ler. Ao sexto dia sentiu-se completamente restabelecido, e teve alta. Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque.",
+        "start_char": 3027,
+        "end_char": 3040,
+        "excerpt": "Ficou, pois, o Dr. Pinheiro cinco dias em Niterói, metido entre quatro paredes, sem conversar nem ler. Ao sexto dia sentiu-se completamente restabelecido, e teve alta. Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu fiel criado",
+        "sentence": "Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "start_char": 3227,
+        "end_char": 3242,
+        "excerpt": "Ao sexto dia sentiu-se completamente restabelecido, e teve alta. Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque. Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "start_char": 3213,
+        "end_char": 3226,
+        "excerpt": "Ao sexto dia sentiu-se completamente restabelecido, e teve alta. Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque. Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o criado",
+        "sentence": "Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "start_char": 3377,
+        "end_char": 3385,
+        "excerpt": "Ao sexto dia sentiu-se completamente restabelecido, e teve alta. Durante esse tempo alguma coisa se passara, de certa importância, mas em casa do Dr. Sales nada disseram ao Dr. Pinheiro, receando que qualquer comoção moral lhe produzisse novo ataque. Seguido pelo seu fiel criado, que o não abandonou um instante, o Dr. Pinheiro tomou a barca, e chegando ao Pharoux, entrou num carro que estava à sua espera, indo o criado para a boléia.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "No Largo da Carioca, um oficial da secretaria, que se empenhara, não havia muito, com o Dr. Pinheiro para ser, como foi, promovido, teve para o oficial de gabinete um olhar de proteção. .",
+        "start_char": 3715,
+        "end_char": 3728,
+        "excerpt": "Ao passar pelo Largo do Paço, notou que certo pretendente, figura obrigada do gabinete do ministro, sujeito que costumava saudá-lo com muitos rapapés, agora, ao vê-lo, apenas levou a mão à aba do chapéu. Mais adiante, na Rua da Assembléia, outro importuno olhou para ele e desviou os olhos, fingindo que não o via. No Largo da Carioca, um oficial da secretaria, que se empenhara, não havia muito, com o Dr. Pinheiro para ser, como foi, promovido, teve para o oficial de gabinete um olhar de proteção. .",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "- Não há que ver, pensou o Dr. Pinheiro, caiu o ministério!",
+        "start_char": 3903,
+        "end_char": 3916,
+        "excerpt": "Mais adiante, na Rua da Assembléia, outro importuno olhou para ele e desviou os olhos, fingindo que não o via. No Largo da Carioca, um oficial da secretaria, que se empenhara, não havia muito, com o Dr. Pinheiro para ser, como foi, promovido, teve para o oficial de gabinete um olhar de proteção. . - Não há que ver, pensou o Dr. Pinheiro, caiu o ministério!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Pinheiro",
+        "sentence": "Ninguém o dissera ao Dr. Pinheiro, nem verbalmente nem por escrito:",
+        "start_char": 4040,
+        "end_char": 4053,
+        "excerpt": "- Não há que ver, pensou o Dr. Pinheiro, caiu o ministério! De fato, havia três dias que o ministério caíra, depois da tal interpelação. Ninguém o dissera ao Dr. Pinheiro, nem verbalmente nem por escrito:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

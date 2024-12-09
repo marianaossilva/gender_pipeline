@@ -1,0 +1,1321 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias",
+        "sentence": "Foi em março, ao findar das chuvas, quase à entrada Do outono, quando a terra, em sede requeimada, Bebera longamente as águas da estação,  Que, em bandeira, buscando esmeraldas e prata, À frente dos peões filhos da rude mata, Fernão Dias",
+        "start_char": 520,
+        "end_char": 531,
+        "excerpt": "Fones: (91) 210-3196 / 210-3181  E-mail:  1 O Caçador de Esmeraldas Episódio da Epopéia Sertanista do XVII Século de Olavo Bilac I Foi em março, ao findar das chuvas, quase à entrada Do outono, quando a terra, em sede requeimada, Bebera longamente as águas da estação,  Que, em bandeira, buscando esmeraldas e prata, À frente dos peões filhos da rude mata, Fernão Dias",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pais Leme",
+        "sentence": "Pais Leme entrou pelo sertão.",
+        "start_char": 532,
+        "end_char": 541,
+        "excerpt": "O Caçador de Esmeraldas Episódio da Epopéia Sertanista do XVII Século de Olavo Bilac I Foi em março, ao findar das chuvas, quase à entrada Do outono, quando a terra, em sede requeimada, Bebera longamente as águas da estação,  Que, em bandeira, buscando esmeraldas e prata, À frente dos peões filhos da rude mata, Fernão Dias Pais Leme entrou pelo sertão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": ", Fernão Dias Pais Leme",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Fernão Dias Pais Leme",
+                "child": "Foi em março",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Fernão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "março",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "índios",
+        "sentence": "Do mundo por nascer que trazias no seio, Reboavas ao tropel dos índios e das feras!",
+        "start_char": 814,
+        "end_char": 820,
+        "excerpt": "Pais Leme entrou pelo sertão. Ah! quem te vira assim, no alvorecer da vida, Bruta Pátria, no berço, entre as selvas dormida, No virginal pudor das primitivas eras, Quando, aos beijos do sol, mal compreendendo o anseio Do mundo por nascer que trazias no seio, Reboavas ao tropel dos índios e das feras!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tropel",
+                "child": "índios",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tropel",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "índios",
+                "child": "das feras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fera",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "índios",
+                "child": "tropel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tropel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "índios",
+                "child": ", Reboavas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Reboavas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "índios",
+                "child": "trazias",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "trazia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "das feras",
+                "child": "índios",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "feras",
+        "sentence": "Do mundo por nascer que trazias no seio, Reboavas ao tropel dos índios e das feras!",
+        "start_char": 827,
+        "end_char": 832,
+        "excerpt": "Pais Leme entrou pelo sertão. Ah! quem te vira assim, no alvorecer da vida, Bruta Pátria, no berço, entre as selvas dormida, No virginal pudor das primitivas eras, Quando, aos beijos do sol, mal compreendendo o anseio Do mundo por nascer que trazias no seio, Reboavas ao tropel dos índios e das feras!",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "índios",
+                "child": "das feras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fera",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "das feras",
+                "child": "índios",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "das feras",
+                "child": "tropel",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tropel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "das feras",
+                "child": ", Reboavas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Reboavas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "das feras",
+                "child": "trazias",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "trazia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os brancos",
+        "sentence": "Como a enchente bravia, Que sobre as terras, palmo a palmo, abre o lençol Da água devastadora, - os brancos avançavam:",
+        "start_char": 2040,
+        "end_char": 2050,
+        "excerpt": "Mais numerosa, mais audaz, de dia em dia, 2 Engrossava a invasão. Como a enchente bravia, Que sobre as terras, palmo a palmo, abre o lençol Da água devastadora, - os brancos avançavam:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "avançavam",
+                "child": "os brancos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "avançar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "branco",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os teus filhos de bronze",
+        "sentence": "E os teus filhos de bronze ante eles recuavam, Como a sombra recua ante a invasão do sol.",
+        "start_char": 2064,
+        "end_char": 2088,
+        "excerpt": "Engrossava a invasão. Como a enchente bravia, Que sobre as terras, palmo a palmo, abre o lençol Da água devastadora, - os brancos avançavam: E os teus filhos de bronze ante eles recuavam, Como a sombra recua ante a invasão do sol.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os pajés",
+        "sentence": "Soprara a destruição, como um vento de morte, Desterrando os pajés, abatendo as caiçaras.",
+        "start_char": 2383,
+        "end_char": 2391,
+        "excerpt": "Já nas faldas da serra apinhavam-se aldeias; Levantava-se a cruz sobre as alvas areias, Onde, ao brando mover dos leques das juçaras, Vivera e progredira a tua gente forte. Soprara a destruição, como um vento de morte, Desterrando os pajés, abatendo as caiçaras.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Desterrando",
+                "child": "os pajés",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "Desterrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pajés",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as caiçaras",
+        "sentence": "Soprara a destruição, como um vento de morte, Desterrando os pajés, abatendo as caiçaras.",
+        "start_char": 2402,
+        "end_char": 2413,
+        "excerpt": "Já nas faldas da serra apinhavam-se aldeias; Levantava-se a cruz sobre as alvas areias, Onde, ao brando mover dos leques das juçaras, Vivera e progredira a tua gente forte. Soprara a destruição, como um vento de morte, Desterrando os pajés, abatendo as caiçaras.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "abatendo",
+                "child": "as caiçaras",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "abater",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caiçara",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as tribos errante",
+        "sentence": "Além da áspera brenha, onde as tribos errantes À sombra maternal das árvores gigantes Acampavam; além das sossegadas águas Das lagoas, dormindo entre aningais floridos;",
+        "start_char": 2702,
+        "end_char": 2719,
+        "excerpt": "Mas além, por detrás das broncas serranias, Na cerrada região das florestas sombrias, Cujos troncos, rompendo as lianas e os cipós, Alastravam no céu léguas de rama escura; Nos matagais, em cuja horrível espessura Só corria a anta leve e uivava a onça feroz: Além da áspera brenha, onde as tribos errantes À sombra maternal das árvores gigantes Acampavam; além das sossegadas águas Das lagoas, dormindo entre aningais floridos;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Leme",
+        "sentence": "quem te vira assim, entre as selvas sonhando, Quando a bandeira entrou pelo teu seio, quando Fernão Dias Pais Leme invadiu o sertão!",
+        "start_char": 3143,
+        "end_char": 3164,
+        "excerpt": "E, no seio nutriz da natureza bruta, Resguardava o pudor teu verde coração! Ah! quem te vira assim, entre as selvas sonhando, Quando a bandeira entrou pelo teu seio, quando Fernão Dias Pais Leme invadiu o sertão!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "invadiu",
+                "child": ", quando Fernão Dias Pais Leme",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "invadir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Serra",
+        "sentence": "Serra bruta!",
+        "start_char": 3891,
+        "end_char": 3896,
+        "excerpt": "De terror em terror, lutando braço a braço 3 Com a inclemência do céu e a dureza da sorte? Serra bruta!",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Serra",
+                "child": "bruta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Serra",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bruto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "A cada volta, a Morte, afiando o olhar faminto, Incansável no ardil, rondando o labirinto Em que às tontas errava a bandeira nas matas, Cercando-a com o crescer dos rios iracundos, Espiando-a no pendor dos boqueirões profundos, Onde vinham ruir com fragor as cascatas.",
+        "start_char": 4250,
+        "end_char": 4257,
+        "excerpt": "derrota implacável e calma, Sem uma hora de amor, estrangulando na alma Toda a recordação do que ficava atrás! A cada volta, a Morte, afiando o olhar faminto, Incansável no ardil, rondando o labirinto Em que às tontas errava a bandeira nas matas, Cercando-a com o crescer dos rios iracundos, Espiando-a no pendor dos boqueirões profundos, Onde vinham ruir com fragor as cascatas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A cada volta",
+                "child": ", a Morte",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "volta",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a Morte",
+                "child": "A cada volta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Morte",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "volta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o áspero morro",
+        "sentence": "Agora, o áspero morro, os caminhos fragosos.",
+        "start_char": 5810,
+        "end_char": 5824,
+        "excerpt": "Vinham os lamarões, as leziras funestas, De água paralisada e decomposta ao sol, Em cuja face, como um bando de fantasmas, Erravam dia e noite as febres e os miasmas, Numa ronda letal sobre o podre lençol. 4 Agora, o áspero morro, os caminhos fragosos.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os índios",
+        "sentence": "São os índios!",
+        "start_char": 6004,
+        "end_char": 6013,
+        "excerpt": "Uma frecha, subtil, silva e zarguncha... É a guerra! São os índios!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os ribeirões",
+        "sentence": "Depois, os ribeirões, nas levadas, transpondo As ribas, rebramando, e de estrondo em estrondo",
+        "start_char": 6096,
+        "end_char": 6108,
+        "excerpt": "Ao tropel... E o estridor da batalha reboa. Depois, os ribeirões, nas levadas, transpondo As ribas, rebramando, e de estrondo em estrondo",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Feras",
+        "sentence": "combatendo índios, febres, paludes, Feras, reptis,  contendo os sertanejos rudes, Dominando o furor da amotinada escolta...",
+        "start_char": 6391,
+        "end_char": 6396,
+        "excerpt": "Inchando em macaréus o seio destruidor, E desenraizando os troncos seculares, No esto da aluvão estremecendo os ares, E indo torvos rolar nos vales com fragor... Sete anos! combatendo índios, febres, paludes, Feras, reptis,  contendo os sertanejos rudes, Dominando o furor da amotinada escolta...",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "índios",
+                "child": ", Feras",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "índio",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Feras",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Feras",
+                "child": "reptis",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Feras",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "reptis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Feras",
+                "child": "índios",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Feras",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os sertanejos rudes",
+        "sentence": "combatendo índios, febres, paludes, Feras, reptis,  contendo os sertanejos rudes, Dominando o furor da amotinada escolta...",
+        "start_char": 6416,
+        "end_char": 6435,
+        "excerpt": "Inchando em macaréus o seio destruidor, E desenraizando os troncos seculares, No esto da aluvão estremecendo os ares, E indo torvos rolar nos vales com fragor... Sete anos! combatendo índios, febres, paludes, Feras, reptis,  contendo os sertanejos rudes, Dominando o furor da amotinada escolta...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Vencedor",
+        "sentence": "O Vencedor não passará dali!",
+        "start_char": 6739,
+        "end_char": 6749,
+        "excerpt": "Um frio livor se lhe espalha no rosto... E a febre! O Vencedor não passará dali!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passará",
+                "child": "O Vencedor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vencedor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Herói",
+        "sentence": "E o Herói, trôpego e envelhecido, Roto, e sem forças, cai junto do Guaicuí...",
+        "start_char": 6832,
+        "end_char": 6839,
+        "excerpt": "Na terra que venceu há de cair vencido: E a febre: é a morte! E o Herói, trôpego e envelhecido, Roto, e sem forças, cai junto do Guaicuí...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cai",
+                "child": "o Herói",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Herói",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Herói",
+                "child": ", trôpego",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Herói",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "trôpego",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Herói",
+                "child": ", Roto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Herói",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Herói",
+                "child": ", e sem forças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Herói",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "força",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", trôpego",
+                "child": "o Herói",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "trôpego",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Herói",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Roto",
+                "child": "o Herói",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Roto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Herói",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e sem forças",
+                "child": "o Herói",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "força",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Herói",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Leme",
+        "sentence": "III Fernão Dias Pais Leme agoniza.",
+        "start_char": 6912,
+        "end_char": 6933,
+        "excerpt": "E a febre: é a morte! E o Herói, trôpego e envelhecido, Roto, e sem forças, cai junto do Guaicuí... III Fernão Dias Pais Leme agoniza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "agoniza",
+                "child": "III Fernão Dias Pais Leme",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agonizar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as aves agoireiras",
+        "sentence": "Piam perto, na sombra, as aves agoireiras.",
+        "start_char": 7187,
+        "end_char": 7205,
+        "excerpt": "Trasmonta fulvo o sol. E a natureza assiste, Na mesma solidão e na mesma hora triste, À agonia do herói e à agonia da tarde. Piam perto, na sombra, as aves agoireiras.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Silvam",
+        "sentence": "Silvam as cobras.",
+        "start_char": 7207,
+        "end_char": 7213,
+        "excerpt": "E a natureza assiste, Na mesma solidão e na mesma hora triste, À agonia do herói e à agonia da tarde. Piam perto, na sombra, as aves agoireiras. Silvam as cobras.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Silvam",
+                "child": "as cobras",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Silvam",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cobra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as feras carniceiras",
+        "sentence": "Longe, as feras carniceiras Uivam nas lapas.",
+        "start_char": 7232,
+        "end_char": 7252,
+        "excerpt": "Piam perto, na sombra, as aves agoireiras. Silvam as cobras. Longe, as feras carniceiras Uivam nas lapas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sertanejo",
+        "sentence": "Pálido, no palor da luz, o sertanejo Estorce-se no crebro e derradeiro arquejo.",
+        "start_char": 7325,
+        "end_char": 7336,
+        "excerpt": "Longe, as feras carniceiras Uivam nas lapas. Desce a noite, como um véu... Pálido, no palor da luz, o sertanejo Estorce-se no crebro e derradeiro arquejo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Estorce-se",
+                "child": "o sertanejo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Estorce-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sertanejo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Leme",
+        "sentence": "Fernão Dias Pais Leme agoniza, e olha o céu.",
+        "start_char": 7380,
+        "end_char": 7401,
+        "excerpt": "Desce a noite, como um véu... Pálido, no palor da luz, o sertanejo Estorce-se no crebro e derradeiro arquejo. Fernão Dias Pais Leme agoniza, e olha o céu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "agoniza",
+                "child": "Fernão Dias Pais Leme",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agonizar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus",
+        "sentence": "Nunca Vênus assim fulgiu!",
+        "start_char": 7836,
+        "end_char": 7841,
+        "excerpt": "Tanta constelação pela planície azul! 5 Nunca Vênus assim fulgiu!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fulgiu",
+                "child": "Nunca Vênus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fulgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "noitibó",
+        "sentence": "Enquanto a bandeira dormia Exausta, e áspero o vento em derredor zunia, E a voz do noitibó soava como um agouro,  Quantas vezes Fernão, do cabeço de um monte, Via lenta subir do fundo do horizonte",
+        "start_char": 8062,
+        "end_char": 8069,
+        "excerpt": "Noites de outrora! ... Enquanto a bandeira dormia Exausta, e áspero o vento em derredor zunia, E a voz do noitibó soava como um agouro,  Quantas vezes Fernão, do cabeço de um monte, Via lenta subir do fundo do horizonte",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a voz",
+                "child": "do noitibó",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Noitibó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do noitibó",
+                "child": "a voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Noitibó",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do noitibó",
+                "child": "a bandeira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Noitibó",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bandeira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do noitibó",
+                "child": "lenta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Noitibó",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "lento",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão",
+        "sentence": "Enquanto a bandeira dormia Exausta, e áspero o vento em derredor zunia, E a voz do noitibó soava como um agouro,  Quantas vezes Fernão, do cabeço de um monte, Via lenta subir do fundo do horizonte",
+        "start_char": 8107,
+        "end_char": 8113,
+        "excerpt": "Noites de outrora! ... Enquanto a bandeira dormia Exausta, e áspero o vento em derredor zunia, E a voz do noitibó soava como um agouro,  Quantas vezes Fernão, do cabeço de um monte, Via lenta subir do fundo do horizonte",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soava",
+                "child": "Fernão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "soavr",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Fernão",
+                "child": "a bandeira",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Fernão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bandeira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Fernão",
+                "child": "lenta",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Fernão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "lento",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "astros",
+        "sentence": "Adeus, astros da noite!",
+        "start_char": 8227,
+        "end_char": 8233,
+        "excerpt": "Enquanto a bandeira dormia Exausta, e áspero o vento em derredor zunia, E a voz do noitibó soava como um agouro,  Quantas vezes Fernão, do cabeço de um monte, Via lenta subir do fundo do horizonte A clara procissão dessas bandeiras de ouro! Adeus, astros da noite!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", astros",
+                "child": "noite",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "astro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "noite",
+                "child": ", astros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "astro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nin",
+        "sentence": "Ninhos cantando no ar!",
+        "start_char": 8316,
+        "end_char": 8319,
+        "excerpt": "Adeus, astros da noite! Adeus, frescas ramagens Que a aurora desmanchava em perfumes selvagens! Ninhos cantando no ar!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cantando",
+                "child": "Ninhos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Ninhos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gineceu",
+        "sentence": "suspensos gineceus",
+        "start_char": 8349,
+        "end_char": 8356,
+        "excerpt": "Adeus, frescas ramagens Que a aurora desmanchava em perfumes selvagens! Ninhos cantando no ar! suspensos gineceus",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "feras",
+        "sentence": "adeus, feras e flores!",
+        "start_char": 8428,
+        "end_char": 8433,
+        "excerpt": "outonos benfeitores! Nuvens e aves, adeus! adeus, feras e flores!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "feras",
+                "child": "adeus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "adeus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "feras",
+                "child": "Nuvens",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fera",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Nuvens",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Leme",
+        "sentence": "Fernão Dias Pais Leme espera a morte...",
+        "start_char": 8444,
+        "end_char": 8465,
+        "excerpt": "Nuvens e aves, adeus! adeus, feras e flores! Fernão Dias Pais Leme espera a morte...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "espera",
+                "child": "Fernão Dias Pais Leme",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Sertanista",
+        "sentence": "O Sertanista ousado agoniza, sozinho.",
+        "start_char": 8491,
+        "end_char": 8503,
+        "excerpt": "Fernão Dias Pais Leme espera a morte... Adeus! O Sertanista ousado agoniza, sozinho.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "agoniza",
+                "child": "O Sertanista",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agonizar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sertanista",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mulher",
+        "sentence": "Que tantos corações calcaste sob os passos, E na alma da mulher que te estendia os braços Sem piedade lançaste um veneno mortal!",
+        "start_char": 9499,
+        "end_char": 9505,
+        "excerpt": "mais pobre que um mendigo, Agonizas, sem luz, sem amor, sem amigo, Sem ter quem te conceda a extrema-unção de um beijo! E foi para morrer de cansaço e de fome, Sem ter quem, murmurando em lágrimas teu nome, Te dê uma oração e um punhado de cal, Que tantos corações calcaste sob os passos, E na alma da mulher que te estendia os braços Sem piedade lançaste um veneno mortal!",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", E na alma",
+                "child": "mulher",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mulher",
+                "child": ", E na alma",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias",
+        "sentence": "Fernão Dias se esvai, numa síncope lenta...",
+        "start_char": 9624,
+        "end_char": 9635,
+        "excerpt": "e ei-lo, o fim! A palidez aumenta; Fernão Dias se esvai, numa síncope lenta...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esvai",
+                "child": "Fernão Dias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esvair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Leme",
+        "sentence": "Como para abraçar a natureza inteira, Fernão Dias Pais Leme estira os braços no ar.",
+        "start_char": 10059,
+        "end_char": 10080,
+        "excerpt": "E adelgaça-se o véu das sombras. O luar Abre no horror da noite uma verde clareira. Como para abraçar a natureza inteira, Fernão Dias Pais Leme estira os braços no ar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "inteira",
+                "child": ", Fernão Dias Pais Leme",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Conquistador",
+        "sentence": "Morre, Conquistador!",
+        "start_char": 11558,
+        "end_char": 11570,
+        "excerpt": "Teu nome rolará no largo choro triste Da água do Guaicuí... Morre, Conquistador!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Morre",
+                "child": ", Conquistador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Conquistador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernão Dias Pais Lem",
+        "sentence": "E sereno, feliz, no maternal regaço Da terra, sob a paz estrelada do espaço, Fernão Dias Pais Leme os olhos cerra.",
+        "start_char": 12441,
+        "end_char": 12461,
+        "excerpt": "Dorme de novo tudo. Agora, a deslizar pelo arvoredo mudo, Como um choro de prata algente o luar escorre. E sereno, feliz, no maternal regaço Da terra, sob a paz estrelada do espaço, Fernão Dias Pais Leme os olhos cerra.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cerra",
+                "child": ", Fernão Dias Pais Leme",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cerrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

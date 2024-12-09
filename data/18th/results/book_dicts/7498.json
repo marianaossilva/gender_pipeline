@@ -1,0 +1,3550 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 16,
+        "end_char": 29,
+        "excerpt": "OS DOIS ANDARES Artur Azevedo Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "lojistas",
+        "sentence": "Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior.",
+        "start_char": 209,
+        "end_char": 217,
+        "excerpt": "OS DOIS ANDARES Artur Azevedo Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sortiam",
+                "child": "lojistas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sort",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lojista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lojistas",
+                "child": "numerosos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lojista",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "numeroso",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lojistas",
+                "child": "cidade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lojista",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cidade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lojistas",
+                "child": "a casa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lojista",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cidade",
+                "child": "lojistas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lojista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do interior",
+                "child": "lojistas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "interior",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lojista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Santos",
+        "sentence": "O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém.",
+        "start_char": 243,
+        "end_char": 251,
+        "excerpt": "Artur Azevedo Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior. O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Santos",
+                "child": "pai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santos",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pai",
+                "child": "O Santos",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santos",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cerqueira",
+        "sentence": "O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém.",
+        "start_char": 295,
+        "end_char": 306,
+        "excerpt": "Artur Azevedo Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior. O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "solteirão",
+                "child": "; o Cerqueira",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "solteir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "; o Cerqueira",
+                "child": "pai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cerqueira",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os caixeiros",
+        "sentence": "No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "start_char": 448,
+        "end_char": 460,
+        "excerpt": "Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior. O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém. No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "moravam",
+                "child": "os caixeiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguns",
+        "sentence": "No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "start_char": 497,
+        "end_char": 503,
+        "excerpt": "Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior. O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém. No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "hospedavam",
+                "child": "alguns fregueses",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "hospedar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "freguese",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alguns fregueses",
+                "child": "interior",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "freguese",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "interior",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "interior",
+                "child": "alguns fregueses",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "interior",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "freguese",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cidade",
+                "child": "alguns fregueses",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "freguese",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fregueses do interior",
+        "sentence": "No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "start_char": 504,
+        "end_char": 525,
+        "excerpt": "Um dos mais importantes estabelecimentos da capital de província onde se passa este conto, era, há vinte anos, a casa importadora Cerqueira & Santos, na qual se sortiam numerosos lojistas da cidade e do interior. O Santos era pai de família e morava num arrabalde; o Cerqueira, solteirão, ocupava, sozinho, o segundo andar do magnífico prédio erguido sobre o armazém. No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Novais",
+        "sentence": "O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático.",
+        "start_char": 636,
+        "end_char": 642,
+        "excerpt": "No primeiro andar, que era menos arejado, moravam os caixeiros, e se hospedavam, de vez em quando, alguns fregueses do interior, que vinham à cidade \"fazer sortimento\", e bem caro pagavam essa hospedagem. * * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O principal caixeiro",
+                "child": "Novais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": "O principal caixeiro",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": ", moço",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", moço",
+                "child": "Novais",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vinte e cinco anos",
+                "child": "Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Linhares",
+        "sentence": "De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos.",
+        "start_char": 794,
+        "end_char": 810,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "Capitão Linhares",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Capitão Linhares",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Capitão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Capitão Linhares",
+                "child": "os fundos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Capitão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Línhares",
+        "sentence": "Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade.",
+        "start_char": 873,
+        "end_char": 889,
+        "excerpt": "O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Esse Capitão Línhares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "start_char": 986,
+        "end_char": 992,
+        "excerpt": "De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "start_char": 986,
+        "end_char": 992,
+        "excerpt": "De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "start_char": 1202,
+        "end_char": 1210,
+        "excerpt": "De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "debruçava",
+                "child": "o Novais",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "debruçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "seu turno",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "turno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": ", precisamente à hora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu turno",
+                "child": "o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "turno",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O caixeiro",
+        "sentence": "O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio.",
+        "start_char": 1266,
+        "end_char": 1276,
+        "excerpt": "Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "O caixeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "start_char": 1590,
+        "end_char": 1598,
+        "excerpt": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "debruçava",
+                "child": "o Novais",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "debruçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "seu turno",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "turno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": ", precisamente à hora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu turno",
+                "child": "o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "turno",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "podia",
+                "child": ", e o Novais",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhos",
+                "child": ", e o Novais",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "tinha",
+                        "child": "olhos",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "ter",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "lince",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lince"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": ", e o Novais",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Novais"
+                    },
+                    {
+                        "head": "lince",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lince",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            },
+            {
+                "head": "lince",
+                "child": ", e o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lince",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "start_char": 1726,
+        "end_char": 1732,
+        "excerpt": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sujeitava",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sujeitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "intenção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "intenção",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa.",
+        "start_char": 1925,
+        "end_char": 1931,
+        "excerpt": "As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fugiu",
+                "child": "a moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fugir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Novais",
+        "sentence": "O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho.",
+        "start_char": 2021,
+        "end_char": 2029,
+        "excerpt": "Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "imaginou",
+                "child": "O Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o vizinho",
+        "sentence": "O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho.",
+        "start_char": 2208,
+        "end_char": 2217,
+        "excerpt": "Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "assestou",
+                "child": "o vizinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "assestar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o vizinho",
+                "child": "um binóculo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "binóculo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Linhares",
+        "sentence": "Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó.",
+        "start_char": 2313,
+        "end_char": 2329,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "Capitão Linhares",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Capitão Linhares",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Capitão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Capitão Linhares",
+                "child": "os fundos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Capitão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fundo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "Capitão Linhares",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Capitão Linhares",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Capitão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a filha",
+        "sentence": "Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó.",
+        "start_char": 2331,
+        "end_char": 2338,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "uma filha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma filha",
+                "child": "vinte anos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vinte anos",
+                "child": "uma filha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", na opinião",
+                "child": "uma filha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "moças mais bonitas da cidade",
+                "child": "uma filha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cuspiu-lhe",
+                "child": "a filha",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "cuspiu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "janela",
+                "child": "a filha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "janela",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ditoso caixeiro",
+        "sentence": "Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção.",
+        "start_char": 2466,
+        "end_char": 2483,
+        "excerpt": "Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "via",
+                "child": "o ditoso caixeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o ditoso caixeiro",
+                "child": "meio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquele cuspo",
+                "child": "o ditoso caixeiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cuspo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meio",
+                "child": "o ditoso caixeiro",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "meio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "momento",
+                "child": "o ditoso caixeiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "momento",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a atenção",
+                "child": "o ditoso caixeiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "atenção",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os binóculos",
+        "sentence": "A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro.",
+        "start_char": 2728,
+        "end_char": 2740,
+        "excerpt": "Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "* * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre.",
+        "start_char": 2945,
+        "end_char": 2953,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 3
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso",
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "debruçava",
+                "child": "o Novais",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "debruçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "seu turno",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "turno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": ", precisamente à hora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu turno",
+                "child": "o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "turno",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "podia",
+                "child": ", e o Novais",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhos",
+                "child": ", e o Novais",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "tinha",
+                        "child": "olhos",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "ter",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "lince",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lince"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": ", e o Novais",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Novais"
+                    },
+                    {
+                        "head": "lince",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lince",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            },
+            {
+                "head": "lince",
+                "child": ", e o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lince",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ficou",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apanhou",
+                "child": "o Novais",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "apanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena.",
+        "start_char": 3137,
+        "end_char": 3143,
+        "excerpt": "A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "mostrar-se",
+                "child": "a Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar-se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A moça",
+        "sentence": "A moça lá estava, de binóculo, a atirar beijos de longe!.",
+        "start_char": 3337,
+        "end_char": 3343,
+        "excerpt": "Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A moça",
+                "child": ", de binóculo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "binóculo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de binóculo",
+                "child": "A moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "binóculo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "beijos",
+                "child": "A moça",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "beijo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "longe",
+                "child": "A moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "longe",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o destinatário",
+        "sentence": "Quem era o destinatário daqueles beijos?",
+        "start_char": 3482,
+        "end_char": 3496,
+        "excerpt": "- Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima...",
+        "start_char": 3554,
+        "end_char": 3562,
+        "excerpt": "Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "debruçou-se",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debruçou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cerqueira",
+        "sentence": "O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!...",
+        "start_char": 3628,
+        "end_char": 3639,
+        "excerpt": "... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O seu patrão",
+                "child": ", o Cerqueira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "patrão",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Cerqueira",
+                "child": "O seu patrão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cerqueira",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O negociante",
+        "sentence": "O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente.",
+        "start_char": 3747,
+        "end_char": 3759,
+        "excerpt": "O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "supôs",
+                "child": "O negociante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "supor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O negociante",
+                "child": "dias",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "negociante",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O negociante",
+                "child": "os beijos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "negociante",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "beijo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dias",
+                "child": "O negociante",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os beijos",
+                "child": "O negociante",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "beijo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rapariga",
+                "child": "O negociante",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rapariga",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "negociante",
+                "categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano!",
+        "start_char": 3872,
+        "end_char": 3878,
+        "excerpt": "A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "paupérrima",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "paupérrimo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um marido rico",
+        "sentence": "Apanhei um marido rico!",
+        "start_char": 3975,
+        "end_char": 3989,
+        "excerpt": "O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Novais",
+        "sentence": "O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . .",
+        "start_char": 3991,
+        "end_char": 3999,
+        "excerpt": "Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Novais",
+                "child": "caixeiro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Novais",
+                "child": "chefe",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "chefe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "caixeiro",
+                "child": "O Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cerqueira",
+        "sentence": "O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . .",
+        "start_char": 4025,
+        "end_char": 4036,
+        "excerpt": "Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Cerqueira",
+                "child": "chefe",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cerqueira",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "chefe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chefe",
+                "child": "o Cerqueira",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "chefe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "start_char": 4229,
+        "end_char": 4235,
+        "excerpt": "E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "casava-se",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patrão de Novais",
+        "sentence": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "start_char": 4250,
+        "end_char": 4268,
+        "excerpt": "E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o caixeiro",
+        "sentence": "Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar.",
+        "start_char": 4348,
+        "end_char": 4358,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena. Esperou com impaciência pela hora costumada, que nunca lhe tardou tanto. Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . . Aquele namora para divertir-se... este casa-se... E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso",
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "via",
+                "child": "o ditoso caixeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o ditoso caixeiro",
+                "child": "meio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquele cuspo",
+                "child": "o ditoso caixeiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cuspo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meio",
+                "child": "o ditoso caixeiro",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "meio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "momento",
+                "child": "o ditoso caixeiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "momento",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a atenção",
+                "child": "o ditoso caixeiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "atenção",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "encontravam-se",
+                "child": "o caixeiro",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "encontravam-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os patrões",
+        "sentence": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "start_char": 4409,
+        "end_char": 4419,
+        "excerpt": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comiam",
+                "child": "Os patrões",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Os patrões",
+                "child": ", a patroa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "patrão",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Os patrões",
+                "child": ", o guarda-livros",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "patrão",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "guarda-livros",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a patroa",
+                "child": "Os patrões",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o guarda-livros",
+                "child": "Os patrões",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "guarda-livros",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a patroa",
+        "sentence": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "start_char": 4421,
+        "end_char": 4429,
+        "excerpt": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os patrões",
+                "child": ", a patroa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "patrão",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a patroa",
+                "child": "Os patrões",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o guarda - livros",
+        "sentence": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "start_char": 4408,
+        "end_char": 4425,
+        "excerpt": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os hóspedes",
+        "sentence": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "start_char": 4448,
+        "end_char": 4459,
+        "excerpt": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comiam",
+                "child": "os hóspedes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "hóspede",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os hóspedes",
+                "child": "o Novais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "os hóspedes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "hóspede",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "start_char": 4462,
+        "end_char": 4470,
+        "excerpt": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os hóspedes",
+                "child": "o Novais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "os hóspedes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "hóspede",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "start_char": 4564,
+        "end_char": 4570,
+        "excerpt": "Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atrevia",
+                "child": "Helena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atreviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ex - namorado",
+        "sentence": "Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "start_char": 4492,
+        "end_char": 4507,
+        "excerpt": "Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu Novais",
+        "sentence": "Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "start_char": 4674,
+        "end_char": 4684,
+        "excerpt": "Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu Novais",
+        "sentence": "- Boa tarde, seu Novais!",
+        "start_char": 4699,
+        "end_char": 4709,
+        "excerpt": "Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais! - Boa tarde, seu Novais!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rapaz",
+        "sentence": "Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão.",
+        "start_char": 4736,
+        "end_char": 4743,
+        "excerpt": "- Boa tarde, seu Novais! * * * Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "o rapaz",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o rapaz",
+                "child": "Certa manhã",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "rapaz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "manhã",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos.",
+        "start_char": 4959,
+        "end_char": 4965,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena. Esperou com impaciência pela hora costumada, que nunca lhe tardou tanto. Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . . Aquele namora para divertir-se... este casa-se... E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais! - Boa tarde, seu Novais! * * * Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão. Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "Olho",
+                    "olho"
+                ],
+                "occurrences_n": 7
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso",
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sujeitava",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sujeitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "intenção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "intenção",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mostrar-se",
+                "child": "a Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar-se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fez",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "paupérrima",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "paupérrimo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casava-se",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "atrevia",
+                "child": "Helena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atreviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os olhos",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "os olhos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Novais",
+        "sentence": "O cuspo da moça avivou-lhe as recordações do seu namoro pulha; mas o Novais teve juízo: não abusou da situação...",
+        "start_char": 5134,
+        "end_char": 5142,
+        "excerpt": "Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão. Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos. O cuspo da moça avivou-lhe as recordações do seu namoro pulha; mas o Novais teve juízo: não abusou da situação...",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "Olho",
+                    "olho"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Cerqueira",
+        "sentence": "O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu.",
+        "start_char": 5187,
+        "end_char": 5198,
+        "excerpt": "O cuspo da moça avivou-lhe as recordações do seu namoro pulha; mas o Novais teve juízo: não abusou da situação... * * * O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gozou",
+                "child": "O Cerqueira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gozar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Cerqueira",
+                "child": "pai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cerqueira",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um ano",
+                "child": "O Cerqueira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "depois de casado",
+                "child": "O Cerqueira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casado",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pai",
+                "child": "O Cerqueira",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma linda",
+                "child": "O Cerqueira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "linda",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cerqueira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\".",
+        "start_char": 5330,
+        "end_char": 5337,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena. Esperou com impaciência pela hora costumada, que nunca lhe tardou tanto. Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . . Aquele namora para divertir-se... este casa-se... E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais! - Boa tarde, seu Novais! * * * Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão. Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos. O cuspo da moça avivou-lhe as recordações do seu namoro pulha; mas o Novais teve juízo: não abusou da situação... * * * O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu. Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\".",
+        "gender": "female",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "Olho",
+                    "olho"
+                ],
+                "occurrences_n": 7
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso",
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "casou-se",
+                "child": "e a viúva",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "casour se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o luto",
+                "child": "e a viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "luto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Novais",
+        "sentence": "Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\".",
+        "start_char": 5370,
+        "end_char": 5376,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena. Esperou com impaciência pela hora costumada, que nunca lhe tardou tanto. Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . . Aquele namora para divertir-se... este casa-se... E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais! - Boa tarde, seu Novais! * * * Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão. Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos. O cuspo da moça avivou-lhe as recordações do seu namoro pulha; mas o Novais teve juízo: não abusou da situação... * * * O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu. Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "Olho",
+                    "olho"
+                ],
+                "occurrences_n": 7
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 3
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso",
+                    "sorriso",
+                    "sorrisos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O principal caixeiro",
+                "child": "Novais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": "O principal caixeiro",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": ", moço",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", moço",
+                "child": "Novais",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vinte e cinco anos",
+                "child": "Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "debruçava",
+                "child": "o Novais",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "debruçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "seu turno",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "turno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": ", precisamente à hora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu turno",
+                "child": "o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "turno",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "podia",
+                "child": ", e o Novais",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhos",
+                "child": ", e o Novais",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "tinha",
+                        "child": "olhos",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "ter",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "lince",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lince"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": ", e o Novais",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Novais"
+                    },
+                    {
+                        "head": "lince",
+                        "child": "olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lince",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "deu",
+                        "child": "os olhos",
+                        "dep_h": "conj",
+                        "pos_h": "VERB",
+                        "lemma_h": "dar",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "os olhos",
+                        "child": "Helena",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Helena"
+                    },
+                    {
+                        "head": "Helena",
+                        "child": "os olhos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Helena",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    }
+                ]
+            },
+            {
+                "head": "lince",
+                "child": ", e o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lince",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "imaginou",
+                "child": "O Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ficou",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apanhou",
+                "child": "o Novais",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "apanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "debruçou-se",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debruçou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Novais",
+                "child": "caixeiro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Novais",
+                "child": "chefe",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "chefe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "caixeiro",
+                "child": "O Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caixeiro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o patrão",
+                "child": "Novais",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "patrão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": "o patrão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os hóspedes",
+                "child": "o Novais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "hóspede",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Novais",
+                "child": "os hóspedes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "hóspede",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seguiram",
+                "child": "Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "seguir",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Novais",
+                "child": "Boa",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Novais",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "Boa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teve",
+                "child": "o Novais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casou-se",
+                "child": "o Novais",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "casour se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o \"braço",
+                "child": "o Novais",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "o Novais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "\"",
+                "child": "o Novais",
+                "dep_h": "nummod",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Novais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O moço",
+        "sentence": "O moço a princípio protestou briosameate, rejeitando a posição que a fortuna lhe deparava; mas, como era feito da mesma lama que a maioria dos homens, cedeu às seduções e ás lágrimas de Helena, e passou do primeiro para o segundo andar.",
+        "start_char": 5420,
+        "end_char": 5426,
+        "excerpt": "O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu. Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\". O moço a princípio protestou briosameate, rejeitando a posição que a fortuna lhe deparava; mas, como era feito da mesma lama que a maioria dos homens, cedeu às seduções e ás lágrimas de Helena, e passou do primeiro para o segundo andar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "protestou",
+                "child": "O moço",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "protestar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O moço",
+                "child": "princípio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "princípio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "princípio",
+                "child": "O moço",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "princípio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "O moço a princípio protestou briosameate, rejeitando a posição que a fortuna lhe deparava; mas, como era feito da mesma lama que a maioria dos homens, cedeu às seduções e ás lágrimas de Helena, e passou do primeiro para o segundo andar.",
+        "start_char": 5606,
+        "end_char": 5612,
+        "excerpt": "O Cerqueira, que um ano depois de casado foi pai de uma linda criança, não gozou por longo tempo as delícias da paternidade; morreu. Morreu, e a viúva, passado o luto, casou-se com o Novais, que se tornara o \"braço direito da casa\". O moço a princípio protestou briosameate, rejeitando a posição que a fortuna lhe deparava; mas, como era feito da mesma lama que a maioria dos homens, cedeu às seduções e ás lágrimas de Helena, e passou do primeiro para o segundo andar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lágrimas",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lágrima",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "lágrimas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lágrima",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "ás",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ás",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Helena",
+                "child": "lama",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "lama",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santos & Novais",
+        "sentence": "Aí está por que a casa Cerqueira & Santos é hoje Santos & Novais.",
+        "start_char": 5712,
+        "end_char": 5727,
+        "excerpt": "O moço a princípio protestou briosameate, rejeitando a posição que a fortuna lhe deparava; mas, como era feito da mesma lama que a maioria dos homens, cedeu às seduções e ás lágrimas de Helena, e passou do primeiro para o segundo andar. * * * Aí está por que a casa Cerqueira & Santos é hoje Santos & Novais.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

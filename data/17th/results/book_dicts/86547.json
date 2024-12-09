@@ -1,0 +1,98 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Proençaes soen mui ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional 524b, Cancioneiro da Vaticana 127 Proençaes soen mui ben trobar e dizen eles que é con amor; mais os que troban no tempo da frol e non en outro, sei eu ben que non an tan gran coita no seu coraçon qual m'eu por mha senhor vejo levar.",
+        "start_char": 30,
+        "end_char": 39,
+        "excerpt": "Proençaes soen mui ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional 524b, Cancioneiro da Vaticana 127 Proençaes soen mui ben trobar e dizen eles que é con amor; mais os que troban no tempo da frol e non en outro, sei eu ben que non an tan gran coita no seu coraçon qual m'eu por mha senhor vejo levar. Pero que troban e saben loar sas senhores o mais e o melhor que eles poden, soõ sabedor que os que troban quand'a frol sazon á, e non ante, se Deus mi perdon, non an tal coita qual eu ei sen par.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soen",
+                "child": "ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soen",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "ben",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional",
+                "child": "524b",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "ben",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "524b",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional",
+                "child": "soen",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "ben",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soen",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "524b",
+                "child": "ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "524b",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "ben",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pero que troban e saben loar sas senhores o mais e o melhor que eles poden, soõ sabedor que os que troban quand'a frol sazon á, e non ante, se Deus mi perdon, non an tal coita",
+        "start_char": 452,
+        "end_char": 456,
+        "excerpt": "Proençaes soen mui ben trobar Dom Dinis Cancioneiro da Biblioteca Nacional 524b, Cancioneiro da Vaticana 127 Proençaes soen mui ben trobar e dizen eles que é con amor; mais os que troban no tempo da frol e non en outro, sei eu ben que non an tan gran coita no seu coraçon qual m'eu por mha senhor vejo levar. Pero que troban e saben loar sas senhores o mais e o melhor que eles poden, soõ sabedor que os que troban quand'a frol sazon á, e non ante, se Deus mi perdon, non an tal coita qual eu ei sen par.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus mi",
+                "child": "perdon",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perdonr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perdon",
+                "child": "Deus mi",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "perdonr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

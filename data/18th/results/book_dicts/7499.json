@@ -1,0 +1,581 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 15,
+        "end_char": 28,
+        "excerpt": "PAGA OU MORRE! Artur Azevedo O ano de 1864 foi assinalado no Rio de Janeiro por duas calamidades notáveis: a chuva de pedras e a quebra do Souto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Souto",
+        "sentence": "O Souto era o mais acreditado e o mais popular dos banqueiros havidos e por haver no Brasil; a sua casa inspirava uma confiança absoluta, e não havia homem do trabalho que, avisado e previdente, não houvesse lá depositado as suas economias.",
+        "start_char": 146,
+        "end_char": 153,
+        "excerpt": "Artur Azevedo O ano de 1864 foi assinalado no Rio de Janeiro por duas calamidades notáveis: a chuva de pedras e a quebra do Souto. O Souto era o mais acreditado e o mais popular dos banqueiros havidos e por haver no Brasil; a sua casa inspirava uma confiança absoluta, e não havia homem do trabalho que, avisado e previdente, não houvesse lá depositado as suas economias.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acreditado",
+                "child": "O Souto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Souto",
+        "sentence": "Quando começaram a aparecer os primeiros rumores sobre o mau estado das finanças do Souto, ninguém se importou com isso: toda a gente encolheu os ombros.",
+        "start_char": 471,
+        "end_char": 476,
+        "excerpt": "O ano de 1864 foi assinalado no Rio de Janeiro por duas calamidades notáveis: a chuva de pedras e a quebra do Souto. O Souto era o mais acreditado e o mais popular dos banqueiros havidos e por haver no Brasil; a sua casa inspirava uma confiança absoluta, e não havia homem do trabalho que, avisado e previdente, não houvesse lá depositado as suas economias. Quando começaram a aparecer os primeiros rumores sobre o mau estado das finanças do Souto, ninguém se importou com isso: toda a gente encolheu os ombros.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a quebra",
+                "child": "Souto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "quebra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "a quebra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "quebra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "a chuva",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "chuva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "O ano",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "acreditado",
+                "child": "O Souto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "finanças",
+                "child": "Souto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Finanças",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "finanças",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Finanças",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "o mau estado",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "estado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "os primeiros rumores",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rumor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O banqueiro",
+        "sentence": "O banqueiro na sua casa da Rua Direita não estava menos seguro que o famoso rochedo.",
+        "start_char": 637,
+        "end_char": 648,
+        "excerpt": "Quando começaram a aparecer os primeiros rumores sobre o mau estado das finanças do Souto, ninguém se importou com isso: toda a gente encolheu os ombros. Supor naquele tempo que o Souto quebrasse era o mesmo que acreditar na quebra do Pão de Açúcar. O banqueiro na sua casa da Rua Direita não estava menos seguro que o famoso rochedo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O banqueiro",
+                "child": "sua casa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O banqueiro",
+                "child": "seguro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "seguro",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua casa",
+                "child": "O banqueiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "banqueiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rua Direita",
+                "child": "O banqueiro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rua",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "banqueiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Souto",
+        "sentence": "Mas os rumores sinistros foram num crescendo inquietador, até que os mais incrédulos começaram a acreditar no que se dizia: o Souto estava falido!",
+        "start_char": 846,
+        "end_char": 853,
+        "excerpt": "Supor naquele tempo que o Souto quebrasse era o mesmo que acreditar na quebra do Pão de Açúcar. O banqueiro na sua casa da Rua Direita não estava menos seguro que o famoso rochedo. Mas os rumores sinistros foram num crescendo inquietador, até que os mais incrédulos começaram a acreditar no que se dizia: o Souto estava falido!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quebrasse",
+                "child": "o Souto",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "quebrasse",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Souto",
+                "child": "falido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "falido",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Souto",
+                "child": "crescendo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "crescer",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "franceses",
+        "sentence": "A invasão dos franceses, a chegada do príncipe regente, as águas do monte, a declaração da guerra do Paraguai, a proclamação da República, a revolta de 6 de setembro, talvez não alvorotassem tanto o espírito dos cariocas.",
+        "start_char": 917,
+        "end_char": 926,
+        "excerpt": "Mas os rumores sinistros foram num crescendo inquietador, até que os mais incrédulos começaram a acreditar no que se dizia: o Souto estava falido! Houve então a inevitável corrida. A invasão dos franceses, a chegada do príncipe regente, as águas do monte, a declaração da guerra do Paraguai, a proclamação da República, a revolta de 6 de setembro, talvez não alvorotassem tanto o espírito dos cariocas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A invasão",
+                "child": "franceses",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "invasão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "francês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "franceses",
+                "child": "A invasão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "francês",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "invasão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "príncipe regente",
+        "sentence": "A invasão dos franceses, a chegada do príncipe regente, as águas do monte, a declaração da guerra do Paraguai, a proclamação da República, a revolta de 6 de setembro, talvez não alvorotassem tanto o espírito dos cariocas.",
+        "start_char": 941,
+        "end_char": 957,
+        "excerpt": "Mas os rumores sinistros foram num crescendo inquietador, até que os mais incrédulos começaram a acreditar no que se dizia: o Souto estava falido! Houve então a inevitável corrida. A invasão dos franceses, a chegada do príncipe regente, as águas do monte, a declaração da guerra do Paraguai, a proclamação da República, a revolta de 6 de setembro, talvez não alvorotassem tanto o espírito dos cariocas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um moço",
+        "sentence": "Havia então nesta cidade um moço entre vinte e cinco e trinta anos, que, sem pai nem mãe, sem ter tido a proteção de ninguém, levado apenas por uma grande força de vontade e por um talento ainda maior, conseguira formar-se em medicina, e sair da escola com um nome feito.",
+        "start_char": 1331,
+        "end_char": 1338,
+        "excerpt": "A invasão dos franceses, a chegada do príncipe regente, as águas do monte, a declaração da guerra do Paraguai, a proclamação da República, a revolta de 6 de setembro, talvez não alvorotassem tanto o espírito dos cariocas. Não se falava noutra coisa, a consternação era geral, todos se lamentavam, choravam todos o seu dinheiro perdido, e a ninguém aproveitava o ditado de que o mal de muitos consolo é. Havia então nesta cidade um moço entre vinte e cinco e trinta anos, que, sem pai nem mãe, sem ter tido a proteção de ninguém, levado apenas por uma grande força de vontade e por um talento ainda maior, conseguira formar-se em medicina, e sair da escola com um nome feito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Havia",
+                "child": "um moço",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Havia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um moço",
+                "child": "vinte e cinco e trinta anos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vinte e cinco e trinta anos",
+                "child": "um moço",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "médico",
+        "sentence": "Veio então ao médico o desejo natural de possuir uma casa, e, para isso, começou a economizar quanto podia, conseguindo, em 1864, ter reunidos vinte contos de réis na casa do Souto.",
+        "start_char": 1726,
+        "end_char": 1732,
+        "excerpt": "Pouco depois de formado casou-se, e a sua união foi logo abençoada, como se dizia naquele tempo: nasceram-lhe dois filhos de seguida. Veio então ao médico o desejo natural de possuir uma casa, e, para isso, começou a economizar quanto podia, conseguindo, em 1864, ter reunidos vinte contos de réis na casa do Souto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Veio",
+                "child": "médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Veio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "banqueiro",
+        "sentence": "Absorvido pela sua clínica e pelos seus estudos, ele ignorava os boatos que corriam acerca da insolvabilidade do banqueiro, de sorte que só veio ao conhecimento do fato quando a bomba estava prestes a estourar.",
+        "start_char": 2007,
+        "end_char": 2016,
+        "excerpt": "nasceram-lhe dois filhos de seguida. Veio então ao médico o desejo natural de possuir uma casa, e, para isso, começou a economizar quanto podia, conseguindo, em 1864, ter reunidos vinte contos de réis na casa do Souto. Absorvido pela sua clínica e pelos seus estudos, ele ignorava os boatos que corriam acerca da insolvabilidade do banqueiro, de sorte que só veio ao conhecimento do fato quando a bomba estava prestes a estourar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "insolvabilidade",
+                "child": "banqueiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "insolvabilidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "banqueiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "banqueiro",
+                "child": "insolvabilidade",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "insolvabilidade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "banqueiro",
+                "child": "os boatos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "banqueiro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "boato",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Souto",
+        "sentence": "Desesperado, correu ao Souto, que o mandou entrar para um escritório onde trabalhava sozinho.",
+        "start_char": 2287,
+        "end_char": 2292,
+        "excerpt": "O seu desgosto foi profundo. Aqueles vinte contos representavam um sacrifício tremendo, porque, para ajuntá-los, ele se privara de tudo, a si e a sua família. Desesperado, correu ao Souto, que o mandou entrar para um escritório onde trabalhava sozinho.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "correu",
+                "child": "Souto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o banqueiro",
+        "sentence": "Quando o banqueiro declarou que não lhe era possível restituir os vinte contos, ele correu à porta, fechou-a, guardou a chave na algibeira e, puxando um revólver, apontou-o contra o outro, dizendo: - Se não me dá imediatamente o meu dinheiro, faço-lhe saltar os miolos!",
+        "start_char": 2365,
+        "end_char": 2376,
+        "excerpt": "Aqueles vinte contos representavam um sacrifício tremendo, porque, para ajuntá-los, ele se privara de tudo, a si e a sua família. Desesperado, correu ao Souto, que o mandou entrar para um escritório onde trabalhava sozinho. Quando o banqueiro declarou que não lhe era possível restituir os vinte contos, ele correu à porta, fechou-a, guardou a chave na algibeira e, puxando um revólver, apontou-o contra o outro, dizendo: - Se não me dá imediatamente o meu dinheiro, faço-lhe saltar os miolos!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "o banqueiro",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "banqueiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Souto",
+        "sentence": "E aí está porque o Dr (com certeza muitos leitores lhe sabem o nome) foi o único credor do Souto que em 1864 recebeu integralmente a importância da sua dívida.",
+        "start_char": 2735,
+        "end_char": 2740,
+        "excerpt": "Quando o banqueiro declarou que não lhe era possível restituir os vinte contos, ele correu à porta, fechou-a, guardou a chave na algibeira e, puxando um revólver, apontou-o contra o outro, dizendo: - Se não me dá imediatamente o meu dinheiro, faço-lhe saltar os miolos! Paga ou morre!. E aí está porque o Dr (com certeza muitos leitores lhe sabem o nome) foi o único credor do Souto que em 1864 recebeu integralmente a importância da sua dívida.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "foi o único credor",
+                "child": "Souto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "credor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Souto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Souto",
+                "child": "foi o único credor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Souto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "credor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu bisturi",
+        "sentence": "Ele nunca mais fez uso do seu revólver; mas o seu bisturi tornou-se ilustre.",
+        "start_char": 2872,
+        "end_char": 2885,
+        "excerpt": "E aí está porque o Dr (com certeza muitos leitores lhe sabem o nome) foi o único credor do Souto que em 1864 recebeu integralmente a importância da sua dívida. Perdeu apenas os juros. Ele nunca mais fez uso do seu revólver; mas o seu bisturi tornou-se ilustre.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "o seu bisturi",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bisturi",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,633 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Leitão Bocage",
+        "sentence": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários;",
+        "start_char": 10,
+        "end_char": 23,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Leitão Bocage Pilha",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Leitão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Leitão Bocage Pilha",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Leitão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Montesquieu",
+        "sentence": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários;",
+        "start_char": 63,
+        "end_char": 74,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", vozeia",
+                "child": ", Montesquieu",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "vozear",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Montesquieu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Montesquieu",
+                "child": ", vozeia",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Montesquieu",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "vozear",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Montesquieu",
+                "child": "Soneto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Montesquieu",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mirabeau",
+        "sentence": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários;",
+        "start_char": 76,
+        "end_char": 84,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", vozeia",
+                "child": ", Mirabeau",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "vozear",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mirabeau",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mirabeau",
+                "child": ", Voltaire",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mirabeau",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Voltaire",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mirabeau",
+                "child": ", vozeia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mirabeau",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "vozear",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mirabeau",
+                "child": "Soneto",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mirabeau",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Voltaire",
+                "child": ", Mirabeau",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mirabeau",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Voltaire",
+        "sentence": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários;",
+        "start_char": 86,
+        "end_char": 94,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Mirabeau",
+                "child": ", Voltaire",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mirabeau",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Voltaire",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Voltaire",
+                "child": ", Mirabeau",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mirabeau",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Voltaire",
+                "child": ", vozeia",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "vozear",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Voltaire",
+                "child": "Soneto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor",
+        "sentence": "Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários;",
+        "start_char": 167,
+        "end_char": 173,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Propõe",
+                "child": "doutores",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Propõe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "doutores",
+                "child": "Propõe",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "doutor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Propõe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os cristãos",
+        "sentence": "E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "start_char": 258,
+        "end_char": 269,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tratando",
+                "child": "os cristãos",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "tratar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cristão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os cristãos",
+                "child": "visionários",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cristão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "visionário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "visionários",
+                "child": "os cristãos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "visionário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cristão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus",
+        "sentence": "E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "start_char": 303,
+        "end_char": 308,
+        "excerpt": "Soneto ao Leitão Bocage Pilha aqui, pilha ali, vozeia autores, Montesquieu, Mirabeau, Voltaire, e vários; Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores:",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rende",
+                "child": "Vênus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "render",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mulher",
+        "sentence": "A mulher, que a barriga lhe tem forra Do jugo da vital necessidade, Deixa em casa gemer como em masmorra:",
+        "start_char": 324,
+        "end_char": 332,
+        "excerpt": "Propõe sistemas, tira corolários, E usurpa o tom d'enfáticos doutores: Ciência de livreiros e impressores Tem da vasta memória nos armários; E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores: A mulher, que a barriga lhe tem forra Do jugo da vital necessidade, Deixa em casa gemer como em masmorra:",
+        "gender": "female",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "barriga"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "gemer",
+                "child": "A mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gemer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mulher",
+                "child": "Deixa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deixa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a barriga",
+                "child": "A mulher",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "barriga",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "forra",
+                "child": "A mulher",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "forra",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jugo",
+                "child": "A mulher",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "jugo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "necessidade",
+                "child": "A mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "necessidade",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deixa",
+                "child": "A mulher",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deixa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "A mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "biltre",
+        "sentence": "Este biltre, labéu da humanidade, É um tal bacharel Leitão de borra, Lascivo como um burro, ou como um frade.",
+        "start_char": 435,
+        "end_char": 441,
+        "excerpt": "E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores: A mulher, que a barriga lhe tem forra Do jugo da vital necessidade, Deixa em casa gemer como em masmorra: Este biltre, labéu da humanidade, É um tal bacharel Leitão de borra, Lascivo como um burro, ou como um frade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "barriga"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "labéu",
+                "child": "Este biltre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "labéu",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "biltre",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bacharel Leitão de borra",
+        "sentence": "Este biltre, labéu da humanidade, É um tal bacharel Leitão de borra, Lascivo como um burro, ou como um frade.",
+        "start_char": 473,
+        "end_char": 497,
+        "excerpt": "E tratando os cristãos de visionários, Só rende culto a Vênus, e aos Amores: A mulher, que a barriga lhe tem forra Do jugo da vital necessidade, Deixa em casa gemer como em masmorra: Este biltre, labéu da humanidade, É um tal bacharel Leitão de borra, Lascivo como um burro, ou como um frade.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "barriga"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

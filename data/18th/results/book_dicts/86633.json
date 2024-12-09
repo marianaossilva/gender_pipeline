@@ -1,0 +1,407 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "Loucura divina Castro Alves  \"Sabes que voz é esta?",
+        "start_char": 15,
+        "end_char": 27,
+        "excerpt": "Loucura divina Castro Alves  \"Sabes que voz é esta? \" Ela cismava! ...  \"Sabes, Maria?  \"É uma canção de amores.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "...  \"Sabes, Maria?  \"É uma canção de amores.",
+        "start_char": 80,
+        "end_char": 85,
+        "excerpt": "Loucura divina Castro Alves  \"Sabes que voz é esta? \" Ela cismava! ...  \"Sabes, Maria?  \"É uma canção de amores.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criança",
+        "sentence": "É o abismo, criança!",
+        "start_char": 146,
+        "end_char": 153,
+        "excerpt": "Que além gemeu! \"  \" É o abismo, criança!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "É o abismo",
+                "child": ", criança",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "abismo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criança",
+                "child": "É o abismo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "abismo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A moça",
+        "sentence": "A moça rindo Enlaçou-lhe o pescoço:  \"Oh!",
+        "start_char": 161,
+        "end_char": 167,
+        "excerpt": "...  \"Sabes, Maria?  \"É uma canção de amores. Que além gemeu! \"  \" É o abismo, criança! ... \" A moça rindo Enlaçou-lhe o pescoço:  \"Oh!",
+        "gender": "female",
+        "pch_occurrences": {
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rindo",
+                "child": "A moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "infante",
+        "sentence": "É a morte, infante!",
+        "start_char": 333,
+        "end_char": 340,
+        "excerpt": "Eu ouço a Liberdade! \"  \" É a morte, infante!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Negro fantasma",
+        "sentence": "Negro fantasma é quem me embala o esquife!",
+        "start_char": 375,
+        "end_char": 389,
+        "excerpt": "É a salvação! \"  \" Negro fantasma é quem me embala o esquife!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o esquife",
+        "sentence": "Negro fantasma é quem me embala o esquife!",
+        "start_char": 407,
+        "end_char": 416,
+        "excerpt": "É a salvação! \"  \" Negro fantasma é quem me embala o esquife!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "embala",
+                "child": "o esquife",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "embalar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "esquife",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mãe",
+        "sentence": "É tua Mãe...",
+        "start_char": 438,
+        "end_char": 441,
+        "excerpt": "\"  \" É o abismo, criança! ... \" A moça rindo Enlaçou-lhe o pescoço:  \"Oh! não! não mintas! Bem sei que é o céu! \"  \" Doida! Doida! É a voragem que nos chama! ... \"  \" Eu ouço a Liberdade! \"  \" É a morte, infante! \"  \" Erraste. É a salvação! \"  \" Negro fantasma é quem me embala o esquife! \"  \" Loucura! É tua Mãe...",
+        "gender": "female",
+        "pch_occurrences": {
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tua",
+                "child": "Mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tua",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "névoa",
+        "sentence": "névoa!",
+        "start_char": 805,
+        "end_char": 810,
+        "excerpt": "Que o pego vem nos dar... Oh! névoa!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Esposa",
+        "sentence": "Abram-se as ondas como virgens louras, Para a Esposa passar!...",
+        "start_char": 886,
+        "end_char": 894,
+        "excerpt": "névoa! Eu amo teu sendal de gaze!... Abram-se as ondas como virgens louras, Para a Esposa passar!...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": ", Para a Esposa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Esposa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As estrelas",
+        "sentence": "As estrelas palpitam!",
+        "start_char": 908,
+        "end_char": 919,
+        "excerpt": "Abram-se as ondas como virgens louras, Para a Esposa passar!... \" As estrelas palpitam!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "palpitam",
+                "child": "As estrelas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "palpitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "estrela",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os rochedos",
+        "sentence": "Os rochedos murmuram!...",
+        "start_char": 945,
+        "end_char": 956,
+        "excerpt": "As estrelas palpitam! São as tochas! Os rochedos murmuram!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "murmuram",
+                "child": "Os rochedos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmur",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rochedo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os monges",
+        "sentence": "São os monges!",
+        "start_char": 974,
+        "end_char": 983,
+        "excerpt": "São as tochas! Os rochedos murmuram!... São os monges!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que sacerdote!  Deus...\"",
+        "start_char": 1102,
+        "end_char": 1106,
+        "excerpt": "Os rolos que do abismo voam! Que turíbulo enorme  Paulo Afonso! Que sacerdote!  Deus...\"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Que sacerdote",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sacerdote",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Que sacerdote",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sacerdote",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A cele",
+        "sentence": "A celeste Africana, a Virgem-Noite Cobria as faces...",
+        "start_char": 1143,
+        "end_char": 1149,
+        "excerpt": "Que sacerdote!  Deus...\" À beira do abismo e do infinito A celeste Africana, a Virgem-Noite Cobria as faces...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A celeste",
+                "child": "Africana",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "celeste",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Africana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A celeste",
+                "child": ", a Virgem-Noite Cobria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "celeste",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgem-Noite",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A celeste",
+                "child": "as faces",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "celeste",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "face",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Africana",
+                "child": "A celeste",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Africana",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "celeste",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a Virgem-Noite Cobria",
+                "child": "A celeste",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgem-Noite",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "celeste",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as faces",
+                "child": "A celeste",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "face",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "celeste",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,3299 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fernando Pessoa",
+        "sentence": "Fernando Pessoa Fonte:",
+        "start_char": 18,
+        "end_char": 33,
+        "excerpt": "Poemas Traduzidos Fernando Pessoa Fonte: Poemas:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lee H",
+        "sentence": "A nnabel Lee  H ino a Pã",
+        "start_char": 56,
+        "end_char": 61,
+        "excerpt": "Poemas: O Corvo A nnabel Lee  H ino a Pã",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Edgar Allan Poe",
+        "sentence": "O Corvo (de Edgar Allan Poe)",
+        "start_char": 94,
+        "end_char": 109,
+        "excerpt": "O Corvo A nnabel Lee  H ino a Pã O Corvo (de Edgar Allan Poe)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ino",
+                "child": "(de Edgar Allan Poe)",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "ino",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Edgar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(de Edgar Allan Poe)",
+                "child": "ino",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Edgar",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "ino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(de Edgar Allan Poe)",
+                "child": "A nnabel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Edgar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nnabel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus umbrais",
+        "sentence": "O som de algúem que batia levemente a meus umbrais.",
+        "start_char": 294,
+        "end_char": 306,
+        "excerpt": "1 Numa meia-noite agreste, quando eu lia, lento e triste, Vagos, curiosos tomos de ciências ancestrais, E já quase adormecia, ouvi o que parecia O som de algúem que batia levemente a meus umbrais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "batia",
+                "child": "meus umbrais",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "umbral",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meus umbrais",
+                "child": "algúem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "umbral",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "algúem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meus umbrais",
+                "child": "O som",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "umbral",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a amada",
+        "sentence": "a amada, hoje entre hostes celestiais - Essa cujo nome sabem as hostes celestiais, Mas sem nome aqui jamais!",
+        "start_char": 577,
+        "end_char": 584,
+        "excerpt": "Era no frio dezembro, E o fogo, morrendo negro, urdia sombras desiguais. Como eu qu'ria a madrugada, toda a noite aos livros dada P'ra esquecer (em vão!) a amada, hoje entre hostes celestiais - Essa cujo nome sabem as hostes celestiais, Mas sem nome aqui jamais!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esquecer",
+                "child": "a amada",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amar",
+                "categories": [
+                    "carater",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "4 E, mais forte num instante, já nem tardo ou hesitante, \"Senhor\", eu disse, \"ou senhora, decerto me desculpais;",
+        "start_char": 1029,
+        "end_char": 1035,
+        "excerpt": "Uma visita tardia pede entrada em meus umbrais. É só isto, e nada mais\". 4 E, mais forte num instante, já nem tardo ou hesitante, \"Senhor\", eu disse, \"ou senhora, decerto me desculpais;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "instante",
+                "child": "Senhor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "instante",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tardo",
+                "child": "Senhor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "tardo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "hesitante",
+                "child": "Senhor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "hesitante",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [
+                    "carater_emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", \"",
+                "child": "Senhor",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "\"",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "\"",
+                "child": "Senhor",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "4 E, mais forte num instante, já nem tardo ou hesitante, \"Senhor\", eu disse, \"ou senhora, decerto me desculpais;",
+        "start_char": 1052,
+        "end_char": 1059,
+        "excerpt": "Uma visita tardia pede entrada em meus umbrais. É só isto, e nada mais\". 4 E, mais forte num instante, já nem tardo ou hesitante, \"Senhor\", eu disse, \"ou senhora, decerto me desculpais;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus umbrais",
+        "sentence": "\" E abri largos, franqueando-os, meus umbrais.",
+        "start_char": 1229,
+        "end_char": 1241,
+        "excerpt": "4 E, mais forte num instante, já nem tardo ou hesitante, \"Senhor\", eu disse, \"ou senhora, decerto me desculpais; Mas eu ia adormecendo, quando viestes batendo, Tão levemente batendo, batendo por meus umbrais, Que mal ouvi... \" E abri largos, franqueando-os, meus umbrais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "batendo",
+                "child": "meus umbrais",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "umbral",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dúbio",
+        "sentence": "A treva enorme fitando, fiquei perdido receando, Dúbio e tais sonhos sonhando que os ninguém sonhou iguais.",
+        "start_char": 1320,
+        "end_char": 1325,
+        "excerpt": "Noite, noite e nada mais. 5 A treva enorme fitando, fiquei perdido receando, Dúbio e tais sonhos sonhando que os ninguém sonhou iguais.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "receando",
+                "child": "Dúbio",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "recear",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dúbio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu coração",
+        "sentence": "\" Meu coração se distraía pesquisando estes sinais.",
+        "start_char": 1777,
+        "end_char": 1788,
+        "excerpt": "\"Por certo\", disse eu, \"aquela bulha é na minha janela. Vamos ver o que está nela, e o que são estes sinais. \" Meu coração se distraía pesquisando estes sinais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "distraía",
+                "child": "Meu coração",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "distraía",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "coração",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Atena",
+        "sentence": "Não fez nenhum cumprimento, não parou nem um momento, Mas com ar solene e lento pousou sobre os meus umbrais, Num alvo busto de Atena que há por sobre meus umbrais, Foi, pousou, e nada mais.",
+        "start_char": 2093,
+        "end_char": 2098,
+        "excerpt": "\"É o vento, e nada mais. \" 7 Abri então a vidraça, e eis que, com muita negaça, Entrou grave e nobre um corvo dos bons tempos ancestrais. Não fez nenhum cumprimento, não parou nem um momento, Mas com ar solene e lento pousou sobre os meus umbrais, Num alvo busto de Atena que há por sobre meus umbrais, Foi, pousou, e nada mais.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "busto",
+                "child": "Atena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "busto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Atena",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "busto",
+                        "child": "Atena",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Atena"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "alvo",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "obl",
+                        "pos_c": "ADJ",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "Atena",
+                        "child": "busto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Atena",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    }
+                ]
+            },
+            {
+                "head": "Atena",
+                "child": "busto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Atena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "busto",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "busto",
+                        "child": "Atena",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Atena"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "alvo",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "obl",
+                        "pos_c": "ADJ",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "Atena",
+                        "child": "busto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Atena",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    }
+                ]
+            },
+            {
+                "head": "Atena",
+                "child": "alvo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Atena",
+                "dep_c": "obl",
+                "pos_c": "ADJ",
+                "lemma_c": "alvo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta ave estranha e escura",
+        "sentence": "8 E esta ave estranha e escura fez sorrir minha amargura",
+        "start_char": 2160,
+        "end_char": 2186,
+        "excerpt": "\" 7 Abri então a vidraça, e eis que, com muita negaça, Entrou grave e nobre um corvo dos bons tempos ancestrais. Não fez nenhum cumprimento, não parou nem um momento, Mas com ar solene e lento pousou sobre os meus umbrais, Num alvo busto de Atena que há por sobre meus umbrais, Foi, pousou, e nada mais. 8 E esta ave estranha e escura fez sorrir minha amargura",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho corvo",
+        "sentence": "\"Tens o aspecto tosquiado\", disse eu, \"mas de nobre e ousado, Ó velho corvo emigrado lá das trevas infernais!",
+        "start_char": 2319,
+        "end_char": 2330,
+        "excerpt": "8 E esta ave estranha e escura fez sorrir minha amargura Com o solene decoro de seus ares rituais. \"Tens o aspecto tosquiado\", disse eu, \"mas de nobre e ousado, Ó velho corvo emigrado lá das trevas infernais!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"",
+        "start_char": 2422,
+        "end_char": 2429,
+        "excerpt": "Dize-me qual o teu nome lá nas trevas infernais. \" Disse o corvo, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Mas o corvo, sobre o busto, nada mais dissera, augusto,",
+        "start_char": 2732,
+        "end_char": 2739,
+        "excerpt": "Mas deve ser concedido que ninguém terá havido Que uma ave tenha tido pousada nos meus umbrais, Ave ou bicho sobre o busto que há por sobre seus umbrais, Com o nome \"Nunca mais\". 10 Mas o corvo, sobre o busto, nada mais dissera, augusto,",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto",
+                    "busto"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o corvo",
+                "child": ", sobre o busto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "corvo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "busto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", sobre o busto",
+                "child": "o corvo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "busto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"",
+        "start_char": 2422,
+        "end_char": 2429,
+        "excerpt": "Dize-me qual o teu nome lá nas trevas infernais. \" Disse o corvo, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a ave escura",
+        "sentence": "12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais;",
+        "start_char": 3331,
+        "end_char": 3343,
+        "excerpt": "A alma súbito movida por frase tão bem cabida, \"Por certo\", disse eu, \"são estas vozes usuais, Aprendeu-as de algum dono, que a desgraça e o abandono Seguiram até que o entono da alma se quebrou em ais, E o bordão de desesp'rança de seu canto cheio de ais Era este \"Nunca mais\". 12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta ave",
+        "sentence": "Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\".",
+        "start_char": 3484,
+        "end_char": 3492,
+        "excerpt": "12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais; E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\".",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "qu'ria esta ave",
+                "child": "agoureia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "agoureia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "qu'ria esta ave",
+                "child": "muita maneira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "maneira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "agoureia",
+                "child": "qu'ria esta ave",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "agoureia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esta ave negra e agour",
+        "sentence": "Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\".",
+        "start_char": 3530,
+        "end_char": 3552,
+        "excerpt": "12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais; E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\".",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pensei",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Esta ave negra e agoureira",
+                "child": "tempos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tempos",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ave",
+        "sentence": "13 Comigo isto discorrendo, mas nem sílaba dizendo À ave que na minha alma cravava os olhos fatais, Isto e mais ia cismando, a cabeça reclinando",
+        "start_char": 3663,
+        "end_char": 3666,
+        "excerpt": "E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\". 13 Comigo isto discorrendo, mas nem sílaba dizendo À ave que na minha alma cravava os olhos fatais, Isto e mais ia cismando, a cabeça reclinando",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "qu'ria esta ave",
+                "child": "agoureia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "agoureia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "qu'ria esta ave",
+                "child": "muita maneira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "maneira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "agoureia",
+                "child": "qu'ria esta ave",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "agoureia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensei",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Esta ave negra e agoureira",
+                "child": "tempos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tempos",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizendo",
+                "child": "ave",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "sílaba",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sílaba",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "13 Comigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "comigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha alma",
+                "child": "ave",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os olhos",
+                "child": "ave",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "\", a mim disse, \"deu-te Deus, por anjos concedeu-te O esquecimento; valeu-te.",
+        "start_char": 4026,
+        "end_char": 4030,
+        "excerpt": "14 Fez-se então o ar mais denso, como cheio dum incenso Que anjos dessem, cujos leves passos soam musicais. \"Maldito! \", a mim disse, \"deu-te Deus, por anjos concedeu-te O esquecimento; valeu-te.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deu-te",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "deu-te",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "deu-te",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "deu-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"",
+        "start_char": 2422,
+        "end_char": 2429,
+        "excerpt": "Dize-me qual o teu nome lá nas trevas infernais. \" Disse o corvo, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"Nunca mais\".",
+        "start_char": 4494,
+        "end_char": 4501,
+        "excerpt": "15 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Fosse diabo ou tempestade quem te trouxe a meus umbrais, A este luto e este degredo, a esta noite e este segredo, A esta casa de ância e medo, dize a esta alma a quem atrais Se há um bálsamo longínquo para esta alma a quem atrais! Disse o corvo, \"Nunca mais\".",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pelo Deus ante quem ambos somos fracos e mortais.",
+        "start_char": 4582,
+        "end_char": 4586,
+        "excerpt": "Disse o corvo, \"Nunca mais\". 16 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Pelo Deus ante quem ambos somos fracos e mortais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "fracos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "fraco",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"",
+        "start_char": 2422,
+        "end_char": 2429,
+        "excerpt": "Dize-me qual o teu nome lá nas trevas infernais. \" Disse o corvo, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ave",
+        "sentence": "17 \"Que esse grito nos aparte, ave ou diabo!",
+        "start_char": 4836,
+        "end_char": 4839,
+        "excerpt": "Disse o corvo, \" Nunca mais\". 9 Pasmei de ouvir este raro pássaro falar tão claro, Inda que pouco sentido tivessem palavras tais. Mas deve ser concedido que ninguém terá havido Que uma ave tenha tido pousada nos meus umbrais, Ave ou bicho sobre o busto que há por sobre seus umbrais, Com o nome \"Nunca mais\". 10 Mas o corvo, sobre o busto, nada mais dissera, augusto, Que essa frase, qual se nela a alma lhe ficasse em ais. Nem mais voz nem movimento fez, e eu, em meu pensamento Perdido, murmurei lento, \"Amigo, sonhos - mortais Todos - todos já se foram. Amanhão também te vais\". Disse o corvo, \" Nunca mais\". 11 A alma súbito movida por frase tão bem cabida, \"Por certo\", disse eu, \"são estas vozes usuais, Aprendeu-as de algum dono, que a desgraça e o abandono Seguiram até que o entono da alma se quebrou em ais, E o bordão de desesp'rança de seu canto cheio de ais Era este \"Nunca mais\". 12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais; E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\". 13 Comigo isto discorrendo, mas nem sílaba dizendo À ave que na minha alma cravava os olhos fatais, Isto e mais ia cismando, a cabeça reclinando No veludo onde a luz punha vagas sobras desiguais, Naquele veludo onde ela, entre as sobras desiguais, Reclinar-se-á nunca mais! 14 Fez-se então o ar mais denso, como cheio dum incenso Que anjos dessem, cujos leves passos soam musicais. \"Maldito! \", a mim disse, \"deu-te Deus, por anjos concedeu-te O esquecimento; valeu-te. Toma-o, esquece, com teus ais, O nome da que não esqueces, e que faz esses teus ais! \" Disse o corvo, \" Nunca mais\". 15 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Fosse diabo ou tempestade quem te trouxe a meus umbrais, A este luto e este degredo, a esta noite e este segredo, A esta casa de ância e medo, dize a esta alma a quem atrais Se há um bálsamo longínquo para esta alma a quem atrais! Disse o corvo, \"Nunca mais\". 16 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Pelo Deus ante quem ambos somos fracos e mortais. Dize a esta alma entristecida se no Édem de outra vida Verá essa hoje perdida entre hostes celestiais, Essa cujo nome sabem as hostes celestiais! \" Disse o corvo, \" Nunca mais\". 17 \"Que esse grito nos aparte, ave ou diabo!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto",
+                    "busto",
+                    "busto"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tido",
+                "child": "uma ave",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sorrir",
+                "child": "a ave",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a ave",
+                "child": "escura",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "escuro",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "qu'ria esta ave",
+                "child": "agoureia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "agoureia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "qu'ria esta ave",
+                "child": "muita maneira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "maneira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "agoureia",
+                "child": "qu'ria esta ave",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "agoureia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensei",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Esta ave negra e agoureira",
+                "child": "tempos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tempos",
+                "child": "Esta ave negra e agoureira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizendo",
+                "child": "ave",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "sílaba",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sílaba",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "13 Comigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "comigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha alma",
+                "child": "ave",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os olhos",
+                "child": "ave",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- ou demônio",
+                "child": "ave",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "demônio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "- ou demônio",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "demônio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- ou demônio",
+                "child": "ave",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "demônio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "- ou demônio",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "demônio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "esse grito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ave",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "grito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "diabo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "diabo",
+        "sentence": "17 \"Que esse grito nos aparte, ave ou diabo!",
+        "start_char": 4843,
+        "end_char": 4848,
+        "excerpt": "Disse o corvo, \" Nunca mais\". 9 Pasmei de ouvir este raro pássaro falar tão claro, Inda que pouco sentido tivessem palavras tais. Mas deve ser concedido que ninguém terá havido Que uma ave tenha tido pousada nos meus umbrais, Ave ou bicho sobre o busto que há por sobre seus umbrais, Com o nome \"Nunca mais\". 10 Mas o corvo, sobre o busto, nada mais dissera, augusto, Que essa frase, qual se nela a alma lhe ficasse em ais. Nem mais voz nem movimento fez, e eu, em meu pensamento Perdido, murmurei lento, \"Amigo, sonhos - mortais Todos - todos já se foram. Amanhão também te vais\". Disse o corvo, \" Nunca mais\". 11 A alma súbito movida por frase tão bem cabida, \"Por certo\", disse eu, \"são estas vozes usuais, Aprendeu-as de algum dono, que a desgraça e o abandono Seguiram até que o entono da alma se quebrou em ais, E o bordão de desesp'rança de seu canto cheio de ais Era este \"Nunca mais\". 12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais; E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\". 13 Comigo isto discorrendo, mas nem sílaba dizendo À ave que na minha alma cravava os olhos fatais, Isto e mais ia cismando, a cabeça reclinando No veludo onde a luz punha vagas sobras desiguais, Naquele veludo onde ela, entre as sobras desiguais, Reclinar-se-á nunca mais! 14 Fez-se então o ar mais denso, como cheio dum incenso Que anjos dessem, cujos leves passos soam musicais. \"Maldito! \", a mim disse, \"deu-te Deus, por anjos concedeu-te O esquecimento; valeu-te. Toma-o, esquece, com teus ais, O nome da que não esqueces, e que faz esses teus ais! \" Disse o corvo, \" Nunca mais\". 15 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Fosse diabo ou tempestade quem te trouxe a meus umbrais, A este luto e este degredo, a esta noite e este segredo, A esta casa de ância e medo, dize a esta alma a quem atrais Se há um bálsamo longínquo para esta alma a quem atrais! Disse o corvo, \"Nunca mais\". 16 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Pelo Deus ante quem ambos somos fracos e mortais. Dize a esta alma entristecida se no Édem de outra vida Verá essa hoje perdida entre hostes celestiais, Essa cujo nome sabem as hostes celestiais! \" Disse o corvo, \" Nunca mais\". 17 \"Que esse grito nos aparte, ave ou diabo!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto",
+                    "busto",
+                    "busto"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "diabo",
+                "child": "tempestade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "diabo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "tempestade",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "diabo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ave",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o corvo",
+        "sentence": "Disse o corvo, \"",
+        "start_char": 2422,
+        "end_char": 2429,
+        "excerpt": "Dize-me qual o teu nome lá nas trevas infernais. \" Disse o corvo, \"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "o corvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Atena",
+        "sentence": "E o corvo, na noite infinda, está ainda, está ainda No alvo busto de Atena que há por sobre os meus umbrais.",
+        "start_char": 5187,
+        "end_char": 5192,
+        "excerpt": "Nunca mais\". 9 Pasmei de ouvir este raro pássaro falar tão claro, Inda que pouco sentido tivessem palavras tais. Mas deve ser concedido que ninguém terá havido Que uma ave tenha tido pousada nos meus umbrais, Ave ou bicho sobre o busto que há por sobre seus umbrais, Com o nome \"Nunca mais\". 10 Mas o corvo, sobre o busto, nada mais dissera, augusto, Que essa frase, qual se nela a alma lhe ficasse em ais. Nem mais voz nem movimento fez, e eu, em meu pensamento Perdido, murmurei lento, \"Amigo, sonhos - mortais Todos - todos já se foram. Amanhão também te vais\". Disse o corvo, \" Nunca mais\". 11 A alma súbito movida por frase tão bem cabida, \"Por certo\", disse eu, \"são estas vozes usuais, Aprendeu-as de algum dono, que a desgraça e o abandono Seguiram até que o entono da alma se quebrou em ais, E o bordão de desesp'rança de seu canto cheio de ais Era este \"Nunca mais\". 12 Mas, fazendo inda a ave escura sorrir a minha amargura, Sentei-me defronte dela, do alvo busto e meus umbrais; E, enterrado na cadeira, pensei de muita maneira Que qu'ria esta ave agoureia dos maus tempos ancestrais, Esta ave negra e agoureira dos maus tempos ancestrais, Com aquele \"Nunca mais\". 13 Comigo isto discorrendo, mas nem sílaba dizendo À ave que na minha alma cravava os olhos fatais, Isto e mais ia cismando, a cabeça reclinando No veludo onde a luz punha vagas sobras desiguais, Naquele veludo onde ela, entre as sobras desiguais, Reclinar-se-á nunca mais! 14 Fez-se então o ar mais denso, como cheio dum incenso Que anjos dessem, cujos leves passos soam musicais. \"Maldito! \", a mim disse, \"deu-te Deus, por anjos concedeu-te O esquecimento; valeu-te. Toma-o, esquece, com teus ais, O nome da que não esqueces, e que faz esses teus ais! \" Disse o corvo, \" Nunca mais\". 15 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Fosse diabo ou tempestade quem te trouxe a meus umbrais, A este luto e este degredo, a esta noite e este segredo, A esta casa de ância e medo, dize a esta alma a quem atrais Se há um bálsamo longínquo para esta alma a quem atrais! Disse o corvo, \"Nunca mais\". 16 \"Profeta\", disse eu, \"profeta - ou demônio ou ave preta! Pelo Deus ante quem ambos somos fracos e mortais. Dize a esta alma entristecida se no Édem de outra vida Verá essa hoje perdida entre hostes celestiais, Essa cujo nome sabem as hostes celestiais! \" Disse o corvo, \" Nunca mais\". 17 \"Que esse grito nos aparte, ave ou diabo! \", eu disse. \" Parte! Torna á noite e à tempestade! Torna às trevas infernais! Não deixes pena que ateste a mentira que disseste! Minha solidão me reste! Tira-te de meus umbrais! Tira o vulto de meu peito e a sombra de meus umbrais! \" Disse o corvo, \" Nunca mais\". 18 E o corvo, na noite infinda, está ainda, está ainda No alvo busto de Atena que há por sobre os meus umbrais.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto",
+                    "busto",
+                    "busto",
+                    "busto",
+                    "peito"
+                ],
+                "occurrences_n": 5
+            }
+        },
+        "dependencies": [
+            {
+                "head": "busto",
+                "child": "Atena",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "busto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Atena",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "bicho",
+                        "child": "o busto",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "bicho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "o busto",
+                        "child": "bicho",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "bicho"
+                    },
+                    {
+                        "head": "sobre seus umbrais",
+                        "child": "o busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "umbral",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "Mas o corvo",
+                        "child": ", sobre o busto",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "corvo",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": ", sobre o busto",
+                        "child": "Mas o corvo",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "corvo"
+                    },
+                    {
+                        "head": ", do alvo",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "alvo",
+                        "dep_c": "acl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "busto",
+                        "child": ", do alvo",
+                        "dep_h": "acl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "o corvo",
+                        "child": "busto",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "corvo",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": ", na noite",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "noite",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "alvo",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "Atena",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Atena"
+                    },
+                    {
+                        "head": "Atena",
+                        "child": "busto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Atena",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "os meus umbrais",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "umbral",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    }
+                ]
+            },
+            {
+                "head": "Atena",
+                "child": "busto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Atena",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "busto",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "bicho",
+                        "child": "o busto",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "bicho",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "o busto",
+                        "child": "bicho",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "bicho"
+                    },
+                    {
+                        "head": "sobre seus umbrais",
+                        "child": "o busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "umbral",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "Mas o corvo",
+                        "child": ", sobre o busto",
+                        "dep_h": "nsubj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "corvo",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": ", sobre o busto",
+                        "child": "Mas o corvo",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "corvo"
+                    },
+                    {
+                        "head": ", do alvo",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "alvo",
+                        "dep_c": "acl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "busto",
+                        "child": ", do alvo",
+                        "dep_h": "acl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "o corvo",
+                        "child": "busto",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "corvo",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": ", na noite",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "noite",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "alvo",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "alvo"
+                    },
+                    {
+                        "head": "busto",
+                        "child": "Atena",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "busto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Atena"
+                    },
+                    {
+                        "head": "Atena",
+                        "child": "busto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Atena",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    },
+                    {
+                        "head": "os meus umbrais",
+                        "child": "busto",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "umbral",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "busto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Annabel Lee",
+        "sentence": "Annabel Lee (de Edgar Allan Poe) Foi há muitos e muitos anos já, Num reino de ao pé do mar.",
+        "start_char": 5370,
+        "end_char": 5381,
+        "excerpt": "Seu olhar tem a medonha cor de um demônio que sonha, E a luz lança-lhe a tristonha sombra no chão há mais e mais, Libertar-se-á... nunca mais! Annabel Lee (de Edgar Allan Poe) Foi há muitos e muitos anos já, Num reino de ao pé do mar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Edgar Allan Poe",
+        "sentence": "Annabel Lee (de Edgar Allan Poe) Foi há muitos e muitos anos já, Num reino de ao pé do mar.",
+        "start_char": 5386,
+        "end_char": 5401,
+        "excerpt": "Seu olhar tem a medonha cor de um demônio que sonha, E a luz lança-lhe a tristonha sombra no chão há mais e mais, Libertar-se-á... nunca mais! Annabel Lee (de Edgar Allan Poe) Foi há muitos e muitos anos já, Num reino de ao pé do mar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os anjos do céu",
+        "sentence": "Um amor que os anjos do céu vieram a ambos nós invejar.",
+        "start_char": 5705,
+        "end_char": 5720,
+        "excerpt": "Eu era criança e ela era criança, Neste reino ao pé do mar; Mas o nosso amor era mais que amor -- O meu e o dela a amar; Um amor que os anjos do céu vieram a ambos nós invejar.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu parente fidalgo",
+        "sentence": "E o seu parente fidalgo veio De longe a me a tirar, Para a fechar num sepulcro Neste reino ao pé do mar.",
+        "start_char": 5882,
+        "end_char": 5903,
+        "excerpt": "Um amor que os anjos do céu vieram a ambos nós invejar. E foi esta a razão por que, há muitos anos, Neste reino ao pé do mar, Um vento saiu duma nuvem, gelando A linda que eu soube amar; E o seu parente fidalgo veio De longe a me a tirar, Para a fechar num sepulcro Neste reino ao pé do mar.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os anjos",
+        "sentence": "E os anjos, menos felizes no céu, Ainda a nos invejar...",
+        "start_char": 5987,
+        "end_char": 5995,
+        "excerpt": "E foi esta a razão por que, há muitos anos, Neste reino ao pé do mar, Um vento saiu duma nuvem, gelando A linda que eu soube amar; E o seu parente fidalgo veio De longe a me a tirar, Para a fechar num sepulcro Neste reino ao pé do mar. E os anjos, menos felizes no céu, Ainda a nos invejar...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "invejar",
+                "child": "os anjos, menos felizes no céu,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "invejar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os anjos",
+        "sentence": "De muitos mais velhos a amar, De muitos de mais meditar, E nem os anjos do céu lá em cima,",
+        "start_char": 6283,
+        "end_char": 6291,
+        "excerpt": "Que o vento saiu da nuvem de noite Gelando e matando a que eu soube amar. Mas o nosso amor era mais que o amor De muitos mais velhos a amar, De muitos de mais meditar, E nem os anjos do céu lá em cima,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", E nem os anjos",
+                "child": "céu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", E nem os anjos",
+                "child": "cima",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cima",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céu",
+                "child": ", E nem os anjos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cima",
+                "child": ", E nem os anjos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cima",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu anjo",
+        "sentence": "E assim 'stou deitado toda a noite ao lado Do meu anjo, meu anjo, meu sonho e meu fado, No sepulcro ao pé do mar, Ao pé do murmúrio do mar.",
+        "start_char": 6599,
+        "end_char": 6607,
+        "excerpt": "Porque os luares tristonhos só me trazem sonhos Da linda que eu soube amar; E as estrelas nos ares só me lembram olhares Da linda que eu soube amar; E assim 'stou deitado toda a noite ao lado Do meu anjo, meu anjo, meu sonho e meu fado, No sepulcro ao pé do mar, Ao pé do murmúrio do mar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "stou",
+                "child": "meu anjo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "star",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu anjo",
+                "child": ", meu anjo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu anjo",
+                "child": ", meu sonho",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu anjo",
+                "child": "meu fado",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fado",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu anjo",
+                "child": "meu anjo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu sonho",
+                "child": "meu anjo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu fado",
+                "child": "meu anjo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fado",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Baco",
+        "sentence": "Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim!",
+        "start_char": 6863,
+        "end_char": 6867,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vem",
+                "child": "Baco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Vem",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Baco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Baco",
+                "child": ", com fauno",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Baco",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "fauno",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", com fauno",
+                "child": "Baco",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "fauno",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Baco",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Apolo",
+        "sentence": "Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "start_char": 6971,
+        "end_char": 6976,
+        "excerpt": "Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "gender": "male",
+        "pch_occurrences": {
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Vem",
+                "child": "Apolo,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Vem",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Apolo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Apolo,",
+                "child": "nupcial",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Apolo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "nupcial",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pegureira",
+        "sentence": "Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "start_char": 6996,
+        "end_char": 7005,
+        "excerpt": "Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "gender": "male",
+        "pch_occurrences": {
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "brisa",
+                "child": "(Pegureira",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "brisa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pegureira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(Pegureira",
+                "child": "pitonisa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pegureira",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "pitonisa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(Pegureira",
+                "child": "brisa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pegureira",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "brisa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artêmis",
+        "sentence": "Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "start_char": 7027,
+        "end_char": 7034,
+        "excerpt": "Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "gender": "male",
+        "pch_occurrences": {
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Vem",
+                "child": "Artêmis",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vem",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Artêmis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Artêmis",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Artêmis",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Artêmis",
+                "child": ", Vem",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Artêmis",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Artêmis",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Artêmis",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "start_char": 7070,
+        "end_char": 7074,
+        "excerpt": "Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha",
+        "gender": "male",
+        "pch_occurrences": {
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Artêmis",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Artêmis",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Artêmis",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Artêmis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": ", Vem",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Diabo",
+        "sentence": "Iô Pã!), Diabo ou deus, vem a mim, a mim!",
+        "start_char": 7411,
+        "end_char": 7416,
+        "excerpt": "No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim!",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vem",
+                "child": "Iô Pã!), Diabo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Diabo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Iô Pã!), Diabo",
+                "child": "deus",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Diabo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deus",
+                "child": "Iô Pã!), Diabo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "deus",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Diabo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Iô Pã!), Diabo ou deus, vem a mim, a mim!",
+        "start_char": 7420,
+        "end_char": 7424,
+        "excerpt": "No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim!",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Iô Pã!), Diabo",
+                "child": "deus",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Diabo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deus",
+                "child": "Iô Pã!), Diabo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "deus",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Diabo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "frautas",
+        "sentence": "Com frautas e avenas vem sem conto!",
+        "start_char": 7558,
+        "end_char": 7565,
+        "excerpt": "Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vem",
+                "child": "frautas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "frauta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "frautas",
+                "child": "avenas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "frauta",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "avena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "avenas",
+        "sentence": "Com frautas e avenas vem sem conto!",
+        "start_char": 7568,
+        "end_char": 7574,
+        "excerpt": "Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "frautas",
+                "child": "avenas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "frauta",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "avena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Áspi",
+        "sentence": "Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia.",
+        "start_char": 7713,
+        "end_char": 7717,
+        "excerpt": "Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia.",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aguda",
+                "child": "Áspide",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "agudar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Áspide",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Áspide",
+                "child": "Meu corpo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Áspide",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "corpo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pã Pã",
+        "sentence": "Iô Pã Pã!",
+        "start_char": 7946,
+        "end_char": 7951,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pã Pã",
+        "sentence": "Pã Pã!",
+        "start_char": 7946,
+        "end_char": 7951,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Faze o teu querer sem vontade vã, Deus grande!",
+        "start_char": 8016,
+        "end_char": 8020,
+        "excerpt": "Pã Pã! Pã Pã! Pã., Sou homem e afã: Faze o teu querer sem vontade vã, Deus grande!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "grande",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "grande",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A águia",
+        "sentence": "A águia rasga com garra e fauce;",
+        "start_char": 8090,
+        "end_char": 8097,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã! Pã Pã! Pã., Sou homem e afã: Faze o teu querer sem vontade vã, Deus grande! Meu Pã! Iô Pã! Iô Pã! Despertei na dobra Do aperto da cobra. A águia rasga com garra e fauce;",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A águia",
+                "child": "rasga",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "águia",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "rasga",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A águia",
+                "child": "garra",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "águia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "garra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rasga",
+                "child": "A águia",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "rasga",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "águia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "garra",
+                "child": "A águia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "garra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "águia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os deuses",
+        "sentence": "Os deuses vão-se;",
+        "start_char": 8123,
+        "end_char": 8132,
+        "excerpt": "Despertei na dobra Do aperto da cobra. A águia rasga com garra e fauce; Os deuses vão-se;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vão-se",
+                "child": "Os deuses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vão-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As feras",
+        "sentence": "As feras vêm.",
+        "start_char": 8141,
+        "end_char": 8149,
+        "excerpt": "A águia rasga com garra e fauce; Os deuses vão-se; As feras vêm.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vêm",
+                "child": "As feras",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fera",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pã Pã",
+        "sentence": "Iô Pã Pã!",
+        "start_char": 7946,
+        "end_char": 7951,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Sou teu, teu homem e teu afã, Cabra das tuas, ouro, deus, clara Carne em teu osso, flor na tua vara.",
+        "start_char": 8288,
+        "end_char": 8292,
+        "excerpt": "Iô Pã Pã! Pã Pã! Pã., Sou homem e afã: Faze o teu querer sem vontade vã, Deus grande! Meu Pã! Iô Pã! Iô Pã! Despertei na dobra Do aperto da cobra. A águia rasga com garra e fauce; Os deuses vão-se; As feras vêm. Iô Pã! A matado, Vou no corno levado Do Unicornado. Sou Pã! Iô Pã! Iô Pã Pã! Pã! Sou teu, teu homem e teu afã, Cabra das tuas, ouro, deus, clara Carne em teu osso, flor na tua vara.",
+        "gender": "male",
+        "pch_occurrences": {
+            "osso": {
+                "syns": [
+                    "ossos"
+                ],
+                "occurrences": [
+                    "osso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vão-se",
+                "child": "Os deuses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vão-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Iô Pã",
+        "sentence": "Iô Pã!",
+        "start_char": 6785,
+        "end_char": 6790,
+        "excerpt": "Hino a Pã Vibra do cio subtil da luz, Meu homem e afã Vem turbulento da noite a flux De Pã! Iô Pã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pã Pã",
+        "sentence": "Iô Pã Pã!",
+        "start_char": 7946,
+        "end_char": 7951,
+        "excerpt": "Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aleister Crowley",
+        "sentence": "O \"Hino a Pã\" é uma tradução do Hymn to Pan, do prefácio do livro \"Magick in Theory and Practice\", de Aleister Crowley.",
+        "start_char": 8640,
+        "end_char": 8656,
+        "excerpt": "Iô Pã Pã! Pã Pã! Pã., Sou homem e afã: Faze o teu querer sem vontade vã, Deus grande! Meu Pã! Iô Pã! Iô Pã! Despertei na dobra Do aperto da cobra. A águia rasga com garra e fauce; Os deuses vão-se; As feras vêm. Iô Pã! A matado, Vou no corno levado Do Unicornado. Sou Pã! Iô Pã! Iô Pã Pã! Pã! Sou teu, teu homem e teu afã, Cabra das tuas, ouro, deus, clara Carne em teu osso, flor na tua vara. Com patas de aço os rochedos roço De solstício severo a equinócio. E raivo, e rasgo, e roussando fremo, Sempiterno, mundo sem termo, Homem, homúnculo, ménade, afã, Na força de Pã. Iô Pã! Iô Pã Pã! Pã! O \"Hino a Pã\" é uma tradução do Hymn to Pan, do prefácio do livro \"Magick in Theory and Practice\", de Aleister Crowley.",
+        "gender": "male",
+        "pch_occurrences": {
+            "osso": {
+                "syns": [
+                    "ossos"
+                ],
+                "occurrences": [
+                    "osso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tradução",
+                "child": "Hymn to Pan, do prefácio do livro \"Magick in Theory and Practice\", de Aleister Crowley",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tradução",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Hymn",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hymn to Pan, do prefácio do livro \"Magick in Theory and Practice\", de Aleister Crowley",
+                "child": "tradução",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Hymn",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tradução",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pessoa",
+        "sentence": "Esta tradução foi publicada em outubro de 1931 em \"Presença\",de Pessoa.",
+        "start_char": 8722,
+        "end_char": 8728,
+        "excerpt": "Pã! Iô Pã! Iô Pã! Iô Pã! Do mar de além Vem da Sicília e da Arcádia vem! Vem como Baco, com fauno e fera E ninfa e sátiro à tua beira, Num asno lácteo, do mar sem fim, A mim, a mim! Vem com Apolo, nupcial na brisa (Pegureira e pitonisa), Vem com Artêmis, leve e estranha, E a coxa branca, Deus lindo, banha Ao luar do bosque, em marmóreo monte, Manhã malhada da àmbrea fonte! Mergulha o roxo da prece ardente No ádito rubro, no laço quente, A alma que aterra em olhos de azul O ver errar teu capricho exul No bosque enredo, nos nás que espalma A árvore viva que é espírito e alma E corpo e mente - do mar sem fim (Iô Pã! Iô Pã!), Diabo ou deus, vem a mim, a mim! Meu homem e afã! Vem com trombeta estridente e fina Pela colina! Vem com tambor a rufar à beira Da primavera! Com frautas e avenas vem sem conto! Não estou eu pronto? Eu, que espero e me estorço e luto Com ar sem ramos onde não nutro Meu corpo, lasso do abraço em vão, Áspide aguda, forte leão - Vem, está fazia Minha carne, fria Do cio sozinho da demonia. À espada corta o que ata e dói, Ó Tudo-Cria, Tudo-Destrói! Dá-me o sinal do Olho Aberto, E da coxa áspera o toque erecto, Ó Pã! Iô Pã! Iô Pã! Iô Pã Pã! Pã Pã! Pã., Sou homem e afã: Faze o teu querer sem vontade vã, Deus grande! Meu Pã! Iô Pã! Iô Pã! Despertei na dobra Do aperto da cobra. A águia rasga com garra e fauce; Os deuses vão-se; As feras vêm. Iô Pã! A matado, Vou no corno levado Do Unicornado. Sou Pã! Iô Pã! Iô Pã Pã! Pã! Sou teu, teu homem e teu afã, Cabra das tuas, ouro, deus, clara Carne em teu osso, flor na tua vara. Com patas de aço os rochedos roço De solstício severo a equinócio. E raivo, e rasgo, e roussando fremo, Sempiterno, mundo sem termo, Homem, homúnculo, ménade, afã, Na força de Pã. Iô Pã! Iô Pã Pã! Pã! O \"Hino a Pã\" é uma tradução do Hymn to Pan, do prefácio do livro \"Magick in Theory and Practice\", de Aleister Crowley. Esta tradução foi publicada em outubro de 1931 em \"Presença\",de Pessoa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "Olho",
+                    "olhos"
+                ],
+                "occurrences_n": 3
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxa"
+                ],
+                "occurrences_n": 2
+            },
+            "osso": {
+                "syns": [
+                    "ossos"
+                ],
+                "occurrences": [
+                    "osso"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "\"",
+                "child": "Pessoa",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Pessoa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pessoa",
+                "child": "\"",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Pessoa",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mestre Therion",
+        "sentence": "Mestre Therion é um dos nomes mágicos de Aleister Crowley.",
+        "start_char": 8734,
+        "end_char": 8748,
+        "excerpt": "Esta tradução foi publicada em outubro de 1931 em \"Presença\",de Pessoa. (*) Mestre Therion é um dos nomes mágicos de Aleister Crowley.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aleister Crowley",
+        "sentence": "Mestre Therion é um dos nomes mágicos de Aleister Crowley.",
+        "start_char": 8775,
+        "end_char": 8791,
+        "excerpt": "Esta tradução foi publicada em outubro de 1931 em \"Presença\",de Pessoa. (*) Mestre Therion é um dos nomes mágicos de Aleister Crowley.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "nomes",
+                "child": "Aleister Crowley",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Aleister",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Aleister Crowley",
+                "child": "nomes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Aleister",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

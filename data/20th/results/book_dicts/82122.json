@@ -1,0 +1,223 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Martinho",
+        "sentence": "Quando do grão Martinho a fatal",
+        "start_char": 53,
+        "end_char": 61,
+        "excerpt": "Outro Soneto do Prazer Efêmero Bocage Quando do grão Martinho a fatal Marca",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marca",
+        "sentence": "Marca",
+        "start_char": 70,
+        "end_char": 75,
+        "excerpt": "Outro Soneto do Prazer Efêmero Bocage Quando do grão Martinho a fatal Marca",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "medo",
+        "sentence": "Do medonho Caronte a negra barca;",
+        "start_char": 146,
+        "end_char": 150,
+        "excerpt": "Marca O termo fez soar no seu chocalho, Levou três dias a passar caralho Do medonho Caronte a negra barca;",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padre",
+        "sentence": "Eis no terceiro dia o padre embarca, E o velho, que a ninguém faz agasalho,",
+        "start_char": 197,
+        "end_char": 204,
+        "excerpt": "O termo fez soar no seu chocalho, Levou três dias a passar caralho Do medonho Caronte a negra barca; Eis no terceiro dia o padre embarca, E o velho, que a ninguém faz agasalho,",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho",
+        "sentence": "Eis no terceiro dia o padre embarca, E o velho, que a ninguém faz agasalho,",
+        "start_char": 216,
+        "end_char": 223,
+        "excerpt": "O termo fez soar no seu chocalho, Levou três dias a passar caralho Do medonho Caronte a negra barca; Eis no terceiro dia o padre embarca, E o velho, que a ninguém faz agasalho,",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "agasalho",
+                "child": ", E o velho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "agasalho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Plutão",
+        "sentence": "Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela:",
+        "start_char": 405,
+        "end_char": 411,
+        "excerpt": "Em prêmio quis só ter do seu trabalho O gáudio de ver porra de tal marca: Pegou-se ao cão trifauce a voz na goela Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Plutão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Plutão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela:",
+        "start_char": 412,
+        "end_char": 420,
+        "excerpt": "Em prêmio quis só ter do seu trabalho O gáudio de ver porra de tal marca: Pegou-se ao cão trifauce a voz na goela Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "a mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dido",
+        "sentence": "Porém Dido gritou às companheiras:",
+        "start_char": 443,
+        "end_char": 447,
+        "excerpt": "O gáudio de ver porra de tal marca: Pegou-se ao cão trifauce a voz na goela Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela: Porém Dido gritou às companheiras:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gritou",
+                "child": "Dido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "às companheiras",
+        "sentence": "Porém Dido gritou às companheiras:",
+        "start_char": 455,
+        "end_char": 470,
+        "excerpt": "O gáudio de ver porra de tal marca: Pegou-se ao cão trifauce a voz na goela Ao ver de membro tal as dianteiras, E Plutão a mulher pôs de cautela: Porém Dido gritou às companheiras:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

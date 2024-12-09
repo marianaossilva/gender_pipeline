@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu Oh!",
+        "start_char": 15,
+        "end_char": 32,
+        "excerpt": "Meus oito anos Casimiro de Abreu Oh! Souvenirs!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sou",
+        "sentence": "Souvenirs!",
+        "start_char": 37,
+        "end_char": 40,
+        "excerpt": "Meus oito anos Casimiro de Abreu Oh! Souvenirs!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Printemps",
+        "sentence": "Printemps!",
+        "start_char": 48,
+        "end_char": 57,
+        "excerpt": "Casimiro de Abreu Oh! Souvenirs! Printemps!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aurores",
+        "sentence": "Aurores!",
+        "start_char": 59,
+        "end_char": 66,
+        "excerpt": "Souvenirs! Printemps! Aurores!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "V . Hugo",
+        "sentence": "V. Hugo.",
+        "start_char": 67,
+        "end_char": 75,
+        "excerpt": "Printemps! Aurores! V. Hugo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "De minha mãe as carícias",
+        "start_char": 841,
+        "end_char": 850,
+        "excerpt": "meu céu de primavera Que doce a vida não era Nessa risonha manhã! Em vez das mágoas de agora, Eu tinha nessas delícias De minha mãe as carícias",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "minha mãe",
+                "child": "carícias",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "carícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "carícias",
+                "child": "minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "carícia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "E beijos de minha irmã!",
+        "start_char": 875,
+        "end_char": 885,
+        "excerpt": "Em vez das mágoas de agora, Eu tinha nessas delícias De minha mãe as carícias E beijos de minha irmã!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "beijos",
+                "child": "minha irmã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "beijo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha irmã",
+                "child": "beijos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "beijo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha irmã",
+                "child": "carícias",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "carícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filho das montanhas",
+        "sentence": "Livre filho das montanhas, Eu ia bem satisfeito, Da camisa aberto o peito",
+        "start_char": 893,
+        "end_char": 912,
+        "excerpt": "De minha mãe as carícias E beijos de minha irmã! Livre filho das montanhas, Eu ia bem satisfeito, Da camisa aberto o peito",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

@@ -1,0 +1,1485 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 8,
+        "end_char": 21,
+        "excerpt": "PUELINA Artur Azevedo Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Artur Leivas",
+        "sentence": "Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento!",
+        "start_char": 21,
+        "end_char": 38,
+        "excerpt": "PUELINA Artur Azevedo Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . João Castanheira",
+        "sentence": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "start_char": 121,
+        "end_char": 142,
+        "excerpt": "Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento! O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Fulgência Castanheira",
+        "sentence": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "start_char": 121,
+        "end_char": 146,
+        "excerpt": "Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento! O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulina Castanheira",
+        "sentence": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "start_char": 317,
+        "end_char": 336,
+        "excerpt": "Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento! O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "senhorita",
+                "child": "Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senhoritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Pacheco",
+        "sentence": "O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "start_char": 392,
+        "end_char": 401,
+        "excerpt": "O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada. O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "namorou",
+                "child": "O Pacheco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "namorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pacheco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Pacheco",
+                "child": ", o Pachequinho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pacheco",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pachequinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Pachequinho",
+                "child": "O Pacheco",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pachequinho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pacheco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alfândega",
+                "child": "O Pacheco",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alfândega",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pacheco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pachequinho da Alfândega",
+        "sentence": "O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "start_char": 405,
+        "end_char": 429,
+        "excerpt": "O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada. O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulina",
+        "sentence": "O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "start_char": 462,
+        "end_char": 469,
+        "excerpt": "O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada. O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "senhorita",
+                "child": "Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senhoritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "namorou",
+                "child": "Paulina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "namorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a noiva",
+        "sentence": "Ficou assentado que o casamento se realizaria em março próximo, e até lá o Pachequinho visitaria a noiva todas as quintas-feiras e domingos, à noite.",
+        "start_char": 730,
+        "end_char": 737,
+        "excerpt": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada. O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida. Ficou assentado que o casamento se realizaria em março próximo, e até lá o Pachequinho visitaria a noiva todas as quintas-feiras e domingos, à noite.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "visitaria",
+                "child": "a noiva",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "visitar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a noiva",
+                "child": "todas as quintas-feiras",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "noiva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "quintas-feiras",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a noiva",
+                "child": ", à noite",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "noiva",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todas as quintas-feiras",
+                "child": "a noiva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "quintas-feiras",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "domingos",
+                "child": "a noiva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", à noite",
+                "child": "a noiva",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O noivo",
+        "sentence": "O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "start_char": 811,
+        "end_char": 818,
+        "excerpt": "Ficou assentado que o casamento se realizaria em março próximo, e até lá o Pachequinho visitaria a noiva todas as quintas-feiras e domingos, à noite. Anteontem era quinta-feira. O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dirigiu-se",
+                "child": "O noivo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dirigir se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "noivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à noiva",
+        "sentence": "O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "start_char": 860,
+        "end_char": 867,
+        "excerpt": "Ficou assentado que o casamento se realizaria em março próximo, e até lá o Pachequinho visitaria a noiva todas as quintas-feiras e domingos, à noite. Anteontem era quinta-feira. O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "puelina Paulina",
+        "sentence": "O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "start_char": 919,
+        "end_char": 934,
+        "excerpt": "Ficou assentado que o casamento se realizaria em março próximo, e até lá o Pachequinho visitaria a noiva todas as quintas-feiras e domingos, à noite. Anteontem era quinta-feira. O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "- Como? perguntou a moça.",
+        "start_char": 954,
+        "end_char": 960,
+        "excerpt": "Anteontem era quinta-feira. O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina! - Como? perguntou a moça.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "a moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelina Paulina",
+        "sentence": "- Puelina Paulina, repetiu ele.",
+        "start_char": 964,
+        "end_char": 979,
+        "excerpt": "O noivo lá foi, e, ao entrar na sala, dirigiu-se à noiva e cumprimentou-a pela seguinte forma: - Boa noite, puelina Paulina! - Como? perguntou a moça. - Puelina Paulina, repetiu ele.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "- Puelina Paulina,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Puelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelina",
+        "sentence": "- Puelina! exclamou o pai Castanheira.",
+        "start_char": 996,
+        "end_char": 1003,
+        "excerpt": "- Como? perguntou a moça. - Puelina Paulina, repetiu ele. - Puelina! exclamou o pai Castanheira.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "- Puelina Paulina,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Puelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "exclamou",
+                "child": "- Puelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pai Castanheira",
+        "sentence": "- Puelina! exclamou o pai Castanheira.",
+        "start_char": 1014,
+        "end_char": 1031,
+        "excerpt": "- Como? perguntou a moça. - Puelina Paulina, repetiu ele. - Puelina! exclamou o pai Castanheira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelina",
+        "sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "start_char": 1061,
+        "end_char": 1068,
+        "excerpt": "- Puelina! exclamou o pai Castanheira. Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "exclamou",
+                "child": "- Puelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Puelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "explicou",
+                "child": "- Puelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pachequinho",
+        "sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "start_char": 1092,
+        "end_char": 1103,
+        "excerpt": "- Puelina! exclamou o pai Castanheira. Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorrindo",
+                "child": "o Pachequinho",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pachequinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur Leivas",
+        "sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "start_char": 1124,
+        "end_char": 1136,
+        "excerpt": "- Puelina! exclamou o pai Castanheira. Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "propõe",
+                "child": "Artur Leivas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "propor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Artur Leivas",
+                "child": "é o tratamento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Artur",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tratamento",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhorita",
+        "sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "start_char": 1181,
+        "end_char": 1190,
+        "excerpt": "- Puelina! exclamou o pai Castanheira. Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha filha",
+        "sentence": "- Pois sim, mas eu não quero que minha filha seja puelina, disse, do seu canto, D. Fulgência.",
+        "start_char": 1225,
+        "end_char": 1236,
+        "excerpt": "Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita. - Pois sim, mas eu não quero que minha filha seja puelina, disse, do seu canto, D. Fulgência.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "minha filha",
+                "child": "puelina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "puelina",
+                "child": "minha filha",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "puelina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Fulgência",
+        "sentence": "- Pois sim, mas eu não quero que minha filha seja puelina, disse, do seu canto, D. Fulgência.",
+        "start_char": 1191,
+        "end_char": 1204,
+        "excerpt": "Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita. - Pois sim, mas eu não quero que minha filha seja puelina, disse, do seu canto, D. Fulgência.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "- Nem eu! acudiu a moça.",
+        "start_char": 1303,
+        "end_char": 1309,
+        "excerpt": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita. - Pois sim, mas eu não quero que minha filha seja puelina, disse, do seu canto, D. Fulgência. - Nem eu! acudiu a moça.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acudiu",
+                "child": "a moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelina",
+        "sentence": "Puelina!",
+        "start_char": 996,
+        "end_char": 1003,
+        "excerpt": "- Como? perguntou a moça. - Puelina Paulina, repetiu ele. - Puelina! exclamou o pai Castanheira.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "- Puelina Paulina,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Puelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "exclamou",
+                "child": "- Puelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhorita",
+        "sentence": "Faça o favor de me chamar senhorita, como sempre me chamou!",
+        "start_char": 1378,
+        "end_char": 1387,
+        "excerpt": "Credo! Não sei o que me parece! Faça o favor de me chamar senhorita, como sempre me chamou!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhorita",
+        "sentence": "- Sim, senhorita é preferível, opinou o velho.",
+        "start_char": 1419,
+        "end_char": 1428,
+        "excerpt": "Não sei o que me parece! Faça o favor de me chamar senhorita, como sempre me chamou! - Sim, senhorita é preferível, opinou o velho.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho",
+        "sentence": "- Sim, senhorita é preferível, opinou o velho.",
+        "start_char": 1450,
+        "end_char": 1457,
+        "excerpt": "Não sei o que me parece! Faça o favor de me chamar senhorita, como sempre me chamou! - Sim, senhorita é preferível, opinou o velho.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelina",
+        "sentence": "- Puelina é delicioso, contrariou o Pachequinho.",
+        "start_char": 1461,
+        "end_char": 1468,
+        "excerpt": "Faça o favor de me chamar senhorita, como sempre me chamou! - Sim, senhorita é preferível, opinou o velho. - Puelina é delicioso, contrariou o Pachequinho.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Puelina",
+                "child": "delicioso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "puelina",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "delicioso",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pachequinho",
+        "sentence": "- Puelina é delicioso, contrariou o Pachequinho.",
+        "start_char": 1495,
+        "end_char": 1506,
+        "excerpt": "Faça o favor de me chamar senhorita, como sempre me chamou! - Sim, senhorita é preferível, opinou o velho. - Puelina é delicioso, contrariou o Pachequinho.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contrariou",
+                "child": "o Pachequinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contrariar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pachequinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur Leivas",
+        "sentence": "Olhe o que escreve Artur Leivas!",
+        "start_char": 1604,
+        "end_char": 1616,
+        "excerpt": "- Puelina é delicioso, contrariou o Pachequinho. A palavra parece esquisita porque é nova, mas quando tiver algum uso, verão! Olhe o que escreve Artur Leivas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "Artur Leivas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Castro Lopes",
+        "sentence": "Parece até Castro Lopes!.",
+        "start_char": 1656,
+        "end_char": 1668,
+        "excerpt": "Olhe o que escreve Artur Leivas! Ele sabe latim como gente! Parece até Castro Lopes!.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Parece",
+                "child": "Castro Lopes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à noiva",
+        "sentence": "E dirigindo-se à noiva: -",
+        "start_char": 1686,
+        "end_char": 1693,
+        "excerpt": "Ele sabe latim como gente! Parece até Castro Lopes!. E dirigindo-se à noiva: -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "noivo",
+        "sentence": "Tenho a minha autoridade de noivo!",
+        "start_char": 1889,
+        "end_char": 1894,
+        "excerpt": "- Já lhe disse que não aceito esse tratamento! - Perdão; quero, exijo que o aceite! Tenho a minha autoridade de noivo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a minha autoridade",
+                "child": "noivo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "autoridade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "noivo",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "noivo",
+                "child": "a minha autoridade",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "noivo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "autoridade",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Pacheco",
+        "sentence": "- Quer saber de uma coisa, Sr. Pacheco?",
+        "start_char": 1953,
+        "end_char": 1965,
+        "excerpt": "Tenho a minha autoridade de noivo! Se não a fizer respeitar, serei um marido sem autoridade! - Quer saber de uma coisa, Sr. Pacheco?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho Castanheira",
+        "sentence": "disse o velho Castanheira.",
+        "start_char": 2000,
+        "end_char": 2019,
+        "excerpt": "Se não a fizer respeitar, serei um marido sem autoridade! - Quer saber de uma coisa, Sr. Pacheco? disse o velho Castanheira.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "o velho Castanheira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Castanheira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Se é para fazer imposições dessa ordem que o senhor vai usar da sua autoridade, boa noite!",
+        "start_char": 2079,
+        "end_char": 2087,
+        "excerpt": "disse o velho Castanheira. Não seja tolo! Se é para fazer imposições dessa ordem que o senhor vai usar da sua autoridade, boa noite!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "usar",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "usar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "imposições",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "imposição",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "- O senhor chamou-me tolo!",
+        "start_char": 2129,
+        "end_char": 2137,
+        "excerpt": "Não seja tolo! Se é para fazer imposições dessa ordem que o senhor vai usar da sua autoridade, boa noite! - O senhor chamou-me tolo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamou-me",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "- Chamei, sim senhor!.",
+        "start_char": 2168,
+        "end_char": 2174,
+        "excerpt": "Se é para fazer imposições dessa ordem que o senhor vai usar da sua autoridade, boa noite! - O senhor chamou-me tolo! - Chamei, sim senhor!.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "usar",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "usar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "imposições",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "imposição",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamou-me",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Chamei",
+                "child": "senhor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chamei",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "- Chamei",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chamei",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "- O senhor insulta meu pai! -",
+        "start_char": 2202,
+        "end_char": 2210,
+        "excerpt": "- Chamei, sim senhor!. - Pois tolo será ele!. - O senhor insulta meu pai! -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "insulta",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "- O senhor insulta meu pai! -",
+        "start_char": 2219,
+        "end_char": 2226,
+        "excerpt": "- Chamei, sim senhor!. - Pois tolo será ele!. - O senhor insulta meu pai! -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "insulta",
+                "child": "meu pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "O senhor insulta meu marido!",
+        "start_char": 2230,
+        "end_char": 2238,
+        "excerpt": "- Pois tolo será ele!. - O senhor insulta meu pai! - O senhor insulta meu marido!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "insulta",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "insulta",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu marido",
+        "sentence": "O senhor insulta meu marido!",
+        "start_char": 2247,
+        "end_char": 2257,
+        "excerpt": "- Pois tolo será ele!. - O senhor insulta meu pai! - O senhor insulta meu marido!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "insulta",
+                "child": "meu marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o diabo",
+        "sentence": "Pois vá retaliar para o diabo que o carregue!",
+        "start_char": 2307,
+        "end_char": 2314,
+        "excerpt": "O senhor insulta meu marido! - Não insulto: retalio! - Pois vá retaliar para o diabo que o carregue!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "retaliar",
+                "child": "o diabo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "retaliar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o diabo",
+                "child": "insulto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "diabo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "insulto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a puelina",
+        "sentence": "- Perdão, mas a puelina Paulina ainda não se pronunciou... - Mas me pronuncio: está desmanchado o casamento!",
+        "start_char": 2350,
+        "end_char": 2359,
+        "excerpt": "Pois vá retaliar para o diabo que o carregue! Rua. - Perdão, mas a puelina Paulina ainda não se pronunciou... - Mas me pronuncio: está desmanchado o casamento!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pronunciou",
+                "child": "a puelina",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pronunciar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a puelina",
+                "child": "Paulina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "puelina",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a puelina",
+                "child": "- Perdão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "puelina",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Paulina",
+                "child": "a puelina",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulina",
+        "sentence": "- Perdão, mas a puelina Paulina ainda não se pronunciou... - Mas me pronuncio: está desmanchado o casamento!",
+        "start_char": 2360,
+        "end_char": 2367,
+        "excerpt": "Pois vá retaliar para o diabo que o carregue! Rua. - Perdão, mas a puelina Paulina ainda não se pronunciou... - Mas me pronuncio: está desmanchado o casamento!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a puelina",
+                "child": "Paulina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "puelina",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Paulina",
+                "child": "a puelina",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "puelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Paulina",
+                "child": "- Perdão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulina",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hem",
+        "sentence": "- Hem? -",
+        "start_char": 2447,
+        "end_char": 2450,
+        "excerpt": "Rua. - Perdão, mas a puelina Paulina ainda não se pronunciou... - Mas me pronuncio: está desmanchado o casamento! - Hem? -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pai",
+        "sentence": "gritou o pai.",
+        "start_char": 2481,
+        "end_char": 2486,
+        "excerpt": "- Hem? - Desmanchado, ouviu? gritou o pai.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gritou",
+                "child": "o pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rua",
+        "sentence": "Rua, já disse!.",
+        "start_char": 2488,
+        "end_char": 2491,
+        "excerpt": "Desmanchado, ouviu? gritou o pai. Rua, já disse!.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Rua",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Pachequinho",
+        "sentence": "O Pachequinho pegou no chapéu e saiu.",
+        "start_char": 2504,
+        "end_char": 2517,
+        "excerpt": "gritou o pai. Rua, já disse!. O Pachequinho pegou no chapéu e saiu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pegou",
+                "child": "O Pachequinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pachequinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um moleque da casa",
+        "sentence": "Um moleque da casa, que tinha ouvido tudo no corredor, chegou à porta e gritou: - Puelino!",
+        "start_char": 2542,
+        "end_char": 2560,
+        "excerpt": "Rua, já disse!. O Pachequinho pegou no chapéu e saiu. Um moleque da casa, que tinha ouvido tudo no corredor, chegou à porta e gritou: - Puelino!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Puelino",
+        "sentence": "Um moleque da casa, que tinha ouvido tudo no corredor, chegou à porta e gritou: - Puelino!",
+        "start_char": 2624,
+        "end_char": 2631,
+        "excerpt": "Rua, já disse!. O Pachequinho pegou no chapéu e saiu. Um moleque da casa, que tinha ouvido tudo no corredor, chegou à porta e gritou: - Puelino!",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Puelino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Puelino",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fiáu",
+        "sentence": "Fiáu!.",
+        "start_char": 2633,
+        "end_char": 2637,
+        "excerpt": "O Pachequinho pegou no chapéu e saiu. Um moleque da casa, que tinha ouvido tudo no corredor, chegou à porta e gritou: - Puelino! Fiáu!.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Artur Leivas",
+        "sentence": "E ora aqui está como, por causa do Sr. Artur Leivas, ontem se desmanchou um casamento!",
+        "start_char": 2645,
+        "end_char": 2662,
+        "excerpt": "Fiáu!. * * * E ora aqui está como, por causa do Sr. Artur Leivas, ontem se desmanchou um casamento!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

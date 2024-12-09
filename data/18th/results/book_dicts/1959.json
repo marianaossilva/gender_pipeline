@@ -1,0 +1,1759 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "EVOLUÇÃO CHAMO-ME INÁCIO; ele, Benedito.",
+        "start_char": 604,
+        "end_char": 612,
+        "excerpt": "Para maiores informações, escreva para  Estamos em busca de patrocinadores e voluntários para nos ajudar a manter este projeto. Se você quer ajudar de alguma forma, mande um e-mail para  e saiba como isso é possível. EVOLUÇÃO CHAMO-ME INÁCIO; ele, Benedito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inácio",
+        "sentence": "Inácio basta.",
+        "start_char": 718,
+        "end_char": 724,
+        "excerpt": "EVOLUÇÃO CHAMO-ME INÁCIO; ele, Benedito. Não digo o resto dos nossos nomes por um sentimento de compostura, que toda a gente discreta apreciará. Inácio basta.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "basta",
+                "child": "Inácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bastar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "se com Benedito.",
+        "start_char": 750,
+        "end_char": 758,
+        "excerpt": "Inácio basta. Contentem- se com Benedito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Não é muito, mas é alguma cousa, e está com a filosofia de Julieta: \"Que valem nomes, perguntava ela ao namorado.",
+        "start_char": 819,
+        "end_char": 826,
+        "excerpt": "Contentem- se com Benedito. Não é muito, mas é alguma cousa, e está com a filosofia de Julieta: \"Que valem nomes, perguntava ela ao namorado.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", e está com a filosofia",
+                "child": "Julieta",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filosofia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Julieta",
+                "child": ", e está com a filosofia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julieta",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filosofia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Julieta",
+                "child": ", mas é alguma cousa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julieta",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "cousa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "namorado",
+        "sentence": "Não é muito, mas é alguma cousa, e está com a filosofia de Julieta: \"Que valem nomes, perguntava ela ao namorado.",
+        "start_char": 864,
+        "end_char": 872,
+        "excerpt": "Contentem- se com Benedito. Não é muito, mas é alguma cousa, e está com a filosofia de Julieta: \"Que valem nomes, perguntava ela ao namorado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntava",
+                "child": "namorado",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "namorado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Vamos ao cheiro do Benedito.",
+        "start_char": 959,
+        "end_char": 967,
+        "excerpt": "A rosa, como quer que se lhe chame, terá sempre o mesmo cheiro. \" Vamos ao cheiro do Benedito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cheiro",
+                "child": "Benedito",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cheiro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Benedito",
+                "child": "cheiro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cheiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romeu",
+        "sentence": "E desde logo assentemos que ele era o menos Romeu deste mundo.",
+        "start_char": 1013,
+        "end_char": 1018,
+        "excerpt": "\"Que valem nomes, perguntava ela ao namorado. A rosa, como quer que se lhe chame, terá sempre o mesmo cheiro. \" Vamos ao cheiro do Benedito. E desde logo assentemos que ele era o menos Romeu deste mundo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "assentemos",
+                "child": "Romeu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "assenter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romeu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Romeu",
+                "child": "mundo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Romeu",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mundo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mundo",
+                "child": "Romeu",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mundo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romeu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Ninguém muda de caráter, e o do Benedito era bom,-- ou para melhor dizer, pacato.",
+        "start_char": 1802,
+        "end_char": 1810,
+        "excerpt": "Já me ia escapando o nome do joalheiro;-- fiquemos na Rua do Ouvidor. Moralmente, era ele mesmo. Ninguém muda de caráter, e o do Benedito era bom,-- ou para melhor dizer, pacato.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Benedito",
+                "child": "bom,--",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "bom,--",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a família da casa",
+        "sentence": "Podemos compará-lo a uma hospedaria bem afreguesada, aonde iam ter idéias de toda parte e de toda sorte, que se sentavam à mesa com a família da casa.",
+        "start_char": 2037,
+        "end_char": 2054,
+        "excerpt": "Ninguém muda de caráter, e o do Benedito era bom,-- ou para melhor dizer, pacato. Mas, intelectualmente, é que ele era menos original. Podemos compará-lo a uma hospedaria bem afreguesada, aonde iam ter idéias de toda parte e de toda sorte, que se sentavam à mesa com a família da casa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o dono da casa",
+        "sentence": "Às vezes, acontecia acharem- se ali duas pessoas inimigas, ou simplesmente antipáticas, ninguém brigava, o dono da casa impunha aos hóspedes a indulgência recíproca.",
+        "start_char": 2161,
+        "end_char": 2175,
+        "excerpt": "Mas, intelectualmente, é que ele era menos original. Podemos compará-lo a uma hospedaria bem afreguesada, aonde iam ter idéias de toda parte e de toda sorte, que se sentavam à mesa com a família da casa. Às vezes, acontecia acharem- se ali duas pessoas inimigas, ou simplesmente antipáticas, ninguém brigava, o dono da casa impunha aos hóspedes a indulgência recíproca.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "hóspedes",
+        "sentence": "Às vezes, acontecia acharem- se ali duas pessoas inimigas, ou simplesmente antipáticas, ninguém brigava, o dono da casa impunha aos hóspedes a indulgência recíproca.",
+        "start_char": 2188,
+        "end_char": 2196,
+        "excerpt": "Mas, intelectualmente, é que ele era menos original. Podemos compará-lo a uma hospedaria bem afreguesada, aonde iam ter idéias de toda parte e de toda sorte, que se sentavam à mesa com a família da casa. Às vezes, acontecia acharem- se ali duas pessoas inimigas, ou simplesmente antipáticas, ninguém brigava, o dono da casa impunha aos hóspedes a indulgência recíproca.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os amigos",
+        "sentence": "Nunca lhe vi as meias, note-se; mas ele não tinha segredos para os amigos.",
+        "start_char": 2507,
+        "end_char": 2516,
+        "excerpt": "Era assim que ele conseguia ajustar uma espécie de ateísmo vago com duas irmandades que fundou, não sei se na Gávea, na Tijuca ou no Engenho Velho. Usava assim, promiscuamente, a devoção, a irreligião e as meias de seda. Nunca lhe vi as meias, note-se; mas ele não tinha segredos para os amigos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "segredos",
+                "child": "os amigos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "segredo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os amigos",
+                "child": "segredos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "segredo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Benedito lembrava-se do tempo em que toda a jornada era feita às costas de burro.",
+        "start_char": 2890,
+        "end_char": 2898,
+        "excerpt": "Trocamos algumas palavras, e não tardou conversarmos francamente, ao sabor das circunstâncias que nos impunham a convivência, antes mesmo de saber quem éramos. Naturalmente, o primeiro objeto foi o progresso que nos traziam as estradas de ferro. Benedito lembrava-se do tempo em que toda a jornada era feita às costas de burro.",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lembrava-se",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrava-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "O espírito areja-se, os próprios músculos recebem uma comunicação agradável, o sangue não salta, fica-se em paz com Deus e os homens. --",
+        "start_char": 3353,
+        "end_char": 3357,
+        "excerpt": "Contamos então algumas anedotas, falamos de alguns nomes, e ficamos de acordo em que as estradas de ferro eram uma condição de progresso do país. Quem nunca viajou não sabe o valor que tem uma dessas banalidades graves e sólidas para dissipar os tédios do caminho. O espírito areja-se, os próprios músculos recebem uma comunicação agradável, o sangue não salta, fica-se em paz com Deus e os homens. --",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fica-se",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ficar se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "os homens",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os homens",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "O espírito areja-se, os próprios músculos recebem uma comunicação agradável, o sangue não salta, fica-se em paz com Deus e os homens. --",
+        "start_char": 3360,
+        "end_char": 3369,
+        "excerpt": "Contamos então algumas anedotas, falamos de alguns nomes, e ficamos de acordo em que as estradas de ferro eram uma condição de progresso do país. Quem nunca viajou não sabe o valor que tem uma dessas banalidades graves e sólidas para dissipar os tédios do caminho. O espírito areja-se, os próprios músculos recebem uma comunicação agradável, o sangue não salta, fica-se em paz com Deus e os homens. --",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "os homens",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os homens",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "O senhor tem filhos?",
+        "start_char": 3475,
+        "end_char": 3483,
+        "excerpt": "Não serão os nossos filhos que verão todo este país cortado de estradas, disse ele. -- Não, decerto. O senhor tem filhos?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "exclamou Benedito faiscando-lhe os olhos.",
+        "start_char": 3740,
+        "end_char": 3748,
+        "excerpt": "Não será ainda em cinqüenta anos; e, entretanto, é a nossa primeira necessidade. Eu comparo o Brasil a uma criança que está engatinhando; só começará a andar quando tiver muitas estradas de ferro -- Bonita idéia! exclamou Benedito faiscando-lhe os olhos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "exclamou",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Sim, senhor tem razão: -- o Brasil está engatinhando; só começará a andar quando tiver muitas estradas de ferro.",
+        "start_char": 3890,
+        "end_char": 3896,
+        "excerpt": "-- Importa-me pouco que seja bonita, contanto que seja justa. -- Bonita e justa, redargüiu ele com amabilidade. Sim, senhor tem razão: -- o Brasil está engatinhando; só começará a andar quando tiver muitas estradas de ferro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Benedito acabou convidando-me a ir almoçar com ele no dia seguinte.",
+        "start_char": 4279,
+        "end_char": 4287,
+        "excerpt": "Oito dias depois voltei ao Rio de Janeiro, mas sozinho. Uma semana mais tarde, voltou ele; encontramo-nos no teatro, conversamos muito e trocamos notícias; Benedito acabou convidando-me a ir almoçar com ele no dia seguinte.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto.",
+        "start_char": 4530,
+        "end_char": 4534,
+        "excerpt": "Benedito acabou convidando-me a ir almoçar com ele no dia seguinte. Fui; deu-me um almoço de príncipe, bons charutos e palestra animada. Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "paz",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "paz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "paz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "paz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto.",
+        "start_char": 4537,
+        "end_char": 4546,
+        "excerpt": "Benedito acabou convidando-me a ir almoçar com ele no dia seguinte. Fui; deu-me um almoço de príncipe, bons charutos e palestra animada. Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luculo",
+        "sentence": "Realmente era magnífico; e seria impertinência histórica pôr a mesa de Luculo na casa de Platão.",
+        "start_char": 4677,
+        "end_char": 4683,
+        "excerpt": "Fui; deu-me um almoço de príncipe, bons charutos e palestra animada. Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto. Realmente era magnífico; e seria impertinência histórica pôr a mesa de Luculo na casa de Platão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a mesa",
+                "child": "Luculo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mesa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "luculo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Luculo",
+                "child": "a mesa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "luculo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mesa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Luculo",
+                "child": "; e seria impertinência",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "luculo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "impertinência",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Luculo",
+                "child": "magnífico",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "luculo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "magnífico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Entre o café e o cognac, disse-me ele, apoiando o cotovelo na borda da mesa, e olhando para o charuto que ardia: -- Na minha viagem agora, achei ocasião de ver como o senhor tem razão com aquela idéia do Brasil engatinhando. --",
+        "start_char": 4868,
+        "end_char": 4876,
+        "excerpt": "Notei que a conversa dele fazia mais efeito no meio da viagem-- arejando o espírito e deixando a gente em paz com Deus e os homens; mas devo dizer que o almoço pode ter prejudicado o resto. Realmente era magnífico; e seria impertinência histórica pôr a mesa de Luculo na casa de Platão. Entre o café e o cognac, disse-me ele, apoiando o cotovelo na borda da mesa, e olhando para o charuto que ardia: -- Na minha viagem agora, achei ocasião de ver como o senhor tem razão com aquela idéia do Brasil engatinhando. --",
+        "gender": "male",
+        "pch_occurrences": {
+            "cotovelo": {
+                "syns": [
+                    "cotovelos"
+                ],
+                "occurrences": [
+                    "cotovelo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "ocasião",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Ah! -- Sim, senhor; é justamente o que o senhor dizia na diligência de Vassouras.",
+        "start_char": 4943,
+        "end_char": 4949,
+        "excerpt": "Realmente era magnífico; e seria impertinência histórica pôr a mesa de Luculo na casa de Platão. Entre o café e o cognac, disse-me ele, apoiando o cotovelo na borda da mesa, e olhando para o charuto que ardia: -- Na minha viagem agora, achei ocasião de ver como o senhor tem razão com aquela idéia do Brasil engatinhando. -- Ah! -- Sim, senhor; é justamente o que o senhor dizia na diligência de Vassouras.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cotovelo": {
+                "syns": [
+                    "cotovelos"
+                ],
+                "occurrences": [
+                    "cotovelo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "ocasião",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizia",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Ah! -- Sim, senhor; é justamente o que o senhor dizia na diligência de Vassouras.",
+        "start_char": 4970,
+        "end_char": 4978,
+        "excerpt": "Realmente era magnífico; e seria impertinência histórica pôr a mesa de Luculo na casa de Platão. Entre o café e o cognac, disse-me ele, apoiando o cotovelo na borda da mesa, e olhando para o charuto que ardia: -- Na minha viagem agora, achei ocasião de ver como o senhor tem razão com aquela idéia do Brasil engatinhando. -- Ah! -- Sim, senhor; é justamente o que o senhor dizia na diligência de Vassouras.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cotovelo": {
+                "syns": [
+                    "cotovelos"
+                ],
+                "occurrences": [
+                    "cotovelo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "ocasião",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizia",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Mas era indispensável que nos persuadíssemos de que os princípios são tudo e os homens nada.",
+        "start_char": 5514,
+        "end_char": 5523,
+        "excerpt": "E referiu muita cousa, observações relativas aos costumes do interior, dificuldades da vida, atraso, concordando, porém, nos bons sentimentos da população e nas aspirações de progresso. Infelizmente, o governo não correspondia às necessidades da pátria; parecia até interessado em mantê-la atrás das outras nações americanas. Mas era indispensável que nos persuadíssemos de que os princípios são tudo e os homens nada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os povos",
+        "sentence": "Não se fazem os povos para os governos, mas os governos para os povos; e abyssus abyssum invocat.",
+        "start_char": 5543,
+        "end_char": 5551,
+        "excerpt": "Infelizmente, o governo não correspondia às necessidades da pátria; parecia até interessado em mantê-la atrás das outras nações americanas. Mas era indispensável que nos persuadíssemos de que os princípios são tudo e os homens nada. Não se fazem os povos para os governos, mas os governos para os povos; e abyssus abyssum invocat.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fazem",
+                "child": "os povos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "povo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", mas os governos",
+                "child": "os povos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "governo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "povo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os povos",
+                "child": ", mas os governos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "povo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "governo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os povos",
+                "child": "os governos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "povo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "governo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Benedito sorriu.",
+        "start_char": 5917,
+        "end_char": 5925,
+        "excerpt": "Entre os quadros vi um lindo retrato de mulher; perguntei-lhe quem era. Benedito sorriu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma moça",
+        "sentence": "-- Não irei adiante, disse eu sorrindo também. -- Não, não há que negar, acudiu ele; foi uma moça de quem gostei muito.",
+        "start_char": 6023,
+        "end_char": 6031,
+        "excerpt": "perguntei-lhe quem era. Benedito sorriu. -- Não irei adiante, disse eu sorrindo também. -- Não, não há que negar, acudiu ele; foi uma moça de quem gostei muito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "carmim",
+        "sentence": "Os lábios eram mesmo de carmim e as faces de rosa; tinha os olhos negros, cor da noite.",
+        "start_char": 6121,
+        "end_char": 6127,
+        "excerpt": "Bonita, não? Não imagina a beleza que era. Os lábios eram mesmo de carmim e as faces de rosa; tinha os olhos negros, cor da noite.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "carmim",
+                "child": "as faces",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "carmim",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "face",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as faces",
+                "child": "carmim",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "face",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "carmim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rosa",
+                "child": "carmim",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "carmim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A secretária",
+        "sentence": "A secretária era de ébano, obra fina; sobre ela, casualmente aberto, um almanaque de Laemmert.",
+        "start_char": 6440,
+        "end_char": 6452,
+        "excerpt": "Era vasto, elegante, um pouco trivial, mas não lhe faltava nada. Tinha duas estantes, cheias de livros muito bem encadernados, um mapa- múndi, dous mapas do Brasil. A secretária era de ébano, obra fina; sobre ela, casualmente aberto, um almanaque de Laemmert.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A secretária",
+                "child": "ébano",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "secretária",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ébano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ébano",
+                "child": "A secretária",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ébano",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "secretária",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laemmert",
+        "sentence": "A secretária era de ébano, obra fina; sobre ela, casualmente aberto, um almanaque de Laemmert.",
+        "start_char": 6525,
+        "end_char": 6533,
+        "excerpt": "Era vasto, elegante, um pouco trivial, mas não lhe faltava nada. Tinha duas estantes, cheias de livros muito bem encadernados, um mapa- múndi, dous mapas do Brasil. A secretária era de ébano, obra fina; sobre ela, casualmente aberto, um almanaque de Laemmert.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um almanaque",
+                "child": "Laemmert",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "almanaque",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Laemmert",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laemmert",
+                "child": "um almanaque",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Laemmert",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "almanaque",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laemmert",
+                "child": "ébano",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Laemmert",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ébano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a rainha das",
+        "sentence": "Em rosas, por exemplo, (não há negar, disse-me ele, que é a rainha das flores) em rosas, tinha-as de toda casta e de todas as regiões.",
+        "start_char": 7147,
+        "end_char": 7159,
+        "excerpt": "Tocava órgão, e gostava muito de música, falou dela com entusiasmo, citando as óperas, os trechos melhores, e noticiou-me que, em pequeno, começara a aprender flauta; abandonou-a logo, -- o que foi pena, concluiu, porque é, na verdade, um instrumento muito saudoso. Mostrou-me ainda outras salas, fomos ao jardim, que era esplêndido, tanto ajudava a arte à natureza, e tanto a natureza coroava a arte. Em rosas, por exemplo, (não há negar, disse-me ele, que é a rainha das flores) em rosas, tinha-as de toda casta e de todas as regiões.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Benedito",
+        "sentence": "atravessando uma rua de Paris, dei subitamente com o Benedito. -- Que é isto?",
+        "start_char": 7738,
+        "end_char": 7748,
+        "excerpt": "Ele pegou da idéia, e apresentou-se. Um dia. atravessando uma rua de Paris, dei subitamente com o Benedito. -- Que é isto?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dei",
+                "child": "o Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Benedito não contava com esta palavra, o rosto iluminou-se-lhe; mas disfarçou depressa. -- Não digo isso, respondeu.",
+        "start_char": 8064,
+        "end_char": 8072,
+        "excerpt": "Falou-me de um grande plano. -- Quero vê-lo ministro, disse-lhe. Benedito não contava com esta palavra, o rosto iluminou-se-lhe; mas disfarçou depressa. -- Não digo isso, respondeu.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "contava",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vassouras",
+        "sentence": "Lembra-se do que nós dizíamos na diligência de Vassouras?",
+        "start_char": 8409,
+        "end_char": 8418,
+        "excerpt": "Quando, porém, seja ministro, creia que serei tão-somente ministro industrial. Estamos fartos de partidos: precisamos desenvolver as forças vivas do país, os seus grandes recursos. Lembra-se do que nós dizíamos na diligência de Vassouras?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diligência",
+                "child": "Vassouras",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "diligência",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Vassouras",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Vassouras",
+                "child": "diligência",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Vassouras",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "diligência",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Como eu tivesse então recolhido alguns apontamentos, dados estatísticos, folhetos, relatórios, cópias de contratos, tudo referente a matérias industriais, e lhos mostrasse, Benedito declarou-me que ia também coligir algumas cousas daquelas.",
+        "start_char": 8887,
+        "end_char": 8895,
+        "excerpt": "Sim? -- Perfeitamente. Mostrei-lhe os papéis, ele viu-os deslumbrado. Como eu tivesse então recolhido alguns apontamentos, dados estatísticos, folhetos, relatórios, cópias de contratos, tudo referente a matérias industriais, e lhos mostrasse, Benedito declarou-me que ia também coligir algumas cousas daquelas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lhos",
+                "child": "Benedito",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "lho",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Benedito",
+                "child": "lhos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "lho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Benedito recolheu com muito mais gosto os anexins políticos e fórmulas parlamentares.",
+        "start_char": 9151,
+        "end_char": 9159,
+        "excerpt": "Como eu tivesse então recolhido alguns apontamentos, dados estatísticos, folhetos, relatórios, cópias de contratos, tudo referente a matérias industriais, e lhos mostrasse, Benedito declarou-me que ia também coligir algumas cousas daquelas. E, na verdade, vi-o andar por ministérios, bancos, associações, pedindo muitas notas e opúsculos, que amontoava nas malas; mas o ardor com que o fez, se foi intenso, foi curto; era de empréstimo. Benedito recolheu com muito mais gosto os anexins políticos e fórmulas parlamentares.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lhos",
+                "child": "Benedito",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "lho",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Benedito",
+                "child": "lhos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "lho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Benedito",
+                "child": "recolheu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "recolheu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "recolheu",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "recolheu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "igo",
+        "sentence": "Nas conversas comigo repetia-os muita vez, à laia de experiência; achava neles grande prestígio e valor inestimável.",
+        "start_char": 9294,
+        "end_char": 9297,
+        "excerpt": "Benedito recolheu com muito mais gosto os anexins políticos e fórmulas parlamentares. Tinha na cabeça um vasto arsenal deles. Nas conversas comigo repetia-os muita vez, à laia de experiência; achava neles grande prestígio e valor inestimável.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "conversas",
+                "child": "comigo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "conversa",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "comigo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Creio até que, se tivesse de optar, optaria por essas formas curtas, tão cômodas, algumas lindas, outras sonoras, todas axiomáticas, que não forçam a reflexão, preenchem os vazios, e deixam a gente em paz com Deus e os homens.",
+        "start_char": 9835,
+        "end_char": 9839,
+        "excerpt": "Saboreava-os tanto que eu não sei se ele aceitaria jamais a liberdade real sem aquele aparelho verbal; creio que não. Creio até que, se tivesse de optar, optaria por essas formas curtas, tão cômodas, algumas lindas, outras sonoras, todas axiomáticas, que não forçam a reflexão, preenchem os vazios, e deixam a gente em paz com Deus e os homens.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "paz",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "paz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "paz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "paz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a gente",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "gente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Já então Benedito era deputado.",
+        "start_char": 9986,
+        "end_char": 9994,
+        "excerpt": "Creio até que, se tivesse de optar, optaria por essas formas curtas, tão cômodas, algumas lindas, outras sonoras, todas axiomáticas, que não forçam a reflexão, preenchem os vazios, e deixam a gente em paz com Deus e os homens. Regressamos juntos; mas eu fiquei em Pernambuco, e tornei mais tarde a Londres, donde vim ao Rio de Janeiro, um ano depois. Já então Benedito era deputado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "Perna"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Benedito",
+                "child": "deputado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "deputado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deputado",
+                "child": "Benedito",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "deputado",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benedito",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Stuart Mill",
+        "sentence": "por meio de tiras de papel rubricadas assim: -- Câmbio, Taxa das terras, Questão dos cereais em Inglaterra, Opinião de Stuart Mill, Erro de Thiers sobre caminhos de ferro, etc.",
+        "start_char": 10299,
+        "end_char": 10310,
+        "excerpt": "Fui visitá- lo, achei-o preparando o discurso de estréia. Mostrou-me alguns apontamentos, trechos de relatórios, livros de economia política, alguns com páginas marcadas. por meio de tiras de papel rubricadas assim: -- Câmbio, Taxa das terras, Questão dos cereais em Inglaterra, Opinião de Stuart Mill, Erro de Thiers sobre caminhos de ferro, etc.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Opinião",
+                "child": "Stuart Mill",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Opinião",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Stuart",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Stuart Mill",
+                "child": ", Opinião",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Stuart",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Opinião",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Stuart Mill",
+                "child": ", Questão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Stuart",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Questão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Stuart Mill",
+                "child": "meio de tiras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Stuart",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Thiers",
+        "sentence": "por meio de tiras de papel rubricadas assim: -- Câmbio, Taxa das terras, Questão dos cereais em Inglaterra, Opinião de Stuart Mill, Erro de Thiers sobre caminhos de ferro, etc.",
+        "start_char": 10320,
+        "end_char": 10326,
+        "excerpt": "Fui visitá- lo, achei-o preparando o discurso de estréia. Mostrou-me alguns apontamentos, trechos de relatórios, livros de economia política, alguns com páginas marcadas. por meio de tiras de papel rubricadas assim: -- Câmbio, Taxa das terras, Questão dos cereais em Inglaterra, Opinião de Stuart Mill, Erro de Thiers sobre caminhos de ferro, etc.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Erro",
+                "child": "Thiers",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Erro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Thiers",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Thiers",
+                "child": ", Erro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Thiers",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Erro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Thiers",
+                "child": ", Questão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Thiers",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Questão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Thiers",
+                "child": "meio de tiras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Thiers",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "homens práticos da Câmara",
+        "sentence": "Falava-me daquelas cousas, como se acabasse de as descobrir, expondo-me tudo, ab ovo; tinha a peito mostrar aos homens práticos da Câmara que também ele era prático.",
+        "start_char": 10502,
+        "end_char": 10527,
+        "excerpt": "por meio de tiras de papel rubricadas assim: -- Câmbio, Taxa das terras, Questão dos cereais em Inglaterra, Opinião de Stuart Mill, Erro de Thiers sobre caminhos de ferro, etc. Era sincero, minucioso e cálido. Falava-me daquelas cousas, como se acabasse de as descobrir, expondo-me tudo, ab ovo; tinha a peito mostrar aos homens práticos da Câmara que também ele era prático.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os capitalistas ingleses",
+        "sentence": "-- E os capitalistas ingleses?",
+        "start_char": 10692,
+        "end_char": 10716,
+        "excerpt": "Em seguida, perguntou-me pela empresa; disse-lhe o que havia. -- Dentro de dous anos conto inaugurar o primeiro trecho da estrada. -- E os capitalistas ingleses?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhores",
+        "sentence": "Senhores, é tempo de cuidar exclusivamente, -- notai que digo exclusivamente, -- dos melhoramentos materiais do país.",
+        "start_char": 11388,
+        "end_char": 11396,
+        "excerpt": "E começou: No meio da agitação crescente dos espíritos, do alarido partidário que encobre as vozes dos legítimos interesses, permiti que alguém faça ouvir uma súplica da nação. Senhores, é tempo de cuidar exclusivamente, -- notai que digo exclusivamente, -- dos melhoramentos materiais do país.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Senhores",
+                "child": "tempo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhores",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tempo",
+                "child": "Senhores",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhores",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Este homem",
+        "sentence": "Este homem é sincero, pensei comigo, está persuadido do que escreveu.",
+        "start_char": 12102,
+        "end_char": 12112,
+        "excerpt": "Não pude ouvir mais nada e fiquei pensativo. Mais que pensativo, fiquei assombrado, desvairado diante do abismo que a psicologia rasgava aos meus pés. Este homem é sincero, pensei comigo, está persuadido do que escreveu.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Este homem",
+                "child": "sincero",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "sincero",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Spencer",
+        "sentence": "Achei (perdoem-me se há nisto enfatuação) achei ali mais um efeito da lei da evolução, tal como a definiu Spencer,--",
+        "start_char": 12403,
+        "end_char": 12410,
+        "excerpt": "Este homem é sincero, pensei comigo, está persuadido do que escreveu. E fui por aí abaixo até ver se achava a explicação dos trâmites por que passou aquela recordação da diligência de Vassouras. Achei (perdoem-me se há nisto enfatuação) achei ali mais um efeito da lei da evolução, tal como a definiu Spencer,--",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Spencer",
+        "sentence": "Spencer ou Benedito, um deles.",
+        "start_char": 12414,
+        "end_char": 12421,
+        "excerpt": "E fui por aí abaixo até ver se achava a explicação dos trâmites por que passou aquela recordação da diligência de Vassouras. Achei (perdoem-me se há nisto enfatuação) achei ali mais um efeito da lei da evolução, tal como a definiu Spencer,-- Spencer ou Benedito, um deles.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Benedito",
+                "child": "Spencer",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "Spencer",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benedito",
+        "sentence": "Spencer ou Benedito, um deles.",
+        "start_char": 12425,
+        "end_char": 12433,
+        "excerpt": "E fui por aí abaixo até ver se achava a explicação dos trâmites por que passou aquela recordação da diligência de Vassouras. Achei (perdoem-me se há nisto enfatuação) achei ali mais um efeito da lei da evolução, tal como a definiu Spencer,-- Spencer ou Benedito, um deles.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Benedito",
+                "child": "Spencer",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Benedito",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "Spencer",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

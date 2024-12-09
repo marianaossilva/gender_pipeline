@@ -1,0 +1,1559 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Orelha",
+        "sentence": "Orelha",
+        "start_char": 0,
+        "end_char": 6,
+        "excerpt": "Orelha A VITÓRIA E A PIEDADE Alexandre Herculano I",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Orelha"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alexandre Herculano I",
+        "sentence": "E A PIEDADE Alexandre Herculano I",
+        "start_char": 29,
+        "end_char": 50,
+        "excerpt": "Orelha A VITÓRIA E A PIEDADE Alexandre Herculano I",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Orelha"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A VITÓRIA",
+                "child": "Alexandre Herculano I",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "VITÓRIA",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandre",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alexandre Herculano I",
+                "child": "A VITÓRIA",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alexandre",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "VITÓRIA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus pobres",
+        "sentence": "Eu nunca fiz soar meus pobres cantos",
+        "start_char": 69,
+        "end_char": 80,
+        "excerpt": "A VITÓRIA E A PIEDADE Alexandre Herculano I Eu nunca fiz soar meus pobres cantos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soar",
+                "child": "meus pobres cantos",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "soar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "canto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o trovador",
+        "sentence": "Mal haja o trovador que vai sentar-se À porta do abastado, O qual com ouro paga a própria infâmia, Louvor que foi comprado.",
+        "start_char": 179,
+        "end_char": 189,
+        "excerpt": "Nos paços dos senhores! Eu jamais consagrei hino mentido Da terra dos opressores. Mal haja o trovador que vai sentar-se À porta do abastado, O qual com ouro paga a própria infâmia, Louvor que foi comprado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "haja",
+                "child": "o trovador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "porta",
+                "child": "o trovador",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "abastado",
+                "child": "o trovador",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "abastar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus à poesia deu por alvo a pátria, Deu a glória e a virtude.",
+        "start_char": 353,
+        "end_char": 357,
+        "excerpt": "Mal haja o trovador que vai sentar-se À porta do abastado, O qual com ouro paga a própria infâmia, Louvor que foi comprado. Desonra àquele, que ao poder e ao ouro Prostitui o alaúde! Deus à poesia deu por alvo a pátria, Deu a glória e a virtude.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Feliz ou infeliz, triste ou contente, Livre o poeta seja, E em hino isento a inspiração transforme",
+        "start_char": 460,
+        "end_char": 467,
+        "excerpt": "Desonra àquele, que ao poder e ao ouro Prostitui o alaúde! Deus à poesia deu por alvo a pátria, Deu a glória e a virtude. Feliz ou infeliz, triste ou contente, Livre o poeta seja, E em hino isento a inspiração transforme",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Livre",
+                "child": "o poeta",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Livre",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": ", Livre",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Livre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "Feliz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "feliz",
+                "categories": [
+                    "social",
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o foragido",
+        "sentence": "O solo do desterro, ai, quanto ingrato É para o foragido, E nevoado o céu, árido o prado, O rio adormecido!",
+        "start_char": 710,
+        "end_char": 720,
+        "excerpt": "No despontar da vida, do infortúnio Murchou-me o sopro ardente; E saudades curti em longes terras Da minha terra ausente. O solo do desterro, ai, quanto ingrato É para o foragido, E nevoado o céu, árido o prado, O rio adormecido!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "nevoado",
+                "child": "o foragido",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "nevoar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "foragido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas quando o pranto me sulcava as faces, Pranto de atroz saudade, Deus escutou do vagabundo as preces, Dele teve piedade.",
+        "start_char": 1082,
+        "end_char": 1086,
+        "excerpt": "Ali é que se aferra o porto amigo, Depois de árdua viagem. III Mas quando o pranto me sulcava as faces, Pranto de atroz saudade, Deus escutou do vagabundo as preces, Dele teve piedade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "escutou",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus irmãos",
+        "sentence": "Com seus irmãos as sacrossantas juras, Beijando a cruz da espada, Repetiu o poeta:",
+        "start_char": 1261,
+        "end_char": 1272,
+        "excerpt": "Mas quando o pranto me sulcava as faces, Pranto de atroz saudade, Deus escutou do vagabundo as preces, Dele teve piedade. Armas, bradaram no desterro os fortes, Como bradar de um só: Erguem-se, voam, cingem ferros; cinge-os Indissolúvel nó. Com seus irmãos as sacrossantas juras, Beijando a cruz da espada, Repetiu o poeta:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "seus irmãos",
+                "child": "sacrossantas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sacrossanta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sacrossantas",
+                "child": "seus irmãos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sacrossanta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Com seus irmãos as sacrossantas juras, Beijando a cruz da espada, Repetiu o poeta:",
+        "start_char": 1331,
+        "end_char": 1338,
+        "excerpt": "Mas quando o pranto me sulcava as faces, Pranto de atroz saudade, Deus escutou do vagabundo as preces, Dele teve piedade. Armas, bradaram no desterro os fortes, Como bradar de um só: Erguem-se, voam, cingem ferros; cinge-os Indissolúvel nó. Com seus irmãos as sacrossantas juras, Beijando a cruz da espada, Repetiu o poeta:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Repetiu",
+                "child": "o poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Repetiu",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "inúmeros soldados",
+        "sentence": "De inúmeros soldados;",
+        "start_char": 1724,
+        "end_char": 1741,
+        "excerpt": "Das maldições no fel. IV Fanatismo brutal, ódio fraterno, De fogo céus toldados, A fome, a peste, o mar avaro, as turbas De inúmeros soldados;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vencedor",
+        "sentence": "A c'roa de cipreste; Que a fronte ao vencedor em ímpia luta",
+        "start_char": 1945,
+        "end_char": 1953,
+        "excerpt": "Eis contra o que, por dias de amargura, Nos fez lutar o Inferno. Mas de fera vitória, enfim, colhemos A c'roa de cipreste; Que a fronte ao vencedor em ímpia luta",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a fronte",
+                "child": "vencedor",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "fronte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vencedor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vencedor",
+                "child": "ímpia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vencedor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ímpia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vencedor",
+                "child": "a fronte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vencedor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fronte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vencedor",
+                "child": "A c'roa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vencedor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "c'roa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ímpia",
+                "child": "vencedor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ímpia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vencedor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "c ' roa",
+        "sentence": "Só essa c'roa veste.",
+        "start_char": 1967,
+        "end_char": 1974,
+        "excerpt": "Mas de fera vitória, enfim, colhemos A c'roa de cipreste; Que a fronte ao vencedor em ímpia luta Só essa c'roa veste.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "génio",
+        "sentence": "À noite queda, ao génio que me ensina Segredos das canções.",
+        "start_char": 2314,
+        "end_char": 2319,
+        "excerpt": "Bem triste é o acordar! Nessa alta encosta sobranceira aos campos, De sangue ainda impuros, Onde o canhão troou por mais de um ano Contra invencíveis muros, Eu, tomando o alaúde, irei sentar-me, Pedir inspirações À noite queda, ao génio que me ensina Segredos das canções.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "noite",
+                "child": "génio",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "génio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "génio",
+                "child": "noite",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "génio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Segredos",
+                "child": "génio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Segredos",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "génio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "canções",
+                "child": "génio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "canção",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "génio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "portugueses",
+        "sentence": "Aqui dormem portugueses;",
+        "start_char": 2920,
+        "end_char": 2931,
+        "excerpt": "Nenhum padrão recordará aos homens Seus feitos derradeiros. Nem dirá: Aqui dormem portugueses;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dormem",
+                "child": "portugueses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dormer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "português",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "guerreiros",
+        "sentence": "Aqui dormem guerreiros.",
+        "start_char": 2945,
+        "end_char": 2955,
+        "excerpt": "Nem dirá: Aqui dormem portugueses; Aqui dormem guerreiros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dormem",
+                "child": "guerreiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dormer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "morto",
+        "sentence": "Nem hasteada cruz, consolo ao morto;",
+        "start_char": 3107,
+        "end_char": 3112,
+        "excerpt": "Nenhum padrão, que peça aos que passarem Reza fervente e pia, E junto ao qual entes queridos vertam O pranto da agonia! Nem hasteada cruz, consolo ao morto;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", consolo",
+                "child": "morto",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "consolo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "morto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morto",
+                "child": ", consolo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "morto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "consolo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu perdão",
+        "sentence": "Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim?",
+        "start_char": 3433,
+        "end_char": 3443,
+        "excerpt": "VII Quem, pois, consolará gementes sombras, Que ondeiam junto a mim? Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "implorar",
+                "child": "Seu perdão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "implorar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "perdão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Seu perdão",
+                "child": "Elohim",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "perdão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Elohim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Elohim",
+                "child": "Seu perdão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Elohim",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "perdão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elohim",
+        "sentence": "Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim?",
+        "start_char": 3447,
+        "end_char": 3453,
+        "excerpt": "VII Quem, pois, consolará gementes sombras, Que ondeiam junto a mim? Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Seu perdão",
+                "child": "Elohim",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "perdão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Elohim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Elohim",
+                "child": "Seu perdão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Elohim",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "perdão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cristão",
+        "sentence": "Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua.",
+        "start_char": 3459,
+        "end_char": 3468,
+        "excerpt": "Quem, pois, consolará gementes sombras, Que ondeiam junto a mim? Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim? Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o trovador do exílio",
+        "sentence": "Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua.",
+        "start_char": 3470,
+        "end_char": 3490,
+        "excerpt": "Quem, pois, consolará gementes sombras, Que ondeiam junto a mim? Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim? Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lavradores",
+        "sentence": "VIII Lavradores, zagais, descem dos montes, Deixando terras, gados, Para as armas vestir, dos céus em nome, Por fariseus chamados.",
+        "start_char": 3585,
+        "end_char": 3595,
+        "excerpt": "Quem seu perdão da Pátria implorar ousa, Seu perdão do Elohim? Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua. VIII Lavradores, zagais, descem dos montes, Deixando terras, gados, Para as armas vestir, dos céus em nome, Por fariseus chamados.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "descem",
+                "child": "VIII Lavradores, zagais,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "VIII",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus de paz",
+        "sentence": "De um Deus de paz hipócritas ministros",
+        "start_char": 3717,
+        "end_char": 3728,
+        "excerpt": "Eu, o cristão, o trovador do exílio, Contrário em guerra crua, Mas que não sei verter o fel da afronta Sobre uma ossada nua. VIII Lavradores, zagais, descem dos montes, Deixando terras, gados, Para as armas vestir, dos céus em nome, Por fariseus chamados. De um Deus de paz hipócritas ministros",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os tristes",
+        "sentence": "Os tristes enganaram:",
+        "start_char": 3750,
+        "end_char": 3760,
+        "excerpt": "VIII Lavradores, zagais, descem dos montes, Deixando terras, gados, Para as armas vestir, dos céus em nome, Por fariseus chamados. De um Deus de paz hipócritas ministros Os tristes enganaram:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "enganaram",
+                "child": "Os tristes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enganar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "caveiras",
+        "sentence": "Foram eles, não nós, que estas caveiras",
+        "start_char": 3803,
+        "end_char": 3811,
+        "excerpt": "De um Deus de paz hipócritas ministros Os tristes enganaram: Foram eles, não nós, que estas caveiras",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Maldito sejas tu, monstro do Inferno, Que do Senhor no templo, Junto da eterna Cruz, ao crime incitas, Dás do furor o exemplo!",
+        "start_char": 3881,
+        "end_char": 3887,
+        "excerpt": "Foram eles, não nós, que estas caveiras Aos vermes consagraram. Maldito sejas tu, monstro do Inferno, Que do Senhor no templo, Junto da eterna Cruz, ao crime incitas, Dás do furor o exemplo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Senhor",
+                "child": "templo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "templo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "Dás",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "dás",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "templo",
+                "child": "Senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "templo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus não há!",
+        "start_char": 4128,
+        "end_char": 4132,
+        "excerpt": "Sobre as cinzas da Pátria, ímpio, pensaste Folgar de nosso mal, E, entre as ruínas de cidade ilustre, Soltar riso infernal. Tu, no teu coração incipiente, Disseste: Deus não há!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Tu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Piedoso",
+        "sentence": "Piedoso o livre seja!",
+        "start_char": 4288,
+        "end_char": 4295,
+        "excerpt": "Treme; que tempo é já! IX Mas esses, cujos ossos espalhados No campo da peleja Jazem, exoram a piedade nossa; Piedoso o livre seja!",
+        "gender": "male",
+        "pch_occurrences": {
+            "osso": {
+                "syns": [
+                    "ossos"
+                ],
+                "occurrences": [
+                    "osso",
+                    "ossos"
+                ],
+                "occurrences_n": 2
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o livre",
+                "child": "Piedoso",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "livre",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "Piedoso",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Eu pedirei a paz dos inimigos, Mortos coma valentes, Ao Deus nosso juiz, ao que distingue Culpados de inocentes.",
+        "start_char": 4366,
+        "end_char": 4370,
+        "excerpt": "IX Mas esses, cujos ossos espalhados No campo da peleja Jazem, exoram a piedade nossa; Piedoso o livre seja! Eu pedirei a paz dos inimigos, Mortos coma valentes, Ao Deus nosso juiz, ao que distingue Culpados de inocentes.",
+        "gender": "male",
+        "pch_occurrences": {
+            "osso": {
+                "syns": [
+                    "ossos"
+                ],
+                "occurrences": [
+                    "osso",
+                    "ossos"
+                ],
+                "occurrences_n": 2
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "inimigos",
+                "child": "Deus nosso juiz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inimigo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "juiz",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus nosso juiz",
+                "child": "inimigos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "juiz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inimigo",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus nosso juiz",
+                "child": "a paz",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "juiz",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "paz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Culpados",
+                "child": "Deus nosso juiz",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Culpados",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "juiz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "inocentes",
+                "child": "Deus nosso juiz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inocente",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "juiz",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Filho do Homem",
+        "sentence": "X Perdoou, expirando, o Filho do Homem",
+        "start_char": 4445,
+        "end_char": 4461,
+        "excerpt": "Piedoso o livre seja! Eu pedirei a paz dos inimigos, Mortos coma valentes, Ao Deus nosso juiz, ao que distingue Culpados de inocentes. X Perdoou, expirando, o Filho do Homem",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus perseguidores",
+        "sentence": "Aos seus perseguidores;",
+        "start_char": 4466,
+        "end_char": 4484,
+        "excerpt": "Eu pedirei a paz dos inimigos, Mortos coma valentes, Ao Deus nosso juiz, ao que distingue Culpados de inocentes. X Perdoou, expirando, o Filho do Homem Aos seus perseguidores;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "expirando",
+                "child": "seus perseguidores",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "expirar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "perseguidor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus perseguidores",
+                "child": "X Perdoou",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "perseguidor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdoou",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o morto",
+        "sentence": "Não insulteis o morto.",
+        "start_char": 4563,
+        "end_char": 4570,
+        "excerpt": "Aos seus perseguidores; Perdão, também, às cinzas de infelizes; Perdão, oh vencedores! Não insulteis o morto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o morto",
+                "child": "insulteis",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "morto",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "insultel",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O forte",
+        "sentence": "O forte é generoso, e deixa ao fraco",
+        "start_char": 4731,
+        "end_char": 4738,
+        "excerpt": "d'olvidar ódios profundos De guerra deplorável. O forte é generoso, e deixa ao fraco",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O forte",
+                "child": "generoso",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "forte",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "generoso",
+                "categories": [
+                    "aparencia_carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Julgá-lo cabe a Deus.",
+        "start_char": 5000,
+        "end_char": 5004,
+        "excerpt": "O dá-lo a nós deixou. Além do limiar da eternidade Cl mundo não tem réus, O que levou à terra o pó da terra Julgá-lo cabe a Deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cabe",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus companheiros",
+        "sentence": "E vós, meus companheiros, que não vistes Nossa triste vitória, Não precisais do trovador o canto:",
+        "start_char": 5013,
+        "end_char": 5030,
+        "excerpt": "Além do limiar da eternidade Cl mundo não tem réus, O que levou à terra o pó da terra Julgá-lo cabe a Deus. E vós, meus companheiros, que não vistes Nossa triste vitória, Não precisais do trovador o canto:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E vós",
+                "child": ", meus companheiros",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vós",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meus companheiros",
+                "child": "E vós",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "companheiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vós",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os soldados de D . Pedro",
+        "sentence": "Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "start_char": 5542,
+        "end_char": 5566,
+        "excerpt": "Este fragmento, que segue, e que servirá para inteligência dos precedentes versos, pertence a um livro já todo escrito no entendimento, mas de que só alguns capítulos estão trasladados ao papel. A Guerra da Restauração de 1832 a 1833 é o acontecimento mais espantoso e mais poético deste século. Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Branca",
+        "sentence": "Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "start_char": 5542,
+        "end_char": 5552,
+        "excerpt": "Este fragmento, que segue, e que servirá para inteligência dos precedentes versos, pertence a um livro já todo escrito no entendimento, mas de que só alguns capítulos estão trasladados ao papel. A Guerra da Restauração de 1832 a 1833 é o acontecimento mais espantoso e mais poético deste século. Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camões",
+        "sentence": "Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "start_char": 5630,
+        "end_char": 5636,
+        "excerpt": "Este fragmento, que segue, e que servirá para inteligência dos precedentes versos, pertence a um livro já todo escrito no entendimento, mas de que só alguns capítulos estão trasladados ao papel. A Guerra da Restauração de 1832 a 1833 é o acontecimento mais espantoso e mais poético deste século. Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o autor",
+                "child": ", do Camões",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "autor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Camões",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do Camões",
+                "child": "o autor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Camões",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Mínimo",
+        "sentence": "de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo.",
+        "start_char": 5641,
+        "end_char": 5652,
+        "excerpt": "A Guerra da Restauração de 1832 a 1833 é o acontecimento mais espantoso e mais poético deste século. Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões. de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "havia",
+                "child": "João Mínimo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Lopes de Lima",
+        "sentence": "de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo.",
+        "start_char": 5637,
+        "end_char": 5655,
+        "excerpt": "A Guerra da Restauração de 1832 a 1833 é o acontecimento mais espantoso e mais poético deste século. Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões. de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os homens de bronze",
+        "sentence": "Os homens de bronze, os sete mil de Mindelo, não tiveram um cantor; e apenas en, o mais obscuro de todos, salvei em minha humilde prosa uma diminuta porção de tanta riqueza poética.",
+        "start_char": 5747,
+        "end_char": 5766,
+        "excerpt": "Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões. de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo. Os homens de bronze, os sete mil de Mindelo, não tiveram um cantor; e apenas en, o mais obscuro de todos, salvei em minha humilde prosa uma diminuta porção de tanta riqueza poética.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mindelo",
+        "sentence": "Os homens de bronze, os sete mil de Mindelo, não tiveram um cantor; e apenas en, o mais obscuro de todos, salvei em minha humilde prosa uma diminuta porção de tanta riqueza poética.",
+        "start_char": 5783,
+        "end_char": 5790,
+        "excerpt": "Entre os soldados de D. Pedro havia poetas: militava connosco o autor de D. Branca, do Camões. de João Mínimo; o Sr. Lopes de Lima, e outros: mas a política engodou todos os engenhos, e levou-os consigo. Os homens de bronze, os sete mil de Mindelo, não tiveram um cantor; e apenas en, o mais obscuro de todos, salvei em minha humilde prosa uma diminuta porção de tanta riqueza poética.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mindelo",
+                "child": "Os homens",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Mindelo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus amigos e camaradas",
+        "sentence": "O combate da antevéspera estava ainda vivo na minha imaginação: eu cria ver ainda os cadáveres dos meus amigos e camaradas, espalhados ao redor do fatal reduto, em que estava assentado: ainda me soavam nos ouvidos o seu clamor de entusiasmo ao acometê-lo, o sibilar das balas, o grito dos feridos, o som das armas, caindo-lhes das mãos, o gemido doloroso e longo da sua agonia, o estertor de moribundos, e o arranco final do morrer.",
+        "start_char": 6348,
+        "end_char": 6371,
+        "excerpt": "E o mais é que poucos conhecem uma coisa: que política de poetas vale, por via de regra, tanto como poesia de políticos. Fragmento. O combate da antevéspera estava ainda vivo na minha imaginação: eu cria ver ainda os cadáveres dos meus amigos e camaradas, espalhados ao redor do fatal reduto, em que estava assentado: ainda me soavam nos ouvidos o seu clamor de entusiasmo ao acometê-lo, o sibilar das balas, o grito dos feridos, o som das armas, caindo-lhes das mãos, o gemido doloroso e longo da sua agonia, o estertor de moribundos, e o arranco final do morrer.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "soldado",
+        "sentence": "Os dentes me rangeram de cólera, e a lágrima envergonhada de soldado me escorregou pelas faces.",
+        "start_char": 6743,
+        "end_char": 6750,
+        "excerpt": "Fragmento. O combate da antevéspera estava ainda vivo na minha imaginação: eu cria ver ainda os cadáveres dos meus amigos e camaradas, espalhados ao redor do fatal reduto, em que estava assentado: ainda me soavam nos ouvidos o seu clamor de entusiasmo ao acometê-lo, o sibilar das balas, o grito dos feridos, o som das armas, caindo-lhes das mãos, o gemido doloroso e longo da sua agonia, o estertor de moribundos, e o arranco final do morrer. Os dentes me rangeram de cólera, e a lágrima envergonhada de soldado me escorregou pelas faces.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a lágrima envergonhada",
+                "child": "soldado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "envergonhada",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "soldado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "soldado",
+                "child": "a lágrima envergonhada",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "soldado",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "envergonhada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Então orei a Deus por eles: antes de irmão de armas eu tinha sido cristão; e Jesus Cristo perdoara, entre as afrontas da Cruz, aos seus assassinos.",
+        "start_char": 7289,
+        "end_char": 7293,
+        "excerpt": "porém, pareceu-me que eles se alevantavam e me diziam: lembra-te de que também fomos soldados; lembra-te de que fomos vencidos! E eu bem sabia que inferno lhes devia ter sido, no momento de expirarem, as ideias de soldado e de vencimento, conglobadas numa só, como tremenda e indelével ignomínia, estampada na fronte do que ia transpor os umbrais do outro mundo. Então orei a Deus por eles: antes de irmão de armas eu tinha sido cristão; e Jesus Cristo perdoara, entre as afrontas da Cruz, aos seus assassinos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "orei",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "orei",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus Cristo",
+        "sentence": "Então orei a Deus por eles: antes de irmão de armas eu tinha sido cristão; e Jesus Cristo perdoara, entre as afrontas da Cruz, aos seus assassinos.",
+        "start_char": 7353,
+        "end_char": 7365,
+        "excerpt": "porém, pareceu-me que eles se alevantavam e me diziam: lembra-te de que também fomos soldados; lembra-te de que fomos vencidos! E eu bem sabia que inferno lhes devia ter sido, no momento de expirarem, as ideias de soldado e de vencimento, conglobadas numa só, como tremenda e indelével ignomínia, estampada na fronte do que ia transpor os umbrais do outro mundo. Então orei a Deus por eles: antes de irmão de armas eu tinha sido cristão; e Jesus Cristo perdoara, entre as afrontas da Cruz, aos seus assassinos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perdoara",
+                "child": "Jesus Cristo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "perdoarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

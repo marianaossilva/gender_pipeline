@@ -1,0 +1,48 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "LembrançaCasimiro de Abreu NUM ÁLBUM.",
+        "start_char": 9,
+        "end_char": 26,
+        "excerpt": "LembrançaCasimiro de Abreu NUM ÁLBUM. Como o triste marinheiro Deixa em terra uma lembrança, Levando n'alma a esperança E a saudade que consome, Assim nas folhas do álbum",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o triste marinheiro",
+        "sentence": "Como o triste marinheiro Deixa em terra uma lembrança, Levando n'alma a esperança",
+        "start_char": 43,
+        "end_char": 62,
+        "excerpt": "LembrançaCasimiro de Abreu NUM ÁLBUM. Como o triste marinheiro Deixa em terra uma lembrança, Levando n'alma a esperança E a saudade que consome, Assim nas folhas do álbum",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pobre nome",
+        "sentence": "Eu deixo meu pobre nome.",
+        "start_char": 180,
+        "end_char": 194,
+        "excerpt": "Como o triste marinheiro Deixa em terra uma lembrança, Levando n'alma a esperança E a saudade que consome, Assim nas folhas do álbum Eu deixo meu pobre nome.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixo",
+                "child": "meu pobre nome",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

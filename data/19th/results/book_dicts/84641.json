@@ -1,0 +1,122 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Folha",
+        "sentence": "Folha negra",
+        "start_char": 0,
+        "end_char": 5,
+        "excerpt": "Folha negra Casimiro de Abreu Sinhá,Um outro mancebo Alegre, poeta e crente, Soltara um canto fervente De amor talvez! - de alegria, E aqui nas folhas do livro Deixara - amor e poesia.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Folha",
+                "child": "negra",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "folha",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "negro",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu Sinhá",
+        "sentence": "Casimiro de Abreu Sinhá,Um outro mancebo Alegre, poeta e crente, Soltara um canto fervente",
+        "start_char": 12,
+        "end_char": 35,
+        "excerpt": "Folha negra Casimiro de Abreu Sinhá,Um outro mancebo Alegre, poeta e crente, Soltara um canto fervente De amor talvez! - de alegria, E aqui nas folhas do livro Deixara - amor e poesia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pegureiro",
+        "sentence": "Saudades do pegureiro Que chora o seu lar amado, - Calado e só - recostado",
+        "start_char": 822,
+        "end_char": 831,
+        "excerpt": "Vozes de flauta longínqua Que as nossas mágoas aviva, Soluço da patativa, Queixume do mar que rola, Cantiga em noite de lua Cantada ao som da viola! ... Saudades do pegureiro Que chora o seu lar amado, - Calado e só - recostado",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Saudades",
+                "child": "pegureiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Saudades",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pegureiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pegureiro",
+                "child": "Saudades",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pegureiro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Saudades",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filhinho",
+        "sentence": "Canção de santa doçura Da mãe que embala o filhinho!...",
+        "start_char": 953,
+        "end_char": 963,
+        "excerpt": "Saudades do pegureiro Que chora o seu lar amado, - Calado e só - recostado Na pedra dalgum caminho... Canção de santa doçura Da mãe que embala o filhinho!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "embala",
+                "child": "o filhinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "embalar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filhinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filhinho",
+                "child": "mãe",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filhinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá",
+        "sentence": "- Sinhá!",
+        "start_char": 1092,
+        "end_char": 1097,
+        "excerpt": "- Grinalda de murchas flores Que o sol queima e não consome... - Sinhá!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

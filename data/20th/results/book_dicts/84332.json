@@ -1,0 +1,162 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Josino",
+        "sentence": "Se tu visses, Josino, a minha amada, Havias de louvar o meu bom gosto;",
+        "start_char": 44,
+        "end_char": 50,
+        "excerpt": "Soneto da Amada Gabada Bocage Se tu visses, Josino, a minha amada, Havias de louvar o meu bom gosto; Pois seu nevado, rubicundo rosto,",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "visses",
+                "child": ", Josino",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "visse",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Josino",
+                "child": "visses",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Josino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "visse",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vénus",
+        "sentence": "Na sua boca Vénus faz morada:",
+        "start_char": 181,
+        "end_char": 186,
+        "excerpt": "Pois seu nevado, rubicundo rosto, Às mais formosas não inveja nada: Na sua boca Vénus faz morada:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "Vénus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vénus",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lascívia",
+        "sentence": "Nas mamas faz Lascívia o seu encosto, Nela enfim tudo encanta, tudo agrada:",
+        "start_char": 246,
+        "end_char": 254,
+        "excerpt": "Na sua boca Vénus faz morada: Nos olhos Cupido as setas posto; Nas mamas faz Lascívia o seu encosto, Nela enfim tudo encanta, tudo agrada:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "Lascívia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lascívia",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

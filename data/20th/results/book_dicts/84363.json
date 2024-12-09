@@ -1,0 +1,144 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "cara esposa",
+        "sentence": "Não chores, cara esposa, que o Destino Manda que parta, à guerra me convida;",
+        "start_char": 46,
+        "end_char": 57,
+        "excerpt": "Soneto do Diálogo Conjugal Bocage Não chores, cara esposa, que o Destino Manda que parta, à guerra me convida; A honra prezo mais que a própria vida, E se assim não fizera, fora indigno.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Conde",
+        "sentence": "\"Eu te acho, meu Conde, tão menino Que receio...",
+        "start_char": 204,
+        "end_char": 209,
+        "excerpt": "Não chores, cara esposa, que o Destino Manda que parta, à guerra me convida; A honra prezo mais que a própria vida, E se assim não fizera, fora indigno. \"Eu te acho, meu Conde, tão menino Que receio...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acho",
+                "child": "meu Conde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Conde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "Não temas, não, querida;",
+        "start_char": 258,
+        "end_char": 265,
+        "excerpt": "\"Eu te acho, meu Conde, tão menino Que receio... \" Ah! Não temas, não, querida;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "querida",
+                "child": "Não temas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tema",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A francesa nação",
+        "sentence": "A francesa nação será batida, Este peito, que vês, é diamantino.",
+        "start_char": 267,
+        "end_char": 283,
+        "excerpt": "Ah! Não temas, não, querida; A francesa nação será batida, Este peito, que vês, é diamantino.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Condessa",
+        "sentence": "\" Irra, Condessa!",
+        "start_char": 491,
+        "end_char": 499,
+        "excerpt": "Eu herdei o valor de avós, e pais, Que essa virtude tem a ilustre gente. \"Porém se as forças desiguais...? \" Irra, Condessa!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

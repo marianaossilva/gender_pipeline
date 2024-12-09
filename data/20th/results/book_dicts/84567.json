@@ -1,0 +1,736 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "De joelhos Casimiro de Abreu",
+        "start_char": 11,
+        "end_char": 28,
+        "excerpt": "De joelhos Casimiro de Abreu Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela. - \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelhos",
+                    "joelho",
+                    "joelho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o irmão",
+        "sentence": "Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela.",
+        "start_char": 39,
+        "end_char": 46,
+        "excerpt": "De joelhos Casimiro de Abreu Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela. - \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelhos",
+                    "joelho",
+                    "joelho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "reza",
+                "child": "o irmão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rezar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o irmão",
+                "child": "irmãs",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "irmãs",
+                "child": "o irmão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela.",
+        "start_char": 72,
+        "end_char": 77,
+        "excerpt": "De joelhos Casimiro de Abreu Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela. - \"",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelhos",
+                    "joelho",
+                    "joelho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "reza",
+                "child": ", Ou a mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rezar",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ou a mãe",
+                "child": ", Eu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Eu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ou a mãe",
+                "child": "Suplico",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Suplico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ou a mãe",
+                "child": "céu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ou a mãe",
+                "child": "a felicidade",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "felicidade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filha",
+                "child": ", Ou a mãe",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Eu",
+                "child": ", Ou a mãe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Eu",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- de joelhos",
+                "child": ", Ou a mãe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "joelho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as mãos",
+                "child": ", Ou a mãe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Suplico",
+                "child": ", Ou a mãe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Suplico",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céu",
+                "child": ", Ou a mãe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a felicidade",
+                "child": ", Ou a mãe",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "felicidade",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor meu",
+        "sentence": "Senhor meu Deus, que sois clemente e justo, Que dais voz às brisas e perfume à rosa, Oh!",
+        "start_char": 183,
+        "end_char": 193,
+        "excerpt": "Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela. - \" Senhor meu Deus, que sois clemente e justo, Que dais voz às brisas e perfume à rosa, Oh!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Senhor meu Deus, que sois clemente e justo, Que dais voz às brisas e perfume à rosa, Oh!",
+        "start_char": 194,
+        "end_char": 198,
+        "excerpt": "Qual reza o irmão pelas irmãs queridas, Ou a mãe que sofre pela filha bela, Eu - de joelhos - com as mãos erguidas, Suplico ao céu a felicidade dela. - \" Senhor meu Deus, que sois clemente e justo, Que dais voz às brisas e perfume à rosa, Oh!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "\"",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "\"",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A doce virgem",
+        "sentence": "A doce virgem que sorri medrosa!",
+        "start_char": 303,
+        "end_char": 316,
+        "excerpt": "Senhor meu Deus, que sois clemente e justo, Que dais voz às brisas e perfume à rosa, Oh! protegei-a com o manto augusto A doce virgem que sorri medrosa!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A doce virgem",
+                "child": "sorri",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "sorri",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sorri",
+                "child": "A doce virgem",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "sorri",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a linda filha",
+        "sentence": "Lançai os olhos sobre a linda filha, Dai-lhe o sossego no seu casto ninho, E da vereda que seu pé já trilha Tirai a pedra e desviai o espinho!",
+        "start_char": 358,
+        "end_char": 371,
+        "excerpt": "protegei-a com o manto augusto A doce virgem que sorri medrosa! Lançai os olhos sobre a linda filha, Dai-lhe o sossego no seu casto ninho, E da vereda que seu pé já trilha Tirai a pedra e desviai o espinho!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor! livrai-a da rajada dura",
+        "start_char": 479,
+        "end_char": 485,
+        "excerpt": "A doce virgem que sorri medrosa! Lançai os olhos sobre a linda filha, Dai-lhe o sossego no seu casto ninho, E da vereda que seu pé já trilha Tirai a pedra e desviai o espinho! Senhor! livrai-a da rajada dura",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A doce virgem",
+        "sentence": "A doce virgem como a tenra planta",
+        "start_char": 621,
+        "end_char": 634,
+        "excerpt": "A flor mimosa que desponta agora; Deitai-lhe orvalho na corola pura, Dai-lhe bafejos, prolongai-lhe a aurora! A doce virgem como a tenra planta",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A doce virgem",
+                "child": "planta",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "planto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a tenra",
+                "child": "A doce virgem",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tenra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, amai-a!",
+        "start_char": 853,
+        "end_char": 859,
+        "excerpt": "- Bem como a rola - qualquer folha a espanta, - Bem como o lírio - qualquer vento a mata. Ela é a rola que a floresta cria, Ela é o lírio que a manhã descerra... Senhor, amai-a!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a inoc",
+        "sentence": "Como a das aves, a inocência encerra!",
+        "start_char": 904,
+        "end_char": 910,
+        "excerpt": "Senhor, amai-a! - a sua voz macia Como a das aves, a inocência encerra!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "encerra",
+                "child": "a inocência",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encerrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "inocência",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "- Senhor! ouvi o suspirar da virgem, Dourai-lhe os sonhos no sonhar primeiro!",
+        "start_char": 996,
+        "end_char": 1002,
+        "excerpt": "Como a das aves, a inocência encerra! Sua alma pura na novel vertigem Pede ao amor o seu futuro inteiro... - Senhor! ouvi o suspirar da virgem, Dourai-lhe os sonhos no sonhar primeiro!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Pede",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pede",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "virgem",
+        "sentence": "- Senhor! ouvi o suspirar da virgem, Dourai-lhe os sonhos no sonhar primeiro!",
+        "start_char": 1023,
+        "end_char": 1029,
+        "excerpt": "Como a das aves, a inocência encerra! Sua alma pura na novel vertigem Pede ao amor o seu futuro inteiro... - Senhor! ouvi o suspirar da virgem, Dourai-lhe os sonhos no sonhar primeiro!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "suspirar",
+                "child": "virgem",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "suspirar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a deusa antiga",
+        "sentence": "A mocidade, como a deusa antiga, Na fronte virgem lhe derrama flores...",
+        "start_char": 1089,
+        "end_char": 1103,
+        "excerpt": "Sua alma pura na novel vertigem Pede ao amor o seu futuro inteiro... - Senhor! ouvi o suspirar da virgem, Dourai-lhe os sonhos no sonhar primeiro! A mocidade, como a deusa antiga, Na fronte virgem lhe derrama flores...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Cercai-a sempre de bondade terna, Lançai orvalho sobre a flor querida; Fazei-lhe oh Deus!",
+        "start_char": 1300,
+        "end_char": 1304,
+        "excerpt": "A mocidade, como a deusa antiga, Na fronte virgem lhe derrama flores... - Abri-lhe as rosas da grinalda amiga, Na mocidade derramai-lhe amores! Cercai-a sempre de bondade terna, Lançai orvalho sobre a flor querida; Fazei-lhe oh Deus!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Fazei-lhe",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Fazei-lhe",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Depois - de joelhos - eu direi sois justo, Senhor!",
+        "start_char": 1409,
+        "end_char": 1415,
+        "excerpt": "Cercai-a sempre de bondade terna, Lançai orvalho sobre a flor querida; Fazei-lhe oh Deus! a primavera eterna, Dai-lhe bafejos - prolongai-lhe a vida! Depois - de joelhos - eu direi sois justo, Senhor!",
+        "gender": "male",
+        "pch_occurrences": {
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "direi",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dir",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A doce virgem",
+        "sentence": "A doce virgem que a minh'alma adora!",
+        "start_char": 1484,
+        "end_char": 1497,
+        "excerpt": "mil graças eu vos rendo agora! Vós protegestes com o manto augusto A doce virgem que a minh'alma adora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a minh'alma",
+                "child": "A doce virgem",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "minh'alma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

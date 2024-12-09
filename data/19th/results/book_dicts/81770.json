@@ -1,0 +1,105 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Fio Partido Auta de Souza IFugir à mágoa terrena E ao sonho, que faz sofrer, Deixar o mundo sem pena Será morrer?",
+        "start_char": 12,
+        "end_char": 25,
+        "excerpt": "Fio Partido Auta de Souza IFugir à mágoa terrena E ao sonho, que faz sofrer, Deixar o mundo sem pena Será morrer? Fugir neste anseio infindo À treva do anoitecer, Buscar a aurora sorrindo Será morrer? E ao grito que a dor arranca E o coração faz tremer, Voar uma pomba branca Será morrer?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "IILá",
+        "sentence": "IILá vai a pomba voando Livre, através dos espaços...",
+        "start_char": 289,
+        "end_char": 293,
+        "excerpt": "Fugir neste anseio infindo À treva do anoitecer, Buscar a aurora sorrindo Será morrer? E ao grito que a dor arranca E o coração faz tremer, Voar uma pomba branca Será morrer? IILá vai a pomba voando Livre, através dos espaços...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vai",
+                "child": "IILá",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "IILá",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Jesus, este vôo infindo Há de amparar-me nos braços",
+        "start_char": 488,
+        "end_char": 493,
+        "excerpt": "Aqui, namplidão liberta, Quem pode deter-me os passos? Deixei a prisão deserta, Quebrei meus laços! Jesus, este vôo infindo Há de amparar-me nos braços",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "este vôo",
+                "child": "Jesus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vôo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "braços",
+                "child": "Jesus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "amparar-me",
+                        "child": "braços",
+                        "dep_h": "xcomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "amparar-me",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "Jesus",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "ROOT",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Jesus"
+                    }
+                ]
+            }
+        ]
+    }
+]

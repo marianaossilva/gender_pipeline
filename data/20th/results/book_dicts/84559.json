@@ -1,0 +1,225 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "BálsamoCasimiro de Abreu",
+        "sentence": "BálsamoCasimiro de Abreu",
+        "start_char": 0,
+        "end_char": 24,
+        "excerpt": "BálsamoCasimiro de Abreu Eu vi-a lacrimosa sobre as pedras Rojar-se essa mulher que a dor ferira!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "essa mulher",
+        "sentence": "Rojar-se essa mulher que a dor ferira!",
+        "start_char": 68,
+        "end_char": 79,
+        "excerpt": "BálsamoCasimiro de Abreu Eu vi-a lacrimosa sobre as pedras Rojar-se essa mulher que a dor ferira!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rojar-se",
+                "child": "essa mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rojar-se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O esquálido coveiro",
+        "sentence": "- O esquálido coveiro p'ra dois corpos Ergueu a mesma enxada, e nessa noite",
+        "start_char": 247,
+        "end_char": 266,
+        "excerpt": "Rojar-se essa mulher que a dor ferira! A morte lhe roubara dum só golpe Marido e filho, encaneceu-lhe a fronte, E deixou-a sozinha e desgrenhada - Estátua da aflição aos pés dum túmulo! - O esquálido coveiro p'ra dois corpos Ergueu a mesma enxada, e nessa noite",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpos",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "E a mãe chorava, E mais alto que o choro erguia as vozes!",
+        "start_char": 345,
+        "end_char": 350,
+        "excerpt": "- O esquálido coveiro p'ra dois corpos Ergueu a mesma enxada, e nessa noite A mesma cova os teve! E a mãe chorava, E mais alto que o choro erguia as vozes!",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpos",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chorava",
+                "child": "a mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sacerdote - fronte branca",
+        "sentence": "No entanto o sacerdote - fronte branca Pelo gelo dos anos - a seu lado Tentava consolá-la A mãe aflita Sublime desse belo desespero",
+        "start_char": 412,
+        "end_char": 439,
+        "excerpt": "A mesma cova os teve! E a mãe chorava, E mais alto que o choro erguia as vozes! No entanto o sacerdote - fronte branca Pelo gelo dos anos - a seu lado Tentava consolá-la A mãe aflita Sublime desse belo desespero",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mãe",
+        "sentence": "No entanto o sacerdote - fronte branca Pelo gelo dos anos - a seu lado Tentava consolá-la A mãe aflita Sublime desse belo desespero",
+        "start_char": 491,
+        "end_char": 496,
+        "excerpt": "A mesma cova os teve! E a mãe chorava, E mais alto que o choro erguia as vozes! No entanto o sacerdote - fronte branca Pelo gelo dos anos - a seu lado Tentava consolá-la A mãe aflita Sublime desse belo desespero",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aflita",
+                "child": "A mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aflitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padre",
+        "sentence": "padre!",
+        "start_char": 612,
+        "end_char": 617,
+        "excerpt": "As vozes não lhe ouvia; a dor suprema Toldava-lhe a razão no duro trance. \"Oh! padre!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobre s ' esto",
+        "sentence": "- disse a pobre s'estorcendo Co'a voz cortada dos soluços d'alma - \"Onde o bálsamo, as falas d'esperança, \"",
+        "start_char": 618,
+        "end_char": 634,
+        "excerpt": "\"Oh! padre! - disse a pobre s'estorcendo Co'a voz cortada dos soluços d'alma - \"Onde o bálsamo, as falas d'esperança, \"",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O padre",
+        "sentence": "\" Grave e solene, O padre não falou - mostrou-lhe o céu!",
+        "start_char": 769,
+        "end_char": 776,
+        "excerpt": "O alívio à minha dor? ! \" Grave e solene, O padre não falou - mostrou-lhe o céu!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falou",
+                "child": "O padre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "padre",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

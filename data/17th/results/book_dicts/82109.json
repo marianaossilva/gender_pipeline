@@ -1,0 +1,134 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bernal de Bonaval",
+        "sentence": "Se veess'o meu amigo Bernal de Bonaval",
+        "start_char": 21,
+        "end_char": 38,
+        "excerpt": "Se veess'o meu amigo Bernal de Bonaval Se veess'o meu amigo a Bonaval e me visse, vedes como lh'eu diría ante que m'eu del partisse: Se vos fordes, non tardedes tan muito, como soedes Diría-lh'eu:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu amigo",
+        "sentence": "Meu amigo, se vós a min muit'amades, fazede por mí atanto, que bõa ventur'hajades: se vos fordes, non tardedes tan muito, como soedes.",
+        "start_char": 244,
+        "end_char": 253,
+        "excerpt": "Non tardedes, amigo, como soedes. Diría-lh'eu: Meu amigo, se vós a min muit'amades, fazede por mí atanto, que bõa ventur'hajades: se vos fordes, non tardedes tan muito, como soedes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Diría-lh'eu",
+                "child": ": Meu amigo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Diría-lh'eu",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": Meu amigo",
+                "child": "Diría-lh'eu",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Diría-lh'eu",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vós",
+                "child": ": Meu amigo",
+                "dep_h": "fixed",
+                "pos_h": "NOUN",
+                "lemma_h": "vós",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "min muit'amades",
+                "child": ": Meu amigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "min",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mí atanto",
+                "child": ": Meu amigo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "atanto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bõa",
+                "child": ": Meu amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "bõa",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ventur'hajades",
+                "child": ": Meu amigo",
+                "dep_h": "fixed",
+                "pos_h": "PROPN",
+                "lemma_h": "ventur'hajade",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "h '",
+        "sentence": "E, ao partir da fala, diría-lh'eu: Meu amigo, se vos fordes, non tardedes tan muito, como soedes.",
+        "start_char": 471,
+        "end_char": 474,
+        "excerpt": "Non tardedes, amigo, como soedes. Diría-lh'eu: Meu amigo, se vós a min muit'amades, fazede por mí atanto, que bõa ventur'hajades: se vos fordes, non tardedes tan muito, como soedes. Diría-lh'eu: Non tardedes, amigo, como soedes. Que leda que eu sería se veess'el falar migo! E, ao partir da fala, diría-lh'eu: Meu amigo, se vos fordes, non tardedes tan muito, como soedes.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

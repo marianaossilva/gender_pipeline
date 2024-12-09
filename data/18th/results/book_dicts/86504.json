@@ -1,0 +1,248 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "A Tarde Castro Alves Era a hora em que a tarde se debruça Lá da crista das serras mais remotas...",
+        "start_char": 8,
+        "end_char": 20,
+        "excerpt": "A Tarde Castro Alves Era a hora em que a tarde se debruça Lá da crista das serras mais remotas... E d'araponga o canto, que soluça, Acorda os ecos nas sombrias grotas; Quando sobre a lagoa, que s'embuça, Passa o bando selvagem das gaivotas...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A Tarde Castro Alves",
+                "child": "hora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tarde",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "hora",
+                "child": "A Tarde Castro Alves",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "hora",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tarde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o bando selvagem das gaivotas",
+        "sentence": "Quando sobre a lagoa, que s'embuça, Passa o bando selvagem das gaivotas...",
+        "start_char": 210,
+        "end_char": 239,
+        "excerpt": "A Tarde Castro Alves Era a hora em que a tarde se debruça Lá da crista das serras mais remotas... E d'araponga o canto, que soluça, Acorda os ecos nas sombrias grotas; Quando sobre a lagoa, que s'embuça, Passa o bando selvagem das gaivotas...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as gardênias",
+        "sentence": "A hora em que as gardênias, que se beijam, São tímidas, medrosas desposadas;",
+        "start_char": 471,
+        "end_char": 483,
+        "excerpt": "Era a hora em que os cardos rumorejam Como um abrir de bocas inspiradas, E os angicos as comas espanejam Pelos dedos das auras perfumadas... A hora em que as gardênias, que se beijam, São tímidas, medrosas desposadas;",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "bocas"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tímidas",
+                "child": "as gardênias",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "tímir",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "gardênia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as gardênias",
+                "child": "A hora",
+                "dep_h": "nsubj:pass",
+                "pos_h": "NOUN",
+                "lemma_h": "gardênia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pálida donzela",
+        "sentence": "Tu és do céu a pálida donzela, Que se banha nas termas do oriente...",
+        "start_char": 713,
+        "end_char": 729,
+        "excerpt": "Hora meiga da Tarde! Como és bela Quando surges do azul da zona ardente! ... Tu és do céu a pálida donzela, Que se banha nas termas do oriente...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "céu",
+                "child": "a pálida donzela",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a pálida donzela",
+                "child": "céu",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a pálida donzela",
+                "child": "és",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "és",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Inda adora-te o peito do precito",
+        "start_char": 992,
+        "end_char": 996,
+        "excerpt": "Eu amo-te, ó mimosa do infinito! Tu me lembras o tempo em que era infante. Inda adora-te o peito do precito",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "adora-te",
+                "child": "Inda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adora-te",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "menino",
+        "sentence": "Que menino elevava-te arrogante, É que agora os martírios foram tantos, Que mesmo para o riso só tem prantos!",
+        "start_char": 1103,
+        "end_char": 1109,
+        "excerpt": "No meio do martírio excruciante; E, se não te dá mais da infância o grito Que menino elevava-te arrogante, É que agora os martírios foram tantos, Que mesmo para o riso só tem prantos!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "menino",
+                "child": "arrogante",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "arrogante",
+                "categories": [
+                    "aparencia",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "arrogante",
+                "child": "menino",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "arrogante",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "menino",
+                "categories": [
+                    "carater",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

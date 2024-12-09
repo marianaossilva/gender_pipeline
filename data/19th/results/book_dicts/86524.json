@@ -1,0 +1,166 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Seja o que for que esteja no centro do Mundo Alberto Caeiro",
+        "start_char": 45,
+        "end_char": 59,
+        "excerpt": "Seja o que for que esteja no centro do Mundo Alberto Caeiro Seja o que for que esteja no centro do Mundo, Deu-me o mundo exterior por exemplo de Realidade, E quando digo \"isto é real\", mesmo de um sentimento, Vejo-o sem querer em um espaço qualquer exterior, Vejo-o com uma visão qualquer fora e alheio a mim. Ser real quer dizer não estar dentro de mim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "centro",
+                "child": "Mundo Alberto Caeiro",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "centro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Mundo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mundo Alberto Caeiro",
+                "child": "centro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Mundo",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "centro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha pessoa de dentro",
+        "sentence": "Da minha pessoa de dentro não tenho noção de realidade.",
+        "start_char": 358,
+        "end_char": 380,
+        "excerpt": "Seja o que for que esteja no centro do Mundo, Deu-me o mundo exterior por exemplo de Realidade, E quando digo \"isto é real\", mesmo de um sentimento, Vejo-o sem querer em um espaço qualquer exterior, Vejo-o com uma visão qualquer fora e alheio a mim. Ser real quer dizer não estar dentro de mim. Da minha pessoa de dentro não tenho noção de realidade.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dono da casa branca",
+        "sentence": "Estou mais certo da existência da minha casa branca Do que da existência interior do dono da casa branca.",
+        "start_char": 543,
+        "end_char": 562,
+        "excerpt": "Da minha pessoa de dentro não tenho noção de realidade. Sei que o mundo existe, mas não sei se existo. Estou mais certo da existência da minha casa branca Do que da existência interior do dono da casa branca.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Creio mais no meu corpo do que na minha alma, Porque o meu corpo apresenta-se no meio da realidade.",
+        "start_char": 610,
+        "end_char": 613,
+        "excerpt": "Sei que o mundo existe, mas não sei se existo. Estou mais certo da existência da minha casa branca Do que da existência interior do dono da casa branca. Creio mais no meu corpo do que na minha alma, Porque o meu corpo apresenta-se no meio da realidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filósofos",
+        "sentence": "Que o mundo exterior como tu, filósofos, dizes, Para que é que o mundo exterior me foi dado como tipo da realidade\"",
+        "start_char": 978,
+        "end_char": 987,
+        "excerpt": "Por um empréstimo da realidade exterior do Mundo Se a alma é mais real Que o mundo exterior como tu, filósofos, dizes, Para que é que o mundo exterior me foi dado como tipo da realidade\"",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "como tu",
+                "child": "filósofos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "filósofo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Mundo",
+        "sentence": "Cousa por cousa, o Mundo é mais certo.",
+        "start_char": 1552,
+        "end_char": 1559,
+        "excerpt": "Se o Mundo é um erro, é um erro de toda a gente. E cada um de nós é o erro de cada um de nós apenas. Cousa por cousa, o Mundo é mais certo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Mundo",
+                "child": "erro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mundo",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "erro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Mundo",
+                "child": "erro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mundo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "erro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "erro",
+                "child": "o Mundo",
+                "dep_h": "advcl",
+                "pos_h": "NOUN",
+                "lemma_h": "erro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mundo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Mundo",
+                "child": "certo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mundo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "certo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

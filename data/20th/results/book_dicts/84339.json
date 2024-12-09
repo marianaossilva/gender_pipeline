@@ -1,0 +1,182 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Jazia",
+        "sentence": "Soneto da Cópula Esculpida Bocage Nesta, cuja memória esquece à Fama, Feira, que de Santarém vem de ano em ano, Jazia co'uma freira um franciscano;",
+        "start_char": 112,
+        "end_char": 117,
+        "excerpt": "Soneto da Cópula Esculpida Bocage Nesta, cuja memória esquece à Fama, Feira, que de Santarém vem de ano em ano, Jazia co'uma freira um franciscano; Eram de barro os dois, de barro a cama: Co'a mão, que à virgindade injúrias trama, Pretendia o cabrão ferrar-lhe o pano; Eis que um negro barrasco, um Frei Tutano",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "esquece",
+                "child": "Jazia co'uma",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Jazia",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jazia co'uma",
+                "child": "freira",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Jazia",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "freira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "freira",
+                "child": "Jazia co'uma",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "freira",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Jazia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cabrão",
+        "sentence": "Eram de barro os dois, de barro a cama: Co'a mão, que à virgindade injúrias trama, Pretendia o cabrão ferrar-lhe o pano;",
+        "start_char": 241,
+        "end_char": 249,
+        "excerpt": "Soneto da Cópula Esculpida Bocage Nesta, cuja memória esquece à Fama, Feira, que de Santarém vem de ano em ano, Jazia co'uma freira um franciscano; Eram de barro os dois, de barro a cama: Co'a mão, que à virgindade injúrias trama, Pretendia o cabrão ferrar-lhe o pano; Eis que um negro barrasco, um Frei Tutano",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frei Tutano",
+        "sentence": "Eis que um negro barrasco, um Frei Tutano",
+        "start_char": 299,
+        "end_char": 310,
+        "excerpt": "Soneto da Cópula Esculpida Bocage Nesta, cuja memória esquece à Fama, Feira, que de Santarém vem de ano em ano, Jazia co'uma freira um franciscano; Eram de barro os dois, de barro a cama: Co'a mão, que à virgindade injúrias trama, Pretendia o cabrão ferrar-lhe o pano; Eis que um negro barrasco, um Frei Tutano",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", um Frei Tutano",
+                "child": "negro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frei",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "negro",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velhacos",
+        "sentence": "Fora, vis tentações, fora, velhacos!",
+        "start_char": 495,
+        "end_char": 503,
+        "excerpt": "Não basta a felpa dos buréis opacos, Com que a carne rebelde anda ralada? \" \" Fora, vis tentações, fora, velhacos!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Fora, vis",
+                "child": "velhacos",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "vis",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "velhaco",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

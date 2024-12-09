@@ -1,0 +1,216 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Os pastores de Virgílio",
+        "sentence": "Os pastores de Virgílio tocavam avenas e outras cousas",
+        "start_char": 0,
+        "end_char": 23,
+        "excerpt": "Os pastores de Virgílio tocavam avenas e outras cousas Alberto Caeiro Os pastores de Virgílio tocavam avenas e outras cousas E cantavam de amor literariamente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Alberto Caeiro",
+        "start_char": 55,
+        "end_char": 69,
+        "excerpt": "Os pastores de Virgílio tocavam avenas e outras cousas Alberto Caeiro Os pastores de Virgílio tocavam avenas e outras cousas E cantavam de amor literariamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os pastores de Virgílio",
+        "sentence": "Os pastores de Virgílio tocavam avenas e outras cousas E cantavam de amor literariamente.",
+        "start_char": 70,
+        "end_char": 93,
+        "excerpt": "Os pastores de Virgílio tocavam avenas e outras cousas Alberto Caeiro Os pastores de Virgílio tocavam avenas e outras cousas E cantavam de amor literariamente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Virgílio",
+        "sentence": "(Depois  eu nunca li Virgílio.",
+        "start_char": 181,
+        "end_char": 189,
+        "excerpt": "Alberto Caeiro Os pastores de Virgílio tocavam avenas e outras cousas E cantavam de amor literariamente. (Depois  eu nunca li Virgílio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os pastores",
+                "child": "Virgílio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgílio",
+                "child": "Os pastores",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgílio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "li",
+                "child": "Virgílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "li",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os pastores de Virgílio",
+        "sentence": "Mas os pastores de Virgílio, coitados, são Virgílio, E a Natureza é bela e antiga.",
+        "start_char": 224,
+        "end_char": 247,
+        "excerpt": "(Depois  eu nunca li Virgílio. Para que o havia eu de ler?) Mas os pastores de Virgílio, coitados, são Virgílio, E a Natureza é bela e antiga.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Virgílio",
+        "sentence": "Mas os pastores de Virgílio, coitados, são Virgílio, E a Natureza é bela e antiga.",
+        "start_char": 239,
+        "end_char": 247,
+        "excerpt": "(Depois  eu nunca li Virgílio. Para que o havia eu de ler?) Mas os pastores de Virgílio, coitados, são Virgílio, E a Natureza é bela e antiga.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "li",
+                "child": "Virgílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "li",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os pastores",
+                "child": "Virgílio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os pastores",
+                "child": "Virgílio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pastor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgílio",
+                "child": "os pastores",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgílio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgílio",
+                "child": "Virgílio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgílio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgílio",
+                "child": "os pastores",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgílio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pastor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgílio",
+                "child": "bela",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgílio",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Natureza",
+                "child": "Virgílio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Natureza",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgílio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

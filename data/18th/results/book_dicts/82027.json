@@ -1,0 +1,348 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Frei Caneca",
+        "sentence": "DÉCIMA Frei Caneca",
+        "start_char": 7,
+        "end_char": 18,
+        "excerpt": "DÉCIMA Frei Caneca Se amor vive além da morte, Eterno o meu há de ser; Se amor dura só na vida, Hei de amar-te até morrer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Glosa",
+        "sentence": "Glosa Que um peito, Analia, sensível, Desses teus olhos ferido Não te caia aos pés rendido, Me parece um impossível.",
+        "start_char": 123,
+        "end_char": 128,
+        "excerpt": "Se amor vive além da morte, Eterno o meu há de ser; Se amor dura só na vida, Hei de amar-te até morrer. Glosa Que um peito, Analia, sensível, Desses teus olhos ferido Não te caia aos pés rendido, Me parece um impossível.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "caia",
+                "child": "Glosa",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "cair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Glosa",
+                "child": "Que um peito",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Glosa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "peito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Glosa",
+                "child": "Desses",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Glosa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Desses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Que um peito",
+                "child": "Glosa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "peito",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Analia,",
+                "child": "Glosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Analia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Desses",
+                "child": "Glosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Desses",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhos",
+                "child": "Glosa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Desses",
+                        "child": "olhos",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Desses",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "teus",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "teu"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Desses",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "appos",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Desses"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Glosa",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Glosa"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Analia",
+        "sentence": "Glosa Que um peito, Analia, sensível, Desses teus olhos ferido Não te caia aos pés rendido, Me parece um impossível.",
+        "start_char": 143,
+        "end_char": 149,
+        "excerpt": "Se amor vive além da morte, Eterno o meu há de ser; Se amor dura só na vida, Hei de amar-te até morrer. Glosa Que um peito, Analia, sensível, Desses teus olhos ferido Não te caia aos pés rendido, Me parece um impossível.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Que um peito",
+                "child": ", Analia,",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "peito",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Analia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Analia,",
+                "child": "sensível",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Analia",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "sensível",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Analia,",
+                "child": "Que um peito",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Analia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "peito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Analia,",
+                "child": "Glosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Analia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Glosa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o gordiano",
+        "sentence": "Mais forte que o gordiano, É o nó que a ti me prende;",
+        "start_char": 662,
+        "end_char": 672,
+        "excerpt": "O peito sinto-me arder; E se posso hoje prever Os sucessos do futuro, Entre os fogos de amor puro Eterno o meu há de ser. Mais forte que o gordiano, É o nó que a ti me prende;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "que o gordiano",
+                "child": "forte",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "gordiano",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "forte",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que o gordiano",
+                "child": "nó",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "gordiano",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nó",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

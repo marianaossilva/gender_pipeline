@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Frei Caneca",
+        "sentence": "E A PÁTRIA Frei Caneca",
+        "start_char": 25,
+        "end_char": 36,
+        "excerpt": "ENTRE MARÍLIA E A PÁTRIA Frei Caneca Entre Marília e a pátria Coloquei meu coração:",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "Colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filho infiel",
+        "sentence": "A medonha catadura Da morte feia e cruel, Do rosto só muda a cor Da pátria ao filho infiel.",
+        "start_char": 324,
+        "end_char": 336,
+        "excerpt": "Quem passa a vida que eu passo, Não deve a morte temer; Com a morte não se assusta Quem está sempre a morrer. A medonha catadura Da morte feia e cruel, Do rosto só muda a cor Da pátria ao filho infiel.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "patriota",
+        "sentence": "A vida do patriota Não pode o tempo acabar.",
+        "start_char": 400,
+        "end_char": 408,
+        "excerpt": "A medonha catadura Da morte feia e cruel, Do rosto só muda a cor Da pátria ao filho infiel. Tem fim a vida daquele Que a pátria não soube amar; A vida do patriota Não pode o tempo acabar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A vida",
+                "child": "patriota",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "patriota",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "patriota",
+                "child": "A vida",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "patriota",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o liberal",
+        "sentence": "Mas não morre o liberal, Vive toda a eternidade.",
+        "start_char": 501,
+        "end_char": 510,
+        "excerpt": "O servil acaba inglório Da existência a curta idade; Mas não morre o liberal, Vive toda a eternidade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morre",
+                "child": "o liberal",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "liberal",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cidadão",
+        "sentence": "Defender os pátrios lares, É dever do cidadão.",
+        "start_char": 924,
+        "end_char": 931,
+        "excerpt": "Apenas forem crescendo, Cresçam co'as armas na mão, Saibam morrer, como eu morro; Marília que chore em vão. Defender os pátrios lares, É dever do cidadão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dever",
+                "child": "cidadão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dever",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cidadão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

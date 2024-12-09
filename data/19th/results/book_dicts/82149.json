@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível",
+        "start_char": 42,
+        "end_char": 56,
+        "excerpt": "Bendito seja o mesmo sol em outras terras Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível Regressam lacrimosamente E com um suspiro que mal sentem Ao homem verdadeiro e primitivo Que via o Sol nascer e ainda o não adorava.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Alberto Caeiro Bendito",
+                "child": "sol",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sol",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sol",
+                "child": "Alberto Caeiro Bendito",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus irmãos",
+        "sentence": "Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível",
+        "start_char": 107,
+        "end_char": 118,
+        "excerpt": "Bendito seja o mesmo sol em outras terras Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível Regressam lacrimosamente E com um suspiro que mal sentem Ao homem verdadeiro e primitivo Que via o Sol nascer e ainda o não adorava.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "meus irmãos",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meus irmãos",
+                "child": "sol",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "homem verdadeiro e primitivo",
+        "sentence": "Regressam lacrimosamente E com um suspiro que mal sentem Ao homem verdadeiro e primitivo Que via o Sol nascer e ainda o não adorava.",
+        "start_char": 299,
+        "end_char": 327,
+        "excerpt": "Bendito seja o mesmo sol em outras terras Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível Regressam lacrimosamente E com um suspiro que mal sentem Ao homem verdadeiro e primitivo Que via o Sol nascer e ainda o não adorava.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sentem",
+                "child": "homem verdadeiro e primitivo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "emo",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "homem verdadeiro e primitivo",
+                "child": "com um suspiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "suspiro",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "homem verdadeiro e primitivo",
+                "child": "limpo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "limpo",
+                "categories": [
+                    "outro",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Sol",
+                "child": "homem verdadeiro e primitivo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Porque isso é natural  mais natural Que adorar o ouro e Deus",
+        "start_char": 428,
+        "end_char": 432,
+        "excerpt": "Alberto Caeiro Bendito seja o mesmo sol de outras terras Que faz meus irmãos todos os homens Porque todos os homens, um momento no dia, o olham como eu, E, nesse puro momento Todo limpo e sensível Regressam lacrimosamente E com um suspiro que mal sentem Ao homem verdadeiro e primitivo Que via o Sol nascer e ainda o não adorava. Porque isso é natural  mais natural Que adorar o ouro e Deus",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "natural",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "natural",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

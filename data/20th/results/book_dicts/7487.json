@@ -1,0 +1,1121 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "O MEU CRIADO JOÃO Artur Azevedo",
+        "start_char": 18,
+        "end_char": 31,
+        "excerpt": "O MEU CRIADO JOÃO Artur Azevedo No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama? - João.- É português?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora",
+        "sentence": "No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama?",
+        "start_char": 79,
+        "end_char": 90,
+        "excerpt": "O MEU CRIADO JOÃO Artur Azevedo No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama? - João.- É português?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recomendado",
+                "child": "uma senhora",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "recomendar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora",
+                "child": "dia",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "falta",
+                "child": "uma senhora",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "falta",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um bom criado",
+        "sentence": "No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama?",
+        "start_char": 122,
+        "end_char": 135,
+        "excerpt": "O MEU CRIADO JOÃO Artur Azevedo No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama? - João.- É português?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "- João.- É português?",
+        "start_char": 185,
+        "end_char": 189,
+        "excerpt": "O MEU CRIADO JOÃO Artur Azevedo No dia em que ele me apareceu, recomendado por uma senhora a quem me queixara da falta de um bom criado, fiz-lhe as perguntas usuais: - Como se chama? - João.- É português?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "João.-",
+                "child": "português",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "João.-",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "português",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Não, senhor: sou ilhéu.",
+        "start_char": 293,
+        "end_char": 299,
+        "excerpt": "Se é da Madeira, é português! - Não, senhor: sou ilhéu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ilhéu",
+        "sentence": "Não, senhor: sou ilhéu.",
+        "start_char": 305,
+        "end_char": 310,
+        "excerpt": "Se é da Madeira, é português! - Não, senhor: sou ilhéu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patrão",
+        "sentence": "- Contento-me com que o patrão me der, contanto que não seja menos de cinqüenta mil-réis, casa e comida.",
+        "start_char": 369,
+        "end_char": 377,
+        "excerpt": "Não, senhor: sou ilhéu. - Bom; quanto quer ganhar por mês? - Contento-me com que o patrão me der, contanto que não seja menos de cinqüenta mil-réis, casa e comida.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "der",
+                "child": "o patrão",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Fiquei com o João.",
+        "start_char": 465,
+        "end_char": 469,
+        "excerpt": "- Bom; quanto quer ganhar por mês? - Contento-me com que o patrão me der, contanto que não seja menos de cinqüenta mil-réis, casa e comida. Fiquei com o João.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Fiquei",
+                "child": "o João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Fiquei",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu",
+        "sentence": "Você serve-se do meu sabonete?",
+        "start_char": 629,
+        "end_char": 632,
+        "excerpt": "Nesse mesmo dia encontrei-o a lavar as mãos com o meu sabonete fino, que eu reservava, naturalmente, para o meu uso exclusivo. - Que é isso? Você serve-se do meu sabonete?",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as mãos",
+                "child": "o meu sabonete",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sabonete",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o meu sabonete",
+                "child": "fino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sabonete",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "fino",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o meu sabonete",
+                "child": "as mãos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sabonete",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "reservava",
+                "child": "o meu uso",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "reservar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "uso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o meu uso",
+                "child": "exclusivo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "uso",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "exclusivo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "serve-se",
+                "child": "meu sabonete",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "server se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sabonete",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "- Não, senhor, não me estou servindo dele; estou a lavá-lo, porque estava sujo de espuma.",
+        "start_char": 650,
+        "end_char": 656,
+        "excerpt": "- Que é isso? Você serve-se do meu sabonete? - Não, senhor, não me estou servindo dele; estou a lavá-lo, porque estava sujo de espuma.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus de Milo",
+        "sentence": "Não o fiz e, dali a três dias, entrando em casa, encontrei em cacos, na cesta dos papéis inúteis, uma estatueta da Vênus de Milo, que era de gesso, pouco valia, mas eu estimava muito por ser uma reprodução muito fiel do famoso mármore do Louvre.",
+        "start_char": 900,
+        "end_char": 913,
+        "excerpt": "- Não, senhor, não me estou servindo dele; estou a lavá-lo, porque estava sujo de espuma. A minha vontade foi mandá-lo embora, mas não o fiz. Não o fiz e, dali a três dias, entrando em casa, encontrei em cacos, na cesta dos papéis inúteis, uma estatueta da Vênus de Milo, que era de gesso, pouco valia, mas eu estimava muito por ser uma reprodução muito fiel do famoso mármore do Louvre.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "- Fui eu, sim senhor, mas não foi por querer, respondeu-me ele a rir-se.",
+        "start_char": 1082,
+        "end_char": 1088,
+        "excerpt": "Não o fiz e, dali a três dias, entrando em casa, encontrei em cacos, na cesta dos papéis inúteis, uma estatueta da Vênus de Milo, que era de gesso, pouco valia, mas eu estimava muito por ser uma reprodução muito fiel do famoso mármore do Louvre. Fiquei furioso: - Quem quebrou isto? - Fui eu, sim senhor, mas não foi por querer, respondeu-me ele a rir-se.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "patrão",
+        "sentence": "- Ora, patrão!",
+        "start_char": 1178,
+        "end_char": 1184,
+        "excerpt": "- Fui eu, sim senhor, mas não foi por querer, respondeu-me ele a rir-se. - E você ainda em cima se ri! - Ora, patrão!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "boneca",
+        "sentence": "Já faltavam os dois braços à boneca!",
+        "start_char": 1215,
+        "end_char": 1221,
+        "excerpt": "- E você ainda em cima se ri! - Ora, patrão! Já faltavam os dois braços à boneca!",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os dois braços",
+                "child": "boneca",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "boneca",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "boneca",
+                "child": "os dois braços",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "boneca",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "braço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os marinheiros",
+        "sentence": "Uma ocasião, os marinheiros de um dos nossos navios de guerra recolheram a bordo um pobre cão naufragado, exausto já de tanto lutar com as ondas.",
+        "start_char": 1257,
+        "end_char": 1271,
+        "excerpt": "Já faltavam os dois braços à boneca! Não o mandei embora. Uma ocasião, os marinheiros de um dos nossos navios de guerra recolheram a bordo um pobre cão naufragado, exausto já de tanto lutar com as ondas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "recolheram",
+                "child": "os marinheiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recolher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marinheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "nossos navios",
+                "child": "os marinheiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "navio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marinheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "guerra",
+                "child": "os marinheiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "guerra",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marinheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uni oficial",
+        "sentence": "Como já houvesse cão a bordo, e ninguém o quisesse, veio o animal para a terra, trazido por uni oficial de Marinha que mo ofereceu.",
+        "start_char": 1482,
+        "end_char": 1493,
+        "excerpt": "Não o mandei embora. Uma ocasião, os marinheiros de um dos nossos navios de guerra recolheram a bordo um pobre cão naufragado, exausto já de tanto lutar com as ondas. Como já houvesse cão a bordo, e ninguém o quisesse, veio o animal para a terra, trazido por uni oficial de Marinha que mo ofereceu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os seus primitivos donos",
+        "sentence": "Os seus primitivos donos tinham-lhe ensinado umas tantas habilidades; ele comprazia-se em mostrar-nas, e ficava muito satisfeito, agitando vertiginosamente a cauda e pondo a língua de fora, quando eu lhas aplaudia, acariciando-lhe o pêlo.",
+        "start_char": 1566,
+        "end_char": 1590,
+        "excerpt": "Como já houvesse cão a bordo, e ninguém o quisesse, veio o animal para a terra, trazido por uni oficial de Marinha que mo ofereceu. Era um cão ordinário, mas inteligentíssimo. Os seus primitivos donos tinham-lhe ensinado umas tantas habilidades; ele comprazia-se em mostrar-nas, e ficava muito satisfeito, agitando vertiginosamente a cauda e pondo a língua de fora, quando eu lhas aplaudia, acariciando-lhe o pêlo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Era muito mais inteligente que o João.",
+        "start_char": 1838,
+        "end_char": 1842,
+        "excerpt": "Era um cão ordinário, mas inteligentíssimo. Os seus primitivos donos tinham-lhe ensinado umas tantas habilidades; ele comprazia-se em mostrar-nas, e ficava muito satisfeito, agitando vertiginosamente a cauda e pondo a língua de fora, quando eu lhas aplaudia, acariciando-lhe o pêlo. Era muito mais inteligente que o João.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "João",
+                "child": "inteligente",
+                "dep_h": "csubj",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "inteligente",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguns amigos",
+        "sentence": "Uma vez achavam-se reunidos em minha casa alguns amigos, e encantavam-nos as habilidades do cão, que estava presente.",
+        "start_char": 1886,
+        "end_char": 1899,
+        "excerpt": "Os seus primitivos donos tinham-lhe ensinado umas tantas habilidades; ele comprazia-se em mostrar-nas, e ficava muito satisfeito, agitando vertiginosamente a cauda e pondo a língua de fora, quando eu lhas aplaudia, acariciando-lhe o pêlo. Era muito mais inteligente que o João. Uma vez achavam-se reunidos em minha casa alguns amigos, e encantavam-nos as habilidades do cão, que estava presente.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "achavam-se",
+                "child": "alguns amigos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achavamr se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cão",
+        "sentence": "Uma vez achavam-se reunidos em minha casa alguns amigos, e encantavam-nos as habilidades do cão, que estava presente.",
+        "start_char": 1936,
+        "end_char": 1939,
+        "excerpt": "Os seus primitivos donos tinham-lhe ensinado umas tantas habilidades; ele comprazia-se em mostrar-nas, e ficava muito satisfeito, agitando vertiginosamente a cauda e pondo a língua de fora, quando eu lhas aplaudia, acariciando-lhe o pêlo. Era muito mais inteligente que o João. Uma vez achavam-se reunidos em minha casa alguns amigos, e encantavam-nos as habilidades do cão, que estava presente.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as habilidades",
+                "child": "cão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "habilidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cão",
+                "child": "as habilidades",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "habilidade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O João",
+        "sentence": "O João ouvia calado, mas notava-se na sua fisionomia o desejo de intervir na conversa.",
+        "start_char": 1962,
+        "end_char": 1968,
+        "excerpt": "Era muito mais inteligente que o João. Uma vez achavam-se reunidos em minha casa alguns amigos, e encantavam-nos as habilidades do cão, que estava presente. O João ouvia calado, mas notava-se na sua fisionomia o desejo de intervir na conversa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ouvia",
+                "child": "O João",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ouver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O patrão",
+        "sentence": "O patrão esqueceu-se de contar aos senhores a maior habilidade deste cão!",
+        "start_char": 2069,
+        "end_char": 2077,
+        "excerpt": "O João ouvia calado, mas notava-se na sua fisionomia o desejo de intervir na conversa. Afinal interveio: - O patrão esqueceu-se de contar aos senhores a maior habilidade deste cão!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esqueceu-se",
+                "child": "O patrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esqueceu se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um dos rapazes",
+        "sentence": "Ao jantar, como ele nos viesse dizer, muito compungido, que na venda não havia nem mais uma pedrinha de gelo, para remédio, um dos rapazes exclamou, gracejando: -",
+        "start_char": 2367,
+        "end_char": 2381,
+        "excerpt": "perguntaram todos em coro. - Este cão que aqui estão vendo, senhores, sabe nadar! Ao jantar, como ele nos viesse dizer, muito compungido, que na venda não havia nem mais uma pedrinha de gelo, para remédio, um dos rapazes exclamou, gracejando: -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Oh, senhor!",
+        "start_char": 2410,
+        "end_char": 2416,
+        "excerpt": "- Este cão que aqui estão vendo, senhores, sabe nadar! Ao jantar, como ele nos viesse dizer, muito compungido, que na venda não havia nem mais uma pedrinha de gelo, para remédio, um dos rapazes exclamou, gracejando: - Oh, senhor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vendo",
+                "child": ", senhores",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "exclamou",
+                "child": "senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "pois nessa venda não há nem do tal gelo em latas, que hoje se encontra em toda a parte?O João disfarçou, saiu, e pouco depois voltou com esta notícia:",
+        "start_char": 2507,
+        "end_char": 2511,
+        "excerpt": "Ao jantar, como ele nos viesse dizer, muito compungido, que na venda não havia nem mais uma pedrinha de gelo, para remédio, um dos rapazes exclamou, gracejando: - Oh, senhor! pois nessa venda não há nem do tal gelo em latas, que hoje se encontra em toda a parte?O João disfarçou, saiu, e pouco depois voltou com esta notícia:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disfarçou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disfarçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O dono da venda",
+        "sentence": "- O dono da venda diz que tinha, mas acabou-se.",
+        "start_char": 2571,
+        "end_char": 2586,
+        "excerpt": "Oh, senhor! pois nessa venda não há nem do tal gelo em latas, que hoje se encontra em toda a parte?O João disfarçou, saiu, e pouco depois voltou com esta notícia: - O dono da venda diz que tinha, mas acabou-se.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu criado",
+        "sentence": "Eu recomendara terminantemente ao meu criado que me não deixasse dormir além das oito horas da manhã; ele, porém, não tinha tido jamais ocasião de cumprir essa ordem, porque às sete já eu estava de pé.",
+        "start_char": 2698,
+        "end_char": 2708,
+        "excerpt": "Gelo em latas. Imaginem que risota! Eu recomendara terminantemente ao meu criado que me não deixasse dormir além das oito horas da manhã; ele, porém, não tinha tido jamais ocasião de cumprir essa ordem, porque às sete já eu estava de pé.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Ó, João! - Patrão?-",
+        "start_char": 2978,
+        "end_char": 2982,
+        "excerpt": "Certa manhã, tendo-me deitado bastante tarde, acordei e, consultando o relógio, vi que eram já nove horas. - Ó, João! - Patrão?-",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Patrão",
+        "sentence": "Ó, João! - Patrão?-",
+        "start_char": 2986,
+        "end_char": 2992,
+        "excerpt": "Certa manhã, tendo-me deitado bastante tarde, acordei e, consultando o relógio, vi que eram já nove horas. - Ó, João! - Patrão?-",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "O João sorriu - o mesmo sorriso de quando quebrou a Vênus de Milo -, coçou a cabeça e respondeu:-",
+        "start_char": 3088,
+        "end_char": 3092,
+        "excerpt": "Ó, João! - Patrão?- Pois não lhe tenho eu dito um milhão de vezes que não me deixe dormir além das oito horas? O João sorriu - o mesmo sorriso de quando quebrou a Vênus de Milo -, coçou a cabeça e respondeu:-",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "O João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus",
+        "sentence": "O João sorriu - o mesmo sorriso de quando quebrou a Vênus de Milo -, coçou a cabeça e respondeu:-",
+        "start_char": 3138,
+        "end_char": 3143,
+        "excerpt": "Ó, João! - Patrão?- Pois não lhe tenho eu dito um milhão de vezes que não me deixe dormir além das oito horas? O João sorriu - o mesmo sorriso de quando quebrou a Vênus de Milo -, coçou a cabeça e respondeu:-",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "quebrou",
+                "child": "a Vênus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "quebrar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Vênus",
+                "child": "Milo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Milo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Milo",
+                "child": "a Vênus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Milo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patrão",
+        "sentence": "Eu vim acordar o patrão, vim...",
+        "start_char": 3199,
+        "end_char": 3207,
+        "excerpt": "Pois não lhe tenho eu dito um milhão de vezes que não me deixe dormir além das oito horas? O João sorriu - o mesmo sorriso de quando quebrou a Vênus de Milo -, coçou a cabeça e respondeu:- Eu vim acordar o patrão, vim...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acordar",
+                "child": "o patrão",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patrão",
+        "sentence": "- Mas não acordei o patrão porque o patrão estava a dormir!",
+        "start_char": 3245,
+        "end_char": 3253,
+        "excerpt": "Eu vim acordar o patrão, vim... - E então? - Mas não acordei o patrão porque o patrão estava a dormir!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acordar",
+                "child": "o patrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "acordei",
+                "child": "o patrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "estava",
+                "child": "o patrão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patrão",
+        "sentence": "- Mas não acordei o patrão porque o patrão estava a dormir!",
+        "start_char": 3245,
+        "end_char": 3253,
+        "excerpt": "Eu vim acordar o patrão, vim... - E então? - Mas não acordei o patrão porque o patrão estava a dormir!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acordar",
+                "child": "o patrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "acordei",
+                "child": "o patrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "estava",
+                "child": "o patrão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Para que esses copos vazios, João? - É para alguém que não queira...",
+        "start_char": 3481,
+        "end_char": 3485,
+        "excerpt": "Uma noite em que lhe mandei oferecer cerveja às visitas, ele apareceu na sala com uma bandeja em que havia seis copos cheios e dois vazios. - Para que esses copos vazios, João? - É para alguém que não queira...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Para que esses copos",
+                "child": ", João",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "copo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", João",
+                "child": "- Para que esses copos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "copo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

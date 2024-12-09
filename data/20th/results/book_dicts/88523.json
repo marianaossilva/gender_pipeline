@@ -1,0 +1,136 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Nunca vos ousei a dizer Dom Dinis Cancioneiro da Biblioteca Nacional 536, Cancioneiro da Vaticana 139 Nunca vos ousei a dizer o gram bem que vos sei querer, senhor deste meu coraçom, mais aque-m'em vossa prisom de que vos praz de mi fazer.",
+        "start_char": 24,
+        "end_char": 33,
+        "excerpt": "Nunca vos ousei a dizer Dom Dinis Cancioneiro da Biblioteca Nacional 536, Cancioneiro da Vaticana 139 Nunca vos ousei a dizer o gram bem que vos sei querer, senhor deste meu coraçom, mais aque-m'em vossa prisom de que vos praz de mi fazer. Nunca vos dixi nulha rem de quanto mal mi por vós vem, senhor deste meu coraçom, mais aque-m'em vossa prisom de mi fazerdes mal ou bem. Nunca vos ousei a contar mal que mi fazedes levar, senhor deste meu coraçom, mais aque-m'em vossa prisom de me guarir ou me matar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizer",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 536, Cancioneiro da Vaticana 139",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "E, senhor, coita e al nom me forçou de vos ir falar.",
+        "start_char": 510,
+        "end_char": 516,
+        "excerpt": "Nunca vos dixi nulha rem de quanto mal mi por vós vem, senhor deste meu coraçom, mais aque-m'em vossa prisom de mi fazerdes mal ou bem. Nunca vos ousei a contar mal que mi fazedes levar, senhor deste meu coraçom, mais aque-m'em vossa prisom de me guarir ou me matar. E, senhor, coita e al nom me forçou de vos ir falar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dixi",
+                "child": "senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dixi",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "meu coraçom",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "coraçom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu coraçom",
+                "child": "senhor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "coraçom",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "levar",
+                "child": "senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "meu coraçom",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "coraçom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu coraçom",
+                "child": "senhor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "coraçom",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "coita",
+                "child": ", senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "coitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

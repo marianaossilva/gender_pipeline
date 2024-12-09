@@ -1,0 +1,4368 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "dois sorvetes",
+        "sentence": "Vá, dois sorvetes.",
+        "start_char": 286,
+        "end_char": 299,
+        "excerpt": "Mas explica-te refrescando a goela. Queres um sorvete? Vá, dois sorvetes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa.",
+        "start_char": 501,
+        "end_char": 508,
+        "excerpt": "Vou...  Acaba. Vou casar. Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixou",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa.",
+        "start_char": 552,
+        "end_char": 561,
+        "excerpt": "Vou...  Acaba. Vou casar. Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saboreava",
+                "child": "o Brandão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "saborear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o primeiro",
+        "sentence": "Vieram os sorvetes, sem que o primeiro saísse da posição em que a notícia o deixou; era evidente que não lhe dava crédito.",
+        "start_char": 660,
+        "end_char": 670,
+        "excerpt": "Vou casar. Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa. Vieram os sorvetes, sem que o primeiro saísse da posição em que a notícia o deixou; era evidente que não lhe dava crédito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "repetiu ele afinal, e o Brandão respondeu-lhe com a cabeça que sim, que ia casar.",
+        "start_char": 784,
+        "end_char": 793,
+        "excerpt": "Vieram os sorvetes, sem que o primeiro saísse da posição em que a notícia o deixou; era evidente que não lhe dava crédito. Casar? repetiu ele afinal, e o Brandão respondeu-lhe com a cabeça que sim, que ia casar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "respondeu-lhe",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "respondeu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o leitor",
+        "sentence": "Estou que o leitor não sente a mesma incredulidade, desde que considera que o casamento é a tela da vida, e que toda a gente casa, assim como toda a gente morre.",
+        "start_char": 878,
+        "end_char": 886,
+        "excerpt": "repetiu ele afinal, e o Brandão respondeu-lhe com a cabeça que sim, que ia casar. Não, não, é impossível. Estou que o leitor não sente a mesma incredulidade, desde que considera que o casamento é a tela da vida, e que toda a gente casa, assim como toda a gente morre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sente",
+                "child": "o leitor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "emo",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Se alguma coisa o enche de assombro é o assombro de Cesário.",
+        "start_char": 1082,
+        "end_char": 1089,
+        "excerpt": "Não, não, é impossível. Estou que o leitor não sente a mesma incredulidade, desde que considera que o casamento é a tela da vida, e que toda a gente casa, assim como toda a gente morre. Se alguma coisa o enche de assombro é o assombro de Cesário.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "assombro",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "assombro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "assombro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "cesário",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "assombro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dois rapazes",
+        "sentence": "Viviam juntos esses dois rapazes desde os onze anos, e mais intimamente desde os dezesseis.",
+        "start_char": 1159,
+        "end_char": 1171,
+        "excerpt": "Se alguma coisa o enche de assombro é o assombro de Cesário. Tratemos de explicá-lo em cinco ou seis linhas. Viviam juntos esses dois rapazes desde os onze anos, e mais intimamente desde os dezesseis.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Viviam",
+                "child": "esses dois rapazes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Viviam",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Começa a entender-se o espanto do Cesário.",
+        "start_char": 1700,
+        "end_char": 1707,
+        "excerpt": "Assim é que ambos faziam do casamento a mais deplorável idéia, com ostentação, com excesso, e para afirmá-lo, viviam juntos a mesma vida solta. Não só entre eles deixara de haver segredo, mas até começava a ser impossível que o houvesse, desde que ambos davam os mesmos passos, de um modo uníssono. Começa a entender-se o espanto do Cesário.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o espanto",
+                "child": "Cesário",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "espanto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "o espanto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cesário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "espanto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a dama",
+        "sentence": "Quando eu digo que vou casar, não quero dizer que tenho a dama pedida; quero dizer que o namoro está a caminho, e que desta vez é sério.",
+        "start_char": 1824,
+        "end_char": 1830,
+        "excerpt": "Conforme. Ah! Quando eu digo que vou casar, não quero dizer que tenho a dama pedida; quero dizer que o namoro está a caminho, e que desta vez é sério.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "a dama",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "dama",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva?",
+        "start_char": 1990,
+        "end_char": 1997,
+        "excerpt": "Eu? É a Sobral. A viúva?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Candinha",
+        "sentence": "Sim, a Candinha.",
+        "start_char": 2004,
+        "end_char": 2014,
+        "excerpt": "É a Sobral. A viúva? Sim, a Candinha.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão contou tudo ao amigo.",
+        "start_char": 2024,
+        "end_char": 2031,
+        "excerpt": "Sim, a Candinha. Mas...? Brandão contou tudo ao amigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ao amigo",
+        "sentence": "Brandão contou tudo ao amigo.",
+        "start_char": 2044,
+        "end_char": 2052,
+        "excerpt": "Sim, a Candinha. Mas...? Brandão contou tudo ao amigo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "start_char": 2086,
+        "end_char": 2093,
+        "excerpt": "Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levara-o",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levara-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um amigo do patrão",
+        "sentence": "Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "start_char": 2113,
+        "end_char": 2131,
+        "excerpt": "Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um Viegas",
+        "sentence": "Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "start_char": 2133,
+        "end_char": 2142,
+        "excerpt": "Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um amigo",
+                "child": ", um Viegas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Viegas",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", um Viegas",
+                "child": "um amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Viegas",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", um Viegas",
+                "child": "casa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Viegas",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha Sobral",
+        "sentence": "Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "start_char": 2053,
+        "end_char": 2072,
+        "excerpt": "Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva era bonita, afável, dispondo de uns olhos que os dois concordaram em achar singulares.",
+        "start_char": 2272,
+        "end_char": 2279,
+        "excerpt": "Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral. A viúva era bonita, afável, dispondo de uns olhos que os dois concordaram em achar singulares.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A viúva",
+                "child": "bonita",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bonito",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta moça",
+        "sentence": "O mais era a reputação de mau gênio que esta moça trazia.",
+        "start_char": 2438,
+        "end_char": 2447,
+        "excerpt": "A viúva era bonita, afável, dispondo de uns olhos que os dois concordaram em achar singulares. Os olhos, porém, eram o menos. O mais era a reputação de mau gênio que esta moça trazia.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "trazia",
+                "child": "esta moça",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esta moça",
+                "child": "gênio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "gênio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esta moça",
+                "child": "a reputação",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "reputação",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá.",
+        "start_char": 2480,
+        "end_char": 2488,
+        "excerpt": "Os olhos, porém, eram o menos. O mais era a reputação de mau gênio que esta moça trazia. Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "matara",
+                "child": "o marido",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "matara",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "desgostos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desgosto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desgostos",
+                "child": "o marido",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desgosto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", caprichos",
+                "child": "o marido",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "capricho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", exigências",
+                "child": "o marido",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "exigência",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade.",
+        "start_char": 2755,
+        "end_char": 2762,
+        "excerpt": "O mais era a reputação de mau gênio que esta moça trazia. Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá. E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "gostara",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade.",
+        "start_char": 2806,
+        "end_char": 2813,
+        "excerpt": "O mais era a reputação de mau gênio que esta moça trazia. Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá. E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notara-lhe",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "notara-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os três",
+        "sentence": "Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se.",
+        "start_char": 2919,
+        "end_char": 2926,
+        "excerpt": "Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá. E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade. Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo Cesário",
+        "sentence": "Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia.",
+        "start_char": 3093,
+        "end_char": 3106,
+        "excerpt": "Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se. Eles chegaram mesmo à familiaridade da expressão:  má rês, alma de poucos amigos, etc. Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia.",
+        "start_char": 3134,
+        "end_char": 3141,
+        "excerpt": "Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se. Eles chegaram mesmo à familiaridade da expressão:  má rês, alma de poucos amigos, etc. Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "prazer",
+                "child": "Brandão",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "prazer",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "prazer",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "prazer",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "Juro que há quinze dias não era capaz de cuidar nisto, continuava o Brandão; mas os dois últimos encontros, principalmente o de segunda-feira...",
+        "start_char": 3363,
+        "end_char": 3372,
+        "excerpt": "Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia. Entende-se, portanto, que só começassem a tomar os sorvetes para não vê-los derretidos, sem nenhum deles saber o que estava fazendo. Juro que há quinze dias não era capaz de cuidar nisto, continuava o Brandão; mas os dois últimos encontros, principalmente o de segunda-feira...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "continuava",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Brandão",
+                "child": "capaz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "capaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente.",
+        "start_char": 3536,
+        "end_char": 3543,
+        "excerpt": "crês! É um modo de falar, é certo que acabo. Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente.",
+        "start_char": 3599,
+        "end_char": 3606,
+        "excerpt": "crês! É um modo de falar, é certo que acabo. Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fitou",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Depois fez um cigarro, acendeu-o, puxou duas ou três fumaças, e disse ao Brandão que ainda esperava vê-lo recuar; em todo caso, aconselhava-lhe que não publicasse desde já o plano; esperasse algum tempo.",
+        "start_char": 3715,
+        "end_char": 3722,
+        "excerpt": "É um modo de falar, é certo que acabo. Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente. Depois fez um cigarro, acendeu-o, puxou duas ou três fumaças, e disse ao Brandão que ainda esperava vê-lo recuar; em todo caso, aconselhava-lhe que não publicasse desde já o plano; esperasse algum tempo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Não, interrompeu Brandão com energia.",
+        "start_char": 3889,
+        "end_char": 3896,
+        "excerpt": "Depois fez um cigarro, acendeu-o, puxou duas ou três fumaças, e disse ao Brandão que ainda esperava vê-lo recuar; em todo caso, aconselhava-lhe que não publicasse desde já o plano; esperasse algum tempo. Talvez viesse a recuar... Não, interrompeu Brandão com energia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "interrompeu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário levantou os ombros.",
+        "start_char": 3933,
+        "end_char": 3940,
+        "excerpt": "Não, interrompeu Brandão com energia. Como, não?  Não recuo. Cesário levantou os ombros.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro",
+        "sentence": "pergunta o outro.",
+        "start_char": 3990,
+        "end_char": 3997,
+        "excerpt": "Cesário levantou os ombros. Achas que faço mal? pergunta o outro.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão sorriu.",
+        "start_char": 4130,
+        "end_char": 4137,
+        "excerpt": "Opões-te por causa de ser casamento. Em primeiro lugar. Brandão sorriu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "noiva",
+        "sentence": "E por causa da noiva, concluiu ele.",
+        "start_char": 4161,
+        "end_char": 4166,
+        "excerpt": "Em primeiro lugar. Brandão sorriu. E por causa da noiva, concluiu ele.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E por causa",
+                "child": "noiva",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "causa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "noiva",
+                "child": "E por causa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "noiva",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "causa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "E depois, continuou Cesário, falo por um pouco de egoísmo; vou perder-te...",
+        "start_char": 4343,
+        "end_char": 4350,
+        "excerpt": "Enganas-te. Também eu estava; mas mudei... E depois, continuou Cesário, falo por um pouco de egoísmo; vou perder-te...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão contou os pormenores do negócio; expôs minuciosamente todos os seus sentimentos.",
+        "start_char": 4445,
+        "end_char": 4452,
+        "excerpt": "Ora tu!... Mas como foi isso? Brandão contou os pormenores do negócio; expôs minuciosamente todos os seus sentimentos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "namorada",
+        "sentence": "Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo.",
+        "start_char": 4695,
+        "end_char": 4703,
+        "excerpt": "Não a pedira ainda, nem havia tempo para tanto; a própria resolução não estava formulada. Mas tinha por certo o casamento. Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as qualidades",
+                "child": "namorada",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "qualidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "namorada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "namorada",
+                "child": "as qualidades",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "namorada",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "qualidade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo",
+        "sentence": "Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo.",
+        "start_char": 4722,
+        "end_char": 4727,
+        "excerpt": "Não a pedira ainda, nem havia tempo para tanto; a própria resolução não estava formulada. Mas tinha por certo o casamento. Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "convencer",
+                "child": "amigo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "convencer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "opinião",
+                "child": "amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar.",
+        "start_char": 4893,
+        "end_char": 4900,
+        "excerpt": "São simpatias, dizia ele. Saíram depois de longo tempo de conversação, e separaram-se na esquina. Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar.",
+        "start_char": 4956,
+        "end_char": 4963,
+        "excerpt": "São simpatias, dizia ele. Saíram depois de longo tempo de conversação, e separaram-se na esquina. Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "antipatizara",
+                "child": "a viúva",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "antipatizara",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "homem",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "Emendemos o Brandão.",
+        "start_char": 5349,
+        "end_char": 5358,
+        "excerpt": "se não a procurasse, dava com ela, que era justamente nenhuma, coisa nenhuma. CAPITULO II Emendemos o Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Emendemos",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Emendemos",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar.",
+        "start_char": 5405,
+        "end_char": 5412,
+        "excerpt": "CAPITULO II Emendemos o Brandão. Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os dois últimos encontros",
+                "child": "a viúva",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "encontro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "os dois últimos encontros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "encontro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pati",
+        "sentence": "Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar.",
+        "start_char": 5528,
+        "end_char": 5532,
+        "excerpt": "CAPITULO II Emendemos o Brandão. Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tomou",
+                "child": "Pati",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Pati",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pati",
+                "child": "Alferes",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Pati",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alferes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pati",
+                "child": "pura",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Pati",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "puro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alferes",
+                "child": "Pati",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alferes",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Pati",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma dama",
+        "sentence": "Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos.",
+        "start_char": 5805,
+        "end_char": 5813,
+        "excerpt": "Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar. Antes disso, podia ficar um pouco lisonjeado das maneiras dela, e ter mesmo alguns pensamentos; mas o que se chama sensação amorosa não a teve antes. Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "graças",
+                "child": "uma dama",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "graças",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dama",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma dama",
+                "child": "graças",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dama",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "graças",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos.",
+        "start_char": 5837,
+        "end_char": 5845,
+        "excerpt": "Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar. Antes disso, podia ficar um pouco lisonjeado das maneiras dela, e ter mesmo alguns pensamentos; mas o que se chama sensação amorosa não a teve antes. Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "matado",
+                "child": "o marido",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "matar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "desgostos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desgosto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desgostos",
+                "child": "o marido",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desgosto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva Sobral",
+        "sentence": "A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito.",
+        "start_char": 5861,
+        "end_char": 5875,
+        "excerpt": "Antes disso, podia ficar um pouco lisonjeado das maneiras dela, e ter mesmo alguns pensamentos; mas o que se chama sensação amorosa não a teve antes. Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos. A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade.",
+        "start_char": 6103,
+        "end_char": 6110,
+        "excerpt": "A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito. Já vimos o que eram os olhos;  podiam ser singulares, como eles diziam, mas eram também bonitos. Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aceito",
+                "child": "Cesário",
+                "dep_h": "acl",
+                "pos_h": "NOUN",
+                "lemma_h": "aceitar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "aceito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "acl",
+                "pos_c": "NOUN",
+                "lemma_c": "aceitar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "um certo jeito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "jeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "Vimos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vimos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade.",
+        "start_char": 6142,
+        "end_char": 6149,
+        "excerpt": "A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito. Já vimos o que eram os olhos;  podiam ser singulares, como eles diziam, mas eram também bonitos. Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "eram",
+                "child": "Brandão",
+                "dep_h": "advcl",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "Vimos",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vimos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre.",
+        "start_char": 6316,
+        "end_char": 6325,
+        "excerpt": "Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade. Resta mostrar a estatura, que era muito elegante, e as mãos, que nunca estavam paradas. No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narina"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mãos",
+                    "mãos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha.",
+        "start_char": 6610,
+        "end_char": 6617,
+        "excerpt": "No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre. Só não atinou com a causa, se era uma necessidade, um sestro, ou uma intenção de mostrá-las, por serem lindas. No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "começou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha.",
+        "start_char": 6582,
+        "end_char": 6594,
+        "excerpt": "No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre. Só não atinou com a causa, se era uma necessidade, um sestro, ou uma intenção de mostrá-las, por serem lindas. No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo.",
+        "start_char": 7010,
+        "end_char": 7019,
+        "excerpt": "via-a alegre, dada, conversada, ouvindo as coisas com muita paciência, e contando anedotas do Norte com muita graça. No quarto dia, os olhos de ambos andaram juntos, não se sabendo unicamente se foram os dele que procuraram os dela, ou vice-versa; mas andaram juntos. De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "jurava",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo.",
+        "start_char": 7066,
+        "end_char": 7073,
+        "excerpt": "via-a alegre, dada, conversada, ouvindo as coisas com muita paciência, e contando anedotas do Norte com muita graça. No quarto dia, os olhos de ambos andaram juntos, não se sabendo unicamente se foram os dele que procuraram os dela, ou vice-versa; mas andaram juntos. De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "a viúva",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um anjo",
+        "sentence": "Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva.",
+        "start_char": 7138,
+        "end_char": 7145,
+        "excerpt": "De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo. Dormiu tarde e mal. Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vinha",
+                "child": "um anjo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva.",
+        "start_char": 7213,
+        "end_char": 7218,
+        "excerpt": "De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo. Dormiu tarde e mal. Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "a viúva",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a cara",
+                "child": "viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cara",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "a cara",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anjo",
+        "sentence": "Ele aceitou o convite; a meio caminho, o anjo pegou das asas e cravou-as na cabeça, à laia de pontas, e carregou-o para o inferno.",
+        "start_char": 7259,
+        "end_char": 7265,
+        "excerpt": "Dormiu tarde e mal. Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva. Ele aceitou o convite; a meio caminho, o anjo pegou das asas e cravou-as na cabeça, à laia de pontas, e carregou-o para o inferno.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pegou",
+                "child": "o anjo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão acordou transpirando muito.",
+        "start_char": 7351,
+        "end_char": 7358,
+        "excerpt": "Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva. Ele aceitou o convite; a meio caminho, o anjo pegou das asas e cravou-as na cabeça, à laia de pontas, e carregou-o para o inferno. Brandão acordou transpirando muito.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão.",
+        "start_char": 7567,
+        "end_char": 7574,
+        "excerpt": "De manhã, perguntou a si mesmo:  Será um aviso? Evitou os olhos dela, durante as primeiras horas do dia; ela, que o percebeu, recolheu-se ao quarto e não apareceu antes do jantar. Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Brandão",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "D. Candinha, que era uma perfeição, não fez caso dele até à sobremesa; à sobremesa começou a mostrar que podia perdoar, mas ainda assim o resto do dia não foi como o anterior.",
+        "start_char": 7676,
+        "end_char": 7688,
+        "excerpt": "Evitou os olhos dela, durante as primeiras horas do dia; ela, que o percebeu, recolheu-se ao quarto e não apareceu antes do jantar. Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão. D. Candinha, que era uma perfeição, não fez caso dele até à sobremesa; à sobremesa começou a mostrar que podia perdoar, mas ainda assim o resto do dia não foi como o anterior.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão deu-se a todos os diabos.",
+        "start_char": 7853,
+        "end_char": 7860,
+        "excerpt": "Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão. D. Candinha, que era uma perfeição, não fez caso dele até à sobremesa; à sobremesa começou a mostrar que podia perdoar, mas ainda assim o resto do dia não foi como o anterior. Brandão deu-se a todos os diabos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Brandão",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deu-se",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o perdido",
+        "sentence": "No dia seguinte tratou de recuperar o perdido, que não era muito, como vimos, tão- somente alguns olhares; alcançou-o para a noite.",
+        "start_char": 7984,
+        "end_char": 7993,
+        "excerpt": "Um sonho? Quem diabo acredita em sonhos? No dia seguinte tratou de recuperar o perdido, que não era muito, como vimos, tão- somente alguns olhares; alcançou-o para a noite.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recuperar",
+                "child": "o perdido",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "recuperar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "perdido",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Ele lembrou-se então que, durante as horas de frieza, notara nela o mau jeito da boca, o tal, o que lhe dava indício da perversidade da viúva; mas tão depressa o lembrou, como rejeitou a observação.",
+        "start_char": 8259,
+        "end_char": 8264,
+        "excerpt": "No dia seguinte tratou de recuperar o perdido, que não era muito, como vimos, tão- somente alguns olhares; alcançou-o para a noite. No outro estavam as coisas restabelecidas. Ele lembrou-se então que, durante as horas de frieza, notara nela o mau jeito da boca, o tal, o que lhe dava indício da perversidade da viúva; mas tão depressa o lembrou, como rejeitou a observação.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perversidade",
+                "child": "viúva",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "perversidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "perversidade",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "perversidade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão chegou a lembrar-se que a mão dela, à despedida, estava um pouco trêmula; mas, como a dele também tremia, não se pode afirmar nada.",
+        "start_char": 8524,
+        "end_char": 8531,
+        "excerpt": "Em suma, voltou no princípio da seguinte semana, inteiramente namorado, posto sem nenhuma declaração de parte a parte. Ela pareceu-lhe ficar saudosa. Brandão chegou a lembrar-se que a mão dela, à despedida, estava um pouco trêmula; mas, como a dele também tremia, não se pode afirmar nada.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Não havia mais do que isto, no dia em que ele referiu ao Cesário que ia casar.",
+        "start_char": 8730,
+        "end_char": 8737,
+        "excerpt": "Brandão chegou a lembrar-se que a mão dela, à despedida, estava um pouco trêmula; mas, como a dele também tremia, não se pode afirmar nada. Só isto. Não havia mais do que isto, no dia em que ele referiu ao Cesário que ia casar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "referiu",
+                "child": "Cesário",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "referir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cesário",
+                "child": "dia",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja.",
+        "start_char": 8800,
+        "end_char": 8812,
+        "excerpt": "Não havia mais do que isto, no dia em que ele referiu ao Cesário que ia casar. Que não pensava senão no casamento, era verdade. D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padrinho",
+        "sentence": "Chegou a pensar no padrinho: seria o inspetor da alfândega.",
+        "start_char": 8962,
+        "end_char": 8970,
+        "excerpt": "Que não pensava senão no casamento, era verdade. D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja. Chegou a pensar no padrinho: seria o inspetor da alfândega.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensar",
+                "child": "padrinho",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o inspetor da alfândega",
+        "sentence": "Chegou a pensar no padrinho: seria o inspetor da alfândega.",
+        "start_char": 8978,
+        "end_char": 9001,
+        "excerpt": "Que não pensava senão no casamento, era verdade. D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja. Chegou a pensar no padrinho: seria o inspetor da alfândega.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os companheiros",
+        "sentence": "Na alfândega, notaram-lhe os companheiros um certo ar distraído, e às vezes, superior; mas ele não disse nada a ninguém.",
+        "start_char": 9029,
+        "end_char": 9044,
+        "excerpt": "D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja. Chegou a pensar no padrinho: seria o inspetor da alfândega. Na alfândega, notaram-lhe os companheiros um certo ar distraído, e às vezes, superior; mas ele não disse nada a ninguém.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "notaram-lhe",
+                "child": "os companheiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notaram-lhe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário era o confidente único, e antes não fosse único;",
+        "start_char": 9124,
+        "end_char": 9131,
+        "excerpt": "Chegou a pensar no padrinho: seria o inspetor da alfândega. Na alfândega, notaram-lhe os companheiros um certo ar distraído, e às vezes, superior; mas ele não disse nada a ninguém. Cesário era o confidente único, e antes não fosse único;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário confessava-lhe, rindo, que era demais.",
+        "start_char": 9346,
+        "end_char": 9353,
+        "excerpt": "ele procurava-o todos os dias para lhe falar da mesma coisa, com as mesmas palavras, e inflexões. Um dia, dois dias, três dias, vá; mas sete, mas quinze, mas todos! Cesário confessava-lhe, rindo, que era demais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "confessava-lhe",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confessava-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Realmente, Brandão, tu estás que pareces um namorado de vinte anos...",
+        "start_char": 9404,
+        "end_char": 9411,
+        "excerpt": "Um dia, dois dias, três dias, vá; mas sete, mas quinze, mas todos! Cesário confessava-lhe, rindo, que era demais. Realmente, Brandão, tu estás que pareces um namorado de vinte anos...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Brandão",
+                "child": "tu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro",
+        "sentence": "O amor nunca é mais velho, redargüiu o outro; e, depois de fazer um cigarro, puxar duas fumaças, e deixá-lo apagar, continuava a repetição das mesmas coisas e palavras, com as mesmíssimas inflexões.",
+        "start_char": 9500,
+        "end_char": 9507,
+        "excerpt": "Cesário confessava-lhe, rindo, que era demais. Realmente, Brandão, tu estás que pareces um namorado de vinte anos... O amor nunca é mais velho, redargüiu o outro; e, depois de fazer um cigarro, puxar duas fumaças, e deixá-lo apagar, continuava a repetição das mesmas coisas e palavras, com as mesmíssimas inflexões.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Vamos e venhamos: a viúva gostava um pouco do Brandão; não digo muito, digo um pouco, e talvez muito pouco.",
+        "start_char": 9693,
+        "end_char": 9700,
+        "excerpt": "CAPITULO PRIMEIRO  Explico-me. Mas explica-te refrescando a goela. Queres um sorvete? Vá, dois sorvetes. Traga dois sorvetes... Refresquemo-nos, que realmente o calor está insuportável. Estiveste em Petrópolis. Não. Nem eu. Estive no Pati do Alferes, imagina por quê? Não posso. Vou...  Acaba. Vou casar. Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa. Vieram os sorvetes, sem que o primeiro saísse da posição em que a notícia o deixou; era evidente que não lhe dava crédito. Casar? repetiu ele afinal, e o Brandão respondeu-lhe com a cabeça que sim, que ia casar. Não, não, é impossível. Estou que o leitor não sente a mesma incredulidade, desde que considera que o casamento é a tela da vida, e que toda a gente casa, assim como toda a gente morre. Se alguma coisa o enche de assombro é o assombro de Cesário. Tratemos de explicá-lo em cinco ou seis linhas. Viviam juntos esses dois rapazes desde os onze anos, e mais intimamente desde os dezesseis. Contavam agora vinte e oito. Um era empregado no comércio, outro da alfândega. Tinham uma parte da vida comum, e comuns os sentimentos. Assim é que ambos faziam do casamento a mais deplorável idéia, com ostentação, com excesso, e para afirmá-lo, viviam juntos a mesma vida solta. Não só entre eles deixara de haver segredo, mas até começava a ser impossível que o houvesse, desde que ambos davam os mesmos passos, de um modo uníssono. Começa a entender-se o espanto do Cesário. Dá-me a tua palavra que não estás brincando? Conforme. Ah! Quando eu digo que vou casar, não quero dizer que tenho a dama pedida; quero dizer que o namoro está a caminho, e que desta vez é sério. Resta adivinhar quem é. Não sei. E foste tu mesmo que me levaste lá. Eu? É a Sobral. A viúva? Sim, a Candinha. Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral. A viúva era bonita, afável, dispondo de uns olhos que os dois concordaram em achar singulares. Os olhos, porém, eram o menos. O mais era a reputação de mau gênio que esta moça trazia. Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá. E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade. Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se. Eles chegaram mesmo à familiaridade da expressão:  má rês, alma de poucos amigos, etc. Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia. Entende-se, portanto, que só começassem a tomar os sorvetes para não vê-los derretidos, sem nenhum deles saber o que estava fazendo. Juro que há quinze dias não era capaz de cuidar nisto, continuava o Brandão; mas os dois últimos encontros, principalmente o de segunda-feira... Não te digo nada... Creio que acabo casando. Ah! crês! É um modo de falar, é certo que acabo. Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente. Depois fez um cigarro, acendeu-o, puxou duas ou três fumaças, e disse ao Brandão que ainda esperava vê-lo recuar; em todo caso, aconselhava-lhe que não publicasse desde já o plano; esperasse algum tempo. Talvez viesse a recuar... Não, interrompeu Brandão com energia. Como, não?  Não recuo. Cesário levantou os ombros. Achas que faço mal? pergunta o outro. Acho. Por quê? Não me perguntes por quê. Ao contrário, pergunto e insisto. Opões-te por causa de ser casamento. Em primeiro lugar. Brandão sorriu. E por causa da noiva, concluiu ele. Já esperava por isso; estás então com a opinião que ambos demos logo que ela chegou da província? Enganas-te. Também eu estava; mas mudei... E depois, continuou Cesário, falo por um pouco de egoísmo; vou perder-te... Não. Sim e sim. Ora tu!... Mas como foi isso? Brandão contou os pormenores do negócio; expôs minuciosamente todos os seus sentimentos. Não a pedira ainda, nem havia tempo para tanto; a própria resolução não estava formulada. Mas tinha por certo o casamento. Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo. São simpatias, dizia ele. Saíram depois de longo tempo de conversação, e separaram-se na esquina. Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar. Puro mistério! E resolvia o caso na cabeça, e não achava explicação, não se tratando de um criançola, nem de uma descomunal beleza. Tudo por querer achar, à força, uma explicação; se não a procurasse, dava com ela, que era justamente nenhuma, coisa nenhuma. CAPITULO II Emendemos o Brandão. Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar. Antes disso, podia ficar um pouco lisonjeado das maneiras dela, e ter mesmo alguns pensamentos; mas o que se chama sensação amorosa não a teve antes. Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos. A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito. Já vimos o que eram os olhos;  podiam ser singulares, como eles diziam, mas eram também bonitos. Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade. Resta mostrar a estatura, que era muito elegante, e as mãos, que nunca estavam paradas. No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre. Só não atinou com a causa, se era uma necessidade, um sestro, ou uma intenção de mostrá-las, por serem lindas. No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha. Não achava nada que pudesse dar indício dela; via-a alegre, dada, conversada, ouvindo as coisas com muita paciência, e contando anedotas do Norte com muita graça. No quarto dia, os olhos de ambos andaram juntos, não se sabendo unicamente se foram os dele que procuraram os dela, ou vice-versa; mas andaram juntos. De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo. Dormiu tarde e mal. Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva. Ele aceitou o convite; a meio caminho, o anjo pegou das asas e cravou-as na cabeça, à laia de pontas, e carregou-o para o inferno. Brandão acordou transpirando muito. De manhã, perguntou a si mesmo:  Será um aviso? Evitou os olhos dela, durante as primeiras horas do dia; ela, que o percebeu, recolheu-se ao quarto e não apareceu antes do jantar. Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão. D. Candinha, que era uma perfeição, não fez caso dele até à sobremesa; à sobremesa começou a mostrar que podia perdoar, mas ainda assim o resto do dia não foi como o anterior. Brandão deu-se a todos os diabos. Chamou-se ridículo. Um sonho? Quem diabo acredita em sonhos? No dia seguinte tratou de recuperar o perdido, que não era muito, como vimos, tão- somente alguns olhares; alcançou-o para a noite. No outro estavam as coisas restabelecidas. Ele lembrou-se então que, durante as horas de frieza, notara nela o mau jeito da boca, o tal, o que lhe dava indício da perversidade da viúva; mas tão depressa o lembrou, como rejeitou a observação. Antes era um aviso, passara a ser uma oportunidade. Em suma, voltou no princípio da seguinte semana, inteiramente namorado, posto sem nenhuma declaração de parte a parte. Ela pareceu-lhe ficar saudosa. Brandão chegou a lembrar-se que a mão dela, à despedida, estava um pouco trêmula; mas, como a dele também tremia, não se pode afirmar nada. Só isto. Não havia mais do que isto, no dia em que ele referiu ao Cesário que ia casar. Que não pensava senão no casamento, era verdade. D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja. Chegou a pensar no padrinho: seria o inspetor da alfândega. Na alfândega, notaram-lhe os companheiros um certo ar distraído, e às vezes, superior; mas ele não disse nada a ninguém. Cesário era o confidente único, e antes não fosse único; ele procurava-o todos os dias para lhe falar da mesma coisa, com as mesmas palavras, e inflexões. Um dia, dois dias, três dias, vá; mas sete, mas quinze, mas todos! Cesário confessava-lhe, rindo, que era demais. Realmente, Brandão, tu estás que pareces um namorado de vinte anos... O amor nunca é mais velho, redargüiu o outro; e, depois de fazer um cigarro, puxar duas fumaças, e deixá-lo apagar, continuava a repetição das mesmas coisas e palavras, com as mesmíssimas inflexões. CAPITULO III Vamos e venhamos: a viúva gostava um pouco do Brandão; não digo muito, digo um pouco, e talvez muito pouco.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça",
+                    "cabeça",
+                    "cabeça"
+                ],
+                "occurrences_n": 3
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 10
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narinas",
+                    "narina",
+                    "narina"
+                ],
+                "occurrences_n": 4
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 3
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mão",
+                    "mãos",
+                    "mãos"
+                ],
+                "occurrences_n": 5
+            }
+        },
+        "dependencies": [
+            {
+                "head": "antipatizara",
+                "child": "a viúva",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "antipatizara",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "homem",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os dois últimos encontros",
+                "child": "a viúva",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "encontro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "os dois últimos encontros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "encontro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tinha",
+                "child": "a viúva",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gostava",
+                "child": "a viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Vamos e venhamos: a viúva gostava um pouco do Brandão; não digo muito, digo um pouco, e talvez muito pouco.",
+        "start_char": 9721,
+        "end_char": 9728,
+        "excerpt": "CAPITULO PRIMEIRO  Explico-me. Mas explica-te refrescando a goela. Queres um sorvete? Vá, dois sorvetes. Traga dois sorvetes... Refresquemo-nos, que realmente o calor está insuportável. Estiveste em Petrópolis. Não. Nem eu. Estive no Pati do Alferes, imagina por quê? Não posso. Vou...  Acaba. Vou casar. Cesário deixou cair o queixo de assombro, enquanto o Brandão saboreava, olhando para ele, o gosto de ter dado uma novidade grossa. Vieram os sorvetes, sem que o primeiro saísse da posição em que a notícia o deixou; era evidente que não lhe dava crédito. Casar? repetiu ele afinal, e o Brandão respondeu-lhe com a cabeça que sim, que ia casar. Não, não, é impossível. Estou que o leitor não sente a mesma incredulidade, desde que considera que o casamento é a tela da vida, e que toda a gente casa, assim como toda a gente morre. Se alguma coisa o enche de assombro é o assombro de Cesário. Tratemos de explicá-lo em cinco ou seis linhas. Viviam juntos esses dois rapazes desde os onze anos, e mais intimamente desde os dezesseis. Contavam agora vinte e oito. Um era empregado no comércio, outro da alfândega. Tinham uma parte da vida comum, e comuns os sentimentos. Assim é que ambos faziam do casamento a mais deplorável idéia, com ostentação, com excesso, e para afirmá-lo, viviam juntos a mesma vida solta. Não só entre eles deixara de haver segredo, mas até começava a ser impossível que o houvesse, desde que ambos davam os mesmos passos, de um modo uníssono. Começa a entender-se o espanto do Cesário. Dá-me a tua palavra que não estás brincando? Conforme. Ah! Quando eu digo que vou casar, não quero dizer que tenho a dama pedida; quero dizer que o namoro está a caminho, e que desta vez é sério. Resta adivinhar quem é. Não sei. E foste tu mesmo que me levaste lá. Eu? É a Sobral. A viúva? Sim, a Candinha. Mas...? Brandão contou tudo ao amigo. Cerca de algumas semanas antes, Cesário levara-o à casa de um amigo do patrão, um Viegas, comerciante também, para jogar o voltarete; e ali acharam, pouco antes chegada do Norte, uma recente viúva, D. Candinha Sobral. A viúva era bonita, afável, dispondo de uns olhos que os dois concordaram em achar singulares. Os olhos, porém, eram o menos. O mais era a reputação de mau gênio que esta moça trazia. Disseram que ela matara o marido com desgostos, caprichos, exigências; que era um espírito absoluto, absorvente, capaz de deitar fogo aos quatro cantos de um império para aquecer uma xícara de chá. E, como sempre acontece, ambos acharam que, a despeito das maneiras, lia-se-lhe isso mesmo no rosto; Cesário não gostara de um certo jeito da boca, e o Brandão notara-lhe nas narinas o indício da teima e da perversidade. Duas semanas depois tornaram a encontrar-se os três, conversaram, e a opinião radicou-se. Eles chegaram mesmo à familiaridade da expressão:  má rês, alma de poucos amigos, etc. Agora entende-se, creio eu, o espanto do amigo Cesário, não menos que o prazer do Brandão em dar-lhe a notícia. Entende-se, portanto, que só começassem a tomar os sorvetes para não vê-los derretidos, sem nenhum deles saber o que estava fazendo. Juro que há quinze dias não era capaz de cuidar nisto, continuava o Brandão; mas os dois últimos encontros, principalmente o de segunda-feira... Não te digo nada... Creio que acabo casando. Ah! crês! É um modo de falar, é certo que acabo. Cesário acabou o sorvete, engoliu um cálice de cognac, e fitou o amigo, que raspava o copo, amorosamente. Depois fez um cigarro, acendeu-o, puxou duas ou três fumaças, e disse ao Brandão que ainda esperava vê-lo recuar; em todo caso, aconselhava-lhe que não publicasse desde já o plano; esperasse algum tempo. Talvez viesse a recuar... Não, interrompeu Brandão com energia. Como, não?  Não recuo. Cesário levantou os ombros. Achas que faço mal? pergunta o outro. Acho. Por quê? Não me perguntes por quê. Ao contrário, pergunto e insisto. Opões-te por causa de ser casamento. Em primeiro lugar. Brandão sorriu. E por causa da noiva, concluiu ele. Já esperava por isso; estás então com a opinião que ambos demos logo que ela chegou da província? Enganas-te. Também eu estava; mas mudei... E depois, continuou Cesário, falo por um pouco de egoísmo; vou perder-te... Não. Sim e sim. Ora tu!... Mas como foi isso? Brandão contou os pormenores do negócio; expôs minuciosamente todos os seus sentimentos. Não a pedira ainda, nem havia tempo para tanto; a própria resolução não estava formulada. Mas tinha por certo o casamento. Naturalmente, louvou as qualidades da namorada, sem convencer ao amigo, que, aliás, entendeu não insistir na opinião e guardá-la consigo. São simpatias, dizia ele. Saíram depois de longo tempo de conversação, e separaram-se na esquina. Cesário mal podia crer que o mesmo homem, que antipatizara com a viúva e dissera dela tantas coisas e tão grotescas, quinze dias depois estivesse apaixonado ao ponto de casar. Puro mistério! E resolvia o caso na cabeça, e não achava explicação, não se tratando de um criançola, nem de uma descomunal beleza. Tudo por querer achar, à força, uma explicação; se não a procurasse, dava com ela, que era justamente nenhuma, coisa nenhuma. CAPITULO II Emendemos o Brandão. Contou ele que os dois últimos encontros com a viúva, aqui na corte, é que lhe deram a sensação do amor; mas a verdade pura é que a sensação só o tomou inteiramente no Pati do Alferes, de onde ele acaba de chegar. Antes disso, podia ficar um pouco lisonjeado das maneiras dela, e ter mesmo alguns pensamentos; mas o que se chama sensação amorosa não a teve antes. Foi ali que ele mudou de opinião a respeito dela, e se deixou cair nas graças de uma dama, que diziam ter matado o marido com desgostos. A viúva Sobral não tinha menos de vinte e sete anos nem mais de trinta; ponhamos vinte e oito. Já vimos o que eram os olhos;  podiam ser singulares, como eles diziam, mas eram também bonitos. Vimos ainda um certo jeito da boca, mal aceito ao Cesário, enquanto as narinas o eram ao Brandão, que achou nelas o indício da teima e da perversidade. Resta mostrar a estatura, que era muito elegante, e as mãos, que nunca estavam paradas. No baile não lhe notou o Brandão esta última circunstância; mas no Pati do Alferes, na casa da prima, familiarmente e a gosto, achou que ela movia as mãos sempre, sempre, sempre. Só não atinou com a causa, se era uma necessidade, um sestro, ou uma intenção de mostrá-las, por serem lindas. No terceiro dia, começou o Brandão a perguntar onde estava a maldade do gênio de D. Candinha. Não achava nada que pudesse dar indício dela; via-a alegre, dada, conversada, ouvindo as coisas com muita paciência, e contando anedotas do Norte com muita graça. No quarto dia, os olhos de ambos andaram juntos, não se sabendo unicamente se foram os dele que procuraram os dela, ou vice-versa; mas andaram juntos. De noite, na cama, o Brandão jurava a si mesmo que era tudo calúnia, e que a viúva tinha mais de anjo que de diabo. Dormiu tarde e mal. Sonhou que um anjo vinha ter com ele e lhe pedia para trepar ao céu; trazia a cara da viúva. Ele aceitou o convite; a meio caminho, o anjo pegou das asas e cravou-as na cabeça, à laia de pontas, e carregou-o para o inferno. Brandão acordou transpirando muito. De manhã, perguntou a si mesmo:  Será um aviso? Evitou os olhos dela, durante as primeiras horas do dia; ela, que o percebeu, recolheu-se ao quarto e não apareceu antes do jantar. Brandão estava desesperado, e deu todos os sinais que podiam exprimir o arrependimento e a súplica do perdão. D. Candinha, que era uma perfeição, não fez caso dele até à sobremesa; à sobremesa começou a mostrar que podia perdoar, mas ainda assim o resto do dia não foi como o anterior. Brandão deu-se a todos os diabos. Chamou-se ridículo. Um sonho? Quem diabo acredita em sonhos? No dia seguinte tratou de recuperar o perdido, que não era muito, como vimos, tão- somente alguns olhares; alcançou-o para a noite. No outro estavam as coisas restabelecidas. Ele lembrou-se então que, durante as horas de frieza, notara nela o mau jeito da boca, o tal, o que lhe dava indício da perversidade da viúva; mas tão depressa o lembrou, como rejeitou a observação. Antes era um aviso, passara a ser uma oportunidade. Em suma, voltou no princípio da seguinte semana, inteiramente namorado, posto sem nenhuma declaração de parte a parte. Ela pareceu-lhe ficar saudosa. Brandão chegou a lembrar-se que a mão dela, à despedida, estava um pouco trêmula; mas, como a dele também tremia, não se pode afirmar nada. Só isto. Não havia mais do que isto, no dia em que ele referiu ao Cesário que ia casar. Que não pensava senão no casamento, era verdade. D. Candinha voltou para a corte daí a duas semanas, e ele estava ansioso por vê-la, para lhe dizer tudo, tudo, e pedi-la, e levá-la à igreja. Chegou a pensar no padrinho: seria o inspetor da alfândega. Na alfândega, notaram-lhe os companheiros um certo ar distraído, e às vezes, superior; mas ele não disse nada a ninguém. Cesário era o confidente único, e antes não fosse único; ele procurava-o todos os dias para lhe falar da mesma coisa, com as mesmas palavras, e inflexões. Um dia, dois dias, três dias, vá; mas sete, mas quinze, mas todos! Cesário confessava-lhe, rindo, que era demais. Realmente, Brandão, tu estás que pareces um namorado de vinte anos... O amor nunca é mais velho, redargüiu o outro; e, depois de fazer um cigarro, puxar duas fumaças, e deixá-lo apagar, continuava a repetição das mesmas coisas e palavras, com as mesmíssimas inflexões. CAPITULO III Vamos e venhamos: a viúva gostava um pouco do Brandão; não digo muito, digo um pouco, e talvez muito pouco.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça",
+                    "cabeça",
+                    "cabeça"
+                ],
+                "occurrences_n": 3
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 10
+            },
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "narinas",
+                    "narinas",
+                    "narina",
+                    "narina"
+                ],
+                "occurrences_n": 4
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 3
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mão",
+                    "mãos",
+                    "mãos"
+                ],
+                "occurrences_n": 5
+            }
+        },
+        "dependencies": [
+            {
+                "head": "saboreava",
+                "child": "o Brandão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "saborear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "respondeu-lhe",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "respondeu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "contou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "notara-lhe",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "notara-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prazer",
+                "child": "Brandão",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "prazer",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "prazer",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "prazer",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "continuava",
+                "child": "o Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Brandão",
+                "child": "capaz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "capaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "interrompeu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sorriu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "contou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Emendemos",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Emendemos",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "eram",
+                "child": "Brandão",
+                "dep_h": "advcl",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "Vimos",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vimos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "notou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "começou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jurava",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "acordou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "desesperado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desesperado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deu-se",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chegou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "tu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tu",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gostava",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "start_char": 10129,
+        "end_char": 10136,
+        "excerpt": "Devagar? Mas com segurança. Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "start_char": 10151,
+        "end_char": 10156,
+        "excerpt": "Devagar? Mas com segurança. Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um convite",
+                "child": "viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "convite",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "um convite",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "convite",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "start_char": 10209,
+        "end_char": 10216,
+        "excerpt": "Devagar? Mas com segurança. Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lembrança",
+                "child": "Brandão",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "lembrança",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandão",
+                "child": "lembrança",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "lembrança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário sacrificou o teatro nessa noite, e foi.",
+        "start_char": 10282,
+        "end_char": 10289,
+        "excerpt": "Mas com segurança. Um dia recebeu Cesário um convite da viúva para lá ir a uma reunião familiar: era lembrança do Brandão, que foi ter com ele e pediu-lhe instantemente que não faltasse. Cesário sacrificou o teatro nessa noite, e foi.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sacrificou",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sacrificar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Brandão tirou o chapéu e coçou a cabeça.",
+        "start_char": 10667,
+        "end_char": 10674,
+        "excerpt": "Pois uma pessoa assim disposta... Realmente és um bobo. Brandão tirou o chapéu e coçou a cabeça.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Brandão",
+        "sentence": "perguntou o Brandão.",
+        "start_char": 10924,
+        "end_char": 10933,
+        "excerpt": "Andaram ainda alguns minutos calados. E não te parece esplêndida? perguntou o Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro",
+        "sentence": "Daí começou a freqüentar a casa, a pretexto de acompanhar o outro, e ajudá-lo, mas realmente porque começava a olhá-la com olhos menos desinteressados.",
+        "start_char": 11190,
+        "end_char": 11197,
+        "excerpt": "Não, isso não; mais bonita do que a princípio, é verdade; fez-me melhor impressão; esplêndida é demais. Quinze dias depois, viu-a o Cesário em casa de terceiro, e pareceu-lhe que ainda era melhor. Daí começou a freqüentar a casa, a pretexto de acompanhar o outro, e ajudá-lo, mas realmente porque começava a olhá-la com olhos menos desinteressados.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo",
+        "sentence": "Já aturava com paciência as longas confissões do amigo; chegava mesmo a procurá-las.",
+        "start_char": 11333,
+        "end_char": 11338,
+        "excerpt": "Quinze dias depois, viu-a o Cesário em casa de terceiro, e pareceu-lhe que ainda era melhor. Daí começou a freqüentar a casa, a pretexto de acompanhar o outro, e ajudá-lo, mas realmente porque começava a olhá-la com olhos menos desinteressados. Já aturava com paciência as longas confissões do amigo; chegava mesmo a procurá-las.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as longas confissões",
+                "child": "amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "confissão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amigo",
+                "child": "as longas confissões",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "confissão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "D. Candinha percebeu, em pouco tempo, que em vez de um, tinha dois adoradores.",
+        "start_char": 11368,
+        "end_char": 11380,
+        "excerpt": "Daí começou a freqüentar a casa, a pretexto de acompanhar o outro, e ajudá-lo, mas realmente porque começava a olhá-la com olhos menos desinteressados. Já aturava com paciência as longas confissões do amigo; chegava mesmo a procurá-las. D. Candinha percebeu, em pouco tempo, que em vez de um, tinha dois adoradores.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "Para conservar os dois, D. Candinha usou de um velho processo: dividindo com o segundo as esperanças do primeiro, e ambos ficavam entusiasmados.",
+        "start_char": 11622,
+        "end_char": 11634,
+        "excerpt": "D. Candinha percebeu, em pouco tempo, que em vez de um, tinha dois adoradores. Não era motivo de pôr luto ou deitar fogo à casa; parece mesmo que era caso de vestir galas; e a rigor, se alguma falha havia, era que eles fossem dois, e não três ou quatro. Para conservar os dois, D. Candinha usou de um velho processo: dividindo com o segundo as esperanças do primeiro, e ambos ficavam entusiasmados.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Verdade é que o Cesário, posto não fosse tão valente, como dizia, era muito mais que o Brandão.",
+        "start_char": 11784,
+        "end_char": 11791,
+        "excerpt": "Não era motivo de pôr luto ou deitar fogo à casa; parece mesmo que era caso de vestir galas; e a rigor, se alguma falha havia, era que eles fossem dois, e não três ou quatro. Para conservar os dois, D. Candinha usou de um velho processo: dividindo com o segundo as esperanças do primeiro, e ambos ficavam entusiasmados. Verdade é que o Cesário, posto não fosse tão valente, como dizia, era muito mais que o Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Cesário",
+                "child": "valente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "valente",
+                "categories": [
+                    "carater_emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Verdade é que o Cesário, posto não fosse tão valente, como dizia, era muito mais que o Brandão.",
+        "start_char": 11855,
+        "end_char": 11862,
+        "excerpt": "Não era motivo de pôr luto ou deitar fogo à casa; parece mesmo que era caso de vestir galas; e a rigor, se alguma falha havia, era que eles fossem dois, e não três ou quatro. Para conservar os dois, D. Candinha usou de um velho processo: dividindo com o segundo as esperanças do primeiro, e ambos ficavam entusiasmados. Verdade é que o Cesário, posto não fosse tão valente, como dizia, era muito mais que o Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "start_char": 12101,
+        "end_char": 12108,
+        "excerpt": "Continuou a olhar para ele. Mentalmente, comparava-os: Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "descobriu",
+                "child": "o Brandão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descobrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "start_char": 12142,
+        "end_char": 12149,
+        "excerpt": "Continuou a olhar para ele. Mentalmente, comparava-os: Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um olhar",
+                "child": "o amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olhar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o amigo",
+                "child": "a viúva",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o amigo",
+                "child": "um olhar",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "start_char": 12152,
+        "end_char": 12159,
+        "excerpt": "Continuou a olhar para ele. Mentalmente, comparava-os: Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o amigo",
+                "child": "a viúva",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "um olhar",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ao amigo",
+        "sentence": "Daí a dias notou mais dois olhares, e passou mal a noite, dormiu tarde e mal; sonhou que matara ao amigo.",
+        "start_char": 12319,
+        "end_char": 12327,
+        "excerpt": "Um dia o Brandão descobriu um olhar trocado entre o amigo e a viúva. Naturalmente ficou desconsolado, mas não disse nada; esperou. Daí a dias notou mais dois olhares, e passou mal a noite, dormiu tarde e mal; sonhou que matara ao amigo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "start_char": 12603,
+        "end_char": 12610,
+        "excerpt": "Isso nunca! Então que queres?  Quero que me digas, francamente, se gostas dela, e se vocês se namoram. Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "declarou-lhe",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "declarar ele",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "start_char": 12681,
+        "end_char": 12688,
+        "excerpt": "Isso nunca! Então que queres?  Quero que me digas, francamente, se gostas dela, e se vocês se namoram. Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "namorar",
+                "child": "a viúva",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "namorar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": ", e o Brandão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e o Brandão",
+                "child": "a viúva",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "start_char": 12694,
+        "end_char": 12701,
+        "excerpt": "Isso nunca! Então que queres?  Quero que me digas, francamente, se gostas dela, e se vocês se namoram. Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a viúva",
+                "child": ", e o Brandão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e o Brandão",
+                "child": "a viúva",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os dois",
+        "sentence": "Uma noite, ceando os dois, de volta da casa dela, estiveram a ponto de brigar formalmente.",
+        "start_char": 12877,
+        "end_char": 12884,
+        "excerpt": "Cesário declarou-lhe que era uma simples fantasia dele, e continuou a namorar a viúva, e o Brandão também, e ela aos dois, todos com a maior unanimidade. Naturalmente as desconfianças reviveram, e assim as explicações, e começaram os azedumes e as brigas. Uma noite, ceando os dois, de volta da casa dela, estiveram a ponto de brigar formalmente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Mais tarde separaram-se por dias; mas como o Cesário teve de ir a Minas, o outro reconciliou-se com ele à volta, e dessa vez não instou para que tornasse a freqüentar a casa da viúva.",
+        "start_char": 12995,
+        "end_char": 13002,
+        "excerpt": "Naturalmente as desconfianças reviveram, e assim as explicações, e começaram os azedumes e as brigas. Uma noite, ceando os dois, de volta da casa dela, estiveram a ponto de brigar formalmente. Mais tarde separaram-se por dias; mas como o Cesário teve de ir a Minas, o outro reconciliou-se com ele à volta, e dessa vez não instou para que tornasse a freqüentar a casa da viúva.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "o Cesário",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais.",
+        "start_char": 13269,
+        "end_char": 13276,
+        "excerpt": "Esta é que lhe mandou convite para outra reunião; e tal foi o princípio de novas contendas. As ações de ambos continuavam no mesmo pé. A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "distribuía",
+                "child": "A viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "distribuíar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais.",
+        "start_char": 13329,
+        "end_char": 13336,
+        "excerpt": "Esta é que lhe mandou convite para outra reunião; e tal foi o princípio de novas contendas. As ações de ambos continuavam no mesmo pé. A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "começava",
+                "child": "o Cesário",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma pequenina mancha branca",
+        "sentence": "Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas.",
+        "start_char": 13436,
+        "end_char": 13463,
+        "excerpt": "As ações de ambos continuavam no mesmo pé. A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais. Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "algum navio",
+        "sentence": "Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas.",
+        "start_char": 13469,
+        "end_char": 13480,
+        "excerpt": "As ações de ambos continuavam no mesmo pé. A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais. Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Era navio e de alto bordo;  um viúvo, médico, ainda conservado, que entrou a cortejar a viúva.",
+        "start_char": 13607,
+        "end_char": 13614,
+        "excerpt": "A viúva distribuía as finezas com igualdade prodigiosa, e o Cesário começava a achar que a complacência para com o outro era longa demais. Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas. Era navio e de alto bordo;  um viúvo, médico, ainda conservado, que entrou a cortejar a viúva.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cortejar",
+                "child": "a viúva",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "cortejar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": ";  um viúvo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a viúva",
+                "child": "navio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "navio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Lopes",
+        "sentence": "Chamava-se João Lopes.",
+        "start_char": 13627,
+        "end_char": 13637,
+        "excerpt": "Nisto apareceu no horizonte uma pequenina mancha branca; era algum navio que se aproximava com as velas abertas. Era navio e de alto bordo;  um viúvo, médico, ainda conservado, que entrou a cortejar a viúva. Chamava-se João Lopes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Chamava-se",
+                "child": "João Lopes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva foi passar alguns dias fora, depois da segunda; quando voltou, recebeu terceira, em que o Cesário lhe dizia as coisas mais ternas e súplices.",
+        "start_char": 13719,
+        "end_char": 13726,
+        "excerpt": "Chamava-se João Lopes. Já então o Cesário tinha arriscado uma carta, e mesmo duas, sem obter resposta. A viúva foi passar alguns dias fora, depois da segunda; quando voltou, recebeu terceira, em que o Cesário lhe dizia as coisas mais ternas e súplices.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "A viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "A viúva foi passar alguns dias fora, depois da segunda; quando voltou, recebeu terceira, em que o Cesário lhe dizia as coisas mais ternas e súplices.",
+        "start_char": 13817,
+        "end_char": 13824,
+        "excerpt": "Chamava-se João Lopes. Já então o Cesário tinha arriscado uma carta, e mesmo duas, sem obter resposta. A viúva foi passar alguns dias fora, depois da segunda; quando voltou, recebeu terceira, em que o Cesário lhe dizia as coisas mais ternas e súplices.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "arriscado",
+                "child": "o Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "arriscar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizia",
+                "child": "o Cesário",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a segunda",
+        "sentence": "Imaginei o resto e imaginei a segunda.",
+        "start_char": 14087,
+        "end_char": 14096,
+        "excerpt": "Nenhuma? Quatro palavras da primeira apenas. Imaginei o resto e imaginei a segunda.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "imaginei",
+                "child": "a segunda",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "segundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário refletiu alguns instantes: depois disse com muita discrição:",
+        "start_char": 14098,
+        "end_char": 14105,
+        "excerpt": "Quatro palavras da primeira apenas. Imaginei o resto e imaginei a segunda. Cesário refletiu alguns instantes: depois disse com muita discrição:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "refletiu",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "refletir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Cesário",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "D. Candinha continuou a recusar; ele deixou a carta no dunkerque, cumprimentou-a e saiu.",
+        "start_char": 14501,
+        "end_char": 14513,
+        "excerpt": "Não... não...  Perdão; pedi-lhe isto, é um favor último; juro que não tornarei mais. D. Candinha continuou a recusar; ele deixou a carta no dunkerque, cumprimentou-a e saiu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva",
+        "sentence": "A viúva não desgostou de ver a obstinação do rapaz, teve curiosidade de ler o papel, e achou que o podia fazer sem perigo.",
+        "start_char": 14591,
+        "end_char": 14598,
+        "excerpt": "juro que não tornarei mais. D. Candinha continuou a recusar; ele deixou a carta no dunkerque, cumprimentou-a e saiu. A viúva não desgostou de ver a obstinação do rapaz, teve curiosidade de ler o papel, e achou que o podia fazer sem perigo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desgostou",
+                "child": "A viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desgostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rapaz",
+        "sentence": "A viúva não desgostou de ver a obstinação do rapaz, teve curiosidade de ler o papel, e achou que o podia fazer sem perigo.",
+        "start_char": 14636,
+        "end_char": 14641,
+        "excerpt": "juro que não tornarei mais. D. Candinha continuou a recusar; ele deixou a carta no dunkerque, cumprimentou-a e saiu. A viúva não desgostou de ver a obstinação do rapaz, teve curiosidade de ler o papel, e achou que o podia fazer sem perigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a obstinação",
+                "child": "rapaz",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "obstinação",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rapaz",
+                "child": "a obstinação",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rapaz",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "obstinação",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Candinha",
+        "sentence": "D. Candinha resolveu dar-lhe resposta igual à das primeiras, que era nenhuma.",
+        "start_char": 14800,
+        "end_char": 14812,
+        "excerpt": "A viúva não desgostou de ver a obstinação do rapaz, teve curiosidade de ler o papel, e achou que o podia fazer sem perigo. Não transcrevo nada, por que eram as mesmas coisas de todas as cartas de igual gênero. D. Candinha resolveu dar-lhe resposta igual à das primeiras, que era nenhuma.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Cesário teve o desengano verbal, três dias depois, e atribuiu-o ao Brandão.",
+        "start_char": 14879,
+        "end_char": 14886,
+        "excerpt": "Não transcrevo nada, por que eram as mesmas coisas de todas as cartas de igual gênero. D. Candinha resolveu dar-lhe resposta igual à das primeiras, que era nenhuma. Cesário teve o desengano verbal, três dias depois, e atribuiu-o ao Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Cesário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Cesário teve o desengano verbal, três dias depois, e atribuiu-o ao Brandão.",
+        "start_char": 14946,
+        "end_char": 14953,
+        "excerpt": "Não transcrevo nada, por que eram as mesmas coisas de todas as cartas de igual gênero. D. Candinha resolveu dar-lhe resposta igual à das primeiras, que era nenhuma. Cesário teve o desengano verbal, três dias depois, e atribuiu-o ao Brandão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atribuiu-o",
+                "child": "Brandão",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atribuiu-o",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre - diabo",
+        "sentence": "O pobre-diabo quase teve uma congestão.",
+        "start_char": 15258,
+        "end_char": 15273,
+        "excerpt": "Escreveu-lhe uma carta a que ela respondeu deste modo: Devolvo o bilhete que me entregou ontem, por engano, e desculpe se li as primeiras palavras; afianço-lhe que não vi o resto. O pobre-diabo quase teve uma congestão.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viúva",
+        "sentence": "Meteu-se na cama três dias, e levantou-se resolvido a voltar lá; mas a viúva tornara a sair da cidade",
+        "start_char": 15368,
+        "end_char": 15375,
+        "excerpt": "afianço-lhe que não vi o resto. O pobre-diabo quase teve uma congestão. Meteu-se na cama três dias, e levantou-se resolvido a voltar lá; mas a viúva tornara a sair da cidade",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tornara",
+                "child": "a viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o médico",
+        "sentence": "Quatro meses depois casava ela com o médico.",
+        "start_char": 15436,
+        "end_char": 15444,
+        "excerpt": "O pobre-diabo quase teve uma congestão. Meteu-se na cama três dias, e levantou-se resolvido a voltar lá; mas a viúva tornara a sair da cidade Quatro meses depois casava ela com o médico.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "casava",
+                "child": "o médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandão",
+        "sentence": "Quanto ao Brandão e o Cesário, que estavam já brigados, nunca mais se falaram; criaram ódio um ao outro, ódio implacável e mortal.",
+        "start_char": 15456,
+        "end_char": 15463,
+        "excerpt": "Meteu-se na cama três dias, e levantou-se resolvido a voltar lá; mas a viúva tornara a sair da cidade Quatro meses depois casava ela com o médico. Quanto ao Brandão e o Cesário, que estavam já brigados, nunca mais se falaram; criaram ódio um ao outro, ódio implacável e mortal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falaram",
+                "child": "Quanto ao Brandão",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Quanto ao Brandão",
+                "child": "o Cesário",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Cesário",
+                "child": "Quanto ao Brandão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário",
+        "sentence": "Quanto ao Brandão e o Cesário, que estavam já brigados, nunca mais se falaram; criaram ódio um ao outro, ódio implacável e mortal.",
+        "start_char": 15468,
+        "end_char": 15475,
+        "excerpt": "Meteu-se na cama três dias, e levantou-se resolvido a voltar lá; mas a viúva tornara a sair da cidade Quatro meses depois casava ela com o médico. Quanto ao Brandão e o Cesário, que estavam já brigados, nunca mais se falaram; criaram ódio um ao outro, ódio implacável e mortal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Quanto ao Brandão",
+                "child": "o Cesário",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Cesário",
+                "child": "Quanto ao Brandão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o leitor",
+        "sentence": "O triste é que ambos começaram por não gostar da mesma mulher, como o leitor sabe, se se lembra do que leu.",
+        "start_char": 15645,
+        "end_char": 15653,
+        "excerpt": "Quatro meses depois casava ela com o médico. Quanto ao Brandão e o Cesário, que estavam já brigados, nunca mais se falaram; criaram ódio um ao outro, ódio implacável e mortal. O triste é que ambos começaram por não gostar da mesma mulher, como o leitor sabe, se se lembra do que leu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabe",
+                "child": "o leitor",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

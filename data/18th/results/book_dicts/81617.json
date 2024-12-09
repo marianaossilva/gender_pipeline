@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "O Peixe",
+        "sentence": "O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "start_char": 198,
+        "end_char": 205,
+        "excerpt": "A Manhã fresca está, sereno o vento, O monte verde, o rio transparente, O bosque ameno; e o prado florescente Fragâncias exalando cento a cento. O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alegra",
+                "child": "O Peixe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alegrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Peixe",
+                "child": ", a Ave",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Peixe",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Peixe",
+                "child": ", o branco",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Peixe",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "branco",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a Ave",
+                "child": "O Peixe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ave",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Bruto",
+                "child": "O Peixe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bruto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o branco",
+                "child": "O Peixe",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "branco",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Armento",
+                "child": "O Peixe",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "armento",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Bruto",
+        "sentence": "O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "start_char": 214,
+        "end_char": 221,
+        "excerpt": "A Manhã fresca está, sereno o vento, O monte verde, o rio transparente, O bosque ameno; e o prado florescente Fragâncias exalando cento a cento. O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", a Ave",
+                "child": ", o Bruto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ave",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Bruto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Bruto",
+                "child": ", a Ave",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bruto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Bruto",
+                "child": "O Peixe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bruto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Peixe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o branco Armento",
+        "sentence": "O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "start_char": 223,
+        "end_char": 239,
+        "excerpt": "A Manhã fresca está, sereno o vento, O monte verde, o rio transparente, O bosque ameno; e o prado florescente Fragâncias exalando cento a cento. O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rústicos casais",
+        "sentence": "Dos rústicos casais se vê contente, E discorrer com vário movimento.",
+        "start_char": 280,
+        "end_char": 295,
+        "excerpt": "O bosque ameno; e o prado florescente Fragâncias exalando cento a cento. O Peixe, a Ave, o Bruto, o branco Armento, Tudo se alegra; e até sair a gente Dos rústicos casais se vê contente, E discorrer com vário movimento.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

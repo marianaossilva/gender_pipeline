@@ -1,0 +1,194 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Obrigada!Auta de Souza",
+        "start_char": 9,
+        "end_char": 22,
+        "excerpt": "Obrigada!Auta de Souza A Nininha Andrade ... E tu rezas por mim!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nininha Andrade",
+        "sentence": "A Nininha Andrade ...",
+        "start_char": 25,
+        "end_char": 40,
+        "excerpt": "Obrigada!Auta de Souza A Nininha Andrade ... E tu rezas por mim!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Essa esmol",
+        "sentence": "Como agradeço Essa esmola gentil de teu carinho...",
+        "start_char": 79,
+        "end_char": 89,
+        "excerpt": "A Nininha Andrade ... E tu rezas por mim! Como agradeço Essa esmola gentil de teu carinho...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Como agradeço Essa esmola",
+                "child": "gentil",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "esmola",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "gentil",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Como agradeço Essa esmola",
+                "child": "teu carinho",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "esmola",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "carinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teu carinho",
+                "child": "Como agradeço Essa esmola",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "carinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "esmola",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minhalma",
+        "sentence": "Como as torturas de minhalma esqueço Nessa tua oração, floco de arminho!",
+        "start_char": 136,
+        "end_char": 144,
+        "excerpt": "E tu rezas por mim! Como agradeço Essa esmola gentil de teu carinho... Como as torturas de minhalma esqueço Nessa tua oração, floco de arminho!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as torturas",
+                "child": "minhalma",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tortura",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "minhalma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minhalma",
+                "child": "as torturas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "minhalma",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tortura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minhalma",
+                "child": "esqueço",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "minhalma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "esqueço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "santa",
+        "sentence": "Eu te bendigo, ó santa que estremeço, Alma tão pura como a flor do linho.",
+        "start_char": 206,
+        "end_char": 211,
+        "excerpt": "Como agradeço Essa esmola gentil de teu carinho... Como as torturas de minhalma esqueço Nessa tua oração, floco de arminho! Eu te bendigo, ó santa que estremeço, Alma tão pura como a flor do linho.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "bendigo",
+                "child": "ó santa que estremeço, Alma tão pura como a flor do linho",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "bendigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ó santa que estremeço, Alma tão pura como a flor do linho",
+                "child": "bendigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "bendigo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criança",
+        "sentence": "Reza, criança!",
+        "start_char": 334,
+        "end_char": 341,
+        "excerpt": "Eu te bendigo, ó santa que estremeço, Alma tão pura como a flor do linho. É tua prece à mágoa que padeço Asa de pomba defendendo um ninho! Reza, criança!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Reza",
+                "child": "criança",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Reza",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criança",
+                "child": "Reza",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Reza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

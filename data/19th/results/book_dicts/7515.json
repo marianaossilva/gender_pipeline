@@ -1,0 +1,1487 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 18,
+        "end_char": 31,
+        "excerpt": "UMA CARGA DE SONO Artur Azevedo Como o Alfredo tinha que partir para Minas às 5 horas da manhã, entendeu que o meio mais seguro de não perder o trem, o que mais de uma vez lhe sucedera, era passar a noite em claro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "Como o Alfredo tinha que partir para Minas às 5 horas da manhã, entendeu que o meio mais seguro de não perder o trem, o que mais de uma vez lhe sucedera, era passar a noite em claro.",
+        "start_char": 39,
+        "end_char": 46,
+        "excerpt": "UMA CARGA DE SONO Artur Azevedo Como o Alfredo tinha que partir para Minas às 5 horas da manhã, entendeu que o meio mais seguro de não perder o trem, o que mais de uma vez lhe sucedera, era passar a noite em claro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "o Alfredo",
+                "dep_h": "aux",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguns amigos",
+        "sentence": "Esteve no teatro até meia-noite, foi cear com alguns amigos, demorou-se no restaurante até as 2 horas, deu um passeio de carro pela Avenida Beira-Mar e, às 5 horas, estava comodamente sentado no trem, de guarda-pó e boné de viagem.",
+        "start_char": 272,
+        "end_char": 285,
+        "excerpt": "Como o Alfredo tinha que partir para Minas às 5 horas da manhã, entendeu que o meio mais seguro de não perder o trem, o que mais de uma vez lhe sucedera, era passar a noite em claro. Assim foi. Esteve no teatro até meia-noite, foi cear com alguns amigos, demorou-se no restaurante até as 2 horas, deu um passeio de carro pela Avenida Beira-Mar e, às 5 horas, estava comodamente sentado no trem, de guarda-pó e boné de viagem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cear",
+                "child": "alguns amigos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cear",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "O Alfredo começou então a examinar um casal que estava sentado diante dele.",
+        "start_char": 583,
+        "end_char": 590,
+        "excerpt": "Esteve no teatro até meia-noite, foi cear com alguns amigos, demorou-se no restaurante até as 2 horas, deu um passeio de carro pela Avenida Beira-Mar e, às 5 horas, estava comodamente sentado no trem, de guarda-pó e boné de viagem. Partiu o carro ainda ao lusco-fusco, só ali pelas alturas do Encantado o sol resolveu entrar lentamente pelas portinholas. O Alfredo começou então a examinar um casal que estava sentado diante dele.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "O Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um casal",
+        "sentence": "O Alfredo começou então a examinar um casal que estava sentado diante dele.",
+        "start_char": 616,
+        "end_char": 624,
+        "excerpt": "Esteve no teatro até meia-noite, foi cear com alguns amigos, demorou-se no restaurante até as 2 horas, deu um passeio de carro pela Avenida Beira-Mar e, às 5 horas, estava comodamente sentado no trem, de guarda-pó e boné de viagem. Partiu o carro ainda ao lusco-fusco, só ali pelas alturas do Encantado o sol resolveu entrar lentamente pelas portinholas. O Alfredo começou então a examinar um casal que estava sentado diante dele.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "examinar",
+                "child": "um casal",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "examinar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "casal",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um casal",
+                "child": "sentado",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "casal",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "sentado",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "marido",
+        "sentence": "Começou pelo marido: era um sujeito vulgaríssimo, que se parecia com todo o mundo, e tanto poderia ser negociante como empregado público, industrial, etc. Tinha uma dessas caras inexpressivas, que se adaptam a todas as profissões.",
+        "start_char": 670,
+        "end_char": 676,
+        "excerpt": "Partiu o carro ainda ao lusco-fusco, só ali pelas alturas do Encantado o sol resolveu entrar lentamente pelas portinholas. O Alfredo começou então a examinar um casal que estava sentado diante dele. Começou pelo marido: era um sujeito vulgaríssimo, que se parecia com todo o mundo, e tanto poderia ser negociante como empregado público, industrial, etc. Tinha uma dessas caras inexpressivas, que se adaptam a todas as profissões.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "caras",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Começou",
+                "child": "marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente.",
+        "start_char": 897,
+        "end_char": 904,
+        "excerpt": "O Alfredo começou então a examinar um casal que estava sentado diante dele. Começou pelo marido: era um sujeito vulgaríssimo, que se parecia com todo o mundo, e tanto poderia ser negociante como empregado público, industrial, etc. Tinha uma dessas caras inexpressivas, que se adaptam a todas as profissões. Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "caras",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "O Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Passou",
+                "child": "o Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Passou",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente.",
+        "start_char": 916,
+        "end_char": 925,
+        "excerpt": "O Alfredo começou então a examinar um casal que estava sentado diante dele. Começou pelo marido: era um sujeito vulgaríssimo, que se parecia com todo o mundo, e tanto poderia ser negociante como empregado público, industrial, etc. Tinha uma dessas caras inexpressivas, que se adaptam a todas as profissões. Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "caras",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "examinar",
+                "child": "a senhora",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "examinar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Alfredo",
+        "sentence": "Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde.",
+        "start_char": 1102,
+        "end_char": 1111,
+        "excerpt": "Começou pelo marido: era um sujeito vulgaríssimo, que se parecia com todo o mundo, e tanto poderia ser negociante como empregado público, industrial, etc. Tinha uma dessas caras inexpressivas, que se adaptam a todas as profissões. Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente. Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "caras",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Passou",
+                "child": "o Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Passou",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "procurava",
+                "child": "o Alfredo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Alfredo",
+                "child": "oito meses",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alfredo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "formosa mulher",
+        "sentence": "O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela.",
+        "start_char": 1368,
+        "end_char": 1382,
+        "excerpt": "Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente. Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixada",
+                "child": "aquela formosa mulher",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquela formosa mulher",
+                "child": "a impressão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "impressão",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um indivíduo",
+        "sentence": "O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela.",
+        "start_char": 1487,
+        "end_char": 1499,
+        "excerpt": "Passou o Alfredo a examinar a senhora e não pôde conter um gesto de surpresa reconhecendo nela uma bonita mulher que um dia encontrara num bonde das Laranjeiras, e o namorara escandalosamente. Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acompanhada",
+                "child": "um indivíduo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "indivíduo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um indivíduo",
+                "child": "alegria",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "indivíduo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "alegria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", pelos modos",
+                "child": "um indivíduo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "modo",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "indivíduo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "direitos",
+                "child": "um indivíduo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "direito",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "indivíduo",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A desconhecida",
+        "sentence": "A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "start_char": 1555,
+        "end_char": 1569,
+        "excerpt": "Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela. A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "animou",
+                "child": "A desconhecida",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "desconhecida",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rapaz",
+        "sentence": "A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "start_char": 1577,
+        "end_char": 1584,
+        "excerpt": "Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela. A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "animou",
+                "child": "o rapaz",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "categories": [
+                    "emo",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as mulheres",
+        "sentence": "A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "start_char": 1616,
+        "end_char": 1627,
+        "excerpt": "Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela. A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os dois namorados",
+        "sentence": "A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "start_char": 1689,
+        "end_char": 1706,
+        "excerpt": "Havia oito meses que o Alfredo a procurava por toda a parte, passando em vão repetidas vezes pela casa daquele bairro onde ela entrara quando saiu do bonde. O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela. A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "podiam",
+                "child": "os dois namorados",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "namorado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "Felizmente o Alfredo não tinha calos, que, se os tivesse, ficariam em petição de miséria.",
+        "start_char": 1817,
+        "end_char": 1824,
+        "excerpt": "O não tê-la encontrado nunca mais lhe exacerbara a impressão amorosa deixada no seu espírito, mais que no seu coração, por aquela formosa mulher, e não se pode exprimir a alegria que lhe produziu a presença dela naquele trem, embora acompanhada por um indivíduo que, pelos modos, tinha direitos adquiridos sobre ela. A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos. Felizmente o Alfredo não tinha calos, que, se os tivesse, ficariam em petição de miséria.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "o Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali.",
+        "start_char": 1969,
+        "end_char": 1977,
+        "excerpt": "A desconhecida animou o rapaz com um desses sorrisos com que as mulheres, num segundo, se entregam de corpo e alma a um homem, e como os dois namorados não podiam apertar a mão um do outro, serviram-se dos pés como intérpretes dos seus sentimentos. Felizmente o Alfredo não tinha calos, que, se os tivesse, ficariam em petição de miséria. Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 3
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorrisos",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "arredava",
+                "child": "o marido",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "arredar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "impossível",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "impossível",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível.",
+        "start_char": 2002,
+        "end_char": 2009,
+        "excerpt": "Felizmente o Alfredo não tinha calos, que, se os tivesse, ficariam em petição de miséria. Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali. O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "o Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alimentava",
+                "child": "O Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alimentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homenzinho",
+        "sentence": "O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível.",
+        "start_char": 2107,
+        "end_char": 2119,
+        "excerpt": "Felizmente o Alfredo não tinha calos, que, se os tivesse, ficariam em petição de miséria. Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali. O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o homenzinho",
+                "child": "inamovível",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homenzinho",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "inamovível",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o casal",
+        "sentence": "Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala.",
+        "start_char": 2154,
+        "end_char": 2161,
+        "excerpt": "Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali. O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível. Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "subiu",
+                "child": "o casal",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "casal",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala.",
+        "start_char": 2201,
+        "end_char": 2208,
+        "excerpt": "Era impossível qualquer outra correspondência que não fosse aquela, porque o marido não arredava pé dali. O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível. Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "alimentava",
+                "child": "O Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alimentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "subiu",
+                "child": "o Alfredo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre namorado",
+        "sentence": "Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem.",
+        "start_char": 2281,
+        "end_char": 2297,
+        "excerpt": "O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível. Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala. Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebras",
+                    "pálpebra"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua bela companheira de viagem",
+        "sentence": "Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem.",
+        "start_char": 2579,
+        "end_char": 2609,
+        "excerpt": "O Alfredo alimentava uma vaga esperança de que ele descesse na estação de Belém para tomar café, mas qual, o homenzinho era inamovível. Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala. Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebras",
+                    "pálpebra"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Palmira",
+        "sentence": "Foi perto de Palmira que o desgraçado acordou, e - oh, desgraça! - estavam vazios os dois lugares defronte dele.",
+        "start_char": 2624,
+        "end_char": 2631,
+        "excerpt": "Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala. Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem. Foi perto de Palmira que o desgraçado acordou, e - oh, desgraça! - estavam vazios os dois lugares defronte dele.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebras",
+                    "pálpebra"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Palmira",
+                "child": ", e - oh",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Palmira",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "oh",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o desgraçado",
+                "child": "Palmira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "desgraçado",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Palmira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e - oh",
+                "child": "Palmira",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "oh",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Palmira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o desgraçado",
+        "sentence": "Foi perto de Palmira que o desgraçado acordou, e - oh, desgraça! - estavam vazios os dois lugares defronte dele.",
+        "start_char": 2636,
+        "end_char": 2648,
+        "excerpt": "Na Barra do Pirai o casal subiu ao restaurante para almoçar, e o Alfredo subiu também, mas não lhe foi possível chegar à fala. Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem. Foi perto de Palmira que o desgraçado acordou, e - oh, desgraça! - estavam vazios os dois lugares defronte dele.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebras",
+                    "pálpebra"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "o desgraçado",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "desgraçado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o desgraçado",
+                "child": "Palmira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "desgraçado",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Palmira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A moça",
+        "sentence": "A moça desaparecera...",
+        "start_char": 2724,
+        "end_char": 2730,
+        "excerpt": "Depois do almoço, o pobre namorado começou a sentir os efeitos da noite passada em claro: as pálpebras pesavam-lhe como se fossem de chumbo, e ele fazia esforços heróicos para não dormir; mas o sono foi implacável, e, quando o trem passou por Juiz de Fora, já ele dormia a sono solto, esquecido dos olhos e do pé da sua bela companheira de viagem. Foi perto de Palmira que o desgraçado acordou, e - oh, desgraça! - estavam vazios os dois lugares defronte dele. A moça desaparecera...",
+        "gender": "female",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebras",
+                    "pálpebra"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desaparecera",
+                "child": "A moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desaparecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "O Alfredo passou os olhos estremunhados por todo o vagão, na esperança de que ela e o marido houvessem simplesmente mudado de lugar.",
+        "start_char": 2812,
+        "end_char": 2819,
+        "excerpt": "quando?... onde?... em que estação?... Era impossível sabê-lo! O Alfredo passou os olhos estremunhados por todo o vagão, na esperança de que ela e o marido houvessem simplesmente mudado de lugar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "O Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "O Alfredo passou os olhos estremunhados por todo o vagão, na esperança de que ela e o marido houvessem simplesmente mudado de lugar.",
+        "start_char": 2894,
+        "end_char": 2902,
+        "excerpt": "quando?... onde?... em que estação?... Era impossível sabê-lo! O Alfredo passou os olhos estremunhados por todo o vagão, na esperança de que ela e o marido houvessem simplesmente mudado de lugar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "houvessem",
+                "child": "o marido",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "houver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "esperança",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "todo o vagão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "vagão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o marido",
+                "child": "os olhos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "0 mulher",
+        "sentence": "Ele dispunha-se a deitar fora esse pedaço de papel inútil, quando reparou que nas costas d anuncio havia qualquer coisa escrita a lápis, com letra de 0 mulher.",
+        "start_char": 3206,
+        "end_char": 3214,
+        "excerpt": "Nada!. Só então reparou que tinha na mão um anúncio de hotel, desses que em cada estação atiram aos passageiros. Ele dispunha-se a deitar fora esse pedaço de papel inútil, quando reparou que nas costas d anuncio havia qualquer coisa escrita a lápis, com letra de 0 mulher.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", com letra",
+                "child": "0 mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "letra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "0 mulher",
+                "child": ", com letra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "letra",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "0 mulher",
+                "child": "qualquer coisa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "coisa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alfredo",
+        "sentence": "E o Alfredo leu:",
+        "start_char": 3220,
+        "end_char": 3227,
+        "excerpt": "Só então reparou que tinha na mão um anúncio de hotel, desses que em cada estação atiram aos passageiros. Ele dispunha-se a deitar fora esse pedaço de papel inútil, quando reparou que nas costas d anuncio havia qualquer coisa escrita a lápis, com letra de 0 mulher. E o Alfredo leu:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "o Alfredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alfredo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

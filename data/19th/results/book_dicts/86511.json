@@ -1,0 +1,62 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Quando a erva crescer em cima da minha sepultura Alberto Caeiro Quando a erva crescer em cima da minha sepultura,",
+        "start_char": 49,
+        "end_char": 63,
+        "excerpt": "Quando a erva crescer em cima da minha sepultura Alberto Caeiro Quando a erva crescer em cima da minha sepultura, Seja este o sinal para me esquecerem de todo. A Natureza nunca se recorda, e por isso é bela.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "minha sepultura",
+                "child": "Alberto Caeiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sepultura",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "minha sepultura",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sepultura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Natureza",
+        "sentence": "A Natureza nunca se recorda, e por isso é bela.",
+        "start_char": 160,
+        "end_char": 170,
+        "excerpt": "Quando a erva crescer em cima da minha sepultura Alberto Caeiro Quando a erva crescer em cima da minha sepultura, Seja este o sinal para me esquecerem de todo. A Natureza nunca se recorda, e por isso é bela.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recorda",
+                "child": "A Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recordar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

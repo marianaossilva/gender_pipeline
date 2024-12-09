@@ -1,0 +1,1638 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Coelho Neto",
+        "sentence": "O DUPLO Coelho Neto -",
+        "start_char": 8,
+        "end_char": 19,
+        "excerpt": "O DUPLO Coelho Neto - Temos, então, um caso de desdobramento da personalidade do meu querido amigo? - Quem te disse ?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O DUPLO",
+                "child": "Coelho Neto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "DUPLO",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Coelho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Coelho Neto",
+                "child": "O DUPLO",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Coelho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "DUPLO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu querido amigo",
+        "sentence": "Temos, então, um caso de desdobramento da personalidade do meu querido amigo?",
+        "start_char": 81,
+        "end_char": 98,
+        "excerpt": "O DUPLO Coelho Neto - Temos, então, um caso de desdobramento da personalidade do meu querido amigo? - Quem te disse ?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "personalidade",
+                "child": "meu querido amigo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "personalidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu querido amigo",
+                "child": "personalidade",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "personalidade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu querido amigo",
+                "child": "desdobramento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desdobramento",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu querido amigo",
+                "child": "um caso",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caso",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "- Laura.",
+        "start_char": 120,
+        "end_char": 125,
+        "excerpt": "Temos, então, um caso de desdobramento da personalidade do meu querido amigo? - Quem te disse ? - Laura.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benito Soares",
+        "sentence": "Benito Soares ficou um momento encarado no coronel.",
+        "start_char": 127,
+        "end_char": 140,
+        "excerpt": "- Quem te disse ? - Laura. Benito Soares ficou um momento encarado no coronel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Benito Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Por fim, meneando com a cabeça, desabafou contrariando: - Laura...",
+        "start_char": 237,
+        "end_char": 242,
+        "excerpt": "- Laura. Benito Soares ficou um momento encarado no coronel. Por fim, meneando com a cabeça, desabafou contrariando: - Laura...",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desabafou",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desabafar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura faz mal em andar contando essa história por aí.",
+        "start_char": 246,
+        "end_char": 251,
+        "excerpt": "Benito Soares ficou um momento encarado no coronel. Por fim, meneando com a cabeça, desabafou contrariando: - Laura... Laura faz mal em andar contando essa história por aí.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desabafou",
+                "child": "- Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desabafar",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "faz",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Laura",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Malveiro",
+        "sentence": "Há dias, em casa do Leivas, pouco faltou para que eu rompesse com o Malveiro, a propósito do que se deu comigo, e que lhe contaram não sei onde, entendeu que me devia tomar à sua conta, expondo-me à risota de uns petimetres ridículos que o cercam.",
+        "start_char": 395,
+        "end_char": 405,
+        "excerpt": "- Ora! Que tem... Há dias, em casa do Leivas, pouco faltou para que eu rompesse com o Malveiro, a propósito do que se deu comigo, e que lhe contaram não sei onde, entendeu que me devia tomar à sua conta, expondo-me à risota de uns petimetres ridículos que o cercam.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rompesse",
+                "child": "o Malveiro",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "romper",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Malveiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os tais mocinhos",
+        "sentence": "Fiz-lhe sentir que não me agradavam os seus remoques e deixei-o com os tais mocinhos, que lhe aplaudem os versos quando ele lhes paga a cerveja ou o chá, aí por essas casas.",
+        "start_char": 645,
+        "end_char": 661,
+        "excerpt": "Que tem... Há dias, em casa do Leivas, pouco faltou para que eu rompesse com o Malveiro, a propósito do que se deu comigo, e que lhe contaram não sei onde, entendeu que me devia tomar à sua conta, expondo-me à risota de uns petimetres ridículos que o cercam. Fiz-lhe sentir que não me agradavam os seus remoques e deixei-o com os tais mocinhos, que lhe aplaudem os versos quando ele lhes paga a cerveja ou o chá, aí por essas casas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixei-o",
+                "child": "os tais mocinhos",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "deixei-o",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mocinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os quatro evangelistas",
+        "sentence": "Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros.",
+        "start_char": 1127,
+        "end_char": 1149,
+        "excerpt": "Não ando a pregar doutrinas: não sou sectário, não freqüento sessões nem leio, sequer, as tais obras de propaganda que pretendem revelar o que se passa no Além da morte. Sou religioso à velha moda, observando a doutrina que aprendi, ainda que não ande beatamente pelas igrejas de círio e ripanço. Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os reformadores",
+        "sentence": "Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros.",
+        "start_char": 1218,
+        "end_char": 1233,
+        "excerpt": "Não ando a pregar doutrinas: não sou sectário, não freqüento sessões nem leio, sequer, as tais obras de propaganda que pretendem revelar o que se passa no Além da morte. Sou religioso à velha moda, observando a doutrina que aprendi, ainda que não ande beatamente pelas igrejas de círio e ripanço. Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seguindo",
+                "child": "os reformadores",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "seguir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "reformador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus pais",
+        "sentence": "Onde me deixaram meus pais, que foram os meus iniciadores, aí ficarei até morrer.",
+        "start_char": 1353,
+        "end_char": 1362,
+        "excerpt": "Sou religioso à velha moda, observando a doutrina que aprendi, ainda que não ande beatamente pelas igrejas de círio e ripanço. Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros. Onde me deixaram meus pais, que foram os meus iniciadores, aí ficarei até morrer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixaram",
+                "child": "meus pais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus iniciado",
+        "sentence": "Onde me deixaram meus pais, que foram os meus iniciadores, aí ficarei até morrer.",
+        "start_char": 1377,
+        "end_char": 1390,
+        "excerpt": "Sou religioso à velha moda, observando a doutrina que aprendi, ainda que não ande beatamente pelas igrejas de círio e ripanço. Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros. Onde me deixaram meus pais, que foram os meus iniciadores, aí ficarei até morrer.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Contei a Laura a tal história como contaria um acidente qualquer de rua, sem cuidar que ela fizesse do caso assunto de palestra nos salões que freqüenta.",
+        "start_char": 1427,
+        "end_char": 1432,
+        "excerpt": "Cumpro rigorosamente os Mandamentos e os marcos que limitam a minha Crença são os quatro evangelistas; fora de tais \"termos\" não dou um passo - nem para diante, seguindo os reformadores, que pregam o novo Credo, nem para trás acercando-me de altares pagãos ou adorando ídolos grosseiros. Onde me deixaram meus pais, que foram os meus iniciadores, aí ficarei até morrer. Contei a Laura a tal história como contaria um acidente qualquer de rua, sem cuidar que ela fizesse do caso assunto de palestra nos salões que freqüenta.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Contei",
+                "child": "a Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Contei",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os cépticos",
+        "sentence": "Os cépticos encolhem os ombros sorrindo, os adversários, à falta de argumentos com que os destruam, bradam contra os que os apregoam.",
+        "start_char": 2082,
+        "end_char": 2093,
+        "excerpt": "Sabes que, além de discreto, não sou dos que zombam do sobrenatural. Os fatos ai estão: produzem-se, reproduzem-se e, se ninguém os explica, muitos dão deles testemunho e provas e eles, efetivamente, manifestam- se visível, sensivelmente. Os cépticos encolhem os ombros sorrindo, os adversários, à falta de argumentos com que os destruam, bradam contra os que os apregoam.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombro",
+                    "ombros"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "encolhem",
+                "child": "Os cépticos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encolhem",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "céptico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os adversários",
+        "sentence": "Os cépticos encolhem os ombros sorrindo, os adversários, à falta de argumentos com que os destruam, bradam contra os que os apregoam.",
+        "start_char": 2123,
+        "end_char": 2137,
+        "excerpt": "Sabes que, além de discreto, não sou dos que zombam do sobrenatural. Os fatos ai estão: produzem-se, reproduzem-se e, se ninguém os explica, muitos dão deles testemunho e provas e eles, efetivamente, manifestam- se visível, sensivelmente. Os cépticos encolhem os ombros sorrindo, os adversários, à falta de argumentos com que os destruam, bradam contra os que os apregoam.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombro",
+                    "ombros"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sorrindo",
+                "child": "os adversários",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Borges",
+        "sentence": "Saindo do Alvear, subi vagarosamente a Avenida até a Tabacaria Londres, onde comprei charutos e estive um instante a conversar com o Borges sobre coisas da vida.",
+        "start_char": 2968,
+        "end_char": 2976,
+        "excerpt": "- Não sei que foi. Digo-te apenas que passei os minutos mais angustiosos da minha vida. Saindo do Alvear, subi vagarosamente a Avenida até a Tabacaria Londres, onde comprei charutos e estive um instante a conversar com o Borges sobre coisas da vida.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conversar",
+                "child": "o Borges",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "conversar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borges",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Borges",
+                "child": "um instante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Borges",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "instante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Borges",
+        "sentence": "O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano.",
+        "start_char": 2999,
+        "end_char": 3007,
+        "excerpt": "Digo-te apenas que passei os minutos mais angustiosos da minha vida. Saindo do Alvear, subi vagarosamente a Avenida até a Tabacaria Londres, onde comprei charutos e estive um instante a conversar com o Borges sobre coisas da vida. O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "anda",
+                "child": "O Borges",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borges",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marcos",
+        "sentence": "O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano.",
+        "start_char": 3029,
+        "end_char": 3035,
+        "excerpt": "Digo-te apenas que passei os minutos mais angustiosos da minha vida. Saindo do Alvear, subi vagarosamente a Avenida até a Tabacaria Londres, onde comprei charutos e estive um instante a conversar com o Borges sobre coisas da vida. O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a mania",
+                "child": "Marcos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mania",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Marcos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Marcos",
+                "child": "a mania",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Marcos",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mania",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre",
+        "sentence": "O que me está parecendo é que o pobre está com o juízo em pior estado de que as finanças germânicas.",
+        "start_char": 3228,
+        "end_char": 3235,
+        "excerpt": "Saindo do Alvear, subi vagarosamente a Avenida até a Tabacaria Londres, onde comprei charutos e estive um instante a conversar com o Borges sobre coisas da vida. O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano. O que me está parecendo é que o pobre está com o juízo em pior estado de que as finanças germânicas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o pobre",
+                "child": "juízo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pobre",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "juízo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "juízo",
+                "child": "o pobre",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "juízo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pobre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Borges",
+        "sentence": "Enfim, deixando o Borges, dirigi-me, sem mais empeços, para a Galeria, onde comprei os jornais.",
+        "start_char": 3315,
+        "end_char": 3323,
+        "excerpt": "O Borges anda com a mania dos Marcos; possuí não sei quantos milhões, e espera que a Alemanha recomponha as finanças para aturdir-nos, a nós e ao mundo, com a vida maravilhosa que tem toda em plano. O que me está parecendo é que o pobre está com o juízo em pior estado de que as finanças germânicas. Enfim, deixando o Borges, dirigi-me, sem mais empeços, para a Galeria, onde comprei os jornais.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixando",
+                "child": "o Borges",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Borges",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um obeso cavalheiro ruivo",
+        "sentence": "Não consegui uma ponta e fiquei entalado no banco da frente, entre um obeso cavalheiro ruivo e uma matrona anafada, dessas que se esparralham.",
+        "start_char": 3510,
+        "end_char": 3535,
+        "excerpt": "Enfim, deixando o Borges, dirigi-me, sem mais empeços, para a Galeria, onde comprei os jornais. O meu bonde apareceu logo e logo foi assaltado. Não consegui uma ponta e fiquei entalado no banco da frente, entre um obeso cavalheiro ruivo e uma matrona anafada, dessas que se esparralham.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma matrona anafada",
+        "sentence": "Não consegui uma ponta e fiquei entalado no banco da frente, entre um obeso cavalheiro ruivo e uma matrona anafada, dessas que se esparralham.",
+        "start_char": 3538,
+        "end_char": 3557,
+        "excerpt": "Enfim, deixando o Borges, dirigi-me, sem mais empeços, para a Galeria, onde comprei os jornais. O meu bonde apareceu logo e logo foi assaltado. Não consegui uma ponta e fiquei entalado no banco da frente, entre um obeso cavalheiro ruivo e uma matrona anafada, dessas que se esparralham.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os aviadores",
+        "sentence": "Os olhos passeavam pelas palavras, sem que o espírito lhe colhesse o sentido, como deve acontecer com os aviadores que vêem, de muito alto, todo o panorama de uma cidade em mancha, sem distinguir os bairros, as ruas, os edifícios, apenas o alvejamento das casas, a placa cintilante do mar, o relevo dos montes.",
+        "start_char": 3882,
+        "end_char": 3894,
+        "excerpt": "O bonde partiu e, oprimido pelas duas enxúndias, dificilmente consegui abrir um dos jornais. Pus-me a ler, ou antes: a olhar a página porque, em verdade, a minha atenção vagueava, aí por longe. Os olhos passeavam pelas palavras, sem que o espírito lhe colhesse o sentido, como deve acontecer com os aviadores que vêem, de muito alto, todo o panorama de uma cidade em mancha, sem distinguir os bairros, as ruas, os edifícios, apenas o alvejamento das casas, a placa cintilante do mar, o relevo dos montes.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acontecer",
+                "child": "os aviadores",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "acontecer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todo o panorama",
+                "child": "os aviadores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "panorama",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma cidade",
+                "child": "os aviadores",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mancha",
+                "child": "os aviadores",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mancha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os bairros",
+                "child": "os aviadores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "bairro",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as ruas",
+                "child": "os aviadores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os edifícios",
+                "child": "os aviadores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "edifício",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apenas o alvejamento",
+                "child": "os aviadores",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "alvejamento",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casas",
+                "child": "os aviadores",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "aviador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus companheiros laterais",
+        "sentence": "como refletido em um espelho, e certo estremeci vivamente, incomodando os meus companheiros laterais, porque ambos voltaram-se encarando-se de má sombra.",
+        "start_char": 4479,
+        "end_char": 4505,
+        "excerpt": "Eu, eu em pessoa sentado defronte de mim, no banco da frente, que dá costas à plataforma. Era eu, eu! como refletido em um espelho, e certo estremeci vivamente, incomodando os meus companheiros laterais, porque ambos voltaram-se encarando-se de má sombra.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a borboleta",
+        "sentence": "\"Se tal se dá é que o meu espírito, alma, ou lá o que seja, exalou-se de mim, deixando-me apenas o corpo, como a borboleta deixa o casulo em que se opera a metamorfose.",
+        "start_char": 4852,
+        "end_char": 4863,
+        "excerpt": "como refletido em um espelho, e certo estremeci vivamente, incomodando os meus companheiros laterais, porque ambos voltaram-se encarando-se de má sombra. Pasmado, sem poder desfitar os olhos daquele reflexo, que era, em tudo, eu: nas feições, na atitude, no trajo, não parecido, mas reproduzido em exteriorização, pensei de mim comigo: \"Se tal se dá é que o meu espírito, alma, ou lá o que seja, exalou-se de mim, deixando-me apenas o corpo, como a borboleta deixa o casulo em que se opera a metamorfose.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deixa",
+                "child": "a borboleta",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "borboleta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os passageiros",
+        "sentence": "Dar-se-ia, então, o alarma: todos os passageiros de pé, a verificação da minha morte, o reconhecimento do meu cadáver pelo condutor e a minha entrada fúnebre em casa\".",
+        "start_char": 5238,
+        "end_char": 5252,
+        "excerpt": "E, em menos de um segundo, vi todo o horror da cena, que seria cômica, se não fosse trágica, que se daria com a retirada de um daqueles gordos. Desamparado, o meu corpo vazio tombaria. Dar-se-ia, então, o alarma: todos os passageiros de pé, a verificação da minha morte, o reconhecimento do meu cadáver pelo condutor e a minha entrada fúnebre em casa\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Dar-se-ia",
+                "child": "todos os passageiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dar-se-ia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os passageiros",
+                "child": "pé",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "passageiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os passageiros",
+                "child": "a verificação",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "passageiro",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "verificação",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os passageiros",
+                "child": ", o reconhecimento",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "passageiro",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "reconhecimento",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pé",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a verificação",
+                "child": "todos os passageiros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "verificação",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha morte",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o reconhecimento",
+                "child": "todos os passageiros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "reconhecimento",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu cadáver",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cadáver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "condutor",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condutor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a minha entrada",
+                "child": "todos os passageiros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "entrada",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "\"",
+                "child": "todos os passageiros",
+                "dep_h": "nummod",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "condutor",
+        "sentence": "Dar-se-ia, então, o alarma: todos os passageiros de pé, a verificação da minha morte, o reconhecimento do meu cadáver pelo condutor e a minha entrada fúnebre em casa\".",
+        "start_char": 5327,
+        "end_char": 5335,
+        "excerpt": "E, em menos de um segundo, vi todo o horror da cena, que seria cômica, se não fosse trágica, que se daria com a retirada de um daqueles gordos. Desamparado, o meu corpo vazio tombaria. Dar-se-ia, então, o alarma: todos os passageiros de pé, a verificação da minha morte, o reconhecimento do meu cadáver pelo condutor e a minha entrada fúnebre em casa\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "meu cadáver",
+                "child": "condutor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cadáver",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "condutor",
+                "child": "meu cadáver",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condutor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cadáver",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "condutor",
+                "child": ", o reconhecimento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condutor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "reconhecimento",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "condutor",
+                "child": "todos os passageiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condutor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os passageiros",
+        "sentence": "Fiz um esforço supremo como se quisesse levantar o bonde com todos os passageiros que ele continha e, arremessando os braços, pus-me de pé.",
+        "start_char": 6082,
+        "end_char": 6096,
+        "excerpt": "Sentia-me rígido, petrificado e tinha a sensação de frio, como se me fosse congelando, a começar pelos pés. E o outro sempre encarado em mim. Fiz um esforço supremo como se quisesse levantar o bonde com todos os passageiros que ele continha e, arremessando os braços, pus-me de pé.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantar",
+                "child": "todos os passageiros",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os braços",
+                "child": "todos os passageiros",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pus-me",
+                "child": "todos os passageiros",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "pus-me",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pé",
+                "child": "todos os passageiros",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passageiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A matrona",
+        "sentence": "A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "start_char": 6155,
+        "end_char": 6164,
+        "excerpt": "E o outro sempre encarado em mim. Fiz um esforço supremo como se quisesse levantar o bonde com todos os passageiros que ele continha e, arremessando os braços, pus-me de pé. A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braços",
+                    "braço",
+                    "braço"
+                ],
+                "occurrences_n": 4
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "A matrona",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "matrona",
+                "categories": [
+                    "aparencia_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ruivo",
+        "sentence": "A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "start_char": 6343,
+        "end_char": 6350,
+        "excerpt": "E o outro sempre encarado em mim. Fiz um esforço supremo como se quisesse levantar o bonde com todos os passageiros que ele continha e, arremessando os braços, pus-me de pé. A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braços",
+                    "braço",
+                    "braço"
+                ],
+                "occurrences_n": 4
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "roncou",
+                "child": "o ruivo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "roncar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ruivo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o ruivo",
+                "child": "tal carranca",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ruivo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "carranca",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ulano",
+        "sentence": "A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "start_char": 6409,
+        "end_char": 6414,
+        "excerpt": "E o outro sempre encarado em mim. Fiz um esforço supremo como se quisesse levantar o bonde com todos os passageiros que ele continha e, arremessando os braços, pus-me de pé. A matrona levantou a cabeça com atrevimento e olhou-me com tal carranca que eu pensei que me fosse agatafunhar ou, com a força dos braços, que eram duas coxas, atirar-me do bonde abaixo e o ruivo roncou ameaçadoramente, aprumando a cabeçorra quadrada de ulano com entono de desafio.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braços",
+                    "braço",
+                    "braço"
+                ],
+                "occurrences_n": 4
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a cabeçorra",
+                "child": "ulano",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cabeçorra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ulano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ulano",
+                "child": "a cabeçorra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ulano",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cabeçorra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ulano",
+                "child": "tal carranca",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ulano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "carranca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Eis o meu caso, o caso que tantos aborrecimentos me tem trazido pela tagarelice de Laura, a quem o contei, e que o repete por aí, a todo o mundo.",
+        "start_char": 7046,
+        "end_char": 7051,
+        "excerpt": "Tornara a mim, atraído pela vontade, na ânsia de viver, no desespero em que me vi, só comparável ao de alguém que, indo ao fundo, sem saber nadar, debate-se agoniadamente conseguindo elevar-se à tona e gritar a socorro. E tudo isso, meu amigo, não durou, talvez, um minuto e eu guardo de tais instantes a impressão penosa de um século de sofrimento. Eis o meu caso, o caso que tantos aborrecimentos me tem trazido pela tagarelice de Laura, a quem o contei, e que o repete por aí, a todo o mundo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tagarelice",
+                "child": "Laura",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tagarelice",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": "tagarelice",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tagarelice",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": "caso",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "caso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Juan de Maraña",
+        "sentence": "E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~",
+        "start_char": 7108,
+        "end_char": 7126,
+        "excerpt": "E tudo isso, meu amigo, não durou, talvez, um minuto e eu guardo de tais instantes a impressão penosa de um século de sofrimento. Eis o meu caso, o caso que tantos aborrecimentos me tem trazido pela tagarelice de Laura, a quem o contei, e que o repete por aí, a todo o mundo. E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o esquife",
+        "sentence": "E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~",
+        "start_char": 7220,
+        "end_char": 7229,
+        "excerpt": "E tudo isso, meu amigo, não durou, talvez, um minuto e eu guardo de tais instantes a impressão penosa de um século de sofrimento. Eis o meu caso, o caso que tantos aborrecimentos me tem trazido pela tagarelice de Laura, a quem o contei, e que o repete por aí, a todo o mundo. E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conduziam",
+                "child": "o esquife",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "conduzir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "esquife",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o morto",
+        "sentence": "Quem era o morto?",
+        "start_char": 7243,
+        "end_char": 7250,
+        "excerpt": "Eis o meu caso, o caso que tantos aborrecimentos me tem trazido pela tagarelice de Laura, a quem o contei, e que o repete por aí, a todo o mundo. E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~ Quem era o morto?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Juan de Maraña",
+        "sentence": "\" E logo lhe foi respondido: - É D. Juan de Maraña.",
+        "start_char": 7251,
+        "end_char": 7269,
+        "excerpt": "E crença que D. Juan de Maraña, encontrando-se, certa noite, com um saimento, perguntou a um dos que conduziam o esquife: '~ Quem era o morto? \" E logo lhe foi respondido: - É D. Juan de Maraña.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o fidalgo",
+        "sentence": "Querendo o fidalgo verificar o que lhe dizia o farricoco e outros sinistramente repetiam, afastou o sudário e viu.",
+        "start_char": 7313,
+        "end_char": 7322,
+        "excerpt": "Quem era o morto? \" E logo lhe foi respondido: - É D. Juan de Maraña. Querendo o fidalgo verificar o que lhe dizia o farricoco e outros sinistramente repetiam, afastou o sudário e viu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "verificar",
+                "child": "o fidalgo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "verificar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fidalgo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o farricoco",
+        "sentence": "Querendo o fidalgo verificar o que lhe dizia o farricoco e outros sinistramente repetiam, afastou o sudário e viu.",
+        "start_char": 7349,
+        "end_char": 7360,
+        "excerpt": "Quem era o morto? \" E logo lhe foi respondido: - É D. Juan de Maraña. Querendo o fidalgo verificar o que lhe dizia o farricoco e outros sinistramente repetiam, afastou o sudário e viu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "o farricoco",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "farricoco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o defunto",
+        "sentence": "Efetivamente: o defunto era ele.",
+        "start_char": 7433,
+        "end_char": 7442,
+        "excerpt": "\" E logo lhe foi respondido: - É D. Juan de Maraña. Querendo o fidalgo verificar o que lhe dizia o farricoco e outros sinistramente repetiam, afastou o sudário e viu. Efetivamente: o defunto era ele.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

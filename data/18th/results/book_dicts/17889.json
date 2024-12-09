@@ -1,0 +1,1440 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "duas meninas de colégio",
+        "sentence": "Foi o que não cumpriram estas duas meninas de colégio, cuja história vou contar em três folhas de almaço.",
+        "start_char": 367,
+        "end_char": 390,
+        "excerpt": "II, Nova Aguilar, Rio de Janeiro, 1994. QUEM QUISER celebrar um consórcio, examine primeiro as condições, depois as forças próprias, e, finalmente, faça um cálculo de probabilidades. Foi o que não cumpriram estas duas meninas de colégio, cuja história vou contar em três folhas de almaço.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Josefa tinha mais um ano que Laura; era a diferença.",
+        "start_char": 633,
+        "end_char": 639,
+        "excerpt": "Eram amigas, e não se conheciam antes. Conheceram-se ali, simpatizaram uma com a outra, e travaram uma dessas amizades que resistem aos anos, e são muita vez a melhor recordação do passado. Josefa tinha mais um ano que Laura; era a diferença.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Josefa tinha mais um ano que Laura; era a diferença.",
+        "start_char": 662,
+        "end_char": 667,
+        "excerpt": "Eram amigas, e não se conheciam antes. Conheceram-se ali, simpatizaram uma com a outra, e travaram uma dessas amizades que resistem aos anos, e são muita vez a melhor recordação do passado. Josefa tinha mais um ano que Laura; era a diferença.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "que Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padrinho",
+        "sentence": "Eram filhas de funcionários públicos, ambas dispondo de um certo legado, que lhes deixara o padrinho.",
+        "start_char": 858,
+        "end_char": 868,
+        "excerpt": "No mais as mesmas. Igual estatura, igual índole, iguais olhos e igual nascimento. Eram filhas de funcionários públicos, ambas dispondo de um certo legado, que lhes deixara o padrinho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deixara",
+                "child": "o padrinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o padrinho",
+                "child": "Eram filhas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padrinho",
+        "sentence": "Para que a semelhança seja completa, o padrinho era o mesmo, um certo comendador Brás, capitalista.",
+        "start_char": 907,
+        "end_char": 917,
+        "excerpt": "Igual estatura, igual índole, iguais olhos e igual nascimento. Eram filhas de funcionários públicos, ambas dispondo de um certo legado, que lhes deixara o padrinho. Para que a semelhança seja completa, o padrinho era o mesmo, um certo comendador Brás, capitalista.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deixara",
+                "child": "o padrinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o padrinho",
+                "child": "Eram filhas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "comendador Brás",
+        "sentence": "Para que a semelhança seja completa, o padrinho era o mesmo, um certo comendador Brás, capitalista.",
+        "start_char": 940,
+        "end_char": 955,
+        "excerpt": "Igual estatura, igual índole, iguais olhos e igual nascimento. Eram filhas de funcionários públicos, ambas dispondo de um certo legado, que lhes deixara o padrinho. Para que a semelhança seja completa, o padrinho era o mesmo, um certo comendador Brás, capitalista.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as famílias",
+        "sentence": "Naturalmente, as relações continuaram cá fora, durante o colégio, e as famílias vieram a ligar-se, graças às meninas.",
+        "start_char": 1401,
+        "end_char": 1412,
+        "excerpt": "O colégio ligou-as desde tenros anos. No fim de poucos meses de freqüência, eram as mais unidas criaturas de todo ele, a ponto de causar inveja às outras, e até desconfiança, porque como cochichavam muita vez sozinhas, as outras imaginavam que diziam mal das companheiras. Naturalmente, as relações continuaram cá fora, durante o colégio, e as famílias vieram a ligar-se, graças às meninas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vieram",
+                "child": "as famílias",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "vier",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "família",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "às meninas",
+        "sentence": "Naturalmente, as relações continuaram cá fora, durante o colégio, e as famílias vieram a ligar-se, graças às meninas.",
+        "start_char": 1439,
+        "end_char": 1449,
+        "excerpt": "O colégio ligou-as desde tenros anos. No fim de poucos meses de freqüência, eram as mais unidas criaturas de todo ele, a ponto de causar inveja às outras, e até desconfiança, porque como cochichavam muita vez sozinhas, as outras imaginavam que diziam mal das companheiras. Naturalmente, as relações continuaram cá fora, durante o colégio, e as famílias vieram a ligar-se, graças às meninas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ligar-se",
+                "child": "graças às meninas",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ligar se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "menina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Um dia, no colégio, contavam elas onze e doze anos, lembrou-se Laura de propor à outra, adivinhem o quê?",
+        "start_char": 1672,
+        "end_char": 1677,
+        "excerpt": "Naturalmente, as relações continuaram cá fora, durante o colégio, e as famílias vieram a ligar-se, graças às meninas. Não digo nada das famílias, porque não é o principal do escrito, e eu prometi escrever isto em três folhas de almaço; basta saber que tinham ainda pai e mãe. Um dia, no colégio, contavam elas onze e doze anos, lembrou-se Laura de propor à outra, adivinhem o quê?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lembrou-se",
+                "child": "Laura",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "lembrou-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma prima de Josefa",
+        "sentence": "Falavam do casamento de uma prima de Josefa, e que há de lembrar a outra?",
+        "start_char": 1787,
+        "end_char": 1806,
+        "excerpt": "Um dia, no colégio, contavam elas onze e doze anos, lembrou-se Laura de propor à outra, adivinhem o quê? Vamos ver se são capazes de adivinhar o que foi. Falavam do casamento de uma prima de Josefa, e que há de lembrar a outra?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Mas diga se você quer...",
+        "start_char": 1881,
+        "end_char": 1885,
+        "excerpt": "Vamos fazer um contrato? Que é? Mas diga se você quer...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "leitor",
+        "sentence": "Não digo se elas andavam ansiosas de cumpri-lo, porque uma tal disposição de ânimo pertence ao número das cousas prováveis e quase certas; de maneira que, no espírito do leitor, podemos crer que é uma questão vencida.",
+        "start_char": 2865,
+        "end_char": 2871,
+        "excerpt": "Não só a conversação as ia obrigando uma para a outra como consigo mesmas. Aos dezoito anos, cada uma delas tinha aquele acordo infantil como um preceito religioso. Não digo se elas andavam ansiosas de cumpri-lo, porque uma tal disposição de ânimo pertence ao número das cousas prováveis e quase certas; de maneira que, no espírito do leitor, podemos crer que é uma questão vencida.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", no espírito",
+                "child": "leitor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "espírito",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leitor",
+                "child": ", no espírito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "leitor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leitor",
+                "child": "maneira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "leitor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "maneira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os noivos",
+        "sentence": "Restava só que aparecessem os noivos, e eles não apareciam;",
+        "start_char": 2940,
+        "end_char": 2949,
+        "excerpt": "Aos dezoito anos, cada uma delas tinha aquele acordo infantil como um preceito religioso. Não digo se elas andavam ansiosas de cumpri-lo, porque uma tal disposição de ânimo pertence ao número das cousas prováveis e quase certas; de maneira que, no espírito do leitor, podemos crer que é uma questão vencida. Restava só que aparecessem os noivos, e eles não apareciam;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aparecessem",
+                "child": "os noivos",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias;",
+        "start_char": 3114,
+        "end_char": 3120,
+        "excerpt": "Restava só que aparecessem os noivos, e eles não apareciam; mas, aos dezenove anos é fácil esperar, e elas esperavam. No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias;",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "juntas",
+                    "juntas",
+                    "junta",
+                    "junta"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias;",
+        "start_char": 3135,
+        "end_char": 3140,
+        "excerpt": "Restava só que aparecessem os noivos, e eles não apareciam; mas, aos dezenove anos é fácil esperar, e elas esperavam. No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias;",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "juntas",
+                    "juntas",
+                    "junta",
+                    "junta"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": "oito dias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": ", quinze dias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "dias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "oito dias",
+                "child": "Laura",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", quinze dias",
+                "child": "Laura",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "dias",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura ia depois passá-los com Josefa.",
+        "start_char": 3165,
+        "end_char": 3170,
+        "excerpt": "mas, aos dezenove anos é fácil esperar, e elas esperavam. No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias; Laura ia depois passá-los com Josefa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "juntas",
+                    "juntas",
+                    "junta",
+                    "junta"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": "oito dias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Laura",
+                "child": ", quinze dias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "dias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "oito dias",
+                "child": "Laura",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", quinze dias",
+                "child": "Laura",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "dias",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ia",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Laura ia depois passá-los com Josefa.",
+        "start_char": 3195,
+        "end_char": 3201,
+        "excerpt": "mas, aos dezenove anos é fácil esperar, e elas esperavam. No entanto, andavam sempre juntas, iam juntas ao teatro, aos bailes, aos passeios; Josefa ia passar com Laura oito dias, quinze dias; Laura ia depois passá-los com Josefa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "juntas",
+                    "juntas",
+                    "junta",
+                    "junta"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "passá-los",
+                "child": "Josefa",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "passá-los",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Um dia, um dos tais bigodes deteve-se alguns instantes, espetou as guias no coração de Josefa, que desfaleceu, e não era para menos; quero dizer, deixou-se apaixonar.",
+        "start_char": 3589,
+        "end_char": 3595,
+        "excerpt": "Tinham confidências íntimas; uma referia à outra a impressão que lhe causara um certo bigode, e ouvia a narração que a outra lhe fazia do mundo de cousas que achara em tais ou tais olhos masculinos. Deste modo punham em comum as impressões e partiam entre si o fruto da experiência. Um dia, um dos tais bigodes deteve-se alguns instantes, espetou as guias no coração de Josefa, que desfaleceu, e não era para menos; quero dizer, deixou-se apaixonar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "coração",
+                "child": "Josefa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "coração",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Josefa",
+                "child": "coração",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Josefa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "coração",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Pela comoção dela ao contar o caso, pareceu a Laura que era uma impressão mais profunda e duradoura do que as do costume.",
+        "start_char": 3715,
+        "end_char": 3720,
+        "excerpt": "Deste modo punham em comum as impressões e partiam entre si o fruto da experiência. Um dia, um dos tais bigodes deteve-se alguns instantes, espetou as guias no coração de Josefa, que desfaleceu, e não era para menos; quero dizer, deixou-se apaixonar. Pela comoção dela ao contar o caso, pareceu a Laura que era uma impressão mais profunda e duradoura do que as do costume.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pareceu",
+                "child": "a Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura recebeu a amiga, beijou-lhe as feridas, talvez com a idéia de sorver o mal com o sangue, e animou-a muito a pedir ao céu muitos mais golpes como aquele.",
+        "start_char": 3897,
+        "end_char": 3902,
+        "excerpt": "Pela comoção dela ao contar o caso, pareceu a Laura que era uma impressão mais profunda e duradoura do que as do costume. Com efeito, o bigode voltou com as guias ainda mais agudas, e deu outro golpe ainda maior que o primeiro. Laura recebeu a amiga, beijou-lhe as feridas, talvez com a idéia de sorver o mal com o sangue, e animou-a muito a pedir ao céu muitos mais golpes como aquele.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pareceu",
+                "child": "a Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "recebeu",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a amiga",
+        "sentence": "Laura recebeu a amiga, beijou-lhe as feridas, talvez com a idéia de sorver o mal com o sangue, e animou-a muito a pedir ao céu muitos mais golpes como aquele.",
+        "start_char": 3911,
+        "end_char": 3918,
+        "excerpt": "Pela comoção dela ao contar o caso, pareceu a Laura que era uma impressão mais profunda e duradoura do que as do costume. Com efeito, o bigode voltou com as guias ainda mais agudas, e deu outro golpe ainda maior que o primeiro. Laura recebeu a amiga, beijou-lhe as feridas, talvez com a idéia de sorver o mal com o sangue, e animou-a muito a pedir ao céu muitos mais golpes como aquele.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "a amiga",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caetano",
+        "sentence": "Com o Caetano?",
+        "start_char": 4128,
+        "end_char": 4135,
+        "excerpt": "Laura recebeu a amiga, beijou-lhe as feridas, talvez com a idéia de sorver o mal com o sangue, e animou-a muito a pedir ao céu muitos mais golpes como aquele. Eu cá, acrescentou ela; quero ver se me acontece a mesma cousa... Com o Caetano?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caetano",
+        "sentence": "Qual Caetano!",
+        "start_char": 4142,
+        "end_char": 4149,
+        "excerpt": "Eu cá, acrescentou ela; quero ver se me acontece a mesma cousa... Com o Caetano? Qual Caetano!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "Outro, sim, senhora.",
+        "start_char": 4170,
+        "end_char": 4177,
+        "excerpt": "Qual Caetano! Outro? Outro, sim, senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ingra",
+        "sentence": "Ingrata!",
+        "start_char": 4179,
+        "end_char": 4184,
+        "excerpt": "Outro? Outro, sim, senhora. Ingrata!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Mas você não me disse nada?",
+        "start_char": 4192,
+        "end_char": 4196,
+        "excerpt": "Outro, sim, senhora. Ingrata! Mas você não me disse nada?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura contou à outra o encontro de uns certos olhos pretos, muito bonitos, mas um tanto distraídos, pertencentes a um corpo muito elegante, e tudo junto fazendo um bacharel.",
+        "start_char": 4256,
+        "end_char": 4261,
+        "excerpt": "Como, se é fresquinho de ontem? Quem é? Laura contou à outra o encontro de uns certos olhos pretos, muito bonitos, mas um tanto distraídos, pertencentes a um corpo muito elegante, e tudo junto fazendo um bacharel.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "contou",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Josefa (falemos a verdade) não ouviu nada do que a amiga lhe dissera; pôs os olhos no bigode assassino e deixou-a falar.",
+        "start_char": 4473,
+        "end_char": 4479,
+        "excerpt": "Laura contou à outra o encontro de uns certos olhos pretos, muito bonitos, mas um tanto distraídos, pertencentes a um corpo muito elegante, e tudo junto fazendo um bacharel. Estava encantada; não sonhava outra cousa. Josefa (falemos a verdade) não ouviu nada do que a amiga lhe dissera; pôs os olhos no bigode assassino e deixou-a falar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "falemos",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falemos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a amiga",
+        "sentence": "Josefa (falemos a verdade) não ouviu nada do que a amiga lhe dissera; pôs os olhos no bigode assassino e deixou-a falar.",
+        "start_char": 4522,
+        "end_char": 4529,
+        "excerpt": "Laura contou à outra o encontro de uns certos olhos pretos, muito bonitos, mas um tanto distraídos, pertencentes a um corpo muito elegante, e tudo junto fazendo um bacharel. Estava encantada; não sonhava outra cousa. Josefa (falemos a verdade) não ouviu nada do que a amiga lhe dissera; pôs os olhos no bigode assassino e deixou-a falar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dissera",
+                "child": "que a amiga",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "dissera",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Justamente, murmurou Josefa.",
+        "start_char": 4763,
+        "end_char": 4769,
+        "excerpt": "De maneira que pode ser que em breve estejamos cumprindo o nosso contrato. No mesmo dia, na mesma igreja... Justamente, murmurou Josefa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "murmurou",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "A verdade é que Laura tirou-os do pensamento, e espreitou outros.",
+        "start_char": 4920,
+        "end_char": 4925,
+        "excerpt": "A outra dentro de poucos dias perdeu a confiança nos olhos negros. Ou eles não tinham pensado nela, ou eram distraídos, ou volúveis. A verdade é que Laura tirou-os do pensamento, e espreitou outros.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tirou-os",
+                "child": "Laura",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tirou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura entendeu trocá-los por outros, e raros, dous olhos azuis muito bonitos.",
+        "start_char": 5196,
+        "end_char": 5201,
+        "excerpt": "A verdade é que Laura tirou-os do pensamento, e espreitou outros. Não os achou logo; mas os primeiros que achou, prendeu-os bem, e cuidou que eram para toda a eternidade; a prova de que era ilusão é que, tendo eles de ir à Europa, em comissão do governo, não choraram uma lágrima de saudade; Laura entendeu trocá-los por outros, e raros, dous olhos azuis muito bonitos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tirou-os",
+                "child": "Laura",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tirou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "entendeu",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entender",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Laura",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "Em tudo isso, gastou a moça uns seis meses.",
+        "start_char": 5468,
+        "end_char": 5474,
+        "excerpt": "Laura entendeu trocá-los por outros, e raros, dous olhos azuis muito bonitos. Estes, sim, eram dóceis, fiéis, amigos e prometiam ir até o fim, se a doença os não colhe  uma tuberculose galopante que os levou aos Campos do Jordão, e dali ao cemitério. Em tudo isso, gastou a moça uns seis meses.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "gastou",
+                "child": "a moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gastar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a amiga",
+        "sentence": "Durante o mesmo prazo, a amiga não mudou de bigode, trocou muitas cartas com ele, ele relacionou-se na casa, e ninguém ignorava mais que entre ambos existia um laço íntimo.",
+        "start_char": 5514,
+        "end_char": 5521,
+        "excerpt": "Estes, sim, eram dóceis, fiéis, amigos e prometiam ir até o fim, se a doença os não colhe  uma tuberculose galopante que os levou aos Campos do Jordão, e dali ao cemitério. Em tudo isso, gastou a moça uns seis meses. Durante o mesmo prazo, a amiga não mudou de bigode, trocou muitas cartas com ele, ele relacionou-se na casa, e ninguém ignorava mais que entre ambos existia um laço íntimo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mudou",
+                "child": "a amiga",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mudar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O bigode",
+        "sentence": "O bigode perguntou-lhe muita vez se lhe dava autorização de a pedir, ao que Josefa respondia que não, que esperasse um pouco.",
+        "start_char": 5664,
+        "end_char": 5672,
+        "excerpt": "Em tudo isso, gastou a moça uns seis meses. Durante o mesmo prazo, a amiga não mudou de bigode, trocou muitas cartas com ele, ele relacionou-se na casa, e ninguém ignorava mais que entre ambos existia um laço íntimo. O bigode perguntou-lhe muita vez se lhe dava autorização de a pedir, ao que Josefa respondia que não, que esperasse um pouco.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "O bigode",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bigode",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "O bigode perguntou-lhe muita vez se lhe dava autorização de a pedir, ao que Josefa respondia que não, que esperasse um pouco.",
+        "start_char": 5740,
+        "end_char": 5746,
+        "excerpt": "Em tudo isso, gastou a moça uns seis meses. Durante o mesmo prazo, a amiga não mudou de bigode, trocou muitas cartas com ele, ele relacionou-se na casa, e ninguém ignorava mais que entre ambos existia um laço íntimo. O bigode perguntou-lhe muita vez se lhe dava autorização de a pedir, ao que Josefa respondia que não, que esperasse um pouco.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondia",
+                "child": "Josefa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo:",
+        "start_char": 5906,
+        "end_char": 5912,
+        "excerpt": "Uma cousa. Sabemos o que era a cousa; era o convênio colegial. Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contar",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à amiga",
+        "sentence": "Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo:",
+        "start_char": 5923,
+        "end_char": 5930,
+        "excerpt": "Uma cousa. Sabemos o que era a cousa; era o convênio colegial. Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Você",
+        "sentence": "Você apresse-se...",
+        "start_char": 5979,
+        "end_char": 5983,
+        "excerpt": "Sabemos o que era a cousa; era o convênio colegial. Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo: Você apresse-se...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura apressava-se.",
+        "start_char": 5998,
+        "end_char": 6003,
+        "excerpt": "Josefa ia contar à amiga as impaciências do namorado, e dizia-lhe rindo: Você apresse-se... Laura apressava-se.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apressava-se",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apressavar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Laura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "No fim de oito meses, Josefa estava impaciente; tinha gasto cinqüenta dias a dizer ao namorado que esperasse, e a outra não adiantou cousa nenhuma.",
+        "start_char": 6144,
+        "end_char": 6150,
+        "excerpt": "Laura apressava-se. Olhava para a direita, para a esquerda, mas não via nada, e o tempo ia passando seis, sete, oito meses. No fim de oito meses, Josefa estava impaciente; tinha gasto cinqüenta dias a dizer ao namorado que esperasse, e a outra não adiantou cousa nenhuma.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Erro de Josefa; a outra adiantou alguma cousa.",
+        "start_char": 6278,
+        "end_char": 6284,
+        "excerpt": "Olhava para a direita, para a esquerda, mas não via nada, e o tempo ia passando seis, sete, oito meses. No fim de oito meses, Josefa estava impaciente; tinha gasto cinqüenta dias a dizer ao namorado que esperasse, e a outra não adiantou cousa nenhuma. Erro de Josefa; a outra adiantou alguma cousa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Erro",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "erro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Josefa",
+                "child": "Erro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Josefa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "erro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição.",
+        "start_char": 6403,
+        "end_char": 6408,
+        "excerpt": "Erro de Josefa; a outra adiantou alguma cousa. No meio daquele tempo apareceu uma gravata no horizonte com todos os visos conjugais. Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "confiou",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição.",
+        "start_char": 6496,
+        "end_char": 6502,
+        "excerpt": "Erro de Josefa; a outra adiantou alguma cousa. No meio daquele tempo apareceu uma gravata no horizonte com todos os visos conjugais. Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Erro",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "erro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Josefa",
+                "child": "Erro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Josefa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "erro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aprovou-a",
+                "child": "Josefa",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aprovou-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dou",
+        "sentence": "Havemos de ser dous casais...",
+        "start_char": 6584,
+        "end_char": 6587,
+        "excerpt": "No meio daquele tempo apareceu uma gravata no horizonte com todos os visos conjugais. Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição. Havemos de ser dous casais...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dous casais lindos",
+        "sentence": "Acaba: dous casais lindos.",
+        "start_char": 6606,
+        "end_char": 6624,
+        "excerpt": "Laura confiou a notícia à amiga, que exultou muito ou mais que ela; mostrou-lhe a gravata, e Josefa aprovou-a, tanto pela cor, como pelo laço, que era uma perfeição. Havemos de ser dous casais... Acaba: dous casais lindos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josefa",
+        "sentence": "Josefa esperou, esperou, cansou de esperar;",
+        "start_char": 6861,
+        "end_char": 6867,
+        "excerpt": "Uma tratava de conter as impaciências do bigode, outra de animar o acanhamento da gravata, uma das mais tímidas gravatas que tem andado por este mundo. Não se atrevia a nada, ou atrevia-se pouco. Josefa esperou, esperou, cansou de esperar;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esperou",
+                "child": "Josefa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josefa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a amiga",
+        "sentence": "parecia-lhe brincadeira de criança; mandou a outra ao diabo, arre-pendeu-se do convênio, achou-o estúpido, tolo, cousa de criança; esfriou com a amiga, brigou com ela por causa de uma fita ou de um chapéu; um mês depois estava casada.",
+        "start_char": 7048,
+        "end_char": 7055,
+        "excerpt": "Não se atrevia a nada, ou atrevia-se pouco. Josefa esperou, esperou, cansou de esperar; parecia-lhe brincadeira de criança; mandou a outra ao diabo, arre-pendeu-se do convênio, achou-o estúpido, tolo, cousa de criança; esfriou com a amiga, brigou com ela por causa de uma fita ou de um chapéu; um mês depois estava casada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esfriou",
+                "child": "a amiga",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "esfriar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

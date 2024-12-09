@@ -1,0 +1,145 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Dos que ora son na hoste Dom Dinis Cancioneiro da Biblioteca Nacional 556, Cancioneiro da Vaticana 159 Dos que ora son na hoste, amiga, querría saber se se verrán tard'ou toste, por quanto vos quero dizer: porque é lá meu amigo.",
+        "start_char": 25,
+        "end_char": 34,
+        "excerpt": "Dos que ora son na hoste Dom Dinis Cancioneiro da Biblioteca Nacional 556, Cancioneiro da Vaticana 159 Dos que ora son na hoste, amiga, querría saber se se verrán tard'ou toste, por quanto vos quero dizer: porque é lá meu amigo. Querría saber mandado dos que alá son, ca o non sei, amiga, par Deus, de grado, por quanto vos ora direi: porque é lá meu amigo. E queredes que vos diga?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "querría",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 556, Cancioneiro da Vaticana 159 Dos que ora son na hoste, amiga,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querría",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Querría saber mandado dos que alá son, ca o non sei, amiga, par Deus, de grado, por quanto vos ora direi: porque é lá meu amigo.",
+        "start_char": 293,
+        "end_char": 297,
+        "excerpt": "Dos que ora son na hoste Dom Dinis Cancioneiro da Biblioteca Nacional 556, Cancioneiro da Vaticana 159 Dos que ora son na hoste, amiga, querría saber se se verrán tard'ou toste, por quanto vos quero dizer: porque é lá meu amigo. Querría saber mandado dos que alá son, ca o non sei, amiga, par Deus, de grado, por quanto vos ora direi: porque é lá meu amigo. E queredes que vos diga?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "par",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "par",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "par",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "par",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Querría",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Querría",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "queredes",
+        "sentence": "E queredes que vos diga?",
+        "start_char": 360,
+        "end_char": 368,
+        "excerpt": "Dos que ora son na hoste Dom Dinis Cancioneiro da Biblioteca Nacional 556, Cancioneiro da Vaticana 159 Dos que ora son na hoste, amiga, querría saber se se verrán tard'ou toste, por quanto vos quero dizer: porque é lá meu amigo. Querría saber mandado dos que alá son, ca o non sei, amiga, par Deus, de grado, por quanto vos ora direi: porque é lá meu amigo. E queredes que vos diga?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se Deus bon mandado mi dé, querría, saber, amiga, deles novas, vedes por que: porque é lá meu amigo, Ca por al non, vo-lo digo.",
+        "start_char": 386,
+        "end_char": 390,
+        "excerpt": "Querría saber mandado dos que alá son, ca o non sei, amiga, par Deus, de grado, por quanto vos ora direi: porque é lá meu amigo. E queredes que vos diga? Se Deus bon mandado mi dé, querría, saber, amiga, deles novas, vedes por que: porque é lá meu amigo, Ca por al non, vo-lo digo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "par",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "par",
+                "dep_c": "fixed",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "par",
+                "dep_h": "fixed",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "par",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Querría",
+                "dep_h": "fixed",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Querría",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bon",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bon",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

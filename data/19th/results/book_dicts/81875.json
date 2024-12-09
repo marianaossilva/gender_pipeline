@@ -1,0 +1,238 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Noite cruel Auta de Souza",
+        "start_char": 12,
+        "end_char": 25,
+        "excerpt": "Noite cruel Auta de Souza A meu irmão Henrique Morrer... morrer... morrer... Fechar na terra os olhos",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "A meu irmão Henrique Morrer... morrer... morrer...",
+        "start_char": 38,
+        "end_char": 46,
+        "excerpt": "Noite cruel Auta de Souza A meu irmão Henrique Morrer... morrer... morrer... Fechar na terra os olhos",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "meu irmão",
+                "child": "Henrique Morrer",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Henrique Morrer",
+                "child": "meu irmão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Henrique",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pobre vaga",
+        "sentence": "De tormentoso mar, - pobre vaga que chora!",
+        "start_char": 284,
+        "end_char": 294,
+        "excerpt": "E nunca mais ouvir a música sonora Da ilusão a cantar da vida nos refolhos... Sentir o coração ferir-se nos escolhos De tormentoso mar, - pobre vaga que chora!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E perguntar a Deus na agonia e nas trevas: Onde fica, Senhor, a terra a que nos levas, Com as mãos postas no seio e os dois olhos sem luz?!",
+        "start_char": 531,
+        "end_char": 535,
+        "excerpt": "Nem ao menos beijar - ó supremo desgosto! - A mão doce e fiel que nos enxuga o rosto Mostrando-nos o Céu suspenso de uma Cruz... E perguntar a Deus na agonia e nas trevas: Onde fica, Senhor, a terra a que nos levas, Com as mãos postas no seio e os dois olhos sem luz?!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 3
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perguntar",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "E perguntar a Deus na agonia e nas trevas: Onde fica, Senhor, a terra a que nos levas, Com as mãos postas no seio e os dois olhos sem luz?!",
+        "start_char": 571,
+        "end_char": 577,
+        "excerpt": "Nem ao menos beijar - ó supremo desgosto! - A mão doce e fiel que nos enxuga o rosto Mostrando-nos o Céu suspenso de uma Cruz... E perguntar a Deus na agonia e nas trevas: Onde fica, Senhor, a terra a que nos levas, Com as mãos postas no seio e os dois olhos sem luz?!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 3
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perguntar",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

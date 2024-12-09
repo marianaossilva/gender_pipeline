@@ -1,0 +1,78 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Alberto Caeiro",
+        "start_char": 48,
+        "end_char": 62,
+        "excerpt": "Como quem num dia de verão abre a porta de casa Alberto Caeiro Como quem num dia de Verão abre a porta de casa E espreita para o calor dos campos com a cara toda, Às vezes, de repente, bate-me a Natureza de chapa",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a porta",
+                "child": "Alberto Caeiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "a porta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mim",
+        "sentence": "Mas quem me mandou a mim querer perceber?",
+        "start_char": 338,
+        "end_char": 343,
+        "excerpt": "Como quem num dia de Verão abre a porta de casa E espreita para o calor dos campos com a cara toda, Às vezes, de repente, bate-me a Natureza de chapa Na cara dos meus sentidos, E eu fico confuso, perturbado, querendo perceber Não sei bem como nem o quê... Mas quem me mandou a mim querer perceber?",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    }
+]

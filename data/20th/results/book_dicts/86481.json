@@ -1,0 +1,173 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu Ver cair o cedro anoso Que campeava na serra, Ver frio baixar à terra",
+        "start_char": 13,
+        "end_char": 30,
+        "excerpt": "Pois não é?! Casimiro de Abreu Ver cair o cedro anoso Que campeava na serra, Ver frio baixar à terra O pobre velho bondoso Que procurando repouso Tropeçou na sepultura;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre velho bondoso",
+        "sentence": "O pobre velho bondoso Que procurando repouso Tropeçou na sepultura;",
+        "start_char": 101,
+        "end_char": 122,
+        "excerpt": "Pois não é?! Casimiro de Abreu Ver cair o cedro anoso Que campeava na serra, Ver frio baixar à terra O pobre velho bondoso Que procurando repouso Tropeçou na sepultura;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho",
+        "sentence": "Nem a dor tão funda e dura, Pois que ao velho e ao cedro altivo Partido à voz da procela,",
+        "start_char": 264,
+        "end_char": 269,
+        "excerpt": "O pobre velho bondoso Que procurando repouso Tropeçou na sepultura; É triste, sim, é verdade, Mas não tão grande a saudade Nem a dor tão funda e dura, Pois que ao velho e ao cedro altivo Partido à voz da procela,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O pobre",
+                "child": "velho",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pobre",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cedro",
+                "child": "velho",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "cedro",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Partido",
+                "child": "velho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Partido",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "voz",
+                "child": "velho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "procela",
+                "child": "velho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "procela",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobre mangueira",
+        "sentence": "Mas ver a pobre mangueira",
+        "start_char": 483,
+        "end_char": 500,
+        "excerpt": "No mundo - jardim lascivo - A vida foi longa e bela. Mas ver a rosa do prado Que a aurora deu cor e vida, De manhã - flor do valado, De tarde - rosa pendida!... Mas ver a pobre mangueira",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre mancebo",
+        "sentence": "Mas ver o pobre mancebo",
+        "start_char": 680,
+        "end_char": 695,
+        "excerpt": "Mas vê-la depois lascada Em duas cair no chão! ... Mas ver o pobre mancebo",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "Quando junto da donzela - Cativo dos olhos dela - Na voz que balbuciava De amores falava a medo;",
+        "start_char": 885,
+        "end_char": 892,
+        "excerpt": "Em quem a seiva reluz, No sonho cândido e puro Nas glórias do seu futuro Dourando a vida de luz Mas vê-lo quando a sua alma Ao som d'ignota harmonia Se derramava em poesia; Quando junto da donzela - Cativo dos olhos dela - Na voz que balbuciava De amores falava a medo;",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cat",
+        "sentence": "Quando junto da donzela - Cativo dos olhos dela - Na voz que balbuciava De amores falava a medo;",
+        "start_char": 895,
+        "end_char": 898,
+        "excerpt": "Em quem a seiva reluz, No sonho cândido e puro Nas glórias do seu futuro Dourando a vida de luz Mas vê-lo quando a sua alma Ao som d'ignota harmonia Se derramava em poesia; Quando junto da donzela - Cativo dos olhos dela - Na voz que balbuciava De amores falava a medo;",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    }
+]

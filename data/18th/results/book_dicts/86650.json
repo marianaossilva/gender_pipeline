@@ -1,0 +1,433 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "Um raio de luar Castro Alves",
+        "start_char": 16,
+        "end_char": 28,
+        "excerpt": "Um raio de luar Castro Alves Alta noite",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "luar",
+                "child": "Castro Alves Alta",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "luar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro Alves Alta",
+                "child": "Um raio",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "raio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "da moça",
+        "sentence": "Pegou na mão da moça.",
+        "start_char": 83,
+        "end_char": 90,
+        "excerpt": "ele ergueu-se. Hirto, solene. Pegou na mão da moça.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a garça",
+        "sentence": "Ela estava gelada, como a garça",
+        "start_char": 149,
+        "end_char": 156,
+        "excerpt": "Olhou-a fito... Que fundo olhar! Ela estava gelada, como a garça",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", como a garça",
+                "child": "gelada",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "garça",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "gelado",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "Apanha a mãe a criancinha loura, Tenra a dormir.",
+        "start_char": 253,
+        "end_char": 258,
+        "excerpt": "Tomou-a no regaço... assim no manto Apanha a mãe a criancinha loura, Tenra a dormir.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tomou-a",
+                "child": "a mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Tomou-a",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criancinha loura",
+        "sentence": "Apanha a mãe a criancinha loura, Tenra a dormir.",
+        "start_char": 259,
+        "end_char": 277,
+        "excerpt": "Tomou-a no regaço... assim no manto Apanha a mãe a criancinha loura, Tenra a dormir.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criança",
+        "sentence": "Nesse instante o luar bateu-lhe em cheio, E um riso à flor dos lábios da criança",
+        "start_char": 893,
+        "end_char": 900,
+        "excerpt": "Dir-se-ia que antes a quisera rija, Inteiriçada pela mão da noite Hirta, glacial! Um momento de bruços sobre o abismo, Ele, embalando-a, sobre o rio negro Mais s'inclinou... Nesse instante o luar bateu-lhe em cheio, E um riso à flor dos lábios da criança",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lábios",
+                "child": "criança",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lábio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "flor",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "flor",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "criança",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "criança"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "flor",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "flor"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": ", E um riso",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "riso"
+                    },
+                    {
+                        "head": "criança",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "criança",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    }
+                ]
+            },
+            {
+                "head": "criança",
+                "child": "lábios",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lábio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "flor",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "flor",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "criança",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "criança"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "flor",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "flor"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": ", E um riso",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "riso"
+                    },
+                    {
+                        "head": "criança",
+                        "child": "lábios",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "criança",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "lábio"
+                    }
+                ]
+            },
+            {
+                "head": "criança",
+                "child": "flor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criança",
+                "child": ", E um riso",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "riso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o mur",
+        "sentence": "Qual o murzelo do penhasco à borda Empina-se e cravando as ferraduras Morde o escarcéu;",
+        "start_char": 920,
+        "end_char": 925,
+        "excerpt": "Nesse instante o luar bateu-lhe em cheio, E um riso à flor dos lábios da criança À flux boiou! Qual o murzelo do penhasco à borda Empina-se e cravando as ferraduras Morde o escarcéu;",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Empina-se",
+                "child": "o murzelo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Empina-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "murzelo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o murzelo",
+                "child": "penhasco",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "murzelo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "penhasco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "penhasco",
+                "child": "o murzelo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "penhasco",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "murzelo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "borda",
+                "child": "o murzelo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "borda",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "murzelo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O vulto",
+        "sentence": "O vulto recuou!...",
+        "start_char": 1044,
+        "end_char": 1051,
+        "excerpt": "Qual o murzelo do penhasco à borda Empina-se e cravando as ferraduras Morde o escarcéu; Um calafrio percorreu-lhe os músculos... O vulto recuou!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recuou",
+                "child": "O vulto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recuar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Inda não...",
+        "start_char": 1193,
+        "end_char": 1197,
+        "excerpt": "Nada ouviste? \"  \" Inda não...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rouco estertor",
+        "sentence": "Rouco estertor...",
+        "start_char": 1407,
+        "end_char": 1421,
+        "excerpt": "Não! Semelha Do agonizante o derradeiro engasgo, Rouco estertor...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

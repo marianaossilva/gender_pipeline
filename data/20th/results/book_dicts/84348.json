@@ -1,0 +1,206 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bocage",
+        "sentence": "Soneto da Porra Burra Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo.",
+        "start_char": 22,
+        "end_char": 28,
+        "excerpt": "Soneto da Porra Burra Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Eram oito do dia; eis a criada Me corre ao quarto, e diz \"",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Porra Burra Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Porra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Porra Burra Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Porra",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poemas",
+                "child": "Bocage",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "poema",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bocage",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "poemas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "poema",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "um caderno",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "caderno",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro José Constâncio",
+        "sentence": "Soneto da Porra Burra Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo.",
+        "start_char": 88,
+        "end_char": 109,
+        "excerpt": "Soneto da Porra Burra Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Eram oito do dia; eis a criada Me corre ao quarto, e diz \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criada",
+        "sentence": "eis a criada Me corre ao quarto, e diz \"",
+        "start_char": 231,
+        "end_char": 239,
+        "excerpt": "Soneto da Porra Burra Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Eram oito do dia; eis a criada Me corre ao quarto, e diz \"",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "corre",
+                "child": "a criada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "criada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "menina",
+        "sentence": "Aí vem menina",
+        "start_char": 275,
+        "end_char": 281,
+        "excerpt": "Eram oito do dia; eis a criada Me corre ao quarto, e diz \" Aí vem menina",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vem",
+                "child": "menina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "menina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "maminhas",
+        "sentence": "Que maminhas!",
+        "start_char": 482,
+        "end_char": 490,
+        "excerpt": "Que breve pé! Que perna tão divina! Que maminhas!",
+        "gender": "female",
+        "pch_occurrences": {
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

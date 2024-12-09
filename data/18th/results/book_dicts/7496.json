@@ -1,0 +1,776 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "OS COMPADRES Artur Azevedo",
+        "start_char": 13,
+        "end_char": 26,
+        "excerpt": "OS COMPADRES Artur Azevedo Um dia o Simeão, que não vinha ao Rio de Janeiro havia dezoito anos, abalou-se de Macaé, e o seu primeiro cuidado, ao chegar ao Pharoux, foi procurar o irmão, o José, de quem não tinha novas nem mandados. Não lhe foi difícil encontrá-lo numa estalagem do morro do Castelo, onde vivia em companhia da mulher, que acumulava as funções de cozinheira, lavadeira e engomadeira, e de um filho de seis anos, travesso como um demônio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "Um dia o Simeão, que não vinha ao Rio de Janeiro havia dezoito anos, abalou-se de Macaé, e o seu primeiro cuidado, ao chegar ao Pharoux, foi procurar o irmão, o José, de quem não tinha novas nem mandados.",
+        "start_char": 188,
+        "end_char": 192,
+        "excerpt": "OS COMPADRES Artur Azevedo Um dia o Simeão, que não vinha ao Rio de Janeiro havia dezoito anos, abalou-se de Macaé, e o seu primeiro cuidado, ao chegar ao Pharoux, foi procurar o irmão, o José, de quem não tinha novas nem mandados. Não lhe foi difícil encontrá-lo numa estalagem do morro do Castelo, onde vivia em companhia da mulher, que acumulava as funções de cozinheira, lavadeira e engomadeira, e de um filho de seis anos, travesso como um demônio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o irmão",
+                "child": ", o José",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o José",
+                "child": "o irmão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Simeão",
+        "sentence": "O Simeão ficou muito aborrecido quando o irmão lhe confessou que não tinha ofício nem benefício, e vivia de expedientes.",
+        "start_char": 454,
+        "end_char": 462,
+        "excerpt": "Um dia o Simeão, que não vinha ao Rio de Janeiro havia dezoito anos, abalou-se de Macaé, e o seu primeiro cuidado, ao chegar ao Pharoux, foi procurar o irmão, o José, de quem não tinha novas nem mandados. Não lhe foi difícil encontrá-lo numa estalagem do morro do Castelo, onde vivia em companhia da mulher, que acumulava as funções de cozinheira, lavadeira e engomadeira, e de um filho de seis anos, travesso como um demônio. O Simeão ficou muito aborrecido quando o irmão lhe confessou que não tinha ofício nem benefício, e vivia de expedientes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "O Simeão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o irmão",
+        "sentence": "O Simeão ficou muito aborrecido quando o irmão lhe confessou que não tinha ofício nem benefício, e vivia de expedientes.",
+        "start_char": 493,
+        "end_char": 500,
+        "excerpt": "Um dia o Simeão, que não vinha ao Rio de Janeiro havia dezoito anos, abalou-se de Macaé, e o seu primeiro cuidado, ao chegar ao Pharoux, foi procurar o irmão, o José, de quem não tinha novas nem mandados. Não lhe foi difícil encontrá-lo numa estalagem do morro do Castelo, onde vivia em companhia da mulher, que acumulava as funções de cozinheira, lavadeira e engomadeira, e de um filho de seis anos, travesso como um demônio. O Simeão ficou muito aborrecido quando o irmão lhe confessou que não tinha ofício nem benefício, e vivia de expedientes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "procurar",
+                "child": "o irmão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o irmão",
+                "child": ", o José",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o José",
+                "child": "o irmão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "confessou",
+                "child": "o irmão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "confessar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Símeão",
+        "sentence": "- Não tens de que te aborrecer, Símeão: podia ser pior!",
+        "start_char": 607,
+        "end_char": 613,
+        "excerpt": "Não lhe foi difícil encontrá-lo numa estalagem do morro do Castelo, onde vivia em companhia da mulher, que acumulava as funções de cozinheira, lavadeira e engomadeira, e de um filho de seis anos, travesso como um demônio. O Simeão ficou muito aborrecido quando o irmão lhe confessou que não tinha ofício nem benefício, e vivia de expedientes. - Não tens de que te aborrecer, Símeão: podia ser pior!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aborrecer",
+                "child": "Símeão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "aborrecer",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Símeão",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Símeão",
+                "child": "- Não tens",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Símeão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Paiva",
+        "sentence": "- As cinco devo estar em casa do Dr. Paiva, que me mandou chamar.",
+        "start_char": 946,
+        "end_char": 956,
+        "excerpt": "Que horas tens no teu relógio? - Três e um quarto. - As cinco devo estar em casa do Dr. Paiva, que me mandou chamar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o José",
+        "sentence": "Às 4 horas o José saiu de casa, em companhia do irmão.",
+        "start_char": 1234,
+        "end_char": 1240,
+        "excerpt": "Não sei; mas com certeza é para me dar alguma coisa a ganhar. Sei que ele está para amarrar-se com a filha de um negociante da Rua de São Pedro; é, talvez, para alguma comissão relativa ao casamento. Às 4 horas o José saiu de casa, em companhia do irmão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "o José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "irmão",
+        "sentence": "Às 4 horas o José saiu de casa, em companhia do irmão.",
+        "start_char": 1271,
+        "end_char": 1276,
+        "excerpt": "Não sei; mas com certeza é para me dar alguma coisa a ganhar. Sei que ele está para amarrar-se com a filha de um negociante da Rua de São Pedro; é, talvez, para alguma comissão relativa ao casamento. Às 4 horas o José saiu de casa, em companhia do irmão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "companhia",
+                "child": "irmão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "companhia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "irmão",
+                "child": "companhia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "companhia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um sujeito gordo",
+        "sentence": "Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "start_char": 1354,
+        "end_char": 1370,
+        "excerpt": "Às 4 horas o José saiu de casa, em companhia do irmão. Desceram o morro e subiram a Rua de São José. Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "start_char": 1392,
+        "end_char": 1396,
+        "excerpt": "Às 4 horas o José saiu de casa, em companhia do irmão. Desceram o morro e subiram a Rua de São José. Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "o José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Rua",
+                "child": "São José",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rua",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "São",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "São José",
+                "child": "a Rua",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "São",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "passar",
+                "child": "José",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadre",
+        "sentence": "Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "start_char": 1415,
+        "end_char": 1423,
+        "excerpt": "Às 4 horas o José saiu de casa, em companhia do irmão. Desceram o morro e subiram a Rua de São José. Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gritou",
+                "child": "compadre",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simeão",
+        "sentence": "- perguntou Simeão.",
+        "start_char": 1447,
+        "end_char": 1453,
+        "excerpt": "Em caminho encontraram-se com um sujeito gordo, que, ao passar pelo José, gritou: - Adeus, compadre! - Quem é? - perguntou Simeão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "Simeão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Rodrigues",
+        "sentence": "- O Rodrigues, uma das primeiras fortunas do Rio de Janeiro.",
+        "start_char": 1457,
+        "end_char": 1468,
+        "excerpt": "- Quem é? - perguntou Simeão. - O Rodrigues, uma das primeiras fortunas do Rio de Janeiro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadre",
+        "sentence": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "start_char": 1524,
+        "end_char": 1532,
+        "excerpt": "- perguntou Simeão. - O Rodrigues, uma das primeiras fortunas do Rio de Janeiro. - É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "É.Chegaram",
+                "child": "compadre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "É.Chegar",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um coronel do Exército",
+        "sentence": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "start_char": 1576,
+        "end_char": 1598,
+        "excerpt": "- perguntou Simeão. - O Rodrigues, uma das primeiras fortunas do Rio de Janeiro. - É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "start_char": 1609,
+        "end_char": 1613,
+        "excerpt": "- perguntou Simeão. - O Rodrigues, uma das primeiras fortunas do Rio de Janeiro. - É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saudou",
+                "child": "o José",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "saudar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Compadre",
+        "sentence": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "start_char": 1515,
+        "end_char": 1528,
+        "excerpt": "- perguntou Simeão. - O Rodrigues, uma das primeiras fortunas do Rio de Janeiro. - É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadre",
+        "sentence": "- Também é seu compadre? - perguntou o irmão.",
+        "start_char": 1694,
+        "end_char": 1702,
+        "excerpt": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre. - Boa tarde. - Também é seu compadre? - perguntou o irmão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "compadre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o irmão",
+        "sentence": "- Também é seu compadre? - perguntou o irmão.",
+        "start_char": 1716,
+        "end_char": 1723,
+        "excerpt": "- É teu compadre? - É.Chegaram à avenida, e cruzaram-se com um coronel do Exército, a quem o José saudou com estes termos: - Boa tarde, Sr. Compadre. - Boa tarde. - Também é seu compadre? - perguntou o irmão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "o irmão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadres",
+        "sentence": "- Também; eu tenho muitos compadres, e são todos homens de posição e fortuna! - Tens muitos compadres?",
+        "start_char": 1751,
+        "end_char": 1760,
+        "excerpt": "- Boa tarde. - Também é seu compadre? - perguntou o irmão. - Também; eu tenho muitos compadres, e são todos homens de posição e fortuna! - Tens muitos compadres?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "muitos compadres",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "muitos compadres",
+                "child": "Tens",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "compadr",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tens",
+                "child": "muitos compadres",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Tens",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "muitos compadres",
+                "child": "Tens",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "compadr",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadre",
+        "sentence": "- Também; eu tenho muitos compadres, e são todos homens de posição e fortuna! - Tens muitos compadres?",
+        "start_char": 1751,
+        "end_char": 1759,
+        "excerpt": "- Boa tarde. - Também é seu compadre? - perguntou o irmão. - Também; eu tenho muitos compadres, e são todos homens de posição e fortuna! - Tens muitos compadres?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "compadre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tenho",
+                "child": "muitos compadres",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "muitos compadres",
+                "child": "Tens",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "compadr",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tens",
+                "child": "muitos compadres",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Tens",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "muitos compadres",
+                "child": "Tens",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "compadr",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tens",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padrinhos dos filhos",
+        "sentence": "- Eles convidaram-te para padrinhos dos filhos?",
+        "start_char": 1903,
+        "end_char": 1923,
+        "excerpt": "- Oito.- Ora essa! - De que te admiras? - Eles convidaram-te para padrinhos dos filhos?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padrinhos do meu",
+        "sentence": "- Não; fui eu que os convidei para padrinhos do meu.",
+        "start_char": 1960,
+        "end_char": 1976,
+        "excerpt": "De que te admiras? - Eles convidaram-te para padrinhos dos filhos? - Não; fui eu que os convidei para padrinhos do meu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadres",
+        "sentence": "Tu só tens um filho; como podes ter oito compadres?",
+        "start_char": 2053,
+        "end_char": 2062,
+        "excerpt": "- Não; fui eu que os convidei para padrinhos do meu. - Que diabo de trapalhada é esta? Tu só tens um filho; como podes ter oito compadres?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "oito compadres",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "compadr",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "oito compadres",
+                "child": "podes",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "compadr",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "pode",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu irmão",
+        "sentence": "- A ti o digo porque és meu irmão: meu filho foi batizado oito vezes!",
+        "start_char": 2088,
+        "end_char": 2097,
+        "excerpt": "- Que diabo de trapalhada é esta? Tu só tens um filho; como podes ter oito compadres? - A ti o digo porque és meu irmão: meu filho foi batizado oito vezes!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "digo",
+                "child": "porque és meu irmão",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "digo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "porque és meu irmão",
+                "child": "digo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "digo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu filho",
+        "sentence": "- A ti o digo porque és meu irmão: meu filho foi batizado oito vezes!",
+        "start_char": 2099,
+        "end_char": 2108,
+        "excerpt": "- Que diabo de trapalhada é esta? Tu só tens um filho; como podes ter oito compadres? - A ti o digo porque és meu irmão: meu filho foi batizado oito vezes!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "batizado",
+                "child": "meu filho",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "batizar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu filho",
+                "child": "digo",
+                "dep_h": "nsubj:pass",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "digo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sacrilé",
+        "sentence": "- Sacrilégio por quê?",
+        "start_char": 2155,
+        "end_char": 2162,
+        "excerpt": "Oh! sacrilégio!. - Sacrilégio por quê?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,621 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Róseo menino",
+        "sentence": "Róseo menino",
+        "start_char": 0,
+        "end_char": 12,
+        "excerpt": "Róseo menino Auta de Souza A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Auta de Souza",
+        "start_char": 13,
+        "end_char": 26,
+        "excerpt": "Róseo menino Auta de Souza A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura Ramos Róse",
+        "sentence": "A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "start_char": 29,
+        "end_char": 45,
+        "excerpt": "Róseo menino Auta de Souza A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santo Jesus",
+        "sentence": "A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "start_char": 82,
+        "end_char": 93,
+        "excerpt": "Róseo menino Auta de Souza A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "inocente",
+        "sentence": "Meu cravo olente, Cor de marfim, Pobre inocente, Branco jasmim!",
+        "start_char": 134,
+        "end_char": 142,
+        "excerpt": "Auta de Souza A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus! Meu cravo olente, Cor de marfim, Pobre inocente, Branco jasmim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Pobre",
+                "child": "inocente",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pobre",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "inocente",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequeno amor",
+        "sentence": "Entre as palhinhas, Pequeno amor, Das criancinhas",
+        "start_char": 179,
+        "end_char": 191,
+        "excerpt": "A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus! Meu cravo olente, Cor de marfim, Pobre inocente, Branco jasmim! Entre as palhinhas, Pequeno amor, Das criancinhas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as palhinhas",
+                "child": "Pequeno amor,",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "palhinha",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequeno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pequeno amor,",
+                "child": "as palhinhas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pequeno",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palhinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criancinhas",
+        "sentence": "Entre as palhinhas, Pequeno amor, Das criancinhas",
+        "start_char": 197,
+        "end_char": 208,
+        "excerpt": "A Laura Ramos Róseo menino Feito de luz, Lírio divino, Santo Jesus! Meu cravo olente, Cor de marfim, Pobre inocente, Branco jasmim! Entre as palhinhas, Pequeno amor, Das criancinhas",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as palhinhas",
+                "child": "criancinhas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "palhinha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "criancinha",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criancinhas",
+                "child": "as palhinhas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criancinha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palhinha",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Manso Jesus",
+        "sentence": "És meu tesouro, Manso Jesus!",
+        "start_char": 268,
+        "end_char": 279,
+        "excerpt": "és a flor. Cabelo louro, Olhos azuis... És meu tesouro, Manso Jesus!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "Cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olhos",
+                    "Olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santo",
+        "sentence": "Estrela pura, Santo farol, Flor de candura, Raio de sol...",
+        "start_char": 295,
+        "end_char": 300,
+        "excerpt": "Cabelo louro, Olhos azuis... És meu tesouro, Manso Jesus! Estrela pura, Santo farol, Flor de candura, Raio de sol...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "Cabelo"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olhos",
+                    "Olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Estrela",
+                "child": ", Santo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Estrela",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Santo",
+                "child": "farol",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "farol",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Santo",
+                "child": "Estrela",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrela",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Loura criança",
+        "sentence": "Num teu olhar: Loura criança, Me ensina a amar.",
+        "start_char": 373,
+        "end_char": 386,
+        "excerpt": "Estrela pura, Santo farol, Flor de candura, Raio de sol... Dá-me a esperança Num teu olhar: Loura criança, Me ensina a amar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus...",
+        "start_char": 434,
+        "end_char": 439,
+        "excerpt": "Dá-me a esperança Num teu olhar: Loura criança, Me ensina a amar. Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sonho",
+                "child": ", Jesus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Sonho",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus",
+                "child": "piedoso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "piedoso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus",
+                "child": "Sonho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Sonho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu bom Jesus",
+        "sentence": "Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus...",
+        "start_char": 449,
+        "end_char": 462,
+        "excerpt": "Dá-me a esperança Num teu olhar: Loura criança, Me ensina a amar. Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequeno",
+        "sentence": "Como eu te adoro, Pequeno assim!",
+        "start_char": 484,
+        "end_char": 491,
+        "excerpt": "Num teu olhar: Loura criança, Me ensina a amar. Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus... Como eu te adoro, Pequeno assim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "adoro",
+                "child": ", Pequeno",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequeno",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Jesus, eu choro, Tem dó de mim.",
+        "start_char": 499,
+        "end_char": 504,
+        "excerpt": "Sonho formoso Cheio de luz, Jesus piedoso, Meu bom Jesus... Como eu te adoro, Pequeno assim! Jesus, eu choro, Tem dó de mim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sonho",
+                "child": ", Jesus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Sonho",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus",
+                "child": "piedoso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "piedoso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus",
+                "child": "Sonho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Sonho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tem",
+                "child": "Jesus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "No doce encanto De um riso teu, Jesus tão santo, Leva-me ao Céu!",
+        "start_char": 563,
+        "end_char": 568,
+        "excerpt": "Como eu te adoro, Pequeno assim! Jesus, eu choro, Tem dó de mim. No doce encanto De um riso teu, Jesus tão santo, Leva-me ao Céu!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tem",
+                "child": "Jesus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teu",
+                "child": ", Jesus tão",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "teu",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "santo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "teu",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "teu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "um riso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "riso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "santo",
+                "child": ", Jesus tão",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "santo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Leva-me, eu quero Ver-te Jesus!",
+        "start_char": 654,
+        "end_char": 659,
+        "excerpt": "No doce encanto De um riso teu, Jesus tão santo, Leva-me ao Céu! Em ti espero, Mostra-me a luz... Leva-me, eu quero Ver-te Jesus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "teu",
+                "child": ", Jesus tão",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "teu",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "santo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "teu",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "teu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Jesus tão",
+                "child": "um riso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "riso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "santo",
+                "child": ", Jesus tão",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "santo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "quero",
+                "child": "Ver-te Jesus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ver-te",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ver-te Jesus",
+                "child": "Leva-me",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ver-te",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Leva-me",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

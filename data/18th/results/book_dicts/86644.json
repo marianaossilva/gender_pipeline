@@ -1,0 +1,488 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "O bandolim da desgraça",
+        "sentence": "O bandolim da desgraça Castro Alves",
+        "start_char": 0,
+        "end_char": 22,
+        "excerpt": "O bandolim da desgraça Castro Alves Quando de amor a Americana douda A moda tange na febril viola, E a mão febrenta sobre a corda fina Nervosa, ardente, sacudida rola. A gusla geme, s'estorcendo em ânsias",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "O bandolim da desgraça Castro Alves",
+        "start_char": 23,
+        "end_char": 35,
+        "excerpt": "O bandolim da desgraça Castro Alves Quando de amor a Americana douda A moda tange na febril viola, E a mão febrenta sobre a corda fina Nervosa, ardente, sacudida rola. A gusla geme, s'estorcendo em ânsias",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desgraça",
+                "child": "Castro Alves",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desgraça",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro Alves",
+                "child": "desgraça",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desgraça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro Alves",
+                "child": "O bandolim",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bandolim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o bandolim queixoso",
+        "sentence": "Diz estalando o bandolim queixoso.",
+        "start_char": 544,
+        "end_char": 563,
+        "excerpt": "tem piedade dos meus seios trêmulos... \" Diz estalando o bandolim queixoso.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "Então  co'as unhas cor-de-rosa, a moça, Quebrando as cordas, o instrumento atira!...",
+        "start_char": 756,
+        "end_char": 762,
+        "excerpt": "Sobre o regaço da mulher trigueira, Doida, cruel, a execução delira! ... Então  co'as unhas cor-de-rosa, a moça, Quebrando as cordas, o instrumento atira!...",
+        "gender": "female",
+        "pch_occurrences": {
+            "unha": {
+                "syns": [
+                    "unhas"
+                ],
+                "occurrences": [
+                    "unhas",
+                    "unha"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "unhas",
+                "child": ", a moça",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "unha",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "unhas",
+                        "child": "cor-de-rosa",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "unha",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "cor-de-rosa"
+                    },
+                    {
+                        "head": "unhas",
+                        "child": ", a moça",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "unha",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "moça"
+                    },
+                    {
+                        "head": ", a moça",
+                        "child": "unhas",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "moça",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "unha"
+                    }
+                ]
+            },
+            {
+                "head": ", a moça",
+                "child": "unhas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "unha",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "unhas",
+                        "child": "cor-de-rosa",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "unha",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "cor-de-rosa"
+                    },
+                    {
+                        "head": "unhas",
+                        "child": ", a moça",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "unha",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "moça"
+                    },
+                    {
+                        "head": ", a moça",
+                        "child": "unhas",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "moça",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "unha"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Desgraça",
+        "sentence": "Assim, Desgraça, quando tu, maldita!",
+        "start_char": 896,
+        "end_char": 904,
+        "excerpt": ". A gusla geme, s'estorcendo em ânsias , Rompem gemidos do instrumento em pranto... Choro indizível... comprimir de peitos... Queixas, soluços... desvairado canto! E mais dorida a melodia arqueja! E mais nervosa corre a mão nas cordas! ... Ai! tem piedade das crianças louras Que soluçando no instrumento acordas!... \" Ai! tem piedade dos meus seios trêmulos... \" Diz estalando o bandolim queixoso. ... E a mão palpita-lhe apertando as fibras... E fere, e fere em dedilhar nervoso!... Sobre o regaço da mulher trigueira, Doida, cruel, a execução delira! ... Então  co'as unhas cor-de-rosa, a moça, Quebrando as cordas, o instrumento atira!... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Assim, Desgraça, quando tu, maldita!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            },
+            "unha": {
+                "syns": [
+                    "unhas"
+                ],
+                "occurrences": [
+                    "unhas",
+                    "unha"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "peitos",
+                    "seio",
+                    "peito"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Desgraça",
+                "child": "maldita",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Desgraça",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "maldita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "maldita",
+                "child": ", Desgraça",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "maldita",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Desgraça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esse instrumento",
+        "sentence": "Basta , murmura esse instrumento vivo.",
+        "start_char": 1048,
+        "end_char": 1064,
+        "excerpt": "As cordas d'alma delirante vibras... Como os teus dedos espedaçam rijos Uma por uma do infeliz as fibras! Basta , murmura esse instrumento vivo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "murmura",
+                "child": "esse instrumento",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmurar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "instrumento",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esse instrumento",
+                "child": "vivo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "instrumento",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "vivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fer",
+        "sentence": "Basta , murmura o coração rangendo, E tu, no entanto, num rasgar de artérias, Feres lasciva em dedilhar tremendo.",
+        "start_char": 1149,
+        "end_char": 1152,
+        "excerpt": "Como os teus dedos espedaçam rijos Uma por uma do infeliz as fibras! Basta , murmura esse instrumento vivo. Basta , murmura o coração rangendo, E tu, no entanto, num rasgar de artérias, Feres lasciva em dedilhar tremendo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tu",
+                "child": "Feres lasciva em dedilhar tremendo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Feres",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Feres lasciva em dedilhar tremendo",
+                "child": "tu",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "Feres",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a cortesã cansada",
+        "sentence": "E quando farta a cortesã cansada",
+        "start_char": 1364,
+        "end_char": 1381,
+        "excerpt": "Resta uma corda...  a dos amores puros  ... E mais ardentes os teus dedos correm!... E quando farta a cortesã cansada",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A pobre gu",
+        "sentence": "A pobre gusla no tapete atira, Que resta?",
+        "start_char": 1382,
+        "end_char": 1392,
+        "excerpt": "E mais ardentes os teus dedos correm!... E quando farta a cortesã cansada A pobre gusla no tapete atira, Que resta?",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "lira",
+        "sentence": "Desmontada  lira!!",
+        "start_char": 1492,
+        "end_char": 1496,
+        "excerpt": "Uma alma  que não tem mais vida! Olhos  sem pranto! Desmontada  lira!!",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olhos",
+                    "Olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Desmontada",
+                "child": "lira",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Desmontada",
+                "dep_c": "advmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lira",
+                "child": "Desmontada",
+                "dep_h": "advmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Desmontada",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

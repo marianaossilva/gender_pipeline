@@ -1,0 +1,125 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "um serafim",
+        "sentence": "Dormia e sonhava - no rosto serena Qual um serafim;",
+        "start_char": 356,
+        "end_char": 366,
+        "excerpt": "Dormia deitada na rede de penas - O céu por dossel, De leve embalada no quieto balanço Qual nauta cismando num lago bem manso Num leve batel! Dormia e sonhava - no rosto serena Qual um serafim;",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "algum bandolim",
+        "sentence": "De algum bandolim!",
+        "start_char": 891,
+        "end_char": 905,
+        "excerpt": "Dormia e sonhava - no sonho de amores. Chamava por mim, E a voz suspirosa nos lábios morria Tão terna e tão meiga qual vaga harmonia De algum bandolim!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A virgem",
+        "sentence": "E como nas ânsias dum sonho que é lindo, A virgem na rede corando e sorrindo...",
+        "start_char": 1157,
+        "end_char": 1165,
+        "excerpt": "Ao hálito ardente o peito palpita... Mas sem despertar; E como nas ânsias dum sonho que é lindo, A virgem na rede corando e sorrindo...",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "corando",
+                "child": "A virgem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "corar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A virgem",
+                "child": "rede",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rede",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rede",
+                "child": "A virgem",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rede",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

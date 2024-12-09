@@ -1,0 +1,531 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "Mudo e quedo Castro Alves E calado ficou...",
+        "start_char": 13,
+        "end_char": 25,
+        "excerpt": "Mudo e quedo Castro Alves E calado ficou... De pranto as bagas Pelo moreno rosto deslizaram, qual da braúna, que o machado fere, Lágrimas saltam de um sabor amargo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os dois",
+        "sentence": "Mudos, quedos os dois neste momento Mergulhavam no dédalo d'angústia, No labirinto escuro que desgraça...",
+        "start_char": 179,
+        "end_char": 186,
+        "excerpt": "De pranto as bagas Pelo moreno rosto deslizaram, qual da braúna, que o machado fere, Lágrimas saltam de um sabor amargo. Mudos, quedos os dois neste momento Mergulhavam no dédalo d'angústia, No labirinto escuro que desgraça...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os noivos",
+        "sentence": "Tanto beijo na porta da choupana, Quando a lua invejosa no infinito Com uma bênção de luz sagrava os noivos!",
+        "start_char": 760,
+        "end_char": 769,
+        "excerpt": "... De pranto as bagas Pelo moreno rosto deslizaram, qual da braúna, que o machado fere, Lágrimas saltam de um sabor amargo. Mudos, quedos os dois neste momento Mergulhavam no dédalo d'angústia, No labirinto escuro que desgraça... Labirinto sem luz, sem ar, sem fio... Que dor, que drama torvo de agonias Não vai naquelas almas! ... Dor sombria De ver quebrado aquele amor tão santo, De lembrar que o passado está passado..., Que a esperança morreu, que surge a morte!... Tanta ilusão! ... tanta carícia meiga!... Tanto castelo de ventura feito À beira do riacho, ou na campanha! ... Tanto êxtase inocente de amorosos!... Tanto beijo na porta da choupana, Quando a lua invejosa no infinito Com uma bênção de luz sagrava os noivos!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sagrava",
+                "child": "os noivos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sagrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "noivo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O raio",
+        "sentence": "O raio, quando esgalha",
+        "start_char": 795,
+        "end_char": 801,
+        "excerpt": "Não mais! não mais! O raio, quando esgalha",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O raio",
+                "child": ", quando esgalha",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "raio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "esgalha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", quando esgalha",
+                "child": "O raio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "esgalha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "raio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O ipê secular",
+        "sentence": "O ipê secular, atira ao longe Flores, que há pouco se beijavam n'hástea, Que unidas nascem, juntas viver pensam, E que jamais na terra hão de encontrar-se!",
+        "start_char": 818,
+        "end_char": 831,
+        "excerpt": "não mais! O raio, quando esgalha O ipê secular, atira ao longe Flores, que há pouco se beijavam n'hástea, Que unidas nascem, juntas viver pensam, E que jamais na terra hão de encontrar-se!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "juntas",
+                    "junta"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "\"Maria!",
+        "start_char": 1190,
+        "end_char": 1195,
+        "excerpt": "O olhar em fogo, o riso convulsivo  Em golfadas lançando a voz do peito! ... \"Maria!",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Criança",
+        "sentence": "Criança, escuta!",
+        "start_char": 1250,
+        "end_char": 1257,
+        "excerpt": "Fala! fala Enquanto eu posso ouvir... Criança, escuta!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "morto",
+        "sentence": "Do seio túrgido do abismo Há de romper a maldição do morto;",
+        "start_char": 1457,
+        "end_char": 1462,
+        "excerpt": "A correnteza, estrepitando, arrasta Uma palmeira, quanto mais um homem!... Pois bem! Do seio túrgido do abismo Há de romper a maldição do morto;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a maldição",
+                "child": "morto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "maldição",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "morto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morto",
+                "child": "a maldição",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "morto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "maldição",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucas",
+        "sentence": "Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo...",
+        "start_char": 1733,
+        "end_char": 1738,
+        "excerpt": "Depois o meu cadáver negro, lívido, Irá seguindo a esteira da canoa Pedir-te inda que fales, desgraçada, Que ao morto digas o que ao vivo ocultas!... \" Era tremenda aquela dor selvagem, Que rebentava enfim, partindo os diques Na fúria desmedida!... Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rolar",
+                "child": "Lucas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rolar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucas",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o escravo",
+        "sentence": "Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo...",
+        "start_char": 1785,
+        "end_char": 1794,
+        "excerpt": "Depois o meu cadáver negro, lívido, Irá seguindo a esteira da canoa Pedir-te inda que fales, desgraçada, Que ao morto digas o que ao vivo ocultas!... \" Era tremenda aquela dor selvagem, Que rebentava enfim, partindo os diques Na fúria desmedida!... Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "susteve",
+                "child": "o escravo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sustevar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pálida criança",
+        "sentence": "E a pálida criança, desvairada, Aos pés caiu-lhe a desfazer-se em pranto.",
+        "start_char": 1800,
+        "end_char": 1816,
+        "excerpt": "\" Era tremenda aquela dor selvagem, Que rebentava enfim, partindo os diques Na fúria desmedida!... Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo... E a pálida criança, desvairada, Aos pés caiu-lhe a desfazer-se em pranto.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "caiu-lhe",
+                "child": "E a pálida criança",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caiu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "selvagem",
+        "sentence": "Ela encostou-se ao peito do selvagem",
+        "start_char": 1900,
+        "end_char": 1908,
+        "excerpt": "Em meio às ondas Ia Lucas rolar Um grito fraco, Uma trêmula mão susteve o escravo... E a pálida criança, desvairada, Aos pés caiu-lhe a desfazer-se em pranto. Ela encostou-se ao peito do selvagem",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "encostou-se",
+                "child": "selvagem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encostour se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "selvagem",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a viole",
+        "sentence": "Como a violeta, as faces escondendo",
+        "start_char": 1914,
+        "end_char": 1921,
+        "excerpt": "E a pálida criança, desvairada, Aos pés caiu-lhe a desfazer-se em pranto. Ela encostou-se ao peito do selvagem Como a violeta, as faces escondendo",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "selvagem",
+                "child": "a violeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "selvagem",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "violeta",
+                "categories": [
+                    "carater_social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a violeta",
+                "child": "selvagem",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "violeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "selvagem",
+                "categories": [
+                    "aparencia",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a violeta",
+                "child": "peito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "violeta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "peito",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

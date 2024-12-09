@@ -1,0 +1,4563 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalves",
+        "sentence": "Gonçalves",
+        "start_char": 13,
+        "end_char": 22,
+        "excerpt": "NOVOS CANTOS Gonçalves",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O HOMEM",
+        "sentence": "O HOMEM",
+        "start_char": 28,
+        "end_char": 35,
+        "excerpt": "Gonçalves Dias O HOMEM",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaz",
+        "sentence": "Jaz o mundo corrupto!",
+        "start_char": 990,
+        "end_char": 993,
+        "excerpt": "A pátria em torno Do seu sepulcro o chora, onde a virtude, Afeita ao luto e à dor, de novo carpe Do justo a flébil morte! DIES IRAE Jaz o mundo corrupto!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Jaz",
+                "child": "o mundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Jaz",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A voz de Deus já não reboa imensa!",
+        "start_char": 1255,
+        "end_char": 1259,
+        "excerpt": "Frutos de maldição produz somente; E em quanto os homens ao mercado afluem, Vazio o templo do Senhor se enluta, Empoeira-se o altar, e pelas naves, Gretadas, rotas pela mão do tempo, De cânticos e preces deslembradas, A voz de Deus já não reboa imensa!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A voz",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "A voz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mulher",
+        "sentence": "A mulher, a mais bela criatura, Nas suas próprias perfeições compraz-se, Como quando, noEden, as pulcras formas",
+        "start_char": 1627,
+        "end_char": 1635,
+        "excerpt": "As aguas pelos vales se deslizam, Ou dalpestres montanhas se despenham Coos mesmos sons, coa mesma queda: as brisas Inda conversam nos soturnos bosques; A mulher, a mais bela criatura, Nas suas próprias perfeições compraz-se, Como quando, noEden, as pulcras formas",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "compraz-se",
+                "child": "A mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compraz-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mulher",
+                "child": ", a mais bela criatura",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "criatura",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a mais bela criatura",
+                "child": "A mulher",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "criatura",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Inda conserva",
+        "start_char": 1797,
+        "end_char": 1801,
+        "excerpt": "A mulher, a mais bela criatura, Nas suas próprias perfeições compraz-se, Como quando, noEden, as pulcras formas Pasmou de ver representadas nagua, E de as ver se ufanou. Inda conserva",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conserva",
+                "child": "Inda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conservar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O rei da criação",
+        "sentence": "O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "start_char": 1851,
+        "end_char": 1867,
+        "excerpt": "Pasmou de ver representadas nagua, E de as ver se ufanou. Inda conserva O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o deus criado",
+        "sentence": "O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "start_char": 1869,
+        "end_char": 1882,
+        "excerpt": "Pasmou de ver representadas nagua, E de as ver se ufanou. Inda conserva O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cetáceos",
+        "sentence": "O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "start_char": 1926,
+        "end_char": 1934,
+        "excerpt": "Pasmou de ver representadas nagua, E de as ver se ufanou. Inda conserva O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os nomes",
+                "child": ", Cetáceos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cetáceos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Cetáceos",
+                "child": "os nomes",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cetáceos",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Cetáceos",
+                "child": "O rei",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cetáceos",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "rei",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Entre Adão e Noé à flor da terra!",
+        "start_char": 2004,
+        "end_char": 2008,
+        "excerpt": "Inda conserva O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram Entre Adão e Noé à flor da terra!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Adão e Noé à flor",
+                "child": "terra",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "terra",
+                "child": "Adão e Noé à flor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "terra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Noé",
+        "sentence": "Entre Adão e Noé à flor da terra!",
+        "start_char": 2011,
+        "end_char": 2014,
+        "excerpt": "Inda conserva O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram Entre Adão e Noé à flor da terra!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Adão e Noé à flor",
+                "child": "terra",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "terra",
+                "child": "Adão e Noé à flor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "terra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Tudo o mesmo se mostra; mas a alma, Esse mundo interior, esse outro templo, Onde gravara o próprio Deus seu nome, Como os templos de pedra, jaz em lume,",
+        "start_char": 2131,
+        "end_char": 2135,
+        "excerpt": "O mesmo orgulho e inteligência o homem, O rei da criação, o deus criado, De quando vinham, por pedir-lhe os nomes, Cetáceos, aves e os répteis e aquelas Criaturas-montanhas, que passaram Entre Adão e Noé à flor da terra! Tudo o mesmo se mostra; mas a alma, Esse mundo interior, esse outro templo, Onde gravara o próprio Deus seu nome, Como os templos de pedra, jaz em lume,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gravara",
+                "child": "o próprio Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "gravara",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o próprio Deus",
+                "child": "esse outro templo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "templo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o próprio Deus",
+                "child": "a alma",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaz",
+        "sentence": "Jaz como o prédio a desfazer-se em ruínas.",
+        "start_char": 2185,
+        "end_char": 2188,
+        "excerpt": "Entre Adão e Noé à flor da terra! Tudo o mesmo se mostra; mas a alma, Esse mundo interior, esse outro templo, Onde gravara o próprio Deus seu nome, Como os templos de pedra, jaz em lume, Jaz como o prédio a desfazer-se em ruínas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os templos",
+                "child": "Jaz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "templo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Jaz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jaz",
+                "child": "o prédio",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Jaz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "prédio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jaz",
+                "child": "os templos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Jaz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "templo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jaz",
+                "child": "a alma",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Jaz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o prédio",
+                "child": "Jaz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "prédio",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Jaz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Que ali, na ausência do senhor imperam.",
+        "start_char": 2333,
+        "end_char": 2339,
+        "excerpt": "Jaz como o prédio a desfazer-se em ruínas. Onde um guarda solícito não mora, E entregue as aves más, que em chilros pregam, Que ali, na ausência do senhor imperam.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ausência",
+                "child": "senhor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ausência",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "ausência",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ausência",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "Que o Senhor consentisse persistirem Os maus no mal, à espera demendá-los; Que triunfasse a malvadeza; e o crime, Vexando os bons, senhoreasse a terra.",
+        "start_char": 2564,
+        "end_char": 2572,
+        "excerpt": "Santas águas Por cuja causa os séculos já viram, Sem justa punição, ofensas graves; Que o Senhor consentisse persistirem Os maus no mal, à espera demendá-los; Que triunfasse a malvadeza; e o crime, Vexando os bons, senhoreasse a terra.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "consentisse",
+                "child": "o Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "consentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas Deus, que fora outrora pai clemente, Dando começo ao reino da justiça, Eu austero juiz se há convertido.",
+        "start_char": 2716,
+        "end_char": 2720,
+        "excerpt": "Por cuja causa os séculos já viram, Sem justa punição, ofensas graves; Que o Senhor consentisse persistirem Os maus no mal, à espera demendá-los; Que triunfasse a malvadeza; e o crime, Vexando os bons, senhoreasse a terra. Mas Deus, que fora outrora pai clemente, Dando começo ao reino da justiça, Eu austero juiz se há convertido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "pai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "austero",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "austero",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pai",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "austero",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "austero",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dos profetas",
+        "sentence": "Prevista dos profetas.",
+        "start_char": 2938,
+        "end_char": 2950,
+        "excerpt": "Mas Deus, que fora outrora pai clemente, Dando começo ao reino da justiça, Eu austero juiz se há convertido. Como um carro, que vai dencontro ao abismo, Perfaz o sol precipite o seu giro, Indo a tocar a temerosa meta Prevista dos profetas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um arcanjo",
+        "sentence": "Um arcanjo",
+        "start_char": 2952,
+        "end_char": 2962,
+        "excerpt": "Como um carro, que vai dencontro ao abismo, Perfaz o sol precipite o seu giro, Indo a tocar a temerosa meta Prevista dos profetas. Um arcanjo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus ofeso Tira os olhos do mundo, e o mundo há sido!",
+        "start_char": 3091,
+        "end_char": 3095,
+        "excerpt": "Com mão robusta inda retém os elos Da cadeia do tempo, em quanto a outra Da vida o livro volumoso sela Com sete brônzeos selos. Deus ofeso Tira os olhos do mundo, e o mundo há sido!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "Tira",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tira",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Tira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O mar se torna em sangue, o sol em fogo, O Universo em mansão daflitas fores, O homem sofre, blasfema e desespera, E vendo ou mundos desabar precipiteis,",
+        "start_char": 3599,
+        "end_char": 3606,
+        "excerpt": "Cruzados vagalhões, qual se tentara Sovertê-los; os ventos se contrastam! Novos prodígios, novos monstros surgem! O mar se torna em sangue, o sol em fogo, O Universo em mansão daflitas fores, O homem sofre, blasfema e desespera, E vendo ou mundos desabar precipiteis,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sofre",
+                "child": "O homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sofrer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "emo",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "Satisfez-se o Senhor.",
+        "start_char": 3794,
+        "end_char": 3802,
+        "excerpt": "Um grito solta dhorroroso transe, Como de nau, quem alto mar safunda E rola os restos namplidão das águas. Satisfez-se o Senhor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Satisfez-se",
+                "child": "o Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Satisfez-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Da glória do Senhor um raio apenas, Lá dos confins do espaço despedido, Fere da morte o rosto macilento De tudo quanto foi, e quanto existe!",
+        "start_char": 4056,
+        "end_char": 4062,
+        "excerpt": "O caos, O horror, a confusão, o vulto enorme Do tempo, que escurece o fundo abismo, Onde por todo o sempre jaz cativo; E da morte o cadáver gigantesco Quase ocupando a superfície inteira Dum mar de chumbo, escuro e sem rumores. Da glória do Senhor um raio apenas, Lá dos confins do espaço despedido, Fere da morte o rosto macilento De tudo quanto foi, e quanto existe!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "glória",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "glória",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "glória",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "glória",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Por que então maldiremos este mundo E a vida que vivemos, Se nos tornamos do Senhor mais dignos, Quanto mais dor sofremos?",
+        "start_char": 4505,
+        "end_char": 4511,
+        "excerpt": "Mais ou menos dangústias cabe a todos, A todos cabe a morte. A vida é um fio negro damarguras E de longo sofrer; Simelha a noite; mas fagueiros sonhos Podem de noite haver. Por que então maldiremos este mundo E a vida que vivemos, Se nos tornamos do Senhor mais dignos, Quanto mais dor sofremos?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tornamos",
+                "child": "Senhor mais",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tornamo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor mais",
+                "child": "dignos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "digno",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor mais",
+                "child": "tornamos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tornamo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor mais",
+                "child": "a vida",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Coberto damar",
+        "sentence": "Como há de ver-nos, sem piedade, o rosto Coberto damargura;",
+        "start_char": 4809,
+        "end_char": 4822,
+        "excerpt": "No dia da aflição: Como não há de computar as dores Do nosso coração? Como há de ver-nos, sem piedade, o rosto Coberto damargura;",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o rosto",
+                "child": "Coberto damargura",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "rosto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Coberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Coberto damargura",
+                "child": "o rosto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Coberto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rosto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Ele, senhor e pai, conforto e guia Da humana criatura?",
+        "start_char": 4833,
+        "end_char": 4839,
+        "excerpt": "Como não há de computar as dores Do nosso coração? Como há de ver-nos, sem piedade, o rosto Coberto damargura; Ele, senhor e pai, conforto e guia Da humana criatura?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pai",
+        "sentence": "Ele, senhor e pai, conforto e guia Da humana criatura?",
+        "start_char": 4842,
+        "end_char": 4845,
+        "excerpt": "Como não há de computar as dores Do nosso coração? Como há de ver-nos, sem piedade, o rosto Coberto damargura; Ele, senhor e pai, conforto e guia Da humana criatura?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pai",
+                "child": ", conforto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "conforto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pai",
+                "child": "guia",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "guia",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", conforto",
+                "child": "pai",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "conforto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "guia",
+                "child": "pai",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "guia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento",
+        "start_char": 5005,
+        "end_char": 5009,
+        "excerpt": "Se iroso o mar flutua; Se o sol rutila, se as estrelas brilha, Se gira a branca lua; Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mede",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "medir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento",
+        "start_char": 5005,
+        "end_char": 5009,
+        "excerpt": "Se iroso o mar flutua; Se o sol rutila, se as estrelas brilha, Se gira a branca lua; Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mede",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "medir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Darroubo",
+        "sentence": "Darroubo ou dagonia!",
+        "start_char": 5102,
+        "end_char": 5110,
+        "excerpt": "Se o sol rutila, se as estrelas brilha, Se gira a branca lua; Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento Darroubo ou dagonia!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "momento",
+                "child": "Darroubo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "momento",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Darroubo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Darroubo",
+                "child": "momento",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Darroubo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dagon",
+        "sentence": "Darroubo ou dagonia!",
+        "start_char": 5114,
+        "end_char": 5119,
+        "excerpt": "Se o sol rutila, se as estrelas brilha, Se gira a branca lua; Deus o quis, Deus que mede a intensidade Da dor e da alegria, Que cada ser comporta  num momento Darroubo ou dagonia!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Além da terra há céus, e Deus protege A toda criatura!",
+        "start_char": 5198,
+        "end_char": 5202,
+        "excerpt": "Embora pois a nossa vida corra Alheia da ventura! Além da terra há céus, e Deus protege A toda criatura!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "protege",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "proteger",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Viajor",
+        "sentence": "Viajor perdido na floresta à noite, Assim vago na vida;",
+        "start_char": 5228,
+        "end_char": 5234,
+        "excerpt": "Alheia da ventura! Além da terra há céus, e Deus protege A toda criatura! Viajor perdido na floresta à noite, Assim vago na vida;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perdido",
+                "child": "Viajor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viajor",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pícia Deusa",
+        "sentence": "Propícia Deusa, e se não fosse a esperança, Deusa melhor da vida; quinsensato, A quem mitigas túrbidos pesares Haverá tão ingrato",
+        "start_char": 5841,
+        "end_char": 5852,
+        "excerpt": "A mim também Consolar de gemidos suspirosos E de partidos ais! Oh! seja a punição dos insensíveis Não te sentir jamais! Propícia Deusa, e se não fosse a esperança, Deusa melhor da vida; quinsensato, A quem mitigas túrbidos pesares Haverá tão ingrato",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deusa",
+        "sentence": "Propícia Deusa, e se não fosse a esperança, Deusa melhor da vida; quinsensato, A quem mitigas túrbidos pesares Haverá tão ingrato",
+        "start_char": 5847,
+        "end_char": 5852,
+        "excerpt": "A mim também Consolar de gemidos suspirosos E de partidos ais! Oh! seja a punição dos insensíveis Não te sentir jamais! Propícia Deusa, e se não fosse a esperança, Deusa melhor da vida; quinsensato, A quem mitigas túrbidos pesares Haverá tão ingrato",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deusa",
+                "child": "Propícia",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "propícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "se não fosse a esperança",
+                "child": ", Deusa",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "esperança",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deusa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Deusa",
+                "child": "melhor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "melhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Deusa",
+                "child": "vida",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Deusa",
+                "child": "se não fosse a esperança",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Deusa",
+                "child": "Propícia",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "propícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vida",
+                "child": ", Deusa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deusa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bálsamo santo",
+        "sentence": "Bálsamo santo extrai consolador!",
+        "start_char": 6295,
+        "end_char": 6308,
+        "excerpt": "Resta a saudade, Que dos passados dias De mágoas e alegrias Bálsamo santo extrai consolador!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hera",
+        "sentence": "Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "start_char": 6400,
+        "end_char": 6404,
+        "excerpt": "Resta a saudade, que alimenta a vida À luz do facho qu adormenta a dor! Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Hera",
+                "child": "coração",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hera",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "coração",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hera",
+                "child": "memória",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hera",
+                "dep_c": "advmod",
+                "pos_c": "NOUN",
+                "lemma_c": "memória",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hera",
+                "child": "ó rainha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hera",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rainha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hera",
+                "child": ", Simelhas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hera",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simelhas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hera",
+                "child": "donzela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hera",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "do passado ,",
+        "sentence": "Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "start_char": 6399,
+        "end_char": 6411,
+        "excerpt": "Resta a saudade, que alimenta a vida À luz do facho qu adormenta a dor! Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "romântica donzela",
+        "sentence": "Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "start_char": 6474,
+        "end_char": 6491,
+        "excerpt": "Resta a saudade, que alimenta a vida À luz do facho qu adormenta a dor! Hera do coração, memória dele, Ò Saudade, ó rainha do passado, Simelhas a romântica donzela",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Em quanto vendo-o ao longe o senhorio, De posses decaído, Dinvernos alquebrado, Recorda triste os anos que passaram!",
+        "start_char": 6664,
+        "end_char": 6672,
+        "excerpt": "Grinaldas flutuantes, Que das fendas brotaram, Movem-se do nordeste Ao sopro agudo e frio; Em quanto vendo-o ao longe o senhorio, De posses decaído, Dinvernos alquebrado, Recorda triste os anos que passaram!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vendo-o",
+                "child": "o senhorio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vendo-o",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhorio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Din",
+        "sentence": "Em quanto vendo-o ao longe o senhorio, De posses decaído, Dinvernos alquebrado, Recorda triste os anos que passaram!",
+        "start_char": 6695,
+        "end_char": 6698,
+        "excerpt": "Grinaldas flutuantes, Que das fendas brotaram, Movem-se do nordeste Ao sopro agudo e frio; Em quanto vendo-o ao longe o senhorio, De posses decaído, Dinvernos alquebrado, Recorda triste os anos que passaram!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", De posses",
+                "child": "Dinvernos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "posse",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Dinvernos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dinvernos",
+                "child": ", De posses",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Dinvernos",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "posse",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rainha do passado",
+        "sentence": "Pois nasces nos desertos da tristeza, Ó Saudade, ó rainha do passado!",
+        "start_char": 7023,
+        "end_char": 7040,
+        "excerpt": "Em que hora, em que instante De folga ou de fadiga Já deixei de sentir o penetrante Espinho teu, a repassar-me todo Dum prazer melancólico e suave? Pois nasces nos desertos da tristeza, Ó Saudade, ó rainha do passado!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A flor",
+        "sentence": "A flor dizia em vão A corrente, onde bela se mirava...",
+        "start_char": 7589,
+        "end_char": 7595,
+        "excerpt": "E ao meneio das ramas funerárias, Meu derradeiro amigo, Descanse morto quem viveu contigo. NÃO ME DEIXES Debruçada nas águas dum regato A flor dizia em vão A corrente, onde bela se mirava...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "A flor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a flor",
+        "sentence": "E a flor sempre a dizer curva na fonte:",
+        "start_char": 7839,
+        "end_char": 7845,
+        "excerpt": "Dos mares à amplidão, Límpido ou turvo, te amarei constante Mas não me deixes, não! E a corrente passava, novas águas Após as outras vão; E a flor sempre a dizer curva na fonte:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizer",
+                "child": "a flor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a flor",
+        "sentence": "À eterna sucessão Dizia sempre a flor, e sempre embalde:",
+        "start_char": 7966,
+        "end_char": 7972,
+        "excerpt": "Ai, não me deixes, não! Comigo fica ou leva-me contigo Dos mares à amplidão, Límpido ou turvo, te amarei constante Mas não me deixes, não! E a corrente passava, novas águas Após as outras vão; E a flor sempre a dizer curva na fonte: Ai, não me deixes, não! E das águas que fogem incessantes À eterna sucessão Dizia sempre a flor, e sempre embalde:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizer",
+                "child": "a flor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dizia",
+                "child": "a flor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a flor",
+                "child": "embalde",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "embalde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobrezinha",
+        "sentence": "A afundar-se dizia a pobrezinha:",
+        "start_char": 8217,
+        "end_char": 8229,
+        "excerpt": "Por fim desfalecida e a cor murchada, Quase a lamber o chão, Buscava inda a corrente por dizer-lhe Que a não deixasse, não. A corrente impiedosa a flor enleia, Leva-a do seu torrão; A afundar-se dizia a pobrezinha:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "a pobrezinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pobrezinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xenil",
+        "sentence": "Onde o Darro e Xenil no lento giro Volvem a linfa pura.",
+        "start_char": 8341,
+        "end_char": 8346,
+        "excerpt": "Não me deixaste, não! ZULMIRA Sonhara-te eu na veiga de Granada, Tapetada de flores e verdura, Onde o Darro e Xenil no lento giro Volvem a linfa pura.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Darro",
+                "child": "Xenil",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Darro",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xenil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xenil",
+                "child": "o Darro",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xenil",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Darro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gentis cavaleiros do oriente",
+        "sentence": "Dos gentis cavaleiros do oriente, Quando, deposta a malha do combate, Vestem da paz a seda reluzente.",
+        "start_char": 8415,
+        "end_char": 8443,
+        "excerpt": "Onde o Darro e Xenil no lento giro Volvem a linfa pura. Ali te vejo em leda comitiva Dos gentis cavaleiros do oriente, Quando, deposta a malha do combate, Vestem da paz a seda reluzente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o séqüito pomposo Denucos",
+        "sentence": "E em roda, ao largo, o séqüito pomposo Denucos a teu gesto vacilantes",
+        "start_char": 8802,
+        "end_char": 8827,
+        "excerpt": "Ali te vejo, sim; mas mais me agrada O que se mafigura noutro instante, Ver-te em vistosa tenda douro e sedas, Levantada no dorso do elefante. E em roda, ao largo, o séqüito pomposo Denucos a teu gesto vacilantes",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alvíssimo",
+        "sentence": "Em cujas fontes negras se destacam Alvíssimos turbantes.",
+        "start_char": 8886,
+        "end_char": 8895,
+        "excerpt": "O que se mafigura noutro instante, Ver-te em vistosa tenda douro e sedas, Levantada no dorso do elefante. E em roda, ao largo, o séqüito pomposo Denucos a teu gesto vacilantes Em cujas fontes negras se destacam Alvíssimos turbantes.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Alvíssimos",
+                "child": "turbantes",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "Alvíssimos",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "turbante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "jor",
+        "sentence": "A UMA POETISA - Donde vens, viajor?",
+        "start_char": 9082,
+        "end_char": 9085,
+        "excerpt": "E pergunto quem és? Então me dizem Ciosos de guardar o seu tesouro, Nome tão doce aos lábios, que parece Escever-se em cetim com letras douro. A UMA POETISA - Donde vens, viajor?",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Safo cristã",
+        "sentence": "Ali, Safo cristã, vigem formosa, A vida aos sons da lira dulcifica: Descutar a sereia harmoniosa",
+        "start_char": 9373,
+        "end_char": 9384,
+        "excerpt": "onde as flores Cada vez a manhã tornam mais linda, Onde gemeu Paraguaçu de amores E os ecos falam de Moema ainda; Ali, Safo cristã, vigem formosa, A vida aos sons da lira dulcifica: Descutar a sereia harmoniosa",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ANGELINA",
+        "sentence": "ANGELINA É gentil e linda e bela, E eu sei que marrouba o vê-la Tão divina:",
+        "start_char": 9499,
+        "end_char": 9507,
+        "excerpt": "Ali, Safo cristã, vigem formosa, A vida aos sons da lira dulcifica: Descutar a sereia harmoniosa O de vê-la, a vontade presa fica! ANGELINA É gentil e linda e bela, E eu sei que marrouba o vê-la Tão divina:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "Mas minha alma não sesquece DAngelina!",
+        "start_char": 9629,
+        "end_char": 9638,
+        "excerpt": "ANGELINA É gentil e linda e bela, E eu sei que marrouba o vê-la Tão divina: A lira seus cantos cesse; Mas minha alma não sesquece DAngelina!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sesquece",
+                "child": "DAngelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sesquecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "DAngelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "Que irradia o rosto airoso DAngelina!",
+        "start_char": 9760,
+        "end_char": 9769,
+        "excerpt": "Outro louve os seus cabelos, Cante a luz dos olhos belos Que fascina; E o leve sorrir donoso Que irradia o rosto airoso DAngelina!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "Que sergue, se acaso passa, Sussurro que aplaude a graça DAngelina!",
+        "start_char": 9892,
+        "end_char": 9901,
+        "excerpt": "Que irradia o rosto airoso DAngelina! Os dotes diga que apura, Quando em lânguida postura Se reclina; Que sergue, se acaso passa, Sussurro que aplaude a graça DAngelina!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "DAngelina",
+                "child": "a graça",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "DAngelinar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "graça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O bardo",
+        "sentence": "O bardo quebrara a lira, De mofina; Que jamais poderam cantos",
+        "start_char": 9930,
+        "end_char": 9937,
+        "excerpt": "Que sergue, se acaso passa, Sussurro que aplaude a graça DAngelina! Que de amor quando suspira O bardo quebrara a lira, De mofina; Que jamais poderam cantos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quebrara",
+                "child": "O bardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "quebrarar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bardo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "Pintar no vivo os encantos DAngelina!",
+        "start_char": 10019,
+        "end_char": 10028,
+        "excerpt": "Que de amor quando suspira O bardo quebrara a lira, De mofina; Que jamais poderam cantos Pintar no vivo os encantos DAngelina!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "DAngelina",
+                "child": "os encantos",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "DAngelina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "encanto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Peregrina",
+        "sentence": "Que da sua alma a pureza Equipara-se à beleza Peregrina;",
+        "start_char": 10076,
+        "end_char": 10085,
+        "excerpt": "O bardo quebrara a lira, De mofina; Que jamais poderam cantos Pintar no vivo os encantos DAngelina! Que da sua alma a pureza Equipara-se à beleza Peregrina;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "beleza",
+                "child": "Peregrina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "beleza",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Peregrina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Peregrina",
+                "child": "beleza",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Peregrina",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "beleza",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nalma",
+        "sentence": "Que amor seu trono tem posto Nalma, no talhe e no rosto DAngelina!",
+        "start_char": 10116,
+        "end_char": 10121,
+        "excerpt": "Pintar no vivo os encantos DAngelina! Que da sua alma a pureza Equipara-se à beleza Peregrina; Que amor seu trono tem posto Nalma, no talhe e no rosto DAngelina!",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "posto",
+                "child": "Nalma",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "posto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Nalma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nalma",
+                "child": "posto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Nalma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "posto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "Que amor seu trono tem posto Nalma, no talhe e no rosto DAngelina!",
+        "start_char": 10143,
+        "end_char": 10152,
+        "excerpt": "Pintar no vivo os encantos DAngelina! Que da sua alma a pureza Equipara-se à beleza Peregrina; Que amor seu trono tem posto Nalma, no talhe e no rosto DAngelina!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "DAngelina",
+                "child": "os encantos",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "DAngelina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "encanto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "DAngelina",
+                "child": ", no talhe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "DAngelina",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "talhe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAngelina",
+        "sentence": "A lira seus cantos cesse, Mas minha alma não sesquece DAngelina!",
+        "start_char": 10278,
+        "end_char": 10287,
+        "excerpt": "Que amor seu trono tem posto Nalma, no talhe e no rosto DAngelina! Eu que não sei descrevê-la, Só sei que me arrouba o vê-la Tão divina; A lira seus cantos cesse, Mas minha alma não sesquece DAngelina!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "DAngelina",
+                "child": ", no talhe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "DAngelinar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "talhe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sesquece",
+                "child": "DAngelina",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sesquecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "DAngelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "RÔLA",
+        "sentence": "RÔLA Desque amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu!",
+        "start_char": 10289,
+        "end_char": 10293,
+        "excerpt": "Eu que não sei descrevê-la, Só sei que me arrouba o vê-la Tão divina; A lira seus cantos cesse, Mas minha alma não sesquece DAngelina! RÔLA Desque amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o esposo",
+        "sentence": "RÔLA Desque amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu!",
+        "start_char": 10386,
+        "end_char": 10394,
+        "excerpt": "Eu que não sei descrevê-la, Só sei que me arrouba o vê-la Tão divina; A lira seus cantos cesse, Mas minha alma não sesquece DAngelina! RÔLA Desque amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amante",
+        "sentence": "vem, ó meu amante, Tua sou e tu és meu!",
+        "start_char": 10468,
+        "end_char": 10478,
+        "excerpt": "Seja noite ou seja dia, Eu te procuro constante: Vem, oh! vem, ó meu amante, Tua sou e tu és meu!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o esposo",
+        "sentence": "Que, se amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu.",
+        "start_char": 10930,
+        "end_char": 10938,
+        "excerpt": "Amo-te, quero-te, adoro-te, Abraso-me quando em ti penso, E em fogo voraz, intenso, Anseio louca de amor! Vem, que te chamo e te aguardo, Vem apertar-me em teus braços, Estreitar-me em doces laços, Vem pousar no peito meu! Que, se amor me deu que eu lesse Nos teus olhos minha sina, Ando, como a peregrina Rola, que o esposo perdeu.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Baldão",
+        "sentence": "Baldão, ludíbrio da sorte",
+        "start_char": 11294,
+        "end_char": 11300,
+        "excerpt": "Cruas ânsias, Dos teus olhos afastado, Houveram-me acabrunhado, A não lembrar-me de ti! II Dum mundo a outro impelido, Derramei os meus lamentos Nas surdas asas dos ventos, Do mar na crespa cerviz! Baldão, ludíbrio da sorte",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Baldão",
+                "child": ", ludíbrio",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Baldão",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "ludíbrio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ludíbrio",
+                "child": "Baldão",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "ludíbrio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Baldão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sorte",
+                "child": "Baldão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sorte",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Baldão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Viv",
+        "sentence": "IV Vivi; pois Deus me guardava Para este lugar e hora!",
+        "start_char": 11617,
+        "end_char": 11620,
+        "excerpt": "Mas quase no passo extremo, No último arcar da esprança, Tu me vieste à lembrança: Quis viver mais e vivi! IV Vivi; pois Deus me guardava Para este lugar e hora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "IV Vivi; pois Deus me guardava Para este lugar e hora!",
+        "start_char": 11628,
+        "end_char": 11632,
+        "excerpt": "Mas quase no passo extremo, No último arcar da esprança, Tu me vieste à lembrança: Quis viver mais e vivi! IV Vivi; pois Deus me guardava Para este lugar e hora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "guardava",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "guardar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "Depois de tanto, senhora, Ver-te e falar-te outra vez; Rever-me em teu rosto amigo, Pensar em quanto hei perdido, E este pranto dolorido Deixar correr a teus pés.",
+        "start_char": 11686,
+        "end_char": 11693,
+        "excerpt": "Quis viver mais e vivi! IV Vivi; pois Deus me guardava Para este lugar e hora! Depois de tanto, senhora, Ver-te e falar-te outra vez; Rever-me em teu rosto amigo, Pensar em quanto hei perdido, E este pranto dolorido Deixar correr a teus pés.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o bom Deus",
+        "sentence": "De minhas preces, contava Que o bom Deus me aceitaria",
+        "start_char": 12600,
+        "end_char": 12610,
+        "excerpt": "Tal sacrifício aceitar-te Para no cabo pagar-te, Meus dias unindo aos teus? VIII Devera, sim; mas pensava, Que de mim tesquecerias, Que, sem mim, alegres dias Tesperavam; e em favor De minhas preces, contava Que o bom Deus me aceitaria",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arfa",
+        "sentence": "Nadam-te os olhos em pranto, Arfa=te o peito, e no entanto Nem me podes encarar;",
+        "start_char": 12734,
+        "end_char": 12738,
+        "excerpt": "Pelo teu quinhão de dor! IX Que me enganei, ora o vejo; Nadam-te os olhos em pranto, Arfa=te o peito, e no entanto Nem me podes encarar;",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pranto",
+                "child": "Arfa=te o peito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pranto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Arfa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Arfa=te o peito",
+                "child": "pranto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Arfa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pranto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Arfa=te o peito",
+                "child": "os olhos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Arfa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mártir",
+        "sentence": "Quando eu gozar-te pudera, Mártir quis ser, cuidei quera...",
+        "start_char": 13455,
+        "end_char": 13461,
+        "excerpt": "Horrendo caos Nessas palavras se encerra, Quando do engano, quem erra, Não pode voltar atrás! Amarga irrisão! reflete: Quando eu gozar-te pudera, Mártir quis ser, cuidei quera...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Mártir",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mártir",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Pensar que a tua ventura deus ab eterno a fizera, No meu caminho a pusera...",
+        "start_char": 13863,
+        "end_char": 13867,
+        "excerpt": "Correr por ti conduzida, Pura, na ausência do mal XIV Pensar eu que o teu destino Ligado ao meu, outro fora, Pensar que te vejo agora, Por culpa minha, infeliz; Pensar que a tua ventura deus ab eterno a fizera, No meu caminho a pusera...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Eu a mísero desterro Volto, chorando o meu erro, dói-te de mim, pois me encontras Em tanta miséria posto, Que a expressão deste desgosto Será um crime ante Deus!",
+        "start_char": 14134,
+        "end_char": 14138,
+        "excerpt": "XV És doutro agora, e pra sempre! Eu a mísero desterro Volto, chorando o meu erro, dói-te de mim, pois me encontras Em tanta miséria posto, Que a expressão deste desgosto Será um crime ante Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "crime",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "crime",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "crime",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "crime",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "encontras",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "encontra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha miséria",
+        "sentence": "Perdão da minha miséria, Da dor que me rala o peito, e se do mal que te hei feito, Também do mal que me fiz!",
+        "start_char": 14262,
+        "end_char": 14275,
+        "excerpt": "Perdão!... de não ter ousado Viver contente e feliz! Perdão da minha miséria, Da dor que me rala o peito, e se do mal que te hei feito, Também do mal que me fiz!",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Perdão",
+                "child": "minha miséria",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Perdão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "miséria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha miséria",
+                "child": "Perdão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "miséria",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "XVII Adeus queu parto, senhora;",
+        "start_char": 14384,
+        "end_char": 14391,
+        "excerpt": "de não ter ousado Viver contente e feliz! Perdão da minha miséria, Da dor que me rala o peito, e se do mal que te hei feito, Também do mal que me fiz! XVII Adeus queu parto, senhora;",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Adeus",
+                "child": ", senhora",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "adeus",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhora",
+                "child": "Adeus",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "adeus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o fado inimigo",
+        "sentence": "Negou-me o fado inimigo Passar a vida contigo, Ter sepultura entre os meus;",
+        "start_char": 14402,
+        "end_char": 14416,
+        "excerpt": "Perdão da minha miséria, Da dor que me rala o peito, e se do mal que te hei feito, Também do mal que me fiz! XVII Adeus queu parto, senhora; Negou-me o fado inimigo Passar a vida contigo, Ter sepultura entre os meus;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XVIII",
+        "sentence": "XVIII",
+        "start_char": 14570,
+        "end_char": 14575,
+        "excerpt": "Negou-me o fado inimigo Passar a vida contigo, Ter sepultura entre os meus; Negou-me nesta hora extrema, `por extrema despedida, Ouvir-te a voz comovida Soluçar um breve Adeus! XVIII",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O anjo",
+        "sentence": "O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar;",
+        "start_char": 14951,
+        "end_char": 14957,
+        "excerpt": "Meus versos, dalma arrancados, Damargo pranto banhados, Com sangue escritos; - e então Confio que te comovas, Que a minha dor te apiede, Que chores, não de saudade, Nem de amor, - de compaixão. SONO Nas horas da noite, se junto a meu leito Houveres acaso, meu bem, de chegar, Verás derepente que aspecto risonho Que toma o meu sonho, Se o vens bafejar! O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ceda",
+                "child": "O anjo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cedar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sono",
+                "child": "O anjo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sono",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tranqüilo",
+                "child": "O anjo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tranqüilo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo da terra",
+        "sentence": "O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar;",
+        "start_char": 14993,
+        "end_char": 15006,
+        "excerpt": "Meus versos, dalma arrancados, Damargo pranto banhados, Com sangue escritos; - e então Confio que te comovas, Que a minha dor te apiede, Que chores, não de saudade, Nem de amor, - de compaixão. SONO Nas horas da noite, se junto a meu leito Houveres acaso, meu bem, de chegar, Verás derepente que aspecto risonho Que toma o meu sonho, Se o vens bafejar! O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Damor",
+        "sentence": "Mas deixe-o amoroso chegar-se ao meu leito, Unir-me a seu peito, Damor ofegar.",
+        "start_char": 15090,
+        "end_char": 15095,
+        "excerpt": "SONO Nas horas da noite, se junto a meu leito Houveres acaso, meu bem, de chegar, Verás derepente que aspecto risonho Que toma o meu sonho, Se o vens bafejar! O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar; Mas deixe-o amoroso chegar-se ao meu leito, Unir-me a seu peito, Damor ofegar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Unir-me",
+                "child": "Damor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Unir-me",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Damor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os anjos",
+        "sentence": "As notas que exalam as harpas celestes, Os gozos, que os anjos só podem gozar, Talvez também frua, se ao meu peito unida Tencontro, ó querida, No meu acordar!",
+        "start_char": 15158,
+        "end_char": 15166,
+        "excerpt": "O anjo, que ao sono preside tranqüilo, Ao anjo da terra não ceda o lugar; Mas deixe-o amoroso chegar-se ao meu leito, Unir-me a seu peito, Damor ofegar. As notas que exalam as harpas celestes, Os gozos, que os anjos só podem gozar, Talvez também frua, se ao meu peito unida Tencontro, ó querida, No meu acordar!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito",
+                    "peito"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "podem",
+                "child": "os anjos",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os anjos",
+                "child": "Os gozos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "gozo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os anjos",
+                "child": "As notas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nota",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A tantos encantos minha alma rendida, Votara-lhe a vida  que Deus me quis dar:",
+        "start_char": 15504,
+        "end_char": 15508,
+        "excerpt": "Se eu fosse querido dum rosto formoso, Se um peito extremoso  pudesse encontrar, E uns lábios macios, que expiram amores E abrandam as dores  de alheio penar; A tantos encantos minha alma rendida, Votara-lhe a vida  que Deus me quis dar:",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a vida",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "tantos encantos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "encanto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Depois, quando a morte viesse impiedosa Da amante extremosa  meus dias privar, De funda saudade minha alma rendida Votara-lhe a vida  que Deus me quis dar.",
+        "start_char": 15744,
+        "end_char": 15748,
+        "excerpt": "A tantos encantos minha alma rendida, Votara-lhe a vida  que Deus me quis dar: Constante a seu lado, seus sonhos divinos Aos sons dos meus hinos  quisera embalar. Depois, quando a morte viesse impiedosa Da amante extremosa  meus dias privar, De funda saudade minha alma rendida Votara-lhe a vida  que Deus me quis dar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a vida",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "tantos encantos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "encanto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "quis",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a vida",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Votara-lhe",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Votara-lhe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o condutor",
+        "sentence": "A FLOR DO AMOR já lento o passo, no cair da tarde, Lá nos desertos dabrasada areia, Que o vento agita, porém não recreia, da caravana o condutor parou.",
+        "start_char": 15896,
+        "end_char": 15906,
+        "excerpt": "Constante a seu lado, seus sonhos divinos Aos sons dos meus hinos  quisera embalar. Depois, quando a morte viesse impiedosa Da amante extremosa  meus dias privar, De funda saudade minha alma rendida Votara-lhe a vida  que Deus me quis dar. A FLOR DO AMOR já lento o passo, no cair da tarde, Lá nos desertos dabrasada areia, Que o vento agita, porém não recreia, da caravana o condutor parou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "parou",
+                "child": "o condutor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "parar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "condutor",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rumina",
+        "sentence": "Armam-se à pressa tendas alvejante, Rumina plácido o frugal camelo;",
+        "start_char": 15950,
+        "end_char": 15956,
+        "excerpt": "Depois, quando a morte viesse impiedosa Da amante extremosa  meus dias privar, De funda saudade minha alma rendida Votara-lhe a vida  que Deus me quis dar. A FLOR DO AMOR já lento o passo, no cair da tarde, Lá nos desertos dabrasada areia, Que o vento agita, porém não recreia, da caravana o condutor parou. Armam-se à pressa tendas alvejante, Rumina plácido o frugal camelo;",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "plácido",
+                "child": "Rumina",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "plácer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rumina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à presa",
+        "sentence": "Se achega à presa, que de longe olhou.",
+        "start_char": 16023,
+        "end_char": 16030,
+        "excerpt": "Armam-se à pressa tendas alvejante, Rumina plácido o frugal camelo; Porém a nuvem dárabes errantes Se achega à presa, que de longe olhou.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cantor",
+        "sentence": "À voz canora, que o cantor alçou",
+        "start_char": 16170,
+        "end_char": 16178,
+        "excerpt": "Se achega à presa, que de longe olhou. E já, tomada a refeição noturna, Junto a fogueira, que derrama vida, Descansam todos da penosa lida À voz canora, que o cantor alçou",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "alçou",
+                "child": "o cantor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "alçar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cantor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cantor",
+                "child": "voz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o árabe",
+        "sentence": "um burburinho alcança, As armas toma o árabe prudente;",
+        "start_char": 16241,
+        "end_char": 16248,
+        "excerpt": "Confuso o ouvido um burburinho alcança, As armas toma o árabe prudente; Mas logo pensa, rejeitando a lança:",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "toma",
+                "child": "o árabe",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "árabe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o árabe",
+                "child": "prudente",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "árabe",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "prudente",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o chacal",
+        "sentence": "Foi o grunhido que o chacal soltou.",
+        "start_char": 16314,
+        "end_char": 16322,
+        "excerpt": "um burburinho alcança, As armas toma o árabe prudente; Mas logo pensa, rejeitando a lança: Foi o grunhido que o chacal soltou.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "o chacal",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "chacal",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o chacal",
+                "child": "Foi o grunhido",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "chacal",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "grunhido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cantor",
+        "sentence": "Pela fogueira alumiado o rosto, Bebendo as vozes que o cantor soltou; Simelha a terra, quando aberta em fendas Da noite o orvalho sequiosa espera; E o corcel árabe encostado às tendas",
+        "start_char": 16450,
+        "end_char": 16458,
+        "excerpt": "Foi o grunhido que o chacal soltou. Ouvidos todo e curioso enlevo, torna de novo a retomar seu posto; Pela fogueira alumiado o rosto, Bebendo as vozes que o cantor soltou; Simelha a terra, quando aberta em fendas Da noite o orvalho sequiosa espera; E o corcel árabe encostado às tendas",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvidos",
+                    "Ouvido"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "o cantor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cantor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cantor",
+                "child": "as vozes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o trovador",
+        "sentence": "Algures cresce (o trovador cantava)",
+        "start_char": 16639,
+        "end_char": 16649,
+        "excerpt": "Pela fogueira alumiado o rosto, Bebendo as vozes que o cantor soltou; Simelha a terra, quando aberta em fendas Da noite o orvalho sequiosa espera; E o corcel árabe encostado às tendas Os sons lhe escuta, e de os ouvir folgou. Algures cresce (o trovador cantava)",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cantava",
+                "child": "o trovador",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mimosa",
+        "sentence": "Sempre fresca e virente e sempre bela, Por influxo e poder de maga estrela, Mimosa, pura e delicada flor!",
+        "start_char": 16735,
+        "end_char": 16741,
+        "excerpt": "Os sons lhe escuta, e de os ouvir folgou. Algures cresce (o trovador cantava) Sempre fresca e virente e sempre bela, Por influxo e poder de maga estrela, Mimosa, pura e delicada flor!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "maga",
+                "child": ", Mimosa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "maga",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Mimosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa",
+                "child": "maga",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mimosa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "maga",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa",
+                "child": "poder",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mimosa",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poder",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa",
+                "child": "influxo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mimosa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "influxo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa",
+                "child": "fresca",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mimosa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "fresca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A graciosa e pudibunda flor",
+        "sentence": "A graciosa e pudibunda flor.",
+        "start_char": 17152,
+        "end_char": 17179,
+        "excerpt": "Alva do albor dos lírios odorosos, Tem a modéstia da violeta esquiva, e o pronto retrair da sensitiva, Que parece vestir-se de pudor! Assim, à luz da cambiante aurora, Mudando um poço a resplendente alvura, De uns toque de carmim sesmalta e cora A graciosa e pudibunda flor.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Volúpia",
+        "sentence": "Volúpia embebe em mágico frescor!",
+        "start_char": 17438,
+        "end_char": 17445,
+        "excerpt": "Fresca e branda alcatifa o chão matiza, Com doce murmúrio as aguas correm, e o leve sopro do correr da brisa Volúpia embebe em mágico frescor!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "brisa",
+                "child": "Volúpia embebe",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "brisa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Volúpia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Volúpia embebe",
+                "child": "brisa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Volúpia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "brisa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Volúpia embebe",
+                "child": "alcatifa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Volúpia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "alcatifa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sitibundo",
+        "sentence": "Onde se apaga o sitibundo ardor.",
+        "start_char": 17873,
+        "end_char": 17884,
+        "excerpt": "Ali sorri-se oásis venturoso, Quentre deleites o viver matiza, E ao que vai triste, aflito e sem repouso Chama a descanso de comprido error! Feliz e mais que se, perdido, achara Conforto e auxilio no catá, seu guia, Que o leva a fonte perenal e fria Onde se apaga o sitibundo ardor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apaga",
+                "child": "o sitibundo ardor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "apagar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ardor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sitibundo ardor",
+                "child": "Feliz",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ardor",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "Feliz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o trovador",
+        "sentence": "Assim cantava o trovador; e todos Ouvem-no com prazer de dor travado, Que mais do que um talvez terá deixado Atrás de si a pudibunda flor!",
+        "start_char": 18311,
+        "end_char": 18321,
+        "excerpt": "colhe, insensato, Colhe abrolhos da vida no deserto; Pois desprezaste a que produz o amor! Assim cantava o trovador; e todos Ouvem-no com prazer de dor travado, Que mais do que um talvez terá deixado Atrás de si a pudibunda flor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cantava",
+                "child": "o trovador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trovador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "presa",
+        "sentence": "No entanto a nuvem dárabes errantes Chega-se à presa, que avistou de longe; E dos corcéis, que alentam ofegante, Precede a marcha túrbido pavor!",
+        "start_char": 18483,
+        "end_char": 18488,
+        "excerpt": "Pois desprezaste a que produz o amor! Assim cantava o trovador; e todos Ouvem-no com prazer de dor travado, Que mais do que um talvez terá deixado Atrás de si a pudibunda flor! No entanto a nuvem dárabes errantes Chega-se à presa, que avistou de longe; E dos corcéis, que alentam ofegante, Precede a marcha túrbido pavor!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Chega-se",
+                "child": "presa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chega-se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "presa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "longe",
+                "child": "presa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "longe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "presa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "Ninguém!",
+        "start_char": 18899,
+        "end_char": 18906,
+        "excerpt": "Ninguém as mortes lastimáveis chora, Ninguém recolhe os restos insepultos, E o mesmo orvalho, que goteja a aurora, Sem borrifa-los, no areal ficou! Quem saberá do seu destino agora? Ninguém!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miseranda mulher",
+        "sentence": "Miseranda mulher lastima os fados",
+        "start_char": 18936,
+        "end_char": 18952,
+        "excerpt": "Ninguém! Somente em climas apartados Miseranda mulher lastima os fados",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lastima",
+                "child": "Miseranda mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lastimar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miseranda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filho",
+        "sentence": "De filho ou esposo, que jamais tornou!",
+        "start_char": 18973,
+        "end_char": 18978,
+        "excerpt": "Somente em climas apartados Miseranda mulher lastima os fados De filho ou esposo, que jamais tornou!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os fados",
+                "child": "filho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "fado",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filho",
+                "child": "esposo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "esposo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filho",
+                "child": "os fados",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "espos",
+        "sentence": "De filho ou esposo, que jamais tornou!",
+        "start_char": 18982,
+        "end_char": 18987,
+        "excerpt": "Somente em climas apartados Miseranda mulher lastima os fados De filho ou esposo, que jamais tornou!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "filho",
+                "child": "esposo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "esposo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu senhor",
+        "sentence": "Te onde a vida seu senhor deixou!",
+        "start_char": 19132,
+        "end_char": 19142,
+        "excerpt": "De filho ou esposo, que jamais tornou! Talvez porém, trás de montões dareia, Nobre corcel sem cavaleiro assoma, E alonga avista, de pesares cheia, Te onde a vida seu senhor deixou!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixou",
+                "child": "seu senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu senhor",
+                "child": "Te",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Te",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dambrosia",
+        "sentence": "De voz, uma piedade estreme e santa, Que as mais profundas chagas amimava, Dambrosia e de mel lhe ungia os lábios.",
+        "start_char": 19370,
+        "end_char": 19379,
+        "excerpt": "A sua voz me despertava Tudo quanto de bom conservo nalma. Retratado o pudor tinha no rosto, E um suave dizer, um timbre doce De voz, uma piedade estreme e santa, Que as mais profundas chagas amimava, Dambrosia e de mel lhe ungia os lábios.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amimava",
+                "child": ", Dambrosia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "amimar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dambrosia",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Dambrosia",
+                "child": ", E um suave",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dambrosia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "suave",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os dois",
+        "sentence": "Os dois mais fortes, Os dois mais puros sentimentos nossos - A saudade e o amor, - as mais profundas",
+        "start_char": 19760,
+        "end_char": 19767,
+        "excerpt": "As próprias notas dum cantar longínquo Ou de instrumento a conversar coa noite, Menos que a sua voz impressionavam! Menos que a sua voz! Os dois mais fortes, Os dois mais puros sentimentos nossos - A saudade e o amor, - as mais profundas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dulces",
+        "sentence": "Tanto como a sua voz!  somente o foram Dulces notas de místicos saltérios",
+        "start_char": 20082,
+        "end_char": 20088,
+        "excerpt": "Os dois mais fortes, Os dois mais puros sentimentos nossos - A saudade e o amor, - as mais profundas Das merencórias solidões da terra -As florestas e o mar, - um cismar vago, Um devaneio, um êxtasis sem termo D1alma perdida por um cu de amores, Tanto como a sua voz não arroubavam! Tanto como a sua voz!  somente o foram Dulces notas de místicos saltérios",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "foram",
+                "child": "Dulces",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Dulces",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dulces",
+                "child": "notas",
+                "dep_h": "ccomp",
+                "pos_h": "PROPN",
+                "lemma_h": "Dulces",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "nota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "notas",
+                "child": "Dulces",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "nota",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Dulces",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "místicos",
+                "child": "Dulces",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "místico",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Dulces",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Devaneio",
+        "sentence": "Mas isso amor não é; isso é delírio, Devaneio, ilusão, que se esvaece",
+        "start_char": 20963,
+        "end_char": 20971,
+        "excerpt": "Simpáticas feições, cintura breve, Graciosa postura, porte airoso, Uma fita, uma flor entre os cabelos, Um quê mal definido, acaso podem Num engano damor arrebatar-nos. Mas isso amor não é; isso é delírio, Devaneio, ilusão, que se esvaece",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "cintura": {
+                "syns": [
+                    "cinturas"
+                ],
+                "occurrences": [
+                    "cintura"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Devaneio",
+                "child": "delírio",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Devaneio",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "delírio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarão",
+        "sentence": "Ao som final da orquestra, ao derradeiro Clarão, que as luzes no morrer despedem:",
+        "start_char": 21037,
+        "end_char": 21043,
+        "excerpt": "Num engano damor arrebatar-nos. Mas isso amor não é; isso é delírio, Devaneio, ilusão, que se esvaece Ao som final da orquestra, ao derradeiro Clarão, que as luzes no morrer despedem:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", ao derradeiro",
+                "child": "Clarão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "derradeiro",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Clarão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Clarão",
+                "child": ", ao derradeiro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Clarão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "derradeiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dal",
+        "sentence": "é ser capaz dextremos, Daltas virtudes, te capaz de crimes!",
+        "start_char": 21267,
+        "end_char": 21270,
+        "excerpt": "Se outro nome lhe dão, se amor o chamam, D1amor igual ninguém sucumbe à perda. Amor é vida; é ter constantemente Alma, sentidos, coração  abertos Ao grande, ao belo; é ser capaz dextremos, Daltas virtudes, te capaz de crimes!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Comprender o infinito, a imensidade, E a natureza e Deus; gostar dos campos, Dave, flores, murmúrios solitários; buscar tristeza, a soledade, o ermo, E ter o coração em riso e festa;",
+        "start_char": 21356,
+        "end_char": 21360,
+        "excerpt": "Amor é vida; é ter constantemente Alma, sentidos, coração  abertos Ao grande, ao belo; é ser capaz dextremos, Daltas virtudes, te capaz de crimes! Comprender o infinito, a imensidade, E a natureza e Deus; gostar dos campos, Dave, flores, murmúrios solitários; buscar tristeza, a soledade, o ermo, E ter o coração em riso e festa;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", E a natureza",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "natureza",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": ", E a natureza",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Comprender",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Comprender",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dave",
+        "sentence": "Comprender o infinito, a imensidade, E a natureza e Deus; gostar dos campos, Dave, flores, murmúrios solitários; buscar tristeza, a soledade, o ermo, E ter o coração em riso e festa;",
+        "start_char": 21381,
+        "end_char": 21385,
+        "excerpt": "Amor é vida; é ter constantemente Alma, sentidos, coração  abertos Ao grande, ao belo; é ser capaz dextremos, Daltas virtudes, te capaz de crimes! Comprender o infinito, a imensidade, E a natureza e Deus; gostar dos campos, Dave, flores, murmúrios solitários; buscar tristeza, a soledade, o ermo, E ter o coração em riso e festa;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "campos",
+                "child": ", Dave",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "campo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Dave",
+                "child": "campos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dave",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "campo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Dave",
+                "child": "Comprender",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dave",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Comprender",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o misérrimo dos entes",
+        "sentence": "O ditoso, o misérrimo dos entes: Isso é amor, e desse amor se morre!",
+        "start_char": 21645,
+        "end_char": 21666,
+        "excerpt": "E à branda festa, ao riso da nossa alma Fontes de pranto intercalar se custo; Conhecer o prazer e a desventura No mesmo tempo, e ser no mesmo ponto O ditoso, o misérrimo dos entes: Isso é amor, e desse amor se morre!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fado",
+        "sentence": "Se logo a mão do fado as torna estranhas, Se os duplica e separa, quando unidos",
+        "start_char": 22451,
+        "end_char": 22455,
+        "excerpt": "Isso é amor, e desse amor se morre! Amar, e não saber, não ter coragem Para dizer que amor que em nós sentimos; Temer quolhos profanos nos devassem O templo, onde a melhor poção da vida Se concentra; onde avaros recatamos Essa fonte de amor, esses tesouros Inesgotáveis, dilusões floridas; Sentir, sem que se veja, a quem se adora Comprender, sem lhe ouvir, seus pensamentos, Segui-la, sem poder fitar seus olhos, Ama-la, sem ousar dizer que amamos, E, temendo roçar os seus vestidos, Arder por afoga-la em mil abraços: Isso é amor, e desse amor se morre! Se tal paixão enfim transborda, Se tem na terra o galardão devido Em recíproco afeto; e unidas, uma, Dois seres, duas vidas se procuram, Entendem-se, confundem-se e penetram Juntas  em puro céu dêxtasis puros; Se logo a mão do fado as torna estranhas, Se os duplica e separa, quando unidos",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "Juntas",
+                    "Junta"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a mão",
+                "child": "fado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fado",
+                "child": "a mão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fado",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Quuma",
+        "sentence": "Quuma cansada atriz;",
+        "start_char": 23427,
+        "end_char": 23432,
+        "excerpt": "A MORTE É VÁRIA A morte é vária e multiforme, e muda De trajes e de máscaras mais vezes Quuma cansada atriz;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Quuma cansada",
+                "child": "atriz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cansada",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "atriz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "atriz",
+        "sentence": "Quuma cansada atriz;",
+        "start_char": 23441,
+        "end_char": 23446,
+        "excerpt": "A MORTE É VÁRIA A morte é vária e multiforme, e muda De trajes e de máscaras mais vezes Quuma cansada atriz;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Quuma cansada",
+                "child": "atriz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cansada",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "atriz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus vassalos",
+        "sentence": "Nem todos seus vassalos são poeira",
+        "start_char": 23557,
+        "end_char": 23570,
+        "excerpt": "Quuma cansada atriz; Nem sempre é, qual se pinta, o negro espectro Dirônico sorriso e brancos dentes, E dhórrido cariz. Nem todos seus vassalos são poeira",
+        "gender": "male",
+        "pch_occurrences": {
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dente",
+                    "dentes"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Nem todos seus vassalos",
+                "child": "poeira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vassalo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "poeiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o esfaimado esquife",
+        "sentence": "Vê-se o enojo, o horror, a sombra espessa E o esfaimado esquife, abrindo as fauces,",
+        "start_char": 23870,
+        "end_char": 23889,
+        "excerpt": "Diversa a natureza é doutros mortos: Nestes que a sânie e podridão consomem, Vê-se o nada palpável; Vê-se o enojo, o horror, a sombra espessa E o esfaimado esquife, abrindo as fauces,",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os mais queridos",
+        "sentence": "Morte, que ninguém sabe, nem chora, Nem mesmo os mais queridos!",
+        "start_char": 24118,
+        "end_char": 24134,
+        "excerpt": "Qual monstro insaciável! Cabe a outros porém que se dor vemos Passar, girar no turbilhão dos vivos, De carne inda vestidos, O nada inda encoberto; cabe a interna Morte, que ninguém sabe, nem chora, Nem mesmo os mais queridos!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amiga pálpebra",
+        "sentence": "Ou tenhamos ali amiga pálpebra, Ou não, - do teixo à sombra descansada, Quer choremos, que não!",
+        "start_char": 24244,
+        "end_char": 24258,
+        "excerpt": "Pois, se vamos ver nos cemitérios As campas, ou ilustres ou sem nome, De mármore ou torrão; Ou tenhamos ali amiga pálpebra, Ou não, - do teixo à sombra descansada, Quer choremos, que não!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebra"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jazem",
+        "sentence": "Jazem dizemos.",
+        "start_char": 24324,
+        "end_char": 24329,
+        "excerpt": "As campas, ou ilustres ou sem nome, De mármore ou torrão; Ou tenhamos ali amiga pálpebra, Ou não, - do teixo à sombra descansada, Quer choremos, que não! Jazem dizemos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pálpebra": {
+                "syns": [
+                    "pálpebras"
+                ],
+                "occurrences": [
+                    "pálpebra"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizemos",
+                "child": "Jazem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jazem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os herdeiros",
+        "sentence": "Os herdeiros não temem que mais volte;",
+        "start_char": 24520,
+        "end_char": 24532,
+        "excerpt": "Sob a relva; o verme nesses olhos Enreda a teia crua! Por entre as pranchas do caixão despontam Hirtos cabelos, e em pó funéreo envolta Branqueja a ossada nua. Os herdeiros não temem que mais volte;",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "temem",
+                "child": "Os herdeiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "temer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "herdeiro",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus cães",
+        "sentence": "Esqueceram-no já: seus cães se lembram, Soltando uivos de dor!",
+        "start_char": 24577,
+        "end_char": 24586,
+        "excerpt": "Por entre as pranchas do caixão despontam Hirtos cabelos, e em pó funéreo envolta Branqueja a ossada nua. Os herdeiros não temem que mais volte; Esqueceram-no já: seus cães se lembram, Soltando uivos de dor!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lembram",
+                "child": "seus cães",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anjo",
+        "sentence": "Da morte o anjo, em lágrimas de pedra Vemos sozinho e mudo a pranteá-lo, Estátua da aflição:",
+        "start_char": 24728,
+        "end_char": 24734,
+        "excerpt": "Acama-se a poeira em seus retratos: Já não tem mais rivais, não tem amigos, Nem ódios, nem amor! Da morte o anjo, em lágrimas de pedra Vemos sozinho e mudo a pranteá-lo, Estátua da aflição:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estátua",
+        "sentence": "Da morte o anjo, em lágrimas de pedra Vemos sozinho e mudo a pranteá-lo, Estátua da aflição:",
+        "start_char": 24792,
+        "end_char": 24799,
+        "excerpt": "Acama-se a poeira em seus retratos: Já não tem mais rivais, não tem amigos, Nem ódios, nem amor! Da morte o anjo, em lágrimas de pedra Vemos sozinho e mudo a pranteá-lo, Estátua da aflição:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pranteá-lo",
+                "child": ", Estátua",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "prantear ele",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Estátua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Estátua",
+                "child": "aflição",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Estátua",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "aflição",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Estátua",
+                "child": "Vemos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Estátua",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Vemos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Estátua",
+                "child": "anjo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Estátua",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aflição",
+                "child": ", Estátua",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "aflição",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Estátua",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "Mortos do coração ninguém os chora, Ninguém, se a um destes vê, lhe diz piedoso:",
+        "start_char": 25129,
+        "end_char": 25136,
+        "excerpt": "Que na triste mansão os regozije, E por essa oblação enternecidos Um resto achem de vida. Mortos do coração ninguém os chora, Ninguém, se a um destes vê, lhe diz piedoso:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "Seja o Senhor contigo.",
+        "start_char": 25179,
+        "end_char": 25187,
+        "excerpt": "Um resto achem de vida. Mortos do coração ninguém os chora, Ninguém, se a um destes vê, lhe diz piedoso: Seja o Senhor contigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "morto",
+        "sentence": "Curam do morto, lavam-lhe as feridas;",
+        "start_char": 25206,
+        "end_char": 25211,
+        "excerpt": "Mortos do coração ninguém os chora, Ninguém, se a um destes vê, lhe diz piedoso: Seja o Senhor contigo. Curam do morto, lavam-lhe as feridas;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Curam",
+                "child": "morto",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Curam",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "morto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morto",
+                "child": "Curam",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "morto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Curam",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o mais amigo",
+        "sentence": "Mas a alma estala em que alguém se doa, Nem mesmo o mais amigo!",
+        "start_char": 25285,
+        "end_char": 25297,
+        "excerpt": "Seja o Senhor contigo. Curam do morto, lavam-lhe as feridas; Mas a alma estala em que alguém se doa, Nem mesmo o mais amigo!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher páli",
+        "sentence": "Almas há que tem cruz e passamento, Sem auréola doiro e a mulher pálida E desgrenhada  ao pé.",
+        "start_char": 25440,
+        "end_char": 25453,
+        "excerpt": "Nunca sabidas, dores horrorosas Mais do que se não crê; Almas há que tem cruz e passamento, Sem auréola doiro e a mulher pálida E desgrenhada  ao pé.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

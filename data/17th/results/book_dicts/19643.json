@@ -1,0 +1,1967 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Gregório de Matos",
+        "sentence": "Textos literários em meio eletrônico Gregório de Matos Texto-fonte: Obra Poética, de Gregório de Matos, 3ª edição, Editora Record,Rio de Janeiro, 1992.",
+        "start_char": 59,
+        "end_char": 76,
+        "excerpt": "LITERATURA BRASILEIRA Textos literários em meio eletrônico Gregório de Matos Texto-fonte: Obra Poética, de Gregório de Matos, 3ª edição, Editora Record,Rio de Janeiro, 1992. Crônica do Viver Baiano",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gregório de Matos",
+        "sentence": "Textos literários em meio eletrônico Gregório de Matos Texto-fonte: Obra Poética, de Gregório de Matos, 3ª edição, Editora Record,Rio de Janeiro, 1992.",
+        "start_char": 59,
+        "end_char": 76,
+        "excerpt": "LITERATURA BRASILEIRA Textos literários em meio eletrônico Gregório de Matos Texto-fonte: Obra Poética, de Gregório de Matos, 3ª edição, Editora Record,Rio de Janeiro, 1992. Crônica do Viver Baiano",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seis",
+        "sentence": "Seiscentista Índice",
+        "start_char": 198,
+        "end_char": 202,
+        "excerpt": "Textos literários em meio eletrônico Gregório de Matos Texto-fonte: Obra Poética, de Gregório de Matos, 3ª edição, Editora Record,Rio de Janeiro, 1992. Crônica do Viver Baiano Seiscentista Índice",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Crônica",
+                "child": "Viver Baiano Seiscentista Índice",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "crônica",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Viver",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Viver Baiano Seiscentista Índice",
+                "child": "Crônica",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Viver",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "crônica",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "Joana",
+        "start_char": 218,
+        "end_char": 223,
+        "excerpt": "Crônica do Viver Baiano Seiscentista Índice Joana",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Crônica",
+                "child": "Joana",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "crônica",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "Crônica",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "crônica",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "start_char": 235,
+        "end_char": 242,
+        "excerpt": "Seiscentista Índice Joana Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "daquella",
+                "child": "o poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "daquellar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "huma festividade",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "festividade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "igreja",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "igreja",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "huma festividade",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "festividade",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "igreja",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "igreja",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sam Francisco",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sam",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "outros amigos",
+        "sentence": "Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "start_char": 355,
+        "end_char": 368,
+        "excerpt": "Seiscentista Índice Joana Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entrando",
+                "child": "outros amigos",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "start_char": 440,
+        "end_char": 445,
+        "excerpt": "Seiscentista Índice Joana Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "daquella",
+                "child": "Seiscentista Índice Joana Achando",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "daquellar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Seiscentista",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ellege",
+                "child": "a Joana",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ellege",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Retrata o poeta as galhardas perfeyções desta dama sem hyperbole de encarecimento.",
+        "start_char": 483,
+        "end_char": 490,
+        "excerpt": "Joana Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular. Retrata o poeta as galhardas perfeyções desta dama sem hyperbole de encarecimento.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "daquella",
+                "child": "o poeta",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "daquellar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "huma festividade",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "festividade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "igreja",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "igreja",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "huma festividade",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "festividade",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "igreja",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "igreja",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sam Francisco",
+                "child": "o poeta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sam",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Retrata",
+                "child": "o poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "retrata",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta moça",
+        "sentence": "Descaindo esta moça da graça do poeta, à sacode com a mesma penna, que à louvou nas obras antecedentes, aparecendo com hua saya verde.",
+        "start_char": 568,
+        "end_char": 577,
+        "excerpt": "Achando se o poeta em huma festividade na igreja de Sam Francisco daquella villa, viiu estas trez moças; e entrando em questão com outros amigos, que ali estavão sobre qual era a mais formosa, ellege entre as trez a Joana por mais formosa e singular. Retrata o poeta as galhardas perfeyções desta dama sem hyperbole de encarecimento. Descaindo esta moça da graça do poeta, à sacode com a mesma penna, que à louvou nas obras antecedentes, aparecendo com hua saya verde.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Descaindo",
+                "child": "esta moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descair",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esta moça",
+                "child": "graça",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "graça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "graça",
+                "child": "esta moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "graça",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poeta",
+                "child": "esta moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", à sacode",
+                "child": "esta moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sacode",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mesma penna",
+                "child": "esta moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "penna",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "duas Irmãas",
+        "sentence": "19  JOANA Huma Moça galharda, e formosa, que morara na Villa de San Francisco com duas Irmãas também formosas, honestas, e recatadas.",
+        "start_char": 775,
+        "end_char": 786,
+        "excerpt": "Retrata o poeta as galhardas perfeyções desta dama sem hyperbole de encarecimento. Descaindo esta moça da graça do poeta, à sacode com a mesma penna, que à louvou nas obras antecedentes, aparecendo com hua saya verde. 19  JOANA Huma Moça galharda, e formosa, que morara na Villa de San Francisco com duas Irmãas também formosas, honestas, e recatadas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Manuel Pereira Rabelo",
+        "sentence": "Manuel Pereira Rabelo, licenciado As mulatas me esqueceram a quem com veneração darei o meu beliscão por amoroso ACHANDO",
+        "start_char": 827,
+        "end_char": 848,
+        "excerpt": "Descaindo esta moça da graça do poeta, à sacode com a mesma penna, que à louvou nas obras antecedentes, aparecendo com hua saya verde. 19  JOANA Huma Moça galharda, e formosa, que morara na Villa de San Francisco com duas Irmãas também formosas, honestas, e recatadas. Manuel Pereira Rabelo, licenciado As mulatas me esqueceram a quem com veneração darei o meu beliscão por amoroso ACHANDO",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DAQUELLA VILLA",
+        "sentence": "DAQUELLA VILLA, VIU ESTAS TREZ MOÇAS;",
+        "start_char": 1006,
+        "end_char": 1020,
+        "excerpt": "FESTIVIDADE NA IGREJA DE SAM FRANCISCO DAQUELLA VILLA, VIU ESTAS TREZ MOÇAS;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1245,
+        "end_char": 1250,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Joana",
+                "child": "bela",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Páris",
+                "child": "Joana",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zagalos",
+                "child": "Joana",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zagalos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais garbos",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "garbo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais galas",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gala",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "Zagalos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "julgara",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zagalos",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1335,
+        "end_char": 1342,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Páris",
+                "child": "Zagalos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zagalos",
+                "child": ", de tais garbos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zagalos",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "garbo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zagalos",
+                "child": "Joana",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zagalos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zagalos",
+                "child": "julgara",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zagalos",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais garbos",
+                "child": "Zagalos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "garbo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais galas",
+                "child": "Zagalos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gala",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "Zagalos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1245,
+        "end_char": 1250,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Joana",
+                "child": "bela",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Páris",
+                "child": "Joana",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zagalos",
+                "child": "Joana",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zagalos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais garbos",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "garbo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de tais galas",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gala",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "Zagalos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "julgara",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1431,
+        "end_char": 1436,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cara",
+                "child": "a Vênus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cara",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "prefere",
+                        "child": "cara",
+                        "dep_h": "ccomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "preferir",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "a Vênus",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Vênus"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "julgara",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "julgarar"
+                    },
+                    {
+                        "head": "a Vênus",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Vênus",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": ", Juno",
+                        "child": "cara",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Juno",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "Palas",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Palas",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            },
+            {
+                "head": "a Vênus",
+                "child": ", Juno",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Juno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Vênus",
+                "child": "Palas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Palas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Vênus",
+                "child": "cara",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "prefere",
+                        "child": "cara",
+                        "dep_h": "ccomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "preferir",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "a Vênus",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Vênus"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "julgara",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "julgarar"
+                    },
+                    {
+                        "head": "a Vênus",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Vênus",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": ", Juno",
+                        "child": "cara",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Juno",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "Palas",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Palas",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            },
+            {
+                "head": "a Vênus",
+                "child": "julgara",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Juno",
+                "child": "a Vênus",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Juno",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Palas",
+                "child": "a Vênus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Palas",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Juno",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1438,
+        "end_char": 1442,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a Vênus",
+                "child": ", Juno",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Juno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Juno",
+                "child": "a Vênus",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Juno",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Juno",
+                "child": "cara",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Juno",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "prefere",
+                        "child": "cara",
+                        "dep_h": "ccomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "preferir",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "a Vênus",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Vênus"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "julgara",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "julgarar"
+                    },
+                    {
+                        "head": "a Vênus",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Vênus",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": ", Juno",
+                        "child": "cara",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Juno",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "Palas",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Palas",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            },
+            {
+                "head": ", Juno",
+                "child": "julgara",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Juno",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Palas",
+        "sentence": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "start_char": 1446,
+        "end_char": 1451,
+        "excerpt": "A JOANNA POR MAIS FORMOSA E SINGULAR. 1 Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a Vênus",
+                "child": "Palas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Palas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Palas",
+                "child": "a Vênus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Palas",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Palas",
+                "child": "cara",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Palas",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "prefere",
+                        "child": "cara",
+                        "dep_h": "ccomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "preferir",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "a Vênus",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "conj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Vênus"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "julgara",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "julgarar"
+                    },
+                    {
+                        "head": "a Vênus",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Vênus",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": ", Juno",
+                        "child": "cara",
+                        "dep_h": "appos",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Juno",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "Palas",
+                        "child": "cara",
+                        "dep_h": "conj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Palas",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            },
+            {
+                "head": "Palas",
+                "child": "julgara",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Palas",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Páris",
+        "sentence": "Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade.",
+        "start_char": 1458,
+        "end_char": 1463,
+        "excerpt": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas. 2 Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pudera",
+                "child": "Páris",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "pudera",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Páris",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Páris",
+                "child": "Zagalos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zagalos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Páris",
+                "child": "Joana",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Páris",
+                "child": "julgara",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Páris",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "julgarar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "julgou",
+                "child": "Páris",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "julgar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Páris",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana galharda",
+        "sentence": "Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade.",
+        "start_char": 1669,
+        "end_char": 1683,
+        "excerpt": "Dão agora em contender sobre qual Moça é mais bela, Joana, se a parentela, e eu me não sei resolver: se eu pudera a Páris ser de tão diversos Zagalos, de tais garbos, de tais galas, não só Joana julgara, que as mais prefere na cara mas a Vênus, Juno, e Palas. 2 Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Joana galharda",
+                "child": "viva",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "vivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "start_char": 1771,
+        "end_char": 1776,
+        "excerpt": "Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade. 3 As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Joana galharda",
+                "child": "viva",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "vivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "as Parentas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Parentas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "atentas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "atenta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "formosas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "formoso",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as Parentas",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Parentas",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sendo",
+                "child": ", e assim Joana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e assim Joana",
+                "child": "rigor",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rigor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rigor",
+                "child": ", e assim Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rigor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Almirante",
+        "sentence": "As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "start_char": 1797,
+        "end_char": 1806,
+        "excerpt": "Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade. 3 As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "start_char": 1771,
+        "end_char": 1776,
+        "excerpt": "Se Páris julgou com risco, pois pela sentença dada vemos a Tróia abrasada, arda embora São Francisco: reduzida a cinza, ou cisco o sítio de idade a idade dê assunto à posteridade; arda ao sítio, o mundo arda, viva Joana galharda, e eu morra pela verdade. 3 As mais são muito formosas, mui graves, e mui atentas, nas Joana entre as Parentas é Almirante entre as rosas: as estrelas luminosas sendo à Lua paralelas são belas, mas menos belas, e assim Joana em rigor sendo a Luminar maior és mais bela, que as estrelas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Joana galharda",
+                "child": "viva",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "vivo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "as Parentas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Parentas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "atentas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "atenta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "formosas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "formoso",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as Parentas",
+                "child": "Joana",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Parentas",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sendo",
+                "child": ", e assim Joana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e assim Joana",
+                "child": "rigor",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rigor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rigor",
+                "child": ", e assim Joana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rigor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joanica",
+        "sentence": "Retratar ao bizarro quero Joanica, por ser Moça, galharda sobre bonita.",
+        "start_char": 2329,
+        "end_char": 2336,
+        "excerpt": "AS GALHARDAS PERFEYÇÕES DESTA DAMA SEM HYPERBOLE DE ENCARECIMENTO. Retratar ao bizarro quero Joanica, por ser Moça, galharda sobre bonita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quero",
+                "child": "Joanica",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joanica",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joana",
+        "sentence": "Que os cabelos são d'ouro, não se duvida, porque o Sol é Joana, que o certifica.",
+        "start_char": 2432,
+        "end_char": 2437,
+        "excerpt": "PERFEYÇÕES DESTA DAMA SEM HYPERBOLE DE ENCARECIMENTO. Retratar ao bizarro quero Joanica, por ser Moça, galharda sobre bonita. Que os cabelos são d'ouro, não se duvida, porque o Sol é Joana, que o certifica.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o Sol",
+                "child": "Joana",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duvida",
+                "child": "Joana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "duvidar",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Joana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Joana",
+                "child": "o Sol",
+                "dep_h": "advcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Joana",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pequenina",
+        "sentence": "A boquinha bem feita, e pequenina a pedir vem de boca por bonitinha.",
+        "start_char": 2716,
+        "end_char": 2725,
+        "excerpt": "Certo dia encontrei, que alegre ria, mas não vi, que de prata os dentes tinha. Por entre eles a língua mal se divisa, mas é certo, que fala como entendida. A boquinha bem feita, e pequenina a pedir vem de boca por bonitinha.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha Menina",
+        "sentence": "E com isto vos juro minha Menina, que vos quero, e vos amo por minha vida.",
+        "start_char": 3164,
+        "end_char": 3176,
+        "excerpt": "Os pés cobria, sendo que tomou pé para ser vista. Sim julguei, que pequenos os pés teria, quando vi que de firme mui pouco tinha. E com isto vos juro minha Menina, que vos quero, e vos amo por minha vida.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pés",
+                    "pé",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 5
+            }
+        },
+        "dependencies": [
+            {
+                "head": "juro",
+                "child": "minha Menina",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "juro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Menina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha Menina",
+                "child": "juro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Menina",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "juro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mãe Eva",
+        "sentence": "Quando lá no ameno prado a Mãe Eva a graça perde, vestiu-se logo de verde em sinal de haver pecado: a Dama nos há mostrado no verde a sua caída;",
+        "start_char": 3381,
+        "end_char": 3388,
+        "excerpt": "A MESMA PENNA, QUE À LOUVOU NAS OBRAS ANTECEDENTES, APARECENDO COM HUA SAYA VERDE. Quando lá no ameno prado a Mãe Eva a graça perde, vestiu-se logo de verde em sinal de haver pecado: a Dama nos há mostrado no verde a sua caída;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vestiu-se",
+                "child": "a Mãe Eva a graça perde,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vestiu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Dama",
+        "sentence": "Quando lá no ameno prado a Mãe Eva a graça perde, vestiu-se logo de verde em sinal de haver pecado: a Dama nos há mostrado no verde a sua caída;",
+        "start_char": 3454,
+        "end_char": 3460,
+        "excerpt": "A MESMA PENNA, QUE À LOUVOU NAS OBRAS ANTECEDENTES, APARECENDO COM HUA SAYA VERDE. Quando lá no ameno prado a Mãe Eva a graça perde, vestiu-se logo de verde em sinal de haver pecado: a Dama nos há mostrado no verde a sua caída;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mostrado",
+                "child": "a Dama",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dama",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eva",
+        "sentence": "se Eva de puro sentida logo de verde se enluta, esta, que provou a fruta, de verde seja vestida.",
+        "start_char": 3502,
+        "end_char": 3505,
+        "excerpt": "NAS OBRAS ANTECEDENTES, APARECENDO COM HUA SAYA VERDE. Quando lá no ameno prado a Mãe Eva a graça perde, vestiu-se logo de verde em sinal de haver pecado: a Dama nos há mostrado no verde a sua caída; se Eva de puro sentida logo de verde se enluta, esta, que provou a fruta, de verde seja vestida.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vestiu-se",
+                "child": "a Mãe Eva a graça perde,",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vestiu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sentida",
+                "child": "Eva",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "senter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Eva",
+                "child": "puro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eva",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "puro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

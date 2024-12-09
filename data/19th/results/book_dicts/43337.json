@@ -1,0 +1,3944 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "O M",
+        "sentence": "O M",
+        "start_char": 11,
+        "end_char": 14,
+        "excerpt": "CAMAFEUS R O M",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "auctor",
+        "sentence": "D'esta edição fez-se uma tiragem especial de dez exemplares em papel Kent, numerados e rubricados pelo auctor.",
+        "start_char": 209,
+        "end_char": 215,
+        "excerpt": "PORTO COIMBRA 1921 D'esta edição fez-se uma tiragem especial de dez exemplares em papel Kent, numerados e rubricados pelo auctor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rubricados",
+                "child": "auctor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "rubricar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "auctor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "auctor",
+                "child": "dez exemplares",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "auctor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "exemplar",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "auctor",
+                "child": "uma tiragem",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "auctor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tiragem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cornélia '",
+        "sentence": "No seu último sono aqui descansa Cornélia':",
+        "start_char": 309,
+        "end_char": 319,
+        "excerpt": "A SEPULTURA DE CORNÉLIA EUTÍQUIA AO VISCONDE DE VILA MOURA, A SEPULTURA DE CORNÉLIA EUTÍQUIA No seu último sono aqui descansa Cornélia':",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eutíquia",
+        "sentence": "Eutíquia.",
+        "start_char": 354,
+        "end_char": 362,
+        "excerpt": "EUTÍQUIA AO VISCONDE DE VILA MOURA, A SEPULTURA DE CORNÉLIA EUTÍQUIA No seu último sono aqui descansa Cornélia': Eutíquia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seu último sono",
+                "child": "Eutíquia",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sono",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Eutíquia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Eutíquia",
+                "child": "seu último sono",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Eutíquia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sono",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fiou",
+        "sentence": "Os astros no alto céu Invejam todos o destino seu: Fiou; foi esposa e mãe; foi linda e mansa.",
+        "start_char": 415,
+        "end_char": 419,
+        "excerpt": "No seu último sono aqui descansa Cornélia': Eutíquia. Os astros no alto céu Invejam todos o destino seu: Fiou; foi esposa e mãe; foi linda e mansa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "destino",
+                "child": "Fiou",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "destino",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Fiou",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Fiou",
+                "child": "destino",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Fiou",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "destino",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o viuvo dela",
+        "sentence": "Por isso, o viuvo dela, ao sepultá-la, No cipo que lhe marca a sepultura, Sob terna inscrição",
+        "start_char": 621,
+        "end_char": 633,
+        "excerpt": "12 CAMAFEUS ROMANOS Por isso, o viuvo dela, ao sepultá-la, No cipo que lhe marca a sepultura, Sob terna inscrição",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mecenas",
+        "sentence": "OS CUIDADOS DE HORÁCIO Lida a grata missiva em que Mecenas",
+        "start_char": 926,
+        "end_char": 933,
+        "excerpt": "Ao DR. ANTÓNIO DB VASCONCELOS. OS CUIDADOS DE HORÁCIO Lida a grata missiva em que Mecenas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mecenas",
+                "child": "Lida",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Mecenas",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Lida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Horácio",
+        "sentence": "Com terno empenho a versejar o exorta, Sob a latada que lhe ensombra a porta, Horácio escuta as pastorais avenas.",
+        "start_char": 1012,
+        "end_char": 1019,
+        "excerpt": "ANTÓNIO DB VASCONCELOS. OS CUIDADOS DE HORÁCIO Lida a grata missiva em que Mecenas Com terno empenho a versejar o exorta, Sob a latada que lhe ensombra a porta, Horácio escuta as pastorais avenas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escuta",
+                "child": "Horácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Horácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Poeta",
+        "sentence": "E ao escravo o Poeta diz, descendo á horta",
+        "start_char": 1131,
+        "end_char": 1138,
+        "excerpt": "Passam no azul retardatárias penas; A lua nasce num palor de morta... E ao escravo o Poeta diz, descendo á horta",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "o Poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Licínio",
+        "sentence": "ROMANOS   Estas rosas, Licínio, e essas, vermelhas,  Rega-mas bem, e os cravos da Numídia  Que estão além, defronte do lagar;  Quero um festim de flor",
+        "start_char": 1233,
+        "end_char": 1240,
+        "excerpt": "Onde a colmeia dorme entre verbenas: 16 CAMAFEUS ROMANOS   Estas rosas, Licínio, e essas, vermelhas,  Rega-mas bem, e os cravos da Numídia  Que estão além, defronte do lagar;  Quero um festim de flor",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Estas rosas",
+                "child": ", Licínio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "rosa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Licínio",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Licínio",
+                "child": "Estas rosas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Licínio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rosa",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lídia",
+        "sentence": "'s dar ás abelhas,  Que em troca me darão mel para Lídia",
+        "start_char": 1412,
+        "end_char": 1417,
+        "excerpt": "16 CAMAFEUS ROMANOS   Estas rosas, Licínio, e essas, vermelhas,  Rega-mas bem, e os cravos da Numídia  Que estão além, defronte do lagar;  Quero um festim de flor 's dar ás abelhas,  Que em troca me darão mel para Lídia",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mel",
+                "child": "Lídia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mel",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lídia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lídia",
+                "child": "mel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lídia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tulo",
+        "sentence": "PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "start_char": 2078,
+        "end_char": 2082,
+        "excerpt": "PROPERCIO E CÍNTIA A JOAQUIM COSTA. PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "COSTA"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "CÍNTIA",
+                "child": "Tulo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "CÍNTIA",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Tulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tulo",
+                "child": "CÍNTIA",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Tulo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "CÍNTIA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tulo",
+                "child": "PROPERCIO",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Tulo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "PROPERCIO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Propercio",
+        "sentence": "PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "start_char": 2116,
+        "end_char": 2125,
+        "excerpt": "PROPERCIO E CÍNTIA A JOAQUIM COSTA. PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "COSTA"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "seu amigo",
+                "child": "Propercio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Propercio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Propercio",
+                "child": "seu amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Propercio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizer",
+                "child": "Propercio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Propercio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Propercio",
+        "sentence": "PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "start_char": 2116,
+        "end_char": 2125,
+        "excerpt": "PROPERCIO E CÍNTIA A JOAQUIM COSTA. PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo?",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "COSTA"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "seu amigo",
+                "child": "Propercio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Propercio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Propercio",
+                "child": "seu amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Propercio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizer",
+                "child": "Propercio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Propercio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Propercio",
+        "sentence": "Mas Propercio responde:",
+        "start_char": 2411,
+        "end_char": 2420,
+        "excerpt": "24 CAMAFEUS ROMANOS . Mas Propercio responde:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "responde",
+                "child": "Propercio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "propercio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ariático",
+        "sentence": "Um nescio eu fôra  Se ás iras me expusesse do Ariático  Para ver terras!",
+        "start_char": 2477,
+        "end_char": 2485,
+        "excerpt": "ROMANOS . Mas Propercio responde: Um nescio eu fôra  Se ás iras me expusesse do Ariático  Para ver terras!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "expusesse",
+                "child": "Ariático",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "expuser",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ariático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ariático",
+                "child": "Um nescio",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ariático",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nescio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cíntia",
+        "sentence": "Da minha bela Cíntia no aromático  Seio de rosas tenho o mundo todo !",
+        "start_char": 2577,
+        "end_char": 2583,
+        "excerpt": "Não, de nenhum modo  Te seguirei ! Vai tu, e em boa hora ! Da minha bela Cíntia no aromático  Seio de rosas tenho o mundo todo !",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "Seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "minha bela Cíntia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cíntia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha bela Cíntia",
+                "child": "aromático",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cíntia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "aromático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aromático",
+                "child": "minha bela Cíntia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "aromático",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cíntia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Seio",
+                "child": "minha bela Cíntia",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "Seio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cíntia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rosas",
+                "child": "minha bela Cíntia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rosa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cíntia",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Corina",
+        "sentence": "De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada.",
+        "start_char": 2745,
+        "end_char": 2751,
+        "excerpt": "A ALFBEDO PlMENTA, 0 ANEL DE CORINA Emquanto espera a hora combinada De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "remeter",
+                "child": "Corina",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "remeter",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Corina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ovídio",
+        "sentence": "De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada.",
+        "start_char": 2753,
+        "end_char": 2759,
+        "excerpt": "A ALFBEDO PlMENTA, 0 ANEL DE CORINA Emquanto espera a hora combinada De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "oscúla",
+                "child": "Ovídio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "oscúla",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ovídio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "prenda",
+        "sentence": "Como eu te invejo, ó prenda afortunada !",
+        "start_char": 2848,
+        "end_char": 2854,
+        "excerpt": "Emquanto espera a hora combinada De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada. Como eu te invejo, ó prenda afortunada !",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "invejo",
+                "child": "ó prenda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "invejo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "prenda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venus",
+        "sentence": "Donde sairá, qual Venus, orvalhada, 28 CAMAFEUS",
+        "start_char": 2959,
+        "end_char": 2964,
+        "excerpt": "Como eu te invejo, ó prenda afortunada ! Com ela vais dormir, mimosa e fina,  Com ela has-de banhar-te na piscina Donde sairá, qual Venus, orvalhada, 28 CAMAFEUS",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sairá",
+                "child": "Venus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ovídio",
+        "sentence": "Com sanhudo furor Ovídio atira",
+        "start_char": 3295,
+        "end_char": 3301,
+        "excerpt": "A CARLOS DE SACADURA. OVÍDIO FURIOSO Com sanhudo furor Ovídio atira",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Odiado",
+        "sentence": "Odiado objecto da mais justa ira !",
+        "start_char": 3380,
+        "end_char": 3386,
+        "excerpt": "A tabuinha encerada para a rua; Que um carro te esmigalhe e te destrua, Odiado objecto da mais justa ira !",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Odiado",
+                "child": "mais justa ira",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "Odiado",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Corina",
+        "sentence": "Vai-te, foge,  Ó tábua, onde o estilête de Corina  Traçou, tremendo em sua mão divina,  Esta sentença;",
+        "start_char": 3714,
+        "end_char": 3720,
+        "excerpt": "Só de flor's de cicuta, é que é devida A cêra que te cobre... Vai-te, foge,  Ó tábua, onde o estilête de Corina  Traçou, tremendo em sua mão divina,  Esta sentença;",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o estilête",
+                "child": "Corina",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "estilête",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Corina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Corina",
+                "child": "Traçou",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Corina",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Traçou",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Corina",
+                "child": "o estilête",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Corina",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "estilête",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Corina",
+                "child": "Ó tábua",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Corina",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tábua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Traçou",
+                "child": "Corina",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Traçou",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Corina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos REIS",
+        "sentence": "A Carlos REIS.",
+        "start_char": 3813,
+        "end_char": 3824,
+        "excerpt": "É impossível, hoje... PESCA IMPERIAL A Carlos REIS.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Imperador",
+        "sentence": "PESCA IMPERIAL Pesca no Tibre o Imperador.",
+        "start_char": 3856,
+        "end_char": 3867,
+        "excerpt": "PESCA IMPERIAL A Carlos REIS. PESCA IMPERIAL Pesca no Tibre o Imperador.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tigelino",
+        "sentence": "Tigelino, De Nero aos pés, dos seus aneis se ufana.",
+        "start_char": 3935,
+        "end_char": 3943,
+        "excerpt": "PESCA IMPERIAL Pesca no Tibre o Imperador. A cana, Como tambem o anzol, é d'oiro fino, E de púrpura a linha. Tigelino, De Nero aos pés, dos seus aneis se ufana.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Tigelino",
+                "child": ", De Nero",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "tigelino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tigelino",
+                "child": "ufana",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "tigelino",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "ufano",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", De Nero",
+                "child": "Tigelino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Nero",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "tigelino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pés",
+                "child": "Tigelino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "tigelino",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": ", De Nero",
+                        "child": "pés",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "Nero",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "pé"
+                    },
+                    {
+                        "head": "pés",
+                        "child": ", De Nero",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Nero"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "Tigelino",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "tigelino"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "ufana",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "ufano"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "Tigelino, De Nero aos pés, dos seus aneis se ufana.",
+        "start_char": 3948,
+        "end_char": 3952,
+        "excerpt": "PESCA IMPERIAL Pesca no Tibre o Imperador. A cana, Como tambem o anzol, é d'oiro fino, E de púrpura a linha. Tigelino, De Nero aos pés, dos seus aneis se ufana.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Tigelino",
+                "child": ", De Nero",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "tigelino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", De Nero",
+                "child": "pés",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Nero",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": ", De Nero",
+                        "child": "pés",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "Nero",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "pé"
+                    },
+                    {
+                        "head": "pés",
+                        "child": ", De Nero",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Nero"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "Tigelino",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "tigelino"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "ufana",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "ufano"
+                    }
+                ]
+            },
+            {
+                "head": ", De Nero",
+                "child": "Tigelino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Nero",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "tigelino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", De Nero",
+                "child": "ufana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Nero",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "ufano",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pés",
+                "child": ", De Nero",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": ", De Nero",
+                        "child": "pés",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "Nero",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "pé"
+                    },
+                    {
+                        "head": "pés",
+                        "child": ", De Nero",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Nero"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "Tigelino",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "tigelino"
+                    },
+                    {
+                        "head": "pés",
+                        "child": "ufana",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pé",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "ufano"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aventino",
+        "sentence": "No ar cristalino, Demandando os ciprestes do Aventino, De rôlas foge alada caravana...",
+        "start_char": 4082,
+        "end_char": 4090,
+        "excerpt": "Tigelino, De Nero aos pés, dos seus aneis se ufana. Do rio á superfície baça e plana Nem uma ruga só. No ar cristalino, Demandando os ciprestes do Aventino, De rôlas foge alada caravana...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os ciprestes",
+                "child": "Aventino",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cipreste",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Aventino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Aventino",
+                "child": "os ciprestes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Aventino",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cipreste",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anzol",
+        "sentence": "O que o anzol traz é uma sandália velha.",
+        "start_char": 4292,
+        "end_char": 4299,
+        "excerpt": "Nisto, entesa-se a linha fugidía, E co'a fronte apoplética, vermelha, Vai de certo apar'cer ! Mas... que ! O que o anzol traz é uma sandália velha.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "traz",
+                "child": "o anzol",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anzol",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o anzol",
+                "child": "sandália",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "anzol",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sandália",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "PALPEBRAS DE POPÊA PALPEBRAS DE POPÊA Focas, o astuto lapidado grego, Mostra a Nero uma gema nunca vista, Uma espécie de pálida ametista Que arde no mais febril desassossêgo.",
+        "start_char": 4406,
+        "end_char": 4410,
+        "excerpt": "Mas... que ! O que o anzol traz é uma sandália velha. PALPEBRAS DE POPÊA PALPEBRAS DE POPÊA Focas, o astuto lapidado grego, Mostra a Nero uma gema nunca vista, Uma espécie de pálida ametista Que arde no mais febril desassossêgo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mostra",
+                "child": "Nero",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "Mostra",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nero",
+                "child": "grego",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Nero",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "grego",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Imperador",
+        "sentence": "O Imperador, no fervoroso apêgo De lisonjear da nova espôsa a vista",
+        "start_char": 4502,
+        "end_char": 4513,
+        "excerpt": "O que o anzol traz é uma sandália velha. PALPEBRAS DE POPÊA PALPEBRAS DE POPÊA Focas, o astuto lapidado grego, Mostra a Nero uma gema nunca vista, Uma espécie de pálida ametista Que arde no mais febril desassossêgo. O Imperador, no fervoroso apêgo De lisonjear da nova espôsa a vista",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apêgo",
+                "child": "O Imperador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apêgor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Imperador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venus",
+        "sentence": "Em tom sereno :   São palpebras de Venus , diz o heleno.",
+        "start_char": 4720,
+        "end_char": 4725,
+        "excerpt": "40 CAMAFEUS ROMANOS   Estas pedras que são ? Em tom sereno :   São palpebras de Venus , diz o heleno.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "palpebras",
+                "child": "Venus",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "palpebra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Venus",
+                "child": "palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Venus",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o heleno",
+        "sentence": "Em tom sereno :   São palpebras de Venus , diz o heleno.",
+        "start_char": 4732,
+        "end_char": 4740,
+        "excerpt": "40 CAMAFEUS ROMANOS   Estas pedras que são ? Em tom sereno :   São palpebras de Venus , diz o heleno.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "o heleno",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "heleno",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venus",
+        "sentence": "De Venus ?  volve Nero, não é feia",
+        "start_char": 4745,
+        "end_char": 4750,
+        "excerpt": "ROMANOS   Estas pedras que são ? Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "palpebras",
+                "child": "Venus",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "palpebra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Venus",
+                "child": "palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Venus",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "volve",
+                "child": "Venus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "volver",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "De Venus ?  volve Nero, não é feia",
+        "start_char": 4760,
+        "end_char": 4764,
+        "excerpt": "ROMANOS   Estas pedras que são ? Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "volve",
+                "child": "Nero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "volver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pal",
+        "sentence": "A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "start_char": 4857,
+        "end_char": 4860,
+        "excerpt": "Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(não de Venus",
+                "child": "Palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Venus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Popêa",
+                "child": "Palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Popêa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ven",
+        "sentence": "A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "start_char": 4875,
+        "end_char": 4878,
+        "excerpt": "Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "palpebras",
+                "child": "Venus",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "palpebra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Venus",
+                "child": "palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Venus",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "volve",
+                "child": "Venus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "volver",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Venus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(não de Venus",
+                "child": "Palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Venus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Popêa",
+        "sentence": "A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "start_char": 4886,
+        "end_char": 4891,
+        "excerpt": "Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Popêa",
+                "child": "Palpebras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Popêa",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "palpebra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mãe",
+        "sentence": "A mãe com uns olhos que são dois braseiros, Segue, sob os atónitos pinheiros, Em descomposta e lúgubre alarida.",
+        "start_char": 5108,
+        "end_char": 5113,
+        "excerpt": "Na Via Ficulense enrubescida Do sol pelos vislumbres derradeiros, Quatro homens levam, graves e trigueiros, O sangrento cadáver dum suicída. Atraz, chamando-o inutilmente á vida, A mãe com uns olhos que são dois braseiros, Segue, sob os atónitos pinheiros, Em descomposta e lúgubre alarida.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Atraz",
+                "child": "A mãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Atraz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mãe",
+                "child": "uns olhos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mãe",
+                "child": "Atraz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Atraz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uns olhos",
+                "child": "A mãe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "braseiros",
+                "child": "A mãe",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "braseiro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Segue",
+                "child": "A mãe",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Segue",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", sob os atónitos",
+                "child": "A mãe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "atónito",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "descomposta",
+                "child": "A mãe",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "descomposta",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lúgubre",
+                "child": "A mãe",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "Lúgubre",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Popêa Mantém",
+        "sentence": "As quinhentas burrinhas que Popêa Mantém, p'ra se banhar no leite delas.",
+        "start_char": 5431,
+        "end_char": 5443,
+        "excerpt": "De poeira; e o triste entêrro que sopêa A marcha emquanto o céu se enche d'estrêlas, Desviando-se vê, ferradas d'oiro, As quinhentas burrinhas que Popêa Mantém, p'ra se banhar no leite delas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "As quinhentas",
+                "child": "que Popêa Mantém",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "quinhenta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Popêa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que Popêa Mantém",
+                "child": "As quinhentas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Popêa",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "quinhenta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hercúleo centuri",
+        "sentence": "MATRICÍDIO MATRICÍDIO Hercúleo centurião parte incumbido",
+        "start_char": 5498,
+        "end_char": 5514,
+        "excerpt": "A marcha emquanto o céu se enche d'estrêlas, Desviando-se vê, ferradas d'oiro, As quinhentas burrinhas que Popêa Mantém, p'ra se banhar no leite delas. MATRICÍDIO MATRICÍDIO Hercúleo centurião parte incumbido",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Agripina",
+        "sentence": "De matar Agripina.",
+        "start_char": 5542,
+        "end_char": 5550,
+        "excerpt": "As quinhentas burrinhas que Popêa Mantém, p'ra se banhar no leite delas. MATRICÍDIO MATRICÍDIO Hercúleo centurião parte incumbido De matar Agripina.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "Indiferente, Nero compõe ao espelho lentamente",
+        "start_char": 5565,
+        "end_char": 5569,
+        "excerpt": "MATRICÍDIO MATRICÍDIO Hercúleo centurião parte incumbido De matar Agripina. Indiferente, Nero compõe ao espelho lentamente",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "compõe",
+                "child": "Nero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a certa escrava",
+        "sentence": "Por ele a certa escrava prometido.",
+        "start_char": 5748,
+        "end_char": 5763,
+        "excerpt": "Co'a propria voz, põe-se a mirar contente Um colar de carbúnculos, presente Por ele a certa escrava prometido.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A linda escrava",
+        "sentence": "A linda escrava.",
+        "start_char": 5826,
+        "end_char": 5841,
+        "excerpt": "ROMANOS Por isso, o viuvo dela, ao sepultá-la, No cipo que lhe marca a sepultura, Sob terna inscrição d'altos louvores, Mandou lavrar, querendo retratá-la, Este baixo-relêvo que figura Uma dócil ovelha a comer flôres, OS CUIDADOS DE HORÁCIO Ao DR. ANTÓNIO DB VASCONCELOS. OS CUIDADOS DE HORÁCIO Lida a grata missiva em que Mecenas Com terno empenho a versejar o exorta, Sob a latada que lhe ensombra a porta, Horácio escuta as pastorais avenas. Passam no azul retardatárias penas; A lua nasce num palor de morta... E ao escravo o Poeta diz, descendo á horta Onde a colmeia dorme entre verbenas: 16 CAMAFEUS ROMANOS   Estas rosas, Licínio, e essas, vermelhas,  Rega-mas bem, e os cravos da Numídia  Que estão além, defronte do lagar;  Quero um festim de flor 's dar ás abelhas,  Que em troca me darão mel para Lídia E cera para as ânforas selar. PROPERCIO A CÍNTIA 5 PROPERCIO A CÍNTIA   P'ra que te enfeitas ? Que tontice a tua!  P'ra quê esse penteado singular,  E, de Cós, esses véus tecidos de ar?  P'ra que íe véstes, se te quero núa?  Núa, no espaço, é que é formosa a lua; Se a cobre alguma nuvem, que pesar! Flor's, estrelas do céu, ondas do mar  Mostram despidas a beleza sua... 20 CAMAFEUS ROMANOS Sobrancelhas postiças! Estás tonta! Vermelhão e cosméticos! Que afronta  Para esse lindo e penugento rosto! Lança fóra pomadas e pinceis! Anda nuzinho o Amor: todo o seu gosto  É ver, como ele, nús os seus fieis! PROPERCIO E CÍNTIA A JOAQUIM COSTA. PROPERCIO E CÍNTIA Tulo, procónsul na Asia, ao seu amigo Propercio vai dizer o extremo adeus: -  Porque é que ensurdeceste aos rogos meus,  Porque é, Propercio, que não vens comigo? A sábia Atenas de renome antigo,  E a Ionía doce que nos campos seus  Vê o Pacíolo reflectindo os céus,  Mais belas me hão-de parecer comtigo ! 24 CAMAFEUS ROMANOS . Mas Propercio responde: Um nescio eu fôra  Se ás iras me expusesse do Ariático  Para ver terras! Não, de nenhum modo  Te seguirei ! Vai tu, e em boa hora ! Da minha bela Cíntia no aromático  Seio de rosas tenho o mundo todo ! O ANEL DE CORINA A ALFBEDO PlMENTA, 0 ANEL DE CORINA Emquanto espera a hora combinada De o remeter com flores a Corina, Ovídio oscúla o anel que lhe destina E em que uma gema fulge bem gravada. Como eu te invejo, ó prenda afortunada ! Com ela vais dormir, mimosa e fina,  Com ela has-de banhar-te na piscina Donde sairá, qual Venus, orvalhada, 28 CAMAFEUS ROMANOS O dorso e o seio lhe verás de rosas,  E selarás as cartas deliciosas Com que em minh'alma alento e esp'rança vérte... E temendo (suprema f'icidade!)  Que a cera adira á pedra, ai! então ha-de Com a ponta da língua humedecer-te! OVÍDIO FURIOSO A CARLOS DE SACADURA. OVÍDIO FURIOSO Com sanhudo furor Ovídio atira A tabuinha encerada para a rua; Que um carro te esmigalhe e te destrua, Odiado objecto da mais justa ira ! Quem a arvore negra destruíra De que provens! Contorcionada e nua, Nela alguem se enforcou á luz da lua,  Amaldiçoando a sprte que o traíra! 32 CAMAFEUS ROMANOS A uma abelha da Córsega, nutrida Só de flor's de cicuta, é que é devida A cêra que te cobre... Vai-te, foge,  Ó tábua, onde o estilête de Corina  Traçou, tremendo em sua mão divina,  Esta sentença; É impossível, hoje... PESCA IMPERIAL A Carlos REIS. PESCA IMPERIAL Pesca no Tibre o Imperador. A cana, Como tambem o anzol, é d'oiro fino, E de púrpura a linha. Tigelino, De Nero aos pés, dos seus aneis se ufana. Do rio á superfície baça e plana Nem uma ruga só. No ar cristalino, Demandando os ciprestes do Aventino, De rôlas foge alada caravana... 36 CAMAFEUS ROMANOS É morno o dia. A natureza dorme... Nisto, entesa-se a linha fugidía, E co'a fronte apoplética, vermelha, Vai de certo apar'cer ! Mas... que ! O que o anzol traz é uma sandália velha. PALPEBRAS DE POPÊA PALPEBRAS DE POPÊA Focas, o astuto lapidado grego, Mostra a Nero uma gema nunca vista, Uma espécie de pálida ametista Que arde no mais febril desassossêgo. O Imperador, no fervoroso apêgo De lisonjear da nova espôsa a vista Com essa pedra única, imprevista, De a remirar á fôrça, é quase cego. 40 CAMAFEUS ROMANOS   Estas pedras que são ? Em tom sereno :   São palpebras de Venus , diz o heleno. De Venus ?  volve Nero, não é feia A expressão, porém quero-a mais radiante:  Chamemos a tais pedras d'ora ávante  Palpebras (não de Venus!) de Popêa... OS DOIS CORTEJOS OS DOIS CORTEJOS Na Via Ficulense enrubescida Do sol pelos vislumbres derradeiros, Quatro homens levam, graves e trigueiros, O sangrento cadáver dum suicída. Atraz, chamando-o inutilmente á vida, A mãe com uns olhos que são dois braseiros, Segue, sob os atónitos pinheiros, Em descomposta e lúgubre alarida. 44 CAMAFEUS ROMANOS Nisto, ergue-se na estrada ura bulcão loiro De poeira; e o triste entêrro que sopêa A marcha emquanto o céu se enche d'estrêlas, Desviando-se vê, ferradas d'oiro, As quinhentas burrinhas que Popêa Mantém, p'ra se banhar no leite delas. MATRICÍDIO MATRICÍDIO Hercúleo centurião parte incumbido De matar Agripina. Indiferente, Nero compõe ao espelho lentamente A c'rôa de verbenas, presumido. Depois, cantarolando, embevecido Co'a propria voz, põe-se a mirar contente Um colar de carbúnculos, presente Por ele a certa escrava prometido. 48 CAMAFEUS ROMANOS Assoma ura atriense anunciando A linda escrava.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "sobrancelha": {
+                "syns": [
+                    "sobrancelhas",
+                    "sobrecenho",
+                    "sobrolho",
+                    "supercílio",
+                    "supercílios"
+                ],
+                "occurrences": [
+                    "Sobrancelha",
+                    "Sobrancelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "rosto"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "COSTA"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "Seio",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "Nero, que palpita, Clama, co'as fontes latejantes:",
+        "start_char": 5843,
+        "end_char": 5847,
+        "excerpt": "Assoma ura atriense anunciando A linda escrava. Nero, que palpita, Clama, co'as fontes latejantes:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clama",
+        "sentence": "Nero, que palpita, Clama, co'as fontes latejantes:",
+        "start_char": 5862,
+        "end_char": 5867,
+        "excerpt": "Assoma ura atriense anunciando A linda escrava. Nero, que palpita, Clama, co'as fontes latejantes:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Agripina",
+        "sentence": "Longe, Agripina, o centurião fitando, E adivinhando tudo, assim lhe grita:",
+        "start_char": 5912,
+        "end_char": 5920,
+        "excerpt": "Nero, que palpita, Clama, co'as fontes latejantes: Que entre! Longe, Agripina, o centurião fitando, E adivinhando tudo, assim lhe grita:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Longe",
+                "child": "Agripina",
+                "dep_h": "advmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Longe",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Agripina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Agripina",
+                "child": "Longe",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Agripina",
+                "dep_c": "advmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Longe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o centurião",
+        "sentence": "Longe, Agripina, o centurião fitando, E adivinhando tudo, assim lhe grita:",
+        "start_char": 5922,
+        "end_char": 5933,
+        "excerpt": "Nero, que palpita, Clama, co'as fontes latejantes: Que entre! Longe, Agripina, o centurião fitando, E adivinhando tudo, assim lhe grita:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fitando",
+                "child": "o centurião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "centurião",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Petronio",
+        "sentence": "E eis que Petronio atalha",
+        "start_char": 6957,
+        "end_char": 6965,
+        "excerpt": "56 CAMAFEUS ROMANOS E eis que Petronio atalha",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Petronio",
+                "child": "atalha",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Petronio",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "atalhar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Demóstenes",
+        "sentence": "Que fosse outro Demóstenes ?",
+        "start_char": 7003,
+        "end_char": 7013,
+        "excerpt": "E eis que Petronio atalha ;   Quererias Que fosse outro Demóstenes ?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucano",
+        "sentence": "Lucano escreve:",
+        "start_char": 7249,
+        "end_char": 7255,
+        "excerpt": "A ANTONIO CORREIA DE OLIVEIRA. MUSA DOMESTICA Cheio d' inspiração, Lucano escreve:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "Lucano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Poeta",
+        "sentence": "Por traz do Poeta, surge, alva de neve, Pola Argentaria, dele se avizinha E espreita os versos: nunca uma rainha Tão jubiloso e nobre orgulho teve!",
+        "start_char": 7375,
+        "end_char": 7380,
+        "excerpt": "O aureo estilete célere caminha Como doirado insecto na tabuinha Que a cera cobre de camada leve. Por traz do Poeta, surge, alva de neve, Pola Argentaria, dele se avizinha E espreita os versos: nunca uma rainha Tão jubiloso e nobre orgulho teve!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Por traz",
+                "child": "Poeta",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "traz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Poeta",
+                "child": "Por traz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "poeta",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "traz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "ROMANOS Nisto, a meio dum verso, o poeta hesita;",
+        "start_char": 7556,
+        "end_char": 7563,
+        "excerpt": "Por traz do Poeta, surge, alva de neve, Pola Argentaria, dele se avizinha E espreita os versos: nunca uma rainha Tão jubiloso e nobre orgulho teve! 60 CAMAFEUS ROMANOS Nisto, a meio dum verso, o poeta hesita;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "hesita",
+                "child": "o poeta",
+                "dep_h": "amod",
+                "pos_h": "VERB",
+                "lemma_h": "hesitar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pola",
+        "sentence": "Mas Pola, em doce voz, logo lhe dita",
+        "start_char": 7576,
+        "end_char": 7580,
+        "excerpt": "60 CAMAFEUS ROMANOS Nisto, a meio dum verso, o poeta hesita; Mas Pola, em doce voz, logo lhe dita",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dita",
+                "child": "Mas Pola",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pola",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mas Pola",
+                "child": "voz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pola",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "voz",
+                "child": "Mas Pola",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pola",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marco Lucano",
+        "sentence": "E ao escrevê-lo, febril, com mão nervosa, Marco Lucano crê, sem dar p' la esposa, Que é a própria Calíope quem fala...",
+        "start_char": 7689,
+        "end_char": 7701,
+        "excerpt": "Mas Pola, em doce voz, logo lhe dita O hemistíquio fugaz que tanto o rala; E ao escrevê-lo, febril, com mão nervosa, Marco Lucano crê, sem dar p' la esposa, Que é a própria Calíope quem fala...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "crê",
+                "child": "Marco Lucano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Calíope",
+        "sentence": "E ao escrevê-lo, febril, com mão nervosa, Marco Lucano crê, sem dar p' la esposa, Que é a própria Calíope quem fala...",
+        "start_char": 7745,
+        "end_char": 7752,
+        "excerpt": "Mas Pola, em doce voz, logo lhe dita O hemistíquio fugaz que tanto o rala; E ao escrevê-lo, febril, com mão nervosa, Marco Lucano crê, sem dar p' la esposa, Que é a própria Calíope quem fala...",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "crê",
+                "child": "Calíope",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Calíope",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Démo",
+        "sentence": "NO PÓRTICO DE LÍVIA Démo, filha de Atenas, passa airosa",
+        "start_char": 7828,
+        "end_char": 7832,
+        "excerpt": "NO PORTICO DE LÍVIA A GUEDES DE OLIVEIRA. NO PÓRTICO DE LÍVIA Démo, filha de Atenas, passa airosa",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "PÓRTICO",
+                "child": "LÍVIA Démo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "PÓRTICO",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "LÍVIA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "LÍVIA Démo",
+                "child": "PÓRTICO",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "LÍVIA",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "PÓRTICO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Atenas",
+        "sentence": "NO PÓRTICO DE LÍVIA Démo, filha de Atenas, passa airosa",
+        "start_char": 7843,
+        "end_char": 7849,
+        "excerpt": "NO PORTICO DE LÍVIA A GUEDES DE OLIVEIRA. NO PÓRTICO DE LÍVIA Démo, filha de Atenas, passa airosa",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", filha",
+                "child": "Atenas",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Atenas",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Atenas",
+                "child": ", filha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Atenas",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Atenas",
+                "child": "PÓRTICO",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Atenas",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "PÓRTICO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luminosa",
+        "sentence": "Luminosa, Sintíla entre os seus pés a poeira escura:",
+        "start_char": 8000,
+        "end_char": 8008,
+        "excerpt": "De a oscular um dia como esposa. Dir-se-ia pisar estrelas! Luminosa, Sintíla entre os seus pés a poeira escura:",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Luminosa",
+                "child": "Sintíla",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Luminosa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Sintíla",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Luminosa",
+                "child": "a poeira",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Luminosa",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sintíla",
+                "child": "Luminosa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Sintíla",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Luminosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os seus pés",
+                "child": "Luminosa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Luminosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a poeira",
+                "child": "Luminosa",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Luminosa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ara",
+        "sentence": "Que eu, no meu bolso, vítima de azáres  Encontro apenas, aracnídea teia.",
+        "start_char": 8680,
+        "end_char": 8683,
+        "excerpt": "dar-te-hei mimosa ceia;  Mas traze vinhos bons, ricos manjares,  Chalaça fina que sacuda os ares,  E alguma ninfa que não seja feia, Isso tudo trazendo, noite cheia  Terás aqui para esquecer pesares, Que eu, no meu bolso, vítima de azáres  Encontro apenas, aracnídea teia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "arm",
+        "sentence": "Os beijos, mesmo quando assim comprados,  São por vezes tão suaves como arminhos...",
+        "start_char": 9220,
+        "end_char": 9223,
+        "excerpt": "A Rui DE BETECOURT DA CAMARA.  TIBÚLO EMPOBRECIDO   Empobreci a amar! Risonhos prados  E vinhedos que davam loiros vinhos,  Tudo vendi para comprar carinhos  Mentirosos e beijos simulados. Os beijos, mesmo quando assim comprados,  São por vezes tão suaves como arminhos...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "São",
+                "child": "vezes tão suaves como arminhos",
+                "dep_h": "conj",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vez",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vezes tão suaves como arminhos",
+                "child": "Os beijos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "beijo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venus",
+        "sentence": "De Venus, que comigo não se importa,",
+        "start_char": 9335,
+        "end_char": 9340,
+        "excerpt": "72 CAMAFEUS ROMANOS De Venus, que comigo não se importa,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pórcia",
+        "sentence": "As indianas perolas que vejo Nessas orelhas, Pórcia, não são elas As que te deu, alçando-se ás estrelas, Hortensio, a trôco de fingido beijo ?",
+        "start_char": 9650,
+        "end_char": 9656,
+        "excerpt": "OS BRINCOS DE PÓRCIA OS BRINCOS DE PÓRCIA As indianas perolas que vejo Nessas orelhas, Pórcia, não são elas As que te deu, alçando-se ás estrelas, Hortensio, a trôco de fingido beijo ?",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "orelhas",
+                "child": ", Pórcia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "orelha",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "pórcia",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "orelhas",
+                        "child": ", Pórcia",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "orelha",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "pórcia"
+                    },
+                    {
+                        "head": ", Pórcia",
+                        "child": "orelhas",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pórcia",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "orelha"
+                    }
+                ]
+            },
+            {
+                "head": ", Pórcia",
+                "child": "orelhas",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "pórcia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "orelha",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "orelhas",
+                        "child": ", Pórcia",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "orelha",
+                        "dep_c": "appos",
+                        "pos_c": "NOUN",
+                        "lemma_c": "pórcia"
+                    },
+                    {
+                        "head": ", Pórcia",
+                        "child": "orelhas",
+                        "dep_h": "appos",
+                        "pos_h": "NOUN",
+                        "lemma_h": "pórcia",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "orelha"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hortensio",
+        "sentence": "As indianas perolas que vejo Nessas orelhas, Pórcia, não são elas As que te deu, alçando-se ás estrelas, Hortensio, a trôco de fingido beijo ?",
+        "start_char": 9710,
+        "end_char": 9719,
+        "excerpt": "OS BRINCOS DE PÓRCIA OS BRINCOS DE PÓRCIA As indianas perolas que vejo Nessas orelhas, Pórcia, não são elas As que te deu, alçando-se ás estrelas, Hortensio, a trôco de fingido beijo ?",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre",
+        "sentence": "obter, submisso ao teu desejo, Vendeu quanto possuía; mas ao vê-las Por ti miradas, que as dizias belas, Rico o pobre se achava de sobejo.",
+        "start_char": 9867,
+        "end_char": 9874,
+        "excerpt": "As indianas perolas que vejo Nessas orelhas, Pórcia, não são elas As que te deu, alçando-se ás estrelas, Hortensio, a trôco de fingido beijo ? Para as. obter, submisso ao teu desejo, Vendeu quanto possuía; mas ao vê-las Por ti miradas, que as dizias belas, Rico o pobre se achava de sobejo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as dizias",
+                "child": "Rico o pobre",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "dizia",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Rico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rico o pobre",
+                "child": "as dizias",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Rico",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dizia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tibre",
+        "sentence": "Passados quatro dias bem pungentes, Ao Tibre se deitou, louco de dor, E lá morreu...",
+        "start_char": 9955,
+        "end_char": 9960,
+        "excerpt": "76 CAMAFEUS ROMANOS Passados quatro dias bem pungentes, Ao Tibre se deitou, louco de dor, E lá morreu...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deitou",
+                "child": "Tibre",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "deitar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Tibre",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "teus clientes",
+        "sentence": "Esses brincos esconde aos teus clientes, Pois supondo exibir troféus d'amor, Lábaros ergues de perfídia e morte!",
+        "start_char": 10048,
+        "end_char": 10061,
+        "excerpt": "Passados quatro dias bem pungentes, Ao Tibre se deitou, louco de dor, E lá morreu... Que miseravel sorte! Esses brincos esconde aos teus clientes, Pois supondo exibir troféus d'amor, Lábaros ergues de perfídia e morte!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lábaros",
+        "sentence": "Esses brincos esconde aos teus clientes, Pois supondo exibir troféus d'amor, Lábaros ergues de perfídia e morte!",
+        "start_char": 10099,
+        "end_char": 10106,
+        "excerpt": "Passados quatro dias bem pungentes, Ao Tibre se deitou, louco de dor, E lá morreu... Que miseravel sorte! Esses brincos esconde aos teus clientes, Pois supondo exibir troféus d'amor, Lábaros ergues de perfídia e morte!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "supondo",
+                "child": "Lábaros",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "supor",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Lábaros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lábaros",
+                "child": "ergues",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Lábaros",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "ergue",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lábaros",
+                "child": "perfídia",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Lábaros",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "perfídia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ergues",
+                "child": "Lábaros",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "ergue",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Lábaros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perfídia",
+                "child": "Lábaros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perfídia",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Lábaros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morte",
+                "child": "Lábaros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Lábaros",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudia",
+        "sentence": "Por isso, Claudia que eu, cheia de andrajos, Ha pouco vi, seguindo, ao sol adusto,",
+        "start_char": 10477,
+        "end_char": 10484,
+        "excerpt": "80 CAMAFEUS ROMANOS Por isso, Claudia que eu, cheia de andrajos, Ha pouco vi, seguindo, ao sol adusto,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "Claudia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Claudia",
+                "child": "cheia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Claudia",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "cheio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "andrajos",
+                "child": "Claudia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "andrajo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pai",
+        "sentence": "O pai no amanho de arrendadas glebas, Ontem, no Circo, apareceu com trajos E joias cujo fabuloso custo",
+        "start_char": 10550,
+        "end_char": 10555,
+        "excerpt": "Por isso, Claudia que eu, cheia de andrajos, Ha pouco vi, seguindo, ao sol adusto, O pai no amanho de arrendadas glebas, Ontem, no Circo, apareceu com trajos E joias cujo fabuloso custo Daría para erguer de novo Tebas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "O pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O pai",
+                "child": "amanho",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amanho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amanho",
+                "child": "O pai",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amanho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "arrendadas",
+                "child": "O pai",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "arrendar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tebas",
+        "sentence": "Daría para erguer de novo Tebas!",
+        "start_char": 10679,
+        "end_char": 10684,
+        "excerpt": "Por isso, Claudia que eu, cheia de andrajos, Ha pouco vi, seguindo, ao sol adusto, O pai no amanho de arrendadas glebas, Ontem, no Circo, apareceu com trajos E joias cujo fabuloso custo Daría para erguer de novo Tebas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TULIAZINHA",
+        "sentence": "TULIAZINHA",
+        "start_char": 10686,
+        "end_char": 10696,
+        "excerpt": "O pai no amanho de arrendadas glebas, Ontem, no Circo, apareceu com trajos E joias cujo fabuloso custo Daría para erguer de novo Tebas! TULIAZINHA",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cicero",
+        "sentence": "6 TULIAZINHA Cicero escreve a Ático na paz Do seu jardim.",
+        "start_char": 10734,
+        "end_char": 10740,
+        "excerpt": "TULIAZINHA Ao CONDE DE BERTIANDOS. 6 TULIAZINHA Cicero escreve a Ático na paz Do seu jardim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "6 TULIAZINHA Cicero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "TULIAZINHA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ático",
+        "sentence": "6 TULIAZINHA Cicero escreve a Ático na paz Do seu jardim.",
+        "start_char": 10751,
+        "end_char": 10756,
+        "excerpt": "TULIAZINHA Ao CONDE DE BERTIANDOS. 6 TULIAZINHA Cicero escreve a Ático na paz Do seu jardim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "Ático",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Ático",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pequena Túlia",
+        "sentence": "Dum colmeal fugida, Chega a pequena Túlia esbaforida",
+        "start_char": 10807,
+        "end_char": 10820,
+        "excerpt": "Ao CONDE DE BERTIANDOS. 6 TULIAZINHA Cicero escreve a Ático na paz Do seu jardim. Dum colmeal fugida, Chega a pequena Túlia esbaforida",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Chega",
+                "child": "a pequena Túlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Túlia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ático",
+        "sentence": "A quem escreves, a Ático?",
+        "start_char": 10887,
+        "end_char": 10892,
+        "excerpt": "Dum colmeal fugida, Chega a pequena Túlia esbaforida Que um farto ramo de narcisos traz. A quem escreves, a Ático?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quem escreves",
+                "child": "Ático",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "escrever",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Ático",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ático",
+                "child": "quem escreves",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Ático",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "escrever",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a boneca prometida",
+        "sentence": "Dir-lhe-has  Que me mande a boneca prometida;",
+        "start_char": 10920,
+        "end_char": 10938,
+        "excerpt": "Que um farto ramo de narcisos traz. A quem escreves, a Ático? Dir-lhe-has  Que me mande a boneca prometida;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o falso m ' a",
+        "sentence": "Se o falso m'a não der, tu ma darás!",
+        "start_char": 10981,
+        "end_char": 10994,
+        "excerpt": "E aperta-o bem, senão... por minha vida ! Se o falso m'a não der, tu ma darás!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o orador",
+        "sentence": "ROMANOS Rindo, o orador lá escreve esse recado Em castiço latim.",
+        "start_char": 11046,
+        "end_char": 11054,
+        "excerpt": "Se o falso m'a não der, tu ma darás! 84 CAMAFEUS ROMANOS Rindo, o orador lá escreve esse recado Em castiço latim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "o orador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "orador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arfa",
+        "sentence": "Fresco e pausado, Arfa, no ar, balsâmico favonio...",
+        "start_char": 11114,
+        "end_char": 11118,
+        "excerpt": "84 CAMAFEUS ROMANOS Rindo, o orador lá escreve esse recado Em castiço latim. Fresco e pausado, Arfa, no ar, balsâmico favonio...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Fresco",
+                "child": ", Arfa",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Fresco",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Arfa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Arfa",
+                "child": ", no ar",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Arfa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Arfa",
+                "child": "Fresco",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Arfa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Fresco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", no ar",
+                "child": ", Arfa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ar",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Arfa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Túlia",
+        "sentence": "Abala Túlia.",
+        "start_char": 11154,
+        "end_char": 11159,
+        "excerpt": "ROMANOS Rindo, o orador lá escreve esse recado Em castiço latim. Fresco e pausado, Arfa, no ar, balsâmico favonio... Abala Túlia.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "0 pai",
+        "sentence": "0 pai segue-a co'a vista...",
+        "start_char": 11161,
+        "end_char": 11166,
+        "excerpt": "Fresco e pausado, Arfa, no ar, balsâmico favonio... Abala Túlia. 0 pai segue-a co'a vista...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "segue-a",
+                "child": "0 pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "segue-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marco - Antonio",
+        "sentence": "Mas uma nuvem lúgubre, imprevista Lhe ensombra o olhar: pensára em Marco-Antonio.",
+        "start_char": 11188,
+        "end_char": 11203,
+        "excerpt": "Abala Túlia. 0 pai segue-a co'a vista... Mas uma nuvem lúgubre, imprevista Lhe ensombra o olhar: pensára em Marco-Antonio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cícero",
+        "sentence": "De Cícero a cabeça decepada",
+        "start_char": 11316,
+        "end_char": 11322,
+        "excerpt": "A VINGANÇA DE FULVIA A VINGANÇA DE FULVIA De Cícero a cabeça decepada",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bôca",
+        "sentence": "Bôca tão danada",
+        "start_char": 11466,
+        "end_char": 11470,
+        "excerpt": "De Cícero a cabeça decepada Sangra num prato, lívida e serena; Mirando-a, como satisfeita hiena, Fui via, bela e feliz, sorri vingada,   Como foi isto ? Bôca tão danada",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ca d ' oiro",
+        "sentence": "Já me não mordes, bôca d'oiro ?",
+        "start_char": 11514,
+        "end_char": 11525,
+        "excerpt": "Bôca tão danada Com sua baba já não me envenena? Já me não mordes, bôca d'oiro ?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cospe",
+        "sentence": "ROMANOS Ardem-lhe os olhos em rogais delirios, E crispando os seus dedos, claros lirios, Enclavinhados por um ódio cégo, Cospe, entreabrindo-a, na gelada bôca, Puxa-lhe a língua, e nela crava, louca, De seus fulvos cabelos o aureo prego.",
+        "start_char": 11724,
+        "end_char": 11729,
+        "excerpt": "Que pena eu tenho de te ver calada ! 88 CAMAFEUS ROMANOS Ardem-lhe os olhos em rogais delirios, E crispando os seus dedos, claros lirios, Enclavinhados por um ódio cégo, Cospe, entreabrindo-a, na gelada bôca, Puxa-lhe a língua, e nela crava, louca, De seus fulvos cabelos o aureo prego.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um ódio",
+                "child": ", Cospe",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ódio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cospe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Cospe",
+                "child": "um ódio",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cospe",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ódio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o violento Siroco",
+        "sentence": "Da Ápia Via ao lado, onde o violento Siroco erguia folhas e poeira, Num cipo li, ao pé duma aveleira, Esta inscrição, detendo-me um momento :",
+        "start_char": 11911,
+        "end_char": 11928,
+        "excerpt": "A ANTONIO CARNEIRO. NA VIA ÁPIA Da Ápia Via ao lado, onde o violento Siroco erguia folhas e poeira, Num cipo li, ao pé duma aveleira, Esta inscrição, detendo-me um momento :",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "erguia",
+                "child": "o violento Siroco",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "erguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Siroco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudia",
+        "sentence": "De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "start_char": 12030,
+        "end_char": 12037,
+        "excerpt": "NA VIA ÁPIA A ANTONIO CARNEIRO. NA VIA ÁPIA Da Ápia Via ao lado, onde o violento Siroco erguia folhas e poeira, Num cipo li, ao pé duma aveleira, Esta inscrição, detendo-me um momento : De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Claudia",
+                "child": "Manes",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Claudia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Manes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Manes",
+                "child": "Claudia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Manes",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Plutão cruento",
+                "child": "Claudia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Plutão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", do leito",
+                "child": "Claudia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "leito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "á",
+                "child": "Claudia",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "á",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "beira",
+                "child": "Claudia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "beira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Albio",
+                "child": "Claudia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Albio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", seu noivo",
+                "child": "Claudia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "noivo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", como derradeira Prova d'amor,",
+                "child": "Claudia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Prova",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "este moimento",
+                "child": "Claudia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "moimento",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Manes",
+        "sentence": "De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "start_char": 12042,
+        "end_char": 12047,
+        "excerpt": "NA VIA ÁPIA A ANTONIO CARNEIRO. NA VIA ÁPIA Da Ápia Via ao lado, onde o violento Siroco erguia folhas e poeira, Num cipo li, ao pé duma aveleira, Esta inscrição, detendo-me um momento : De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Claudia",
+                "child": "Manes",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Claudia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Manes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Manes",
+                "child": "Claudia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Manes",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Albio",
+        "sentence": "De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "start_char": 12104,
+        "end_char": 12109,
+        "excerpt": "NA VIA ÁPIA A ANTONIO CARNEIRO. NA VIA ÁPIA Da Ápia Via ao lado, onde o violento Siroco erguia folhas e poeira, Num cipo li, ao pé duma aveleira, Esta inscrição, detendo-me um momento : De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", do leito",
+                "child": ", Albio",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "leito",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Albio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Albio",
+                "child": ", do leito",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Albio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "leito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Albio",
+                "child": "Claudia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Albio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a minha noiva",
+        "sentence": "ROMANOS Terminada a leitura, reparei Que a minha noiva, conturbado o busto, De flor's enchia o cipo abandonado.",
+        "start_char": 12226,
+        "end_char": 12239,
+        "excerpt": "De Claudia aos Manes, que Plutão cruento Prostrou, do leito nupcial á beira, Albio, seu noivo, como derradeira Prova d'amor, eleva este moimento. 92 CAMAFEUS ROMANOS Terminada a leitura, reparei Que a minha noiva, conturbado o busto, De flor's enchia o cipo abandonado.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "enchia",
+                "child": "a minha noiva",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "enchiar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o busto",
+                "child": "a minha noiva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "busto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "noiva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lavínia",
+        "sentence": "Não / respondeu Lavínia;  mas é justo",
+        "start_char": 12348,
+        "end_char": 12355,
+        "excerpt": "ROMANOS Terminada a leitura, reparei Que a minha noiva, conturbado o busto, De flor's enchia o cipo abandonado. Conheceste-la acaso ?  perguntei : Não / respondeu Lavínia;  mas é justo",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Lavínia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lavínia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o desgraçado",
+        "sentence": "Que o amor ditoso amime o desgraçado...",
+        "start_char": 12394,
+        "end_char": 12406,
+        "excerpt": "Conheceste-la acaso ?  perguntei : Não / respondeu Lavínia;  mas é justo Que o amor ditoso amime o desgraçado...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cornélia Eutíquia",
+        "sentence": "A sepultura de Cornélia Eutíquia11",
+        "start_char": 12437,
+        "end_char": 12454,
+        "excerpt": "Que o amor ditoso amime o desgraçado... INDICE Pág. A sepultura de Cornélia Eutíquia11",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A sepultura",
+                "child": "Cornélia Eutíquia11",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sepultura",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cornélia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cornélia Eutíquia11",
+                "child": "A sepultura",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cornélia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sepultura",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Horácio",
+        "sentence": "Os cuidados de Horácio15 Propereio a Cintia19 Propereio e Cíntia23",
+        "start_char": 12472,
+        "end_char": 12479,
+        "excerpt": "INDICE Pág. A sepultura de Cornélia Eutíquia11 Os cuidados de Horácio15 Propereio a Cintia19 Propereio e Cíntia23",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os cuidados",
+                "child": "Horácio15",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cuidado",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Horácio15",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Horácio15",
+                "child": "Os cuidados",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Horácio15",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cuidado",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ovídio",
+        "sentence": "O anel de Corina27 Ovídio furioso31",
+        "start_char": 12543,
+        "end_char": 12549,
+        "excerpt": "A sepultura de Cornélia Eutíquia11 Os cuidados de Horácio15 Propereio a Cintia19 Propereio e Cíntia23 O anel de Corina27 Ovídio furioso31",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Matricídio",
+        "sentence": "Os dois cortejos43 Matricídio47",
+        "start_char": 12617,
+        "end_char": 12627,
+        "excerpt": "O anel de Corina27 Ovídio furioso31 Pesca imperial35 Palpebras do Popêa39 Os dois cortejos43 Matricídio47",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os dois cortejos43",
+                "child": "Matricídio47",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cortejos43",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "Matricídio47",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O poeta pobre",
+        "sentence": "O poeta pobre51",
+        "start_char": 12630,
+        "end_char": 12643,
+        "excerpt": "Pesca imperial35 Palpebras do Popêa39 Os dois cortejos43 Matricídio47 O poeta pobre51",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Musa domestica",
+        "sentence": "Musa domestica59",
+        "start_char": 12664,
+        "end_char": 12678,
+        "excerpt": "O poeta pobre51 Peixe d'Aquario55 Musa domestica59",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Peixe d'Aquario55 Musa domestica59",
+                "child": "pobre51",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Peixe",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "pobre51",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fábulo67 Tibúlo",
+        "sentence": "Convite a Fábulo67 Tibúlo",
+        "start_char": 12713,
+        "end_char": 12728,
+        "excerpt": "Musa domestica59 No Pórtico de Lívia63 Convite a Fábulo67 Tibúlo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Convite",
+                "child": "Fábulo67 Tibúlo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Convite",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Fábulo67",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Fábulo67 Tibúlo",
+                "child": "Convite",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Fábulo67",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Convite",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pórcia75",
+        "sentence": "Os brincos de Pórcia75",
+        "start_char": 12757,
+        "end_char": 12765,
+        "excerpt": "Convite a Fábulo67 Tibúlo empobrecido71 Os brincos de Pórcia75",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Os brincos",
+                "child": "Pórcia75",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "brinco",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Pórcia75",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pórcia75",
+                "child": "Os brincos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Pórcia75",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "brinco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tuliazinha",
+        "sentence": "A carestia do amor79 Tuliazinha83",
+        "start_char": 12787,
+        "end_char": 12797,
+        "excerpt": "empobrecido71 Os brincos de Pórcia75 A carestia do amor79 Tuliazinha83",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

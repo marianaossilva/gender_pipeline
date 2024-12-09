@@ -1,0 +1,262 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Grav",
+        "sentence": "Grave vos é de que vos hei amor",
+        "start_char": 0,
+        "end_char": 4,
+        "excerpt": "Grave",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Dom Dinis Cancioneiro da Biblioteca Nacional 511, Cancioneiro da Vaticana 94",
+        "start_char": 32,
+        "end_char": 41,
+        "excerpt": "Dom Dinis Cancioneiro da Biblioteca Nacional 511, Cancioneiro da Vaticana 94 Grave vos é de que vos hei amor e par",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Grave",
+        "sentence": "Grave",
+        "start_char": 0,
+        "end_char": 5,
+        "excerpt": "Grave",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer.",
+        "start_char": 147,
+        "end_char": 151,
+        "excerpt": "Grave vos é de que vos hei amor Dom Dinis Cancioneiro da Biblioteca Nacional 511, Cancioneiro da Vaticana 94 Grave vos é de que vos hei amor e par Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "aquesto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "ADJ",
+                "lemma_c": "aquesto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bem",
+        "sentence": "Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer.",
+        "start_char": 171,
+        "end_char": 174,
+        "excerpt": "Grave vos é de que vos hei amor Dom Dinis Cancioneiro da Biblioteca Nacional 511, Cancioneiro da Vaticana 94 Grave vos é de que vos hei amor e par Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Grave vos é, bem vej'eu qu' é assi, de que vos amo mais ca mim nem al e qu'est'é mia mort'e meu gram mal; mais par Deus, senhor, que por meu mal vi, se vos grav'é de vos eu bem querer, grav' est a mi, mais nom poss'al fazer.",
+        "start_char": 428,
+        "end_char": 432,
+        "excerpt": "vos é de que vos hei amor e par Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer. Grave vos é, bem vej'eu qu' é assi, de que vos amo mais ca mim nem al e qu'est'é mia mort'e meu gram mal; mais par Deus, senhor, que por meu mal vi, se vos grav'é de vos eu bem querer, grav' est a mi, mais nom poss'al fazer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "aquesto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "aquesto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grav'é",
+                "child": "mais par Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "grav'é",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mais par Deus",
+                "child": ", senhor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "mais par Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Grave vos est, assi Deus mi perdom, que nom podia mais, per boa fé, de que vos am', e sei que assi é, mais par Deus, coita do meu coraçom, se vos grav'é de vos eu bem querer, grave est'a mi, mais nom poss'al fazer.",
+        "start_char": 558,
+        "end_char": 562,
+        "excerpt": "Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer. Grave vos é, bem vej'eu qu' é assi, de que vos amo mais ca mim nem al e qu'est'é mia mort'e meu gram mal; mais par Deus, senhor, que por meu mal vi, se vos grav'é de vos eu bem querer, grav' est a mi, mais nom poss'al fazer. Grave vos est, assi Deus mi perdom, que nom podia mais, per boa fé, de que vos am', e sei que assi é, mais par Deus, coita do meu coraçom, se vos grav'é de vos eu bem querer, grave est'a mi, mais nom poss'al fazer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "aquesto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "deus",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "aquesto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grav'é",
+                "child": "mais par Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "grav'é",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mais par Deus",
+                "child": ", senhor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "mais par Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Grave vos est, assi Deus mi perdom, que nom podia mais, per boa fé, de que vos am', e sei que assi é, mais par Deus, coita do meu coraçom, se vos grav'é de vos eu bem querer, grave est'a mi, mais nom poss'al fazer.",
+        "start_char": 558,
+        "end_char": 562,
+        "excerpt": "Deus aquesto vej'eu mui bem, mais empero direi-vos ũa rem per boa fé, fremosa mia senhor: se vos grav'é de vos eu bem querer, grave est a mi, mais nom poss'al fazer. Grave vos é, bem vej'eu qu' é assi, de que vos amo mais ca mim nem al e qu'est'é mia mort'e meu gram mal; mais par Deus, senhor, que por meu mal vi, se vos grav'é de vos eu bem querer, grav' est a mi, mais nom poss'al fazer. Grave vos est, assi Deus mi perdom, que nom podia mais, per boa fé, de que vos am', e sei que assi é, mais par Deus, coita do meu coraçom, se vos grav'é de vos eu bem querer, grave est'a mi, mais nom poss'al fazer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "aquesto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "deus",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "aquesto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grav'é",
+                "child": "mais par Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "grav'é",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mais par Deus",
+                "child": ", senhor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "mais par Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 12,
+        "end_char": 29,
+        "excerpt": "Cena íntima Casimiro de Abreu Como estás hoje zangada E como olhas despeitada",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha flor",
+        "sentence": "Minha flor!",
+        "start_char": 971,
+        "end_char": 981,
+        "excerpt": "Vêm molhar! Sabe ainda ser clemente, Perdoa um erro inocente Minha flor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Meu amor!",
+        "start_char": 1040,
+        "end_char": 1044,
+        "excerpt": "Seja grande embora o crime O perdão sempre é sublime Meu amor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O infiel",
+        "sentence": "O infiel:",
+        "start_char": 1292,
+        "end_char": 1300,
+        "excerpt": "Ai! deixa que peça agora Esses extremos d'outrora O infiel:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ord",
+        "sentence": "Ordena com gesto altivo...",
+        "start_char": 1371,
+        "end_char": 1374,
+        "excerpt": "Em doces, longos abraços Com paixão; Ordena com gesto altivo...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ordena",
+                "child": "gesto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Ordena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "gesto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gesto",
+                "child": "Ordena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gesto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Ordena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo querido",
+        "sentence": "Mata-me sim... de ventura, Com mil beijos de ternura Sem ter dó, Que eu prometo, anjo querido, Não desprender um gemido, Nem um só!",
+        "start_char": 1514,
+        "end_char": 1526,
+        "excerpt": "Que te beije este cativo Essa mão! Mata-me sim... de ventura, Com mil beijos de ternura Sem ter dó, Que eu prometo, anjo querido, Não desprender um gemido, Nem um só!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

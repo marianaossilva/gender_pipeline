@@ -1,0 +1,984 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Ator",
+        "sentence": "Ao Ator Joaquim Augusto Castro Alves",
+        "start_char": 3,
+        "end_char": 7,
+        "excerpt": "Ao Ator Joaquim Augusto Castro Alves Um dia Pigmalião  o estatuário Da oficina no tosco santuário",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Augusto Castro Alves",
+        "sentence": "Ao Ator Joaquim Augusto Castro Alves",
+        "start_char": 8,
+        "end_char": 36,
+        "excerpt": "Ao Ator Joaquim Augusto Castro Alves Um dia Pigmalião  o estatuário Da oficina no tosco santuário",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pigmalião",
+        "sentence": "Um dia Pigmalião  o estatuário",
+        "start_char": 44,
+        "end_char": 53,
+        "excerpt": "Ao Ator Joaquim Augusto Castro Alves Um dia Pigmalião  o estatuário Da oficina no tosco santuário",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Pigmalião",
+                "child": "o estatuário",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Pigmalião",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "estatuário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o estatuário",
+                "child": "Pigmalião",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "estatuário",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Pigmalião",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vênus",
+        "sentence": "E dos flocos de mármore outra Vênus",
+        "start_char": 193,
+        "end_char": 198,
+        "excerpt": "Pôs-se a pedra a talhar... Surgem contornos lânguidos, amenos... E dos flocos de mármore outra Vênus",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E dos flocos",
+                "child": "outra Vênus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "floco",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Vênus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outra Vênus",
+                "child": "E dos flocos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Vênus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "floco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o mestre",
+        "sentence": "De orgulho o mestre ri...",
+        "start_char": 232,
+        "end_char": 240,
+        "excerpt": "E dos flocos de mármore outra Vênus Surge dest'outro mar. De orgulho o mestre ri...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ri",
+                "child": "o mestre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ri",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mestre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A estátua",
+        "sentence": "A estátua é bela!",
+        "start_char": 247,
+        "end_char": 256,
+        "excerpt": "Surge dest'outro mar. De orgulho o mestre ri... A estátua é bela!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A estátua",
+                "child": "bela",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "estátua",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as filhas",
+        "sentence": "Da Grécia as filhas por inveja dela Vão nas grutas gemer...",
+        "start_char": 275,
+        "end_char": 284,
+        "excerpt": "De orgulho o mestre ri... A estátua é bela! Da Grécia as filhas por inveja dela Vão nas grutas gemer...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gemer",
+                "child": "as filhas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gemer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as filhas",
+                "child": "inveja",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inveja",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "inveja",
+                "child": "as filhas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inveja",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o artista",
+        "sentence": "Mas o artista soluça:",
+        "start_char": 329,
+        "end_char": 338,
+        "excerpt": "A estátua é bela! Da Grécia as filhas por inveja dela Vão nas grutas gemer... Mas o artista soluça:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soluça",
+                "child": "o artista",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soluça",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "artista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Grande Jove",
+        "sentence": "O Grande Jove!",
+        "start_char": 349,
+        "end_char": 362,
+        "excerpt": "Mas o artista soluça: \" O Grande Jove!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a estátua",
+        "sentence": "Vive a estátua!",
+        "start_char": 531,
+        "end_char": 540,
+        "excerpt": "Então do excelso Olimpo o deus-tonante Manda que desça um raio fulgurante À tenda do escultor. Vive a estátua!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vive",
+                "child": "a estátua",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vive",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "estátua",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O poeta",
+        "sentence": "O poeta é  o moderno estatuário Que na vigília cria solitário Visões de seio nu!",
+        "start_char": 633,
+        "end_char": 640,
+        "excerpt": "Nos olhos  treme o pejo, Vive a estátua!... Na boca-treme um beijo, Nos seios  treme amor. O poeta é  o moderno estatuário Que na vigília cria solitário Visões de seio nu!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio",
+                    "seio"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O poeta",
+                "child": "estatuário",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "estatuário",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "estatuário",
+                "child": "O poeta",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "estatuário",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júpiter",
+        "sentence": "É Júpiter!...",
+        "start_char": 791,
+        "end_char": 798,
+        "excerpt": "Mas o raio vital quem lá derrama? ... É Júpiter!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gluck",
+        "sentence": "Como Gluck nas selvas aprendia Ao som do violoncelo a melodia",
+        "start_char": 819,
+        "end_char": 824,
+        "excerpt": "És tu! ... Como Gluck nas selvas aprendia Ao som do violoncelo a melodia",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aprendia",
+                "child": "Gluck",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aprender",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Gluck",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teu gênio",
+        "sentence": "Teu gênio vai forjar novo tesouro...",
+        "start_char": 1285,
+        "end_char": 1294,
+        "excerpt": "O crânio largo a transbordar de idéias E de criações mil. Então começa a luta, a luta enorme, Desta matéria tosca, áspera, informe, Que na praça apanhou. Teu gênio vai forjar novo tesouro...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "forjar",
+                "child": "Teu gênio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "forjar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "gênio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "O cobre escuro vai mudar-se em ouro, Como Fausto o sonhou!",
+        "start_char": 1364,
+        "end_char": 1370,
+        "excerpt": "Então começa a luta, a luta enorme, Desta matéria tosca, áspera, informe, Que na praça apanhou. Teu gênio vai forjar novo tesouro... O cobre escuro vai mudar-se em ouro, Como Fausto o sonhou!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sonhou",
+                "child": "Fausto",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mestre",
+        "sentence": "Glória ao Mestre!",
+        "start_char": 1391,
+        "end_char": 1397,
+        "excerpt": "Teu gênio vai forjar novo tesouro... O cobre escuro vai mudar-se em ouro, Como Fausto o sonhou! Glória ao Mestre!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Glória",
+                "child": "Mestre",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Glória",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Mestre",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mestre",
+                "child": "Glória",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Mestre",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Glória",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O artista",
+        "sentence": "O artista corrigiu a natureza!",
+        "start_char": 1527,
+        "end_char": 1536,
+        "excerpt": "os risos são mais ledos... O amor é mais do céu... Rebenta o ouro desta fronte acesa! O artista corrigiu a natureza!",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "corrigiu",
+                "child": "O artista",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "corrigir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "artista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O alquimista",
+        "sentence": "O alquimista venceu!",
+        "start_char": 1558,
+        "end_char": 1570,
+        "excerpt": "O amor é mais do céu... Rebenta o ouro desta fronte acesa! O artista corrigiu a natureza! O alquimista venceu!",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "venceu",
+                "child": "O alquimista",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vencer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alquimista",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ator",
+        "sentence": "Então surges, Ator! e do proscênio",
+        "start_char": 1593,
+        "end_char": 1597,
+        "excerpt": "O artista corrigiu a natureza! O alquimista venceu! Então surges, Ator! e do proscênio",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "surges",
+                "child": ", Ator",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "surges",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ator",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "teu gênio",
+        "sentence": "Atiras as moedas do teu gênio",
+        "start_char": 1634,
+        "end_char": 1643,
+        "excerpt": "O alquimista venceu! Então surges, Ator! e do proscênio Atiras as moedas do teu gênio",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as moedas",
+                "child": "teu gênio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moeda",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "gênio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teu gênio",
+                "child": "as moedas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gênio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moeda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pródigo",
+        "sentence": "Pródigo enorme!",
+        "start_char": 1665,
+        "end_char": 1672,
+        "excerpt": "Atiras as moedas do teu gênio As pasmas multidões. Pródigo enorme!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Pródigo",
+                "child": "enorme",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pródigo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "enorme",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o povo",
+        "sentence": "Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês;",
+        "start_char": 1816,
+        "end_char": 1822,
+        "excerpt": "a tua enorme esmola Cunhada pela efígie tua rola Nos nossos corações. Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês;",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "E o povo",
+                "child": ", bem o vês",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "povo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", bem o vês",
+                "child": "E o povo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vês",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "povo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis...",
+        "start_char": 1889,
+        "end_char": 1896,
+        "excerpt": "Nos nossos corações. Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês; Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pos",
+                "child": "outro Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "po",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "pos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "po",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Roma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Roma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Como nos tempos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "plebe amiga",
+        "sentence": "Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis...",
+        "start_char": 1899,
+        "end_char": 1910,
+        "excerpt": "Nos nossos corações. Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês; Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto!",
+        "start_char": 1930,
+        "end_char": 1937,
+        "excerpt": "Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês; Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis... Augusto!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pos",
+                "child": "outro Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "po",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "pos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "po",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Roma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Roma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Como nos tempos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os poetas",
+        "sentence": "E os poetas repetem como Horácio: \"Salve!",
+        "start_char": 2063,
+        "end_char": 2072,
+        "excerpt": "eu bem o sei! Mandas no povo deste novo Lácio... E os poetas repetem como Horácio: \"Salve!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetem",
+                "child": "os poetas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repeter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Horácio",
+        "sentence": "E os poetas repetem como Horácio: \"Salve!",
+        "start_char": 2086,
+        "end_char": 2093,
+        "excerpt": "eu bem o sei! Mandas no povo deste novo Lácio... E os poetas repetem como Horácio: \"Salve!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repetem",
+                "child": "Horácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repeter",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Horácio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto!",
+        "start_char": 1930,
+        "end_char": 1937,
+        "excerpt": "Por isso agora, no teu almo dia, Vieram dando as mãos a Poesia E o povo, bem o vês; Como nos tempos dessa Roma antiga Aos pos desse outro Augusto a plebe amiga Atirava lauréis... Augusto!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pos",
+                "child": "outro Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "po",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "pos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "po",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Roma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Roma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outro Augusto",
+                "child": "Como nos tempos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rei",
+        "sentence": "Rei!",
+        "start_char": 2112,
+        "end_char": 2115,
+        "excerpt": "E os poetas repetem como Horácio: \"Salve! Augusto! Rei!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

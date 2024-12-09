@@ -1,0 +1,85 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Valho mais que uma flor Alberto Caeiro",
+        "start_char": 31,
+        "end_char": 45,
+        "excerpt": "O quê? Valho mais que uma flor Alberto Caeiro O quê? Valho mais que uma flor Porque ela não sabe que tem cor e eu sei, Porque ela não sabe que tem perfume e eu sei, Porque ela não tem consciência de mim e eu tenho consciência dela?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "flor",
+                "child": "Alberto Caeiro",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "flor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "Valho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Valho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque ela não sabe que tem cor e eu sei, Porque ela não sabe que tem perfume e eu sei, Porque ela não tem consciência de mim e eu tenho consciência dela?",
+        "start_char": 77,
+        "end_char": 80,
+        "excerpt": "O quê? Valho mais que uma flor Alberto Caeiro O quê? Valho mais que uma flor Porque ela não sabe que tem cor e eu sei, Porque ela não sabe que tem perfume e eu sei, Porque ela não tem consciência de mim e eu tenho consciência dela?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A planta",
+        "sentence": "A planta, se falasse, podia dizer-me:",
+        "start_char": 429,
+        "end_char": 437,
+        "excerpt": "Sim tenho consciência da planta e ela não a tem de mim. Mas se a forma da consciência é ter consciência, que há nisso? A planta, se falasse, podia dizer-me:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "A planta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "planto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

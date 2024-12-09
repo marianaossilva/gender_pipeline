@@ -1,0 +1,1033 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "um homem de opa",
+        "sentence": "Vi a alguma distância parado um homem de opa, creio que verde, mas podia ser encarnada.",
+        "start_char": 788,
+        "end_char": 803,
+        "excerpt": "Já lá vão vinte anos, ou ainda vinte e dous. Foi na Rua de S. José, entre onze horas e meio-dia. Vi a alguma distância parado um homem de opa, creio que verde, mas podia ser encarnada.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alma",
+        "sentence": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento.",
+        "start_char": 910,
+        "end_char": 914,
+        "excerpt": "Foi na Rua de S. José, entre onze horas e meio-dia. Vi a alguma distância parado um homem de opa, creio que verde, mas podia ser encarnada. Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Opa",
+                "child": "Almas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Opa",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Almas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Almas",
+                "child": "do Santíssimo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Almas",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santíssimo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Almas",
+                "child": "Opa",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Almas",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Opa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Santíssimo",
+                "child": "Almas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santíssimo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Almas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sacramento",
+                "child": "Almas",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Sacramento",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Almas",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santíssimo Sacramento",
+        "sentence": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento.",
+        "start_char": 922,
+        "end_char": 943,
+        "excerpt": "Foi na Rua de S. José, entre onze horas e meio-dia. Vi a alguma distância parado um homem de opa, creio que verde, mas podia ser encarnada. Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pedinte",
+        "sentence": "A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "start_char": 1092,
+        "end_char": 1101,
+        "excerpt": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento. Tal encontro era muito comum naqueles anos, tão comum que não me chamaria a atenção, se não fossem duas circunstâncias especiais. A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falava",
+                "child": "o pedinte",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhando",
+                "child": "o pedinte",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um pequeno",
+        "sentence": "A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "start_char": 1113,
+        "end_char": 1123,
+        "excerpt": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento. Tal encontro era muito comum naqueles anos, tão comum que não me chamaria a atenção, se não fossem duas circunstâncias especiais. A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falava",
+                "child": "um pequeno",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "outro",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um pequeno",
+                "child": ", ambos esquisitos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pequeno",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "esquisito",
+                "categories": [
+                    "aparencia",
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ambos esquisitos",
+                "child": "um pequeno",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "esquisito",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia_carater",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pequeno",
+        "sentence": "A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "start_char": 1143,
+        "end_char": 1152,
+        "excerpt": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento. Tal encontro era muito comum naqueles anos, tão comum que não me chamaria a atenção, se não fossem duas circunstâncias especiais. A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falando",
+                "child": "o pequeno",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "outro",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pedinte",
+        "sentence": "A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "start_char": 1092,
+        "end_char": 1101,
+        "excerpt": "Opa e salva de prata, pedinte de alguma irmandade, que era das Almas ou do Santíssimo Sacramento. Tal encontro era muito comum naqueles anos, tão comum que não me chamaria a atenção, se não fossem duas circunstâncias especiais. A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falava",
+                "child": "o pedinte",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhando",
+                "child": "o pedinte",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o velho",
+        "sentence": "Depois de alguns segundos foram andando para baixo, mas não deram muitos passos, cinco ou seis, e vagarosos; pararam, e o velho  o pedinte era um velho  mostrou então em cheio o seu olhar espalhado e inquisidor.",
+        "start_char": 1407,
+        "end_char": 1414,
+        "excerpt": "Tal encontro era muito comum naqueles anos, tão comum que não me chamaria a atenção, se não fossem duas circunstâncias especiais. A primeira é que o pedinte falava com um pequeno, ambos esquisitos, o pequeno falando pouco, e o pedinte olhando para um lado e outro, como procurando alguma cousa, alguém, ou algum modo de praticar alguma ação. Depois de alguns segundos foram andando para baixo, mas não deram muitos passos, cinco ou seis, e vagarosos; pararam, e o velho  o pedinte era um velho  mostrou então em cheio o seu olhar espalhado e inquisidor.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o velho  o pedinte",
+                "child": "velho",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pedinte",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o porteiro",
+        "sentence": "Cara e talhe, era nada menos que o porteiro de um dos teatros dramáticos do tempo, S. Pedro ou Ginásio; não havia que duvidar, era a mesma fisionomia obsequiosa de todas as noites, a mesma figura do dever, sentada à porta da platéia, recebendo os bilhetes, dando as senhas, calada, sossegada, já sem comoção dramática, tendo gasto o coração em toda a sorte de lances, durante anos eternos.",
+        "start_char": 1609,
+        "end_char": 1619,
+        "excerpt": "Não direi o assombro que me causou a vista do homem. Já então ia mais perto. Cara e talhe, era nada menos que o porteiro de um dos teatros dramáticos do tempo, S. Pedro ou Ginásio; não havia que duvidar, era a mesma fisionomia obsequiosa de todas as noites, a mesma figura do dever, sentada à porta da platéia, recebendo os bilhetes, dando as senhas, calada, sossegada, já sem comoção dramática, tendo gasto o coração em toda a sorte de lances, durante anos eternos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "Cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "que o porteiro",
+                "child": ", S.",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "porteiro",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "S.",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que o porteiro",
+                "child": "fisionomia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "porteiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fisionomia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teatros",
+                "child": "que o porteiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "teatro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tempo",
+                "child": "que o porteiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", S.",
+                "child": "que o porteiro",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "S.",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pedro",
+                "child": "que o porteiro",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Pedro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ginásio",
+                "child": "que o porteiro",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ginásio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pedinte",
+        "sentence": "Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "start_char": 2356,
+        "end_char": 2363,
+        "excerpt": "Ri-me naturalmente deste ajuste de cousas; mas estava longe de saber que o ajuste era ainda maior do que me parecia. Tal foi a segunda circunstância que me chamou a atenção para o caso. Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Vendo",
+                "child": "pedinte",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedinte",
+                "child": "porteiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pedinte",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "porteiro",
+        "sentence": "Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "start_char": 2366,
+        "end_char": 2374,
+        "excerpt": "Ri-me naturalmente deste ajuste de cousas; mas estava longe de saber que o ajuste era ainda maior do que me parecia. Tal foi a segunda circunstância que me chamou a atenção para o caso. Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pedinte",
+                "child": "porteiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pedinte",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "porteiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pequeno",
+        "sentence": "Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "start_char": 2414,
+        "end_char": 2423,
+        "excerpt": "Ri-me naturalmente deste ajuste de cousas; mas estava longe de saber que o ajuste era ainda maior do que me parecia. Tal foi a segunda circunstância que me chamou a atenção para o caso. Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o pequeno",
+                "child": "reconheci",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pequeno",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "reconheci",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o pequeno",
+                "child": "filho",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pequeno",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "reconheci",
+                "child": "o pequeno",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "reconheci",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filho",
+                "child": "o pequeno",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pequeno",
+        "sentence": "O pequeno teria oito ou nove anos.",
+        "start_char": 2556,
+        "end_char": 2565,
+        "excerpt": "Tal foi a segunda circunstância que me chamou a atenção para o caso. Vendo que pedinte e porteiro constituíam a mesma pessoa, olhei para o pequeno e reconheci logo que era filho de ambos, tal era a semelhança da fisionomia, o queixo bicudo, o jeito dos ombros do pai e do filho. O pequeno teria oito ou nove anos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "teria",
+                "child": "O pequeno",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "devotos",
+        "sentence": "É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "start_char": 2769,
+        "end_char": 2776,
+        "excerpt": "O pequeno teria oito ou nove anos. Até os olhos eram os mesmos: bons, mas disfarçados. É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a esmola",
+                "child": "devotos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "esmola",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "devoto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "devotos",
+                "child": "a esmola",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "devoto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "esmola",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sacristão",
+        "sentence": "É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "start_char": 2780,
+        "end_char": 2791,
+        "excerpt": "O pequeno teria oito ou nove anos. Até os olhos eram os mesmos: bons, mas disfarçados. É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": ", e o sacristão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sacristão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a porcentagem",
+                "child": ", e o sacristão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "porcentagem",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sacristão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "serviço",
+                "child": ", e o sacristão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "serviço",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sacristão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus Momo",
+        "sentence": "É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "start_char": 2941,
+        "end_char": 2950,
+        "excerpt": "O pequeno teria oito ou nove anos. Até os olhos eram os mesmos: bons, mas disfarçados. É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a porta",
+                "child": "deus Momo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deus Momo",
+                "child": "a porta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pequeno",
+        "sentence": "O pequeno ficou ali mesmo na calçada, olhando para outra parte, e ele entrou num corredor, como quem vai pedir alguma esmola para as bentas almas.",
+        "start_char": 3047,
+        "end_char": 3056,
+        "excerpt": "É ele mesmo, dizia eu comigo; é ele mesmo, le matin catholique, de opa e salva, contrito, pede de porta em porta a esmola dos devotos, e o sacristão que lhe dê naturalmente a porcentagem do serviço; mas logo à tarde despe a opa de seda velha, enfia o paletó de alpaca, e lá vai ele para a porta do deus Momo: et le soir idolâtre. Enquanto eu pensava isto, e ia andando, resolveu ele afinal alguma cousa. O pequeno ficou ali mesmo na calçada, olhando para outra parte, e ele entrou num corredor, como quem vai pedir alguma esmola para as bentas almas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "O pequeno",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pedinte",
+        "sentence": "Vi meia calva do pedinte, meia calva só, porque ele estava inclinado sobre a salva, fazendo mentalmente uma cousa, e fisicamente outra.",
+        "start_char": 3466,
+        "end_char": 3473,
+        "excerpt": "Pela minha parte fui andando; não convinha parar, e a principal descoberta estava feita. Mas ao passar pela porta do corredor, olhei insensivelmente para dentro, sem plano, sem crer que ia ver qualquer cousa que merecesse ser posta em letra de impressão. Vi meia calva do pedinte, meia calva só, porque ele estava inclinado sobre a salva, fazendo mentalmente uma cousa, e fisicamente outra.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vi",
+                "child": "pedinte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Vi",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedinte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "S . Basílio",
+        "sentence": "Mentalmente nunca soube o que era; talvez refletia no concilio de Constantinopla, nas penas eternas ou na exortação de S. Basílio aos rapazes.",
+        "start_char": 3584,
+        "end_char": 3595,
+        "excerpt": "Mas ao passar pela porta do corredor, olhei insensivelmente para dentro, sem plano, sem crer que ia ver qualquer cousa que merecesse ser posta em letra de impressão. Vi meia calva do pedinte, meia calva só, porque ele estava inclinado sobre a salva, fazendo mentalmente uma cousa, e fisicamente outra. Mentalmente nunca soube o que era; talvez refletia no concilio de Constantinopla, nas penas eternas ou na exortação de S. Basílio aos rapazes.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o leitor",
+        "sentence": "Fui andando e sorrindo de pena, porque estava adivinhando o resto, como o leitor, que talvez nasceu depois daquele dia; fui andando, mas duas vezes, voltei a cabeça para trás.",
+        "start_char": 4321,
+        "end_char": 4329,
+        "excerpt": "Mistérios tudo; ou, pelo menos questões problemáticas, que o bom senso manda não investigar, desde que não é possível chegar a uma averiguação certa. Lá vão vinte anos bem puxados. Fui andando e sorrindo de pena, porque estava adivinhando o resto, como o leitor, que talvez nasceu depois daquele dia; fui andando, mas duas vezes, voltei a cabeça para trás.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "adivinhando",
+                "child": ", como o leitor",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "adivinhar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dia",
+                "child": ", como o leitor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pequeno",
+        "sentence": "Da primeira, vi que ele chegava à porta e olhava para um lado e outro, e que o pequeno se aproximava; da segunda, vi que o pequeno metia o dinheiro no bolso, atravessava a rua, depressa, e o pedinte continuava a andar, bradando:",
+        "start_char": 4502,
+        "end_char": 4511,
+        "excerpt": "Lá vão vinte anos bem puxados. Fui andando e sorrindo de pena, porque estava adivinhando o resto, como o leitor, que talvez nasceu depois daquele dia; fui andando, mas duas vezes, voltei a cabeça para trás. Da primeira, vi que ele chegava à porta e olhava para um lado e outro, e que o pequeno se aproximava; da segunda, vi que o pequeno metia o dinheiro no bolso, atravessava a rua, depressa, e o pedinte continuava a andar, bradando:",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "metia",
+                "child": "o pequeno",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "meter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pequeno",
+        "sentence": "Da primeira, vi que ele chegava à porta e olhava para um lado e outro, e que o pequeno se aproximava; da segunda, vi que o pequeno metia o dinheiro no bolso, atravessava a rua, depressa, e o pedinte continuava a andar, bradando:",
+        "start_char": 4502,
+        "end_char": 4511,
+        "excerpt": "Lá vão vinte anos bem puxados. Fui andando e sorrindo de pena, porque estava adivinhando o resto, como o leitor, que talvez nasceu depois daquele dia; fui andando, mas duas vezes, voltei a cabeça para trás. Da primeira, vi que ele chegava à porta e olhava para um lado e outro, e que o pequeno se aproximava; da segunda, vi que o pequeno metia o dinheiro no bolso, atravessava a rua, depressa, e o pedinte continuava a andar, bradando:",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "metia",
+                "child": "o pequeno",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "meter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pequeno",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sacramento",
+        "sentence": "Nunca pude saber se era a missa das Almas ou do Sacramento, por não ter ouvido o resto, e não me lembrar também se a opa era encarnada ou verde.",
+        "start_char": 4718,
+        "end_char": 4728,
+        "excerpt": "Da primeira, vi que ele chegava à porta e olhava para um lado e outro, e que o pequeno se aproximava; da segunda, vi que o pequeno metia o dinheiro no bolso, atravessava a rua, depressa, e o pedinte continuava a andar, bradando: Para a missa... Nunca pude saber se era a missa das Almas ou do Sacramento, por não ter ouvido o resto, e não me lembrar também se a opa era encarnada ou verde.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Almas",
+                "child": "do Sacramento",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Almas",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sacramento",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Sacramento",
+                "child": "Almas",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sacramento",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Almas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do Sacramento",
+                "child": "missa",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sacramento",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "missa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "obscuro funcionário da sacristia e do teatro",
+        "sentence": "O certo é que vi como esse obscuro funcionário da sacristia e do teatro realizava assim mais que textualmente esta parte do dístico:",
+        "start_char": 4886,
+        "end_char": 4930,
+        "excerpt": "Nunca pude saber se era a missa das Almas ou do Sacramento, por não ter ouvido o resto, e não me lembrar também se a opa era encarnada ou verde. Pobres almas, se foram elas as defraudadas! O certo é que vi como esse obscuro funcionário da sacristia e do teatro realizava assim mais que textualmente esta parte do dístico:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

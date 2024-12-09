@@ -1,0 +1,2035 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alexandre Herculano",
+        "sentence": "A CRUZ MUTILADA Alexandre Herculano Amo-te, ó cruz, no vértice, firmada De esplêndidas igrejas;",
+        "start_char": 16,
+        "end_char": 35,
+        "excerpt": "A CRUZ MUTILADA Alexandre Herculano Amo-te, ó cruz, no vértice, firmada De esplêndidas igrejas; Amo-te quando à noite, sobre a campa, Junto ao cipreste alvejas; Amo-te sobre o altar, onde, entre incensos, As preces te rodeiam;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pinheiral",
+        "sentence": "O pinheiral murmura.",
+        "start_char": 778,
+        "end_char": 789,
+        "excerpt": "Ó cruz do meu Senhor, É, se te encontro à tarde, Antes de o Sol se pôr, Na clareira da serra, Que o arvoredo assombra, Quando à luz que fenece Se estira a tua sombra, E o dia últimos raios Com o luar mistura, E o seu hino da tarde O pinheiral murmura.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sozinha",
+        "sentence": "Sozinha estavas Ao pôr do Sol, e ao elevar-se a Lua",
+        "start_char": 865,
+        "end_char": 872,
+        "excerpt": "O pinheiral murmura. * E eu te encontrei, num alcantil agreste, Meia quebrada, ó cruz. Sozinha estavas Ao pôr do Sol, e ao elevar-se a Lua",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sol",
+                "child": "Sozinha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "Sol",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sozinha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Lua",
+                "child": "Sozinha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lua",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sozinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nossos avós",
+        "sentence": "No pedestal musgoso, em que te ergueram Nossos avós, eu me assentei.",
+        "start_char": 1280,
+        "end_char": 1291,
+        "excerpt": "De teu perfil, falhadas, tortuosas, Ó mutilada cruz, falam de um crime Sacrílego, brutal e ao ímpio inútil! A tua sombra estampa-se no solo, Como a sombra de antigo monumento, Que o tempo quase derrocou, truncada. No pedestal musgoso, em que te ergueram Nossos avós, eu me assentei.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sectário",
+        "sentence": "Foi da ciência incrédula o sectário, Acaso, ó cruz da serra, o que na face",
+        "start_char": 1791,
+        "end_char": 1801,
+        "excerpt": "Na tangente deste orbe, ao qual trouxeste Liberdade e progresso, e que te paga Com a injúria e o desprezo, e que te inveja Até, na solidão, o esquecimento! * Foi da ciência incrédula o sectário, Acaso, ó cruz da serra, o que na face",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem do povo",
+        "sentence": "Foi o homem do povo, a quem consolo",
+        "start_char": 1886,
+        "end_char": 1901,
+        "excerpt": "Afrontas te gravou com mão profusa? Não! Foi o homem do povo, a quem consolo",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a filha virgem",
+        "sentence": "Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz.",
+        "start_char": 2619,
+        "end_char": 2633,
+        "excerpt": "De que. se a paz doméstica, a pureza Do leito conjugal bruta violência Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "humilde camponês",
+        "sentence": "Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz.",
+        "start_char": 2637,
+        "end_char": 2653,
+        "excerpt": "De que. se a paz doméstica, a pureza Do leito conjugal bruta violência Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cultor",
+        "sentence": "Que por ti o cultor de férteis campos Colhe tranquilo da fadiga o prémio, Sem que a voz de um senhor, qual dantes, dura Lhe diga:",
+        "start_char": 2721,
+        "end_char": 2729,
+        "excerpt": "Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz. to devem; Que por ti o cultor de férteis campos Colhe tranquilo da fadiga o prémio, Sem que a voz de um senhor, qual dantes, dura Lhe diga:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o cultor",
+                "child": "campos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "cultor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "campo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "campos",
+                "child": "o cultor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "campo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "cultor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "escravo",
+        "sentence": "A mim deleites, Liberdade, abundância: a ti, escravo, O trabalho.",
+        "start_char": 2902,
+        "end_char": 2909,
+        "excerpt": "Que por ti o cultor de férteis campos Colhe tranquilo da fadiga o prémio, Sem que a voz de um senhor, qual dantes, dura Lhe diga: É meu, e és meu! A mim deleites, Liberdade, abundância: a ti, escravo, O trabalho.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", abundância",
+                "child": ": a ti, escravo,",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "abundânciar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ti",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": a ti, escravo,",
+                "child": "O trabalho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ti",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "trabalho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": a ti, escravo,",
+                "child": ", abundância",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ti",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "abundânciar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O trabalho",
+                "child": ": a ti, escravo,",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "trabalho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ti",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o servo",
+        "sentence": "Mentira!, e o servo alevantou os olhos, Onde a esperança cintilava, a medo, E viu as faces do senhor retintas Em palidez mortal, e errar-lhe a vista Trépida, vaga.",
+        "start_char": 3225,
+        "end_char": 3232,
+        "excerpt": "a miséria unido à terra, Que o suor dessa fronte fertiliza, Enquanto, em dia de furor ou tédio, Não me apraz com teus restos fecundá-la. Quando calada a humanidade ouvia Este atroz blasfemar, tu te elevaste Lá do Oriente, ó Cruz, envolta em glória, E bradaste, tremenda, ao forte, ao rico: Mentira!, e o servo alevantou os olhos, Onde a esperança cintilava, a medo, E viu as faces do senhor retintas Em palidez mortal, e errar-lhe a vista Trépida, vaga.",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "alevantou",
+                "child": "o servo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "alevantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "servo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Mentira!, e o servo alevantou os olhos, Onde a esperança cintilava, a medo, E viu as faces do senhor retintas Em palidez mortal, e errar-lhe a vista Trépida, vaga.",
+        "start_char": 3307,
+        "end_char": 3313,
+        "excerpt": "a miséria unido à terra, Que o suor dessa fronte fertiliza, Enquanto, em dia de furor ou tédio, Não me apraz com teus restos fecundá-la. Quando calada a humanidade ouvia Este atroz blasfemar, tu te elevaste Lá do Oriente, ó Cruz, envolta em glória, E bradaste, tremenda, ao forte, ao rico: Mentira!, e o servo alevantou os olhos, Onde a esperança cintilava, a medo, E viu as faces do senhor retintas Em palidez mortal, e errar-lhe a vista Trépida, vaga.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as faces",
+                "child": "senhor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "face",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "as faces",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "face",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ancião guerreiro",
+        "sentence": "Cansado, o ancião guerreiro, que a existência Desgastou no volver de cem combates, Ao ver que, enfim, o seu país querido Já não ousam calcar os pés d'estranhos, Vem assentar-se à luz meiga da tarde,",
+        "start_char": 3443,
+        "end_char": 3461,
+        "excerpt": "A cruz no céu do Oriente Da liberdade anunciara a vinda. Cansado, o ancião guerreiro, que a existência Desgastou no volver de cem combates, Ao ver que, enfim, o seu país querido Já não ousam calcar os pés d'estranhos, Vem assentar-se à luz meiga da tarde,",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "assentar-se",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "assentarr se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a existência",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "existência",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "volver",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "volver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cem combates",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "combate",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seu país",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "país",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os pés",
+                "child": "Cansado, o ancião guerreiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerreiro",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "veterano",
+        "sentence": "Ao perpassar do veterano, os velhos",
+        "start_char": 3868,
+        "end_char": 3876,
+        "excerpt": "Na fronte calva, Que o sol tostou e que enrugaram anos, Há um como fulgor sereno e santo. Da aldeia semideus, devem-lhe todos D tecto, a liberdade, e a honra e vida. Ao perpassar do veterano, os velhos",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perpassar",
+                "child": "veterano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perpassar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "veterano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os velhos",
+        "sentence": "Ao perpassar do veterano, os velhos",
+        "start_char": 3878,
+        "end_char": 3887,
+        "excerpt": "Na fronte calva, Que o sol tostou e que enrugaram anos, Há um como fulgor sereno e santo. Da aldeia semideus, devem-lhe todos D tecto, a liberdade, e a honra e vida. Ao perpassar do veterano, os velhos",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os moços",
+        "sentence": "Com amorosa timidez os moços Saúdam-no qual pai.",
+        "start_char": 3946,
+        "end_char": 3954,
+        "excerpt": "Ao perpassar do veterano, os velhos A mão que os protegeu apertam gratos; Com amorosa timidez os moços Saúdam-no qual pai.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "timidez",
+                "child": "os moços",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "timidez",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os moços",
+                "child": "timidez",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "timidez",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho Pelejador",
+        "sentence": "Assim do velho Pelejador os derradeiros dias Derivam paru o túmulo suaves, Rodeados de afecto, e quando à terra",
+        "start_char": 4128,
+        "end_char": 4143,
+        "excerpt": "Nus largas noites Da gelada estação, sobre a lareira Nunca lhe falta o cepo incendiado; Sobre a mesa frugal nunca, no estio, Refrigerante pomo. Assim do velho Pelejador os derradeiros dias Derivam paru o túmulo suaves, Rodeados de afecto, e quando à terra",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "Pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "defensor do fraco",
+        "sentence": "A mão do tempo gastador o guia, Sobre a lousa a saudade ainda lhe esparze Flores, lágrimas, bênçãos, que consolem Do defensor do fraco as cinzas frias.",
+        "start_char": 4348,
+        "end_char": 4365,
+        "excerpt": "Sobre a mesa frugal nunca, no estio, Refrigerante pomo. Assim do velho Pelejador os derradeiros dias Derivam paru o túmulo suaves, Rodeados de afecto, e quando à terra A mão do tempo gastador o guia, Sobre a lousa a saudade ainda lhe esparze Flores, lágrimas, bênçãos, que consolem Do defensor do fraco as cinzas frias.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "Pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cruz",
+        "sentence": "Pobre cruz!",
+        "start_char": 4389,
+        "end_char": 4393,
+        "excerpt": "Assim do velho Pelejador os derradeiros dias Derivam paru o túmulo suaves, Rodeados de afecto, e quando à terra A mão do tempo gastador o guia, Sobre a lousa a saudade ainda lhe esparze Flores, lágrimas, bênçãos, que consolem Do defensor do fraco as cinzas frias. Pobre cruz!",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "Pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rei",
+        "sentence": "Para ameigar-te Este ar húmido e gélido a segure Não foi ferir do bosque o rei.",
+        "start_char": 4679,
+        "end_char": 4684,
+        "excerpt": "No solo libertado, Que pediste? Um retiro no deserto, Um píncaro granítico, açoutado Pelas asas do vento e enegrecido Por chuvas e por sóis. Para ameigar-te Este ar húmido e gélido a segure Não foi ferir do bosque o rei.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ferir",
+                "child": "o rei",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ferir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rei",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estio",
+        "sentence": "Do Estio",
+        "start_char": 4689,
+        "end_char": 4694,
+        "excerpt": "Um retiro no deserto, Um píncaro granítico, açoutado Pelas asas do vento e enegrecido Por chuvas e por sóis. Para ameigar-te Este ar húmido e gélido a segure Não foi ferir do bosque o rei. Do Estio",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bravo medronheiro",
+        "sentence": "Dai-me, sequer, do bravo medronheiro",
+        "start_char": 4749,
+        "end_char": 4766,
+        "excerpt": "Do Estio No ardor canicular nunca disseste: Dai-me, sequer, do bravo medronheiro",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dai-me",
+                "child": "bravo medronheiro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dai-me",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Bravo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bravo medronheiro",
+                "child": "Dai-me",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Bravo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dai-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bravo medronheiro",
+                "child": "ardor",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Bravo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ardor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E Deus criou para trajar as rochas.",
+        "start_char": 4842,
+        "end_char": 4846,
+        "excerpt": "O desprezado fruto! O teu vestido Era o musgo, que tece a mão do Inverno E Deus criou para trajar as rochas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "criou",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "criar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "O teu vestido Era o musgo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "musgo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As aves",
+        "sentence": "As aves vinham circundar-te de hinos.",
+        "start_char": 5209,
+        "end_char": 5216,
+        "excerpt": "Que te importava? As árvores da encosta Curvavam-se a saudar-te, e revoando As aves vinham circundar-te de hinos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vinham",
+                "child": "As aves",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frouxo",
+        "sentence": "Afagava-te o raio derradeiro, Frouxo do Sul ao mergulhar nos mares.",
+        "start_char": 5277,
+        "end_char": 5283,
+        "excerpt": "As árvores da encosta Curvavam-se a saudar-te, e revoando As aves vinham circundar-te de hinos. Afagava-te o raio derradeiro, Frouxo do Sul ao mergulhar nos mares.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o raio",
+                "child": ", Frouxo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "raio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Frouxo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Frouxo",
+                "child": "Sul",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frouxo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sul",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Frouxo",
+                "child": "o raio",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frouxo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "raio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sul",
+                "child": ", Frouxo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sul",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Frouxo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eterno",
+        "sentence": "O teu túmulo Devera ser o seio destas serras, Quando, em Génesis novo, à voz do Eterno, Do orbe ao núcleo fervente, que as gerara,",
+        "start_char": 5417,
+        "end_char": 5423,
+        "excerpt": "Afagava-te o raio derradeiro, Frouxo do Sul ao mergulhar nos mares. E esperavas o túmulo. O teu túmulo Devera ser o seio destas serras, Quando, em Génesis novo, à voz do Eterno, Do orbe ao núcleo fervente, que as gerara,",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "voz",
+                "child": "Eterno",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "eterno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Eterno",
+                "child": "voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "eterno",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Eterno",
+                "child": "Génesis",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "eterno",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Génesis",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho soldado",
+        "sentence": "Então para essa campa flores, bênçãos, Ou é saudade lágrimas vertidas, Qual do velho soldado a lousa pede, Não pediras à ingrata raça humana, Ao pé de ti no seu sudário envolta.",
+        "start_char": 5586,
+        "end_char": 5599,
+        "excerpt": "O teu túmulo Devera ser o seio destas serras, Quando, em Génesis novo, à voz do Eterno, Do orbe ao núcleo fervente, que as gerara, Elas nus fauces dos bolcões descessem. Então para essa campa flores, bênçãos, Ou é saudade lágrimas vertidas, Qual do velho soldado a lousa pede, Não pediras à ingrata raça humana, Ao pé de ti no seu sudário envolta.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "start_char": 6058,
+        "end_char": 6062,
+        "excerpt": "Acaso, à noite, Quando a procela no pinhal rugia, Criam ouvir-te a voz acusadora Sobreelevar à voz da tempestade? Que lhes dizias tu? De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "maldita",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "malditar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "falavas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "falava",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "do seu Cristo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "divino",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "divino",
+                "categories": [
+                    "aparencia_carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "falavas",
+                "child": "Deus",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "falava",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do seu Cristo",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "divino",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "divino",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "aparencia_carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "start_char": 6081,
+        "end_char": 6087,
+        "excerpt": "Acaso, à noite, Quando a procela no pinhal rugia, Criam ouvir-te a voz acusadora Sobreelevar à voz da tempestade? Que lhes dizias tu? De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "do seu Cristo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do seu Cristo",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "divino mártir",
+        "sentence": "De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "start_char": 6092,
+        "end_char": 6105,
+        "excerpt": "Acaso, à noite, Quando a procela no pinhal rugia, Criam ouvir-te a voz acusadora Sobreelevar à voz da tempestade? Que lhes dizias tu? De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "servo",
+        "sentence": "Ergueu, purificou, clamando ao servo, No seu transe:",
+        "start_char": 6181,
+        "end_char": 6186,
+        "excerpt": "Que lhes dizias tu? De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita Ergueu, purificou, clamando ao servo, No seu transe:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "clamando",
+                "child": "servo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "clamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "servo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "servo",
+                "child": "maldita",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "servo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "maldita",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "escravo",
+        "sentence": "Ergue-te, escravo!",
+        "start_char": 6213,
+        "end_char": 6220,
+        "excerpt": "De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita Ergueu, purificou, clamando ao servo, No seu transe: Ergue-te, escravo!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ergue-te",
+                "child": "escravo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Ergue-te",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu Pai",
+        "sentence": "Ela vil e tu vil, santos, sublimes Sereis ante meu Pai.",
+        "start_char": 6310,
+        "end_char": 6317,
+        "excerpt": "Ergue-te, escravo! És livre, como é pura a cruz da infâmia. Ela vil e tu vil, santos, sublimes Sereis ante meu Pai.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sereis",
+                "child": "meu Pai",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Sereis",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pai",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Pai",
+                "child": "Sereis",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pai",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Sereis",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "escravo",
+        "sentence": "Ergue-te, escravo!",
+        "start_char": 6213,
+        "end_char": 6220,
+        "excerpt": "De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita Ergueu, purificou, clamando ao servo, No seu transe: Ergue-te, escravo!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ergue-te",
+                "child": "escravo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Ergue-te",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tua irmã",
+        "sentence": "Abraça tua irmã: segue-a sem susto",
+        "start_char": 6345,
+        "end_char": 6353,
+        "excerpt": "Ela vil e tu vil, santos, sublimes Sereis ante meu Pai. Ergue-te, escravo! Abraça tua irmã: segue-a sem susto",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "teus irmãos",
+        "sentence": "Eis porque teus irmãos te arrojam pedras, Ao perpassar,",
+        "start_char": 6486,
+        "end_char": 6497,
+        "excerpt": "No caminho dos séculos. Da Terra Pertence-lhe o porvir, e o seu triunfo Trará da tua liberdade o dia. Eis porque teus irmãos te arrojam pedras, Ao perpassar,",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cruz",
+        "sentence": "ó cruz!",
+        "start_char": 6533,
+        "end_char": 6537,
+        "excerpt": "Da Terra Pertence-lhe o porvir, e o seu triunfo Trará da tua liberdade o dia. Eis porque teus irmãos te arrojam pedras, Ao perpassar, ó cruz!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pedras",
+                "child": "ó cruz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pedra",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ó cruz",
+                "child": "pedras",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pedra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Recontando do Gólgota, lembrando-lhes Que só ao Cristo a liberdade devem, E que ímpio o povo ser é ser infame.",
+        "start_char": 6643,
+        "end_char": 6649,
+        "excerpt": "ó cruz! Pensam ouvir-te Nos rumores da noite, a antiga história Recontando do Gólgota, lembrando-lhes Que só ao Cristo a liberdade devem, E que ímpio o povo ser é ser infame.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "só ao Cristo",
+                "child": "lembrando-lhes",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "lembrando-lhes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "só ao Cristo",
+                "child": "infame",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "infame",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os humanos",
+        "sentence": "Hão-de os humanos",
+        "start_char": 6805,
+        "end_char": 6815,
+        "excerpt": "Recontando do Gólgota, lembrando-lhes Que só ao Cristo a liberdade devem, E que ímpio o povo ser é ser infame. Mutilado por ele, a pouco e pouco, Tu em fragmentos tombarás do cerro, Símbolo sacrossanto. Hão-de os humanos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Hão-de",
+                "child": "os humanos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Hão-de",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "humano",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Do Cristo o nome passará na Terra.",
+        "start_char": 7006,
+        "end_char": 7012,
+        "excerpt": "Da gratidão a dívida não paga Ficará, ó tremenda acusadora, Sem que as faces lhes tinja a cor do pejo; Sem que o remorso os corações lhes rasgue. Do Cristo o nome passará na Terra.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passará",
+                "child": "Cristo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Dela no pedestal, então deserto, Do deserto no seio, ainda o poeta Virá, talvez, ao pôr do Sol sentar-se;",
+        "start_char": 7317,
+        "end_char": 7324,
+        "excerpt": "Não! Foi o homem do povo, a quem consolo Na miséria e na dor constante hás sido Por bem dezoito séculos: foi esse Por cujo amor surgias qual remorso Nos sonhos do abastado ou do tirano. Bradando  esmola! a um; piedade! ao outro. Ó cruz, se desde o Gólgota não foras Símbolo eterno de urna crença eterna; Se a nossa fé em ti fosse mentida, Dos opressos de outrora os livres netos Por sua ingratidão dignos de opróbio, Se não te amassem, ainda assim seriam. Mas és núncia do Céu, e eles te insultam, Esquecidos das lágrimas perenes Por trinta gerações, que guarda a campa. Vertidas a teus pés nos dias torvos Do seu viver d'escravidão! Deslembram-se De que. se a paz doméstica, a pureza Do leito conjugal bruta violência Não vai contaminar, se a filha virgem Do humilde camponês não é ludíbrio Do opulento, do nobre, ó Cruz. to devem; Que por ti o cultor de férteis campos Colhe tranquilo da fadiga o prémio, Sem que a voz de um senhor, qual dantes, dura Lhe diga: É meu, e és meu! A mim deleites, Liberdade, abundância: a ti, escravo, O trabalho. a miséria unido à terra, Que o suor dessa fronte fertiliza, Enquanto, em dia de furor ou tédio, Não me apraz com teus restos fecundá-la. Quando calada a humanidade ouvia Este atroz blasfemar, tu te elevaste Lá do Oriente, ó Cruz, envolta em glória, E bradaste, tremenda, ao forte, ao rico: Mentira!, e o servo alevantou os olhos, Onde a esperança cintilava, a medo, E viu as faces do senhor retintas Em palidez mortal, e errar-lhe a vista Trépida, vaga. A cruz no céu do Oriente Da liberdade anunciara a vinda. Cansado, o ancião guerreiro, que a existência Desgastou no volver de cem combates, Ao ver que, enfim, o seu país querido Já não ousam calcar os pés d'estranhos, Vem assentar-se à luz meiga da tarde, Na tarde do viver, junto do teixo Da montanha natal. Na fronte calva, Que o sol tostou e que enrugaram anos, Há um como fulgor sereno e santo. Da aldeia semideus, devem-lhe todos D tecto, a liberdade, e a honra e vida. Ao perpassar do veterano, os velhos A mão que os protegeu apertam gratos; Com amorosa timidez os moços Saúdam-no qual pai. Nus largas noites Da gelada estação, sobre a lareira Nunca lhe falta o cepo incendiado; Sobre a mesa frugal nunca, no estio, Refrigerante pomo. Assim do velho Pelejador os derradeiros dias Derivam paru o túmulo suaves, Rodeados de afecto, e quando à terra A mão do tempo gastador o guia, Sobre a lousa a saudade ainda lhe esparze Flores, lágrimas, bênçãos, que consolem Do defensor do fraco as cinzas frias. Pobre cruz! Pelejaste mil combates, Os gigantes combates dos tiranos, E venceste. No solo libertado, Que pediste? Um retiro no deserto, Um píncaro granítico, açoutado Pelas asas do vento e enegrecido Por chuvas e por sóis. Para ameigar-te Este ar húmido e gélido a segure Não foi ferir do bosque o rei. Do Estio No ardor canicular nunca disseste: Dai-me, sequer, do bravo medronheiro O desprezado fruto! O teu vestido Era o musgo, que tece a mão do Inverno E Deus criou para trajar as rochas. Filha do céu, o céu era o seu tecto, Teu escabelo o dorso da montanha. Tempo houve em que esses braços te adornava C'roa viçosa de gentis boninas, E o pedestal te rodeavam preces. Ficaste em breve só, e a voz humana Fez, pouco a pouco, junto a ti silêncio. Que te importava? As árvores da encosta Curvavam-se a saudar-te, e revoando As aves vinham circundar-te de hinos. Afagava-te o raio derradeiro, Frouxo do Sul ao mergulhar nos mares. E esperavas o túmulo. O teu túmulo Devera ser o seio destas serras, Quando, em Génesis novo, à voz do Eterno, Do orbe ao núcleo fervente, que as gerara, Elas nus fauces dos bolcões descessem. Então para essa campa flores, bênçãos, Ou é saudade lágrimas vertidas, Qual do velho soldado a lousa pede, Não pediras à ingrata raça humana, Ao pé de ti no seu sudário envolta. * Este longo esperar do dia extremo, No esquecimento do ermo abandonada, Foi duro de sofrer aos teus remidos, Ó redentora cruz. Eras, acaso, Como um remorso e acusação perene No teu rochedo alpestre, onde te viam Pousar tristonha e só? Acaso, à noite, Quando a procela no pinhal rugia, Criam ouvir-te a voz acusadora Sobreelevar à voz da tempestade? Que lhes dizias tu? De Deus falavas, E do seu Cristo, do divino mártir, Que a ti, suplício e afronta, a ti maldita Ergueu, purificou, clamando ao servo, No seu transe: Ergue-te, escravo! És livre, como é pura a cruz da infâmia. Ela vil e tu vil, santos, sublimes Sereis ante meu Pai. Ergue-te, escravo! Abraça tua irmã: segue-a sem susto No caminho dos séculos. Da Terra Pertence-lhe o porvir, e o seu triunfo Trará da tua liberdade o dia. Eis porque teus irmãos te arrojam pedras, Ao perpassar, ó cruz! Pensam ouvir-te Nos rumores da noite, a antiga história Recontando do Gólgota, lembrando-lhes Que só ao Cristo a liberdade devem, E que ímpio o povo ser é ser infame. Mutilado por ele, a pouco e pouco, Tu em fragmentos tombarás do cerro, Símbolo sacrossanto. Hão-de os humanos Aos pés pisar-te; e esquecerás no mundo. Da gratidão a dívida não paga Ficará, ó tremenda acusadora, Sem que as faces lhes tinja a cor do pejo; Sem que o remorso os corações lhes rasgue. Do Cristo o nome passará na Terra. * Não! Quando, em pó desfeita, a cruz divina Deixar de ser perene testemunha Da avita crença, os montes, a espessura, O mar, a Lua, o murmurar da fonte, Da natureza as vagas harmonias, Da cruz em nome, falarão do Verbo. Dela no pedestal, então deserto, Do deserto no seio, ainda o poeta Virá, talvez, ao pôr do Sol sentar-se;",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte",
+                    "fronte"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "faces",
+                    "face",
+                    "face"
+                ],
+                "occurrences_n": 4
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 3
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pés",
+                    "pés",
+                    "pé",
+                    "pé",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 7
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "Pele",
+                    "Pele"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sentar-se",
+                "child": "ainda o poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cruz",
+        "sentence": "ó cruz, de além dos tempos Da brisa do crepúsculo nus asas?",
+        "start_char": 7514,
+        "end_char": 7518,
+        "excerpt": "Do cântico futuro unta toada Não sentes vir, ó cruz, de além dos tempos Da brisa do crepúsculo nus asas?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ó",
+                "child": "cruz",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Cruz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cruz",
+                "child": "ó",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruz",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cruz",
+                "child": "sentes",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruz",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "sente",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "poeta",
+        "sentence": "É a voz do poeta a saudar-te.",
+        "start_char": 7618,
+        "end_char": 7623,
+        "excerpt": "ó cruz, de além dos tempos Da brisa do crepúsculo nus asas? É o porvir que te proclama eterna; É a voz do poeta a saudar-te.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "É a voz",
+                "child": "poeta",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poeta",
+                "child": "É a voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o viandante",
+        "sentence": "Sobros, robles frondentes, Cuja sombra procura o viandante, Fugindo ao Sol a prumo que o devora, Nesses dias ardentes",
+        "start_char": 8063,
+        "end_char": 8074,
+        "excerpt": "Rochedo, que descansas No promontório nu e solitário, Como atalaia que o oceano explora, Alheio ás mil mudanças Que o mundo agitam turbulento e vário, Em ti minha alma a eterna cruz adora. Sobros, robles frondentes, Cuja sombra procura o viandante, Fugindo ao Sol a prumo que o devora, Nesses dias ardentes",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "procura",
+                "child": "o viandante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viandante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sol",
+                "child": "o viandante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viandante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prumo",
+                "child": "o viandante",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "prumo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viandante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Leão",
+        "sentence": "Em que o Leão nos céus passa radiante, Em ti minha alma a eterna cruz adora.",
+        "start_char": 8141,
+        "end_char": 8147,
+        "excerpt": "Que o mundo agitam turbulento e vário, Em ti minha alma a eterna cruz adora. Sobros, robles frondentes, Cuja sombra procura o viandante, Fugindo ao Sol a prumo que o devora, Nesses dias ardentes Em que o Leão nos céus passa radiante, Em ti minha alma a eterna cruz adora.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "passa",
+                "child": "que o Leão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que o Leão",
+                "child": "céus",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Leão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céus",
+                "child": "que o Leão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o servo ingrato",
+        "sentence": "Debalde o servo ingrato",
+        "start_char": 8757,
+        "end_char": 8772,
+        "excerpt": "Ó Lua silenciosa, Que em perpétuo volver. seguindo a Terra, Esparzes tua luz ameigadora Pela serra formosa, E pelos lagos que em seu seio encerra, Em ti minha alma a eterna cruz adora. Debalde o servo ingrato",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ven",
+        "sentence": "No pó te derribou E os restos te insultou, Ó veneranda cruz:",
+        "start_char": 8818,
+        "end_char": 8821,
+        "excerpt": "seguindo a Terra, Esparzes tua luz ameigadora Pela serra formosa, E pelos lagos que em seu seio encerra, Em ti minha alma a eterna cruz adora. Debalde o servo ingrato No pó te derribou E os restos te insultou, Ó veneranda cruz:",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "insultou",
+                "child": "veneranda",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "insultar",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "veneranda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "veneranda",
+                "child": "cruz",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "veneranda",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Cruz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cruz",
+                "child": "veneranda",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruz",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "veneranda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Nas almas generosas Gravou-te a mão de Deus, E, à noite, fez nos céus",
+        "start_char": 8957,
+        "end_char": 8961,
+        "excerpt": "És santa, és imortal; Tu és a minha luz! Nas almas generosas Gravou-te a mão de Deus, E, à noite, fez nos céus",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a mão",
+                "child": "Deus",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a mão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Gravou-te",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "acl",
+                "pos_c": "PROPN",
+                "lemma_c": "Gravou-te",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "almas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o guerreiro",
+        "sentence": "Ferido, abre-o guerreiro",
+        "start_char": 9189,
+        "end_char": 9200,
+        "excerpt": "As vagas cruza o mar. Os ramos enlaçados Do roble, choupo e til Cruzando em modos mil, Se vão entretecer. Ferido, abre-o guerreiro",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mãe",
+        "sentence": "A mãe o filho seu, Que busca, mal nasceu, Fontes da vida e amor.",
+        "start_char": 9293,
+        "end_char": 9298,
+        "excerpt": "Os braços, solta um ai, Pára, vacila, e cai Para não mais se erguer. Cruzado aperta ao seio A mãe o filho seu, Que busca, mal nasceu, Fontes da vida e amor.",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "nasceu",
+                "child": "A mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mãe",
+                "child": "o filho",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A mãe",
+                "child": "busca",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "buscar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filho",
+                "child": "A mãe",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "busca",
+                "child": "A mãe",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "buscar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

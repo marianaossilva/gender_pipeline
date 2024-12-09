@@ -1,0 +1,77 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Se depois de eu morrer Alberto Caeiro Se depois de eu morrer, quiserem escrever a minha biografia, Não há nada mais simples Tem só duas datas  a da minha nascença e a da minha morte.",
+        "start_char": 23,
+        "end_char": 37,
+        "excerpt": "Se depois de eu morrer Alberto Caeiro Se depois de eu morrer, quiserem escrever a minha biografia, Não há nada mais simples Tem só duas datas  a da minha nascença e a da minha morte. Entre uma e outra cousa todos os dias são meus. Sou fácil de definir.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morrer",
+                "child": "Alberto Caeiro",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Natureza",
+        "sentence": "Além disso, fui o único poeta da Natureza.",
+        "start_char": 740,
+        "end_char": 748,
+        "excerpt": "Um dia deu-me o sono como a qualquer criança. Fechei os olhos e dormi. Além disso, fui o único poeta da Natureza.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "poeta",
+                "child": "Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Natureza",
+                "child": "poeta",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "natureza",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "A***Casimiro de Abreu Falo a ti - doce virgem dos meus sonhos, Visão dourada dum cismar tão puro, Que sorrias por noites de vigília",
+        "start_char": 4,
+        "end_char": 21,
+        "excerpt": "A***Casimiro de Abreu Falo a ti - doce virgem dos meus sonhos, Visão dourada dum cismar tão puro, Que sorrias por noites de vigília Entre as rosas gentis do meu futuro. Tu m'inspiraste, oh musa do silêncio, Mimosa flor da lânguida saudade!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mimosa",
+        "sentence": "Tu m'inspiraste, oh musa do silêncio, Mimosa flor da lânguida saudade!",
+        "start_char": 207,
+        "end_char": 213,
+        "excerpt": "A***Casimiro de Abreu Falo a ti - doce virgem dos meus sonhos, Visão dourada dum cismar tão puro, Que sorrias por noites de vigília Entre as rosas gentis do meu futuro. Tu m'inspiraste, oh musa do silêncio, Mimosa flor da lânguida saudade!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tu",
+                "child": ", Mimosa flor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Tu",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa flor",
+                "child": "saudade",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "saudade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Mimosa flor",
+                "child": "Tu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "saudade",
+                "child": ", Mimosa flor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "saudade",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marinheiro de amor",
+        "sentence": "Por ti eu me embarquei, cantando e rindo, - Marinheiro de amor - no batel curvo, Rasgando afouto em hinos d'esperança",
+        "start_char": 497,
+        "end_char": 515,
+        "excerpt": "Nos verdores febris da mocidade Tu vinhas pelas horas das tristezas Sobre o meu ombro debruçar-te a medo, A dizer-me baixinho mil cantigas, Como vozes sutis dalgum segredo! Por ti eu me embarquei, cantando e rindo, - Marinheiro de amor - no batel curvo, Rasgando afouto em hinos d'esperança",
+        "gender": "female",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "embarquei",
+                "child": "- Marinheiro de amor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "embarquei",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Marinheiro de amor",
+                "child": "- no batel",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "amor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "batel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- no batel",
+                "child": "- Marinheiro de amor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "batel",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O anjo - tutelar dos meus anelos",
+        "sentence": "Tu, que foste a vestal dos sonhos d'ouro, O anjo-tutelar dos meus anelos, Estende sobre mim as asas brancas.",
+        "start_char": 765,
+        "end_char": 797,
+        "excerpt": "Por ti corri sedento atrás da glória; Por ti queimei-me cedo em seus fulgores; Queria de harmonia encher-te a vida, Palmas na fronte - no regaço flores! Tu, que foste a vestal dos sonhos d'ouro, O anjo-tutelar dos meus anelos, Estende sobre mim as asas brancas.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Muito gelo, meu Deus, crestou-me as galas!",
+        "start_char": 928,
+        "end_char": 932,
+        "excerpt": "Tu, que foste a vestal dos sonhos d'ouro, O anjo-tutelar dos meus anelos, Estende sobre mim as asas brancas. Desenrola os anéis dos teus cabelos! Muito gelo, meu Deus, crestou-me as galas!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Muito gelo",
+                "child": "meu Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "gelo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": "Muito gelo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "gelo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Podes ler o meu livro: - adoro a infância, Deixo a esmola na enxerga do mendigo, Creio em Deus, amo a pátria, e em noites lindas Minh'alma - aberta em flor - sonha contigo.",
+        "start_char": 1314,
+        "end_char": 1318,
+        "excerpt": "- Guarda os cantos do louco sertanejo No leito virginal que tens no seio. Podes ler o meu livro: - adoro a infância, Deixo a esmola na enxerga do mendigo, Creio em Deus, amo a pátria, e em noites lindas Minh'alma - aberta em flor - sonha contigo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Creio",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "creiar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

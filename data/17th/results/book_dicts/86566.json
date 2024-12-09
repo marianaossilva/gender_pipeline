@@ -1,0 +1,98 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "fals",
+        "sentence": "Ai, fals'amigu'e sen lealdade",
+        "start_char": 4,
+        "end_char": 8,
+        "excerpt": "Ai, fals'amigu'e sen lealdade Dom Dinis Cancioneiro da Biblioteca Nacional 595, Cancioneiro da Vaticana 198 Ai, fals'amigu'e sen lealdade, ora vej'eu a gran falsidade con que mi vós ha gran temp'andastes, ca doutra sei eu ja por verdade, a que vós a tal pedra lançastes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ai",
+                "child": ", fals'amigu'e",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Ai",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "fals'amigu'e",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", fals'amigu'e",
+                "child": "Ai",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "fals'amigu'e",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ai",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a gran falsidade",
+                "child": "Ai",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "falsidade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ai",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Dom Dinis Cancioneiro da Biblioteca Nacional 595, Cancioneiro da Vaticana 198",
+        "start_char": 30,
+        "end_char": 39,
+        "excerpt": "Ai, fals'amigu'e sen lealdade Dom Dinis Cancioneiro da Biblioteca Nacional 595, Cancioneiro da Vaticana 198 Ai, fals'amigu'e sen lealdade, ora vej'eu a gran falsidade con que mi vós ha gran temp'andastes, ca doutra sei eu ja por verdade, a que vós a tal pedra lançastes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amigo",
+        "sentence": "Amigo fals'e muit'encoberto, ora vej'eu o gran maldeserto con que mi vos ha gran temp'andastes, ca doutra sei eu ja ben por certo, a que vós a tal pedra lançastes.",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "Dom Dinis Cancioneiro da Biblioteca Nacional 595, Cancioneiro da Vaticana 198 Ai, fals'amigu'e sen lealdade, ora vej'eu a gran falsidade con que mi vós ha gran temp'andastes, ca doutra sei eu ja por verdade, a que vós a tal pedra lançastes. Amigo fals'e muit'encoberto, ora vej'eu o gran maldeserto con que mi vos ha gran temp'andastes, ca doutra sei eu ja ben por certo, a que vós a tal pedra lançastes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "Amigo fals'e muit'encoberto, ora vej'eu o gran maldeserto con que mi vos ha gran temp'andastes, ca doutra",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amigo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fals '",
+        "sentence": "Ai, fals'amigu', eu non me temía do gran mal e da sabedoría con que mi vós ha gran temp'andastes, ca doutra sei eu que o ben sabía, a que vós a tal pedra lançastes.",
+        "start_char": 434,
+        "end_char": 440,
+        "excerpt": "Ai, fals'amigu'e sen lealdade, ora vej'eu a gran falsidade con que mi vós ha gran temp'andastes, ca doutra sei eu ja por verdade, a que vós a tal pedra lançastes. Amigo fals'e muit'encoberto, ora vej'eu o gran maldeserto con que mi vos ha gran temp'andastes, ca doutra sei eu ja ben por certo, a que vós a tal pedra lançastes. Ai, fals'amigu', eu non me temía do gran mal e da sabedoría con que mi vós ha gran temp'andastes, ca doutra sei eu que o ben sabía, a que vós a tal pedra lançastes.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

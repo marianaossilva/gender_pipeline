@@ -1,0 +1,454 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Mãe penitente",
+        "sentence": "Mãe penitente Castro Alves \"Ouve-me, pois!",
+        "start_char": 0,
+        "end_char": 13,
+        "excerpt": "Mãe penitente Castro Alves \"Ouve-me, pois! ... Eu fui uma perdida;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "Mãe penitente Castro Alves \"Ouve-me, pois!",
+        "start_char": 14,
+        "end_char": 26,
+        "excerpt": "Mãe penitente Castro Alves \"Ouve-me, pois! ... Eu fui uma perdida;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mãe",
+                "child": "Castro Alves \"",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro Alves \"",
+                "child": "Mãe",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro Alves \"",
+                "child": "Ouve-me",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ouve-me",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filho",
+        "sentence": "Eu seria talvez por ti maldita, Filho!",
+        "start_char": 301,
+        "end_char": 306,
+        "excerpt": "Por esse crime é que hoje perco a vida, Mas dele em breve há de salvar-me a morte! \"E minh'alma, bem vês, que não se irrita, Antes bendiz estes mandões ferozes. Eu seria talvez por ti maldita, Filho!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "maldita",
+                "child": "Filho",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "maldita",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Filho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filho",
+                "child": "maldita",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Filho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "maldita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Borboleta",
+        "sentence": "Porque eu pequei... e do pecado escuro Tu foste o fruto cândido, inocente,  Borboleta, que sai do  lodo impuro...",
+        "start_char": 413,
+        "end_char": 422,
+        "excerpt": "sem o batismo dos algozes! \" Porque eu pequei... e do pecado escuro Tu foste o fruto cândido, inocente,  Borboleta, que sai do  lodo impuro...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o fruto",
+                "child": ",  Borboleta",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "fruto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Borboleta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ",  Borboleta",
+                "child": "o fruto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Borboleta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fruto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "Rosa, que sai de  pútrida semente!",
+        "start_char": 451,
+        "end_char": 455,
+        "excerpt": "\"Ouve-me, pois! ... Eu fui uma perdida; Foi este o meu destino, a minha sorte... Por esse crime é que hoje perco a vida, Mas dele em breve há de salvar-me a morte! \"E minh'alma, bem vês, que não se irrita, Antes bendiz estes mandões ferozes. Eu seria talvez por ti maldita, Filho! sem o batismo dos algozes! \" Porque eu pequei... e do pecado escuro Tu foste o fruto cândido, inocente,  Borboleta, que sai do  lodo impuro... Rosa, que sai de  pútrida semente!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "semente",
+                "child": "Rosa",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "semente",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filho",
+        "sentence": "\"Filho!",
+        "start_char": 487,
+        "end_char": 492,
+        "excerpt": "Porque eu pequei... e do pecado escuro Tu foste o fruto cândido, inocente,  Borboleta, que sai do  lodo impuro... Rosa, que sai de  pútrida semente! \"Filho!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tua mãe",
+        "sentence": "\"Por isso agora tua mãe te implora E a teus pés de joelhos se debruça.",
+        "start_char": 652,
+        "end_char": 659,
+        "excerpt": "Do teu berço escrevi nos brancos vimes O nome de bastardo  impuro nome. \"Por isso agora tua mãe te implora E a teus pés de joelhos se debruça.",
+        "gender": "male",
+        "pch_occurrences": {
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho",
+                    "joelhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "agora tua mãe",
+                "child": "implora",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "implora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "triste",
+        "sentence": "Perdoa à triste  que de angústia chora, Perdoa à mártir  que de dor soluça!",
+        "start_char": 716,
+        "end_char": 722,
+        "excerpt": "O nome de bastardo  impuro nome. \"Por isso agora tua mãe te implora E a teus pés de joelhos se debruça. Perdoa à triste  que de angústia chora, Perdoa à mártir  que de dor soluça!",
+        "gender": "female",
+        "pch_occurrences": {
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho",
+                    "joelhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Perdoa",
+                "child": "triste",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "perdoa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "triste",
+                "child": "angústia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "triste",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "angústia",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "triste",
+                "child": "Perdoa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "triste",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perdoa",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "angústia",
+                "child": "triste",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "angústia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mártir",
+        "sentence": "Perdoa à triste  que de angústia chora, Perdoa à mártir  que de dor soluça!",
+        "start_char": 756,
+        "end_char": 762,
+        "excerpt": "O nome de bastardo  impuro nome. \"Por isso agora tua mãe te implora E a teus pés de joelhos se debruça. Perdoa à triste  que de angústia chora, Perdoa à mártir  que de dor soluça!",
+        "gender": "male",
+        "pch_occurrences": {
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho",
+                    "joelhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus, é o pranto seu que me perdoa...",
+        "start_char": 865,
+        "end_char": 869,
+        "excerpt": "Mas um gemido a meus ouvidos soa... Que pranto é este que em meu seio rola? Meu Deus, é o pranto seu que me perdoa...",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Meu Deus, é o pranto seu",
+                "child": "perdoa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pranto",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdoa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perdoa",
+                "child": "Meu Deus, é o pranto seu",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Perdoa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pranto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filho",
+        "sentence": "Filho, obrigada pela tua esmola!",
+        "start_char": 903,
+        "end_char": 908,
+        "excerpt": "Que pranto é este que em meu seio rola? Meu Deus, é o pranto seu que me perdoa... Filho, obrigada pela tua esmola!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "esmola",
+                "child": "Filho",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Esmola",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Vós mi defendestes, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 502, Cancioneiro da Vaticana 85",
+        "start_char": 27,
+        "end_char": 36,
+        "excerpt": "Vós mi defendestes, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 502, Cancioneiro da Vaticana 85 Vós mi defendestes, senhor, que nunca vos dissesse rem de quanto mal mi por vós vem; mais fazede-me sabedor, por Deus, senhor, a quem direi quam muito mal levei por vós, se nom a vós, senhor?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", senhor",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 502",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 502",
+                "child": ", senhor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Vós mi defendestes, senhor, que nunca vos dissesse rem de quanto mal mi por vós vem;",
+        "start_char": 124,
+        "end_char": 130,
+        "excerpt": "Vós mi defendestes, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 502, Cancioneiro da Vaticana 85 Vós mi defendestes, senhor, que nunca vos dissesse rem de quanto mal mi por vós vem; mais fazede-me sabedor, por Deus, senhor, a quem direi quam muito mal levei por vós, se nom a vós, senhor?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vós",
+                "child": ", senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vós",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 502",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 502",
+                "child": ", senhor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "mais fazede-me sabedor, por Deus, senhor, a quem direi quam muito mal levei por vós, se nom a vós, senhor?",
+        "start_char": 217,
+        "end_char": 221,
+        "excerpt": "Vós mi defendestes, senhor Dom Dinis Cancioneiro da Biblioteca Nacional 502, Cancioneiro da Vaticana 85 Vós mi defendestes, senhor, que nunca vos dissesse rem de quanto mal mi por vós vem; mais fazede-me sabedor, por Deus, senhor, a quem direi quam muito mal levei por vós, se nom a vós, senhor?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E por em, se Deus vos perdom, coita deste meu coraçom, a quem direi o meu pesar?",
+        "start_char": 601,
+        "end_char": 605,
+        "excerpt": "Ou a quem direi o pesar que mi vós fazedes sofrer se o a vós nom for dizer, que podedes conselh'i dar? E por em, se Deus vos perdom, coita deste meu coraçom, a quem direi o meu pesar?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "vos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "vos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "perdom",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "perdom",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perdom",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "perdom",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

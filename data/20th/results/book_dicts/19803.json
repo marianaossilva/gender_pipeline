@@ -1,0 +1,271 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "O PASTOR AMOROSO Alberto Caeiro Fernando Pessoa",
+        "start_char": 17,
+        "end_char": 31,
+        "excerpt": "O PASTOR AMOROSO Alberto Caeiro Fernando Pessoa Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em maio de 2006. Manteve-se a ortografia vigente em Portugal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernando Pessoa",
+        "sentence": "O PASTOR AMOROSO Alberto Caeiro Fernando Pessoa",
+        "start_char": 32,
+        "end_char": 47,
+        "excerpt": "O PASTOR AMOROSO Alberto Caeiro Fernando Pessoa Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em maio de 2006. Manteve-se a ortografia vigente em Portugal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eduardo Lopes de Oliveira e Silva",
+        "sentence": "Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em maio de 2006.",
+        "start_char": 76,
+        "end_char": 109,
+        "excerpt": "O PASTOR AMOROSO Alberto Caeiro Fernando Pessoa Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em maio de 2006. Manteve-se a ortografia vigente em Portugal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "digitado",
+                "child": "Eduardo Lopes de Oliveira e Silva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "digitar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Eduardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pastor amoroso",
+        "sentence": "O pastor amoroso perdeu o cajado 11 3 I",
+        "start_char": 478,
+        "end_char": 494,
+        "excerpt": "9 Talvez quem vê bem não sirva para sentir 10 O pastor amoroso perdeu o cajado 11 3 I",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Quando eu não te tinha Amava a Natureza como um monge calmo a Cristo...",
+        "start_char": 580,
+        "end_char": 586,
+        "excerpt": "Talvez quem vê bem não sirva para sentir 10 O pastor amoroso perdeu o cajado 11 3 I Quando eu não te tinha Amava a Natureza como um monge calmo a Cristo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um monge",
+                "child": "Cristo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "monge",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cristo",
+                "child": "um monge",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "monge",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Virgem Maria",
+        "sentence": "Como um monge calmo à Virgem Maria, Religiosamente, a meu modo, como dantes, Mas de outra maneira mais comovida e próxima.",
+        "start_char": 633,
+        "end_char": 645,
+        "excerpt": "Quando eu não te tinha Amava a Natureza como um monge calmo a Cristo... Agora amo a Natureza Como um monge calmo à Virgem Maria, Religiosamente, a meu modo, como dantes, Mas de outra maneira mais comovida e próxima.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um monge",
+                "child": "Virgem Maria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "monge",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Virgem Maria",
+                "child": "um monge",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgem",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "monge",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Natureza",
+        "sentence": "Trouxeste-me a Natureza para ao pé de mim.",
+        "start_char": 948,
+        "end_char": 958,
+        "excerpt": "Tu não me tiraste a Natureza... Tu não me mudaste a Natureza... Trouxeste-me a Natureza para ao pé de mim.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tiraste",
+                "child": "a Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tiraste",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mudaste",
+                "child": "a Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mudastir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Trouxeste-me",
+                "child": "a Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Trouxeste-me",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Já não sei andar só pelos caminhos, Porque já não posso andar só.",
+        "start_char": 2658,
+        "end_char": 2661,
+        "excerpt": "7 V O amor é uma companhia. Já não sei andar só pelos caminhos, Porque já não posso andar só.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Amei, e não fui amado, o que só vi no fim, Porque não se é amado como se nasce mas como acontece.",
+        "start_char": 4187,
+        "end_char": 4190,
+        "excerpt": "É preciso ter modos para todas as cousas, E cada cousa tem o seu modo, e o amor também. Quem tem o modo de ver os campos pelas ervas Não deve ter a cegueira que faz fazer sentir. Amei, e não fui amado, o que só vi no fim, Porque não se é amado como se nasce mas como acontece.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pastor amoroso",
+        "sentence": "O pastor amoroso perdeu o cajado, E as ovelhas tresmalharam-se pela encosta, E, de tanto pensar, nem tocou a flauta que trouxe para tocar.",
+        "start_char": 4916,
+        "end_char": 4932,
+        "excerpt": "Sorri, e os dentes são limpos como pedras do rio. 10 VIII O pastor amoroso perdeu o cajado, E as ovelhas tresmalharam-se pela encosta, E, de tanto pensar, nem tocou a flauta que trouxe para tocar.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dente",
+                    "dentes"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cajado",
+        "sentence": "Nunca mais encontrou o cajado.",
+        "start_char": 5115,
+        "end_char": 5123,
+        "excerpt": "O pastor amoroso perdeu o cajado, E as ovelhas tresmalharam-se pela encosta, E, de tanto pensar, nem tocou a flauta que trouxe para tocar. Ninguém lhe apareceu ou desapareceu... Nunca mais encontrou o cajado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perdeu",
+                "child": "o cajado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cajado",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "encontrou",
+                "child": "o cajado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cajado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

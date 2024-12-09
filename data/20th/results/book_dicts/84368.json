@@ -1,0 +1,112 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Membro Monstruoso Bocage",
+        "sentence": "Soneto do Membro Monstruoso Bocage",
+        "start_char": 10,
+        "end_char": 34,
+        "excerpt": "Soneto do Membro Monstruoso Bocage Esse disforme, e rígido porraz Do semblante me faz perder a cor;",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Membro Monstruoso Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Membro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Membro Monstruoso Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Membro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esse membro",
+        "sentence": "Esse membro é capaz até de pôr A amotinada Europa toda em paz",
+        "start_char": 234,
+        "end_char": 245,
+        "excerpt": "Dar mais de cinco passos para trás; A espada do membrudo Ferrabraz Decerto não metia mais horror: Esse membro é capaz até de pôr A amotinada Europa toda em paz",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Esse membro",
+                "child": "capaz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "membro",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "capaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vénus",
+        "sentence": "De Vénus não desfrutas o prazer:",
+        "start_char": 401,
+        "end_char": 406,
+        "excerpt": "Creio que nas fodais recreações Não te hão-de a rija máquina sofre Os mais corridos, sórdidos cações: De Vénus não desfrutas o prazer:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vénus",
+                "child": "desfrutas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vénus",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "desfruta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Vénus",
+                "child": "corridos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vénus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "corrido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

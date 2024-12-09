@@ -1,0 +1,182 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Clar",
+        "sentence": "Ao Clarão da Lua Auta de Souza A Meu Irmão Eloy",
+        "start_char": 3,
+        "end_char": 7,
+        "excerpt": "Ao Clarão da Lua Auta de Souza A Meu Irmão Eloy O LÍRIO Lá nas alturas, modesta e loura, - Do Céu imenso na face nua - A lua branca todo o Azul doura... A NUVEM Ah!",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Clarão",
+                "child": "Lua",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Clarão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "lua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lua",
+                "child": "Clarão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "lua",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Clarão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "oso",
+        "sentence": "Será na cela piedoso monge?",
+        "start_char": 717,
+        "end_char": 720,
+        "excerpt": "quem me dera ser o perfume! O POETA Terno instrumento suspira ao longe Numa cadência melodiosa... Será na cela piedoso monge?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Será na cela",
+                "child": "piedoso",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cela",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "piedoso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garrulo",
+        "sentence": "O sonho vive dentro em meu seio, Garrulo e meigo, doce e risonho, Cheio de luzes, de aurora cheio...",
+        "start_char": 823,
+        "end_char": 830,
+        "excerpt": "Ah! quem me dera ser uma rosa! A NOITE O sonho vive dentro em meu seio, Garrulo e meigo, doce e risonho, Cheio de luzes, de aurora cheio...",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "meu seio",
+                "child": ", Garrulo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garrulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Garrulo",
+                "child": "meu seio",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Garrulo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As aves",
+        "sentence": "As aves já vêm cantando,",
+        "start_char": 966,
+        "end_char": 973,
+        "excerpt": "quem me dera ser como o Sonho! A MADRUGADA (ao longe) Ouvem? As aves já vêm cantando,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vêm",
+                "child": "As aves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As estrelinhas",
+        "sentence": "As estrelinhas tomam seu véu...",
+        "start_char": 991,
+        "end_char": 1005,
+        "excerpt": "A MADRUGADA (ao longe) Ouvem? As aves já vêm cantando, As estrelinhas tomam seu véu...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tomam",
+                "child": "As estrelinhas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "estrelinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

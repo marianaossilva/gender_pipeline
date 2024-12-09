@@ -1,0 +1,670 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Comadre Morte",
+        "sentence": "Comadre Morte",
+        "start_char": 0,
+        "end_char": 13,
+        "excerpt": "Comadre Morte Adolfo Coelho Havia um homem que tinha tantos filhos, tantos que não havia ninguém na freguesia que não fosse compadre dele e vai a mulher teve mais um filho. Que havia do homem fazer?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adolfo Coelho",
+        "sentence": "Adolfo Coelho Havia um homem que tinha tantos filhos, tantos que não havia ninguém na freguesia que não fosse compadre dele e vai a mulher teve mais um filho.",
+        "start_char": 14,
+        "end_char": 27,
+        "excerpt": "Comadre Morte Adolfo Coelho Havia um homem que tinha tantos filhos, tantos que não havia ninguém na freguesia que não fosse compadre dele e vai a mulher teve mais um filho. Que havia do homem fazer?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "compadre",
+        "sentence": "Foi por esses caminhos fora a ver se encontrava alguém que convidasse para compadre.",
+        "start_char": 274,
+        "end_char": 282,
+        "excerpt": "Adolfo Coelho Havia um homem que tinha tantos filhos, tantos que não havia ninguém na freguesia que não fosse compadre dele e vai a mulher teve mais um filho. Que havia do homem fazer? Foi por esses caminhos fora a ver se encontrava alguém que convidasse para compadre.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "freguesia",
+                "child": "compadre",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "freguesia",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "compadre",
+                "child": "freguesia",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "compadre",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "freguesia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "convidasse",
+                "child": "compadre",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "convidar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "compadre",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um pobrezito",
+        "sentence": "Encontrou um pobrezito e perguntou-lhe se queria ser compadre dele.",
+        "start_char": 294,
+        "end_char": 306,
+        "excerpt": "Que havia do homem fazer? Foi por esses caminhos fora a ver se encontrava alguém que convidasse para compadre. Encontrou um pobrezito e perguntou-lhe se queria ser compadre dele.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Encontrou",
+                "child": "um pobrezito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pobrezito",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padrinho do meu filho",
+        "sentence": "o que eu quero é alguém para padrinho do meu filho.",
+        "start_char": 425,
+        "end_char": 446,
+        "excerpt": "Quero; mas tu sabes quem eu sou? Eu sei lá; o que eu quero é alguém para padrinho do meu filho.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pois, olha, eu cá sou Deus.",
+        "start_char": 470,
+        "end_char": 474,
+        "excerpt": "Eu sei lá; o que eu quero é alguém para padrinho do meu filho. Pois, olha, eu cá sou Deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "olha",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma pobre",
+        "sentence": "Foi mais adiante; e encontrou uma pobre e perguntou-lhe se queria ser comadre dele.  Quero; mas sabes tu quem eu sou?",
+        "start_char": 576,
+        "end_char": 585,
+        "excerpt": "Pois, olha, eu cá sou Deus. Já me não serves; porque tu dás a riqueza a uns e a pobreza a outros. Foi mais adiante; e encontrou uma pobre e perguntou-lhe se queria ser comadre dele.  Quero; mas sabes tu quem eu sou?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "comadre dele",
+        "sentence": "Foi mais adiante; e encontrou uma pobre e perguntou-lhe se queria ser comadre dele.  Quero; mas sabes tu quem eu sou?",
+        "start_char": 616,
+        "end_char": 628,
+        "excerpt": "Pois, olha, eu cá sou Deus. Já me não serves; porque tu dás a riqueza a uns e a pobreza a outros. Foi mais adiante; e encontrou uma pobre e perguntou-lhe se queria ser comadre dele.  Quero; mas sabes tu quem eu sou?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "comadre",
+        "sentence": "Fez-se o baptizado e depois disse a Morte ao homem:  Já que tu me escolheste para comadre, quero-te fazer rico.",
+        "start_char": 840,
+        "end_char": 847,
+        "excerpt": "Pois, olha, eu cá sou a Morte. És tu que me serves, porque tratas a todos por igual. Fez-se o baptizado e depois disse a Morte ao homem:  Já que tu me escolheste para comadre, quero-te fazer rico.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escolheste",
+                "child": "comadre",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "escolheste",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "comadre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o doente",
+        "sentence": "tu entras e se vires que eu estou à cabeceira é sinal que o doente não escapa e escusas de lhe dar remédio; mas se estiver aos pés é porque escapa;",
+        "start_char": 986,
+        "end_char": 994,
+        "excerpt": "Fez-se o baptizado e depois disse a Morte ao homem:  Já que tu me escolheste para comadre, quero-te fazer rico. Tu fazes de médico e vais por essas terras curar doentes; tu entras e se vires que eu estou à cabeceira é sinal que o doente não escapa e escusas de lhe dar remédio; mas se estiver aos pés é porque escapa;",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "escapa",
+                "child": "o doente",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "escapar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o doente",
+                "child": "sinal",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "doente",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "sinal",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O homem ia às casas e se via a comadre à cabeceira dos doentes abanava as orelhas; mas se ela estava aos pés receitava o que lhe parecia.",
+        "start_char": 1182,
+        "end_char": 1189,
+        "excerpt": "mas livra-te de querer curar aqueles a que eu estiver à cabeceira, porque te dou cabo da pele. Assim foi. O homem ia às casas e se via a comadre à cabeceira dos doentes abanava as orelhas; mas se ela estava aos pés receitava o que lhe parecia.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ia",
+                "child": "O homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a comadre",
+        "sentence": "O homem ia às casas e se via a comadre à cabeceira dos doentes abanava as orelhas; mas se ela estava aos pés receitava o que lhe parecia.",
+        "start_char": 1211,
+        "end_char": 1220,
+        "excerpt": "mas livra-te de querer curar aqueles a que eu estiver à cabeceira, porque te dou cabo da pele. Assim foi. O homem ia às casas e se via a comadre à cabeceira dos doentes abanava as orelhas; mas se ela estava aos pés receitava o que lhe parecia.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "pele": {
+                "syns": [
+                    "peles",
+                    "cútis"
+                ],
+                "occurrences": [
+                    "pele"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doente muito rico",
+        "sentence": "Mas vai uma vez foi a casa dum doente muito rico e a Morte estava à cabeceira; abanou as orelhas;",
+        "start_char": 1434,
+        "end_char": 1451,
+        "excerpt": "O homem ia às casas e se via a comadre à cabeceira dos doentes abanava as orelhas; mas se ela estava aos pés receitava o que lhe parecia. Vejam lá se ele não havia de ganhar fama e patacaria, que era uma coisa por maior! Mas vai uma vez foi a casa dum doente muito rico e a Morte estava à cabeceira; abanou as orelhas;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelha",
+                    "orelhas",
+                    "orelhas"
+                ],
+                "occurrences_n": 4
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "no doente",
+        "sentence": "disseram-lhe que lhe davam tantos contos de réis se o livrasse da Morte e ele disse:  Deixa estar que eu te arranjo, e pega no doente e muda-o com a cabeça para onde estavam os pés e ele escapa.",
+        "start_char": 1625,
+        "end_char": 1634,
+        "excerpt": "Vejam lá se ele não havia de ganhar fama e patacaria, que era uma coisa por maior! Mas vai uma vez foi a casa dum doente muito rico e a Morte estava à cabeceira; abanou as orelhas; disseram-lhe que lhe davam tantos contos de réis se o livrasse da Morte e ele disse:  Deixa estar que eu te arranjo, e pega no doente e muda-o com a cabeça para onde estavam os pés e ele escapa.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a comadre",
+        "sentence": "Quando ia para casa sai-lhe a comadre ao caminho:",
+        "start_char": 1724,
+        "end_char": 1733,
+        "excerpt": "Mas vai uma vez foi a casa dum doente muito rico e a Morte estava à cabeceira; abanou as orelhas; disseram-lhe que lhe davam tantos contos de réis se o livrasse da Morte e ele disse:  Deixa estar que eu te arranjo, e pega no doente e muda-o com a cabeça para onde estavam os pés e ele escapa. Quando ia para casa sai-lhe a comadre ao caminho:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um padre - nosso",
+        "sentence": "Pois, então, deixa-me rezar um padre-nosso antes de morrer.",
+        "start_char": 1796,
+        "end_char": 1812,
+        "excerpt": "Quando ia para casa sai-lhe a comadre ao caminho: Venho buscar-te por aquela traição que me fizeste. Pois, então, deixa-me rezar um padre-nosso antes de morrer.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "Não rezou nada e a Morte para não faltar à palavra foi-se sem ele.",
+        "start_char": 1912,
+        "end_char": 1919,
+        "excerpt": "Pois reza. Mas ele rezar; qual rezou! Não rezou nada e a Morte para não faltar à palavra foi-se sem ele.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rezou",
+                "child": "a Morte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rezar",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "palavra",
+                "child": "a Morte",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma.",
+        "start_char": 1969,
+        "end_char": 1976,
+        "excerpt": "Mas ele rezar; qual rezou! Não rezou nada e a Morte para não faltar à palavra foi-se sem ele. Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "encontra",
+                "child": "o homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a comadre",
+        "sentence": "Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma.",
+        "start_char": 1986,
+        "end_char": 1995,
+        "excerpt": "Mas ele rezar; qual rezou! Não rezou nada e a Morte para não faltar à palavra foi-se sem ele. Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "Depois de acabar, a Morte levantou-se e disse:",
+        "start_char": 2198,
+        "end_char": 2205,
+        "excerpt": "Não rezou nada e a Morte para não faltar à palavra foi-se sem ele. Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma. Depois de acabar, a Morte levantou-se e disse:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rezou",
+                "child": "a Morte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rezar",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "palavra",
+                "child": "a Morte",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "levantou-se",
+                "child": "a Morte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padre - nosso",
+        "sentence": "Pois já que rezaste o padre-nosso, vem comigo.",
+        "start_char": 2226,
+        "end_char": 2241,
+        "excerpt": "Um dia o homem encontra a comadre que estava por morta num caminho; e ele lembrou-se do bem que ela lhe tinha feito e disse:  Minha rica comadrinha, que estás aqui morta; deixa-me rezar-te um padre-nosso por tua alma. Depois de acabar, a Morte levantou-se e disse: Pois já que rezaste o padre-nosso, vem comigo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O homem era esperto; mas a Morte ainda era mais; pois não era?",
+        "start_char": 2274,
+        "end_char": 2281,
+        "excerpt": "Depois de acabar, a Morte levantou-se e disse: Pois já que rezaste o padre-nosso, vem comigo. O homem era esperto; mas a Morte ainda era mais; pois não era?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O homem",
+                "child": "esperto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "esperto",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "O homem era esperto; mas a Morte ainda era mais; pois não era?",
+        "start_char": 2299,
+        "end_char": 2306,
+        "excerpt": "Depois de acabar, a Morte levantou-se e disse: Pois já que rezaste o padre-nosso, vem comigo. O homem era esperto; mas a Morte ainda era mais; pois não era?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "a Morte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,1068 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 10,
+        "end_char": 23,
+        "excerpt": "PEQUETITA Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Bandeira",
+        "sentence": "Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "start_char": 29,
+        "end_char": 39,
+        "excerpt": "PEQUETITA Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Bandeira",
+                "child": "positivista",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bandeira",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "positivista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "start_char": 77,
+        "end_char": 88,
+        "excerpt": "PEQUETITA Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": ", o Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Coriolano",
+                "child": "sobrinho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "sobrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sobrinho",
+                "child": ", o Coriolano",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "sobrinho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bandeira",
+                "child": ", o Coriolano",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Bandeira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bandeira",
+        "sentence": "Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "start_char": 31,
+        "end_char": 39,
+        "excerpt": "PEQUETITA Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Bandeira",
+                "child": "positivista",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bandeira",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "positivista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sobrinho",
+                "child": "Bandeira",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "sobrinho",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Bandeira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bandeira",
+                "child": "sobrinho",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Bandeira",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "sobrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bandeira",
+                "child": ", o Coriolano",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Bandeira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequetita",
+        "sentence": "Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "start_char": 152,
+        "end_char": 161,
+        "excerpt": "PEQUETITA Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacinasse",
+                "child": "a Pequetita",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isaura",
+        "sentence": "Quando D. Isaura, sua esposa, lhe falou nisso, foi como se lhe propusesse uma vergonha.",
+        "start_char": 175,
+        "end_char": 185,
+        "excerpt": "Artur Azevedo Como o Bandeira é positivista e não admite a vacina, o Coriolano, que é sobrinho do Bandeira e dirigido por ele, não quis que a Pequetita se vacinasse. Quando D. Isaura, sua esposa, lhe falou nisso, foi como se lhe propusesse uma vergonha.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Pequetita",
+        "sentence": "Vacinar a Pequetita?",
+        "start_char": 339,
+        "end_char": 350,
+        "excerpt": "Quando D. Isaura, sua esposa, lhe falou nisso, foi como se lhe propusesse uma vergonha. - Pois tu conheces as minhas idéias e me propões semelhante coisa? Vacinar a Pequetita?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vacinar",
+                "child": "a Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o tio Bandeira",
+        "sentence": "Que diria o tio Bandeira?",
+        "start_char": 362,
+        "end_char": 376,
+        "excerpt": "- Pois tu conheces as minhas idéias e me propões semelhante coisa? Vacinar a Pequetita? Que diria o tio Bandeira?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isaura",
+        "sentence": "D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido:",
+        "start_char": 377,
+        "end_char": 387,
+        "excerpt": "Vacinar a Pequetita? Que diria o tio Bandeira? D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequetita",
+        "sentence": "Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "start_char": 526,
+        "end_char": 535,
+        "excerpt": "D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido: submetia- se resignadamente a quanto ele dizia. Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacinaria",
+                "child": "Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinariar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vacinada",
+                "child": "a Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "start_char": 559,
+        "end_char": 570,
+        "excerpt": "D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido: submetia- se resignadamente a quanto ele dizia. Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Coriolano",
+                "child": "opinião",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "opinião",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "opinião",
+                "child": "o Coriolano",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequetita",
+        "sentence": "Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "start_char": 526,
+        "end_char": 535,
+        "excerpt": "D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido: submetia- se resignadamente a quanto ele dizia. Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacinaria",
+                "child": "Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinariar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vacinada",
+                "child": "a Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia.",
+        "start_char": 687,
+        "end_char": 698,
+        "excerpt": "Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada. Ora aí está. Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Coriolano",
+                "child": "opinião",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "opinião",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "opinião",
+                "child": "o Coriolano",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morava",
+                "child": "o Coriolano",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Coriolano",
+                "child": ", e o bairro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bairro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Coriolano",
+                "child": "varíola",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "varíola",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre - diabo",
+        "sentence": "O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita.",
+        "start_char": 738,
+        "end_char": 753,
+        "excerpt": "Ora aí está. Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequetita",
+        "sentence": "O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita.",
+        "start_char": 854,
+        "end_char": 863,
+        "excerpt": "Ora aí está. Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorte",
+                "child": "Pequetita",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sorte",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pequetita",
+                "child": "sorte",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pequetita",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sorte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o tio Bandeira",
+        "sentence": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "start_char": 879,
+        "end_char": 893,
+        "excerpt": "Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "start_char": 916,
+        "end_char": 927,
+        "excerpt": "Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "o Coriolano",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Coriolano",
+                "child": ", e o bairro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bairro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Coriolano",
+                "child": "varíola",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coriolano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "varíola",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deu-lhe",
+                "child": "o Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o positivista",
+        "sentence": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "start_char": 985,
+        "end_char": 998,
+        "excerpt": "Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o positivista",
+                "child": "inflexível",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "positivista",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "inflexível",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teixeira Mendes",
+        "sentence": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "start_char": 1149,
+        "end_char": 1164,
+        "excerpt": "Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "e nem o Teixeira Mendes",
+                "child": "capaz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Teixeira",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "capaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu tio",
+        "sentence": "- Bom, não se zangue, meu tio: já cá não está quem falou...",
+        "start_char": 1245,
+        "end_char": 1252,
+        "excerpt": "O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!... - Bom, não se zangue, meu tio: já cá não está quem falou...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "zangue",
+                "child": "meu tio",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "zanguir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios.",
+        "start_char": 1333,
+        "end_char": 1344,
+        "excerpt": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!... - Bom, não se zangue, meu tio: já cá não está quem falou... Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deu-lhe",
+                "child": "o Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aumentava",
+                "child": ", e o Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aumentar",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isaura",
+        "sentence": "Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios.",
+        "start_char": 1282,
+        "end_char": 1292,
+        "excerpt": "Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!... - Bom, não se zangue, meu tio: já cá não está quem falou... Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o tio Bandeira",
+        "sentence": "- Se não fosse o tio Bandeira.",
+        "start_char": 1462,
+        "end_char": 1476,
+        "excerpt": "- Bom, não se zangue, meu tio: já cá não está quem falou... Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios. - Se não fosse o tio Bandeira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Pequetita",
+        "sentence": "- Mandarias vacinar a Pequetita?",
+        "start_char": 1498,
+        "end_char": 1509,
+        "excerpt": "Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios. - Se não fosse o tio Bandeira. - Mandarias vacinar a Pequetita?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacinar",
+                "child": "a Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o diabo",
+        "sentence": "- o diabo!",
+        "start_char": 1665,
+        "end_char": 1672,
+        "excerpt": "- Entretanto, não te aconselho a que o faças sem lhe dizer francamente que tomaste essa resolução... Se lhe mentisses, ele não te perdoaria! - o diabo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Pequetita",
+        "sentence": "Se a Pequetita.. .",
+        "start_char": 1677,
+        "end_char": 1688,
+        "excerpt": "Se lhe mentisses, ele não te perdoaria! - o diabo! Se a Pequetita.. .",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Bandeira",
+        "sentence": "- Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina!",
+        "start_char": 1777,
+        "end_char": 1789,
+        "excerpt": "nem disso me quero lembrar! Eu teria remorso toda a vida!. - Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a menina",
+        "sentence": "- Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina!",
+        "start_char": 1847,
+        "end_char": 1855,
+        "excerpt": "nem disso me quero lembrar! Eu teria remorso toda a vida!. - Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacinar",
+                "child": "a menina",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "menina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a menina",
+                "child": "toda a ombridade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "menina",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ombridade",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Coriolano",
+        "sentence": "O Coriolano foi à casa do tio Bandeira, e voltou amargurado, com lágrimas nos olhos e na voz.",
+        "start_char": 1948,
+        "end_char": 1959,
+        "excerpt": "- Pois tu conheces as minhas idéias e me propões semelhante coisa? Vacinar a Pequetita? Que diria o tio Bandeira? D. Isaura, que tinha muito bom senso, não costumava contrariar a vontade do marido: submetia- se resignadamente a quanto ele dizia. Por seu gosto a Pequetita se vacinaria; mas como o Coriolano era de opinião contrária, a Pequetita não seria vacinada. Ora aí está. Mas veio a varíola, e o bairro em que morava o Coriolano foi o mais experimentado pela epidemia. O pobre-diabo via, aterrorizado, passarem todos os dias enterros de crianças da vizinhança, e tremia pela sorte da Pequetita. Um dia em que o tio Bandeira lhe apareceu em casa, o Coriolano deu-lhe uma pequena investida em favor da vacinação, mas o positivista foi inflexível: lançou-lhe um olhar severo, pegou no chapéu e na bengala e disse: - Se você me torna a falar em vacina, saio por aquela porta e nem o Teixeira Mendes será capaz de fazer com que eu aqui ponha mais os pés!... - Bom, não se zangue, meu tio: já cá não está quem falou... Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios. - Se não fosse o tio Bandeira. - Mandarias vacinar a Pequetita? - É exato. - Entretanto, não te aconselho a que o faças sem lhe dizer francamente que tomaste essa resolução... Se lhe mentisses, ele não te perdoaria! - o diabo! Se a Pequetita.. . Oh! nem disso me quero lembrar! Eu teria remorso toda a vida!. - Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina! Não és nenhuma criança nem nenhum idiota que se deixe governar pelos outros! - Tens razão. O Coriolano foi à casa do tio Bandeira, e voltou amargurado, com lágrimas nos olhos e na voz.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "O Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isaura",
+        "sentence": "- perguntou D. Isaura.",
+        "start_char": 2069,
+        "end_char": 2079,
+        "excerpt": "O Coriolano foi à casa do tio Bandeira, e voltou amargurado, com lágrimas nos olhos e na voz. - Então?... falaste-lhe?... - perguntou D. Isaura.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "do Bandeira",
+        "sentence": "Pobre do Bandeira!",
+        "start_char": 2250,
+        "end_char": 2261,
+        "excerpt": "Foi atacado anteontem e hoje ao meio-dia era cadáver! E eu sem saber de nada! Pobre do Bandeira!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Coriolano",
+        "sentence": "E o Coriolano desatou em pranto.",
+        "start_char": 2269,
+        "end_char": 2280,
+        "excerpt": "Pobre do Bandeira! ... E o Coriolano desatou em pranto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desatou",
+                "child": "o Coriolano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desatar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "coriolano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isaura",
+        "sentence": "Quando serenou, disse a D. Isaura: -",
+        "start_char": 2299,
+        "end_char": 2309,
+        "excerpt": "... - Bom, não se zangue, meu tio: já cá não está quem falou... Entretanto, a epidemia aumentava cada vez mais, e o Coriolano, que andava inquieto e sobressaltado, um dia apanhou D. Isaura a jeito e fez-lhe ver os seus receios. - Se não fosse o tio Bandeira. - Mandarias vacinar a Pequetita? - É exato. - Entretanto, não te aconselho a que o faças sem lhe dizer francamente que tomaste essa resolução... Se lhe mentisses, ele não te perdoaria! - o diabo! Se a Pequetita.. . Oh! nem disso me quero lembrar! Eu teria remorso toda a vida!. - Pois vai à casa do tio Bandeira, e dize-lhe com toda a ombridade que vais mandar vacinar a menina! Não és nenhuma criança nem nenhum idiota que se deixe governar pelos outros! - Tens razão. O Coriolano foi à casa do tio Bandeira, e voltou amargurado, com lágrimas nos olhos e na voz. - Então?... falaste-lhe?... - perguntou D. Isaura. - Não.- Por quê? - Encontrei-o morto! - Morto?!- De varíola hemorrágica! Foi atacado anteontem e hoje ao meio-dia era cadáver! E eu sem saber de nada! Pobre do Bandeira! ... E o Coriolano desatou em pranto. Quando serenou, disse a D. Isaura: -",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pequetita",
+        "sentence": "hoje mesmo, ser for possível, vacina-se a Pequetita.",
+        "start_char": 2401,
+        "end_char": 2410,
+        "excerpt": "Quando serenou, disse a D. Isaura: - Amanhã, pela manhã... hoje mesmo, ser for possível, vacina-se a Pequetita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vacina-se",
+                "child": "a Pequetita",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "vacinar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Pequetita",
+                "child": "possível",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pequetita",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "possível",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Pequetita",
+        "sentence": "- Porque a Pequetita há dois meses que está vacinada.",
+        "start_char": 2449,
+        "end_char": 2460,
+        "excerpt": "- Não é preciso. - Por quê? - Porque a Pequetita há dois meses que está vacinada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "a Pequetita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pequetita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se fiz mal, Deus me perdoará porque fui levada pelo meu instinto de mãe.",
+        "start_char": 2614,
+        "end_char": 2618,
+        "excerpt": "- Para quê? Para te zangares? Se fiz mal, Deus me perdoará porque fui levada pelo meu instinto de mãe.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perdoará",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perdoar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

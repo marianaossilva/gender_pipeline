@@ -1,0 +1,77 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Seus bons irmãos seráficos de barro",
+        "sentence": "Seus bons irmãos seráficos de barro:",
+        "start_char": 148,
+        "end_char": 183,
+        "excerpt": "Esquentado frisão, brutal masmarro Girava em Santarém na pobre feira; Eis que divisa ao longe em couva ceira Seus bons irmãos seráficos de barro:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O bruto",
+        "sentence": "O bruto, que arremeda um boi de carro",
+        "start_char": 185,
+        "end_char": 192,
+        "excerpt": "Eis que divisa ao longe em couva ceira Seus bons irmãos seráficos de barro: O bruto, que arremeda um boi de carro",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um boi",
+                "child": "O bruto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "boi",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bruto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "carro",
+                "child": "O bruto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "carro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bruto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Povos",
+        "sentence": "Mas vós enchei-vos de íntimo alvoroço, Povos, que do burel sofreis a guerra:",
+        "start_char": 412,
+        "end_char": 417,
+        "excerpt": "Na carranca feroz, parte à carreira, Os sagrados bonecos escaqueira, E arranca de ufania um longo escarro: N'alma o santo furor lhe arqueja, e berra; Mas vós enchei-vos de íntimo alvoroço, Povos, que do burel sofreis a guerra:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Povos",
+                "child": "enchei-vos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Povos",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "enchei-vos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

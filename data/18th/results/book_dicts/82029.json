@@ -1,0 +1,71 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "MALES",
+        "sentence": "MALES",
+        "start_char": 22,
+        "end_char": 27,
+        "excerpt": "NÃO POSSO CONTAR MEUS MALES",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frei Caneca",
+        "sentence": "Frei Caneca",
+        "start_char": 28,
+        "end_char": 39,
+        "excerpt": "CONTAR MEUS MALES Frei Caneca",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cocyto",
+        "sentence": "Tudo que sinto me atesta Que os do Cocyto ainda excedo;",
+        "start_char": 549,
+        "end_char": 555,
+        "excerpt": "Porque nos montes, nos vales, Em deserto, ou povoado, Não posso soltar um brado, Não posso contar meus males. Horrenda sorte, e funesta, Escasso fado mofino, Até me roubas, malino, O alívio que me resta! Tudo que sinto me atesta Que os do Cocyto ainda excedo;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Porque não tendo eles medo De contra Deus blasfemar, Não posso de mim falar;",
+        "start_char": 607,
+        "end_char": 611,
+        "excerpt": "Horrenda sorte, e funesta, Escasso fado mofino, Até me roubas, malino, O alívio que me resta! Tudo que sinto me atesta Que os do Cocyto ainda excedo; Porque não tendo eles medo De contra Deus blasfemar, Não posso de mim falar;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contra Deus",
+                "child": "blasfemar",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "blasfemar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "blasfemar",
+                "child": "contra Deus",
+                "dep_h": "advcl",
+                "pos_h": "PROPN",
+                "lemma_h": "blasfemar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,1738 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "QUE MATA Artur Azevedo (CONTO MEIO PLAGIADO E MEIO ORIGINAL)",
+        "start_char": 15,
+        "end_char": 28,
+        "excerpt": "MORTA QUE MATA Artur Azevedo (CONTO MEIO PLAGIADO E MEIO ORIGINAL) Um dia em que o Barreto, acabado o expediente, palestrava com alguns dos seus colegas de repartição, queixou-se da mesquinhez dos ordenados.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Barreto",
+        "sentence": "Um dia em que o Barreto, acabado o expediente, palestrava com alguns dos seus colegas de repartição, queixou-se da mesquinhez dos ordenados.",
+        "start_char": 81,
+        "end_char": 90,
+        "excerpt": "MORTA QUE MATA Artur Azevedo (CONTO MEIO PLAGIADO E MEIO ORIGINAL) Um dia em que o Barreto, acabado o expediente, palestrava com alguns dos seus colegas de repartição, queixou-se da mesquinhez dos ordenados.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acabado",
+                "child": "o Barreto",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Barreto",
+                "child": "Um dia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Barreto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus colegas de repartição",
+        "sentence": "Um dia em que o Barreto, acabado o expediente, palestrava com alguns dos seus colegas de repartição, queixou-se da mesquinhez dos ordenados.",
+        "start_char": 140,
+        "end_char": 166,
+        "excerpt": "MORTA QUE MATA Artur Azevedo (CONTO MEIO PLAGIADO E MEIO ORIGINAL) Um dia em que o Barreto, acabado o expediente, palestrava com alguns dos seus colegas de repartição, queixou-se da mesquinhez dos ordenados.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um dos colegas",
+        "sentence": "Acudiu um dos colegas, com um sorriso impertinente.",
+        "start_char": 238,
+        "end_char": 252,
+        "excerpt": "- Ora! Tu nada sofres! Acudiu um dos colegas, com um sorriso impertinente.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rico",
+        "sentence": "- Rico, eu?!",
+        "start_char": 339,
+        "end_char": 343,
+        "excerpt": "Por quê?!. - Porque és rico! - Rico, eu?!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Porque és",
+                "child": "Rico",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "és",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Rico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rico",
+                "child": "- Porque és",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Rico",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "és",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Barreto",
+        "sentence": "O Barreto soltou uma gargalhada.",
+        "start_char": 442,
+        "end_char": 451,
+        "excerpt": "- Naturalmente. Se não fosses rico, tua mulher não poderia andar coberta de brilhantes! O Barreto soltou uma gargalhada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "- Ah, meu amigo, os brilhantes de minha mulher são falsos, são baratinhos, não valem nada! - Não parece.",
+        "start_char": 509,
+        "end_char": 521,
+        "excerpt": "Se não fosses rico, tua mulher não poderia andar coberta de brilhantes! O Barreto soltou uma gargalhada. - Ah, meu amigo, os brilhantes de minha mulher são falsos, são baratinhos, não valem nada! - Não parece.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os brilhantes",
+                "child": "minha mulher",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "brilhante",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "carater",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "os brilhantes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "brilhante",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "falsos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "falso",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mulher",
+        "sentence": "Minha mulher é de uma economia feroz, e tudo quanto economiza emprega em toilettes e jóias...",
+        "start_char": 603,
+        "end_char": 615,
+        "excerpt": "- Ah, meu amigo, os brilhantes de minha mulher são falsos, são baratinhos, não valem nada! - Não parece. - Não parece, mas são. Minha mulher é de uma economia feroz, e tudo quanto economiza emprega em toilettes e jóias...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Minha mulher",
+                "child": "economia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "economia",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "economia",
+                "child": "Minha mulher",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "economia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Judas",
+        "sentence": "Falsas, falsas como Judas...",
+        "start_char": 736,
+        "end_char": 741,
+        "excerpt": "mas que jóias! ... Falsas, falsas como Judas...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Judas",
+                "child": "falsas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Judas",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "falso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Judas",
+                "child": "Falsas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Judas",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "falsa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!...",
+        "start_char": 992,
+        "end_char": 1000,
+        "excerpt": "Falsas, falsas como Judas... Já lhe tenho dito um milhão de vezes que se deixe disso; que não use jóias uma vez que não pode usá-las verdadeiras; que ela somente a si mesma se ilude, tornando-se ridícula aos olhos do mundo; mas não há meio: aquilo é mania! Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!...",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa.",
+        "start_char": 1071,
+        "end_char": 1079,
+        "excerpt": "Já lhe tenho dito um milhão de vezes que se deixe disso; que não use jóias uma vez que não pode usá-las verdadeiras; que ela somente a si mesma se ilude, tornando-se ridícula aos olhos do mundo; mas não há meio: aquilo é mania! Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!... Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Realmente assim essa Francina",
+                "child": ", compradas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Francina",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "comprada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de vez",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um par",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "par",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bichas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bicha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "brilhantes",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "brilhante",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um colar",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "colar",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pérolas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pérola",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o mais deslumbrante efeito",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "efeito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jóias",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "jóia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teatro",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "teatro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", compradas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "comprada",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os vinténs",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vintém",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "despesas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "despesa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "copa",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "copa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Barreto",
+        "sentence": "Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "start_char": 1315,
+        "end_char": 1322,
+        "excerpt": "Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!... Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa. Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "entendia",
+                "child": "Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "barreto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Barreto",
+                "child": "pobretão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "barreto",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "pobretão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pobretão",
+                "child": "Barreto",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "pobretão",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "barreto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua mulher",
+        "sentence": "Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "start_char": 1411,
+        "end_char": 1421,
+        "excerpt": "Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!... Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa. Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sua mulher",
+                "child": "bonitas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "bonita",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "start_char": 1570,
+        "end_char": 1578,
+        "excerpt": "Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!... Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa. Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Realmente assim essa Francina",
+                "child": ", compradas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Francina",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "comprada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de vez",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um par",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "par",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bichas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bicha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "brilhantes",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "brilhante",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um colar",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "colar",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pérolas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pérola",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o mais deslumbrante efeito",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "efeito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jóias",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "jóia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teatro",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "teatro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", compradas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "comprada",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os vinténs",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vintém",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "despesas",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "despesa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "copa",
+                "child": "Realmente assim essa Francina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "copa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "nas orelhas",
+                "child": "Francina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "orelha",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francina",
+                "child": "nas orelhas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Francina",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "orelha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francina",
+                "child": ", nos dedos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Francina",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francina",
+                "child": "braços",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Francina",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "braço",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "envergonhava-se",
+                        "child": "braços",
+                        "dep_h": "conj",
+                        "pos_h": "VERB",
+                        "lemma_h": "envergonhava-se",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": ", nos dedos",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "dedo"
+                    },
+                    {
+                        "head": ", nos dedos",
+                        "child": "braços",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "dedo",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "nas orelhas",
+                        "child": "braços",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "orelha",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "Francina",
+                        "child": "braços",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Francina",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Barreto",
+        "sentence": "O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina.",
+        "start_char": 1880,
+        "end_char": 1889,
+        "excerpt": "- Os que sabem que essas jóias são falsas, pensava ele, hão de me achar ridículo; os que as supõem verdadeiras poderão fazer de mim um juízo ainda mais desagradável. Toda a gente sabe quanto ganho: os meus vencimentos figuram na coleção de leis, na tabela anexa ao regulamento da minha repartição... O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensava",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "barreto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina.",
+        "start_char": 1964,
+        "end_char": 1972,
+        "excerpt": "- Os que sabem que essas jóias são falsas, pensava ele, hão de me achar ridículo; os que as supõem verdadeiras poderão fazer de mim um juízo ainda mais desagradável. Toda a gente sabe quanto ganho: os meus vencimentos figuram na coleção de leis, na tabela anexa ao regulamento da minha repartição... O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contrariasse",
+                "child": "Francina",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "contrariar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o fracalhão",
+        "sentence": "Um dia o fracalhão percebeu - com que alegria!",
+        "start_char": 1981,
+        "end_char": 1992,
+        "excerpt": "Toda a gente sabe quanto ganho: os meus vencimentos figuram na coleção de leis, na tabela anexa ao regulamento da minha repartição... O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina. Um dia o fracalhão percebeu - com que alegria!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "percebeu",
+                "child": "o fracalhão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perceber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fracalhão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua mulher",
+        "sentence": "Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa.",
+        "start_char": 2230,
+        "end_char": 2240,
+        "excerpt": "- que ela estava no seu estado interessante. Eram casados havia oito anos e só agora se lembrava o céu de abençoar a sua união, mandando-lhes um filho! Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "sua mulher",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia.",
+        "start_char": 2384,
+        "end_char": 2392,
+        "excerpt": "Eram casados havia oito anos e só agora se lembrava o céu de abençoar a sua união, mandando-lhes um filho! Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa. Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "Francina",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Barreto",
+        "sentence": "O Barreto sentiu tanto, tanto, que quase morreu também.",
+        "start_char": 2414,
+        "end_char": 2423,
+        "excerpt": "Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa. Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia. O Barreto sentiu tanto, tanto, que quase morreu também.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Barreto",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "joalheiros",
+        "sentence": "Havia um mês que era viúvo quando um dia lhe apareceu em casa um homem que ele não conhecia, e se deu a conhecer como um dos joalheiros mais conhecidos da capital.",
+        "start_char": 2595,
+        "end_char": 2605,
+        "excerpt": "Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia. O Barreto sentiu tanto, tanto, que quase morreu também. Havia um mês que era viúvo quando um dia lhe apareceu em casa um homem que ele não conhecia, e se deu a conhecer como um dos joalheiros mais conhecidos da capital.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "joalheiros",
+                "child": "viúvo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "joalheiro",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "joalheiros",
+                "child": "um mês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "joalheiro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "capital",
+                "child": "joalheiros",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "capital",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "joalheiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Barreto",
+        "sentence": "O Barreto perguntou-lhe o motivo da sua visita.",
+        "start_char": 2634,
+        "end_char": 2643,
+        "excerpt": "O Barreto sentiu tanto, tanto, que quase morreu também. Havia um mês que era viúvo quando um dia lhe apareceu em casa um homem que ele não conhecia, e se deu a conhecer como um dos joalheiros mais conhecidos da capital. O Barreto perguntou-lhe o motivo da sua visita.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perguntou-lhe",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A falecida",
+        "sentence": "A falecida sua senhora tinha jóias.",
+        "start_char": 2701,
+        "end_char": 2711,
+        "excerpt": "O Barreto perguntou-lhe o motivo da sua visita. - É muito simples. A falecida sua senhora tinha jóias.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "A falecida",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "falecida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A falecida",
+                "child": "sua senhora",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "falecida",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua senhora",
+                "child": "A falecida",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "falecida",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua senhora",
+        "sentence": "A falecida sua senhora tinha jóias.",
+        "start_char": 2712,
+        "end_char": 2723,
+        "excerpt": "O Barreto perguntou-lhe o motivo da sua visita. - É muito simples. A falecida sua senhora tinha jóias.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A falecida",
+                "child": "sua senhora",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "falecida",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua senhora",
+                "child": "A falecida",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "falecida",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "É natural que o senhor não precisando delas pretenda desfazer-se de algumas, senão de todas.",
+        "start_char": 2751,
+        "end_char": 2759,
+        "excerpt": "- É muito simples. A falecida sua senhora tinha jóias. É natural que o senhor não precisando delas pretenda desfazer-se de algumas, senão de todas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "precisando",
+                "child": "o senhor",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "precisar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "natural",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "natural",
+                "categories": [
+                    "social",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "- Mas, meu caro senhor, as jóias de minha mulher são falsas.",
+        "start_char": 2929,
+        "end_char": 2935,
+        "excerpt": "Venho pedir-lhe que me dê a preferência.- Preferência para quê? - Para comprá-las. - Mas, meu caro senhor, as jóias de minha mulher são falsas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", meu caro senhor",
+                "child": "falsas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "falso",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "- Mas, meu caro senhor, as jóias de minha mulher são falsas.",
+        "start_char": 2949,
+        "end_char": 2961,
+        "excerpt": "Venho pedir-lhe que me dê a preferência.- Preferência para quê? - Para comprá-las. - Mas, meu caro senhor, as jóias de minha mulher são falsas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as jóias",
+                "child": "minha mulher",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "jóia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "as jóias",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "jóia",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "falsas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "falso",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "E é a mim que o senhor diz isso, a mim que lhas vendi!",
+        "start_char": 3008,
+        "end_char": 3016,
+        "excerpt": "Falsas? Ora essa! E é a mim que o senhor diz isso, a mim que lhas vendi!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A sua senhora",
+        "sentence": "A sua senhora seria incapaz de pôr uma jóia falsa!",
+        "start_char": 3049,
+        "end_char": 3062,
+        "excerpt": "Ora essa! E é a mim que o senhor diz isso, a mim que lhas vendi! A sua senhora seria incapaz de pôr uma jóia falsa!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A sua senhora",
+                "child": "incapaz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "incapaz",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O senhor",
+        "sentence": "- O senhor engana-se!",
+        "start_char": 3102,
+        "end_char": 3110,
+        "excerpt": "E é a mim que o senhor diz isso, a mim que lhas vendi! A sua senhora seria incapaz de pôr uma jóia falsa! - O senhor engana-se!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "engana-se",
+                "child": "O senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "engana-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Barreto",
+        "sentence": "O Barreto ficou petrificado;",
+        "start_char": 3239,
+        "end_char": 3248,
+        "excerpt": "-se da mesquinhez dos ordenados. - Ora! Tu nada sofres! Acudiu um dos colegas, com um sorriso impertinente. - Nada sofro?! Ora esta! Por quê?!. - Porque és rico! - Rico, eu?! ... - Naturalmente. Se não fosses rico, tua mulher não poderia andar coberta de brilhantes! O Barreto soltou uma gargalhada. - Ah, meu amigo, os brilhantes de minha mulher são falsos, são baratinhos, não valem nada! - Não parece. - Não parece, mas são. Minha mulher é de uma economia feroz, e tudo quanto economiza emprega em toilettes e jóias... mas que jóias! ... Falsas, falsas como Judas... Já lhe tenho dito um milhão de vezes que se deixe disso; que não use jóias uma vez que não pode usá-las verdadeiras; que ela somente a si mesma se ilude, tornando-se ridícula aos olhos do mundo; mas não há meio: aquilo é mania! Tirem tudo, tudo à Francina, mas deixem-lhe as suas jóias de pechisbeque!... Realmente assim essa Francina, de vez em quando, mostrava ao marido um par de bichas de brilhantes ou um colar de pérolas, que produziam o mais deslumbrante efeito, mas não passavam de jóias de teatro, compradas com os vinténs que ela poupava nas despesas da copa. Barreto, que fora sempre um pobretão, nada entendia de pedras finas e por isso achava que as de sua mulher, apesar de falsas, eram bonitas; mas, no íntimo, ele envergonhava-se daquela fulgurante exibição no pescoço, nos braços, nos dedos e nas orelhas de Francina. - Os que sabem que essas jóias são falsas, pensava ele, hão de me achar ridículo; os que as supõem verdadeiras poderão fazer de mim um juízo ainda mais desagradável. Toda a gente sabe quanto ganho: os meus vencimentos figuram na coleção de leis, na tabela anexa ao regulamento da minha repartição... O Barreto pensava bem; mas a sua debilidade moral não permitia que ele contrariasse Francina. Um dia o fracalhão percebeu - com que alegria! - que ela estava no seu estado interessante. Eram casados havia oito anos e só agora se lembrava o céu de abençoar a sua união, mandando-lhes um filho! Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa. Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia. O Barreto sentiu tanto, tanto, que quase morreu também. Havia um mês que era viúvo quando um dia lhe apareceu em casa um homem que ele não conhecia, e se deu a conhecer como um dos joalheiros mais conhecidos da capital. O Barreto perguntou-lhe o motivo da sua visita. - É muito simples. A falecida sua senhora tinha jóias. É natural que o senhor não precisando delas pretenda desfazer-se de algumas, senão de todas. Venho pedir-lhe que me dê a preferência.- Preferência para quê? - Para comprá-las. - Mas, meu caro senhor, as jóias de minha mulher são falsas. - Falsas? Ora essa! E é a mim que o senhor diz isso, a mim que lhas vendi! A sua senhora seria incapaz de pôr uma jóia falsa! - O senhor engana-se! - Tanto não me engano, que lhe ofereço por essas jóias, se se conservam todas em seu poder, sessenta contos de réis! O Barreto ficou petrificado;",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "orelhas"
+                ],
+                "occurrences_n": 2
+            },
+            "pescoço": {
+                "syns": [
+                    "pescoços"
+                ],
+                "occurrences": [
+                    "pescoço"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensava",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "barreto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sentiu",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Barreto",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perguntou-lhe",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ficou",
+                "child": "O Barreto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Barreto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o joalheiro",
+        "sentence": "entretanto, disfarçou como pôde a comoção, e despediu o joalheiro, dizendo que o procuraria na loja.",
+        "start_char": 3322,
+        "end_char": 3333,
+        "excerpt": "Tanto não me engano, que lhe ofereço por essas jóias, se se conservam todas em seu poder, sessenta contos de réis! O Barreto ficou petrificado; entretanto, disfarçou como pôde a comoção, e despediu o joalheiro, dizendo que o procuraria na loja.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "despediu",
+                "child": "o joalheiro",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "despedir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "joalheiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

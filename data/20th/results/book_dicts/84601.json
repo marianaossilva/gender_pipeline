@@ -1,0 +1,86 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "O meu olhar é nítido como um girassol Alberto Caeiro",
+        "start_char": 38,
+        "end_char": 52,
+        "excerpt": "O meu olhar é nítido como um girassol Alberto Caeiro O meu olhar é nítido como um girassol, Tenho o costume de andar pelas estradas Olhando para a direita e a esquerda E de vez em quando olhando para trás...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um girassol",
+                "child": "Alberto Caeiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "girassol",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro",
+                "child": "um girassol",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "girassol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O mundo",
+        "sentence": "O mundo não se fez para pensarmos nele (Pensar é estar doente dos olhos)",
+        "start_char": 569,
+        "end_char": 576,
+        "excerpt": "Sinto-me nascido a cada momento Para a eterna novidade do Mundo Creio no mundo como um malmequer Porque o vejo, mas não penso nele Porque pensar é não compreender O mundo não se fez para pensarmos nele (Pensar é estar doente dos olhos)",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "O mundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mundo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Se falo na natureza não é porque a amo, amo-a por isso, Porque quem ama nunca sabe o que ama.",
+        "start_char": 791,
+        "end_char": 794,
+        "excerpt": "Mas para olharmos para ele e estarmos de acordo... Eu não tenho filosofia, tenho sentidos... Se falo na natureza não é porque a amo, amo-a por isso, Porque quem ama nunca sabe o que ama.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

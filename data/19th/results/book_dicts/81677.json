@@ -1,0 +1,220 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "A Onde Vai a Lágrima Auta de Souza",
+        "start_char": 21,
+        "end_char": 34,
+        "excerpt": "A Onde Vai a Lágrima Auta de Souza Na terra se chora tanto Que, se Deus guardasse o pranto Que o mundo inteiro derrama. Dos astros lá do infinito",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vai",
+                "child": "a Lágrima Auta de Souza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lágrima",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Na terra se chora tanto Que, se Deus guardasse o pranto Que o mundo inteiro derrama.",
+        "start_char": 67,
+        "end_char": 71,
+        "excerpt": "A Onde Vai a Lágrima Auta de Souza Na terra se chora tanto Que, se Deus guardasse o pranto Que o mundo inteiro derrama. Dos astros lá do infinito",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "guardasse",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "guardar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pobre",
+        "sentence": "O choro do pobre aflito Podia apagar a chama.",
+        "start_char": 157,
+        "end_char": 162,
+        "excerpt": "Na terra se chora tanto Que, se Deus guardasse o pranto Que o mundo inteiro derrama. Dos astros lá do infinito O choro do pobre aflito Podia apagar a chama.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aflito",
+                "child": "pobre",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "aflito",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "pobre",
+                "categories": [
+                    "emo",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas todo o pranto que desce Por nossa face, parece Que Deus o transforma em prece ...",
+        "start_char": 247,
+        "end_char": 251,
+        "excerpt": "Dos astros lá do infinito O choro do pobre aflito Podia apagar a chama. Mas todo o pranto que desce Por nossa face, parece Que Deus o transforma em prece ...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "transforma",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "transforma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "transforma",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "transforma",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Buscando o seio de Deus.",
+        "start_char": 378,
+        "end_char": 382,
+        "excerpt": "Mas todo o pranto que desce Por nossa face, parece Que Deus o transforma em prece ... E a prece, cheiroso incenso, Nas asas do vento imenso, Se perde no azul dos céus Buscando o seio de Deus.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "transforma",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "transforma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "transforma",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "transforma",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o seio",
+                "child": "Deus",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "o seio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

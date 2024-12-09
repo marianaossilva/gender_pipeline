@@ -1,0 +1,166 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "Prendi meus afetos, formosa Pepita.",
+        "start_char": 101,
+        "end_char": 107,
+        "excerpt": "O Laço de Fita Castro Alves Não sabes crianças? 'Stou louco de amores... Prendi meus afetos, formosa Pepita.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Pepita",
+                "child": "formosa",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "formosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pepita",
+                "child": "meus afetos",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "afeto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moça bonita",
+        "sentence": "Na selva sombria de tuas madeixas, Nos negros cabelos da moça bonita, Fingindo a serpente qu'enlaça a folhagem, Formoso enroscava-se",
+        "start_char": 249,
+        "end_char": 260,
+        "excerpt": "Não rias, prendi-me Num laço de fita. Na selva sombria de tuas madeixas, Nos negros cabelos da moça bonita, Fingindo a serpente qu'enlaça a folhagem, Formoso enroscava-se",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "madeixa",
+                    "cabelos",
+                    "cabelo",
+                    "madeixas"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus!",
+        "start_char": 642,
+        "end_char": 646,
+        "excerpt": "Debalde minh'alma se embate, se irrita... O braço, que rompe cadeias de ferro, Não quebra teus elos, Ó laço de fita! Meu Deus!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os astros",
+        "sentence": "As falenas têm asas de opala, Os astros se libram na plaga infinita.",
+        "start_char": 678,
+        "end_char": 687,
+        "excerpt": "O braço, que rompe cadeias de ferro, Não quebra teus elos, Ó laço de fita! Meu Deus! As falenas têm asas de opala, Os astros se libram na plaga infinita.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "libram",
+                "child": "Os astros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "libr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "astro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os anjos",
+        "sentence": "Os anjos repousam nas penas brilhantes...",
+        "start_char": 717,
+        "end_char": 725,
+        "excerpt": "Meu Deus! As falenas têm asas de opala, Os astros se libram na plaga infinita. Os anjos repousam nas penas brilhantes...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "repousam",
+                "child": "Os anjos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repousar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "formosa Pepita!",
+        "start_char": 1190,
+        "end_char": 1196,
+        "excerpt": "Pois bem! Quando um dia na sombra do vale Abrirem-me a cova... formosa Pepita!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

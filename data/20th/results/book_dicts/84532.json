@@ -1,0 +1,134 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "M . M . B . du Bocage",
+        "sentence": "Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \"",
+        "start_char": 34,
+        "end_char": 55,
+        "excerpt": "Soneto do Velho Escandaloso Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um músico velho chamado L. F.\" Tu, oh demente velho descarado, Escândalo do sexo masculino, Que por alta justiça do Destino Tens o impotente membro decepado:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A . M . do Couto",
+        "sentence": "Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \"",
+        "start_char": 34,
+        "end_char": 50,
+        "excerpt": "Soneto do Velho Escandaloso Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um músico velho chamado L. F.\" Tu, oh demente velho descarado, Escândalo do sexo masculino, Que por alta justiça do Destino Tens o impotente membro decepado:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "L . F .",
+        "sentence": "A um músico velho chamado L. F.\" Tu, oh demente velho descarado, Escândalo do sexo masculino, Que por alta justiça do Destino Tens o impotente membro decepado:",
+        "start_char": 171,
+        "end_char": 178,
+        "excerpt": "Soneto do Velho Escandaloso Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um músico velho chamado L. F.\" Tu, oh demente velho descarado, Escândalo do sexo masculino, Que por alta justiça do Destino Tens o impotente membro decepado:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lísia",
+        "sentence": "Em castigo do vício, que te arrasta, Saiba a ínclita Lísia, e todo o mundo Que és vil por gênio, que és cabrão, e basta.",
+        "start_char": 639,
+        "end_char": 644,
+        "excerpt": "Sofres d'ímpia paixão ardor maligno, E a consorte gentil, de que és indigno, Entregas a infrutífero castrado: Tu, que tendo bebido o méstruo imundo, Esse amor indiscreto te não gasta D'ímpia mulher o orgulho furibundo; Em castigo do vício, que te arrasta, Saiba a ínclita Lísia, e todo o mundo Que és vil por gênio, que és cabrão, e basta.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a ínclita",
+                "child": "Lísia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ínclita",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Lísia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lísia",
+                "child": "a ínclita",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Lísia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ínclita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lísia",
+                "child": "Saiba",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Lísia",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Saiba",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lísia",
+                "child": "castigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Lísia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "castigo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

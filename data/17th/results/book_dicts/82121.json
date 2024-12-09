@@ -1,0 +1,431 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Japona",
+        "sentence": "Japona, que da ladra andou na feira;",
+        "start_char": 185,
+        "end_char": 191,
+        "excerpt": "Outro Soneto ao França Bocage Rapada, amarelenta, cabeleira, Vesgos olhos, que o chá, e o doce engoda, Boca, que à parte esquerda se acomoda, (Uns afirmam que fede, outros que cheira): Japona, que da ladra andou na feira; Ferrugento faim, que já foi moda",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabeleira"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ladra",
+                "child": "Japona",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ladra",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Japona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "feira",
+                "child": "Japona",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "feira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Japona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ferrugento faim",
+        "sentence": "Ferrugento faim, que já foi moda",
+        "start_char": 222,
+        "end_char": 237,
+        "excerpt": "Outro Soneto ao França Bocage Rapada, amarelenta, cabeleira, Vesgos olhos, que o chá, e o doce engoda, Boca, que à parte esquerda se acomoda, (Uns afirmam que fede, outros que cheira): Japona, que da ladra andou na feira; Ferrugento faim, que já foi moda",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabeleira"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Albuquerque",
+        "sentence": "No tempo em que Albuquerque fez a poda",
+        "start_char": 271,
+        "end_char": 282,
+        "excerpt": "Japona, que da ladra andou na feira; Ferrugento faim, que já foi moda No tempo em que Albuquerque fez a poda",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Albuquerque",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Albuquerque",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Albuquerque",
+                "child": "tempo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Albuquerque",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hidalcão",
+        "sentence": "Ao soberbo Hidalcão com mão guerreira:",
+        "start_char": 305,
+        "end_char": 313,
+        "excerpt": "Ferrugento faim, que já foi moda No tempo em que Albuquerque fez a poda Ao soberbo Hidalcão com mão guerreira:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Hidalcão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "Hidalcão",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hidalcão",
+                "child": "soberbo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "Hidalcão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "soberbo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hidalcão",
+                "child": "tempo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "Hidalcão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jarra",
+        "sentence": "Ruço calção, que esporra no joelho Meia e sapato, com que ao lodo avança, Vindo a encontrar-se c'o esburgalhado artelho: Jarra, com apetites de criança;",
+        "start_char": 454,
+        "end_char": 459,
+        "excerpt": "No tempo em que Albuquerque fez a poda Ao soberbo Hidalcão com mão guerreira: Ruço calção, que esporra no joelho Meia e sapato, com que ao lodo avança, Vindo a encontrar-se c'o esburgalhado artelho: Jarra, com apetites de criança;",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "calção",
+                "child": "Jarra",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "calção",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jarra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jarra",
+                "child": ", com apetites",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jarra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "apetite",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jarra",
+                "child": "calção",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Jarra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "calção",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", com apetites",
+                "child": "Jarra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "apetite",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jarra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criança",
+                "child": "Jarra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Jarra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pindo",
+        "sentence": "Eis o bedel do Pindo, o doutor França.",
+        "start_char": 534,
+        "end_char": 539,
+        "excerpt": "Ruço calção, que esporra no joelho Meia e sapato, com que ao lodo avança, Vindo a encontrar-se c'o esburgalhado artelho: Jarra, com apetites de criança; Cara com semelhança de besbelho; Eis o bedel do Pindo, o doutor França.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "Cara"
+                ],
+                "occurrences_n": 1
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Eis o bedel",
+                "child": "Pindo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "bedel",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pindo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pindo",
+                "child": "Eis o bedel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pindo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bedel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor França",
+        "sentence": "Eis o bedel do Pindo, o doutor França.",
+        "start_char": 543,
+        "end_char": 556,
+        "excerpt": "Ruço calção, que esporra no joelho Meia e sapato, com que ao lodo avança, Vindo a encontrar-se c'o esburgalhado artelho: Jarra, com apetites de criança; Cara com semelhança de besbelho; Eis o bedel do Pindo, o doutor França.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "Cara"
+                ],
+                "occurrences_n": 1
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

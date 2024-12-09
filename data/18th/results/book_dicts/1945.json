@@ -1,0 +1,4425 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "O anel de Polícrates",
+        "start_char": 535,
+        "end_char": 545,
+        "excerpt": "Para maiores informações, escreva para  Estamos em busca de patrocinadores e voluntários para nos ajudar a manter este projeto. Se você quer ajudar de alguma forma, mande um e-mail para  e saiba como isso é possível. O anel de Polícrates",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O anel",
+                "child": "Polícrates",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "anel",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": "O anel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "anel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "A Lá vai o Xavier.",
+        "start_char": 555,
+        "end_char": 563,
+        "excerpt": "Se você quer ajudar de alguma forma, mande um e-mail para  e saiba como isso é possível. O anel de Polícrates A Lá vai o Xavier.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Z Conhece o Xavier?",
+        "start_char": 575,
+        "end_char": 583,
+        "excerpt": "O anel de Polícrates A Lá vai o Xavier. Z Conhece o Xavier?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bebia",
+        "sentence": "Bebia",
+        "start_char": 707,
+        "end_char": 712,
+        "excerpt": "que pródigo? A Rico e pródigo, digo-lhe eu. Bebia",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rouxinol",
+        "sentence": "Comia línguas de rouxinol.",
+        "start_char": 758,
+        "end_char": 766,
+        "excerpt": "Bebia pérolas diluídas em néctar. Comia línguas de rouxinol.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "línguas",
+                    "língua"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "línguas",
+                "child": "rouxinol",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "língua",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Comia",
+                        "child": "línguas",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "comia",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "língua"
+                    },
+                    {
+                        "head": "línguas",
+                        "child": "rouxinol",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "língua",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rouxinol"
+                    },
+                    {
+                        "head": "rouxinol",
+                        "child": "línguas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rouxinol",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "língua"
+                    }
+                ]
+            },
+            {
+                "head": "rouxinol",
+                "child": "línguas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rouxinol",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "língua",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Comia",
+                        "child": "línguas",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "comia",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "língua"
+                    },
+                    {
+                        "head": "línguas",
+                        "child": "rouxinol",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "língua",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rouxinol"
+                    },
+                    {
+                        "head": "rouxinol",
+                        "child": "línguas",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rouxinol",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "língua"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Salomão",
+        "sentence": "Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular.",
+        "start_char": 935,
+        "end_char": 942,
+        "excerpt": "Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "toda a pompa",
+                "child": "Salomão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pompa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Salomão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Salomão",
+                "child": "toda a pompa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Salomão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pompa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular.",
+        "start_char": 969,
+        "end_char": 977,
+        "excerpt": "Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "idéia",
+                "child": "do que era o Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "idéia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do que era o Xavier",
+                "child": "idéia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier.",
+        "start_char": 1158,
+        "end_char": 1164,
+        "excerpt": "E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "idéia",
+                "child": "do que era o Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "idéia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do que era o Xavier",
+                "child": "idéia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "harém",
+                "child": "Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "harém",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "harém",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "harém",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "linha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "linha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora de alto coturno",
+        "sentence": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado.",
+        "start_char": 1199,
+        "end_char": 1226,
+        "excerpt": "Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o portador",
+        "sentence": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado.",
+        "start_char": 1316,
+        "end_char": 1326,
+        "excerpt": "Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o portador",
+                "child": "pé-rapado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "portador",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "pé-rapado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pé-rapado",
+                "child": "o portador",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "pé-rapado",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "portador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Não, senhor.",
+        "start_char": 1359,
+        "end_char": 1365,
+        "excerpt": "Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "enamorou-se",
+                "child": "uma senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enamorar se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora",
+                "child": "coturno",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "coturno",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "coturno",
+                "child": "uma senhora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "coturno",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O portador",
+        "sentence": "O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "start_char": 1367,
+        "end_char": 1377,
+        "excerpt": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Milton",
+        "sentence": "O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "start_char": 1401,
+        "end_char": 1407,
+        "excerpt": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "arcanjos",
+                "child": "Milton",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "arcanjo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Milton",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Milton",
+                "child": "arcanjos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Milton",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "start_char": 1413,
+        "end_char": 1421,
+        "excerpt": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "o Xavier",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Xavier",
+                "child": "arcanjos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu velho pai inglês",
+        "sentence": "O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "start_char": 1503,
+        "end_char": 1523,
+        "excerpt": "Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "Era assim o Xavier.",
+        "start_char": 1537,
+        "end_char": 1543,
+        "excerpt": "Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês. Era assim o Xavier.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "o Xavier",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Xavier",
+                "child": "arcanjos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aurora",
+        "sentence": "A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "start_char": 1844,
+        "end_char": 1850,
+        "excerpt": "As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "gender": "female",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A Aurora",
+                "child": ", com aqueles mesmos dedos",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Aurora",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", com aqueles mesmos dedos",
+                "child": "A Aurora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dedo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Aurora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Homero",
+                "child": "A Aurora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Aurora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "start_char": 1894,
+        "end_char": 1900,
+        "excerpt": "As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Homero",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Homero",
+                "child": ", com aqueles mesmos dedos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Homero",
+                "child": "A Aurora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Aurora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "Pobre Xavier!",
+        "start_char": 1916,
+        "end_char": 1922,
+        "excerpt": "Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs. Pobre Xavier!",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os coxins",
+        "sentence": "o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ...",
+        "start_char": 2277,
+        "end_char": 2286,
+        "excerpt": "Onde estão agora as pérolas, os diamantes, as estrelas, as nuvens purpúreas? Tudo perdeu, tudo deixou ir por água abaixo; o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os coxins",
+                "child": "pedra",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "coxim",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "pedra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedra",
+                "child": "os coxins",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "pedra",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "coxim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "O Xavier?",
+        "start_char": 2404,
+        "end_char": 2410,
+        "excerpt": "o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ... Z Você está enganado. O Xavier?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esse Xavier",
+        "sentence": "Esse Xavier há de ser outro.",
+        "start_char": 2412,
+        "end_char": 2423,
+        "excerpt": "Z Você está enganado. O Xavier? Esse Xavier há de ser outro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "Esse Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Xavier na",
+        "sentence": "O Xavier nababo!",
+        "start_char": 2441,
+        "end_char": 2452,
+        "excerpt": "O Xavier? Esse Xavier há de ser outro. O Xavier nababo!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem.",
+        "start_char": 2462,
+        "end_char": 2470,
+        "excerpt": "Esse Xavier há de ser outro. O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mais de duzentos",
+                "child": "Mas o Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "duzento",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "aos amigos",
+        "sentence": "Se alguma expede aos amigos é pelo correio.",
+        "start_char": 2674,
+        "end_char": 2684,
+        "excerpt": "O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "correio",
+        "sentence": "Se alguma expede aos amigos é pelo correio.",
+        "start_char": 2692,
+        "end_char": 2699,
+        "excerpt": "O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alguma expede",
+                "child": "correio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "expede",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "correio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amigos",
+                "child": "correio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "correio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "correio",
+                "child": "alguma expede",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "correio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "expede",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "A Creio; esse é o Xavier exterior.",
+        "start_char": 2752,
+        "end_char": 2758,
+        "excerpt": "Se alguma expede aos amigos é pelo correio. Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A Creio",
+                "child": "Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Creio",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "exterior",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "exterior",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "A Creio",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Creio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "Mas nem só de pão vive o homem.",
+        "start_char": 2792,
+        "end_char": 2799,
+        "excerpt": "Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vive",
+                "child": "o homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marta",
+        "sentence": "Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "start_char": 2814,
+        "end_char": 2819,
+        "excerpt": "A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Marta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marta",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "start_char": 2836,
+        "end_char": 2841,
+        "excerpt": "A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falo-lhe",
+                "child": "Maria",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falo-lhe",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "start_char": 2851,
+        "end_char": 2857,
+        "excerpt": "A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A Creio",
+                "child": "Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Creio",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "exterior",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "exterior",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "A Creio",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Creio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "falo",
+                "child": "Xavier",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "falo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "especulativo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "especulativo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "falo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "falo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os jesuítas",
+        "sentence": "Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê.",
+        "start_char": 3841,
+        "end_char": 3852,
+        "excerpt": "Imagine uma cachoeira de idéias e imagens, qual mais original, qual mais bela, às vezes extravagante, às vezes sublime. Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deixaram",
+                "child": "os jesuítas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "jesuíta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os jesuítas",
+                "child": "riquezas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "jesuíta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "riqueza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os jesuítas",
+                "child": "a troco",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "jesuíta",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "troco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dois toche",
+        "sentence": "Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro...",
+        "start_char": 4073,
+        "end_char": 4083,
+        "excerpt": "Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê. Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deu-me",
+                "child": "dois tocheiros",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "deu-me",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tocheiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dois tocheiros",
+                "child": "ouro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tocheiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ouro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouro",
+                "child": "dois tocheiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ouro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tocheiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cônego Benigno",
+        "sentence": "Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa.",
+        "start_char": 4176,
+        "end_char": 4190,
+        "excerpt": "A Ah! impagável! Quer saber de outra? Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as cartas",
+                "child": "cônego Benigno",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "carta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "cônego",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cônego Benigno",
+                "child": "as cartas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "cônego",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "carta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Original",
+        "sentence": "A Originalão apenas.",
+        "start_char": 4432,
+        "end_char": 4442,
+        "excerpt": "Expôs-me o plano, descreveu-me a arquitetura provável da cidade, os templos, os palácios, gênero etrusco, os ritos, os vasos, as roupas, os costumes... Z Era então doido? A Originalão apenas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Panúrgio",
+        "sentence": "Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais:",
+        "start_char": 4475,
+        "end_char": 4483,
+        "excerpt": "Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os carneiros",
+                "child": "Panúrgio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "carneiro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Panúrgio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Panúrgio",
+                "child": "os carneiros",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Panúrgio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "carneiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Panúrgio",
+                "child": "Odeio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Panúrgio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "odeio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rabelais",
+        "sentence": "Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais:",
+        "start_char": 4504,
+        "end_char": 4512,
+        "excerpt": "Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "citando",
+                "child": "Rabelais",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "citar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rabelais",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sociedade",
+        "sentence": "Entretanto, gostava da sociedade.",
+        "start_char": 4754,
+        "end_char": 4763,
+        "excerpt": "Comparava a trivialidade a uma mesa redonda de hospedaria, e jurava que antes comer um mau bife em mesa separada. Z Entretanto, gostava da sociedade.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gostava",
+                "child": "sociedade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sociedade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os sócios",
+        "sentence": "A Gostava da sociedade, mas não amava os sócios.",
+        "start_char": 4803,
+        "end_char": 4812,
+        "excerpt": "Z Conhece o Xavier? A Há que anos! Era um nababo, rico, podre de rico, mas pródigo... Z Que rico? que pródigo? A Rico e pródigo, digo-lhe eu. Bebia pérolas diluídas em néctar. Comia línguas de rouxinol. Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês. Era assim o Xavier. Capeava os cigarros com um papel de cristal, obra finíssima, e, para acendê-los, trazia consigo uma caixinha de raios do sol. As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs. Pobre Xavier! Tudo o que o capricho e a riqueza podem dar, o raro, o esquisito, o maravilhoso, o indescritível, o inimaginável, tudo teve e devia ter, porque era um galhardo rapaz, e um bom coração. Ah! fortuna, fortuna! Onde estão agora as pérolas, os diamantes, as estrelas, as nuvens purpúreas? Tudo perdeu, tudo deixou ir por água abaixo; o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ... Z Você está enganado. O Xavier? Esse Xavier há de ser outro. O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio. Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo... Z Ah! - Mas ainda assim, não acho explicação; não me consta nada dele. Que livro, que poema, que quadro... A Desde quando o conhece? Z Há uns quinze anos. A Upa! Conheço-o há muito mais tempo, desde que ele estreou na rua do Ouvidor, em pleno marquês de Paraná. Era um endiabrado, um derramado, planeava todas as coisas possíveis, e até contrárias, um livro, um discurso, um medicamento, um jornal, um poema, um romance, uma história, um libelo político, uma viagem à Europa, outra ao sertão de Minas, outra à lua, em certo balão que inventara, uma candidatura política, e arqueologia, e filosofia, e teatro, etc., etc., etc. Era um saco de espantos. Quem conversava com ele sentia vertigens. Imagine uma cachoeira de idéias e imagens, qual mais original, qual mais bela, às vezes extravagante, às vezes sublime. Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê. Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro... Z Realmente... A Ah! impagável! Quer saber de outra? Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa. Expôs-me o plano, descreveu-me a arquitetura provável da cidade, os templos, os palácios, gênero etrusco, os ritos, os vasos, as roupas, os costumes... Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais: Comme vous sçavez estre du mouton le naturel, tousjours suivre le premier, quelque part qu'il aille. Comparava a trivialidade a uma mesa redonda de hospedaria, e jurava que antes comer um mau bife em mesa separada. Z Entretanto, gostava da sociedade. A Gostava da sociedade, mas não amava os sócios.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 3
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "línguas",
+                    "língua"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "os sócios",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sócio",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os sócios",
+                "child": "A Gostava",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sócio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Gostava",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Pires",
+        "sentence": "Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu?",
+        "start_char": 4830,
+        "end_char": 4837,
+        "excerpt": "Entretanto, gostava da sociedade. A Gostava da sociedade, mas não amava os sócios. Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amigo",
+                "child": ", o Pires",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pires",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Pires",
+                "child": "amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pires",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a sociedade",
+        "sentence": "Respondeu com um apólogo, em que cada sócio figurava ser uma cuia d'água, e a sociedade uma banheira.",
+        "start_char": 4977,
+        "end_char": 4988,
+        "excerpt": "A Gostava da sociedade, mas não amava os sócios. Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu? Respondeu com um apólogo, em que cada sócio figurava ser uma cuia d'água, e a sociedade uma banheira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Pires",
+        "sentence": "Que lhe disse o Pires?",
+        "start_char": 5101,
+        "end_char": 5108,
+        "excerpt": "Z Conhece o Xavier? A Há que anos! Era um nababo, rico, podre de rico, mas pródigo... Z Que rico? que pródigo? A Rico e pródigo, digo-lhe eu. Bebia pérolas diluídas em néctar. Comia línguas de rouxinol. Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês. Era assim o Xavier. Capeava os cigarros com um papel de cristal, obra finíssima, e, para acendê-los, trazia consigo uma caixinha de raios do sol. As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs. Pobre Xavier! Tudo o que o capricho e a riqueza podem dar, o raro, o esquisito, o maravilhoso, o indescritível, o inimaginável, tudo teve e devia ter, porque era um galhardo rapaz, e um bom coração. Ah! fortuna, fortuna! Onde estão agora as pérolas, os diamantes, as estrelas, as nuvens purpúreas? Tudo perdeu, tudo deixou ir por água abaixo; o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ... Z Você está enganado. O Xavier? Esse Xavier há de ser outro. O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio. Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo... Z Ah! - Mas ainda assim, não acho explicação; não me consta nada dele. Que livro, que poema, que quadro... A Desde quando o conhece? Z Há uns quinze anos. A Upa! Conheço-o há muito mais tempo, desde que ele estreou na rua do Ouvidor, em pleno marquês de Paraná. Era um endiabrado, um derramado, planeava todas as coisas possíveis, e até contrárias, um livro, um discurso, um medicamento, um jornal, um poema, um romance, uma história, um libelo político, uma viagem à Europa, outra ao sertão de Minas, outra à lua, em certo balão que inventara, uma candidatura política, e arqueologia, e filosofia, e teatro, etc., etc., etc. Era um saco de espantos. Quem conversava com ele sentia vertigens. Imagine uma cachoeira de idéias e imagens, qual mais original, qual mais bela, às vezes extravagante, às vezes sublime. Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê. Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro... Z Realmente... A Ah! impagável! Quer saber de outra? Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa. Expôs-me o plano, descreveu-me a arquitetura provável da cidade, os templos, os palácios, gênero etrusco, os ritos, os vasos, as roupas, os costumes... Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais: Comme vous sçavez estre du mouton le naturel, tousjours suivre le premier, quelque part qu'il aille. Comparava a trivialidade a uma mesa redonda de hospedaria, e jurava que antes comer um mau bife em mesa separada. Z Entretanto, gostava da sociedade. A Gostava da sociedade, mas não amava os sócios. Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu? Respondeu com um apólogo, em que cada sócio figurava ser uma cuia d'água, e a sociedade uma banheira. - Ora, eu não posso lavar- me em cuias d'água, foi a sua conclusão. Z Nada modesto. Que lhe disse o Pires?",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 3
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "línguas",
+                    "língua"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amigo",
+                "child": ", o Pires",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pires",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Pires",
+                "child": "amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pires",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "o Pires",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pires",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Pires",
+        "sentence": "A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos.",
+        "start_char": 5112,
+        "end_char": 5119,
+        "excerpt": "Nada modesto. Que lhe disse o Pires? A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "achou",
+                "child": "O Pires",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pires",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Engraçado é que o Xavier ouviu o apólogo no teatro, e aplaudiu-o muito, com entusiasmo; esquecera-se da paternidade; mas a voz do sangue...",
+        "start_char": 5203,
+        "end_char": 5211,
+        "excerpt": "Que lhe disse o Pires? A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos. Engraçado é que o Xavier ouviu o apólogo no teatro, e aplaudiu-o muito, com entusiasmo; esquecera-se da paternidade; mas a voz do sangue...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "o Xavier",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "atual miséria do Xavier",
+        "sentence": "Isto leva-me à explicação da atual miséria do Xavier.",
+        "start_char": 5356,
+        "end_char": 5379,
+        "excerpt": "A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos. Engraçado é que o Xavier ouviu o apólogo no teatro, e aplaudiu-o muito, com entusiasmo; esquecera-se da paternidade; mas a voz do sangue... Isto leva-me à explicação da atual miséria do Xavier.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "Nem tudo era límpido; mas a porção límpida superava a porção turva, como a vigília de Homero paga os seus cochilos.",
+        "start_char": 6155,
+        "end_char": 6161,
+        "excerpt": "a palavra era um derivativo. As páginas que então falava, os capítulos que lhe borbotavam da boca, só precisavam de uma arte de os imprimir no ar, e depois no papel, para serem páginas e capítulos excelentes, alguns admiráveis. Nem tudo era límpido; mas a porção límpida superava a porção turva, como a vigília de Homero paga os seus cochilos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", como a vigília",
+                "child": "Homero",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vigília",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Homero",
+                "child": ", como a vigília",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "vigília",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o semeador",
+        "sentence": "Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe.",
+        "start_char": 6331,
+        "end_char": 6341,
+        "excerpt": "Como a das cuias. A Como a das cuias. Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "o semeador",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "semeador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua mãe",
+        "sentence": "Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe.",
+        "start_char": 6460,
+        "end_char": 6467,
+        "excerpt": "Como a das cuias. A Como a das cuias. Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntava",
+                "child": "sua mãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Xavier",
+        "sentence": "O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos.",
+        "start_char": 6848,
+        "end_char": 6856,
+        "excerpt": "Com tal regime, que era a ausência de regime, não admira que ficasse pobre e miserável. Meu amigo, a imaginação e o espírito têm limites; a não ser a famosa botelha dos saltimbancos e a credulidade dos homens, nada conheço inesgotável debaixo do sol. O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perdeu",
+                "child": "O Xavier",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Horácio",
+        "sentence": "que sestércio de Horácio? que dracma de Péricles?",
+        "start_char": 7011,
+        "end_char": 7018,
+        "excerpt": "O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos. Que moeda rara se lhe vê hoje nas mãos? que sestércio de Horácio? que dracma de Péricles?",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "que sestércio",
+                "child": "Horácio",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sestérciar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Horácio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Horácio",
+                "child": "que sestércio",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Horácio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sestérciar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pér",
+        "sentence": "que sestércio de Horácio? que dracma de Péricles?",
+        "start_char": 7034,
+        "end_char": 7037,
+        "excerpt": "O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos. Que moeda rara se lhe vê hoje nas mãos? que sestércio de Horácio? que dracma de Péricles?",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dracma",
+                "child": "Péricles",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dracma",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Péricles",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "icles",
+        "sentence": "que sestércio de Horácio? que dracma de Péricles?",
+        "start_char": 7037,
+        "end_char": 7042,
+        "excerpt": "O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos. Que moeda rara se lhe vê hoje nas mãos? que sestércio de Horácio? que dracma de Péricles?",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "Pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dracma",
+                "child": "Péricles",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dracma",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Péricles",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cuia",
+        "sentence": "Cuia, enfim",
+        "start_char": 7152,
+        "end_char": 7156,
+        "excerpt": "Gasta o seu lugar-comum, rafado das mãos dos outros, come à mesa redonda, fez-se trivial, chocho... Z Cuia, enfim",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "A Quero referir-lhe a passagem mais interessante da vida do Xavier.",
+        "start_char": 7390,
+        "end_char": 7396,
+        "excerpt": "A Dá-me dez minutos? Z Dou-lhe quinze. A Quero referir-lhe a passagem mais interessante da vida do Xavier.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vida",
+                "child": "Xavier",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "vida",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "a passagem mais",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "passagem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora",
+        "sentence": "Basta dizer que um dia chamou rosa a uma senhora, - \"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe.",
+        "start_char": 7710,
+        "end_char": 7721,
+        "excerpt": "Foi ali por 1869 ou 70, não me recordo; ele mesmo é que me contou. Tinha perdido tudo; trazia o cérebro gasto, chupado, estéril, sem a sombra de um conceito, de uma imagem, nada. Basta dizer que um dia chamou rosa a uma senhora, - \"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rosa",
+                "child": "uma senhora",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "roso",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora",
+                "child": "rosa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "roso",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cavalo",
+        "sentence": "De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal;",
+        "start_char": 8068,
+        "end_char": 8076,
+        "excerpt": "Basta dizer que um dia chamou rosa a uma senhora, - \"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe. Começara a ficar hipocondríaco; e, um dia, estando à janela, triste, desabusado das coisas, vendo-se chegado a nada, aconteceu passar na rua um taful a cavalo. De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "corcoveou",
+                "child": "o cavalo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "corcovear",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavalo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os espectadores",
+        "sentence": "Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro.",
+        "start_char": 8313,
+        "end_char": 8328,
+        "excerpt": "De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal; este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fartaram",
+                "child": "Os espectadores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fartar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espectador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo.",
+        "start_char": 8418,
+        "end_char": 8426,
+        "excerpt": "este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro. Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "imaginou",
+                "child": "Então o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Então o Xavier",
+                "child": "consigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "appos",
+                "pos_c": "ADJ",
+                "lemma_c": "consigo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cavaleiro",
+        "sentence": "Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo.",
+        "start_char": 8457,
+        "end_char": 8468,
+        "excerpt": "este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro. Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tivesse",
+                "child": "o cavaleiro",
+                "dep_h": "cop",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavaleiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cavaleiro",
+                "child": "ânimo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cavaleiro",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "ânimo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "Realmente, não era uma idéia extraordinária; mas a penúria do Xavier tocara a tal extremo, que esse cristal pareceu-lhe um diamante.",
+        "start_char": 8768,
+        "end_char": 8774,
+        "excerpt": "E daí veio uma idéia: comparou a vida a um cavalo xucro ou manhoso; e acrescentou sentenciosamente: Quem não for cavaleiro, que o pareça. Realmente, não era uma idéia extraordinária; mas a penúria do Xavier tocara a tal extremo, que esse cristal pareceu-lhe um diamante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a penúria",
+                "child": "Xavier",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "penúria",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "a penúria",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "penúria",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "Realmente, não era uma idéia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "Conhece o caso do anel de Polícrates?",
+        "start_char": 9367,
+        "end_char": 9377,
+        "excerpt": "Acordou triste; a manhã, que era de domingo e chuvosa, ainda mais o entristeceu; meteu-se a ler e a cismar. Então lembrou-se... Conhece o caso do anel de Polícrates?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "anel",
+                "child": "Polícrates",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "anel",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": "anel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "anel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": "o caso",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "A Nem eu; mas aqui vai o que me disse o Xavier.",
+        "start_char": 9437,
+        "end_char": 9445,
+        "excerpt": "Z Conhece o Xavier? A Há que anos! Era um nababo, rico, podre de rico, mas pródigo... Z Que rico? que pródigo? A Rico e pródigo, digo-lhe eu. Bebia pérolas diluídas em néctar. Comia línguas de rouxinol. Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês. Era assim o Xavier. Capeava os cigarros com um papel de cristal, obra finíssima, e, para acendê-los, trazia consigo uma caixinha de raios do sol. As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs. Pobre Xavier! Tudo o que o capricho e a riqueza podem dar, o raro, o esquisito, o maravilhoso, o indescritível, o inimaginável, tudo teve e devia ter, porque era um galhardo rapaz, e um bom coração. Ah! fortuna, fortuna! Onde estão agora as pérolas, os diamantes, as estrelas, as nuvens purpúreas? Tudo perdeu, tudo deixou ir por água abaixo; o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ... Z Você está enganado. O Xavier? Esse Xavier há de ser outro. O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio. Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo... Z Ah! - Mas ainda assim, não acho explicação; não me consta nada dele. Que livro, que poema, que quadro... A Desde quando o conhece? Z Há uns quinze anos. A Upa! Conheço-o há muito mais tempo, desde que ele estreou na rua do Ouvidor, em pleno marquês de Paraná. Era um endiabrado, um derramado, planeava todas as coisas possíveis, e até contrárias, um livro, um discurso, um medicamento, um jornal, um poema, um romance, uma história, um libelo político, uma viagem à Europa, outra ao sertão de Minas, outra à lua, em certo balão que inventara, uma candidatura política, e arqueologia, e filosofia, e teatro, etc., etc., etc. Era um saco de espantos. Quem conversava com ele sentia vertigens. Imagine uma cachoeira de idéias e imagens, qual mais original, qual mais bela, às vezes extravagante, às vezes sublime. Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê. Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro... Z Realmente... A Ah! impagável! Quer saber de outra? Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa. Expôs-me o plano, descreveu-me a arquitetura provável da cidade, os templos, os palácios, gênero etrusco, os ritos, os vasos, as roupas, os costumes... Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais: Comme vous sçavez estre du mouton le naturel, tousjours suivre le premier, quelque part qu'il aille. Comparava a trivialidade a uma mesa redonda de hospedaria, e jurava que antes comer um mau bife em mesa separada. Z Entretanto, gostava da sociedade. A Gostava da sociedade, mas não amava os sócios. Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu? Respondeu com um apólogo, em que cada sócio figurava ser uma cuia d'água, e a sociedade uma banheira. - Ora, eu não posso lavar- me em cuias d'água, foi a sua conclusão. Z Nada modesto. Que lhe disse o Pires? A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos. Engraçado é que o Xavier ouviu o apólogo no teatro, e aplaudiu-o muito, com entusiasmo; esquecera-se da paternidade; mas a voz do sangue... Isto leva-me à explicação da atual miséria do Xavier. Z É verdade, não sei como se possa explicar que um nababo... A Explica-se facilmente. Ele espalhava idéias à direita e à esquerda, como o céu chove, por uma necessidade física, e ainda por duas razões. A primeira é que era impaciente, não sofria a gestação indispensável à obra escrita. A segunda é que varria com os olhos uma linha tão vasta de coisas, que mal poderia fixar-se em qualquer delas. Se não tivesse o verbo fluente, morreria de congestão mental; a palavra era um derivativo. As páginas que então falava, os capítulos que lhe borbotavam da boca, só precisavam de uma arte de os imprimir no ar, e depois no papel, para serem páginas e capítulos excelentes, alguns admiráveis. Nem tudo era límpido; mas a porção límpida superava a porção turva, como a vigília de Homero paga os seus cochilos. Espalhava tudo, ao acaso, às mãos cheias, sem ver onde as sementes iam cair; algumas pegavam logo... Z Como a das cuias. A Como a das cuias. Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe. Viveu assim longos anos, despendendo à toa, sem cálculo, sem fruto, de noite e de dia, na rua e em casa, um verdadeiro pródigo. Com tal regime, que era a ausência de regime, não admira que ficasse pobre e miserável. Meu amigo, a imaginação e o espírito têm limites; a não ser a famosa botelha dos saltimbancos e a credulidade dos homens, nada conheço inesgotável debaixo do sol. O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos. Que moeda rara se lhe vê hoje nas mãos? que sestércio de Horácio? que dracma de Péricles? Nada. Gasta o seu lugar-comum, rafado das mãos dos outros, come à mesa redonda, fez-se trivial, chocho... Z Cuia, enfim . A Justamente: cuia. Z Pois muito me conta. Não sabia nada disso. Fico inteirado; adeus. A Vai a negócio? Z Vou a um negócio. A Dá-me dez minutos? Z Dou-lhe quinze. A Quero referir-lhe a passagem mais interessante da vida do Xavier. Aceite o meu braço, e vamos andando. Vai para a praça? Vamos juntos. Um caso interessantíssimo. Foi ali por 1869 ou 70, não me recordo; ele mesmo é que me contou. Tinha perdido tudo; trazia o cérebro gasto, chupado, estéril, sem a sombra de um conceito, de uma imagem, nada. Basta dizer que um dia chamou rosa a uma senhora, - \"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe. Começara a ficar hipocondríaco; e, um dia, estando à janela, triste, desabusado das coisas, vendo-se chegado a nada, aconteceu passar na rua um taful a cavalo. De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal; este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro. Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo. E daí veio uma idéia: comparou a vida a um cavalo xucro ou manhoso; e acrescentou sentenciosamente: Quem não for cavaleiro, que o pareça. Realmente, não era uma idéia extraordinária; mas a penúria do Xavier tocara a tal extremo, que esse cristal pareceu-lhe um diamante. Ele repetiu-a dez ou doze vezes, formulou-a de vários modos, ora na ordem natural, pondo primeiro a definição, depois o complemento; ora dando-lhe a marcha inversa, trocando palavras, medindo-as, etc.; e tão alegre, tão alegre como casa de pobre em dia de peru. De noite, sonhou que efetivamente montava um cavalo manhoso, que este pinoteava com ele e o sacudia a um brejo. Acordou triste; a manhã, que era de domingo e chuvosa, ainda mais o entristeceu; meteu-se a ler e a cismar. Então lembrou-se... Conhece o caso do anel de Polícrates? Z Francamente, não. A Nem eu; mas aqui vai o que me disse o Xavier.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mão",
+                    "mãos",
+                    "mãos",
+                    "mãos"
+                ],
+                "occurrences_n": 6
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé",
+                    "pé",
+                    "Pé"
+                ],
+                "occurrences_n": 4
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "línguas",
+                    "língua"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "idéia",
+                "child": "do que era o Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "idéia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do que era o Xavier",
+                "child": "idéia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamou",
+                "child": "o Xavier",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Xavier",
+                "child": "arcanjos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mais de duzentos",
+                "child": "Mas o Xavier",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "duzento",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouviu",
+                "child": "o Xavier",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "imaginou",
+                "child": "Então o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Então o Xavier",
+                "child": "consigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "appos",
+                "pos_c": "ADJ",
+                "lemma_c": "consigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "o Xavier",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "Polícrates governava a ilha de Samos.",
+        "start_char": 9447,
+        "end_char": 9457,
+        "excerpt": "Francamente, não. A Nem eu; mas aqui vai o que me disse o Xavier. Polícrates governava a ilha de Samos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "governava",
+                "child": "Polícrates",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "governar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rei",
+        "sentence": "Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete.",
+        "start_char": 9489,
+        "end_char": 9494,
+        "excerpt": "A Nem eu; mas aqui vai o que me disse o Xavier. Polícrates governava a ilha de Samos. Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Fortuna",
+        "sentence": "Assim fez; mas a Fortuna andava tão apostada em cumulá-lo de obséquios, que o anel foi engolido por um peixe, o peixe pescado e mandado para a cozinha do rei, que assim voltou à posse do anel.",
+        "start_char": 9739,
+        "end_char": 9748,
+        "excerpt": "Polícrates governava a ilha de Samos. Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete. Assim fez; mas a Fortuna andava tão apostada em cumulá-lo de obséquios, que o anel foi engolido por um peixe, o peixe pescado e mandado para a cozinha do rei, que assim voltou à posse do anel.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andava",
+                "child": "a Fortuna",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Fortuna",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Plínio",
+        "sentence": "Não afirmo nada a respeito desta anedota; foi ele quem me contou, citando Plínio, citando...",
+        "start_char": 9991,
+        "end_char": 9997,
+        "excerpt": "Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete. Assim fez; mas a Fortuna andava tão apostada em cumulá-lo de obséquios, que o anel foi engolido por um peixe, o peixe pescado e mandado para a cozinha do rei, que assim voltou à posse do anel. Não afirmo nada a respeito desta anedota; foi ele quem me contou, citando Plínio, citando...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "citando",
+                "child": "Plínio",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "citar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Plínio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Xavier",
+        "sentence": "O Xavier naturalmente comparou a vida, não a um cavalo, mas...",
+        "start_char": 10037,
+        "end_char": 10045,
+        "excerpt": "Não afirmo nada a respeito desta anedota; foi ele quem me contou, citando Plínio, citando... Z Não ponha mais na carta. O Xavier naturalmente comparou a vida, não a um cavalo, mas...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comparou",
+                "child": "O Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pobre - diabo",
+        "sentence": "Não é capaz de adivinhar o plano estrambótico do pobre-diabo.",
+        "start_char": 10113,
+        "end_char": 10126,
+        "excerpt": "O Xavier naturalmente comparou a vida, não a um cavalo, mas... A Nada disso. Não é capaz de adivinhar o plano estrambótico do pobre-diabo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "Experimentemos a fortuna, disse ele; vejamos se a minha idéia, lançada ao mar, pode tornar ao meu poder, como o anel de Polícrates, no bucho de algum peixe, ou se o meu caiporismo será tal, que nunca mais lhe ponha a mão.",
+        "start_char": 10296,
+        "end_char": 10306,
+        "excerpt": "A Nada disso. Não é capaz de adivinhar o plano estrambótico do pobre-diabo. Experimentemos a fortuna, disse ele; vejamos se a minha idéia, lançada ao mar, pode tornar ao meu poder, como o anel de Polícrates, no bucho de algum peixe, ou se o meu caiporismo será tal, que nunca mais lhe ponha a mão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "bucho"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", como o anel",
+                "child": "Polícrates",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "anel",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": ", como o anel",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "anel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "estramb",
+        "sentence": "A Não é estrambótico?",
+        "start_char": 10418,
+        "end_char": 10425,
+        "excerpt": "Z Conhece o Xavier? A Há que anos! Era um nababo, rico, podre de rico, mas pródigo... Z Que rico? que pródigo? A Rico e pródigo, digo-lhe eu. Bebia pérolas diluídas em néctar. Comia línguas de rouxinol. Nunca usou papel mata-borrão, por achá-lo vulgar e mercantil; empregava areia nas cartas, mas uma certa areia feita de pó de diamante. E mulheres! Nem toda a pompa de Salomão pode dar idéia do que era o Xavier nesse particular. Tinha um serralho: a linha grega, a tez romana, a exuberância turca, todas as perfeições de uma raça, todas as prendas de um clima, tudo era admitido no harém do Xavier. Um dia enamorou-se loucamente de uma senhora de alto coturno, e enviou-lhe de mimo três estrelas do Cruzeiro, que então contava sete, e não pense que o portador foi aí qualquer pé-rapado. Não, senhor. O portador foi um dos arcanjos de Milton, que o Xavier chamou na ocasião em que ele cortava o azul para levar a admiração dos homens ao seu velho pai inglês. Era assim o Xavier. Capeava os cigarros com um papel de cristal, obra finíssima, e, para acendê-los, trazia consigo uma caixinha de raios do sol. As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs. Pobre Xavier! Tudo o que o capricho e a riqueza podem dar, o raro, o esquisito, o maravilhoso, o indescritível, o inimaginável, tudo teve e devia ter, porque era um galhardo rapaz, e um bom coração. Ah! fortuna, fortuna! Onde estão agora as pérolas, os diamantes, as estrelas, as nuvens purpúreas? Tudo perdeu, tudo deixou ir por água abaixo; o néctar virou zurrapa, os coxins são a pedra dura da rua, não manda estrelas às senhoras, nem tem arcanjos às suas ordens ... Z Você está enganado. O Xavier? Esse Xavier há de ser outro. O Xavier nababo! Mas o Xavier que ali vai nunca teve mais de duzentos mil-réis mensais; é um homem poupado, sóbrio, deita-se com as galinhas, acorda com os galos, e não escreve cartas a namoradas, porque não as tem. Se alguma expede aos amigos é pelo correio. Não é mendigo, nunca foi nababo. A Creio; esse é o Xavier exterior. Mas nem só de pão vive o homem. Você fala de Marta, eu falo-lhe de Maria; falo do Xavier especulativo... Z Ah! - Mas ainda assim, não acho explicação; não me consta nada dele. Que livro, que poema, que quadro... A Desde quando o conhece? Z Há uns quinze anos. A Upa! Conheço-o há muito mais tempo, desde que ele estreou na rua do Ouvidor, em pleno marquês de Paraná. Era um endiabrado, um derramado, planeava todas as coisas possíveis, e até contrárias, um livro, um discurso, um medicamento, um jornal, um poema, um romance, uma história, um libelo político, uma viagem à Europa, outra ao sertão de Minas, outra à lua, em certo balão que inventara, uma candidatura política, e arqueologia, e filosofia, e teatro, etc., etc., etc. Era um saco de espantos. Quem conversava com ele sentia vertigens. Imagine uma cachoeira de idéias e imagens, qual mais original, qual mais bela, às vezes extravagante, às vezes sublime. Note que ele tinha a convicção dos seus mesmos inventos. Um dia, por exemplo, acordou com o plano de arrasar o morro do Castelo, a troco das riquezas que os jesuítas ali deixaram, segundo o povo crê. Calculou-as logo em mil contos, inventariou-as com muito cuidado, separou o que era moeda, mil contos, do que eram obras de arte e pedrarias; descreveu minuciosamente os objetos, deu-me dois tocheiros de ouro... Z Realmente... A Ah! impagável! Quer saber de outra? Tinha lido as cartas do cônego Benigno, e resolveu ir logo ao sertão da Bahia, procurar a cidade misteriosa. Expôs-me o plano, descreveu-me a arquitetura provável da cidade, os templos, os palácios, gênero etrusco, os ritos, os vasos, as roupas, os costumes... Z Era então doido? A Originalão apenas. Odeio os carneiros de Panúrgio, dizia ele, citando Rabelais: Comme vous sçavez estre du mouton le naturel, tousjours suivre le premier, quelque part qu'il aille. Comparava a trivialidade a uma mesa redonda de hospedaria, e jurava que antes comer um mau bife em mesa separada. Z Entretanto, gostava da sociedade. A Gostava da sociedade, mas não amava os sócios. Um amigo nosso, o Pires, fez-lhe um dia esse reparo; e sabe o que é que ele respondeu? Respondeu com um apólogo, em que cada sócio figurava ser uma cuia d'água, e a sociedade uma banheira. - Ora, eu não posso lavar- me em cuias d'água, foi a sua conclusão. Z Nada modesto. Que lhe disse o Pires? A O Pires achou o apólogo tão bonito que o meteu numa comédia, daí a tempos. Engraçado é que o Xavier ouviu o apólogo no teatro, e aplaudiu-o muito, com entusiasmo; esquecera-se da paternidade; mas a voz do sangue... Isto leva-me à explicação da atual miséria do Xavier. Z É verdade, não sei como se possa explicar que um nababo... A Explica-se facilmente. Ele espalhava idéias à direita e à esquerda, como o céu chove, por uma necessidade física, e ainda por duas razões. A primeira é que era impaciente, não sofria a gestação indispensável à obra escrita. A segunda é que varria com os olhos uma linha tão vasta de coisas, que mal poderia fixar-se em qualquer delas. Se não tivesse o verbo fluente, morreria de congestão mental; a palavra era um derivativo. As páginas que então falava, os capítulos que lhe borbotavam da boca, só precisavam de uma arte de os imprimir no ar, e depois no papel, para serem páginas e capítulos excelentes, alguns admiráveis. Nem tudo era límpido; mas a porção límpida superava a porção turva, como a vigília de Homero paga os seus cochilos. Espalhava tudo, ao acaso, às mãos cheias, sem ver onde as sementes iam cair; algumas pegavam logo... Z Como a das cuias. A Como a das cuias. Mas, o semeador tinha a paixão das coisas belas, e, uma vez que a árvore fosse pomposa e verde, não lhe perguntava nunca pela semente sua mãe. Viveu assim longos anos, despendendo à toa, sem cálculo, sem fruto, de noite e de dia, na rua e em casa, um verdadeiro pródigo. Com tal regime, que era a ausência de regime, não admira que ficasse pobre e miserável. Meu amigo, a imaginação e o espírito têm limites; a não ser a famosa botelha dos saltimbancos e a credulidade dos homens, nada conheço inesgotável debaixo do sol. O Xavier não só perdeu as idéias que tinha, mas até exauriu a faculdade de as criar; ficou o que sabemos. Que moeda rara se lhe vê hoje nas mãos? que sestércio de Horácio? que dracma de Péricles? Nada. Gasta o seu lugar-comum, rafado das mãos dos outros, come à mesa redonda, fez-se trivial, chocho... Z Cuia, enfim . A Justamente: cuia. Z Pois muito me conta. Não sabia nada disso. Fico inteirado; adeus. A Vai a negócio? Z Vou a um negócio. A Dá-me dez minutos? Z Dou-lhe quinze. A Quero referir-lhe a passagem mais interessante da vida do Xavier. Aceite o meu braço, e vamos andando. Vai para a praça? Vamos juntos. Um caso interessantíssimo. Foi ali por 1869 ou 70, não me recordo; ele mesmo é que me contou. Tinha perdido tudo; trazia o cérebro gasto, chupado, estéril, sem a sombra de um conceito, de uma imagem, nada. Basta dizer que um dia chamou rosa a uma senhora, - \"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe. Começara a ficar hipocondríaco; e, um dia, estando à janela, triste, desabusado das coisas, vendo-se chegado a nada, aconteceu passar na rua um taful a cavalo. De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal; este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro. Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo. E daí veio uma idéia: comparou a vida a um cavalo xucro ou manhoso; e acrescentou sentenciosamente: Quem não for cavaleiro, que o pareça. Realmente, não era uma idéia extraordinária; mas a penúria do Xavier tocara a tal extremo, que esse cristal pareceu-lhe um diamante. Ele repetiu-a dez ou doze vezes, formulou-a de vários modos, ora na ordem natural, pondo primeiro a definição, depois o complemento; ora dando-lhe a marcha inversa, trocando palavras, medindo-as, etc.; e tão alegre, tão alegre como casa de pobre em dia de peru. De noite, sonhou que efetivamente montava um cavalo manhoso, que este pinoteava com ele e o sacudia a um brejo. Acordou triste; a manhã, que era de domingo e chuvosa, ainda mais o entristeceu; meteu-se a ler e a cismar. Então lembrou-se... Conhece o caso do anel de Polícrates? Z Francamente, não. A Nem eu; mas aqui vai o que me disse o Xavier. Polícrates governava a ilha de Samos. Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete. Assim fez; mas a Fortuna andava tão apostada em cumulá-lo de obséquios, que o anel foi engolido por um peixe, o peixe pescado e mandado para a cozinha do rei, que assim voltou à posse do anel. Não afirmo nada a respeito desta anedota; foi ele quem me contou, citando Plínio, citando... Z Não ponha mais na carta. O Xavier naturalmente comparou a vida, não a um cavalo, mas... A Nada disso. Não é capaz de adivinhar o plano estrambótico do pobre-diabo. Experimentemos a fortuna, disse ele; vejamos se a minha idéia, lançada ao mar, pode tornar ao meu poder, como o anel de Polícrates, no bucho de algum peixe, ou se o meu caiporismo será tal, que nunca mais lhe ponha a mão. Z Ora essa! A Não é estrambótico?",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "bucho"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão",
+                    "mão",
+                    "mão",
+                    "mãos",
+                    "mãos",
+                    "mãos"
+                ],
+                "occurrences_n": 7
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé",
+                    "pé",
+                    "Pé"
+                ],
+                "occurrences_n": 4
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "línguas",
+                    "língua"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o plano",
+                "child": "estrambótico",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "plano",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "estrambótico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "Polícrates experimentara a felicidade;",
+        "start_char": 10432,
+        "end_char": 10442,
+        "excerpt": "Ora essa! A Não é estrambótico? Polícrates experimentara a felicidade;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "experimentara",
+                "child": "Polícrates",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "experimentarar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "o Xavier quis tentar o caiporismo; intenções diversas, ação idêntica.",
+        "start_char": 10471,
+        "end_char": 10479,
+        "excerpt": "A Não é estrambótico? Polícrates experimentara a felicidade; o Xavier quis tentar o caiporismo; intenções diversas, ação idêntica.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "o Xavier",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um amigo",
+        "sentence": "Saiu de casa, encontrou um amigo, travou conversa, escolheu assunto, e acabou dizendo o que era a vida, um cavalo xucro ou manhoso, e quem não for cavaleiro que o pareça.",
+        "start_char": 10565,
+        "end_char": 10573,
+        "excerpt": "Polícrates experimentara a felicidade; o Xavier quis tentar o caiporismo; intenções diversas, ação idêntica. Saiu de casa, encontrou um amigo, travou conversa, escolheu assunto, e acabou dizendo o que era a vida, um cavalo xucro ou manhoso, e quem não for cavaleiro que o pareça.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "encontrou",
+                "child": "um amigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "por isso o Xavier teve o cuidado de descrever primeiro a sua tristeza, o desconsolo dos anos, o malogro dos esforços, ou antes os efeitos da imprevidência, e quando o peixe ficou de boca aberta, digo, quando a comoção do amigo chegou ao cume, foi que ele lhe atirou o anel, e fugiu a meter-se em casa.",
+        "start_char": 10761,
+        "end_char": 10769,
+        "excerpt": "Saiu de casa, encontrou um amigo, travou conversa, escolheu assunto, e acabou dizendo o que era a vida, um cavalo xucro ou manhoso, e quem não for cavaleiro que o pareça. Dita assim, esta frase era talvez fria; por isso o Xavier teve o cuidado de descrever primeiro a sua tristeza, o desconsolo dos anos, o malogro dos esforços, ou antes os efeitos da imprevidência, e quando o peixe ficou de boca aberta, digo, quando a comoção do amigo chegou ao cume, foi que ele lhe atirou o anel, e fugiu a meter-se em casa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Cerca de três semanas depois, o Xavier jantava pacificamente no Leão de Ouro ou no Globo, não me lembro bem, e ouviu de outra mesa a mesma frase sua, talvez com a troca de um adjetivo.",
+        "start_char": 11253,
+        "end_char": 11261,
+        "excerpt": "Isto que lhe conto é natural, crê-se, não é impossível; mas agora começa a juntar-se à realidade uma alta dose de imaginação. Seja o que for, repito o que ele me disse. Cerca de três semanas depois, o Xavier jantava pacificamente no Leão de Ouro ou no Globo, não me lembro bem, e ouviu de outra mesa a mesma frase sua, talvez com a troca de um adjetivo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "jantava",
+                "child": "o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "\"Meu pobre anel, disse ele, eis-te enfim no peixe de Polícrates.",
+        "start_char": 11461,
+        "end_char": 11471,
+        "excerpt": "Seja o que for, repito o que ele me disse. Cerca de três semanas depois, o Xavier jantava pacificamente no Leão de Ouro ou no Globo, não me lembro bem, e ouviu de outra mesa a mesma frase sua, talvez com a troca de um adjetivo. \"Meu pobre anel, disse ele, eis-te enfim no peixe de Polícrates.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "peixe",
+                "child": "Polícrates",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "peixe",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": "peixe",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "peixe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Xavier",
+        "sentence": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "start_char": 11700,
+        "end_char": 11708,
+        "excerpt": "Resignou-se. Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aceitou",
+                "child": "O Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aceitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um grupo de pessoas",
+        "sentence": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "start_char": 11805,
+        "end_char": 11824,
+        "excerpt": "Resignou-se. Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "barão",
+        "sentence": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "start_char": 11852,
+        "end_char": 11857,
+        "excerpt": "Resignou-se. Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a carreira",
+                "child": "barão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "carreira",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "barão",
+                "child": "a carreira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "carreira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "barão",
+                "child": "pessoas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "barão",
+                "child": "um grupo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "grupo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "barão",
+                "child": "o sorvete",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sorvete",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "comparar",
+                "child": "o barão",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o barão",
+        "sentence": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "start_char": 11850,
+        "end_char": 11857,
+        "excerpt": "Resignou-se. Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comparar",
+                "child": "o barão",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o barão",
+        "sentence": "Pasmo dos ouvintes, porque o barão não montava a cavalo.",
+        "start_char": 11970,
+        "end_char": 11977,
+        "excerpt": "Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito. Pasmo dos ouvintes, porque o barão não montava a cavalo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comparar",
+                "child": "o barão",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "montava",
+                "child": "o barão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "montar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o barão",
+                "child": "Pasmo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pasmo",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o panegirista",
+        "sentence": "Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente.",
+        "start_char": 12004,
+        "end_char": 12017,
+        "excerpt": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito. Pasmo dos ouvintes, porque o barão não montava a cavalo. Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "explicou",
+                "child": "o panegirista",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "panegirista",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o barão",
+        "sentence": "Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente.",
+        "start_char": 12139,
+        "end_char": 12146,
+        "excerpt": "O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito. Pasmo dos ouvintes, porque o barão não montava a cavalo. Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comparar",
+                "child": "o barão",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "montava",
+                "child": "o barão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "montar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o barão",
+                "child": "Pasmo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "barão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pasmo",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "era-o",
+                "child": "o barão",
+                "dep_h": "conj",
+                "pos_h": "AUX",
+                "lemma_h": "era-o",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "barão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "\"- Entra, meu querido anel, disse o Xavier, entra no dedo de Polícrates.",
+        "start_char": 12198,
+        "end_char": 12206,
+        "excerpt": "Pasmo dos ouvintes, porque o barão não montava a cavalo. Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente. \"- Entra, meu querido anel, disse o Xavier, entra no dedo de Polícrates.",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "\"- Entra, meu querido anel, disse o Xavier, entra no dedo de Polícrates.",
+        "start_char": 12225,
+        "end_char": 12235,
+        "excerpt": "Pasmo dos ouvintes, porque o barão não montava a cavalo. Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente. \"- Entra, meu querido anel, disse o Xavier, entra no dedo de Polícrates.",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dedo",
+                "child": "Polícrates",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dedo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Polícrates",
+                "child": "dedo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Z Adivinho",
+        "sentence": "Z Adivinho",
+        "start_char": 12309,
+        "end_char": 12319,
+        "excerpt": "\" Mas de novo a idéia bateu as asas, sem querer ouvi-lo. Dias depois... Z Adivinho",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Edgard Poe",
+        "sentence": "Jurou-me que ia escrever, a propósito disto, um conto fantástico, à maneira de Edgard Poe, uma página fulgurante, pontuada de mistérios, - são as suas próprias expressões; - e pediu-me que o fosse ver no dia seguinte.",
+        "start_char": 12600,
+        "end_char": 12610,
+        "excerpt": "A Um dia só, e foi então que me contou o caso digno de memória. Tão contente que ele estava nesse dia! Jurou-me que ia escrever, a propósito disto, um conto fantástico, à maneira de Edgard Poe, uma página fulgurante, pontuada de mistérios, - são as suas próprias expressões; - e pediu-me que o fosse ver no dia seguinte.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", à maneira",
+                "child": "Edgard Poe",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "maneira",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Edgard",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Edgard Poe",
+                "child": ", à maneira",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Edgard",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "maneira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Edgard Poe",
+                "child": "um conto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Edgard",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "conto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Edgard Poe",
+                "child": "expressões",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Edgard",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "expressão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anel",
+        "sentence": "Fui; o anel fugira-lhe outra vez.",
+        "start_char": 12744,
+        "end_char": 12750,
+        "excerpt": "Tão contente que ele estava nesse dia! Jurou-me que ia escrever, a propósito disto, um conto fantástico, à maneira de Edgard Poe, uma página fulgurante, pontuada de mistérios, - são as suas próprias expressões; - e pediu-me que o fosse ver no dia seguinte. Fui; o anel fugira-lhe outra vez.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fugira-lhe",
+                "child": "o anel",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "fugira-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "anel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Polícrates",
+        "sentence": "Meu caro A, disse-me ele, com um sorriso fino e sarcástico; tens em mim o Polícrates do caiporismo;",
+        "start_char": 12849,
+        "end_char": 12859,
+        "excerpt": "Fui; o anel fugira-lhe outra vez. \" Meu caro A, disse-me ele, com um sorriso fino e sarcástico; tens em mim o Polícrates do caiporismo;",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tens",
+                "child": "o Polícrates",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "tem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Polícrates",
+                "child": "caiporismo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "caiporismo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Polícrates",
+                "child": "tens",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Polícrates",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "caiporismo",
+                "child": "o Polícrates",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caiporismo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Polícrates",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu ministro honorário",
+        "sentence": "nomeio-te meu ministro honorário e gratuito.",
+        "start_char": 12885,
+        "end_char": 12907,
+        "excerpt": "\"uma bonita rosa\"; falava do luar saudoso, do sacerdócio da imprensa, dos jantares opíparos, sem acrescentar ao menos um relevo qualquer a toda essa chaparia de algibebe. Começara a ficar hipocondríaco; e, um dia, estando à janela, triste, desabusado das coisas, vendo-se chegado a nada, aconteceu passar na rua um taful a cavalo. De repente, o cavalo corcoveou, e o taful veio quase ao chão; mas sustentou-se, e meteu as esporas e o chicote no animal; este empina-se, ele teima; muita gente parada na rua e nas portas; no fim de dez minutos de luta, o cavalo cedeu e continuou a marcha. Os espectadores não se fartaram de admirar o garbo, a coragem, o sangue-frio, a arte do cavaleiro. Então o Xavier, consigo, imaginou que talvez o cavaleiro não tivesse ânimo nenhum; não quis cair diante de gente, e isso lhe deu a força de domar o cavalo. E daí veio uma idéia: comparou a vida a um cavalo xucro ou manhoso; e acrescentou sentenciosamente: Quem não for cavaleiro, que o pareça. Realmente, não era uma idéia extraordinária; mas a penúria do Xavier tocara a tal extremo, que esse cristal pareceu-lhe um diamante. Ele repetiu-a dez ou doze vezes, formulou-a de vários modos, ora na ordem natural, pondo primeiro a definição, depois o complemento; ora dando-lhe a marcha inversa, trocando palavras, medindo-as, etc.; e tão alegre, tão alegre como casa de pobre em dia de peru. De noite, sonhou que efetivamente montava um cavalo manhoso, que este pinoteava com ele e o sacudia a um brejo. Acordou triste; a manhã, que era de domingo e chuvosa, ainda mais o entristeceu; meteu-se a ler e a cismar. Então lembrou-se... Conhece o caso do anel de Polícrates? Z Francamente, não. A Nem eu; mas aqui vai o que me disse o Xavier. Polícrates governava a ilha de Samos. Era o rei mais feliz da terra; tão feliz, que começou a recear alguma viravolta da Fortuna, e, para aplacá-la antecipadamente, determinou fazer um grande sacrifício: deitar ao mar o anel precioso que, segundo alguns, lhe servia de sinete. Assim fez; mas a Fortuna andava tão apostada em cumulá-lo de obséquios, que o anel foi engolido por um peixe, o peixe pescado e mandado para a cozinha do rei, que assim voltou à posse do anel. Não afirmo nada a respeito desta anedota; foi ele quem me contou, citando Plínio, citando... Z Não ponha mais na carta. O Xavier naturalmente comparou a vida, não a um cavalo, mas... A Nada disso. Não é capaz de adivinhar o plano estrambótico do pobre-diabo. Experimentemos a fortuna, disse ele; vejamos se a minha idéia, lançada ao mar, pode tornar ao meu poder, como o anel de Polícrates, no bucho de algum peixe, ou se o meu caiporismo será tal, que nunca mais lhe ponha a mão. Z Ora essa! A Não é estrambótico? Polícrates experimentara a felicidade; o Xavier quis tentar o caiporismo; intenções diversas, ação idêntica. Saiu de casa, encontrou um amigo, travou conversa, escolheu assunto, e acabou dizendo o que era a vida, um cavalo xucro ou manhoso, e quem não for cavaleiro que o pareça. Dita assim, esta frase era talvez fria; por isso o Xavier teve o cuidado de descrever primeiro a sua tristeza, o desconsolo dos anos, o malogro dos esforços, ou antes os efeitos da imprevidência, e quando o peixe ficou de boca aberta, digo, quando a comoção do amigo chegou ao cume, foi que ele lhe atirou o anel, e fugiu a meter-se em casa. Isto que lhe conto é natural, crê-se, não é impossível; mas agora começa a juntar-se à realidade uma alta dose de imaginação. Seja o que for, repito o que ele me disse. Cerca de três semanas depois, o Xavier jantava pacificamente no Leão de Ouro ou no Globo, não me lembro bem, e ouviu de outra mesa a mesma frase sua, talvez com a troca de um adjetivo. \"Meu pobre anel, disse ele, eis-te enfim no peixe de Polícrates. \" Mas a idéia bateu as asas e voou, sem que ele pudesse guardá-la na memória. Resignou-se. Dias depois, foi convidado a um baile: era um antigo companheiro dos tempos de rapaz, que celebrava a sua recente distinção nobiliária. O Xavier aceitou o convite, e foi ao baile, e ainda bem que foi, porque entre o sorvete e o chá ouviu de um grupo de pessoas que louvavam a carreira do barão, a sua vida próspera, rígida, modelo, ouviu comparar o barão a um cavaleiro emérito. Pasmo dos ouvintes, porque o barão não montava a cavalo. Mas o panegirista explicou que a vida não é mais do que um cavalo xucro ou manhoso, sobre o qual ou se há de ser cavaleiro ou parecê-lo, e o barão era-o excelente. \"- Entra, meu querido anel, disse o Xavier, entra no dedo de Polícrates. \" Mas de novo a idéia bateu as asas, sem querer ouvi-lo. Dias depois... Z Adivinho o resto: uma série de encontros e fugas do mesmo gênero. A Justo. Z Mas, enfim, apanhou-o um dia. A Um dia só, e foi então que me contou o caso digno de memória. Tão contente que ele estava nesse dia! Jurou-me que ia escrever, a propósito disto, um conto fantástico, à maneira de Edgard Poe, uma página fulgurante, pontuada de mistérios, - são as suas próprias expressões; - e pediu-me que o fosse ver no dia seguinte. Fui; o anel fugira-lhe outra vez. \" Meu caro A, disse-me ele, com um sorriso fino e sarcástico; tens em mim o Polícrates do caiporismo; nomeio-te meu ministro honorário e gratuito.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "bucho"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo"
+                ],
+                "occurrences_n": 1
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "nomeio-te",
+                "child": "meu ministro honorário e gratuito",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "nomeio-te",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Um dia, o Xavier chegou a crer que podia enfim agarrar a fugitiva, e fincá-la perpetuamente no cérebro.",
+        "start_char": 13293,
+        "end_char": 13301,
+        "excerpt": "Z Não posso; lá se vão os quinze minutos. A Conto-lhe só três. Um dia, o Xavier chegou a crer que podia enfim agarrar a fugitiva, e fincá-la perpetuamente no cérebro.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a fugitiva",
+        "sentence": "Um dia, o Xavier chegou a crer que podia enfim agarrar a fugitiva, e fincá-la perpetuamente no cérebro.",
+        "start_char": 13340,
+        "end_char": 13350,
+        "excerpt": "Z Não posso; lá se vão os quinze minutos. A Conto-lhe só três. Um dia, o Xavier chegou a crer que podia enfim agarrar a fugitiva, e fincá-la perpetuamente no cérebro.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "agarrar",
+                "child": "a fugitiva",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "agarrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fugitiva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O ministério",
+        "sentence": "O ministério parece ignorar que a política é, como a vida, um cavalo xucro ou manhoso, e, não podendo ser bom cavaleiro, porque nunca o foi, devia ao menos parecer que o é.",
+        "start_char": 13453,
+        "end_char": 13465,
+        "excerpt": "Um dia, o Xavier chegou a crer que podia enfim agarrar a fugitiva, e fincá-la perpetuamente no cérebro. Abriu um jornal de oposição, e leu estupefato estas palavras: \" O ministério parece ignorar que a política é, como a vida, um cavalo xucro ou manhoso, e, não podendo ser bom cavaleiro, porque nunca o foi, devia ao menos parecer que o é.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "parece",
+                "child": "O ministério",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministério",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "enfim! exclamou o Xavier, cá estás engastado no bucho do peixe; já me não podes fugir.",
+        "start_char": 13653,
+        "end_char": 13659,
+        "excerpt": "O ministério parece ignorar que a política é, como a vida, um cavalo xucro ou manhoso, e, não podendo ser bom cavaleiro, porque nunca o foi, devia ao menos parecer que o é. \" - \"Ah! enfim! exclamou o Xavier, cá estás engastado no bucho do peixe; já me não podes fugir.",
+        "gender": "male",
+        "pch_occurrences": {
+            "barriga": {
+                "syns": [
+                    "barrigas",
+                    "abdome",
+                    "abdomes",
+                    "abdômen",
+                    "abdômens",
+                    "ventre",
+                    "ventres",
+                    "pança",
+                    "panças",
+                    "bucho",
+                    "buchos"
+                ],
+                "occurrences": [
+                    "bucho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "exclamou",
+                "child": "o Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pires",
+        "sentence": "Cúmulo de benefícios; era uma comédia do Pires, uma comédia nova.",
+        "start_char": 14033,
+        "end_char": 14038,
+        "excerpt": "a idéia fugia-lhe, sem deixar outro vestígio mais do que uma confusa reminiscência. Sombrio, desesperado, começou a andar, a andar, até que a noite caiu; passando por um teatro, entrou; muita gente, muitas luzes, muita alegria; o coração aquietou-se-lhe. Cúmulo de benefícios; era uma comédia do Pires, uma comédia nova.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comédia",
+                "child": "Pires",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "comédia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pires",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pires",
+                "child": "comédia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pires",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "comédia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cena",
+        "sentence": "No segundo ato, cena VIII, estremeceu.",
+        "start_char": 14172,
+        "end_char": 14176,
+        "excerpt": "Cúmulo de benefícios; era uma comédia do Pires, uma comédia nova. Sentou-se ao pé do autor, aplaudiu a obra com entusiasmo, com sincero amor de artista e de irmão. No segundo ato, cena VIII, estremeceu.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ato",
+                "child": ", cena",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ato",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "cena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cena",
+                "child": "VIII",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "cena",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "VIII",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cena",
+                "child": "ato",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "cena",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ato",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "VIII",
+                "child": ", cena",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "VIII",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "cena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eugênia",
+        "sentence": "\"D. Eugênia, diz o galã a uma senhora, o cavalo pode ser comparado à vida, que é também um cavalo xucro ou manhoso; quem não for bom cavaleiro, deve cuidar de parecer que o é.",
+        "start_char": 14194,
+        "end_char": 14205,
+        "excerpt": "Sentou-se ao pé do autor, aplaudiu a obra com entusiasmo, com sincero amor de artista e de irmão. No segundo ato, cena VIII, estremeceu. \"D. Eugênia, diz o galã a uma senhora, o cavalo pode ser comparado à vida, que é também um cavalo xucro ou manhoso; quem não for bom cavaleiro, deve cuidar de parecer que o é.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O autor",
+        "sentence": "O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "start_char": 14373,
+        "end_char": 14380,
+        "excerpt": "\"D. Eugênia, diz o galã a uma senhora, o cavalo pode ser comparado à vida, que é também um cavalo xucro ou manhoso; quem não for bom cavaleiro, deve cuidar de parecer que o é. \" O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "espiava",
+                "child": "O autor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "espiar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "start_char": 14422,
+        "end_char": 14428,
+        "excerpt": "\"D. Eugênia, diz o galã a uma senhora, o cavalo pode ser comparado à vida, que é também um cavalo xucro ou manhoso; quem não for bom cavaleiro, deve cuidar de parecer que o é. \" O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rosto",
+                "child": "Xavier",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rosto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "espiava",
+                        "child": "rosto",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "espiar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "Xavier",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Xavier"
+                    },
+                    {
+                        "head": "Xavier",
+                        "child": "rosto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Xavier",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    }
+                ]
+            },
+            {
+                "head": "Xavier",
+                "child": "rosto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "rosto",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "espiava",
+                        "child": "rosto",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "espiar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "Xavier",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Xavier"
+                    },
+                    {
+                        "head": "Xavier",
+                        "child": "rosto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Xavier",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    }
+                ]
+            },
+            {
+                "head": "repetia",
+                "child": "o Xavier",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "repetiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "start_char": 14420,
+        "end_char": 14428,
+        "excerpt": "\"D. Eugênia, diz o galã a uma senhora, o cavalo pode ser comparado à vida, que é também um cavalo xucro ou manhoso; quem não for bom cavaleiro, deve cuidar de parecer que o é. \" O autor, com o olhar tímido, espiava no rosto do Xavier o efeito daquela reflexão, enquanto o Xavier repetia a mesma súplica das outras vezes: - \"",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "repetia",
+                "child": "o Xavier",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "repetiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o último",
+        "sentence": "Venha o último encontro, que são horas.",
+        "start_char": 14571,
+        "end_char": 14579,
+        "excerpt": "\" Z Et nunc et semper... Venha o último encontro, que são horas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Venha",
+                "child": "o último encontro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Venha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "encontro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o último encontro",
+                "child": "Venha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "encontro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Venha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Xavier",
+        "sentence": "Já lhe disse que o Xavier transmitira a idéia a um amigo.",
+        "start_char": 14649,
+        "end_char": 14657,
+        "excerpt": "Venha o último encontro, que são horas. A O último foi o primeiro. Já lhe disse que o Xavier transmitira a idéia a um amigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "transmitira",
+                "child": "o Xavier",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "transmitira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo doente",
+        "sentence": "Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte.",
+        "start_char": 14723,
+        "end_char": 14737,
+        "excerpt": "A O último foi o primeiro. Já lhe disse que o Xavier transmitira a idéia a um amigo. Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Xavier",
+        "sentence": "O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe:",
+        "start_char": 14792,
+        "end_char": 14800,
+        "excerpt": "Já lhe disse que o Xavier transmitira a idéia a um amigo. Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte. O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "corre",
+                "child": "O Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o infeliz",
+        "sentence": "O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe:",
+        "start_char": 14818,
+        "end_char": 14827,
+        "excerpt": "Já lhe disse que o Xavier transmitira a idéia a um amigo. Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte. O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "o infeliz",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "infeliz",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "\"Cá vou, meu caro Xavier, o cavalo xucro ou manhoso da vida deitou-me ao chão:",
+        "start_char": 15002,
+        "end_char": 15008,
+        "excerpt": "Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte. O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe: \"Cá vou, meu caro Xavier, o cavalo xucro ou manhoso da vida deitou-me ao chão:",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "corre",
+                "child": "O Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "caro",
+                "child": "Xavier",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "caro",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Xavier",
+                "child": "caro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "caro",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguns sujeitos",
+        "sentence": "Contou-me também que a idéia ainda esvoaçou alguns minutos sobre o cadáver, faiscando as belas asas de cristal, que ele cria ser diamante; depois estalou um risinho de escárnio, ingrato e parricida, e fugiu como das outras vezes, metendo-se no cérebro de alguns sujeitos, amigos da casa, que ali estavam, transidos de dor, e recolheram com saudade esse pio legado do defunto.",
+        "start_char": 15428,
+        "end_char": 15443,
+        "excerpt": "\" Não se ria; ele contou-me isto com lágrimas. Contou-me também que a idéia ainda esvoaçou alguns minutos sobre o cadáver, faiscando as belas asas de cristal, que ele cria ser diamante; depois estalou um risinho de escárnio, ingrato e parricida, e fugiu como das outras vezes, metendo-se no cérebro de alguns sujeitos, amigos da casa, que ali estavam, transidos de dor, e recolheram com saudade esse pio legado do defunto.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cérebro",
+                "child": "alguns sujeitos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cérebro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alguns sujeitos",
+                "child": ", amigos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alguns sujeitos",
+                "child": "cérebro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cérebro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", amigos",
+                "child": "alguns sujeitos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "alguns sujeitos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dor",
+                "child": "alguns sujeitos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

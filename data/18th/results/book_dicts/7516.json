@@ -1,0 +1,1299 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "UMA POR OUTRA Artur Azevedo",
+        "start_char": 14,
+        "end_char": 27,
+        "excerpt": "UMA POR OUTRA Artur Azevedo O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Paulo",
+        "sentence": "O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas.",
+        "start_char": 28,
+        "end_char": 35,
+        "excerpt": "UMA POR OUTRA Artur Azevedo O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "jantou",
+                "child": "O Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista.",
+        "start_char": 295,
+        "end_char": 301,
+        "excerpt": "UMA POR OUTRA Artur Azevedo O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quatro meses",
+                "child": ": a Isabel",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mês",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o menor caso",
+                "child": ": a Isabel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "caso",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus protestos",
+                "child": ": a Isabel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "protesto",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": ": a Isabel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma entrevista",
+                "child": ": a Isabel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "entrevista",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A linda costureira",
+        "sentence": "A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas.",
+        "start_char": 424,
+        "end_char": 442,
+        "excerpt": "O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista. A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas.",
+        "start_char": 446,
+        "end_char": 452,
+        "excerpt": "O Paulo jantou apressadamente e, mal acabou de sorver o último gole de café, pôs o chapéu, saiu de casa, tomou na Rua do Catete um bonde que passava, apeou-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista. A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quatro meses",
+                "child": ": a Isabel",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mês",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o menor caso",
+                "child": ": a Isabel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "caso",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus protestos",
+                "child": ": a Isabel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "protesto",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": ": a Isabel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma entrevista",
+                "child": ": a Isabel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "entrevista",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A linda",
+                "child": "(a Isabel",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "linda",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(a Isabel",
+                "child": "A linda",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "linda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(a Isabel",
+                "child": "costureira",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "costureira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "Por nada: tinha sido um capricho da Isabel.",
+        "start_char": 1021,
+        "end_char": 1027,
+        "excerpt": "Por que Icaraí?... Por que não Copacabana ou Tijuca?... Por nada: tinha sido um capricho da Isabel.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "capricho",
+                "child": "Isabel",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "capricho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Isabel",
+                "child": "capricho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "capricho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel.",
+        "start_char": 1037,
+        "end_char": 1042,
+        "excerpt": "Por que não Copacabana ou Tijuca?... Por nada: tinha sido um capricho da Isabel. Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Notou",
+                "child": "o Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Notou",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Paulo",
+                "child": "distante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulo",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "distante",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Paulo",
+                "child": "isto é, da porta",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lugar",
+                "child": "o Paulo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "lugar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "isto é, da porta",
+                "child": "o Paulo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "estação",
+                "child": "o Paulo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "estação",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel.",
+        "start_char": 1244,
+        "end_char": 1250,
+        "excerpt": "Por que não Copacabana ou Tijuca?... Por nada: tinha sido um capricho da Isabel. Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel.",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "capricho",
+                "child": "Isabel",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "capricho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Isabel",
+                "child": "capricho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "capricho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a estatura",
+                "child": "Isabel",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "estatura",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Isabel",
+                "child": "a estatura",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "estatura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Isabel",
+                "child": "o corpo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "corpo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Isabel",
+                "child": "senhora",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A senhora de preto",
+        "sentence": "A senhora de preto não se parecia nada com a outra.",
+        "start_char": 1400,
+        "end_char": 1418,
+        "excerpt": "Seria ela que, por qualquer circunstância, não tivesse querido chegar mais perto? Ele aproximou-se, disfarçou, observou, e voltou para o seu posto. A senhora de preto não se parecia nada com a outra.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "chegaram e partiram numerosos bondes... as barcas de vez em quando despejavam gente sobre a praça, mas nem a Isabel aparecia, nem aquele misterioso vulto de mulher se movia do recanto sombrio em que estava.",
+        "start_char": 1621,
+        "end_char": 1627,
+        "excerpt": "Passou meia hora... passou uma hora; chegaram e partiram numerosos bondes... as barcas de vez em quando despejavam gente sobre a praça, mas nem a Isabel aparecia, nem aquele misterioso vulto de mulher se movia do recanto sombrio em que estava.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "movia",
+                "child": "nem a Isabel aparecia, nem aquele misterioso vulto de mulher",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "movia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "nem a Isabel aparecia, nem aquele misterioso vulto de mulher",
+                "child": "as barcas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "barca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo ficou desesperado.",
+        "start_char": 1719,
+        "end_char": 1724,
+        "excerpt": "passou uma hora; chegaram e partiram numerosos bondes... as barcas de vez em quando despejavam gente sobre a praça, mas nem a Isabel aparecia, nem aquele misterioso vulto de mulher se movia do recanto sombrio em que estava. Paulo ficou desesperado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou-",
+        "start_char": 1908,
+        "end_char": 1914,
+        "excerpt": "Mais um bonde, o último! - e ia esperando... Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou-",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vinha",
+                "child": "a Isabel",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora de preto",
+        "sentence": "Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou-",
+        "start_char": 1986,
+        "end_char": 2002,
+        "excerpt": "Mais um bonde, o último! - e ia esperando... Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou-",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha senhora",
+        "sentence": "- Pois não, minha senhora!, passam vinte das nove.",
+        "start_char": 2119,
+        "end_char": 2132,
+        "excerpt": "a. A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas. Eram sete e quarenta. Estava tudo muito bem combinado. Entrariam ambos na estação sem se falar, como se não se os conhecessem; tomariam a primeira barca e subiriam para a tolda, a fim de conversar à vontade. Desembarcando em São Domingos, um bonde levá-los-ia a Icaraí. Na saudosa praia esperava-os um ninho discreto, onde passariam a sua primeira noite de amor. Estava tudo muito bem combinado. Por que Icaraí?... Por que não Copacabana ou Tijuca?... Por nada: tinha sido um capricho da Isabel. Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel. Seria ela que, por qualquer circunstância, não tivesse querido chegar mais perto? Ele aproximou-se, disfarçou, observou, e voltou para o seu posto. A senhora de preto não se parecia nada com a outra. Era aliás mais bonita. Passou meia hora... passou uma hora; chegaram e partiram numerosos bondes... as barcas de vez em quando despejavam gente sobre a praça, mas nem a Isabel aparecia, nem aquele misterioso vulto de mulher se movia do recanto sombrio em que estava. Paulo ficou desesperado. O seu desejo era sair dali, não esperar nem mais um momento; dizia, porém, consigo: - Mais um bonde, o último! - e ia esperando... Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou- a. Ela perguntou-lhe, sorrindo: - Faz favor de me dizer que horas são? - Pois não, minha senhora!, passam vinte das nove.",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha senhora",
+        "sentence": "Que maçada! - Espera alguém, minha senhora?",
+        "start_char": 2212,
+        "end_char": 2225,
+        "excerpt": "- Pois não, minha senhora!, passam vinte das nove. - Decididamente não vem! Que maçada! - Espera alguém, minha senhora?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "passam",
+                "child": "Pois não, minha senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Espera",
+                "child": "minha senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Espera",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "- Que tem o senhor com isso? -",
+        "start_char": 2237,
+        "end_char": 2245,
+        "excerpt": "- Decididamente não vem! Que maçada! - Espera alguém, minha senhora? - Que tem o senhor com isso? -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "homem",
+        "sentence": "Naturalmente porque gosta muito do homem que a faz esperar...?",
+        "start_char": 2511,
+        "end_char": 2516,
+        "excerpt": "... certa simpatia... - Não imagina como estou contrariada! - Naturalmente porque gosta muito do homem que a faz esperar...?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gosta",
+                "child": "homem",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "- Como sabe o senhor que é um homem?",
+        "start_char": 2551,
+        "end_char": 2559,
+        "excerpt": "-se no largo da Carioca, desceu a Rua da Assembléia e dirigiu-se para o lado das barcas. Estava febricitante: a Isabel, que durante quatro meses não fez o menor caso de seus protestos de amor, resolvera, afinal, conceder-lhe uma entrevista. A linda costureira (a Isabel era costureira) ficara de estar às oito em ponto à porta da estação das barcas. Eram sete e quarenta. Estava tudo muito bem combinado. Entrariam ambos na estação sem se falar, como se não se os conhecessem; tomariam a primeira barca e subiriam para a tolda, a fim de conversar à vontade. Desembarcando em São Domingos, um bonde levá-los-ia a Icaraí. Na saudosa praia esperava-os um ninho discreto, onde passariam a sua primeira noite de amor. Estava tudo muito bem combinado. Por que Icaraí?... Por que não Copacabana ou Tijuca?... Por nada: tinha sido um capricho da Isabel. Notou o Paulo que, um pouco distante do lugar em que ele se achava, isto é, da porta da estação, estava, como que protegida pela sombra, uma senhora de preto, que tinha, pouco mais ou menos, o corpo e a estatura de Isabel. Seria ela que, por qualquer circunstância, não tivesse querido chegar mais perto? Ele aproximou-se, disfarçou, observou, e voltou para o seu posto. A senhora de preto não se parecia nada com a outra. Era aliás mais bonita. Passou meia hora... passou uma hora; chegaram e partiram numerosos bondes... as barcas de vez em quando despejavam gente sobre a praça, mas nem a Isabel aparecia, nem aquele misterioso vulto de mulher se movia do recanto sombrio em que estava. Paulo ficou desesperado. O seu desejo era sair dali, não esperar nem mais um momento; dizia, porém, consigo: - Mais um bonde, o último! - e ia esperando... Convencendo-se, afinal, de que a Isabel não vinha, resolveu ir para a casa, mas, ao retirar-se, passou rente à senhora de preto; que esperava sempre, e encarou- a. Ela perguntou-lhe, sorrindo: - Faz favor de me dizer que horas são? - Pois não, minha senhora!, passam vinte das nove. - Decididamente não vem! Que maçada! - Espera alguém, minha senhora? - Que tem o senhor com isso? - É que eu também esperava uma pessoa... e, quem sabe? talvez que a analogia das nossas situações pudesse estabelecer entre nós certa... certa... como direi? ... certa simpatia... - Não imagina como estou contrariada! - Naturalmente porque gosta muito do homem que a faz esperar...? - Como sabe o senhor que é um homem?",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sabe",
+                "child": "o senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "homem",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "homem",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Uma mulher",
+        "sentence": "Uma mulher não espera tanto tempo por outra...",
+        "start_char": 2578,
+        "end_char": 2588,
+        "excerpt": "- Como sabe o senhor que é um homem? - Uma mulher não espera tanto tempo por outra...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "espera",
+                "child": "Uma mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "- Sim, é por um homem que eu esperava, mas não pense o senhor que o ame loucamente.",
+        "start_char": 2761,
+        "end_char": 2769,
+        "excerpt": "- Isso é verdade... E, depois de uma ligeira pausa, continuou assim o diálogo: ELA - Sim, é por um homem que eu esperava, mas não pense o senhor que o ame loucamente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pense",
+                "child": "o senhor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": ": ELA",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELA",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "o diálogo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "diálogo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "ELA - Ora!, amanhã ela conta-lhe quatro caraminholas, e o senhor desculpa-a...",
+        "start_char": 3004,
+        "end_char": 3012,
+        "excerpt": "Era a nossa primeira entrevista... Foi melhor assim! ELA - Ora!, amanhã ela conta-lhe quatro caraminholas, e o senhor desculpa-a...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desculpa-a",
+                "child": "o senhor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "desculpa-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "ELA",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELA",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora dele",
+        "sentence": "ELE - Se nos vingássemos, eu dela e a senhora dele?",
+        "start_char": 3161,
+        "end_char": 3175,
+        "excerpt": "Não quero vê-la! ELA - Na realidade, temos ambos razão de estar queixosos... ELE - Se nos vingássemos, eu dela e a senhora dele?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "ELE - Se eu tomasse o lugar dele e a senhora o dela?",
+        "start_char": 3224,
+        "end_char": 3233,
+        "excerpt": "ELE - Se nos vingássemos, eu dela e a senhora dele? ELA - Como? ELE - Se eu tomasse o lugar dele e a senhora o dela?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ELE",
+                "child": "a senhora",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "ELE",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a senhora",
+                "child": "ELE",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELE",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "ELA - Que diria o senhor de mim?",
+        "start_char": 3258,
+        "end_char": 3266,
+        "excerpt": "ELA - Como? ELE - Se eu tomasse o lugar dele e a senhora o dela? ELA - Que diria o senhor de mim?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diria",
+                "child": "o senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o senhor",
+                "child": "ELA",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELA",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A senhora",
+        "sentence": "A senhora não me conhece, mas...",
+        "start_char": 3336,
+        "end_char": 3345,
+        "excerpt": "ELE - Diria: \"E uma mulher de espírito, que sabe vingar-se!\" A senhora não me conhece, mas...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conhece",
+                "child": "A senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "ELA - E se eu o conhecesse, Paulo?",
+        "start_char": 3397,
+        "end_char": 3402,
+        "excerpt": "\"E uma mulher de espírito, que sabe vingar-se!\" A senhora não me conhece, mas... ELA - E se eu o conhecesse, Paulo?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conhecesse",
+                "child": ", Paulo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Paulo",
+                "child": "ELA",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "Foi a Isabel que ma mostrou.",
+        "start_char": 3460,
+        "end_char": 3466,
+        "excerpt": "ELE - Conhece-me? ELA - Pelo menos de fotografia. Foi a Isabel que ma mostrou.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isabel",
+        "sentence": "ELE - A Isabel?!, conhece-a?",
+        "start_char": 3491,
+        "end_char": 3497,
+        "excerpt": "ELA - Pelo menos de fotografia. Foi a Isabel que ma mostrou. ELE - A Isabel?!, conhece-a?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ELE",
+                "child": "A Isabel",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELE",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Isabel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A Isabel",
+                "child": "ELE",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Isabel",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELE",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "ELA - Hoje ela disse que o senhor estaria aqui à sua espera às oito horas...",
+        "start_char": 3834,
+        "end_char": 3842,
+        "excerpt": "ELE - Muito obrigado. ELA - Não há de que. ELA - Hoje ela disse que o senhor estaria aqui à sua espera às oito horas...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Fiquei com muita pena do senhor e disse comigo:",
+        "start_char": 3965,
+        "end_char": 3971,
+        "excerpt": "ELA - Hoje ela disse que o senhor estaria aqui à sua espera às oito horas... mas que o deixaria esperar em vão, para desenganá-lo. Fiquei com muita pena do senhor e disse comigo:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "muita pena",
+                "child": "senhor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "muita pena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pena",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta mulher",
+        "sentence": "\"Como pode esta mulher enganar assim a um moço tão simpático?",
+        "start_char": 3999,
+        "end_char": 4010,
+        "excerpt": "mas que o deixaria esperar em vão, para desenganá-lo. Fiquei com muita pena do senhor e disse comigo: \"Como pode esta mulher enganar assim a um moço tão simpático?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "enganar",
+                "child": "esta mulher",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "enganar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um moço",
+        "sentence": "\"Como pode esta mulher enganar assim a um moço tão simpático?",
+        "start_char": 4027,
+        "end_char": 4034,
+        "excerpt": "mas que o deixaria esperar em vão, para desenganá-lo. Fiquei com muita pena do senhor e disse comigo: \"Como pode esta mulher enganar assim a um moço tão simpático?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "enganar",
+                "child": "um moço tão",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "enganar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um moço tão",
+                "child": "simpático",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "moço",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "simpático",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "verificar se o senhor tinha vindo...",
+        "start_char": 4136,
+        "end_char": 4144,
+        "excerpt": "Resolvi, então, um pouco por comodidade e.. . um pouco por simpatia... verificar se o senhor tinha vindo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vindo",
+                "child": "o senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "ELE - Então a senhora não estava à espera de ninguém?",
+        "start_char": 4315,
+        "end_char": 4324,
+        "excerpt": "verificar se o senhor tinha vindo... Quando o vi interrogando com os olhos ansiosamente os bondes que chegavam, tive ímpetos de preveni-lo de que ela não vinha, mas não me atrevi. ELE - Então a senhora não estava à espera de ninguém?",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a senhora",
+                "child": "espera",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "espera",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a senhora",
+                "child": "ELE",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELE",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "espera",
+                "child": "a senhora",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "espera",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

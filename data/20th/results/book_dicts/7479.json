@@ -1,0 +1,1038 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora:",
+        "start_char": 7,
+        "end_char": 20,
+        "excerpt": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora: havia de sair por força depois de jantar, sozinho, e só voltava às dez, às onze horas, e mesmo algumas vezes depois da meia-noite. A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O CUCO",
+                "child": "Artur Azevedo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CUCO",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Artur Azevedo",
+                "child": "O CUCO",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Artur",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CUCO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora:",
+        "start_char": 55,
+        "end_char": 62,
+        "excerpt": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora: havia de sair por força depois de jantar, sozinho, e só voltava às dez, às onze horas, e mesmo algumas vezes depois da meia-noite. A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficasse",
+                "child": "o Roberto",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Roberto",
+                "child": "meio",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Roberto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedia",
+                "child": "Roberto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A senhora",
+        "sentence": "A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "start_char": 250,
+        "end_char": 259,
+        "excerpt": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora: havia de sair por força depois de jantar, sozinho, e só voltava às dez, às onze horas, e mesmo algumas vezes depois da meia-noite. A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lastimava",
+                "child": "A senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lastimar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A senhora",
+                "child": "santa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "santa",
+                "child": "A senhora",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "santo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", como todas as mulheres",
+                "child": "A senhora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "maridos",
+                "child": "A senhora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "start_char": 356,
+        "end_char": 363,
+        "excerpt": "O CUCO Artur Azevedo Não havia meio de conseguir que o Roberto ficasse uma noite em casa, fazendo companhia à senhora: havia de sair por força depois de jantar, sozinho, e só voltava às dez, às onze horas, e mesmo algumas vezes depois da meia-noite. A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficasse",
+                "child": "o Roberto",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Roberto",
+                "child": "meio",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Roberto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedia",
+                "child": "Roberto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "avó de Roberto",
+        "sentence": "O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância.",
+        "start_char": 746,
+        "end_char": 760,
+        "excerpt": "A senhora, que era uma santa, como todas as mulheres de maridos notívagos, não se lastimava, não pedia ao Roberto que a levasse consigo, não lhe perguntava, sequer, por onde tinha andado, quando o via chegar um pouco mais tarde, o que raras vezes acontecia, porque em regra, quando o cuco da sala de jantar dava dez horas, já ela, coitadinha!, estava ferrada no sono. * * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um pássaro mecânico",
+        "sentence": "As horas eram dadas por um pássaro mecânico.",
+        "start_char": 917,
+        "end_char": 936,
+        "excerpt": "* * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância. As horas eram dadas por um pássaro mecânico.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cuco",
+        "sentence": "Cuco, cuco, cuco...",
+        "start_char": 1013,
+        "end_char": 1017,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "\"",
+                "child": "Cuco",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Cuco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cuco",
+                "child": "\"",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Cuco",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "Cuco, cuco, cuco...",
+        "start_char": 1019,
+        "end_char": 1023,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "Cuco, cuco, cuco...",
+        "start_char": 1019,
+        "end_char": 1023,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa.",
+        "start_char": 1037,
+        "end_char": 1044,
+        "excerpt": "Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "imitava-o",
+                "child": "O Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imitava-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as pessoas de casa",
+        "sentence": "O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa.",
+        "start_char": 1087,
+        "end_char": 1105,
+        "excerpt": "Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o nosso herói",
+        "sentence": "Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique.",
+        "start_char": 1127,
+        "end_char": 1140,
+        "excerpt": "* * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância. As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um amigo",
+        "sentence": "Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique.",
+        "start_char": 1185,
+        "end_char": 1193,
+        "excerpt": "* * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância. As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tentar",
+                "child": "um amigo",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um amigo",
+                "child": "herói",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "herói",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel.",
+        "start_char": 1297,
+        "end_char": 1304,
+        "excerpt": "* * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância. As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique. Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "partiu",
+                "child": "o amigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "partir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel.",
+        "start_char": 1361,
+        "end_char": 1368,
+        "excerpt": "* * * O cuco da sala de jantar era um dos mais curiosos que ficaram no Rio de Janeiro, do tempo em que foram moda: pertencera à avó de Roberto, e este por dinheiro nenhum se desfaria de tão preciosa relíquia de família, que era ao mesmo tempo saudosa recordação da infância. As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique. Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "avó",
+                "child": "Roberto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "avó",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Roberto",
+                "child": "avó",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Roberto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "avó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "imitava-o",
+                "child": "O Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imitava-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obrigado",
+                "child": "o Roberto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "obrigar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tílburi",
+        "sentence": "Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa.",
+        "start_char": 1566,
+        "end_char": 1573,
+        "excerpt": "Quando ele deu por si, eram quase quatro horas da madrugada! Oh, diabo!, a essa hora nunca entrara no lar doméstico! Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meteu-se",
+                "child": "tílburi",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Meteu-se",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tílburi",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua esposa",
+        "sentence": "O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar.",
+        "start_char": 1753,
+        "end_char": 1763,
+        "excerpt": "Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa. Abriu a porta com toda a cautela e antes de subir a escada, tirou as botinas, para não fazer bulha. O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O seu quarto",
+                "child": "de sua esposa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "quarto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "esposo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de sua esposa",
+                "child": "O seu quarto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "esposo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "quarto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de sua esposa",
+                "child": "contíguo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "esposo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "contíguo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: -",
+        "start_char": 1953,
+        "end_char": 1960,
+        "excerpt": "O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar. Ele atravessou, mas, como estivesse no escuro, esbarrou numa cadeira, que caiu com estrondo. Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "o Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: -",
+        "start_char": 1961,
+        "end_char": 1970,
+        "excerpt": "O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar. Ele atravessou, mas, como estivesse no escuro, esbarrou numa cadeira, que caiu com estrondo. Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: -",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "a senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "lá acordei minha mulher!",
+        "start_char": 2026,
+        "end_char": 2038,
+        "excerpt": "Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: - Sebo! lá acordei minha mulher!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acordei",
+                "child": "minha mulher",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "És tu, Roberto?",
+        "start_char": 2064,
+        "end_char": 2071,
+        "excerpt": "lá acordei minha mulher! Ela perguntou: - És tu, Roberto?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "És",
+                "child": ", Roberto",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "És",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Roberto",
+                "child": "És",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Roberto",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "És",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sinhazinha",
+        "sentence": "- Sim, sou eu, sinhazinha.",
+        "start_char": 2088,
+        "end_char": 2098,
+        "excerpt": "Ela perguntou: - És tu, Roberto? - Sim, sou eu, sinhazinha.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "E o marido acrescentou para si: -",
+        "start_char": 2102,
+        "end_char": 2110,
+        "excerpt": "És tu, Roberto? - Sim, sou eu, sinhazinha. E o marido acrescentou para si: -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acrescentou",
+                "child": "o marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acrescentar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cuco",
+        "sentence": "Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente:",
+        "start_char": 2181,
+        "end_char": 2187,
+        "excerpt": "E o marido acrescentou para si: - Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "o cuco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cuco",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cuco",
+        "sentence": "\"Cuco",
+        "start_char": 2236,
+        "end_char": 2240,
+        "excerpt": "Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente: \"Cuco",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "cuco...",
+        "start_char": 1025,
+        "end_char": 1029,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "cuco...",
+        "start_char": 1025,
+        "end_char": 1029,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "cuco...",
+        "start_char": 1025,
+        "end_char": 1029,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "- pensou o Roberto, mas uma idéia luminosa lhe atravessou de repente o cérebro, e quando o pássaro cantou pela quarta vez e voltou para a gaiola, ele continuou:",
+        "start_char": 2298,
+        "end_char": 2305,
+        "excerpt": "cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique. Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel. Quando ele deu por si, eram quase quatro horas da madrugada! Oh, diabo!, a essa hora nunca entrara no lar doméstico! Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa. Abriu a porta com toda a cautela e antes de subir a escada, tirou as botinas, para não fazer bulha. O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar. Ele atravessou, mas, como estivesse no escuro, esbarrou numa cadeira, que caiu com estrondo. Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: - Sebo! lá acordei minha mulher! Ela perguntou: - És tu, Roberto? - Sim, sou eu, sinhazinha. E o marido acrescentou para si: - Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente: \"Cuco ... cuco... cuco... cuco... \"- Estou perdido! - pensou o Roberto, mas uma idéia luminosa lhe atravessou de repente o cérebro, e quando o pássaro cantou pela quarta vez e voltou para a gaiola, ele continuou:",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "imitava-o",
+                "child": "O Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imitava-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obrigado",
+                "child": "o Roberto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "obrigar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouviu",
+                "child": "o Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perguntou",
+                "child": "Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensou",
+                "child": "o Roberto",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pássaro",
+        "sentence": "- pensou o Roberto, mas uma idéia luminosa lhe atravessou de repente o cérebro, e quando o pássaro cantou pela quarta vez e voltou para a gaiola, ele continuou:",
+        "start_char": 2376,
+        "end_char": 2385,
+        "excerpt": "cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique. Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel. Quando ele deu por si, eram quase quatro horas da madrugada! Oh, diabo!, a essa hora nunca entrara no lar doméstico! Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa. Abriu a porta com toda a cautela e antes de subir a escada, tirou as botinas, para não fazer bulha. O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar. Ele atravessou, mas, como estivesse no escuro, esbarrou numa cadeira, que caiu com estrondo. Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: - Sebo! lá acordei minha mulher! Ela perguntou: - És tu, Roberto? - Sim, sou eu, sinhazinha. E o marido acrescentou para si: - Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente: \"Cuco ... cuco... cuco... cuco... \"- Estou perdido! - pensou o Roberto, mas uma idéia luminosa lhe atravessou de repente o cérebro, e quando o pássaro cantou pela quarta vez e voltou para a gaiola, ele continuou:",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cantou",
+                "child": "o pássaro",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "pássaro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cuco",
+        "sentence": "\"Cuco",
+        "start_char": 2236,
+        "end_char": 2240,
+        "excerpt": "Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente: \"Cuco",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "cuco...",
+        "start_char": 1025,
+        "end_char": 1029,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cuco",
+        "sentence": "cuco...",
+        "start_char": 1025,
+        "end_char": 1029,
+        "excerpt": "As horas eram dadas por um pássaro mecânico. Saía este da sua gaiola, abria o bico e punha- se a cantar lentamente: - \" Cuco, cuco, cuco...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Roberto",
+        "sentence": "O próprio Roberto não sabia que ainda imitasse o pássaro com tanta perfeição.",
+        "start_char": 2512,
+        "end_char": 2519,
+        "excerpt": "cuco... \" O Roberto, em criança, imitava-o a ponto de enganar as pessoas de casa. * * * Uma noite foi o nosso herói ao Cassino Nacional, e deixou-se tentar por um amigo, que o convidou para cear com ele e duas chanteuses, uma gommeuse e outra excentrique. Depois da ceia, o amigo partiu com uma delas para Citera, vulgo Copacabana, e o Roberto foi obrigado a acompanhar a outra a uma pensão da Praia do Russel. Quando ele deu por si, eram quase quatro horas da madrugada! Oh, diabo!, a essa hora nunca entrara no lar doméstico! Meteu-se num tílburi, que lhe apareceu providencialmente, e voou para casa. Abriu a porta com toda a cautela e antes de subir a escada, tirou as botinas, para não fazer bulha. O seu quarto - seu e de sua esposa - era contíguo à sala de jantar tornava-se preciso atravessar esta para lá entrar. Ele atravessou, mas, como estivesse no escuro, esbarrou numa cadeira, que caiu com estrondo. Logo ouviu o Roberto a senhora remexer-se na cama e disse consigo: - Sebo! lá acordei minha mulher! Ela perguntou: - És tu, Roberto? - Sim, sou eu, sinhazinha. E o marido acrescentou para si: - Felizmente não sabe que horas são. Mas, nisto, o cuco saiu da gaiola, e começou a cantar lentamente: \"Cuco ... cuco... cuco... cuco... \"- Estou perdido! - pensou o Roberto, mas uma idéia luminosa lhe atravessou de repente o cérebro, e quando o pássaro cantou pela quarta vez e voltou para a gaiola, ele continuou: \"Cuco ... cuco... cuco... \" até completar onze cucos. O próprio Roberto não sabia que ainda imitasse o pássaro com tanta perfeição.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "imitava-o",
+                "child": "O Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imitava-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obrigado",
+                "child": "o Roberto",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "obrigar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouviu",
+                "child": "o Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perguntou",
+                "child": "Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensou",
+                "child": "o Roberto",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sabia",
+                "child": "O próprio Roberto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Roberto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A santa senhora",
+        "sentence": "A santa senhora voltou-se para o outro lado e adormeceu de novo.",
+        "start_char": 2691,
+        "end_char": 2706,
+        "excerpt": "Julguei que fosse mais cedo! E começou a despir-se. A santa senhora voltou-se para o outro lado e adormeceu de novo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltou-se",
+                "child": "A santa senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

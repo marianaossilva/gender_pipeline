@@ -1,0 +1,210 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Versos",
+        "sentence": "Dos esburgados peitos quase aberto, Versos impinge por miúdo e grosso.",
+        "start_char": 213,
+        "end_char": 219,
+        "excerpt": "Bocage De cerúleo gabão não bem coberto, Passeia em Santarém chuchado moço, Mantido às vezes de sucinto almoço, De ceia casual, jantar incerto; Dos esburgados peitos quase aberto, Versos impinge por miúdo e grosso.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peitos",
+                    "peito"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "impinge",
+                "child": "Versos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "impingir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Versos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "às moças ter",
+        "sentence": "Pede às moças ternura, e dão-lhe motes!",
+        "start_char": 329,
+        "end_char": 341,
+        "excerpt": "Dos esburgados peitos quase aberto, Versos impinge por miúdo e grosso. E do que em frase vil chamam caroço, Se o quer, é vox clamantis in deserto. Pede às moças ternura, e dão-lhe motes!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peitos",
+                    "peito"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "leitor",
+        "sentence": "Sabes, leitor, quem sofre tanto ultraje, Cercado de um tropel de franchinotes?",
+        "start_char": 442,
+        "end_char": 448,
+        "excerpt": "Pede às moças ternura, e dão-lhe motes! Que tendo um coração como estalage, Vão nele acomodando a mil pexotes. Sabes, leitor, quem sofre tanto ultraje, Cercado de um tropel de franchinotes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sabes",
+                "child": ", leitor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Sabes",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "leitor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", leitor",
+                "child": "Sabes",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "leitor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Sabes",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o autor",
+        "sentence": "É o autor do soneto: é o Bocage!",
+        "start_char": 516,
+        "end_char": 523,
+        "excerpt": "Que tendo um coração como estalage, Vão nele acomodando a mil pexotes. Sabes, leitor, quem sofre tanto ultraje, Cercado de um tropel de franchinotes? É o autor do soneto: é o Bocage!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "É o autor",
+                "child": "soneto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "autor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "soneto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "É o autor",
+                "child": "Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "autor",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Bocage",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "soneto",
+                "child": "É o autor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "soneto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "É o autor",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

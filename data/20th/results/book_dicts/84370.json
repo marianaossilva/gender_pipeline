@@ -1,0 +1,286 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Padre Patife Bocage",
+        "sentence": "Soneto do Padre Patife Bocage",
+        "start_char": 10,
+        "end_char": 29,
+        "excerpt": "Soneto do Padre Patife Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\"",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Padre Patife Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Padre Patife Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Padre",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "M . M . B . du Bocage",
+        "sentence": "Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \"",
+        "start_char": 29,
+        "end_char": 50,
+        "excerpt": "Soneto do Padre Patife Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\"",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A . M . do Couto",
+        "sentence": "Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \"",
+        "start_char": 29,
+        "end_char": 45,
+        "excerpt": "Soneto do Padre Patife Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\"",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deão",
+        "sentence": "A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\"",
+        "start_char": 186,
+        "end_char": 190,
+        "excerpt": "Soneto do Padre Patife Bocage Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\"",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um clérigo",
+                "child": "Deão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "clérigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "deão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deão",
+                "child": "Angola",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "deão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Angola",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deão",
+                "child": "um clérigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "deão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "clérigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Angola",
+                "child": "Deão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Angola",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "deão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "semi - clérigo patife",
+        "sentence": "Aquele semi-clérigo patife, Se eu no mundo fizera ainda apostas, Apostara contigo que nas costas",
+        "start_char": 284,
+        "end_char": 305,
+        "excerpt": "Na antologia \"Poesias satíricas inéditas de M. M. B. du Bocage, que foi compilada por A. M. do Couto\" (Lisboa 1840), está sob o título \" A um clérigo fulo, Deão de Angola, que aqui veio a requerimentos, e era corcovado naturalmente; corria o ano de 1800\" Aquele semi-clérigo patife, Se eu no mundo fizera ainda apostas, Apostara contigo que nas costas",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Célebre",
+        "sentence": "Célebre traste!",
+        "start_char": 413,
+        "end_char": 420,
+        "excerpt": "Aquele semi-clérigo patife, Se eu no mundo fizera ainda apostas, Apostara contigo que nas costas O grande Pico tem de Tenerife: Célebre traste!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Célebre",
+                "child": "traste",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "célebre",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "traste",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "traste",
+                "child": "Célebre",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "traste",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "célebre",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criança",
+        "sentence": "Pois que traz a criança no costado, Deve ter emprenhado pelo sesso.",
+        "start_char": 722,
+        "end_char": 731,
+        "excerpt": "Pela rachada parte (que apeteço) Parece que emprenhou, pois anda opado! Mas desta errada opinião me desço; Pois que traz a criança no costado, Deve ter emprenhado pelo sesso.",
+        "gender": "female",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "traz",
+                "child": "a criança",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

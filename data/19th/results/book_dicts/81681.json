@@ -1,0 +1,201 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "seus dois",
+        "sentence": "De seus dois olhos azuis!",
+        "start_char": 106,
+        "end_char": 115,
+        "excerpt": "Adoração dos Reis Auta de Souza Jesus sorri. Que ternura, Que doce favo de luz Vejo brilhar na candura De seus dois olhos azuis!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "brilhar",
+                "child": "seus dois olhos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "brilhar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus dois olhos",
+                "child": "azuis",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "azul",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os Magos",
+        "sentence": "Chegam os Magos.",
+        "start_char": 136,
+        "end_char": 144,
+        "excerpt": "Que ternura, Que doce favo de luz Vejo brilhar na candura De seus dois olhos azuis! Chegam os Magos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Chegam",
+                "child": "os Magos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Magos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pequenino Senhor",
+        "sentence": "De joelho, Cheios de unção e de amor, Beijam o pesinho vermelho Do pequenino Senhor.",
+        "start_char": 213,
+        "end_char": 229,
+        "excerpt": "De seus dois olhos azuis! Chegam os Magos. De joelho, Cheios de unção e de amor, Beijam o pesinho vermelho Do pequenino Senhor.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Reis do Grande Oriente",
+        "sentence": "Ó Reis do Grande Oriente, Por que lembrastes, então, Á mãe do louro inocente",
+        "start_char": 342,
+        "end_char": 364,
+        "excerpt": "Lembrando glória e tormento: Caçoulas de incenso e ouro É a mirra do sofrimento. Ó Reis do Grande Oriente, Por que lembrastes, então, Á mãe do louro inocente",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Á mãe do louro inocente",
+        "sentence": "Ó Reis do Grande Oriente, Por que lembrastes, então, Á mãe do louro inocente",
+        "start_char": 393,
+        "end_char": 416,
+        "excerpt": "Lembrando glória e tormento: Caçoulas de incenso e ouro É a mirra do sofrimento. Ó Reis do Grande Oriente, Por que lembrastes, então, Á mãe do louro inocente",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Virgem",
+        "sentence": "Não vedes que a Virgem chora Olhando a mirra cruel?",
+        "start_char": 456,
+        "end_char": 464,
+        "excerpt": "Ó Reis do Grande Oriente, Por que lembrastes, então, Á mãe do louro inocente A dor sem fim da Paixão? Não vedes que a Virgem chora Olhando a mirra cruel?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chora",
+                "child": "a Virgem",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Virgem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Virgem",
+                "child": "Não vedes",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Virgem",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vede",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o lindo",
+        "sentence": "Talvez não vísseis o lindo",
+        "start_char": 567,
+        "end_char": 574,
+        "excerpt": "Não vedes que a Virgem chora Olhando a mirra cruel? É que ela se lembra agora Da esponja embebida em fel. Talvez não vísseis o lindo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vísseis",
+                "child": "o lindo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "víssel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lir",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

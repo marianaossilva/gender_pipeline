@@ -1,0 +1,272 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "A criança",
+        "sentence": "A criança que pensa em fadas Alberto Caeiro",
+        "start_char": 0,
+        "end_char": 9,
+        "excerpt": "A criança que pensa em fadas Alberto Caeiro A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A criança",
+                "child": "Alberto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fadas",
+                "child": "A criança",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "fada",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto",
+                "child": "A criança",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "A criança que pensa em fadas Alberto Caeiro",
+        "start_char": 29,
+        "end_char": 43,
+        "excerpt": "A criança que pensa em fadas Alberto Caeiro A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A CRIANÇA",
+        "sentence": "A CRIANÇA que pensa em fadas e acredita nas fadas",
+        "start_char": 44,
+        "end_char": 53,
+        "excerpt": "A criança que pensa em fadas Alberto Caeiro A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A CRIANÇA",
+                "child": "Age",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CRIANÇA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Age",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fadas",
+                "child": "A CRIANÇA",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "fada",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CRIANÇA",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Age",
+                "child": "A CRIANÇA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Age",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CRIANÇA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Age como um deus doente, mas como um deus.",
+        "start_char": 106,
+        "end_char": 110,
+        "excerpt": "A criança que pensa em fadas Alberto Caeiro A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Age",
+                "child": "um deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Age",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Age",
+                "child": ", mas como um deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Age",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um deus",
+                "child": "doente",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "doente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um deus",
+                "child": "Age",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Age",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", mas como um deus",
+                "child": "Age",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Age",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Age como um deus doente, mas como um deus.",
+        "start_char": 106,
+        "end_char": 110,
+        "excerpt": "A criança que pensa em fadas Alberto Caeiro A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Age",
+                "child": "um deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Age",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Age",
+                "child": ", mas como um deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Age",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um deus",
+                "child": "doente",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "doente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um deus",
+                "child": "Age",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Age",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", mas como um deus",
+                "child": "Age",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Age",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque embora afirme que existe o que não existe Sabe como é que as cousas existem, que é existindo, Sabe que existir existe e não se explica, Sabe que não há razão nenhuma para nada existir,",
+        "start_char": 137,
+        "end_char": 140,
+        "excerpt": "A CRIANÇA que pensa em fadas e acredita nas fadas Age como um deus doente, mas como um deus. Porque embora afirme que existe o que não existe Sabe como é que as cousas existem, que é existindo, Sabe que existir existe e não se explica, Sabe que não há razão nenhuma para nada existir,",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

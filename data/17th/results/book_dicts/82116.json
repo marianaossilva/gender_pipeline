@@ -1,0 +1,109 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "a mãe das flores",
+        "sentence": "Afértil primavera, a mãe das flores",
+        "start_char": 116,
+        "end_char": 132,
+        "excerpt": "Já se afestou de nós o inverno agreste Envolto nos seus úmidos vapores; Afértil primavera, a mãe das flores",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zéfir",
+        "sentence": "Os torna azuis; as aves de mil cores Adejam entre Zéfiros e Amores, E toma o fresco Tejo a cor celeste: Vem, ó Marília, vem lograr comigo",
+        "start_char": 248,
+        "end_char": 253,
+        "excerpt": "O prado ameno de boninas veste: Varrendo os ares o sutilnordeste Os torna azuis; as aves de mil cores Adejam entre Zéfiros e Amores, E toma o fresco Tejo a cor celeste: Vem, ó Marília, vem lograr comigo",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as aves",
+                "child": "Zéfiros",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Zéfiros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zéfiros",
+                "child": "Amores",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Zéfiros",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amores",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zéfiros",
+                "child": "as aves",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Zéfiros",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Amores",
+                "child": "Zéfiros",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Amores",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Zéfiros",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Natureza",
+        "sentence": "Quanto me agrada mais estar contigo Notando as perfeições da Natureza!",
+        "start_char": 498,
+        "end_char": 506,
+        "excerpt": "Destas copadas árvores o abrigo: Deixa louvar da corte a vã grandeza: Quanto me agrada mais estar contigo Notando as perfeições da Natureza!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as perfeições",
+                "child": "Natureza",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "perfeição",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Natureza",
+                "child": "as perfeições",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Natureza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "perfeição",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

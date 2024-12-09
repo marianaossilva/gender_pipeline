@@ -1,0 +1,73 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Maria Nunes",
+        "sentence": "A Maria Nunes Estendo os olhos pelo prado a fora:",
+        "start_char": 31,
+        "end_char": 42,
+        "excerpt": "Manhã no Campo Auta de Souza A Maria Nunes Estendo os olhos pelo prado a fora: Verdura e flores é o que a vista alcança...",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Estendo",
+                "child": "A Maria Nunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Estendo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aur",
+        "sentence": "Voz de mulher ou, antes, de criança Entoa o hino branco da Esperança, Hino das aves ao nascer da Aurora.",
+        "start_char": 327,
+        "end_char": 330,
+        "excerpt": "- Bendito oásis onde o olhar descansa Quando saudades do passado chora. Escuto ao longe uma canção sonora. Voz de mulher ou, antes, de criança Entoa o hino branco da Esperança, Hino das aves ao nascer da Aurora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "nascer",
+                "child": "Aurora",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Aurora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Aurora",
+                "child": "Voz",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Aurora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

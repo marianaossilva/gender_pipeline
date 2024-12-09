@@ -1,0 +1,186 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "França",
+        "sentence": "No canto de um venal salão de dança, Ao som de uma rebeca desgrudada, Olhos em alvo, a porra arrebitada, Bocage, o folgazão, rostia o França:",
+        "start_char": 165,
+        "end_char": 171,
+        "excerpt": "Soneto ao Árcade França Bocage No canto de um venal salão de dança, Ao som de uma rebeca desgrudada, Olhos em alvo, a porra arrebitada, Bocage, o folgazão, rostia o França: Este, com mogigangas de criança, Com a mão pelos ovos encrespada, Brandia sobre a roxa fronte alçada Do assanhado porraz, que quer lambança: Veterana se faz a mão bisonha;",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olhos",
+                    "Olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Árcade França Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Árcade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Árcade França Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Árcade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rostia",
+                "child": "o França",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rostir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "França",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brandia",
+        "sentence": "Este, com mogigangas de criança, Com a mão pelos ovos encrespada, Brandia sobre a roxa fronte alçada Do assanhado porraz, que quer lambança: Veterana se faz a mão bisonha;",
+        "start_char": 239,
+        "end_char": 246,
+        "excerpt": "Soneto ao Árcade França Bocage No canto de um venal salão de dança, Ao som de uma rebeca desgrudada, Olhos em alvo, a porra arrebitada, Bocage, o folgazão, rostia o França: Este, com mogigangas de criança, Com a mão pelos ovos encrespada, Brandia sobre a roxa fronte alçada Do assanhado porraz, que quer lambança: Veterana se faz a mão bisonha;",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "Olhos",
+                    "Olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ovos",
+                "child": "Brandia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ovo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Brandia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandia",
+                "child": "ovos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ovo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Brandia",
+                "child": "a mão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Brandia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

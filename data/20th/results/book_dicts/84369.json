@@ -1,0 +1,111 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Muley Achmet",
+        "sentence": "Soneto do Mouro Desmoralizado Bocage Veio Muley  Achmet marroquino",
+        "start_char": -1,
+        "end_char": 11,
+        "excerpt": "",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moça boa",
+        "sentence": "Pagava bem, não houve moça boa",
+        "start_char": 123,
+        "end_char": 131,
+        "excerpt": "Soneto do Mouro Desmoralizado Bocage Veio Muley  Achmet marroquino Com duros trigos entulhar Lisboa; Pagava bem, não houve moça boa",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o mouro",
+        "sentence": "Tinha o mouro fodido largamente, E já bazofiando com desdouro Tratava a nação lusa d'impotente:",
+        "start_char": 311,
+        "end_char": 318,
+        "excerpt": "Que não provasse o casco adamantino: Passou a um seminário feminino, Dos que mais bem providos se apregoa, Onde a um frade bem fornida ilhoa Dava d'esmola cada dia um pino: Tinha o mouro fodido largamente, E já bazofiando com desdouro Tratava a nação lusa d'impotente:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tinha",
+                "child": "o mouro fodido largamente",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fodido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a nação lusa",
+        "sentence": "Tinha o mouro fodido largamente, E já bazofiando com desdouro Tratava a nação lusa d'impotente:",
+        "start_char": 375,
+        "end_char": 387,
+        "excerpt": "Que não provasse o casco adamantino: Passou a um seminário feminino, Dos que mais bem providos se apregoa, Onde a um frade bem fornida ilhoa Dava d'esmola cada dia um pino: Tinha o mouro fodido largamente, E já bazofiando com desdouro Tratava a nação lusa d'impotente:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o frade",
+        "sentence": "Entra o frade, e ao ouvi-lo, como um touro Passou tudo a caralho novamente, E o triunfo acabou no cu do mouro.",
+        "start_char": 407,
+        "end_char": 414,
+        "excerpt": "Dava d'esmola cada dia um pino: Tinha o mouro fodido largamente, E já bazofiando com desdouro Tratava a nação lusa d'impotente: Entra o frade, e ao ouvi-lo, como um touro Passou tudo a caralho novamente, E o triunfo acabou no cu do mouro.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Entra",
+                "child": "o frade",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "Entra",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "frade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

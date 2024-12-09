@@ -1,0 +1,955 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Mário de Sá - Carneiro",
+        "sentence": "Mário de Sá-Carneiro",
+        "start_char": 9,
+        "end_char": 31,
+        "excerpt": "DISPERSÃO Mário de Sá-Carneiro Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em abril de 2006.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eduardo Lopes de Oliveira e Silva",
+        "sentence": "Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em abril de 2006.",
+        "start_char": 59,
+        "end_char": 92,
+        "excerpt": "DISPERSÃO Mário de Sá-Carneiro Este texto foi digitado por Eduardo Lopes de Oliveira e Silva, no Rio de Janeiro, em abril de 2006.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "digitado",
+                "child": "Eduardo Lopes de Oliveira e Silva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "digitar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Eduardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estátua falsa",
+        "sentence": "Estátua falsa",
+        "start_char": 264,
+        "end_char": 277,
+        "excerpt": "Escavação 6 Inter-sonho 7 Álcool 8 Vontade de dormir 9 Dispersão 10 Estátua falsa",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rodopio",
+        "sentence": "Rodopio 18",
+        "start_char": 326,
+        "end_char": 333,
+        "excerpt": "13 Quase 14 Como eu não possuo 15 Além-tédio 17 Rodopio 18",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "possuo",
+                "child": "15 Além-tédio 17 Rodopio 18",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "possuo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Além-tédio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque eu reajo.",
+        "start_char": 774,
+        "end_char": 777,
+        "excerpt": "A sua luz Não há muitos que a saibam reflectir. A minhalma nostálgica de além, Cheia de orgulho, ensombra-se entretanto, Aos meus olhos ungidos sobe um pranto Que tenho a força de sumir também. Porque eu reajo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o artista",
+        "sentence": "A vida, a natureza, Que são para o artista?",
+        "start_char": 824,
+        "end_char": 833,
+        "excerpt": "A minhalma nostálgica de além, Cheia de orgulho, ensombra-se entretanto, Aos meus olhos ungidos sobe um pranto Que tenho a força de sumir também. Porque eu reajo. A vida, a natureza, Que são para o artista?",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que as nossas almas só acumularam, E prostrados rezar, em sonho, ao Deus, Que as nossas mãos de auréola lá douraram.",
+        "start_char": 1015,
+        "end_char": 1019,
+        "excerpt": "O que devemos é saltar na bruma, Correr no azul à busca da beleza. É subir, é subir além dos céus Que as nossas almas só acumularam, E prostrados rezar, em sonho, ao Deus, Que as nossas mãos de auréola lá douraram.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rezar",
+                "child": "Deus",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "rezar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alastro",
+        "sentence": "Alastro, venço, chego e ultrapasso;",
+        "start_char": 1848,
+        "end_char": 1855,
+        "excerpt": "... Asa longínqua a sacudir loucura, Nuvem precoce de subtil vapor, Ânsia revolta de mistério e olor, Sombra, vertigem, ascensão  Altura! E eu dou-me todo neste fim de tarde À espira aérea que me eleva aos cumes. 4 Doido de esfinges o horizonte arde, Mas fico ileso entre clarões e gumes! ... Miragem roxa de nimbado encanto  Sinto os meus olhos a volver-se em espaço! Alastro, venço, chego e ultrapasso;",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O bando das quimeras",
+        "sentence": "O bando das quimeras longe assoma...",
+        "start_char": 2069,
+        "end_char": 2089,
+        "excerpt": "Sou chuva de ouro e sou espasmo de luz; Sou taça de cristal lançada ao mar, Diadema e timbre, elmo real e cruz... O bando das quimeras longe assoma...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Vêm-me saudades de ter sido Deus...",
+        "start_char": 2201,
+        "end_char": 2205,
+        "excerpt": "Que apoteose imensa pelos céus! A cor já não é cor  é som e aroma! Vêm-me saudades de ter sido Deus...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vêm-me",
+                "child": "de ter sido Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Vêm-me",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brando",
+        "sentence": "Brando a espada:",
+        "start_char": 2550,
+        "end_char": 2556,
+        "excerpt": "Numa ânsia de ter alguma cousa, Divago por mim mesmo a procurar, Desço-me todo, em vão, sem nada achar, E a minhalma perdida não repousa. Nada tendo, decido-me a criar: Brando a espada:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Brando",
+                "child": "a espada",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "Brando",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "espar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tateio",
+        "sentence": "Romaria!  Tateio...",
+        "start_char": 3046,
+        "end_char": 3052,
+        "excerpt": "Manhã darmas! Manhã darmas! Romaria! Romaria!  Tateio...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Princesas de fantasia",
+        "sentence": "Princesas de fantasia Desencantam-se das flores...",
+        "start_char": 3076,
+        "end_char": 3097,
+        "excerpt": "dobro... resvalo... Princesas de fantasia Desencantam-se das flores...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Silvo",
+        "sentence": "Silvo pra além...",
+        "start_char": 3682,
+        "end_char": 3687,
+        "excerpt": "Luto, estrebucho... Em vão! Silvo pra além...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bruma",
+        "sentence": "Fecho os meus olhos com pavor da bruma...",
+        "start_char": 3849,
+        "end_char": 3854,
+        "excerpt": "Tudo oscila e se abate como espuma... Um disco de ouro surge a voltear... Fecho os meus olhos com pavor da bruma...",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pavor",
+                "child": "bruma",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pavor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "bruma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bruma",
+                "child": "pavor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bruma",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pavor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bruma",
+                "child": "os meus olhos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bruma",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "morf",
+        "sentence": "Nem ópio nem morfina.",
+        "start_char": 4017,
+        "end_char": 4021,
+        "excerpt": "Que sortilégio a mim próprio lancei? Como é que em dor genial eu me eterizo? Nem ópio nem morfina.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Nem ópio",
+                "child": "morfina",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ópio",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "morfina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morfina",
+                "child": "Nem ópio",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "morfina",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ópio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque eu era labirinto, E hoje, quando me sinto, É com saudades de mim.",
+        "start_char": 4477,
+        "end_char": 4480,
+        "excerpt": "Maio 6 9 DISPERSÃO Perdi-me dentro de mim Porque eu era labirinto, E hoje, quando me sinto, É com saudades de mim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o desaparecido",
+        "sentence": "(O Domingo de Paris Lembra-me o desaparecido",
+        "start_char": 4787,
+        "end_char": 4801,
+        "excerpt": "O tempo que aos outros foge Cai sobre mim feito ontem. (O Domingo de Paris Lembra-me o desaparecido",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Lembra-me",
+                "child": "o desaparecido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Lembra-me",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "desaparecido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os Domingos de Paris",
+        "sentence": "Os Domingos de Paris:",
+        "start_char": 4822,
+        "end_char": 4842,
+        "excerpt": "(O Domingo de Paris Lembra-me o desaparecido Que sentia comovido Os Domingos de Paris:",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque um domingo é família, É bem-estar, é singeleza, E os que olham a beleza Não têm bem-estar nem família).",
+        "start_char": 4844,
+        "end_char": 4847,
+        "excerpt": "Que sentia comovido Os Domingos de Paris: Porque um domingo é família, É bem-estar, é singeleza, E os que olham a beleza Não têm bem-estar nem família).",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre moço das ânsias",
+        "sentence": "O pobre moço das ânsias...",
+        "start_char": 4955,
+        "end_char": 4978,
+        "excerpt": "Os Domingos de Paris: Porque um domingo é família, É bem-estar, é singeleza, E os que olham a beleza Não têm bem-estar nem família). O pobre moço das ânsias...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A grande ave dourada",
+        "sentence": "A grande ave dourada Bateu asas para os céus, Mas fechou-as saciada Ao ver que ganhava os céus.",
+        "start_char": 5057,
+        "end_char": 5077,
+        "excerpt": "Tu sim, tu eras alguém! E foi por isso também Que te abismaste nas ânsias. A grande ave dourada Bateu asas para os céus, Mas fechou-as saciada Ao ver que ganhava os céus.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um amante",
+        "sentence": "Como se chora um amante, Assim me choro a mim mesmo:",
+        "start_char": 5167,
+        "end_char": 5176,
+        "excerpt": "E foi por isso também Que te abismaste nas ânsias. A grande ave dourada Bateu asas para os céus, Mas fechou-as saciada Ao ver que ganhava os céus. Como se chora um amante, Assim me choro a mim mesmo:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chora",
+                "child": "um amante",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sequinha",
+        "sentence": "Tenho a alma amortalhada, Sequinha, dentro de mim.",
+        "start_char": 5452,
+        "end_char": 5460,
+        "excerpt": "10 Regresso dentro de mim Mas nada me fala, nada! Tenho a alma amortalhada, Sequinha, dentro de mim.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tenho",
+                "child": "Sequinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sequinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Uma gentil companheira",
+        "sentence": "Saudosamente recordo Uma gentil companheira Que na minha vida inteira Eu nunca vi... mas recordo A sua boca doirada E o seu corpo esmaecido, Em um hálito perdido Que vem na tarde doirada.",
+        "start_char": 5595,
+        "end_char": 5617,
+        "excerpt": "Não perdi a minha alma, Fiquei com ela, perdida. Assim eu choro, da vida, A morte da minha alma. Saudosamente recordo Uma gentil companheira Que na minha vida inteira Eu nunca vi... mas recordo A sua boca doirada E o seu corpo esmaecido, Em um hálito perdido Que vem na tarde doirada.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "Uma gentil companheira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha vida",
+                "child": "Uma gentil companheira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "companheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "Ninguém mas quis apertar...",
+        "start_char": 6235,
+        "end_char": 6242,
+        "excerpt": "Em face dessas mãos brancas... Tristes mãos longas e lindas Que eram feitas pra se dar... Ninguém mas quis apertar...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tristes",
+        "sentence": "Tristes mãos longas e lindas...",
+        "start_char": 6263,
+        "end_char": 6270,
+        "excerpt": "Tristes mãos longas e lindas Que eram feitas pra se dar... Ninguém mas quis apertar... Tristes mãos longas e lindas...",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "menino ideal",
+        "sentence": "E tenho pena de mim, Pobre menino ideal...",
+        "start_char": 6322,
+        "end_char": 6334,
+        "excerpt": "Ninguém mas quis apertar... Tristes mãos longas e lindas... E tenho pena de mim, Pobre menino ideal...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sou",
+        "sentence": "Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar;",
+        "start_char": 7229,
+        "end_char": 7232,
+        "excerpt": "Nada me aloira já, nada me aterra: A vida corre sobre mim em guerra, E nem sequer um arrepio de medo! Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sou estrela",
+                "child": "ébria",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "estrela",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "ébrio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os céus",
+                "child": "Sou estrela",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "estrela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Sereia",
+                "child": "Sou estrela",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Sereia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "estrela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o mar",
+                "child": "Sou estrela",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "estrela",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sereia louca",
+        "sentence": "Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar;",
+        "start_char": 7267,
+        "end_char": 7279,
+        "excerpt": "Nada me aloira já, nada me aterra: A vida corre sobre mim em guerra, E nem sequer um arrepio de medo! Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Sou templo prestes a ruir sem deus, Estátua falsa ainda erguida ao ar...",
+        "start_char": 7328,
+        "end_char": 7332,
+        "excerpt": "A vida corre sobre mim em guerra, E nem sequer um arrepio de medo! Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar; Sou templo prestes a ruir sem deus, Estátua falsa ainda erguida ao ar...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ruir",
+                "child": "deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ruir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deus",
+                "child": "prestes",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "Deus",
+                "dep_c": "xcomp",
+                "pos_c": "ADJ",
+                "lemma_c": "prestes",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estátua falsa",
+        "sentence": "Sou templo prestes a ruir sem deus, Estátua falsa ainda erguida ao ar...",
+        "start_char": 7334,
+        "end_char": 7347,
+        "excerpt": "A vida corre sobre mim em guerra, E nem sequer um arrepio de medo! Sou estrela ébria que perdeu os céus, Sereia louca que deixou o mar; Sou templo prestes a ruir sem deus, Estátua falsa ainda erguida ao ar...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Asa",
+        "sentence": "Asa que se elançou mas não voou...",
+        "start_char": 7972,
+        "end_char": 7975,
+        "excerpt": "Ai a dor de ser-quase, dor sem fim... Eu falhei-me entre os mais, falhei em mim, Asa que se elançou mas não voou...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falhei-me",
+                "child": "Asa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falhei-me",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Asa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ânsias",
+        "sentence": "Ânsias que foram mas que não fixei...",
+        "start_char": 8114,
+        "end_char": 8120,
+        "excerpt": "Templos aonde nunca pus um altar... Rios que perdi sem os levar ao mar... Ânsias que foram mas que não fixei...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rios",
+                "child": "Ânsias",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Rios",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Ânsia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ânsias",
+                "child": "Rios",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Ânsia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Rios",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "À força de ambição e nostalgia, E doente-de-Novo, fui-me Deus",
+        "start_char": 10345,
+        "end_char": 10349,
+        "excerpt": "De tanto a divagar em luz irreal. Outrora imaginei escalar os céus À força de ambição e nostalgia, E doente-de-Novo, fui-me Deus",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fui-me",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fui-me",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Onde",
+        "sentence": "Há promontórios, faróis, Upam-se estátuas dheróis, Ondeiam lanças e mastros.",
+        "start_char": 11066,
+        "end_char": 11070,
+        "excerpt": "Ascendem hélices, rastros... Mais longe coam-me sóis; Há promontórios, faróis, Upam-se estátuas dheróis, Ondeiam lanças e mastros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Upam-se",
+                "child": ", Ondeiam",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Upam-se",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ondeiam",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ondeiam",
+                "child": "lanças",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ondeiam",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "lança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lanças",
+                "child": ", Ondeiam",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "lança",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ondeiam",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mastros",
+                "child": ", Ondeiam",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mastro",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ondeiam",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rainhas",
+        "sentence": "Luas doiro se embebedam, Rainhas desfolham lírios;",
+        "start_char": 11379,
+        "end_char": 11386,
+        "excerpt": "Cristais retinem de medo, Precipitam-se estilhaços, Chovem garras, manchas, laços... Planos, quebras e espaços Vertiginam em segredo. Luas doiro se embebedam, Rainhas desfolham lírios;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desfolham",
+                "child": "Rainhas",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "desfolhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Rainhas",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangem",
+        "sentence": "Há vislumbres de não-ser, Rangem, de vago, neblinas;",
+        "start_char": 12013,
+        "end_char": 12019,
+        "excerpt": "Um lenço, fitas, dedais...) 18 Há elmos, troféus, mortalhas, Emanações fugidias, Referências, nostalgias, Ruínas de melodias, Vertigens, erros e falhas. Há vislumbres de não-ser, Rangem, de vago, neblinas;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vislumbres",
+                "child": ", Rangem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "vislumbr",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Rangem",
+                "child": "vislumbres",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rangem",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vislumbr",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

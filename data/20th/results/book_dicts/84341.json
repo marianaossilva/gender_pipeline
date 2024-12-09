@@ -1,0 +1,237 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Donzela Ansiosa Bocage",
+        "sentence": "Soneto da Donzela Ansiosa Bocage",
+        "start_char": 10,
+        "end_char": 32,
+        "excerpt": "Soneto da Donzela Ansiosa Bocage Arreitada donzela em fofo leito, Deixando erguer a virginal camisa, Sobre as roliças coxas se divisa",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Donzela Ansiosa Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Donzela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Donzela Ansiosa Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Donzela",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "donzela em fofo leito, Deixando erguer a virginal camisa, Sobre as roliças coxas se divisa",
+        "start_char": 43,
+        "end_char": 50,
+        "excerpt": "Soneto da Donzela Ansiosa Bocage Arreitada donzela em fofo leito, Deixando erguer a virginal camisa, Sobre as roliças coxas se divisa",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "coxa": {
+                "syns": [
+                    "coxas"
+                ],
+                "occurrences": [
+                    "coxa",
+                    "coxas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Arreitada",
+                "child": "donzela",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "arreitar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "donzela",
+                "child": "fofo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fofo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fofo",
+                "child": "donzela",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fofo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leito",
+                "child": "donzela",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "leito",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A moça",
+        "sentence": "A moça treme, os olhos requebrando.",
+        "start_char": 390,
+        "end_char": 396,
+        "excerpt": "E a branda crica nacarada e lisa, Em pingos verte alvo licor desfeito. A voraz porra, as guelras encrespando, Arruma a focinheira, e entre gemidos A moça treme, os olhos requebrando.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A moça",
+                "child": "treme",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "treme",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Porém vai com tal ânsia trabalhando, Que os homens é que vêm a ser fodidos.",
+        "start_char": 506,
+        "end_char": 515,
+        "excerpt": "A moça treme, os olhos requebrando. Como é inda boçal, perder os sentidos; Porém vai com tal ânsia trabalhando, Que os homens é que vêm a ser fodidos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vêm",
+                "child": "os homens",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os homens",
+                "child": "tal ânsia",
+                "dep_h": "nsubj:pass",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ânsia",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,490 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Zaida",
+        "sentence": "Na cena em quadra trágico-invernosa Zaida se impingiu (fradesco drama!) Apareceu depois, com sede à fama, Tragédia mais igual, mais lastimosa:",
+        "start_char": 60,
+        "end_char": 65,
+        "excerpt": "Soneto Dramático Bocage Na cena em quadra trágico-invernosa Zaida se impingiu (fradesco drama!) Apareceu depois, com sede à fama, Tragédia mais igual, mais lastimosa: O autor pranteia em frase aparatosa",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cena",
+                "child": "Zaida",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cena",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Zaida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zaida",
+                "child": "cena",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Zaida",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O autor",
+        "sentence": "O autor pranteia em frase aparatosa",
+        "start_char": 167,
+        "end_char": 174,
+        "excerpt": "Soneto Dramático Bocage Na cena em quadra trágico-invernosa Zaida se impingiu (fradesco drama!) Apareceu depois, com sede à fama, Tragédia mais igual, mais lastimosa: O autor pranteia em frase aparatosa",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pranteia",
+                "child": "O autor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pranteia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "autor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pimpão d ' Alfama",
+        "sentence": "Esfaqueado arrais, pimpão d'Alfama;",
+        "start_char": 202,
+        "end_char": 219,
+        "excerpt": "Na cena em quadra trágico-invernosa Zaida se impingiu (fradesco drama!) Apareceu depois, com sede à fama, Tragédia mais igual, mais lastimosa: O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o protagonista",
+        "sentence": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "start_char": 245,
+        "end_char": 259,
+        "excerpt": "O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama; Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Corno",
+                "child": "o protagonista",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "corno",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "protagonista",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o protagonista",
+                "child": "Corno",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "protagonista",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "corno",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a dama",
+        "sentence": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "start_char": 268,
+        "end_char": 274,
+        "excerpt": "O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama; Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "puta",
+                "child": "a dama",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "putar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "dama",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a dama",
+                "child": "Corno",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dama",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "corno",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O machão",
+        "sentence": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "start_char": 276,
+        "end_char": 284,
+        "excerpt": "O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama; Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O machão",
+                "child": "Simeão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "machão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Simeão",
+                "child": "O machão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Simeão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "machão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simeão",
+        "sentence": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "start_char": 287,
+        "end_char": 293,
+        "excerpt": "O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama; Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O machão",
+                "child": "Simeão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "machão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Simeão",
+                "child": "O machão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Simeão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "machão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Simeão",
+                "child": "Rosa",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Simeão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mula",
+                "child": "Simeão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mula",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rosa",
+                "child": "Simeão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "start_char": 306,
+        "end_char": 310,
+        "excerpt": "O autor pranteia em frase aparatosa Esfaqueado arrais, pimpão d'Alfama; Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Simeão",
+                "child": "Rosa",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Simeão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mula",
+                "child": "Rosa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mula",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rosa",
+                "child": "a mula",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mula",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rosa",
+                "child": "Simeão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Simeão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o herói",
+        "sentence": "Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo!",
+        "start_char": 371,
+        "end_char": 378,
+        "excerpt": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa: Espicha o rabo (eu tremo ao proferi-lo) Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Espicha",
+                "child": "o herói",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Espicha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "herói",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o herói",
+                "child": "rua",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "herói",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rua",
+                "child": "o herói",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "herói",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Muratão",
+        "sentence": "Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo!",
+        "start_char": 392,
+        "end_char": 399,
+        "excerpt": "Corno o protagonista, e puta a dama, O machão é Simeão, e a mula é Rosa: Espicha o rabo (eu tremo ao proferi-lo) Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elmiro",
+        "sentence": "Elmiro na tarefa contínua, Já todos pela escolha, e pelo estilo Rosnam que a nova peça é obra sua.",
+        "start_char": 420,
+        "end_char": 426,
+        "excerpt": "Espicha o rabo (eu tremo ao proferi-lo) Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo! Elmiro na tarefa contínua, Já todos pela escolha, e pelo estilo Rosnam que a nova peça é obra sua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rosnam",
+                "child": "Elmiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rosnar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "elmiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Elmiro",
+                "child": "tarefa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "elmiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tarefa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tarefa",
+                "child": "Elmiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tarefa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "elmiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosnam",
+        "sentence": "Elmiro na tarefa contínua, Já todos pela escolha, e pelo estilo Rosnam que a nova peça é obra sua.",
+        "start_char": 484,
+        "end_char": 490,
+        "excerpt": "Espicha o rabo (eu tremo ao proferi-lo) Espicha o rabo ali o herói na rua, Qual Muratão nos areais do Nilo! Elmiro na tarefa contínua, Já todos pela escolha, e pelo estilo Rosnam que a nova peça é obra sua.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rosnam",
+                "child": "Elmiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rosnar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "elmiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rosnam",
+                "child": "obra",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rosnar",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "obra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

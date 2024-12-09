@@ -4,14 +4,13 @@ import numpy as np
 import scipy.stats as stats
 
 from collections import Counter
-from src.utils.files import save_csv
 
-ATTRIBUTES=['verbs', 'adjectives', 'categories', 'pchs']
-ADJ = './data/dictionaries/adjectives.txt'
+ATTRIBUTES=['lemmas', 'verbs', 'adjectives', 'categories', 'pchs']
+ADJ = '../data/dictionaries/adjectives.txt'
 with open(ADJ, 'r', encoding='utf-8') as f:
     adjectives = f.read().splitlines()
 
-def bias_analysis(entities, output_folder):
+def bias_analysis(entities):
     
     # Calculate the occurrences of each attribute
     gender_dict = calculate_occurrences(entities, ATTRIBUTES)
@@ -20,34 +19,32 @@ def bias_analysis(entities, output_folder):
     
     # Calculate the total number of words associated with each
     gender_total = get_gender_total(gender_dict)
-    save_csv(gender_total, output_folder + '/gender_total.csv', index_name='gender')
     
     # Calculate the overall statistics
     overall_stats = get_overall_stats(gender_dict, ATTRIBUTES)
-    save_csv(overall_stats, output_folder + '/overall_stats.csv', index_name='gender')
     
-    # Calculate the skewness and PMI for each attribute    
+    # Calculate the skewness and PMI for each attribute
+    attribute_dict = {}
     for attribute in ATTRIBUTES:        
-        attribute_dict = get_word_occurrences(gender_dict, attribute)        
-        # Calculate gender skewness        
-        get_gender_skewness(attribute_dict, total_f, total_m)        
+        attribute_res = get_word_occurrences(gender_dict, attribute)        
+        # Calculate gender skewness
+        get_gender_skewness(attribute_res, total_f, total_m)        
         # Calculate PMI
-        calculate_pmi(attribute_dict, total_f, total_m)
+        calculate_pmi(attribute_res, total_f, total_m)
         # Save the results
-        save_csv(attribute_dict, output_folder + '/' + attribute + '.csv')
+        attribute_dict[attribute] = attribute_res
     
-    return gender_dict
+    return gender_total, overall_stats, gender_dict, attribute_dict
 
 
-def get_overall_stats(data, attributes=[]):
+def get_overall_stats(data, att=[]):
     overall_stats = {
         "female": {},
         "male": {},
         "unknown": {}
     }
-    attributes += ['lemmas']
     for gender, items in data.items(): 
-        for attribute in attributes:
+        for attribute in att:
             overall_stats[gender][attribute] = items[attribute]['total']
     return overall_stats
 
@@ -65,24 +62,20 @@ def get_gender_total(data):
 
 def get_counter(gender_dict):
     for gender, items in gender_dict.items():
-        gender_dict[gender]['lemmas'] = {
-            'counter': Counter(items['lemmas']),
-            'total': len(items['lemmas'])
-        }
         for attribute, values in items.items():
             if attribute in ATTRIBUTES:
                 gender_dict[gender][attribute] = {
                     'counter': Counter(values),
                     'total': len(values)
-                }
+                }               
     
     return gender_dict
 
-def calculate_occurrences(entities, attributes=[]): 
+def calculate_occurrences(entities, att=[]): 
        
-    gender_dict = initiate_dict(attributes)        
+    gender_dict = initiate_dict(att)        
     for entity in entities:        
-        person = entity['person']
+        person = entity['entity']
         gender = entity['gender'].lower()
         gender_dict[gender]['total'] += 1
         
@@ -126,11 +119,10 @@ def calculate_occurrences(entities, attributes=[]):
             gender_dict[gender]['agency']['score'].append(agency_score)
     return gender_dict
 
-def initiate_dict(attributes=[]):
+def initiate_dict(att=[]):
     res_dict = {
         'male': {
             'total': 0,
-            'lemmas': [],
             'agency': {
                 'nsubj': 0,
                 'obj': 0,
@@ -140,7 +132,6 @@ def initiate_dict(attributes=[]):
         }, 
         'female': {
             'total': 0,
-            'lemmas': [],
             'agency': {
                 'nsubj': 0,
                 'obj': 0,
@@ -150,7 +141,6 @@ def initiate_dict(attributes=[]):
         },
         'unknown': {
             'total': 0,
-            'lemmas': [],
             'agency': {
                 'nsubj': 0,
                 'obj': 0,
@@ -160,7 +150,7 @@ def initiate_dict(attributes=[]):
         }
     }   
      
-    for attribute in attributes:
+    for attribute in att:
         res_dict['female'][attribute] = []
         res_dict['male'][attribute] = []
         res_dict['unknown'][attribute] = []
@@ -228,8 +218,10 @@ def gender_skewness(word_female, word_male, female_total, male_total):
                          [female_total-word_female, male_total-word_male]]) # observed frequencies
     
     # perform chi-square test for proportions
-    chi2, p_value = stats.chi2_contingency(observed)[:2]  # retrieve only chi2 and p-value
-    
+    try:
+        chi2, p_value = stats.chi2_contingency(observed)[:2]  # retrieve only chi2 and p-value
+    except ValueError:
+        chi2, p_value = 0, 0
     return skewness, pct_f, pct_m, chi2, p_value
 
 def calculate_pmi(data, total_f, total_m):

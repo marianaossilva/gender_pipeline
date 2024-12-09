@@ -1,0 +1,2276 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "DONA EULÁLIA Artur Azevedo",
+        "start_char": 13,
+        "end_char": 26,
+        "excerpt": "DONA EULÁLIA Artur Azevedo Quando cheguei, a casa mortuária estava cheia de gente. No centro da sala, forrada de preto, havia uma essa entre quatro enormes tochas acesas, e sobre a essa um caixão, dentro do qual D. Eulália dormia o último sono.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "No centro da sala, forrada de preto, havia uma essa entre quatro enormes tochas acesas, e sobre a essa um caixão, dentro do qual D. Eulália dormia o último sono.",
+        "start_char": 82,
+        "end_char": 93,
+        "excerpt": "DONA EULÁLIA Artur Azevedo Quando cheguei, a casa mortuária estava cheia de gente. No centro da sala, forrada de preto, havia uma essa entre quatro enormes tochas acesas, e sobre a essa um caixão, dentro do qual D. Eulália dormia o último sono.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o padre",
+        "sentence": "Faltava apenas o padre.",
+        "start_char": 297,
+        "end_char": 304,
+        "excerpt": "No centro da sala, forrada de preto, havia uma essa entre quatro enormes tochas acesas, e sobre a essa um caixão, dentro do qual D. Eulália dormia o último sono. Já tinha passado a hora do saimento. Faltava apenas o padre.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Faltava",
+                "child": "apenas o padre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "faltavar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "padre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O padre",
+        "sentence": "O padre não aparecia.",
+        "start_char": 306,
+        "end_char": 313,
+        "excerpt": "Já tinha passado a hora do saimento. Faltava apenas o padre. O padre não aparecia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aparecia",
+                "child": "O padre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "padre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O viúvo",
+        "sentence": "O viúvo, comovido, mas calmo, perfeitamente calmo, perguntou a um parente, que pelos modos tinha se encarregado do enterro:",
+        "start_char": 328,
+        "end_char": 335,
+        "excerpt": "Faltava apenas o padre. O padre não aparecia. O viúvo, comovido, mas calmo, perfeitamente calmo, perguntou a um parente, que pelos modos tinha se encarregado do enterro:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "O viúvo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O viúvo",
+                "child": "calmo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "calmo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O viúvo",
+                "child": "calmo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "calmo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um parente",
+        "sentence": "O viúvo, comovido, mas calmo, perfeitamente calmo, perguntou a um parente, que pelos modos tinha se encarregado do enterro:",
+        "start_char": 391,
+        "end_char": 401,
+        "excerpt": "Faltava apenas o padre. O padre não aparecia. O viúvo, comovido, mas calmo, perfeitamente calmo, perguntou a um parente, que pelos modos tinha se encarregado do enterro:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "um parente",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "parente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padre",
+        "sentence": "esse padre?..",
+        "start_char": 470,
+        "end_char": 475,
+        "excerpt": "O viúvo, comovido, mas calmo, perfeitamente calmo, perguntou a um parente, que pelos modos tinha se encarregado do enterro: - Então?.. . esse padre?..",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tio Eusébio",
+        "sentence": "O Tio Eusébio quer que eu vá buscá-lo?",
+        "start_char": 502,
+        "end_char": 513,
+        "excerpt": "esse padre?.. - Já cá devia estar. O Tio Eusébio quer que eu vá buscá-lo?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quer",
+                "child": "O Tio Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Casuza",
+        "sentence": "- É favor, Casuza.",
+        "start_char": 550,
+        "end_char": 556,
+        "excerpt": "- Já cá devia estar. O Tio Eusébio quer que eu vá buscá-lo? - É favor, Casuza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Casuza",
+                "child": "favor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Casuza",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "favor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o parente",
+        "sentence": "E o parente saiu muito apressado.",
+        "start_char": 560,
+        "end_char": 569,
+        "excerpt": "O Tio Eusébio quer que eu vá buscá-lo? - É favor, Casuza. E o parente saiu muito apressado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "o parente",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "parente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Ensébio",
+        "sentence": "Dez minutos depois, o Ensébio aproximou-se de mim e disse-me baixinho: - E nada de padre!",
+        "start_char": 612,
+        "end_char": 621,
+        "excerpt": "- É favor, Casuza. E o parente saiu muito apressado. Dez minutos depois, o Ensébio aproximou-se de mim e disse-me baixinho: - E nada de padre!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aproximou-se",
+                "child": "o Ensébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproximar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ensébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno.",
+        "start_char": 804,
+        "end_char": 811,
+        "excerpt": "Estava escrito que este dia não passava para mim sem alguma contrariedade... * * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Eusébio",
+                "child": "marido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "O Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno.",
+        "start_char": 801,
+        "end_char": 812,
+        "excerpt": "Estava escrito que este dia não passava para mim sem alguma contrariedade... * * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre homem",
+        "sentence": "O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso!",
+        "start_char": 924,
+        "end_char": 937,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "O pobre homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria.",
+        "start_char": 1269,
+        "end_char": 1280,
+        "excerpt": "O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão.",
+        "start_char": 1510,
+        "end_char": 1517,
+        "excerpt": "Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão.",
+        "start_char": 1459,
+        "end_char": 1470,
+        "excerpt": "Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a vizinhança",
+        "sentence": "Durante quinze dias a vizinhança não se ocupou de outra coisa.",
+        "start_char": 1726,
+        "end_char": 1738,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ocupou",
+                "child": "a vizinhança",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ocupar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinhança",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O marido",
+        "sentence": "O marido que apanha da cara metade está perdido;",
+        "start_char": 1769,
+        "end_char": 1777,
+        "excerpt": "Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido;",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O marido",
+                "child": "perdido",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "perdido",
+                "categories": [
+                    "social",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cara",
+                "child": "O marido",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cara",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": [
+                    {
+                        "head": "apanha",
+                        "child": "cara",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "apanhar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "O marido",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "marido"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "perdido",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "ROOT",
+                        "pos_c": "ADJ",
+                        "lemma_c": "perdido"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Eusébio",
+        "sentence": "O Eusébio apanhou e chorou...",
+        "start_char": 1872,
+        "end_char": 1881,
+        "excerpt": "O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "apanhou",
+                "child": "O Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália.",
+        "start_char": 2023,
+        "end_char": 2034,
+        "excerpt": "Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada.",
+        "start_char": 2260,
+        "end_char": 2267,
+        "excerpt": "Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "afeito",
+                "child": "o nosso Eusébio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "afeitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o nosso Eusébio",
+                "child": "todas as maçadas",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "maçada",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dona da casa",
+        "sentence": "De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada.",
+        "start_char": 2383,
+        "end_char": 2395,
+        "excerpt": "Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa.",
+        "start_char": 2440,
+        "end_char": 2451,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa.",
+        "start_char": 2549,
+        "end_char": 2556,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O Eusébio",
+                "child": "marido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "O Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tentou",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apanhou",
+                "child": "O Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "afeito",
+                "child": "o nosso Eusébio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "afeitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o nosso Eusébio",
+                "child": "todas as maçadas",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "maçada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obrigado",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obrigar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a recém - chegada",
+        "sentence": "O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências.",
+        "start_char": 2612,
+        "end_char": 2629,
+        "excerpt": "De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa. O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre marido",
+        "sentence": "Um dia o pobre marido foi muito cedo arrancado da cama pela mulher.",
+        "start_char": 2755,
+        "end_char": 2769,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa. O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências. * * * Um dia o pobre marido foi muito cedo arrancado da cama pela mulher.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o pobre marido",
+                "child": "arrancado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "arrancar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "pois a Maria...?",
+        "start_char": 2898,
+        "end_char": 2903,
+        "excerpt": "- Levante-se, tome banho, vista-se e vá procurar uma cozinheira! - Quê!... pois a Maria...?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rua",
+        "sentence": "- Acabo de pô-la no olho da rua!",
+        "start_char": 2936,
+        "end_char": 2939,
+        "excerpt": "- Quê!... pois a Maria...? - Acabo de pô-la no olho da rua!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olho",
+                "child": "rua",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rua",
+                "child": "olho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rua",
+                "child": "- Acabo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Acabo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Uma cozinheira",
+        "sentence": "- Uma cozinheira que não estava em casa há oito dias!",
+        "start_char": 2988,
+        "end_char": 3002,
+        "excerpt": "- Não é da sua conta! Mexa-se!... - Uma cozinheira que não estava em casa há oito dias!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "- Uma cozinheira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cozinheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- Uma cozinheira",
+                "child": "casa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cozinheira",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "- Uma cozinheira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cozinheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cozinheira de agência",
+        "sentence": "olhe que se me traz cozinheira de agência, não passa da porta da rua!",
+        "start_char": 3154,
+        "end_char": 3175,
+        "excerpt": "Vamos! vista-se! E nada de agências, hem? olhe que se me traz cozinheira de agência, não passa da porta da rua!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante.",
+        "start_char": 3222,
+        "end_char": 3229,
+        "excerpt": "olhe que se me traz cozinheira de agência, não passa da porta da rua! * * * Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "purgado",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "purgar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante.",
+        "start_char": 3209,
+        "end_char": 3220,
+        "excerpt": "olhe que se me traz cozinheira de agência, não passa da porta da rua! * * * Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pobre - diabo",
+        "sentence": "O pobre-diabo, que morava no Rio Comprido, foi, levado por informações, procurar uma cozinheira em São Francisco Xavier.",
+        "start_char": 3333,
+        "end_char": 3348,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa. O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências. * * * Um dia o pobre marido foi muito cedo arrancado da cama pela mulher. - Levante-se, tome banho, vista-se e vá procurar uma cozinheira! - Quê!... pois a Maria...? - Acabo de pô-la no olho da rua! - Por quê? - Não é da sua conta! Mexa-se!... - Uma cozinheira que não estava em casa há oito dias! ... - Basta de observações! Quem manda aqui sou eu! Vamos! vista-se! E nada de agências, hem? olhe que se me traz cozinheira de agência, não passa da porta da rua! * * * Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante. O pobre-diabo, que morava no Rio Comprido, foi, levado por informações, procurar uma cozinheira em São Francisco Xavier.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O desgraçado",
+        "sentence": "O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto.",
+        "start_char": 3570,
+        "end_char": 3582,
+        "excerpt": "Já estava alugada; entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "almoçou",
+                "child": "O desgraçado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "almoçar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "desgraçado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A cozinheira",
+        "sentence": "A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "start_char": 3658,
+        "end_char": 3670,
+        "excerpt": "entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A cozinheira",
+                "child": "casa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cozinheira",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "A cozinheira",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cozinheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um vizinho",
+        "sentence": "A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "start_char": 3771,
+        "end_char": 3781,
+        "excerpt": "entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aconselhou",
+                "child": "um vizinho",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aconselhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um vizinho",
+                "child": "casa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "start_char": 3795,
+        "end_char": 3802,
+        "excerpt": "entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aconselhou",
+                "child": "o Eusébio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aconselhar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Eusébio",
+                "child": "casa",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a diligência",
+                "child": "o Eusébio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "diligência",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair.",
+        "start_char": 3946,
+        "end_char": 3953,
+        "excerpt": "O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego. Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aconselhou",
+                "child": "o Eusébio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aconselhar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Eusébio",
+                "child": "casa",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a diligência",
+                "child": "o Eusébio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "diligência",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Abalou",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Abalou",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair.",
+        "start_char": 3996,
+        "end_char": 4004,
+        "excerpt": "O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego. Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "trabalhava",
+                "child": "a mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "encontrou",
+                "child": "a mulher",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mulher",
+                "child": "Rua",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mulher",
+                "child": ", em casa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mulher",
+                "child": "pronta",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "pronto",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rua",
+                "child": "a mulher",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rua",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sorocaba",
+                "child": "a mulher",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sorocaba",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", em casa",
+                "child": "a mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "parenta",
+                "child": "a mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "parenta",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Ela, pelo seu lado, simpatizou com o Eusébio, a julgar pela prontidão com que se ajustaram.",
+        "start_char": 4271,
+        "end_char": 4278,
+        "excerpt": "Por pouco mais, a viagem teria sido baldada. Era uma mulata quarentona, muito limpa, de um aspecto simpático e humilde, que à primeira vista inspirava certa confiança. Ela, pelo seu lado, simpatizou com o Eusébio, a julgar pela prontidão com que se ajustaram.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "simpatizou",
+                "child": "o Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "simpatizor",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu patrão",
+        "sentence": "Bem; amanhã lá estarei, meu patrão.",
+        "start_char": 4352,
+        "end_char": 4362,
+        "excerpt": "Ela, pelo seu lado, simpatizou com o Eusébio, a julgar pela prontidão com que se ajustaram. - Bem; amanhã lá estarei, meu patrão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "estarei",
+                "child": "meu patrão",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "- Amanhã, não: há de ser hoje, porque se entro em casa sem cozinheira, minha mulher...",
+        "start_char": 4435,
+        "end_char": 4447,
+        "excerpt": "- Então?.. . esse padre?.. - Já cá devia estar. O Tio Eusébio quer que eu vá buscá-lo? - É favor, Casuza. E o parente saiu muito apressado. Dez minutos depois, o Ensébio aproximou-se de mim e disse-me baixinho: - E nada de padre! Estava escrito que este dia não passava para mim sem alguma contrariedade... * * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa. O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências. * * * Um dia o pobre marido foi muito cedo arrancado da cama pela mulher. - Levante-se, tome banho, vista-se e vá procurar uma cozinheira! - Quê!... pois a Maria...? - Acabo de pô-la no olho da rua! - Por quê? - Não é da sua conta! Mexa-se!... - Uma cozinheira que não estava em casa há oito dias! ... - Basta de observações! Quem manda aqui sou eu! Vamos! vista-se! E nada de agências, hem? olhe que se me traz cozinheira de agência, não passa da porta da rua! * * * Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante. O pobre-diabo, que morava no Rio Comprido, foi, levado por informações, procurar uma cozinheira em São Francisco Xavier. Já estava alugada; entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego. Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair. Por pouco mais, a viagem teria sido baldada. Era uma mulata quarentona, muito limpa, de um aspecto simpático e humilde, que à primeira vista inspirava certa confiança. Ela, pelo seu lado, simpatizou com o Eusébio, a julgar pela prontidão com que se ajustaram. - Bem; amanhã lá estarei, meu patrão. - Amanhã, não: há de ser hoje, porque se entro em casa sem cozinheira, minha mulher...",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "porque se entro",
+                "child": "minha mulher",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "entro",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "porque se entro",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "entro",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Eusébio",
+        "sentence": "O Eusébio interrompeu-se - ia deitando tudo a perder, - e emendou: ...",
+        "start_char": 4451,
+        "end_char": 4460,
+        "excerpt": "Bem; amanhã lá estarei, meu patrão. - Amanhã, não: há de ser hoje, porque se entro em casa sem cozinheira, minha mulher... O Eusébio interrompeu-se - ia deitando tudo a perder, - e emendou: ...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "interrompeu-se",
+                "child": "O Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interrompeu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mulher",
+        "sentence": "minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei.",
+        "start_char": 4522,
+        "end_char": 4534,
+        "excerpt": "- Amanhã, não: há de ser hoje, porque se entro em casa sem cozinheira, minha mulher... O Eusébio interrompeu-se - ia deitando tudo a perder, - e emendou: ... minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "minha mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mulher",
+                "child": "senhora",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhora",
+                "child": "minha mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu patrão",
+        "sentence": "- Nesse caso, meu patrão, é preciso que eu vá primeiramente ao Morro do Pinto.",
+        "start_char": 4645,
+        "end_char": 4655,
+        "excerpt": "O Eusébio interrompeu-se - ia deitando tudo a perder, - e emendou: ... minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei. - Nesse caso, meu patrão, é preciso que eu vá primeiramente ao Morro do Pinto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "- Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio.",
+        "start_char": 4776,
+        "end_char": 4783,
+        "excerpt": "minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei. - Nesse caso, meu patrão, é preciso que eu vá primeiramente ao Morro do Pinto. - Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "resignado",
+                "child": "Eusébio",
+                "dep_h": "obj",
+                "pos_h": "VERB",
+                "lemma_h": "resignado",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o infeliz marido",
+        "sentence": "Era quase noite fechada, quando o infeliz marido, fatigadíssimo, doente, sem jantar, entrou em casa acompanhado da mulata.",
+        "start_char": 4823,
+        "end_char": 4839,
+        "excerpt": "- Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio. * * * Era quase noite fechada, quando o infeliz marido, fatigadíssimo, doente, sem jantar, entrou em casa acompanhado da mulata.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "o infeliz marido, fatigadíssimo,",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o infeliz marido, fatigadíssimo,",
+                "child": "doente",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "doente",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o infeliz marido, fatigadíssimo,",
+                "child": ", sem jantar",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "jantar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o infeliz marido, fatigadíssimo,",
+                "child": "* Era quase noite",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", sem jantar",
+                "child": "o infeliz marido, fatigadíssimo,",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "jantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "D. Eulália recebeu-o com duas pedras na mão:",
+        "start_char": 4913,
+        "end_char": 4924,
+        "excerpt": "* * * Justifiquemos esse grito do coração. O Eusébio não foi um marido feliz; D. Eulália, que tinha muito mau gênio, transformara-lhe a vida num verdadeiro inferno. O pobre homem não tinha voz ativa dentro de casa; era repreendido como um fâmulo quando entrava mais tarde; devia dar contas de um níquel, de um miserável níquel que lhe desaparecesse do bolso! Apesar de casado havia já quinze anos, ele não se pudera habituar a essa existência ridícula, e sentia-se envelhecer prematuramente na alma e no corpo. Não tinha filhos, - e era melhor assim, porque com certeza, D. Eulália não lhos perdoaria. Pensava bem: pudesse ela contrariar a natureza, e fecundá-lo-ia, para humilhá-lo ainda mais! * * * Durante os primeiros tempos de regime conjugal, o Eusébio tentou reagir contra o mau gênio de D. Eulália; num dia, porém, que lhe falou mais alto e lhe bateu o pé, recebeu em troca uma tremenda bofetada, cujo estalo ressoou em todo o quarteirão. Durante quinze dias a vizinhança não se ocupou de outra coisa. O marido que apanha da cara metade está perdido; o que apanha e chora, está irremessivelmente perdido. O Eusébio apanhou e chorou... Daquele dia em diante foi-se-lhe toda a autoridade marital: tornou-se em casa um manequim, um pax vobis, um joão-ninguém. Era, entretanto, um homem simpático, virtuoso, apreciadíssimo por numerosos amigos e muito conceituado na repartição de onde tirava o necessário para que nada faltasse a D. Eulália. * * * De todas as maçadas a que estava afeito o nosso Eusébio, nenhuma o ralava tanto como a de procurar cozinheira, o que lhe acontecia a miúdo, porque, graças ao mau gênio da dona da casa, a cozinha estava constantemente abandonada. Como as impertinências de D. Eulália já tinham fama no bairro, e nenhuma criada queria servir aquela ama, o Eusébio era obrigado a procurar cozinheira muito longe de casa. O que ele queria era alugá-la, mas bem sabia que, na venda, a recém-chegada seria logo posta ao corrente de tais impertinências. * * * Um dia o pobre marido foi muito cedo arrancado da cama pela mulher. - Levante-se, tome banho, vista-se e vá procurar uma cozinheira! - Quê!... pois a Maria...? - Acabo de pô-la no olho da rua! - Por quê? - Não é da sua conta! Mexa-se!... - Uma cozinheira que não estava em casa há oito dias! ... - Basta de observações! Quem manda aqui sou eu! Vamos! vista-se! E nada de agências, hem? olhe que se me traz cozinheira de agência, não passa da porta da rua! * * * Nesse dia o Eusébio teria purgado todos os seus pecados, se os tivera, e se D. Eulália não fosse já um purgatório bastante. O pobre-diabo, que morava no Rio Comprido, foi, levado por informações, procurar uma cozinheira em São Francisco Xavier. Já estava alugada; entretanto, lá lhe disseram que no Morro do Pinto havia outra, muito boa, que lhe devia servir. O desgraçado almoçou numa casa de pasto, encheu-se de coragem e subiu o Morro do Pinto. A cozinheira não estava em casa; tinha ido passar uns dias com uma parenta, na Rua de Sorocaba, em Botafogo; mas um vizinho aconselhou o Eusébio a que não adiasse a diligência; a mulher trabalhava primorosamente em forno e fogão, era morigerada e estava morta por achar emprego. Abalou o Eusébio para Botafogo, e encontrou, efetivamente, a mulher na Rua de Sorocaba, em casa da parenta, pronta já para sair. Por pouco mais, a viagem teria sido baldada. Era uma mulata quarentona, muito limpa, de um aspecto simpático e humilde, que à primeira vista inspirava certa confiança. Ela, pelo seu lado, simpatizou com o Eusébio, a julgar pela prontidão com que se ajustaram. - Bem; amanhã lá estarei, meu patrão. - Amanhã, não: há de ser hoje, porque se entro em casa sem cozinheira, minha mulher... O Eusébio interrompeu-se - ia deitando tudo a perder, - e emendou: ... minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei. - Nesse caso, meu patrão, é preciso que eu vá primeiramente ao Morro do Pinto. - Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio. * * * Era quase noite fechada, quando o infeliz marido, fatigadíssimo, doente, sem jantar, entrou em casa acompanhado da mulata. D. Eulália recebeu-o com duas pedras na mão:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "- Onde esteve o senhor metido até estas horas? oh! que coisa ruim... que homem insuportável...",
+        "start_char": 4973,
+        "end_char": 4981,
+        "excerpt": "Era quase noite fechada, quando o infeliz marido, fatigadíssimo, doente, sem jantar, entrou em casa acompanhado da mulata. D. Eulália recebeu-o com duas pedras na mão: - Onde esteve o senhor metido até estas horas? oh! que coisa ruim... que homem insuportável...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A senhora",
+        "sentence": "- A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos.",
+        "start_char": 5081,
+        "end_char": 5090,
+        "excerpt": "- Onde esteve o senhor metido até estas horas? oh! que coisa ruim... que homem insuportável... Só a minha paciência!... - A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "calcula",
+                "child": "A senhora",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "calcular",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta mulher",
+        "sentence": "- A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos.",
+        "start_char": 5128,
+        "end_char": 5139,
+        "excerpt": "- Onde esteve o senhor metido até estas horas? oh! que coisa ruim... que homem insuportável... Só a minha paciência!... - A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "encontrar",
+                "child": "esta mulher",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "- Pois sim, resmungou D. Eulália, - vão ver que é alguma vagabunda!",
+        "start_char": 5197,
+        "end_char": 5208,
+        "excerpt": "Só a minha paciência!... - A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos. - Pois sim, resmungou D. Eulália, - vão ver que é alguma vagabunda!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulata",
+        "sentence": "E, voltando-se para a mulata, disse-lhe com a sua habitual arrogância: - Chegue-se mais!",
+        "start_char": 5286,
+        "end_char": 5294,
+        "excerpt": "- A senhora não calcula como me custou encontrar esta mulher, mas, enfim... parece que desta vez ficamos bem servidos. - Pois sim, resmungou D. Eulália, - vão ver que é alguma vagabunda! E, voltando-se para a mulata, disse-lhe com a sua habitual arrogância: - Chegue-se mais!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltando-se",
+                "child": "a mulata",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltandor se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A cozinheira",
+        "sentence": "A cozinheira aproximou-se com um sorriso humilde de subalterna.",
+        "start_char": 5397,
+        "end_char": 5409,
+        "excerpt": "E, voltando-se para a mulata, disse-lhe com a sua habitual arrogância: - Chegue-se mais! Não gosto de gritar e quero que me ouçam! A cozinheira aproximou-se com um sorriso humilde de subalterna.",
+        "gender": "female",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aproximou-se",
+                "child": "A cozinheira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproximar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cozinheira",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "perguntou D. Eulália.",
+        "start_char": 5477,
+        "end_char": 5488,
+        "excerpt": "A cozinheira aproximou-se com um sorriso humilde de subalterna. - Como se chama? perguntou D. Eulália.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "- Eulália.",
+        "start_char": 5502,
+        "end_char": 5509,
+        "excerpt": "- Como se chama? perguntou D. Eulália. - Eulália.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "D. Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "- Eulália?!",
+        "start_char": 5513,
+        "end_char": 5520,
+        "excerpt": "perguntou D. Eulália. - Eulália. - Eulália?!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "D. Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "- Eulália, sim, senhora!",
+        "start_char": 5525,
+        "end_char": 5532,
+        "excerpt": "- Eulália. - Eulália?! - Eulália, sim, senhora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Eulália",
+                "child": "senhora",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhora",
+                "child": "- Eulália",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Eulália, sim, senhora!",
+        "start_char": 5539,
+        "end_char": 5546,
+        "excerpt": "- Eulália. - Eulália?! - Eulália, sim, senhora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Eulália",
+                "child": "senhora",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhora",
+                "child": "- Eulália",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "- Eulália?!",
+        "start_char": 5513,
+        "end_char": 5520,
+        "excerpt": "perguntou D. Eulália. - Eulália. - Eulália?!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "D. Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "E voltando-se para o marido: -",
+        "start_char": 5589,
+        "end_char": 5597,
+        "excerpt": "Rua! Rua! E voltando-se para o marido: -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltando-se",
+                "child": "o marido",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltandor se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Pois o senhor tem a pouca vergonha de trazer para casa uma cozinheira com o mesmo nome que eu?",
+        "start_char": 5606,
+        "end_char": 5614,
+        "excerpt": "Rua! Rua! E voltando-se para o marido: - Pois o senhor tem a pouca vergonha de trazer para casa uma cozinheira com o mesmo nome que eu?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o senhor",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Mas, senhora.",
+        "start_char": 5720,
+        "end_char": 5727,
+        "excerpt": "Pois o senhor tem a pouca vergonha de trazer para casa uma cozinheira com o mesmo nome que eu? Que desaforo!... - Mas, senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "Creio que o Eusébio está justificado: a morte de D. Eulália não poderia contrariá-lo.",
+        "start_char": 5774,
+        "end_char": 5781,
+        "excerpt": "Não seja burro! * * * Creio que o Eusébio está justificado: a morte de D. Eulália não poderia contrariá-lo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Eusébio",
+                "child": "justificado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eusébio",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "justificado",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Eulália",
+        "sentence": "Creio que o Eusébio está justificado: a morte de D. Eulália não poderia contrariá-lo.",
+        "start_char": 5761,
+        "end_char": 5772,
+        "excerpt": "Não seja burro! * * * Creio que o Eusébio está justificado: a morte de D. Eulália não poderia contrariá-lo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,493 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu Eu sinto que esta vida já me foge",
+        "start_char": 14,
+        "end_char": 31,
+        "excerpt": "Horas tristes Casimiro de Abreu Eu sinto que esta vida já me foge Qual d'harpa o som final, E não tenho, como o náufrago nas ondas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o náufrago",
+        "sentence": "Qual d'harpa o som final, E não tenho, como o náufrago nas ondas",
+        "start_char": 110,
+        "end_char": 120,
+        "excerpt": "Horas tristes Casimiro de Abreu Eu sinto que esta vida já me foge Qual d'harpa o som final, E não tenho, como o náufrago nas ondas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": ", como o náufrago",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "náufrago",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", como o náufrago",
+                "child": "ondas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "náufrago",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "onda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ondas",
+                "child": ", como o náufrago",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "onda",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "náufrago",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pai",
+        "sentence": "Sou triste como o pai que as belas filhas Viu lânguidas morrer, E já não pousam no meu rosto pálido",
+        "start_char": 508,
+        "end_char": 513,
+        "excerpt": "Dói-me inda a boca que queimei sedento Nas esponjas de fel, E agora sinto no bulhar da mente A torre de Babel! Sou triste como o pai que as belas filhas Viu lânguidas morrer, E já não pousam no meu rosto pálido",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "triste",
+                "child": "o pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tristir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o pai",
+                "child": "filhas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filhas",
+                "child": "o pai",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E contudo, meu Deus!",
+        "start_char": 627,
+        "end_char": 631,
+        "excerpt": "Sou triste como o pai que as belas filhas Viu lânguidas morrer, E já não pousam no meu rosto pálido Os risos do prazer! E contudo, meu Deus!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estrela",
+        "sentence": "Estrela que seduz!",
+        "start_char": 810,
+        "end_char": 817,
+        "excerpt": "eu sou bem moço, Devera só me rir, E ter fé e ter crença nos amores, Na glória e no porvir! Eu devera folgar nesta natura De flores e de luz, E, mancebo, voltar-me p'r'o futuro Estrela que seduz!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltar-me",
+                "child": "Estrela",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "voltar-me",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrela",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os outros",
+        "sentence": "Os outros, - os felizes deste mundo, Deleitam-se em saraus;",
+        "start_char": 945,
+        "end_char": 954,
+        "excerpt": "Estrela que seduz! Agora em vez dos hinos d'esperança, Dos cantos juvenis, Tenho a sátira pungente, o riso amargo, O canto que maldiz! Os outros, - os felizes deste mundo, Deleitam-se em saraus;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Eu solitário sofro e odeio os homens, P'ra mim são todos maus!",
+        "start_char": 1032,
+        "end_char": 1041,
+        "excerpt": "Agora em vez dos hinos d'esperança, Dos cantos juvenis, Tenho a sátira pungente, o riso amargo, O canto que maldiz! Os outros, - os felizes deste mundo, Deleitam-se em saraus; Eu solitário sofro e odeio os homens, P'ra mim são todos maus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "solitário",
+                "child": "os homens, P'ra mim são todos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "solitário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os homens, P'ra mim são todos",
+                "child": "maus",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mau",
+                "categories": [
+                    "outro",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A pálida mulher",
+        "sentence": "Mas se ela - a linda filha do meu sonho, A pálida mulher",
+        "start_char": 1226,
+        "end_char": 1241,
+        "excerpt": "só na minh'alma O lodo dum paul! Mas se ela - a linda filha do meu sonho, A pálida mulher",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "linda",
+                "child": "A pálida mulher",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "linda",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A pálida mulher",
+                "child": "linda",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "linda",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus lábios",
+        "sentence": "Das minhas fantasias, dos seus lábios",
+        "start_char": 1268,
+        "end_char": 1279,
+        "excerpt": "O lodo dum paul! Mas se ela - a linda filha do meu sonho, A pálida mulher Das minhas fantasias, dos seus lábios",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "minhas fantasias",
+                "child": "seus lábios",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fantasia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "lábio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seus lábios",
+                "child": "minhas fantasias",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lábio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fantasia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a doce virgem pensa",
+        "sentence": "Se a doce virgem pensativa e bela, - A pudica vestal",
+        "start_char": 1306,
+        "end_char": 1325,
+        "excerpt": "Das minhas fantasias, dos seus lábios Um riso, um só me der; Se a doce virgem pensativa e bela, - A pudica vestal",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A pudica vestal",
+        "sentence": "Se a doce virgem pensativa e bela, - A pudica vestal",
+        "start_char": 1340,
+        "end_char": 1355,
+        "excerpt": "Das minhas fantasias, dos seus lábios Um riso, um só me der; Se a doce virgem pensativa e bela, - A pudica vestal",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Talvez que nos meus lábios desmaiados Brilhasse o seu sorrir, E de novo, meu Deus, tivesse crença",
+        "start_char": 1941,
+        "end_char": 1945,
+        "excerpt": "Talvez que eu encontrasse as alegrias Dos tempos que lá vão, E afogasse na luz da nova aurora A dor do coração! Talvez que nos meus lábios desmaiados Brilhasse o seu sorrir, E de novo, meu Deus, tivesse crença",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "novo",
+                "child": "meu Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "novo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu Deus",
+                "child": "novo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "novo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um rouxinol",
+        "sentence": "Trinasse um rouxinol!",
+        "start_char": 2084,
+        "end_char": 2095,
+        "excerpt": "Talvez minh'alma ressurgisse bela Aos raios desse sol, E nas cordas da lira seus gorjeios Trinasse um rouxinol!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Trinasse",
+                "child": "um rouxinol",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trinasse",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Bendito seja Deus!",
+        "start_char": 2322,
+        "end_char": 2326,
+        "excerpt": "P'ra ela então seria a minha vida, A glória, os sonhos meus; E dissera chorando arrependido: - Bendito seja Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Bendito",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Bendito",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Bendito",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Bendito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

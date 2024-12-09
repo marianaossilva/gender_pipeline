@@ -1,0 +1,1244 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 22,
+        "end_char": 35,
+        "excerpt": "COMO O DIABO AS ARMA! Artur Azevedo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo.",
+        "start_char": 35,
+        "end_char": 47,
+        "excerpt": "AS ARMA! Artur Azevedo O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora",
+        "sentence": "Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros.",
+        "start_char": 332,
+        "end_char": 343,
+        "excerpt": "Artur Azevedo O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo. Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Apesar de casado",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casado",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora ainda bonita e frescalhona",
+                "child": ", mais nova dez anos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora ainda bonita e frescalhona",
+                "child": "Apesar de casado",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casado",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma senhora ainda bonita e frescalhona",
+                "child": "livre",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "livre",
+                "categories": [
+                    "social",
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", mais nova dez anos",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Sr.",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sr.",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Paulino",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fala",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "fala",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a sua encantadora",
+                "child": "uma senhora ainda bonita e frescalhona",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "encantadora",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros.",
+        "start_char": 310,
+        "end_char": 322,
+        "excerpt": "Artur Azevedo O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo. Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "três ou quatro",
+        "sentence": "Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados.",
+        "start_char": 627,
+        "end_char": 641,
+        "excerpt": "O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo. Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros. Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "visitas",
+                "child": "três ou quatro sujeitos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "visita",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "três ou quatro sujeitos",
+                "child": "discretos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "acl",
+                "pos_c": "ADJ",
+                "lemma_c": "discreto",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "três ou quatro sujeitos",
+                "child": "visitas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "visita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sujeitos discretos",
+        "sentence": "Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados.",
+        "start_char": 642,
+        "end_char": 660,
+        "excerpt": "O Sr. Paulino era o marido mais irrepreensível desta cidade em que são raríssimos os maridos irrepreensíveis; entretanto (vejam como o diabo as arma!), um dia foi morar mesmo defronte da casa onde ele morava, na Rua Frei Caneca, uma linda mulher, que lhe deu volta ao miolo. Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros. Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "Essas visitas encorajaram necessariamente o Sr. Paulino; mas... como chegar à fala?...",
+        "start_char": 778,
+        "end_char": 790,
+        "excerpt": "Apesar de casado com uma senhora ainda bonita e frescalhona, mais nova dez anos que ele, que orçava pelos quarenta e tantos, o Sr. Paulino resolveu chegar à fala com a sua encantadora vizinha, que, pelos modos, era livre como os pássaros. Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados. Essas visitas encorajaram necessariamente o Sr. Paulino; mas... como chegar à fala?...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a vizinha",
+        "sentence": "Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito.",
+        "start_char": 934,
+        "end_char": 943,
+        "excerpt": "Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados. Essas visitas encorajaram necessariamente o Sr. Paulino; mas... como chegar à fala?... Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre namorado",
+        "sentence": "Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito.",
+        "start_char": 969,
+        "end_char": 985,
+        "excerpt": "Pelo menos morava sozinha, e recebia de vez em quando visitas misteriosas de três ou quatro sujeitos discretos que, antes de entrar, olhavam para trás, para adiante e para cima, o que era um meio mais seguro de serem observados. Essas visitas encorajaram necessariamente o Sr. Paulino; mas... como chegar à fala?... Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o diabo",
+        "sentence": "Resolveu, pois, esperar que alguma circunstância fortuita o favorecesse, ou por outra, que o diabo as armasse.",
+        "start_char": 1128,
+        "end_char": 1135,
+        "excerpt": "Essas visitas encorajaram necessariamente o Sr. Paulino; mas... como chegar à fala?... Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito. Resolveu, pois, esperar que alguma circunstância fortuita o favorecesse, ou por outra, que o diabo as armasse.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o diabo",
+                "child": "armasse",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "diabo",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "armasse",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o diabo",
+                "child": "circunstância",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "diabo",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "circunstância",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "armasse",
+                "child": "o diabo",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "armasse",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o diabo",
+        "sentence": "Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme.",
+        "start_char": 1200,
+        "end_char": 1207,
+        "excerpt": "Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito. Resolveu, pois, esperar que alguma circunstância fortuita o favorecesse, ou por outra, que o diabo as armasse. Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o diabo",
+                "child": "armasse",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "diabo",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "armasse",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o diabo",
+                "child": "circunstância",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "diabo",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "circunstância",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "armasse",
+                "child": "o diabo",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "armasse",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "armou",
+                "child": "o diabo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "armar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme.",
+        "start_char": 1147,
+        "end_char": 1159,
+        "excerpt": "Da sua janela, onde ele raras vezes aparecia, limitando-se a espiar a vizinha por trás das venezianas, o pobre namorado jamais se animaria a fazer o menor gesto suspeito. Resolveu, pois, esperar que alguma circunstância fortuita o favorecesse, ou por outra, que o diabo as armasse. Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "O Sr. Paulino, já se sabe, tomou o mesmo bonde e sentou-se ao lado dela, que lhe cedeu gentilmente a ponta.",
+        "start_char": 1467,
+        "end_char": 1479,
+        "excerpt": "Resolveu, pois, esperar que alguma circunstância fortuita o favorecesse, ou por outra, que o diabo as armasse. Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme. O Sr. Paulino, já se sabe, tomou o mesmo bonde e sentou-se ao lado dela, que lhe cedeu gentilmente a ponta.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A sujeita",
+        "sentence": "A sujeita, que era matreira, percebeu que tinha sido acompanhada e aplanava o terreno para uma explicação.",
+        "start_char": 1576,
+        "end_char": 1585,
+        "excerpt": "Não tardou a aparecer a circunstância fortuita, que o diabo armou: uma tarde em que o Sr. Paulino voltava do emprego de guarda-livros de uma importante casa comercial, viu passar na Avenida a linda mulher que tanto o impressionara, e acompanhou-a até a estação do Jardim Botânico, onde ela tomou um bonde 1!para o Leme. O Sr. Paulino, já se sabe, tomou o mesmo bonde e sentou-se ao lado dela, que lhe cedeu gentilmente a ponta. A sujeita, que era matreira, percebeu que tinha sido acompanhada e aplanava o terreno para uma explicação.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "percebeu",
+                "child": "A sujeita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perceber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sujeito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A sujeita",
+                "child": "matreira",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sujeito",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "matreiro",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O guarda - livros",
+        "sentence": "O guarda-livros cobriu o rosto com A Notícia e, fingindo que estava lendo, murmurou: - Preciso muito falar-lhe.",
+        "start_char": 1682,
+        "end_char": 1699,
+        "excerpt": "O Sr. Paulino, já se sabe, tomou o mesmo bonde e sentou-se ao lado dela, que lhe cedeu gentilmente a ponta. A sujeita, que era matreira, percebeu que tinha sido acompanhada e aplanava o terreno para uma explicação. O guarda-livros cobriu o rosto com A Notícia e, fingindo que estava lendo, murmurou: - Preciso muito falar-lhe.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "E o Sr. Paulino saltou no Largo da Lapa.",
+        "start_char": 2185,
+        "end_char": 2197,
+        "excerpt": "Esperá-lo~ei às dez e meia. - Adeus!- Até amanhã! E o Sr. Paulino saltou no Largo da Lapa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o guarda - livros",
+        "sentence": "No dia seguinte à hora indicada, o guarda-livros entrava em casa da vizinha, cuja porta achou entreaberta.-",
+        "start_char": 2226,
+        "end_char": 2243,
+        "excerpt": "- Adeus!- Até amanhã! E o Sr. Paulino saltou no Largo da Lapa. No dia seguinte à hora indicada, o guarda-livros entrava em casa da vizinha, cuja porta achou entreaberta.-",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tipa",
+        "sentence": "- perguntou a tipa, que o recebeu como se o conhecesse de longos anos.",
+        "start_char": 2379,
+        "end_char": 2385,
+        "excerpt": "No dia seguinte à hora indicada, o guarda-livros entrava em casa da vizinha, cuja porta achou entreaberta.- Mas por que todo este mistério? - perguntou a tipa, que o recebeu como se o conhecesse de longos anos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uns conhecidos meus",
+        "sentence": "É porque moram ali defronte uns conhecidos meus.",
+        "start_char": 2468,
+        "end_char": 2487,
+        "excerpt": "- perguntou a tipa, que o recebeu como se o conhecesse de longos anos. - É porque moram ali defronte uns conhecidos meus.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "O tal Paulino?",
+        "start_char": 2503,
+        "end_char": 2510,
+        "excerpt": "É porque moram ali defronte uns conhecidos meus. - Quem? O tal Paulino?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Querem ver que também você gosta da mulher dele?",
+        "start_char": 2576,
+        "end_char": 2580,
+        "excerpt": "- Conhece-o?- De nome apenas; nunca o vi. Querem ver que também você gosta da mulher dele?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mulher dele",
+        "sentence": "Querem ver que também você gosta da mulher dele?",
+        "start_char": 2590,
+        "end_char": 2601,
+        "excerpt": "- Conhece-o?- De nome apenas; nunca o vi. Querem ver que também você gosta da mulher dele?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mulher",
+        "sentence": "- Da mulher de quem?",
+        "start_char": 2608,
+        "end_char": 2614,
+        "excerpt": "De nome apenas; nunca o vi. Querem ver que também você gosta da mulher dele? - Da mulher de quem?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gosta",
+                "child": "mulher",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "... do Paulino?...",
+        "start_char": 2631,
+        "end_char": 2638,
+        "excerpt": "Querem ver que também você gosta da mulher dele? - Da mulher de quem? ... do Paulino?...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "- Mas de que Paulino fala a senhora?",
+        "start_char": 2706,
+        "end_char": 2713,
+        "excerpt": "- Sim, faça-se de novas! Aquela é pior do que eu! - Mas de que Paulino fala a senhora?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Paulino",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulino",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Paulino",
+                "child": "pior",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulino",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "mau",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "- Mas de que Paulino fala a senhora?",
+        "start_char": 2719,
+        "end_char": 2728,
+        "excerpt": "- Sim, faça-se de novas! Aquela é pior do que eu! - Mas de que Paulino fala a senhora?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "a senhora",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a senhora",
+                "child": "pior",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "mau",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre homem",
+        "sentence": "- perguntou o pobre homem, já trêmulo e agitado.",
+        "start_char": 2742,
+        "end_char": 2755,
+        "excerpt": "Aquela é pior do que eu! - Mas de que Paulino fala a senhora? - perguntou o pobre homem, já trêmulo e agitado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "o pobre homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "- Do Paulino que mora ali defronte.",
+        "start_char": 2784,
+        "end_char": 2791,
+        "excerpt": "- Mas de que Paulino fala a senhora? - perguntou o pobre homem, já trêmulo e agitado. - Do Paulino que mora ali defronte.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Paulino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulino",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os amantes da mulher",
+        "sentence": "A ele nunca o vi, mas tenho visto os amantes da mulher! -",
+        "start_char": 2849,
+        "end_char": 2869,
+        "excerpt": "- perguntou o pobre homem, já trêmulo e agitado. - Do Paulino que mora ali defronte. A ele nunca o vi, mas tenho visto os amantes da mulher! -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os amantes da mulher",
+        "sentence": "Os amantes da mulher?!",
+        "start_char": 2873,
+        "end_char": 2893,
+        "excerpt": "- Do Paulino que mora ali defronte. A ele nunca o vi, mas tenho visto os amantes da mulher! - Os amantes da mulher?!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os outros",
+        "sentence": "É ele a sair de casa, e os outros a entrar!...",
+        "start_char": 2940,
+        "end_char": 2949,
+        "excerpt": "Os amantes da mulher?! ... - Sim, coitado. É ele a sair de casa, e os outros a entrar!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os outros",
+        "sentence": "- Os outros?",
+        "start_char": 2965,
+        "end_char": 2974,
+        "excerpt": "... - Sim, coitado. É ele a sair de casa, e os outros a entrar!... - Os outros?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um rapaz alto",
+        "sentence": "Já vi dois: um rapaz alto, louro, rosado, elegante.",
+        "start_char": 3046,
+        "end_char": 3059,
+        "excerpt": "Então são muitos?! ... - Mais de um é, com certeza... Já vi dois: um rapaz alto, louro, rosado, elegante.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gouveia",
+        "sentence": "- Deve ser o Gouveia!",
+        "start_char": 3099,
+        "end_char": 3106,
+        "excerpt": "... - Mais de um é, com certeza... Já vi dois: um rapaz alto, louro, rosado, elegante. - Deve ser o Gouveia!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deve",
+                "child": "Gouveia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dever",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Gouveia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro baixinho",
+        "sentence": "- E o outro baixinho, cheio de corpo, de bigode e pêra, pince-nez azul...",
+        "start_char": 3112,
+        "end_char": 3128,
+        "excerpt": "Já vi dois: um rapaz alto, louro, rosado, elegante. - Deve ser o Gouveia! - E o outro baixinho, cheio de corpo, de bigode e pêra, pince-nez azul...",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pince-nez",
+                "child": "o outro baixinho, cheio de corpo, de bigode e pêra,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pince-nez",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "baixinho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Magalha - es",
+        "sentence": "- Deve ser o Magalha-es!",
+        "start_char": 3181,
+        "end_char": 3193,
+        "excerpt": "- Deve ser o Gouveia! - E o outro baixinho, cheio de corpo, de bigode e pêra, pince-nez azul... - Deve ser o Magalha-es!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dois amigos",
+        "sentence": "Dois amigos!",
+        "start_char": 3207,
+        "end_char": 3218,
+        "excerpt": "- E o outro baixinho, cheio de corpo, de bigode e pêra, pince-nez azul... - Deve ser o Magalha-es! Dois amigos!",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "... E o Sr. Paulino caiu desalentado numa cadeira.",
+        "start_char": 3219,
+        "end_char": 3231,
+        "excerpt": "- Deve ser o Magalha-es! Dois amigos! ... E o Sr. Paulino caiu desalentado numa cadeira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A mulher",
+        "sentence": "A mulher notou que ele estava incomodado, e foi buscar água-da-colônia, que o reanimou.",
+        "start_char": 3351,
+        "end_char": 3359,
+        "excerpt": "Sentia as faces em fogo. Receou uma congestão cerebral. A mulher notou que ele estava incomodado, e foi buscar água-da-colônia, que o reanimou.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "A mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "o tal Paulino é seu amigo, e você não sabia...",
+        "start_char": 3483,
+        "end_char": 3490,
+        "excerpt": "A mulher notou que ele estava incomodado, e foi buscar água-da-colônia, que o reanimou. - Fui, talvez, indiscreta, disse ela; o tal Paulino é seu amigo, e você não sabia...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o tal Paulino",
+                "child": "amigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulino",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amigo",
+                "child": "o tal Paulino",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "- O tal Paulino sou eu, minha senhora;",
+        "start_char": 3532,
+        "end_char": 3539,
+        "excerpt": "- Fui, talvez, indiscreta, disse ela; o tal Paulino é seu amigo, e você não sabia... - O tal Paulino sou eu, minha senhora;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o tal Paulino",
+                "child": "amigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulino",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amigo",
+                "child": "o tal Paulino",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- O tal Paulino sou eu, minha senhora;",
+        "start_char": 3554,
+        "end_char": 3561,
+        "excerpt": "- Fui, talvez, indiscreta, disse ela; o tal Paulino é seu amigo, e você não sabia... - O tal Paulino sou eu, minha senhora;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . Paulino",
+        "sentence": "E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água.",
+        "start_char": 3784,
+        "end_char": 3796,
+        "excerpt": "Se não viesse à sua casa, jamais saberia o que se passa na minha, e continuaria a ser um marido ridículo sem o saber! Para alguma coisa me serviu essa aventura amorosa! E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vizinha",
+        "sentence": "E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água.",
+        "start_char": 3820,
+        "end_char": 3827,
+        "excerpt": "Se não viesse à sua casa, jamais saberia o que se passa na minha, e continuaria a ser um marido ridículo sem o saber! Para alguma coisa me serviu essa aventura amorosa! E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "exigir",
+                "child": "vizinha",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "exigir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vizinha",
+                "child": "atônita",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "appos",
+                "pos_c": "ADJ",
+                "lemma_c": "atônita",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia.",
+        "start_char": 3894,
+        "end_char": 3902,
+        "excerpt": "Para alguma coisa me serviu essa aventura amorosa! E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água. No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "a mulher",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gouveia",
+        "sentence": "No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia.",
+        "start_char": 3946,
+        "end_char": 3953,
+        "excerpt": "Para alguma coisa me serviu essa aventura amorosa! E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água. No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a cara",
+                "child": "Gouveia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cara",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Gouveia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gouveia",
+                "child": "a cara",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Gouveia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Magalhães",
+        "sentence": "O Magalhães escondeu-se e não foi encontrado, mas não perde por esperar.",
+        "start_char": 3955,
+        "end_char": 3966,
+        "excerpt": "E o Sr. Paulino saiu sem exigir da vizinha, atônita, outra coisa além de um copo d'água. No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia. O Magalhães escondeu-se e não foi encontrado, mas não perde por esperar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "escondeu-se",
+                "child": "O Magalhães",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escondeu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Magalhães",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o diabo",
+        "sentence": "Ora, ai têm como o diabo as arma!",
+        "start_char": 4045,
+        "end_char": 4052,
+        "excerpt": "No dia seguinte pôs a mulher fora de casa, e cortou a chicote a cara do Gouveia. O Magalhães escondeu-se e não foi encontrado, mas não perde por esperar. Ora, ai têm como o diabo as arma!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "têm",
+                "child": "o diabo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "diabo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,455 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Pepita Casimiro de Abreu",
+        "sentence": "Pepita Casimiro de Abreu",
+        "start_char": 0,
+        "end_char": 24,
+        "excerpt": "Pepita Casimiro de Abreu A toi! toujours a toi!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "toujours",
+        "sentence": "toujours a toi!",
+        "start_char": 32,
+        "end_char": 40,
+        "excerpt": "Pepita Casimiro de Abreu A toi! toujours a toi!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "V . Hugo",
+        "sentence": "V. Hugo.",
+        "start_char": 47,
+        "end_char": 55,
+        "excerpt": "A toi! toujours a toi! V. Hugo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minh '",
+        "sentence": "Minh'alma é mundo virge' - ilha perdida -",
+        "start_char": 56,
+        "end_char": 62,
+        "excerpt": "toujours a toi! V. Hugo. Minh'alma é mundo virge' - ilha perdida -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Colombo dos amor",
+        "sentence": "Em lagos de cristais; Vem, Pepita, - Colombo dos amores, - Vem descobri-lo, no país das flores Sultana reinarás!",
+        "start_char": 136,
+        "end_char": 152,
+        "excerpt": "V. Hugo. Minh'alma é mundo virge' - ilha perdida - Em lagos de cristais; Vem, Pepita, - Colombo dos amores, - Vem descobri-lo, no país das flores Sultana reinarás!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "Colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doce rainha",
+        "sentence": "Teu reinado de amor, doce rainha, Na lira cantarei.",
+        "start_char": 327,
+        "end_char": 338,
+        "excerpt": "Nas terras onde és rei A sombra dos bambus vem tu ser minha Teu reinado de amor, doce rainha, Na lira cantarei.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "- Vem tu, Pepita, visitá-lo ao ninho;",
+        "start_char": 427,
+        "end_char": 433,
+        "excerpt": "Minh'alma é como o pombo inda sem penas Sozinho a pipilar; - Vem tu, Pepita, visitá-lo ao ninho;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pombo",
+                "child": "Pepita",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pombo",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pepita",
+                "child": "pombo",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pombo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o passarinho Contigo",
+        "sentence": "As asas a bater, o passarinho Contigo irá voar.",
+        "start_char": 472,
+        "end_char": 492,
+        "excerpt": "Sozinho a pipilar; - Vem tu, Pepita, visitá-lo ao ninho; As asas a bater, o passarinho Contigo irá voar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minh '",
+        "sentence": "Minh'alma é como a rocha toda estéril",
+        "start_char": 502,
+        "end_char": 508,
+        "excerpt": "- Vem tu, Pepita, visitá-lo ao ninho; As asas a bater, o passarinho Contigo irá voar. Minh'alma é como a rocha toda estéril",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fada de amor",
+        "sentence": "Vem tu - fada de amor - dar-lhe co'a vara...",
+        "start_char": 572,
+        "end_char": 584,
+        "excerpt": "Minh'alma é como a rocha toda estéril Nos plainos do Sarah; Vem tu - fada de amor - dar-lhe co'a vara...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moisés",
+        "sentence": "- Qual do penedo que Moisés tocara",
+        "start_char": 629,
+        "end_char": 635,
+        "excerpt": "Nos plainos do Sarah; Vem tu - fada de amor - dar-lhe co'a vara... - Qual do penedo que Moisés tocara",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tocara",
+                "child": "Moisés",
+                "dep_h": "cop",
+                "pos_h": "VERB",
+                "lemma_h": "tocara",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Moisés",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minh '",
+        "sentence": "Minh'alma é um livro lindo, encadernado, Co'as folhas em cetim; - Vem tu, Pepita, soletrá-lo um dia...",
+        "start_char": 659,
+        "end_char": 665,
+        "excerpt": "- Qual do penedo que Moisés tocara O jorro saltará. Minh'alma é um livro lindo, encadernado, Co'as folhas em cetim; - Vem tu, Pepita, soletrá-lo um dia...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "Minh'alma é um livro lindo, encadernado, Co'as folhas em cetim; - Vem tu, Pepita, soletrá-lo um dia...",
+        "start_char": 734,
+        "end_char": 740,
+        "excerpt": "- Qual do penedo que Moisés tocara O jorro saltará. Minh'alma é um livro lindo, encadernado, Co'as folhas em cetim; - Vem tu, Pepita, soletrá-lo um dia...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "livro",
+                "child": ", Pepita",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "livro",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Pepita",
+                "child": "livro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "livro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "Minh'alma é o batel prendido à margem Sem leme, em ócio vil - Vem soltá-lo, Pepita, e correremos -",
+        "start_char": 892,
+        "end_char": 898,
+        "excerpt": "Tem poemas de amor, tem melodia Em cânticos sem fim! Minh'alma é o batel prendido à margem Sem leme, em ócio vil - Vem soltá-lo, Pepita, e correremos -",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soltá-lo",
+                "child": ", Pepita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltá-lo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Min",
+        "sentence": "Minh'alma é um jardim oculto em sombras Co'as flores em botão; - Vem ser da primavera o sopro louco, Vem tu, Pepita, bafejar-me um pouco Que as rosas abrirão.",
+        "start_char": 975,
+        "end_char": 978,
+        "excerpt": "Minh'alma é o batel prendido à margem Sem leme, em ócio vil - Vem soltá-lo, Pepita, e correremos - Soltas as velas - desprezando remos, Que o mar é todo anil. Minh'alma é um jardim oculto em sombras Co'as flores em botão; - Vem ser da primavera o sopro louco, Vem tu, Pepita, bafejar-me um pouco Que as rosas abrirão.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Minh'alma",
+                "child": "batel",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Minh'alma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "batel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "batel",
+                "child": "Minh'alma",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "batel",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Minh'alma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minh'alma",
+                "child": "jardim",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Minh'alma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "jardim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jardim",
+                "child": "Minh'alma",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "jardim",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Minh'alma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "Minh'alma é um jardim oculto em sombras Co'as flores em botão; - Vem ser da primavera o sopro louco, Vem tu, Pepita, bafejar-me um pouco Que as rosas abrirão.",
+        "start_char": 1084,
+        "end_char": 1090,
+        "excerpt": "Minh'alma é o batel prendido à margem Sem leme, em ócio vil - Vem soltá-lo, Pepita, e correremos - Soltas as velas - desprezando remos, Que o mar é todo anil. Minh'alma é um jardim oculto em sombras Co'as flores em botão; - Vem ser da primavera o sopro louco, Vem tu, Pepita, bafejar-me um pouco Que as rosas abrirão.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soltá-lo",
+                "child": ", Pepita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltá-lo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "jardim",
+                "child": "Pepita",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "jardim",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pepita",
+                "child": "jardim",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "jardim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pepita",
+        "sentence": "O mundo em que eu habito tem mais sonhos, A vida mais prazer; - Vem, Pepita, das tardes no remanso, Da rede dos amores no balanço",
+        "start_char": 1203,
+        "end_char": 1209,
+        "excerpt": "Soltas as velas - desprezando remos, Que o mar é todo anil. Minh'alma é um jardim oculto em sombras Co'as flores em botão; - Vem ser da primavera o sopro louco, Vem tu, Pepita, bafejar-me um pouco Que as rosas abrirão. O mundo em que eu habito tem mais sonhos, A vida mais prazer; - Vem, Pepita, das tardes no remanso, Da rede dos amores no balanço",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "jardim",
+                "child": "Pepita",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "jardim",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pepita",
+                "child": "jardim",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "jardim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "; - Vem",
+                "child": ", Pepita",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Vem",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pepita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Pepita",
+                "child": "; - Vem",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Vem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Pepita",
+                "child": ", A vida",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Pepita",
+                "child": "O mundo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pepita",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O lírio morto",
+        "sentence": "O lírio morto quer a gota d'água, - Eu quero o teu amor!",
+        "start_char": 1531,
+        "end_char": 1544,
+        "excerpt": "Bem vês, sou como a planta que definha Torrada do calor. - Dá-me o riso feliz em vez da mágoa... O lírio morto quer a gota d'água, - Eu quero o teu amor!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

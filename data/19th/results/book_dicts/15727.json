@@ -1,0 +1,4063 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fausto Fernando Pessoa",
+        "sentence": "Primeiro Fausto Fernando Pessoa",
+        "start_char": 9,
+        "end_char": 31,
+        "excerpt": "Primeiro Fausto Fernando Pessoa Fonte: Primeiro Tema",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dor",
+        "sentence": "Ó Dor, aonde me irei?",
+        "start_char": 143,
+        "end_char": 146,
+        "excerpt": "Para onde fugirei? Ele é a vida e a morte Ó Dor, aonde me irei?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Já cheguei A conceber, como requinte extremo Da exausta inteligência, que era Deus...",
+        "start_char": 2029,
+        "end_char": 2033,
+        "excerpt": "Deixando-me transido de terror, Todas as formas de pensar [...] O enigma do universo. Já cheguei A conceber, como requinte extremo Da exausta inteligência, que era Deus...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "inteligência",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "inteligência",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "inteligência",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "inteligência",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus Cristão",
+        "sentence": ", e a admitir Uma realidade não real Mas não sonhada, [como o] Deus Cristão.",
+        "start_char": 2156,
+        "end_char": 2168,
+        "excerpt": "Já cheguei a aceitar como verdade O que nos dão por ela , e a admitir Uma realidade não real Mas não sonhada, [como o] Deus Cristão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Busca",
+        "sentence": "X O segredo da Busca é que não se acha.",
+        "start_char": 2356,
+        "end_char": 2361,
+        "excerpt": "Oh mistério! Oh existência! X O segredo da Busca é que não se acha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O segredo",
+                "child": "Busca",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "segredo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Busca",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Busca",
+                "child": "O segredo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Busca",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "segredo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deuses",
+        "sentence": "Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses",
+        "start_char": 2468,
+        "end_char": 2474,
+        "excerpt": "Oh existência! X O segredo da Busca é que não se acha. Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sóis",
+                "child": "Deuses",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sóis",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Sóis",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Deuses",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus dos Deuses",
+        "sentence": "Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses",
+        "start_char": 2476,
+        "end_char": 2491,
+        "excerpt": "Oh existência! X O segredo da Busca é que não se acha. Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Tudo é sempre diverso, e sempre adiante De [Deus] e Deuses: essa, a luz incerta Da suprema verdade.",
+        "start_char": 2601,
+        "end_char": 2605,
+        "excerpt": "Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses Neles intercalados e perdidos Nem a nós encontramos no infinito. Tudo é sempre diverso, e sempre adiante De [Deus] e Deuses: essa, a luz incerta Da suprema verdade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sóis",
+                "child": "Deuses",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sóis",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sóis",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sóis",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Sóis",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Deuses",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Sóis",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Sóis",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De [Deus",
+                "child": "Deuses",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "De [Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "Deuses",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a luz",
+                "child": "De [Deus",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "luz",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "verdade",
+                "child": "De [Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "verdade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deuses",
+        "sentence": "Tudo é sempre diverso, e sempre adiante De [Deus] e Deuses: essa, a luz incerta Da suprema verdade.",
+        "start_char": 2609,
+        "end_char": 2615,
+        "excerpt": "Eternos mundos infinitamente, Uns dentro de outros, sem cessar decorrem Inúteis; Sóis, Deuses, Deus dos Deuses Neles intercalados e perdidos Nem a nós encontramos no infinito. Tudo é sempre diverso, e sempre adiante De [Deus] e Deuses: essa, a luz incerta Da suprema verdade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sóis",
+                "child": "Deuses",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sóis",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Sóis",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Deuses",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "Sóis",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deuses",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sóis",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De [Deus",
+                "child": "Deuses",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "De [Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "Deuses",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que ninguém sabe o que são, Ha sistemas infinitos, Sóis centros de mundos seus, E cada sol é um Deus.",
+        "start_char": 2832,
+        "end_char": 2836,
+        "excerpt": "Tudo é sempre diverso, e sempre adiante De [Deus] e Deuses: essa, a luz incerta Da suprema verdade. XI Nos vastos céus estrelados Que estão além da razão, Sob a regência de fados Que ninguém sabe o que são, Ha sistemas infinitos, Sóis centros de mundos seus, E cada sol é um Deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "De [Deus",
+                "child": "Deuses",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deuses",
+                "child": "De [Deus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "Deuses",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a luz",
+                "child": "De [Deus",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "luz",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "verdade",
+                "child": "De [Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "verdade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIII Fantasma",
+        "sentence": "XIII Fantasmas sem lugar,",
+        "start_char": 3092,
+        "end_char": 3105,
+        "excerpt": "Um fogo estranho, de compreensão E incompreensão urdido, enorme Agonia e anseio de existência, Horror e dor, [agonia] sem fim! XIII Fantasmas sem lugar,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Um fogo",
+                "child": "XIII Fantasmas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fogo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "XIII",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "XIII Fantasmas",
+                "child": "Um fogo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "XIII",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fogo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIV",
+        "sentence": "XIV Não, não vos disse ...",
+        "start_char": 3189,
+        "end_char": 3192,
+        "excerpt": "XIII Fantasmas sem lugar, que a minha mente Figura no visível, sombras minhas Do diálogo comigo. XIV Não, não vos disse ...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Nem que conheças de frente o Deus, Nem que o Eterno te dê a mão, Vês a verdade, rompes os véus, Tens mais caminho que a solidão.",
+        "start_char": 3586,
+        "end_char": 3590,
+        "excerpt": "Por que se entenda. XV Do eterno erro na eterna viagem, O mais que [exprime] na alma que ousa, É sempre nome, sempre linguagem, O véu e capa de uma outra cousa. Nem que conheças de frente o Deus, Nem que o Eterno te dê a mão, Vês a verdade, rompes os véus, Tens mais caminho que a solidão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Nem que conheças",
+                "child": "o Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "conheça",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Deus",
+                "child": "Nem que conheças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "conheça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os deuses",
+        "sentence": "Volta a meu seio, que não conhece os deuses, porque os não vê, Volta a meus braços, melhor esquece que tudo só fingir que é.",
+        "start_char": 3858,
+        "end_char": 3867,
+        "excerpt": "Todos os astros, inda os que brilham No céu sem fundo do mundo interno, São só caminhos que falsos trilham Eternos passos do erro eterno. Volta a meu seio, que não conhece os deuses, porque os não vê, Volta a meus braços, melhor esquece que tudo só fingir que é.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "conhece",
+                "child": "os deuses",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os deuses",
+                "child": "Volta",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "volta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus?",
+        "start_char": 5036,
+        "end_char": 5040,
+        "excerpt": "Não haverá, Além da morte e da imortalidade, Qualquer coisa maior? Ah, deve haver Além da vida e morte, ser, não ser, Um inominável supertranscendente, Eterno incógnito e incognoscível! Deus?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abismo",
+        "sentence": "Abismo...",
+        "start_char": 5215,
+        "end_char": 5221,
+        "excerpt": "XVII Paro à beira de mim e me debruço... Abismo...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O espírito",
+        "sentence": "O espírito é outra estrela. . .",
+        "start_char": 5415,
+        "end_char": 5425,
+        "excerpt": "E nesse abismo o Universo. Com seu tempo e seu 'spaço, é um astro, e nesse Alguns há, outros universos, outras Formas do Ser com outros tempos, 'spaços E outras vidas diversas desta vida... O espírito é outra estrela. . .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O espírito",
+                "child": "estrela",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "espírito",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "estrela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "estrela",
+                "child": "O espírito",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "estrela",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "O Deus pensável É um sol...",
+        "start_char": 5449,
+        "end_char": 5453,
+        "excerpt": "Com seu tempo e seu 'spaço, é um astro, e nesse Alguns há, outros universos, outras Formas do Ser com outros tempos, 'spaços E outras vidas diversas desta vida... O espírito é outra estrela. . . O Deus pensável É um sol...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Deus",
+                "child": "pensável",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "pensável",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Deus",
+                "child": "sol",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sol",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sol",
+                "child": "O Deus",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deuses",
+        "sentence": "E há mais Deuses, mais espíritos",
+        "start_char": 5485,
+        "end_char": 5491,
+        "excerpt": "O espírito é outra estrela. . . O Deus pensável É um sol... E há mais Deuses, mais espíritos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "mais Deuses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Deuses",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "espíritos",
+        "sentence": "E há mais Deuses, mais espíritos",
+        "start_char": 5498,
+        "end_char": 5507,
+        "excerpt": "O espírito é outra estrela. . . O Deus pensável É um sol... E há mais Deuses, mais espíritos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "espíritos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Assim eu volto a mim e à Vida Deus a si próprio não se compreende.",
+        "start_char": 5690,
+        "end_char": 5694,
+        "excerpt": "E nunca desço ... E fecho os olhos E sonho  e acordo para a Natureza Assim eu volto a mim e à Vida Deus a si próprio não se compreende.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "à Vida",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vida",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "à Vida",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Mistério",
+        "sentence": "Eu e o Mistério  face a face...",
+        "start_char": 5907,
+        "end_char": 5917,
+        "excerpt": "Sua origem é mais divina que ele, E ele não tem a origem que as palavras Pensam fazer pensar... O abstrato Ser [em sua] abstrata idéia Apagou-se, e eu fiquei na noite eterna. Eu e o Mistério  face a face...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XVIII",
+        "sentence": "XVIII",
+        "start_char": 5934,
+        "end_char": 5939,
+        "excerpt": "O abstrato Ser [em sua] abstrata idéia Apagou-se, e eu fiquei na noite eterna. Eu e o Mistério  face a face... XVIII",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maëlstrom",
+        "sentence": "No meu mudo Maëlstrom",
+        "start_char": 6193,
+        "end_char": 6202,
+        "excerpt": "Silentemente recebo No meu abismo profundo. O Ser em si nem é o nome Do meu ser inenarrável; No meu mudo Maëlstrom",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "meu mudo",
+                "child": "Maëlstrom",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "mudo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Maëlstrom",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Maëlstrom",
+                "child": "meu mudo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Maëlstrom",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mudo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o terror",
+        "sentence": "O terror desvaria-me, o terror",
+        "start_char": 6663,
+        "end_char": 6671,
+        "excerpt": "XIX Abre-me o sonho Para a loucura a tenebrosa porta, Que a treva é menos negra que esta luz. O terror desvaria-me, o terror",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desvaria-me",
+                "child": "o terror",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desvaria-me",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "terror",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo negro",
+        "sentence": "Sou o Cristo negro.",
+        "start_char": 6814,
+        "end_char": 6826,
+        "excerpt": "A qualquer modo todo escuridão Eu sou supremo. Sou o Cristo negro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Sou Deus inconscienciando-me Para humano;",
+        "start_char": 6930,
+        "end_char": 6934,
+        "excerpt": "O mistério tornado carne. Há um orgulho atro que me diz Que Sou Deus inconscienciando-me Para humano;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "inconscienciando-me",
+                "child": "Sou Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "inconscienciando-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sou",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sou Deus",
+                "child": "um orgulho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sou",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orgulho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Seja eu Deus ira!",
+        "start_char": 7236,
+        "end_char": 7240,
+        "excerpt": "Como um santo devoto Odeio o mundo, porque o que eu sou E que não sei sentir que sou, conhece-o Por não real e não ali. Por isso odeio-o  Seja eu o destruidor! Seja eu Deus ira!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "XXI Sou a Consciência em ódio ao inconsciente, Sou um símbolo incarnado em dor e ódio, Pedaço de alma de possível Deus Arremessado para o mundo",
+        "start_char": 7360,
+        "end_char": 7364,
+        "excerpt": "Por isso odeio-o  Seja eu o destruidor! Seja eu Deus ira! XXI Sou a Consciência em ódio ao inconsciente, Sou um símbolo incarnado em dor e ódio, Pedaço de alma de possível Deus Arremessado para o mundo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "alma",
+                "child": "Deus Arremessado",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus Arremessado",
+                "child": "possível",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "possível",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus Arremessado",
+                "child": "alma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus Arremessado",
+                "child": ", Pedaço",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedaço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus Arremessado",
+                "child": "XXI Sou a Consciência",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Consciência",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo negro",
+        "sentence": "Sou o Cristo negro, Pregado na cruz ígnea de mim mesmo.",
+        "start_char": 7580,
+        "end_char": 7592,
+        "excerpt": "Meu ser de desterrado vos odeia! Eu sou o inferno. Sou o Cristo negro, Pregado na cruz ígnea de mim mesmo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XXIII",
+        "sentence": "Fosse apenas sonhando mais profundo XXIII",
+        "start_char": 8385,
+        "end_char": 8390,
+        "excerpt": "Meu pensamento louco e sucumbido. Cada vez sinto mais como se eu, Sonhando menos, consciência alerta Fosse apenas sonhando mais profundo XXIII",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sonhando",
+                "child": "mais profundo XXIII",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "XXIII",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XXI",
+        "sentence": "XXIV",
+        "start_char": 8546,
+        "end_char": 8549,
+        "excerpt": "Ah, que diversidade, E tudo sendo. O mistério do mundo, O íntimo, horroroso, desolado, Verdadeiro mistério da existência, Consiste em haver esse mistério. XXIV",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "inocentes",
+        "sentence": "Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "start_char": 8596,
+        "end_char": 8605,
+        "excerpt": "XXIV Essa simplicidade d'alma Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Essa simplicidade",
+                "child": "não só dos inocentes",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "simplicidade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocente",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "não só dos inocentes",
+                "child": "até dos viciosos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inocente",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vicioso",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "não só dos inocentes",
+                "child": "Essa simplicidade",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inocente",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "simplicidade",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "até dos viciosos",
+                "child": "não só dos inocentes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vicioso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocente",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criminosos",
+                "child": "não só dos inocentes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criminoso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocente",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viciosos",
+        "sentence": "Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "start_char": 8618,
+        "end_char": 8626,
+        "excerpt": "XXIV Essa simplicidade d'alma Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "não só dos inocentes",
+                "child": "até dos viciosos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inocente",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vicioso",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "até dos viciosos",
+                "child": ", criminosos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vicioso",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criminoso",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "até dos viciosos",
+                "child": "não só dos inocentes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vicioso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocente",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "até dos viciosos",
+                "child": "Essa simplicidade",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vicioso",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "simplicidade",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criminosos",
+                "child": "até dos viciosos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criminoso",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vicioso",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criminosos",
+        "sentence": "Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "start_char": 8628,
+        "end_char": 8638,
+        "excerpt": "XXIV Essa simplicidade d'alma Possuída não só dos inocentes Mas até dos viciosos, criminosos... essa simplicidade Perdi-a, e só me resta um vácuo imenso Que o pensamento friamente ocupa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "até dos viciosos",
+                "child": ", criminosos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vicioso",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criminoso",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criminosos",
+                "child": "até dos viciosos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criminoso",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vicioso",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criminosos",
+                "child": "não só dos inocentes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criminoso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocente",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", criminosos",
+                "child": "Essa simplicidade",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criminoso",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "simplicidade",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vivendo",
+        "sentence": "De que [abdiquei], vivendo.",
+        "start_char": 9688,
+        "end_char": 9695,
+        "excerpt": "Não me concebo amando, combatendo, Vivendo com os outros. Há, em mim, Uma impossibilidade de existir De que [abdiquei], vivendo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gorgona",
+        "sentence": "Do horror do mistério são, talvez guerreiros Símbolos esses horrendos Gorgona e Demogorgon fabulosos, Fatais um pelo aspecto o outro no nome.",
+        "start_char": 13176,
+        "end_char": 13183,
+        "excerpt": "Realmente real. II Do horror do mistério são, talvez guerreiros Símbolos esses horrendos Gorgona e Demogorgon fabulosos, Fatais um pelo aspecto o outro no nome.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esses horrendos",
+                "child": "Gorgona",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "horrendo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Gorgona",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gorgona",
+                "child": "Demogorgon",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Gorgona",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Demogorgon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gorgona",
+                "child": "esses horrendos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Gorgona",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "horrendo",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gorgona",
+                "child": "Símbolos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Gorgona",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Símbolos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Demogorgon",
+                "child": "Gorgona",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Demogorgon",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Gorgona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Demogorgon",
+        "sentence": "Do horror do mistério são, talvez guerreiros Símbolos esses horrendos Gorgona e Demogorgon fabulosos, Fatais um pelo aspecto o outro no nome.",
+        "start_char": 13186,
+        "end_char": 13196,
+        "excerpt": "Realmente real. II Do horror do mistério são, talvez guerreiros Símbolos esses horrendos Gorgona e Demogorgon fabulosos, Fatais um pelo aspecto o outro no nome.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Gorgona",
+                "child": "Demogorgon",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Gorgona",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Demogorgon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Demogorgon",
+                "child": "Gorgona",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Demogorgon",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Gorgona",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Demogorgon",
+                "child": "esses horrendos",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Demogorgon",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "horrendo",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Demogorgon",
+                "child": "Símbolos",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Demogorgon",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Símbolos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Despenha",
+        "sentence": "É conhecer, O erguer desses ídolos de horror, A existência daquilo que, pensando A fundo, redemoinha o pensamento Por loucos vãos [recantos], delírios da loucura, Despenhadeiros [íngremes], confusos To.rturamentos, e o que mais de angústia E pavor não se exprime, sem que falhe",
+        "start_char": 13637,
+        "end_char": 13645,
+        "excerpt": "Do horror do mistério são, talvez guerreiros Símbolos esses horrendos Gorgona e Demogorgon fabulosos, Fatais um pelo aspecto o outro no nome. Neles se vê a ávida ansiedade De ter, em concepção que torturasse De terror, isso que de vago e estranho, Atravessando como um arrepio Do pensamento a solidão, integra Em luz parcial [...] a negra lucidez Do mistério supremo. É conhecer, O erguer desses ídolos de horror, A existência daquilo que, pensando A fundo, redemoinha o pensamento Por loucos vãos [recantos], delírios da loucura, Despenhadeiros [íngremes], confusos To.rturamentos, e o que mais de angústia E pavor não se exprime, sem que falhe",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "redemoinha",
+                "child": "Despenhadeiros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "redemoinhar",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "Despenhadeiros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Despenhadeiros",
+                "child": "íngremes",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "Despenhadeiros",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "íngremes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Despenhadeiros",
+                "child": "To.rturamentos",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "Despenhadeiros",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "To.rturamentos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "íngremes",
+                "child": "Despenhadeiros",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "íngremes",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "Despenhadeiros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "To.rturamentos",
+                "child": "Despenhadeiros",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "To.rturamentos",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "Despenhadeiros",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a inoc",
+        "sentence": "Só a inocência e a ignorância são Felizes, mas não o sabem.",
+        "start_char": 14519,
+        "end_char": 14525,
+        "excerpt": "O saber é a inconsciência de ignorar... V Só a inocência e a ignorância são Felizes, mas não o sabem.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "V",
+                "child": "Só a inocência",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "V",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocência",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Só a inocência",
+                "child": "a ignorância",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inocência",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "ignorância",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a ignorância",
+                "child": "Só a inocência",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "ignorância",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inocência",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A Ilusão é mãe da vida: Fui doido, e tudo por Deus.",
+        "start_char": 15892,
+        "end_char": 15896,
+        "excerpt": "Minha vida um sonho foi. Cerra teus olhos profundos Para a verdade que dói. A Ilusão é mãe da vida: Fui doido, e tudo por Deus.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIII",
+        "sentence": "XIII Não tenho, não, já dúvida ou alegria;",
+        "start_char": 16720,
+        "end_char": 16724,
+        "excerpt": "Mas senti-lo a sentir, intimamente, Não com anseios ou suspiros d'alma Mas com pavor supremo, com o gelado Inerte horror da desesperação! XIII Não tenho, não, já dúvida ou alegria;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esta",
+        "sentence": "EstaDiferença contra a diferença",
+        "start_char": 17031,
+        "end_char": 17035,
+        "excerpt": "E aqui me quedo. Consolado Nesta perene desconsolação. EstaDiferença contra a diferença",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mudo adivinhador",
+        "sentence": "Entre o vazio cepticismo antigo Mudo adivinhador, não compreendendo A força toda do que adivinhou",
+        "start_char": 17096,
+        "end_char": 17112,
+        "excerpt": "Consolado Nesta perene desconsolação. EstaDiferença contra a diferença Entre o vazio cepticismo antigo Mudo adivinhador, não compreendendo A força toda do que adivinhou",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIV",
+        "sentence": "XIV Horror supremo!",
+        "start_char": 17274,
+        "end_char": 17277,
+        "excerpt": "Nem daqui sair quero, nem queria Aqui chegar. Mas aqui cheguei e fico. XIV Horror supremo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Horror supremo!",
+                "child": "XIV",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Horror",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "XIV",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A Deus  não há  pedindo alívio!",
+        "start_char": 17315,
+        "end_char": 17319,
+        "excerpt": "XIV Horror supremo! E não poder gritar A Deus  não há  pedindo alívio!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "A Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pavor",
+        "sentence": "Sinto pavor, mas já não é o mesmo Pavor, nem é a mesma solidão Doutrora, a solidão em que me sinto.",
+        "start_char": 19884,
+        "end_char": 19889,
+        "excerpt": "De parte do meu ser. Agora Não sei o que há em mim, que sobrenada A ignorada cousa que perdi. Sinto pavor, mas já não é o mesmo Pavor, nem é a mesma solidão Doutrora, a solidão em que me sinto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sinto",
+                "child": ", mas já não é o mesmo Pavor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Sinto",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pavor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dou",
+        "sentence": "Sinto pavor, mas já não é o mesmo Pavor, nem é a mesma solidão Doutrora, a solidão em que me sinto.",
+        "start_char": 19913,
+        "end_char": 19916,
+        "excerpt": "De parte do meu ser. Agora Não sei o que há em mim, que sobrenada A ignorada cousa que perdi. Sinto pavor, mas já não é o mesmo Pavor, nem é a mesma solidão Doutrora, a solidão em que me sinto.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "nem é a mesma solidão",
+                "child": "Doutrora",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "solidão",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "doutrora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Doutrora",
+                "child": "nem é a mesma solidão",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "doutrora",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "solidão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amor",
+        "sentence": "Amor!",
+        "start_char": 20127,
+        "end_char": 20131,
+        "excerpt": "Resta-me apenas um desejo ermo De amar e de sentir [...] Pesado fardo da grandeza! Amor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XVIII",
+        "sentence": "XVIII",
+        "start_char": 5934,
+        "end_char": 5939,
+        "excerpt": "O abstrato Ser [em sua] abstrata idéia Apagou-se, e eu fiquei na noite eterna. Eu e o Mistério  face a face... XVIII",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gera",
+        "sentence": "Gera sem ilusão, como criança",
+        "start_char": 22570,
+        "end_char": 22574,
+        "excerpt": "Idéias [vãs] que a imaginação Vazia dum momento Gera sem ilusão, como criança",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caçador",
+        "sentence": "Saco p'ra colher vento, cesto de água, Caçador só do uivar dós lobos longe...",
+        "start_char": 23096,
+        "end_char": 23103,
+        "excerpt": "Cai sobre mim, apagamento meu! Querer querer, inútil pedra ao mar! Saco p'ra colher vento, cesto de água, Caçador só do uivar dós lobos longe...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Saco",
+                "child": "Caçador",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "saco",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Caçador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vento",
+                "child": "Caçador",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Caçador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cesto",
+                "child": "Caçador",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "cesto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Caçador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "água",
+                "child": "Caçador",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "água",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Caçador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Caçador",
+                "child": "Saco",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Caçador",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "saco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dós lobos",
+                "child": "Caçador",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lobo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Caçador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "Em Nero mesmo e em Tibério louco Porque há inconsciência.",
+        "start_char": 23227,
+        "end_char": 23231,
+        "excerpt": "XXI Não é o vício Nem a experiência que desflora a alma, É só o pensamento. Há inocência Em Nero mesmo e em Tibério louco Porque há inconsciência.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "Nero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nero",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nero",
+                "child": "mesmo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nero",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mesmo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nero",
+                "child": "Tibério louco",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nero",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tibério",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tibério louco",
+                "child": "Nero",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tibério",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tibério",
+        "sentence": "Em Nero mesmo e em Tibério louco Porque há inconsciência.",
+        "start_char": 23243,
+        "end_char": 23250,
+        "excerpt": "XXI Não é o vício Nem a experiência que desflora a alma, É só o pensamento. Há inocência Em Nero mesmo e em Tibério louco Porque há inconsciência.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Nero",
+                "child": "Tibério louco",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nero",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tibério",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tibério louco",
+                "child": "Nero",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tibério",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nero",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XXI",
+        "sentence": "XXII",
+        "start_char": 7687,
+        "end_char": 7690,
+        "excerpt": "Eu sou o inferno. Sou o Cristo negro, Pregado na cruz ígnea de mim mesmo. Sou o saber que ignora, Sou a insônia da dor e do pensar XXII",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensar",
+                "child": "XXII",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "XXII",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "XXII",
+                "child": "Sou a insônia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "XXII",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "insônia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dante",
+        "sentence": "Dantes eu queria Embeber-me nas árvores, nas flores, Sonhar nas rochas, mares, solidões.",
+        "start_char": 24508,
+        "end_char": 24513,
+        "excerpt": "Beber a vida num trago, e nesse trago Todas as sensações que a vida dá Em todas as suas formas [...] Dantes eu queria Embeber-me nas árvores, nas flores, Sonhar nas rochas, mares, solidões.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Conf",
+        "sentence": "Tudo o que me aproxima do mistério Confrange-me de horror.",
+        "start_char": 24666,
+        "end_char": 24670,
+        "excerpt": "Dantes eu queria Embeber-me nas árvores, nas flores, Sonhar nas rochas, mares, solidões. Hoje não, fujo dessa idéia louca: Tudo o que me aproxima do mistério Confrange-me de horror.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Confrange-me",
+                "child": "horror",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Confrange-me",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "horror",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tumultu",
+        "sentence": "QueroAfogar em bulício, em luz, em vozes,  Tumultuárias [cousas] usuais  o sentimento da desolação Que me enche e me avassala.",
+        "start_char": 24977,
+        "end_char": 24984,
+        "excerpt": "Mas sim perpétuos choques de prazer Mudando sempre, Guardando forte a personalidade Para sintetizá-las num sentir. QueroAfogar em bulício, em luz, em vozes,  Tumultuárias [cousas] usuais  o sentimento da desolação Que me enche e me avassala.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vozes",
+                "child": ",  Tumultuárias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "voz",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tumultuárias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ",  Tumultuárias",
+                "child": "vozes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tumultuárias",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alegre",
+        "sentence": "Alegres camponeses, raparigas alegres e ditosas, Como me amarga n'alma essa alegria!",
+        "start_char": 25217,
+        "end_char": 25223,
+        "excerpt": "Loucura!  ao tal inferno, A um inferno real. II Alegres camponeses, raparigas alegres e ditosas, Como me amarga n'alma essa alegria!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "s camponeses",
+        "sentence": "Alegres camponeses, raparigas alegres e ditosas, Como me amarga n'alma essa alegria!",
+        "start_char": 25223,
+        "end_char": 25235,
+        "excerpt": "Loucura!  ao tal inferno, A um inferno real. II Alegres camponeses, raparigas alegres e ditosas, Como me amarga n'alma essa alegria!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "Pois verei  Eu, Fausto  aqueles que não sentem bem Toda a extensão da felicidade, Gozá-la?",
+        "start_char": 25548,
+        "end_char": 25554,
+        "excerpt": "o modo pouco importa! Sofrer mais já não posso. Pois verei  Eu, Fausto  aqueles que não sentem bem Toda a extensão da felicidade, Gozá-la?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "Os teus olhos, Fausto, Não mais chorarão.",
+        "start_char": 26012,
+        "end_char": 26018,
+        "excerpt": "Para ti se eleva E, chorando, leva O teu coração, Já de dor exausto, E sonhando o afaga. Os teus olhos, Fausto, Não mais chorarão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chorarão",
+                "child": ", Fausto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "Faze-me ver a Morte.",
+        "start_char": 27873,
+        "end_char": 27880,
+        "excerpt": "O seu gozo em viver, a poeira  que arda Em meus olhos  dos seus momentos ocos De infância adulta e tudo na alegria! Ó ódio, alegra-me tu sequer! Faze-me ver a Morte.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "a Morte",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Já não sinto saudades, como há pouco Inda as sentia.",
+        "start_char": 28100,
+        "end_char": 28104,
+        "excerpt": "Triste horror d'alma, não evoco já Com grata saudade, tristemente, Estas recordações da juventude! Já não sinto saudades, como há pouco Inda as sentia. Vai-se-me embotando, Co'a força de pensar, contínuo e árido, Toda a verdura e flor do pensamento.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "pouco Inda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estra",
+        "sentence": "Se a minha infância agora evoco, vejo  Estranho!  como uma outra criatura Que me era amiga, numa vaga",
+        "start_char": 28453,
+        "end_char": 28458,
+        "excerpt": "Vai-se-me embotando, Co'a força de pensar, contínuo e árido, Toda a verdura e flor do pensamento. Ao recordar agora, apenas sinto, Como um cansaço só de ter vivido, Desconsolado e mudo sentimento De ter deixado atrás parte de mim, E saudade de não ter saudade, Saudades dos tempos em que as tinha. Se a minha infância agora evoco, vejo  Estranho!  como uma outra criatura Que me era amiga, numa vaga",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Se a minha infância agora evoco, vejo  Estranho",
+                "child": "uma outra criatura",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "infância",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "criatura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Se a minha infância agora evoco, vejo  Estranho",
+                "child": ", numa vaga",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "infância",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vaga",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma outra criatura",
+                "child": "Se a minha infância agora evoco, vejo  Estranho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "criatura",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "infância",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amiga",
+                "child": "Se a minha infância agora evoco, vejo  Estranho",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "infância",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", numa vaga",
+                "child": "Se a minha infância agora evoco, vejo  Estranho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vaga",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "infância",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vil",
+        "sentence": "Vil metafísica do horror da carne, Medo do amor...",
+        "start_char": 29095,
+        "end_char": 29098,
+        "excerpt": "Ó horror metafísico de ti! Sentido pelo instinto, não na mente! Vil metafísica do horror da carne, Medo do amor...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vil",
+                "child": "metafísica",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Vil",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "metafísico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Vil",
+                "child": "horror",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Vil",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "horror",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "horror",
+                "child": "Vil",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "horror",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "carne",
+                "child": "Vil",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "carne",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Medo",
+                "child": "Vil",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Medo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": "Vil",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o animal",
+        "sentence": "Ah, que hábito recluso de pensar Tão desterra o animal que ousar não ouso",
+        "start_char": 29340,
+        "end_char": 29348,
+        "excerpt": "Pudesse-te eu amar sem que existisses E possuir-te sem que ali estivesses! Ah, que hábito recluso de pensar Tão desterra o animal que ousar não ouso",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desterra",
+                "child": "o animal",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desterrar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "animal",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus pessoal, deus gente, dos que crêem, Existe, para que eu te possa odiar!",
+        "start_char": 29581,
+        "end_char": 29585,
+        "excerpt": "O que a [besta mais vil] do mundo vil Obra por maquinismo. Tanto fechei à chave, aos olhos de outros, Quanto em mim é instinto, que não sei Com que gestos ou modos revelar Um só instinto meu a olhos que olhem ... Deus pessoal, deus gente, dos que crêem, Existe, para que eu te possa odiar!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "Deus pessoal, deus gente, dos que crêem, Existe, para que eu te possa odiar!",
+        "start_char": 29595,
+        "end_char": 29599,
+        "excerpt": "O que a [besta mais vil] do mundo vil Obra por maquinismo. Tanto fechei à chave, aos olhos de outros, Quanto em mim é instinto, que não sei Com que gestos ou modos revelar Um só instinto meu a olhos que olhem ... Deus pessoal, deus gente, dos que crêem, Existe, para que eu te possa odiar!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deus",
+                "child": "gente",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "gente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "deus",
+                "child": "Existe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Deus",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Existe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "deus",
+        "sentence": "O pavor de uma consciência alheia Como um deus a espreitar-me!",
+        "start_char": 29850,
+        "end_char": 29854,
+        "excerpt": "Quero alguém a quem possa a maldição Lançar da minha vida que morri, E não o vácuo só da noite muda Que me não ouve. X O horror metafísico de Outrem! O pavor de uma consciência alheia Como um deus a espreitar-me!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIII",
+        "sentence": "XIII",
+        "start_char": 3092,
+        "end_char": 3096,
+        "excerpt": "Um fogo estranho, de compreensão E incompreensão urdido, enorme Agonia e anseio de existência, Horror e dor, [agonia] sem fim! XIII Fantasmas sem lugar,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Um fogo",
+                "child": "XIII Fantasmas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fogo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "XIII",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "XIII Fantasmas",
+                "child": "Um fogo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "XIII",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fogo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XIV",
+        "sentence": "XIV Não me concebo amando, nem dizendo",
+        "start_char": 30449,
+        "end_char": 30452,
+        "excerpt": "Com que gesto de alma Dou o passo de mim até à posse Do corpo de outros, horrorosamente Vivo, consciente, atento a mim, tão ele Como eu sou eu. XIV Não me concebo amando, nem dizendo",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amor",
+        "sentence": "É isto o amor?",
+        "start_char": 32350,
+        "end_char": 32356,
+        "excerpt": "Gelada mão misteriosa cai Sobre a imaginação [...] XX É isto o amor?",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Mas tu fazes, amor, por me faltares Mesmo estando comigo, pois perguntas  Quando é amar que deves.",
+        "start_char": 33251,
+        "end_char": 33255,
+        "excerpt": "Se te vejo não sei quem sou: eu amo. Se me faltas [...] Mas tu fazes, amor, por me faltares Mesmo estando comigo, pois perguntas  Quando é amar que deves.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fazes",
+                "child": ", amor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "faz",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", amor",
+                "child": "fazes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "faz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", amor",
+                "child": "Se me faltas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "falta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alguém",
+        "sentence": "Pois procuras o amor pra não amar, E, se me buscas, é como se eu só fosse Alguém pra te falar de quem tu amas.",
+        "start_char": 33499,
+        "end_char": 33505,
+        "excerpt": "Mas tu fazes, amor, por me faltares Mesmo estando comigo, pois perguntas  Quando é amar que deves. Se não amas, Mostra-te indiferente, ou não me queiras, Mas tu és como nunca ninguém foi, Pois procuras o amor pra não amar, E, se me buscas, é como se eu só fosse Alguém pra te falar de quem tu amas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amor",
+        "sentence": "Amor, diz qualquer cousa que eu te sinta!",
+        "start_char": 34064,
+        "end_char": 34068,
+        "excerpt": "E eu soube-o só depois, quando te vi, E tive para mim melhor sentido, E o meu passado foi como uma 'strada Iluminada pela frente, quando O carro com lanternas vira a curva Do caminho e já a noite é toda humana. Quando eu era pequena, sinto que eu Amava-te já longe, mas de longe... Amor, diz qualquer cousa que eu te sinta!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Amor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XXI",
+        "sentence": "XXII",
+        "start_char": 7687,
+        "end_char": 7690,
+        "excerpt": "Eu sou o inferno. Sou o Cristo negro, Pregado na cruz ígnea de mim mesmo. Sou o saber que ignora, Sou a insônia da dor e do pensar XXII",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensar",
+                "child": "XXII",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "XXII",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "XXII",
+                "child": "Sou a insônia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "XXII",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "insônia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "Ninguém",
+        "start_char": 34320,
+        "end_char": 34327,
+        "excerpt": "Pra que te falar? Ninguém me irmana",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "XXI",
+        "sentence": "XXIII",
+        "start_char": 8385,
+        "end_char": 8388,
+        "excerpt": "Meu pensamento louco e sucumbido. Cada vez sinto mais como se eu, Sonhando menos, consciência alerta Fosse apenas sonhando mais profundo XXIII",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sonhando",
+                "child": "mais profundo XXIII",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "XXIII",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ânsia",
+        "sentence": "Ânsia cansada de não mais viver;",
+        "start_char": 35057,
+        "end_char": 35062,
+        "excerpt": "Só um sentimento De desejar eterna quietação, Ambição vaga de fechar os olhos E vaga esp'rança de não mais abri-los. Ânsia cansada de não mais viver; Meu cérebro esvaído não lamenta",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Ânsia",
+                "child": "cansada",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Ânsia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cansada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cansada",
+                "child": "Ânsia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cansada",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ânsia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tumultu",
+        "sentence": "Tumultuárias Idéias mistas do meu ser antigo E deste, surgem e desaparecem",
+        "start_char": 35141,
+        "end_char": 35148,
+        "excerpt": "Meu cérebro esvaído não lamenta Nem sabe lamentar. Tumultuárias Idéias mistas do meu ser antigo E deste, surgem e desaparecem",
+        "gender": "male",
+        "pch_occurrences": {
+            "cérebro": {
+                "syns": [
+                    "cérebros",
+                    "encéfalo",
+                    "encéfalos"
+                ],
+                "occurrences": [
+                    "cérebro"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Morte",
+        "sentence": "Vem pois, oh Morte!",
+        "start_char": 35353,
+        "end_char": 35358,
+        "excerpt": "Sem deixar rastos à compreensão. Já deslumbradas, vãs, incoerentes, Amargas, [vagas] desorganizações Que nem deixam sofrer. Vem pois, oh Morte!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vem",
+                "child": ", oh Morte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Vem",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vida",
+        "sentence": "Vai-te, Vida!",
+        "start_char": 35553,
+        "end_char": 35557,
+        "excerpt": "Nada. Já nada [passa]  nada, nada... Vai-te, Vida!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vai-te",
+                "child": ", Vida",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Vai-te",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Vida",
+                "child": "Vai-te",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vida",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vai-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mistério",
+        "sentence": "VI Mistério, vai-te, esmagas-me!",
+        "start_char": 36138,
+        "end_char": 36146,
+        "excerpt": "apenas, muda, A presença da morte que triplica O sentimento do mistério em mim. VI Mistério, vai-te, esmagas-me!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esmagas-me",
+                "child": "VI Mistério, vai-te,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esmagas-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "VI",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ali",
+        "sentence": "Mas a morte, a morte, Ali, como a temo!",
+        "start_char": 36248,
+        "end_char": 36251,
+        "excerpt": "VI Mistério, vai-te, esmagas-me! Ah, partir Esta cabeça contra aquele muro E tombar morto. Mas a morte, a morte, Ali, como a temo!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ama",
+        "sentence": "Ah, mas já [nem] posso Amaldiçoar...",
+        "start_char": 36395,
+        "end_char": 36398,
+        "excerpt": "Quem? Quem faz o mal, Este que sinto! Ah, mas já [nem] posso Amaldiçoar...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "já [nem] posso",
+                "child": "Amaldiçoar",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "posso",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amaldiçoar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Amaldiçoar",
+                "child": "já [nem] posso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Amaldiçoar",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "posso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O animal",
+        "sentence": "O animal teme a morte porque vive,",
+        "start_char": 36860,
+        "end_char": 36868,
+        "excerpt": "Um pavor corporado, um pavor frio Como uma névoa, um pavor de todo eu Subindo à tona intelectual de mim. VIII O animal teme a morte porque vive,",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "teme",
+                "child": "O animal",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "temer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "animal",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O homem também, e porque a desconhece;",
+        "start_char": 36895,
+        "end_char": 36902,
+        "excerpt": "O animal teme a morte porque vive, O homem também, e porque a desconhece; Só a mim é dado com horror Temê-la, por lhe conhecer a inteira Extensão e mistério, por medir",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O homem",
+                "child": "desconhece",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "desconhece",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desconhece",
+                "child": "O homem",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "desconhece",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Há Deus ou não há Deus?",
+        "start_char": 37237,
+        "end_char": 37241,
+        "excerpt": "Criando um sentimento para si Do qual o Horror é apenas a aparência Pensável e sensível do exterior. Uns têm  e é sofrer  o duvidar: Há Deus ou não há Deus?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Há",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Há",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Há",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Há",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "há",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Há Deus ou não há Deus?",
+        "start_char": 37237,
+        "end_char": 37241,
+        "excerpt": "Criando um sentimento para si Do qual o Horror é apenas a aparência Pensável e sensível do exterior. Uns têm  e é sofrer  o duvidar: Há Deus ou não há Deus?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Há",
+                "child": "Deus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Há",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Há",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Há",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "há",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "X Ao condenado Inda no seu horror lhe luz ao menos",
+        "start_char": 37489,
+        "end_char": 37493,
+        "excerpt": "Medo da morte, não; horror da morte. Horror por ela ser, pelo que é E pelo inevitável. X Ao condenado Inda no seu horror lhe luz ao menos",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Inda",
+                "child": "seu horror",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inda",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "horror",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inda",
+                "child": "luz",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inda",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "luz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu horror",
+                "child": "Inda",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "horror",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "luz",
+                "child": "Inda",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "luz",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "menos",
+                "child": "Inda",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "menos",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "Ninguém",
+        "start_char": 34320,
+        "end_char": 34327,
+        "excerpt": "Pra que te falar? Ninguém me irmana",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "igo",
+        "sentence": "Tão feito um comigo.",
+        "start_char": 38006,
+        "end_char": 38009,
+        "excerpt": "Como eu teve este horror. Nem poderá Nas veias e na alma do seu sangue Tê-lo tão íntimo [...] Tão feito um comigo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "feito",
+                "child": "um comigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "comigo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os sonhadores",
+        "sentence": "Mas é dentro dum sonho um [sonho] real, Em que sonhados são os sonhadores Também.",
+        "start_char": 38175,
+        "end_char": 38188,
+        "excerpt": "Tão feito um comigo. As figuras do sonho não conhecem O sonho [...] de que são figuras, Porque o mundo não só é [já] sonhado Mas é dentro dum sonho um [sonho] real, Em que sonhados são os sonhadores Também.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Morte",
+        "sentence": "E nessa hora em que eu e a Morte Nos encontrarmos O que verei?",
+        "start_char": 38508,
+        "end_char": 38515,
+        "excerpt": "Não lhe poder fugir. Não podê-lo esquecer. E nessa hora em que eu e a Morte Nos encontrarmos O que verei?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E nessa hora",
+                "child": "a Morte",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "hora",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Morte",
+                "child": "E nessa hora",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Morte",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ancião",
+        "sentence": "Ancião, não podes tu Arranjar-me um remédio para a vida?",
+        "start_char": 38927,
+        "end_char": 38933,
+        "excerpt": "Febre! Febre! Estou trêmulo de febre E de delírio...] Ancião, não podes tu Arranjar-me um remédio para a vida?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um remédio",
+                "child": "Ancião",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "remédio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ancião",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a vida",
+                "child": "Ancião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ancião",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho",
+        "sentence": "Atordoar-me-á isto a alma toda, Toda, até dentro, muito dentro, velho?",
+        "start_char": 39098,
+        "end_char": 39103,
+        "excerpt": "Quero vivê-la sem saber que a vivo Como tu vives. Atordoar-me-á isto a alma toda, Toda, até dentro, muito dentro, velho?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "FAUSTO",
+        "sentence": "(FAUSTO bebe sofregamente)",
+        "start_char": 39300,
+        "end_char": 39306,
+        "excerpt": "depressa, diz... Mal te compreendo, mas não tenho. (FAUSTO bebe sofregamente)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "bebe",
+                "child": "FAUSTO",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "beber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "FAUSTO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criatura",
+        "sentence": "Estranha e horrível criatura!",
+        "start_char": 39346,
+        "end_char": 39354,
+        "excerpt": "Mal te compreendo, mas não tenho. (FAUSTO bebe sofregamente) Estranha e horrível criatura!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Estranha",
+                "child": "criatura",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Estranha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "criatura",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criatura",
+                "child": "Estranha",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "criatura",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Estranha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "estranho",
+        "sentence": "Qualquer que seja essa desgraça, estranho, Dorme e ou esquece ou aconteça em ti",
+        "start_char": 39767,
+        "end_char": 39775,
+        "excerpt": "E essas palavras de que usou  \"esquecer A vida\"; \"mais do que esquecer\"; \"em mim Acabará então parte de mim\"  Que significam? Não sei, mas sinto Que condizem, secreta e intimamente, Com esse íntimo ser que eu não conheço; Qualquer que seja essa desgraça, estranho, Dorme e ou esquece ou aconteça em ti",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "desgraça",
+                "child": "estranho",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "desgraça",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "estranho",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Eu sou outro que os homens, ó ancião, O teu filtro de paz e esquecimento Não me faz esquecer e só a sombra",
+        "start_char": 40257,
+        "end_char": 40266,
+        "excerpt": "(Vai para o levantar mais retrai-se) Não; dorme onde caíste Eu sou outro que os homens, ó ancião, O teu filtro de paz e esquecimento Não me faz esquecer e só a sombra",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "os homens",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ancião",
+        "sentence": "Eu sou outro que os homens, ó ancião, O teu filtro de paz e esquecimento Não me faz esquecer e só a sombra",
+        "start_char": 40270,
+        "end_char": 40276,
+        "excerpt": "(Vai para o levantar mais retrai-se) Não; dorme onde caíste Eu sou outro que os homens, ó ancião, O teu filtro de paz e esquecimento Não me faz esquecer e só a sombra",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Velho",
+        "sentence": "Velho, Adeus; quisera ter achado em ti podia ter achado.",
+        "start_char": 40895,
+        "end_char": 40900,
+        "excerpt": "Como...] treme, Com que debilidade e sentimento De estarmudado] o corpo todo. Velho, Adeus; quisera ter achado em ti podia ter achado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Velho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Velho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho",
+        "sentence": "Tu dás-mo, velho.",
+        "start_char": 41606,
+        "end_char": 41611,
+        "excerpt": "não, que eu nada tenho Nem sei se tive ou poderia ter. Tu dás-mo, velho. Não te servirá De nada ...]",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tu",
+                "child": "velho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tu",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filtro",
+        "sentence": "Em verdade to digo, o filtro.",
+        "start_char": 42143,
+        "end_char": 42151,
+        "excerpt": "Na ação te mostre o que é. Não posso dar-te. Em verdade to digo, o filtro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "digo",
+                "child": "o filtro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filtro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Piedade",
+        "sentence": "Piedade, piedade...",
+        "start_char": 42380,
+        "end_char": 42387,
+        "excerpt": "Em movimento ou vaga intimidade Do olhar... Piedade, piedade...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Piedade",
+                "child": "piedade",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "piedade",
+                "child": "Piedade",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Piedade",
+        "sentence": "Piedade, senhor!, Eu dou-te o filtro, Eu dou-te o filtro.",
+        "start_char": 42400,
+        "end_char": 42407,
+        "excerpt": "Do olhar... Piedade, piedade... Piedade, senhor!, Eu dou-te o filtro, Eu dou-te o filtro.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Piedade",
+                "child": "piedade",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "piedade",
+                "child": "Piedade",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Piedade",
+                "child": ", senhor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "Piedade",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filtro",
+                "child": "Piedade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filtro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filtro",
+                "child": "Piedade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filtro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Piedade",
+        "sentence": "Piedade, eu dou... (FAUSTO estrangula-o ...]) (após matar)",
+        "start_char": 42458,
+        "end_char": 42465,
+        "excerpt": "Piedade, piedade... Piedade, senhor!, Eu dou-te o filtro, Eu dou-te o filtro. Piedade, eu dou... (FAUSTO estrangula-o ...]) (após matar)",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Piedade",
+                "child": ", piedade",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", piedade",
+                "child": "Piedade",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Piedade",
+                "child": ", senhor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhor",
+                "child": "Piedade",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filtro",
+                "child": "Piedade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filtro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o filtro",
+                "child": "Piedade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filtro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dou",
+                "child": "Piedade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Reza por mim, Maria, e eu sentirei",
+        "start_char": 43087,
+        "end_char": 43092,
+        "excerpt": "Procuremos o filtro...] II Reza por mim, Maria, e eu sentirei",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Reza",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Reza",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "humano",
+        "sentence": "Do humano pensar",
+        "start_char": 43328,
+        "end_char": 43334,
+        "excerpt": "Dize: Fazei feliz a quem eu amo, Cujos olhos não choram por não ter Na alma já lágrimas para chorar; Que tendo erguido o seu pensar ao cume Do humano pensar",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "erguido",
+                "child": "humano",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "erguer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "humano",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Tu amas-me, tu amas-me, Maria?",
+        "start_char": 43744,
+        "end_char": 43749,
+        "excerpt": "partilha Comigo a tua dor, que eu te darei O meu carinho, porque te amo tanto... Tu amas-me, tu amas-me, Maria?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tu",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "Tu",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Meu amor, duvidas?",
+        "start_char": 43771,
+        "end_char": 43775,
+        "excerpt": "Tu amas-me, tu amas-me, Maria? Ah, tu duvidas? Meu amor, duvidas?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu amor",
+                "child": ", duvidas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "duvir",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", duvidas",
+                "child": "Meu amor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "duvir",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "Ah, se palavras Podem levar a alma nelas, Fausto;",
+        "start_char": 43873,
+        "end_char": 43879,
+        "excerpt": "Meu amor, duvidas? Se te amo, por que hás de Tu duvidar de mim? Ah, se palavras Podem levar a alma nelas, Fausto;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "palavras",
+                "child": "Fausto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a alma",
+                "child": "Fausto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Se o que eu sinto em minh'alma se] te vejo, Se sinto o teu pavor, quando penso Em ti, amor, em ti;",
+        "start_char": 44033,
+        "end_char": 44037,
+        "excerpt": "Ah, se palavras Podem levar a alma nelas, Fausto; Se o amor, este amor como eu o sinto Pode dizer-se sem o duvidar; Se o que eu sinto em minh'alma se] te vejo, Se sinto o teu pavor, quando penso Em ti, amor, em ti;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amor",
+                "child": ", este amor",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", este amor",
+                "child": "amor",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amor",
+        "sentence": "senão não seria Amor...]",
+        "start_char": 44310,
+        "end_char": 44314,
+        "excerpt": "se olhares, beijos, Podem mostrar o amor, todo o amor  Crê, que as minhas palavras, os meus beijos, O meu olhar têm esse amor. Eu não sei dizer mais; não aprendi Como o amor falar, não ...] aprendi Porque o amor não fala e] não pode Dizer-se todo, senão não seria Amor...]",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aprendi",
+                "child": "senão não seria Amor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aprender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "Mas eu amo-te, Fausto!",
+        "start_char": 44334,
+        "end_char": 44340,
+        "excerpt": "Eu não sei dizer mais; não aprendi Como o amor falar, não ...] aprendi Porque o amor não fala e] não pode Dizer-se todo, senão não seria Amor...] Mas eu amo-te, Fausto!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amo-te",
+                "child": "Fausto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amo-te",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Mas eu creio em ti, Maria, Eu creio em ti...",
+        "start_char": 44911,
+        "end_char": 44916,
+        "excerpt": "(alto)Perdoa, meu amor! Cedo aprendi a duvidar de tudo Por duvidar e mim, sem o querer, Sem razão de o querer ou de o pensar Mas eu creio em ti, Maria, Eu creio em ti...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

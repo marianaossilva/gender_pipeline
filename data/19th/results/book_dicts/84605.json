@@ -1,0 +1,168 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Alberto Caeiro",
+        "start_char": 38,
+        "end_char": 52,
+        "excerpt": "Alberto Caeiro O mistério das cousas, onde está ele? Onde está ele que não aparece Pelo menos a mostrar-nos que é mistério?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Sempre que olho para as cousas e penso no que os homens pensam delas, Rio como um regato que soa fresco numa pedra.",
+        "start_char": 301,
+        "end_char": 310,
+        "excerpt": "Que sabe o rio disso e que sabe a árvore? E eu, que não sou mais do que eles, que sei disso? Sempre que olho para as cousas e penso no que os homens pensam delas, Rio como um regato que soa fresco numa pedra.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pensam",
+                "child": "os homens",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Por",
+        "sentence": "Porque o único sentido oculto das cousas É elas não terem sentido oculto nenhum, É mais estranho do que todas as estranhezas E do que os sonhos de todos os poetas",
+        "start_char": 371,
+        "end_char": 374,
+        "excerpt": "E eu, que não sou mais do que eles, que sei disso? Sempre que olho para as cousas e penso no que os homens pensam delas, Rio como um regato que soa fresco numa pedra. Porque o único sentido oculto das cousas É elas não terem sentido oculto nenhum, É mais estranho do que todas as estranhezas E do que os sonhos de todos os poetas",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os filósofos",
+        "sentence": "E os pensamentos de todos os filósofos, Que as cousas sejam realmente o que parecem ser E não haja nada que compreender.",
+        "start_char": 560,
+        "end_char": 572,
+        "excerpt": "Sempre que olho para as cousas e penso no que os homens pensam delas, Rio como um regato que soa fresco numa pedra. Porque o único sentido oculto das cousas É elas não terem sentido oculto nenhum, É mais estranho do que todas as estranhezas E do que os sonhos de todos os poetas E os pensamentos de todos os filósofos, Que as cousas sejam realmente o que parecem ser E não haja nada que compreender.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os pensamentos",
+                "child": "todos os filósofos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pensamento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "filósofo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os filósofos",
+                "child": "os pensamentos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pensamento",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os filósofos",
+                "child": "todos os poetas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os filósofos",
+                "child": "do que os sonhos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os filósofos",
+                "child": "todas as estranhezas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "estranheza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "todos os filósofos",
+                "child": "estranho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "estranho",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

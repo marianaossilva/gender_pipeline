@@ -1,0 +1,610 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "MoreninhaCasimiro de Abreu Moreninha, Moreninha, Tu és do campo a rainha, Tu és senhora de mim;",
+        "start_char": 9,
+        "end_char": 26,
+        "excerpt": "MoreninhaCasimiro de Abreu Moreninha, Moreninha, Tu és do campo a rainha, Tu és senhora de mim; Tu matas todos d'amores, Faceira, vendendo as flores Que colhes no teu jardim. Quando tu passas n'aldeia Diz o povo à boca cheia: -",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "Face"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o povo",
+        "sentence": "Quando tu passas n'aldeia Diz o povo à boca cheia: -",
+        "start_char": 205,
+        "end_char": 211,
+        "excerpt": "MoreninhaCasimiro de Abreu Moreninha, Moreninha, Tu és do campo a rainha, Tu és senhora de mim; Tu matas todos d'amores, Faceira, vendendo as flores Que colhes no teu jardim. Quando tu passas n'aldeia Diz o povo à boca cheia: -",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "Face"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Diz",
+                "child": "o povo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "povo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moreninha",
+        "sentence": "Regando as flores, sozinha, Nem tu sabes, Moreninha, O quanto achei-te gentil!",
+        "start_char": 610,
+        "end_char": 619,
+        "excerpt": "Tu, ontem, vinhas do monte E paraste ao pé da fonte À fresca sombra do til; Regando as flores, sozinha, Nem tu sabes, Moreninha, O quanto achei-te gentil!",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as flores",
+                "child": ", Moreninha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Moreninha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Moreninha",
+                "child": "as flores",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Moreninha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pássaro esfaimado",
+        "sentence": "Depois segui-te calado Como o pássaro esfaimado Vai seguindo a juriti;",
+        "start_char": 675,
+        "end_char": 694,
+        "excerpt": "E paraste ao pé da fonte À fresca sombra do til; Regando as flores, sozinha, Nem tu sabes, Moreninha, O quanto achei-te gentil! Depois segui-te calado Como o pássaro esfaimado Vai seguindo a juriti;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moreninha",
+        "sentence": "E disse então: - Moreninha, Se um dia tu fores minha, Que amor, que amor não terás!",
+        "start_char": 813,
+        "end_char": 822,
+        "excerpt": "Depois segui-te calado Como o pássaro esfaimado Vai seguindo a juriti; Mas tão pura ias brincando, Pelas pedrinhas saltando, Que eu tive pena de ti! E disse então: - Moreninha, Se um dia tu fores minha, Que amor, que amor não terás!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sereia",
+        "sentence": "Morena, minha sereia, Tu és a rosa da aldeia, Mulher mais linda não há;",
+        "start_char": 974,
+        "end_char": 980,
+        "excerpt": "Eu dou-te noites de rosas Cantando canções formosas Ao som dos meus ternos ais. Morena, minha sereia, Tu és a rosa da aldeia, Mulher mais linda não há;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a deusa da praça",
+        "sentence": "Tu és a deusa da praça, E todo o homem que passa",
+        "start_char": 1121,
+        "end_char": 1137,
+        "excerpt": "Morena, minha sereia, Tu és a rosa da aldeia, Mulher mais linda não há; Ninguém t'iguala ou t'imita Co'as tranças presas na fita, Co'as flores no samburá! Tu és a deusa da praça, E todo o homem que passa",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moreninha",
+        "sentence": "Tu és bela, Moreninha, Sentada em tua banquinha",
+        "start_char": 1273,
+        "end_char": 1282,
+        "excerpt": "Apenas viu-te... parou! Segue depois seu caminho Mas vai calado e sozinho Porque sua alma ficou! Tu és bela, Moreninha, Sentada em tua banquinha",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Moreninha",
+                "child": "Tu",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Moreninha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pandeiro",
+        "sentence": "Rufando alegre o pandeiro, Como a ave no espinheiro Tu soltas também a voz:",
+        "start_char": 1346,
+        "end_char": 1356,
+        "excerpt": "Tu és bela, Moreninha, Sentada em tua banquinha Cercada de todos nós; Rufando alegre o pandeiro, Como a ave no espinheiro Tu soltas também a voz:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rufando",
+                "child": "o pandeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rufando",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pandeiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha Morena",
+        "sentence": "\" - Morena, minha Morena, És bela, mas não tens pena",
+        "start_char": 1590,
+        "end_char": 1602,
+        "excerpt": "Tão belas não há assim; \"Foram banhadas de orvalho, \"São flores do meu serralho, \"Colhi-as no meu jardim. \" - Morena, minha Morena, És bela, mas não tens pena",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moreninha",
+        "sentence": "... Moreninha, Moreninha, Tu és das belas rainha, Mas nos amores és má -",
+        "start_char": 1737,
+        "end_char": 1746,
+        "excerpt": "De quem morre de paixão! - Tu vendes flores singelas E guardas as flores belas, As rosas do coração?! ... Moreninha, Moreninha, Tu és das belas rainha, Mas nos amores és má -",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rainha",
+                "child": "Moreninha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rainha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moreninha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Moreninha",
+                "child": ", Moreninha",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "moreninha",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Moreninha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Moreninha",
+                "child": "Tu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "moreninha",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Moreninha",
+                "child": "belas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "moreninha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "bela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Moreninha",
+                "child": "Moreninha",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Moreninha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moreninha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tu",
+                "child": "Moreninha",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Tu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moreninha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "belas",
+                "child": "Moreninha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bela",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "moreninha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu",
+        "sentence": "Meus amores, \"Deixa mirar tuas flores, \"Deixa perfumes sentir!",
+        "start_char": 1902,
+        "end_char": 1905,
+        "excerpt": "Como tu ficas bonita Co'as tranças presas na fita, Co'as flores no samburá! Eu disse então: - \" Meus amores, \"Deixa mirar tuas flores, \"Deixa perfumes sentir!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mirar",
+                "child": "Meus amores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mirar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "Assim ficaste, querida,",
+        "start_char": 2123,
+        "end_char": 2130,
+        "excerpt": "Como nuvem desmaiada Se tinge de madrugada Ao doce albor da manhã Assim ficaste, querida,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "feitice",
+        "sentence": "Tu fugiste, feiticeira, E decerto mais ligeira",
+        "start_char": 2191,
+        "end_char": 2198,
+        "excerpt": "Assim ficaste, querida, A face em pejo acendida, Vermelha como a romã! Tu fugiste, feiticeira, E decerto mais ligeira",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fugiste",
+                "child": "feiticeira",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "fugiste",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "Feiticeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ira",
+        "sentence": "Tu fugiste, feiticeira, E decerto mais ligeira",
+        "start_char": 2198,
+        "end_char": 2201,
+        "excerpt": "Assim ficaste, querida, A face em pejo acendida, Vermelha como a romã! Tu fugiste, feiticeira, E decerto mais ligeira",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fugiste",
+                "child": "feiticeira",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "fugiste",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "Feiticeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gazela",
+        "sentence": "Qualquer gazela não é;",
+        "start_char": 2235,
+        "end_char": 2241,
+        "excerpt": "A face em pejo acendida, Vermelha como a romã! Tu fugiste, feiticeira, E decerto mais ligeira Qualquer gazela não é;",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Morena",
+        "sentence": "Morena, ai!",
+        "start_char": 2330,
+        "end_char": 2336,
+        "excerpt": "Saltando a moita de murta Mostraste, mostraste o pé! Ai! Morena, ai!",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sereia",
+        "sentence": "Apenas vi-te, sereia, Chamei-te - rosa da aldeia - Como mais linda não há.",
+        "start_char": 2507,
+        "end_char": 2513,
+        "excerpt": "Sem o sorriso engraçado Que a tua boquinha tem? ... Apenas vi-te, sereia, Chamei-te - rosa da aldeia - Como mais linda não há.",
+        "gender": "female",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sereia",
+                "child": "vi-te",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sereia",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "vi-te",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sereia",
+                "child": "Chamei-te",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sereia",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Chamei-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "- Jesus!",
+        "start_char": 2570,
+        "end_char": 2575,
+        "excerpt": "... parou! Segue depois seu caminho Mas vai calado e sozinho Porque sua alma ficou! Tu és bela, Moreninha, Sentada em tua banquinha Cercada de todos nós; Rufando alegre o pandeiro, Como a ave no espinheiro Tu soltas também a voz: - \"Oh quem me compra estas flores? \"São lindas como os amores, \" Tão belas não há assim; \"Foram banhadas de orvalho, \"São flores do meu serralho, \"Colhi-as no meu jardim. \" - Morena, minha Morena, És bela, mas não tens pena De quem morre de paixão! - Tu vendes flores singelas E guardas as flores belas, As rosas do coração?! ... Moreninha, Moreninha, Tu és das belas rainha, Mas nos amores és má - Como tu ficas bonita Co'as tranças presas na fita, Co'as flores no samburá! Eu disse então: - \" Meus amores, \"Deixa mirar tuas flores, \"Deixa perfumes sentir! \" Mas naquele doce enleio, Em vez das flores, no seio, No seio te fui bulir! Como nuvem desmaiada Se tinge de madrugada Ao doce albor da manhã Assim ficaste, querida, A face em pejo acendida, Vermelha como a romã! Tu fugiste, feiticeira, E decerto mais ligeira Qualquer gazela não é; Tu ias de saia curta... Saltando a moita de murta Mostraste, mostraste o pé! Ai! Morena, ai! meus amores, Eu quero comprar-te as flores, Mas dá-me um beijo também; Que importam rosas do prado Sem o sorriso engraçado Que a tua boquinha tem? ... Apenas vi-te, sereia, Chamei-te - rosa da aldeia - Como mais linda não há. - Jesus!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

@@ -1,0 +1,3562 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "sua mulher",
+        "sentence": ", sua mulher",
+        "start_char": 279,
+        "end_char": 289,
+        "excerpt": "Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "TOMÉ, ELISA (entra vestida)",
+        "start_char": 339,
+        "end_char": 344,
+        "excerpt": "UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida)",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ": TOMÉ",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": ": TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "TOMÉ Vou mandar à cidade o Chico ou o José.",
+        "start_char": 388,
+        "end_char": 393,
+        "excerpt": "PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mandar",
+                "child": "o Chico",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "o José",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "TOMÉ",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o José",
+                "child": "o Chico",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "TOMÉ Vou mandar à cidade o Chico ou o José.",
+        "start_char": 399,
+        "end_char": 403,
+        "excerpt": "PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Chico",
+                "child": "o José",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o José",
+                "child": "o Chico",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o José",
+                "child": "TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELIS",
+        "sentence": "ELISA Vou eu.",
+        "start_char": 457,
+        "end_char": 461,
+        "excerpt": "TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "PAREDE",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "PAREDE",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "PAREDE",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "PAREDE",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": TOMÉ",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": ": TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ (rindo)",
+        "start_char": 700,
+        "end_char": 704,
+        "excerpt": "Que mais? Mais nada. TOMÉ (rindo)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu anjo",
+        "sentence": "Pois aceito, meu anjo, esse imenso favor.",
+        "start_char": 805,
+        "end_char": 813,
+        "excerpt": "TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Pois aceito",
+                "child": ", meu anjo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "aceitar",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu anjo",
+                "child": "Pois aceito",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "anjo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "aceitar",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Burlamaque",
+        "sentence": "Que te leve um recado ao Dr. Burlamaque?",
+        "start_char": 885,
+        "end_char": 900,
+        "excerpt": "Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Charutos",
+        "sentence": "Charutos?",
+        "start_char": 927,
+        "end_char": 935,
+        "excerpt": "Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tomé",
+        "sentence": "Aproveita, Tomé!",
+        "start_char": 961,
+        "end_char": 965,
+        "excerpt": "Charutos? Algum livro? Aproveita, Tomé!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Aproveita",
+                "child": ", Tomé",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Aproveita",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Tomé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Tomé",
+                "child": "Aproveita",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tomé",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Aproveita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Tu bem sabes que a tua Elisa...",
+        "start_char": 1055,
+        "end_char": 1060,
+        "excerpt": "ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa...",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "que a tua",
+                "child": "Elisa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tua",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Elisa",
+                "child": "que a tua",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tua",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA (rindo)",
+        "start_char": 1300,
+        "end_char": 1305,
+        "excerpt": "inda pior que a asma: Tenho a caixa vazia. ELISA (rindo)",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jacó",
+        "sentence": "Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó.",
+        "start_char": 1993,
+        "end_char": 1997,
+        "excerpt": "Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a mansidão",
+                "child": "Jacó",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mansidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Jacó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jacó",
+                "child": "a mansidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Jacó",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mansidão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Não duvido.",
+        "start_char": 1999,
+        "end_char": 2004,
+        "excerpt": "Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "duvido",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "duver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha flor",
+        "sentence": "Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo.",
+        "start_char": 2177,
+        "end_char": 2187,
+        "excerpt": ". Edição referência: Obra Completa, de Machado de Assis, vol. II, Nova Aguilar, Rio de Janeiro, 1994 O BOTE DE RAPÉ COMÉDIA EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "TOMÉ",
+                "child": "Minha flor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minha flor",
+                "child": "TOMÉ",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELIS",
+        "sentence": "ELISA Paulo Cordeiro, não?",
+        "start_char": 2359,
+        "end_char": 2363,
+        "excerpt": "Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo Cordeiro",
+        "sentence": "ELISA Paulo Cordeiro, não?",
+        "start_char": 2365,
+        "end_char": 2379,
+        "excerpt": "Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo Cordeiro",
+        "sentence": "TOMÉ Paulo Cordeiro.",
+        "start_char": 2391,
+        "end_char": 2405,
+        "excerpt": "Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ",
+        "start_char": 2415,
+        "end_char": 2420,
+        "excerpt": "ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Queres",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Queres",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": "Queres",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Queres",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "xarope",
+        "sentence": "Do xarope?",
+        "start_char": 2471,
+        "end_char": 2477,
+        "excerpt": "TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "TOMÉ",
+                "child": "xarope",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "xarope",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "xarope",
+                "child": "TOMÉ",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "xarope",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tomé",
+        "sentence": "Até logo, Tomé.",
+        "start_char": 2502,
+        "end_char": 2506,
+        "excerpt": "Verei. ELISA Até logo, Tomé.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "logo",
+                "child": "Tomé",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "logo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tomé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tomé",
+                "child": "logo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Tomé",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "logo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ Não te esqueças.",
+        "start_char": 2508,
+        "end_char": 2512,
+        "excerpt": "ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O NARIZ",
+                "child": "TOMÉ",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "NARIZ",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "O NARIZ",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "NARIZ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": TOMÉ",
+                "child": "PRIMEIRA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "PRIMEIRA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": TOMÉ",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": ": TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cidade",
+                "child": "TOMÉ",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Chico",
+                "child": "TOMÉ",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o José",
+                "child": "TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "doente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "doente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "Minha flor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "contigo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "contigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Minha flor",
+                "child": "TOMÉ",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver-me",
+                "child": "TOMÉ",
+                "dep_h": "xcomp",
+                "pos_h": "PROPN",
+                "lemma_h": "ver-me",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "terno",
+                "child": "TOMÉ",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "terno",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [
+                    "carater_emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "contigo",
+                "child": "TOMÉ",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "contigo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquele amor",
+                "child": "TOMÉ",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "xarope",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "xarope",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "xarope",
+                "child": "TOMÉ",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "xarope",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "esqueças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "esqueça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esqueças",
+                "child": "TOMÉ",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "esqueça",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Já sei: um bote de rapé.",
+        "start_char": 2530,
+        "end_char": 2535,
+        "excerpt": "Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Coutinho",
+        "sentence": "Verdade é que o sarau com o Dr. Coutinho",
+        "start_char": 2692,
+        "end_char": 2705,
+        "excerpt": "Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padrinho",
+        "sentence": "Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz.",
+        "start_char": 2767,
+        "end_char": 2775,
+        "excerpt": "Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os anos",
+                "child": "padrinho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "padrinho",
+                "child": "os anos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Guedes",
+        "sentence": "Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "start_char": 2831,
+        "end_char": 2837,
+        "excerpt": "Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vai",
+                "child": "o Guedes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guedes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Guedes",
+                "child": ", o Paca",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Guedes",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Paca",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Guedes",
+                "child": ", o Rubirão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Guedes",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rubirão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Paca",
+                "child": "o Guedes",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paca",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guedes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Rubirão",
+                "child": "o Guedes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rubirão",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guedes",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paca",
+        "sentence": "Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "start_char": 2841,
+        "end_char": 2845,
+        "excerpt": "Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Guedes",
+                "child": ", o Paca",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Guedes",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Paca",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Paca",
+                "child": "o Guedes",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paca",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guedes",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rubirão",
+        "sentence": "Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "start_char": 2849,
+        "end_char": 2856,
+        "excerpt": "Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o Guedes",
+                "child": ", o Rubirão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Guedes",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rubirão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o Rubirão",
+                "child": "o Guedes",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rubirão",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guedes",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Cruz",
+        "sentence": "Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "start_char": 2858,
+        "end_char": 2864,
+        "excerpt": "Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vai",
+                "child": "o Cruz",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cruz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A viúva do Silva",
+        "sentence": "A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata.",
+        "start_char": 2865,
+        "end_char": 2881,
+        "excerpt": "Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a família do Mata",
+        "sentence": "A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata.",
+        "start_char": 2883,
+        "end_char": 2900,
+        "excerpt": "Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um infeliz",
+        "sentence": "Um infeliz consola outro infeliz;",
+        "start_char": 3351,
+        "end_char": 3361,
+        "excerpt": "Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz;",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Um infeliz consola outro",
+                "child": "infeliz",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "consola",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "infeliz",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "outro infeliz",
+        "sentence": "Um infeliz consola outro infeliz;",
+        "start_char": 3370,
+        "end_char": 3383,
+        "excerpt": "Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flores",
+        "sentence": "Flores; nunca!",
+        "start_char": 3561,
+        "end_char": 3567,
+        "excerpt": "TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca!",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "menino",
+        "sentence": "Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino.",
+        "start_char": 3811,
+        "end_char": 3817,
+        "excerpt": "Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ventas",
+                "child": "menino",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "venta",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "menino",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "menino",
+                "child": "ventas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "venta",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ (consigo)",
+        "start_char": 3819,
+        "end_char": 3823,
+        "excerpt": "Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "TOMÉ",
+                "child": "consigo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "consigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "consigo",
+                "child": "TOMÉ",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "consigo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dig",
+        "sentence": "Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão.",
+        "start_char": 3870,
+        "end_char": 3873,
+        "excerpt": "Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "bastante elevação",
+                "child": ", Dignidade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "elevação",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dignidade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Dignidade",
+                "child": "bastante elevação",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dignidade",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "elevação",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Safa",
+        "sentence": "(Dorme algum tempo e acorda) Safa!",
+        "start_char": 4123,
+        "end_char": 4127,
+        "excerpt": "Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa!",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "(Dorme algum tempo",
+                "child": "Safa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tempo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "safa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Safa",
+                "child": "(Dorme algum tempo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "safa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "E a minha Elisa a andar por essas ruas.",
+        "start_char": 4211,
+        "end_char": 4216,
+        "excerpt": "TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "que a tua",
+                "child": "Elisa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tua",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Elisa",
+                "child": "que a tua",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "essas ruas",
+                "child": "E a minha Elisa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "És tu, Elisa?",
+        "start_char": 4473,
+        "end_char": 4478,
+        "excerpt": "Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa)",
+        "start_char": 4496,
+        "end_char": 4501,
+        "excerpt": "És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa)",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", ELISA",
+                "child": "III",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o caixeiro",
+        "sentence": "(Sai o caixeiro)",
+        "start_char": 4601,
+        "end_char": 4611,
+        "excerpt": "Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Vamos agora ver tudo quanto comprei.",
+        "start_char": 4693,
+        "end_char": 4698,
+        "excerpt": "Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ Mas primeiro descansa.",
+        "start_char": 4736,
+        "end_char": 4740,
+        "excerpt": "Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "descansa",
+                "child": "TOMÉ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descansar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Ou torrada.",
+        "start_char": 4832,
+        "end_char": 4837,
+        "excerpt": "Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ Excelente.",
+        "start_char": 4960,
+        "end_char": 4964,
+        "excerpt": "é o chapéu. Achas bom? TOMÉ Excelente.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA (põe o chapéu) Deve cair um pouco para a frente.",
+        "start_char": 4984,
+        "end_char": 4989,
+        "excerpt": "TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "põe",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Acho muito engraçada esta florzinha azul.",
+        "start_char": 5085,
+        "end_char": 5090,
+        "excerpt": "TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas. Coitada! E este calor que talvez nos dará Uma amostra do que é o pobre Ceará. Esqueceu-me dizer tomasse uma caleça. Que diacho! Também saiu com tanta pressa! Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa) ELISA Enfim! Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro) Como passaste? TOMÉ Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa. Olha o vento nas costas. Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada. TOMÉ Hoje o sol parece estar cruel. Vejamos o que vem aqui neste papel. ELISA Cuidado! é o chapéu. Achas bom? TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente. Fica bem? TOMÉ Nunca vi um chapéu mais taful. ELISA Acho muito engraçada esta florzinha azul.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "PAREDE",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "PAREDE",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "PAREDE",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "PAREDE",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": TOMÉ",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": ": TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o bote",
+                "child": "ELISA",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "bote",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "o bote",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bote",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "preciso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duvido",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "duver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Queres",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Queres",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": "Queres",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Queres",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ":",
+                "child": "ELISA",
+                "dep_h": "punct",
+                "pos_h": "PROPN",
+                "lemma_h": ":",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "ELISA",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "III",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "ELISA",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "CAIXEIRO",
+                "child": "ELISA",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "CAIXEIRO",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(com uma caixa",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caixa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "III",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "põe",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acho",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ (impaciente)",
+        "start_char": 5302,
+        "end_char": 5306,
+        "excerpt": "Comprei oito metros de renda, Da melhor que se pode, em qualquer parte, achar. Em casa da Creten comprei um peignoir. TOMÉ (impaciente)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Papa - fina",
+        "sentence": "TOMÉ Papa-fina.",
+        "start_char": 5395,
+        "end_char": 5406,
+        "excerpt": "Uma, três, cinco. São bonitas? TOMÉ Papa-fina.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELIS",
+        "sentence": "ELISA Comprei luvas couleur tilleul, creme, marron;",
+        "start_char": 5412,
+        "end_char": 5416,
+        "excerpt": "São bonitas? TOMÉ Papa-fina. ELISA Comprei luvas couleur tilleul, creme, marron;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Comprei os galões, um fichu, e este véu.",
+        "start_char": 5592,
+        "end_char": 5597,
+        "excerpt": "Não sei se me dará a saia do vestido. TOMÉ Dá. ELISA Comprei os galões, um fichu, e este véu.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELIS",
+        "sentence": "ELISA Fui também ao Godinho, Ver as meias de seda e um vestido de linho.",
+        "start_char": 5709,
+        "end_char": 5713,
+        "excerpt": "TOMÉ UM RELÓGIO NA PAREDE ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas. Coitada! E este calor que talvez nos dará Uma amostra do que é o pobre Ceará. Esqueceu-me dizer tomasse uma caleça. Que diacho! Também saiu com tanta pressa! Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa) ELISA Enfim! Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro) Como passaste? TOMÉ Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa. Olha o vento nas costas. Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada. TOMÉ Hoje o sol parece estar cruel. Vejamos o que vem aqui neste papel. ELISA Cuidado! é o chapéu. Achas bom? TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente. Fica bem? TOMÉ Nunca vi um chapéu mais taful. ELISA Acho muito engraçada esta florzinha azul. Vê agora a cambraia, é de linho; fazenda Superior. Comprei oito metros de renda, Da melhor que se pode, em qualquer parte, achar. Em casa da Creten comprei um peignoir. TOMÉ (impaciente) Em casa da Natté ELISA Cinco rosas da China. Uma, três, cinco. São bonitas? TOMÉ Papa-fina. ELISA Comprei luvas couleur tilleul, creme, marron; Dez botões para cima; é o número do tom Olhe este gorgorão; que fio! que tecido! Não sei se me dará a saia do vestido. TOMÉ Dá. ELISA Comprei os galões, um fichu, e este véu. Comprei mais o plissé e mais este chapéu. TOMÉ Já mostraste o chapéu. ELISA Fui também ao Godinho, Ver as meias de seda e um vestido de linho.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "PAREDE",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "PAREDE",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "PAREDE",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "PAREDE",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ": TOMÉ",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": ": TOMÉ",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o bote",
+                "child": "ELISA",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "bote",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "o bote",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bote",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "preciso",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duvido",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "duver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Queres",
+                "child": ", ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Queres",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ELISA",
+                "child": "Queres",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Queres",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ":",
+                "child": "ELISA",
+                "dep_h": "punct",
+                "pos_h": "PROPN",
+                "lemma_h": ":",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "TOMÉ",
+                "child": "ELISA",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "TOMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "III",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "ELISA",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "CAIXEIRO",
+                "child": "ELISA",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "CAIXEIRO",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "(com uma caixa",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caixa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "III",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "III",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "põe",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acho",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Natté",
+                "child": "ELISA",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Natté",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "Natté",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Natté",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "casa",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA",
+                "child": "Godinho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Godinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Godinho",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Godinho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ Imagino, imagino.",
+        "start_char": 6050,
+        "end_char": 6054,
+        "excerpt": "O corpo é uma luva. Imagina que tem... TOMÉ Imagino, imagino.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "imagino",
+                "child": "TOMÉ Imagino,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "imaginar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Verás, verás que é um primor.",
+        "start_char": 6192,
+        "end_char": 6197,
+        "excerpt": "Esbelta, como és, hei de achá-lo melhor No teu corpo. ELISA Verás, verás que é um primor.",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clemence",
+        "sentence": "a Clemence!",
+        "start_char": 6234,
+        "end_char": 6242,
+        "excerpt": "ELISA Verás, verás que é um primor. Oh! a Clemence!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ Não passaste também por casa do dentista?",
+        "start_char": 6273,
+        "end_char": 6277,
+        "excerpt": "a Clemence! aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amália",
+        "sentence": "ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "start_char": 6342,
+        "end_char": 6348,
+        "excerpt": "aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "a Amália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amália",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clotilde",
+        "sentence": "ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "start_char": 6352,
+        "end_char": 6360,
+        "excerpt": "aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": ", a Clotilde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Clotilde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bacharel Albernaz",
+        "sentence": "ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "start_char": 6403,
+        "end_char": 6420,
+        "excerpt": "aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Gomes",
+        "sentence": "Aquele que trabalha Com o Gomes.",
+        "start_char": 6469,
+        "end_char": 6476,
+        "excerpt": "TOMÉ Albernaz? ELISA Aquele que trabalha Com o Gomes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "trabalha",
+                "child": "o Gomes",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Gomes",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA",
+        "start_char": 271,
+        "end_char": 276,
+        "excerpt": "EM SETE COLUNAS Personagens: TOMÉ UM RELÓGIO NA PAREDE ELISA",
+        "gender": "female",
+        "pch_occurrences": {
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "COLUNAS",
+                    "COLUNA"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amália",
+        "sentence": "a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "start_char": 6722,
+        "end_char": 6728,
+        "excerpt": "ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas. Coitada! E este calor que talvez nos dará Uma amostra do que é o pobre Ceará. Esqueceu-me dizer tomasse uma caleça. Que diacho! Também saiu com tanta pressa! Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa) ELISA Enfim! Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro) Como passaste? TOMÉ Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa. Olha o vento nas costas. Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada. TOMÉ Hoje o sol parece estar cruel. Vejamos o que vem aqui neste papel. ELISA Cuidado! é o chapéu. Achas bom? TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente. Fica bem? TOMÉ Nunca vi um chapéu mais taful. ELISA Acho muito engraçada esta florzinha azul. Vê agora a cambraia, é de linho; fazenda Superior. Comprei oito metros de renda, Da melhor que se pode, em qualquer parte, achar. Em casa da Creten comprei um peignoir. TOMÉ (impaciente) Em casa da Natté ELISA Cinco rosas da China. Uma, três, cinco. São bonitas? TOMÉ Papa-fina. ELISA Comprei luvas couleur tilleul, creme, marron; Dez botões para cima; é o número do tom Olhe este gorgorão; que fio! que tecido! Não sei se me dará a saia do vestido. TOMÉ Dá. ELISA Comprei os galões, um fichu, e este véu. Comprei mais o plissé e mais este chapéu. TOMÉ Já mostraste o chapéu. ELISA Fui também ao Godinho, Ver as meias de seda e um vestido de linho. Um não, dois, foram dois. TOMÉ Mais dois vestidos? ELISA Dois... Comprei lá este leque e estes grampos. Depois, Para não demorar. corri do mesmo lance, A provar o vestido em casa da Clemence. Ah! Se pudesse ver como me fica bem! O corpo é uma luva. Imagina que tem... TOMÉ Imagino, imagino. Olha, tu pões-me tonto Só com a descrição; prefiro vê-lo pronto. Esbelta, como és, hei de achá-lo melhor No teu corpo. ELISA Verás, verás que é um primor. Oh! a Clemence! aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz... TOMÉ Albernaz? ELISA Aquele que trabalha Com o Gomes. Trazia um vestido de palha... TOMÉ De palha? ELISA Cor de palha, e um fichu de filó, Luvas cor de pinhão, e a cauda atada a um nó De cordão; o chapéu tinha uma flor cinzenta, E tudo não custou mais de cento e cinqüenta, Conversamos do baile; a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "a Amália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amália",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "diz",
+                "child": "a Amália",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amália",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pai",
+        "sentence": "a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "start_char": 6737,
+        "end_char": 6742,
+        "excerpt": "ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas. Coitada! E este calor que talvez nos dará Uma amostra do que é o pobre Ceará. Esqueceu-me dizer tomasse uma caleça. Que diacho! Também saiu com tanta pressa! Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa) ELISA Enfim! Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro) Como passaste? TOMÉ Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa. Olha o vento nas costas. Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada. TOMÉ Hoje o sol parece estar cruel. Vejamos o que vem aqui neste papel. ELISA Cuidado! é o chapéu. Achas bom? TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente. Fica bem? TOMÉ Nunca vi um chapéu mais taful. ELISA Acho muito engraçada esta florzinha azul. Vê agora a cambraia, é de linho; fazenda Superior. Comprei oito metros de renda, Da melhor que se pode, em qualquer parte, achar. Em casa da Creten comprei um peignoir. TOMÉ (impaciente) Em casa da Natté ELISA Cinco rosas da China. Uma, três, cinco. São bonitas? TOMÉ Papa-fina. ELISA Comprei luvas couleur tilleul, creme, marron; Dez botões para cima; é o número do tom Olhe este gorgorão; que fio! que tecido! Não sei se me dará a saia do vestido. TOMÉ Dá. ELISA Comprei os galões, um fichu, e este véu. Comprei mais o plissé e mais este chapéu. TOMÉ Já mostraste o chapéu. ELISA Fui também ao Godinho, Ver as meias de seda e um vestido de linho. Um não, dois, foram dois. TOMÉ Mais dois vestidos? ELISA Dois... Comprei lá este leque e estes grampos. Depois, Para não demorar. corri do mesmo lance, A provar o vestido em casa da Clemence. Ah! Se pudesse ver como me fica bem! O corpo é uma luva. Imagina que tem... TOMÉ Imagino, imagino. Olha, tu pões-me tonto Só com a descrição; prefiro vê-lo pronto. Esbelta, como és, hei de achá-lo melhor No teu corpo. ELISA Verás, verás que é um primor. Oh! a Clemence! aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz... TOMÉ Albernaz? ELISA Aquele que trabalha Com o Gomes. Trazia um vestido de palha... TOMÉ De palha? ELISA Cor de palha, e um fichu de filó, Luvas cor de pinhão, e a cauda atada a um nó De cordão; o chapéu tinha uma flor cinzenta, E tudo não custou mais de cento e cinqüenta, Conversamos do baile; a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Brigou",
+                "child": "o pai",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "Brigou",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Coutinho",
+        "sentence": "a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "start_char": 6719,
+        "end_char": 6732,
+        "excerpt": "ELISA , sua mulher O NARIZ DE TOMÉ UM CAIXEIRO CENA PRIMEIRA: TOMÉ, ELISA (entra vestida) TOMÉ Vou mandar à cidade o Chico ou o José. ELISA Para ... ? TOMÉ Para comprar um bote de rapé. ELISA Vou eu. TOMÉ Tu? ELISA Sim. Preciso escolher a cambraia, A renda, o gorgorão e os galões para a saia, Cinco rosas da China em casa da Malte, Um par de luvas, um peignoir e um plissé, Ver o vestido azul, e um véu ... Que mais? Mais nada. TOMÉ (rindo) Dize logo que vás buscar se uma assentada Tudo quanto possui a Rua do Ouvidor. Pois aceito, meu anjo, esse imenso favor. ELISA Nada mais? Um chapéu? Uma bengala? Um fraque? Que te leve um recado ao Dr. Burlamaque? Charutos? Algum livro? Aproveita, Tomé! TOMÉ Nada mais; só preciso o bote de rapé ELISA Um bote de rapé! Tu bem sabes que a tua Elisa... TOMÉ Estou doente e não posso ir à rua. Esta asma infernal que me persegue... Vês? Melhor fora matá-la e morrer de uma vez, Do que viver assim com tanta cataplasma. E inda há pior do que isso! inda pior que a asma: Tenho a caixa vazia. ELISA (rindo) Oh! se pudesse estar Vazia para sempre, e acabar, acabar Esse vício tão feio! Antes fumasse, antes. Há vícios jarretões e vícios elegantes. O charuto é bom tom, aromatiza, influi Na digestão, e até dizem que restitui A paz ao coração e dá risonho aspecto. TOMÉ O vício do rapé é vício circunspecto. Indica desde logo um homem de razão; Tem entrada no paço, e reina no salão Governa a sacristia e penetra na igreja. Uma boa pitada, as idéias areja; Dissipa o mau humor. Quantas vezes estou Capaz de pôr abaixo a casa toda! Vou Ao meu santo rapé; abro a boceta, e tiro Uma grossa pitada e sem demora a aspiro; Com o lenço sacudo algum resto de pó E ganho só com isso a mansidão de Jacó. ELISA Não duvido. TOMÉ Inda mais: até o amor aumenta Com a porção de pó que recebe uma venta. ELISA Talvez tenhas razão; acho-te mais amor Agora; mais ternura; acho-te. . . TOMÉ Minha flor, Se queres ver-me terno e amoroso contigo, Se queres reviver aquele amor antigo. Vai depressa. ELISA Onde é? TOMÉ Em casa do Real; Dize-lhe que me mande a marca habitual. ELISA Paulo Cordeiro, não? TOMÉ Paulo Cordeiro. Queres, ELISA Para acalmar a tosse uma ou duas colheres TOMÉ Do xarope? Verei. ELISA Até logo, Tomé. TOMÉ Não te esqueças. ELISA Já sei: um bote de rapé. (sai) CENA II: TOMÉ, depois o seu NARIZ TOMÉ Que zelo! Que lidar! Que correr! Que ir e vir! Quase, quase lhe falta tempo de dormir. Verdade é que o sarau com o Dr. Coutinho Quer festejar domingo os anos do padrinho, É de primo-cartello, é um grande sarau de truz. Vai o Guedes, o Paca, o Rubirão, o Cruz A viúva do Silva, a família do Mata, Um banqueiro, um barão, creio que um diplomata. Dizem que há de gastar quatro contos de réis. Não duvido; uma ceia, os bolos, os pastéis, Gelados, chá... A coisa há de custar caro. O mal é que eu desde já me preparo A despender com isto algum cobrinho... O quê? Quem fala? O NARIZ Sou eu; peço a vossa mercê Me console, insirindo um pouco de tabaco. Há três horas jejuo, e já me sinto fraco, Nervoso, impertinente, estúpido, -- nariz, Em suma. TOMÉ Um infeliz consola outro infeliz; Também eu tenho a bola um pouco transtornada, E gemo, como tu, à espera da pitada. O NARIZ O nariz sem rapé é alma sem amor. TOMÉ Olha podes cheirar esta pequena flor. O NARIZ Flores; nunca! jamais! Dizem que há pelo mundo Quem goste de cheirar esse produto imundo. Um nariz que se preza odeia aromas tais. Outros os gozos são das cavernas nasais. Quem primeiro aspirou aquele pó divino, Deixas as rosas e o mais as ventas do menino. TOMÉ (consigo) Acho neste nariz bastante elevação, Dignidade, critério, empenho e reflexão. Respeita-se; não desce a farejar essências, Águas de toucador e outras minudências. O NARIZ Vamos, uma pitada! Um instante, infeliz! (à parte) Vou dormir para ver se aquieto o nariz. (Dorme algum tempo e acorda) Safa! Que sonho; ah! Que horas são! O RELÓGIO (batendo) Uma, duas. TOMÉ Duas! E a minha Elisa a andar por essas ruas. Coitada! E este calor que talvez nos dará Uma amostra do que é o pobre Ceará. Esqueceu-me dizer tomasse uma caleça. Que diacho! Também saiu com tanta pressa! Pareceu-me, não sei; é ela, é ela, sim... Este passo apressado ... És tu, Elisa? CENA III: TOMÉ, ELISA, UM CAIXEIRO (com uma caixa) ELISA Enfim! Entre cá; ponha aqui toda essa trapalhada. Pode ir. (Sai o caixeiro) Como passaste? TOMÉ Assim; a asma danada Um pouco sossegou depois que dormitei. ELISA Vamos agora ver tudo quanto comprei. TOMÉ Mas primeiro descansa. Olha o vento nas costas. Vamos para acolá. Cuidei voltar em postas. ELISA Ou torrada. TOMÉ Hoje o sol parece estar cruel. Vejamos o que vem aqui neste papel. ELISA Cuidado! é o chapéu. Achas bom? TOMÉ Excelente. Põe lá. ELISA (põe o chapéu) Deve cair um pouco para a frente. Fica bem? TOMÉ Nunca vi um chapéu mais taful. ELISA Acho muito engraçada esta florzinha azul. Vê agora a cambraia, é de linho; fazenda Superior. Comprei oito metros de renda, Da melhor que se pode, em qualquer parte, achar. Em casa da Creten comprei um peignoir. TOMÉ (impaciente) Em casa da Natté ELISA Cinco rosas da China. Uma, três, cinco. São bonitas? TOMÉ Papa-fina. ELISA Comprei luvas couleur tilleul, creme, marron; Dez botões para cima; é o número do tom Olhe este gorgorão; que fio! que tecido! Não sei se me dará a saia do vestido. TOMÉ Dá. ELISA Comprei os galões, um fichu, e este véu. Comprei mais o plissé e mais este chapéu. TOMÉ Já mostraste o chapéu. ELISA Fui também ao Godinho, Ver as meias de seda e um vestido de linho. Um não, dois, foram dois. TOMÉ Mais dois vestidos? ELISA Dois... Comprei lá este leque e estes grampos. Depois, Para não demorar. corri do mesmo lance, A provar o vestido em casa da Clemence. Ah! Se pudesse ver como me fica bem! O corpo é uma luva. Imagina que tem... TOMÉ Imagino, imagino. Olha, tu pões-me tonto Só com a descrição; prefiro vê-lo pronto. Esbelta, como és, hei de achá-lo melhor No teu corpo. ELISA Verás, verás que é um primor. Oh! a Clemence! aquilo é a primeira artista! TOMÉ Não passaste também por casa do dentista? ELISA Passei; vi lá a Amália, a Clotilde, o Rangel, A Marocas, que vai casar com o bacharel Albernaz... TOMÉ Albernaz? ELISA Aquele que trabalha Com o Gomes. Trazia um vestido de palha... TOMÉ De palha? ELISA Cor de palha, e um fichu de filó, Luvas cor de pinhão, e a cauda atada a um nó De cordão; o chapéu tinha uma flor cinzenta, E tudo não custou mais de cento e cinqüenta, Conversamos do baile; a Amália diz que o pai Brigou com o Dr. Coutinho e lá não vai.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ",
+                    "NARIZ",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "NARIZ",
+                    "nariz",
+                    "nariz",
+                    "NARIZ",
+                    "nariz"
+                ],
+                "occurrences_n": 11
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costas",
+                    "costa"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tomé",
+        "sentence": "O NARIZ (baixo a Tomé)",
+        "start_char": 6859,
+        "end_char": 6863,
+        "excerpt": "A Clotilde já tem a toilette acabada. Oitocentos mil-réis. O NARIZ (baixo a Tomé)",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Tomé",
+                "child": "baixo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Tomé",
+                "dep_c": "appos",
+                "pos_c": "ADJ",
+                "lemma_c": "baixo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tomé",
+                "child": "O NARIZ",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Tomé",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "NARIZ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, uma pitada!",
+        "start_char": 6865,
+        "end_char": 6871,
+        "excerpt": "Oitocentos mil-réis. O NARIZ (baixo a Tomé) Senhor, uma pitada!",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "NARIZ"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O NARIZ",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "NARIZ",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Senhor",
+                "child": "O NARIZ",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "NARIZ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA Sabão",
+        "sentence": "ELISA Sabão;",
+        "start_char": 6960,
+        "end_char": 6971,
+        "excerpt": "TOMÉ (com intenção, olhando para a caixa) Mas ainda tens aí uns pacotes... ELISA Sabão;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pacotes",
+                "child": "ELISA Sabão",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "pacote",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ELISA Sabão",
+                "child": "pacotes",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pacote",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOM",
+        "sentence": "TOMÉ (depois de examinar)",
+        "start_char": 7101,
+        "end_char": 7104,
+        "excerpt": "Agora vou mostrar-te um lindo chapelinho De sol; era o melhor da casa do Godinho. TOMÉ (depois de examinar)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Senti, já no bonde, um incômodo atroz.",
+        "start_char": 7132,
+        "end_char": 7137,
+        "excerpt": "TOMÉ (depois de examinar) Bem. ELISA Senti, já no bonde, um incômodo atroz.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOMÉ",
+        "sentence": "TOMÉ (aterrado)",
+        "start_char": 7177,
+        "end_char": 7181,
+        "excerpt": "Bem. ELISA Senti, já no bonde, um incômodo atroz. TOMÉ (aterrado)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA Tinha esquecido as botas no Queirós.",
+        "start_char": 7202,
+        "end_char": 7207,
+        "excerpt": "TOMÉ (aterrado) Que foi? ELISA Tinha esquecido as botas no Queirós.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esquecido",
+                "child": "ELISA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chica Valadares",
+        "sentence": "fui logo à pressa e trouxe estes dois pares; São iguais aos que usa a Chica Valadares.",
+        "start_char": 7322,
+        "end_char": 7337,
+        "excerpt": "ELISA Tinha esquecido as botas no Queirós. Desci; fui logo à pressa e trouxe estes dois pares; São iguais aos que usa a Chica Valadares.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "usa",
+                "child": "a Chica Valadares",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "usar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chica",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Chica Valadares",
+                "child": "iguais",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chica",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "igual",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "TOM",
+        "sentence": "TOMÉ (recapitulando)",
+        "start_char": 7339,
+        "end_char": 7342,
+        "excerpt": "Desci; fui logo à pressa e trouxe estes dois pares; São iguais aos que usa a Chica Valadares. TOMÉ (recapitulando)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recapitulando",
+                "child": "TOMÉ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recapitular",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "TOMÉ",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flores",
+        "sentence": "Flores, um peignoir, botinas, renda e véu.",
+        "start_char": 7360,
+        "end_char": 7366,
+        "excerpt": "fui logo à pressa e trouxe estes dois pares; São iguais aos que usa a Chica Valadares. TOMÉ (recapitulando) Flores, um peignoir, botinas, renda e véu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recapitulando",
+                "child": "Flores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recapitular",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Flores",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tomé",
+        "sentence": "Vamos agora ver a compra do Tomé.",
+        "start_char": 7590,
+        "end_char": 7594,
+        "excerpt": "Flores, um peignoir, botinas, renda e véu. Luvas e gorgorão, fichu, plissé, chapéu, Dois vestidos de linho, os galões para a saia, Chapelinho de sol, dois metros de cambraia (Levando os dedos ao nariz) Vamos agora ver a compra do Tomé.",
+        "gender": "male",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a compra",
+                "child": "Tomé",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "compra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tomé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tomé",
+                "child": "a compra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tomé",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "compra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA (com um grito)",
+        "start_char": 7596,
+        "end_char": 7601,
+        "excerpt": "Luvas e gorgorão, fichu, plissé, chapéu, Dois vestidos de linho, os galões para a saia, Chapelinho de sol, dois metros de cambraia (Levando os dedos ao nariz) Vamos agora ver a compra do Tomé. ELISA (com um grito)",
+        "gender": "female",
+        "pch_occurrences": {
+            "nariz": {
+                "syns": [
+                    "narizes",
+                    "narigão",
+                    "narigões",
+                    "narina",
+                    "narinas"
+                ],
+                "occurrences": [
+                    "nariz"
+                ],
+                "occurrences_n": 1
+            },
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ELISA",
+                "child": "grito",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "ELISA",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "grito",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grito",
+                "child": "ELISA",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "grito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISA",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Ai Jesus!",
+        "start_char": 7620,
+        "end_char": 7625,
+        "excerpt": "Vamos agora ver a compra do Tomé. ELISA (com um grito) Ai Jesus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

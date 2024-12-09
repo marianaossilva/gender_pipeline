@@ -1,0 +1,1313 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "NA EXPOSIÇÃO Artur Azevedo",
+        "start_char": 13,
+        "end_char": 26,
+        "excerpt": "NA EXPOSIÇÃO Artur Azevedo O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!)",
+        "start_char": 29,
+        "end_char": 37,
+        "excerpt": "NA EXPOSIÇÃO Artur Azevedo O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "O Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!)",
+        "start_char": 132,
+        "end_char": 140,
+        "excerpt": "NA EXPOSIÇÃO Artur Azevedo O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalves Dias",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 525,
+        "end_char": 539,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os nomes",
+                "child": "Gonçalves Dias, João Lisboa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalves",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gonçalves Dias, João Lisboa",
+                "child": "os nomes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalves",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Lisboa",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 541,
+        "end_char": 552,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os nomes",
+                "child": "Gonçalves Dias, João Lisboa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalves",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gonçalves Dias, João Lisboa",
+                "child": "os nomes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalves",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sotero dos Reis",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 554,
+        "end_char": 569,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Serra",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 571,
+        "end_char": 584,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 830,
+        "end_char": 838,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "trazia",
+                "child": "memória Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "memória",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cardoso",
+        "sentence": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "start_char": 958,
+        "end_char": 965,
+        "excerpt": "O Raimundo saiu do Maranhão aos vinte anos, muito disposto a nunca mais lá voltar, para não tornar a ver Filomena - e desde que aqui chegou (já lá se vão tantos anos!) fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "braços",
+                "child": "Cardoso",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cardoso",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "lançar-se",
+                        "child": "braços",
+                        "dep_h": "advcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "lançar se",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "Cardoso",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Cardoso"
+                    },
+                    {
+                        "head": "Cardoso",
+                        "child": "braços",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Cardoso",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    }
+                ]
+            },
+            {
+                "head": "Cardoso",
+                "child": "braços",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cardoso",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "braço",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "lançar-se",
+                        "child": "braços",
+                        "dep_h": "advcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "lançar se",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "Cardoso",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Cardoso"
+                    },
+                    {
+                        "head": "Cardoso",
+                        "child": "braços",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Cardoso",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "Depois deste golpe, que esteve quase a matá-lo, Raimundo incompatibilizou-se com o Maranhão e tornou-se o mais carioca dos cariocas;",
+        "start_char": 1059,
+        "end_char": 1067,
+        "excerpt": "fugiu de todas as coisas e de todas as pessoas que lhe pudessem recordar a sua terra natal. Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou. Depois deste golpe, que esteve quase a matá-lo, Raimundo incompatibilizou-se com o Maranhão e tornou-se o mais carioca dos cariocas;",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "entretanto, conservou no coração a lembrança dolorosa daquele amor infeliz, e, fiel ao seu próprio infortúnio, não procurou mulher que o fizesse esquecer Filomena.",
+        "start_char": 1298,
+        "end_char": 1306,
+        "excerpt": "Não lhe falassem no bacuri, nem no mucuri, nem no assai, nem no arroz de cuchá, nem no tabaco do Codó, nem nas cuias da Maioba, nem nos requeijões de São Bento, nem nos camarões de Alcântara; não pronunciassem na sua presença os nomes de Gonçalves Dias, João Lisboa, Sotero dos Reis, Joaquim Serra e outros maranhenses ilustres; não se referissem, de modo que ele pudesse ouvir, às novenas dos Remédios, aos passeios do Anil, aos banhos do Cutim e às serenatas ao luar no Pau da Bandeira ou no campo do Ourique; tudo isso lhe trazia à memória Filomena, aquela ingrata, que, depois de ter feito mil juramentos de que só dele seria, esqueceu-o para lançar-se nos braços do Cardoso, um negociante apatacado, com quem se casou. Depois deste golpe, que esteve quase a matá-lo, Raimundo incompatibilizou-se com o Maranhão e tornou-se o mais carioca dos cariocas; entretanto, conservou no coração a lembrança dolorosa daquele amor infeliz, e, fiel ao seu próprio infortúnio, não procurou mulher que o fizesse esquecer Filomena.",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "trazia",
+                "child": "memória Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "memória",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esquecer",
+                "child": "Filomena",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena.",
+        "start_char": 1549,
+        "end_char": 1557,
+        "excerpt": "entretanto, conservou no coração a lembrança dolorosa daquele amor infeliz, e, fiel ao seu próprio infortúnio, não procurou mulher que o fizesse esquecer Filomena. Ficou solteiro. Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esquecer",
+                "child": "Filomena",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição.",
+        "start_char": 1607,
+        "end_char": 1615,
+        "excerpt": "Ficou solteiro. Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pobre - diabo",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1706,
+        "end_char": 1721,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "start_char": 2010,
+        "end_char": 2018,
+        "excerpt": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Raimundo",
+                "child": "desertas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Raimundo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "deserto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "três visitantes",
+        "sentence": "As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "start_char": 2039,
+        "end_char": 2054,
+        "excerpt": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "estavam",
+                "child": "apenas três visitantes",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apenas três visitantes",
+                "child": "uma família",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "família",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apenas três visitantes",
+                "child": ", cinco filhos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apenas três visitantes",
+                "child": "uma criada",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "apenas três visitantes",
+                "child": "desertas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "deserto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma família",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "família",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "- marido",
+                "child": "apenas três visitantes",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", mulher",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cinco filhos",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma criada",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criada",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma família - marido",
+        "sentence": "As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "start_char": 2057,
+        "end_char": 2077,
+        "excerpt": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cinco filhos",
+        "sentence": "As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "start_char": 2087,
+        "end_char": 2099,
+        "excerpt": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apenas três visitantes",
+                "child": ", cinco filhos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cinco filhos",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cinco filhos",
+                "child": "desertas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "deserto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma criada",
+        "sentence": "As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "start_char": 2102,
+        "end_char": 2112,
+        "excerpt": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "apenas três visitantes",
+                "child": "uma criada",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visitante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "criada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma criada",
+                "child": "apenas três visitantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criada",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visitante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma criada",
+                "child": "desertas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "criada",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "deserto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "start_char": 2215,
+        "end_char": 2223,
+        "excerpt": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção. De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena!-",
+                "child": "Que",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "Filomena!-",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Que",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cardoso",
+        "sentence": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "start_char": 2232,
+        "end_char": 2239,
+        "excerpt": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção. De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Que",
+                "child": "Cardoso",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Que",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Cardoso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "repercutiu",
+                "child": "Cardoso",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repercutir",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Cardoso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Raimundo",
+        "sentence": "O Raimundo ficou frio e como que grudado ao chão.",
+        "start_char": 2279,
+        "end_char": 2289,
+        "excerpt": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso? - Vem ver como é bem feita esta rede! O Raimundo ficou frio e como que grudado ao chão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "O Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Filomena!",
+        "start_char": 2215,
+        "end_char": 2223,
+        "excerpt": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção. De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Filomena!-",
+                "child": "Que",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "Filomena!-",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Que",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cardoso",
+        "sentence": "Cardoso!",
+        "start_char": 2339,
+        "end_char": 2346,
+        "excerpt": "O Raimundo ficou frio e como que grudado ao chão. Filomena! Cardoso!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "O Raimundo voltou a ser um bom maranhense, e agora está disposto a matar saudades da sua terra.",
+        "start_char": 2641,
+        "end_char": 2649,
+        "excerpt": "Mas que transformação também a dele, porque ela não o reconheceu... O caso é que essa visita à Exposição completou a cura, que já começara. O Raimundo voltou a ser um bom maranhense, e agora está disposto a matar saudades da sua terra.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "O Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Filomena já não existe.",
+        "start_char": 2735,
+        "end_char": 2743,
+        "excerpt": "O caso é que essa visita à Exposição completou a cura, que já começara. O Raimundo voltou a ser um bom maranhense, e agora está disposto a matar saudades da sua terra. Filomena já não existe.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "existe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "existir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

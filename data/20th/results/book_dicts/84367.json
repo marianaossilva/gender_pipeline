@@ -1,0 +1,526 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Pezinho Bocage",
+        "sentence": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo.",
+        "start_char": 18,
+        "end_char": 32,
+        "excerpt": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bocage",
+        "sentence": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo.",
+        "start_char": 26,
+        "end_char": 32,
+        "excerpt": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Bocage",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "Soneto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poemas",
+                "child": "Bocage",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "poema",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bocage",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "poemas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "poema",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bocage",
+                "child": "um caderno",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bocage",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "caderno",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro José Constâncio",
+        "sentence": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo.",
+        "start_char": 92,
+        "end_char": 113,
+        "excerpt": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha amada",
+        "sentence": "Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava:",
+        "start_char": 235,
+        "end_char": 246,
+        "excerpt": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Dormia",
+                "child": "a minha amada",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dormia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amada",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a minha amada",
+                "child": "Dormia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amada",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dormia",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a linda moça",
+        "sentence": "E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "start_char": 297,
+        "end_char": 309,
+        "excerpt": "Soneto do Lascivo Pezinho Bocage Soneto localizado em um caderno onde poemas de Bocage e de Pedro José Constâncio estavam misturados, não tendo se chegado em nenhuma conclusão definitiva sobre a autoria do mesmo. Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca",
+                    "Boca"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "da bochecha",
+        "sentence": "Ora do rosto eu vejo a nevada Pudibunda bochecha, que encantava;",
+        "start_char": 398,
+        "end_char": 409,
+        "excerpt": "Dormia a sono solto a minha amada, Quando eu pé ante pé no quarto entrava: E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada: Ora do rosto eu vejo a nevada Pudibunda bochecha, que encantava;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "bochecha": {
+                "syns": [
+                    "bochechas"
+                ],
+                "occurrences": [
+                    "bochecha"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sôfrega",
+        "sentence": "Outrora nas maminhas demorava Sôfrega, ardente vista embasbacada:",
+        "start_char": 456,
+        "end_char": 463,
+        "excerpt": "E ao ver a linda moça, que arreitava, Sinto a porra de gosto alvoroçada: Ora do rosto eu vejo a nevada Pudibunda bochecha, que encantava; Outrora nas maminhas demorava Sôfrega, ardente vista embasbacada:",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "bochecha": {
+                "syns": [
+                    "bochechas"
+                ],
+                "occurrences": [
+                    "bochecha"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "demorava",
+                "child": "Sôfrega",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "demorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sôfrega",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o meu caralho amado",
+        "sentence": "Vai senão quando, o meu caralho amado",
+        "start_char": 611,
+        "end_char": 630,
+        "excerpt": "Porém vendo sair dentre o vestido Um lascivo pezinho torneado, Bispo-lhe as pernas e fiquei perdido: Vai senão quando, o meu caralho amado",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Enéias",
+        "sentence": "Bem como Enéias acordava Dido, Salta-lhe ao pêlo, pro seguir seu fado.",
+        "start_char": 640,
+        "end_char": 646,
+        "excerpt": "Um lascivo pezinho torneado, Bispo-lhe as pernas e fiquei perdido: Vai senão quando, o meu caralho amado Bem como Enéias acordava Dido, Salta-lhe ao pêlo, pro seguir seu fado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o meu caralho",
+                "child": "Enéias",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "caralho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Enéias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Enéias",
+                "child": "o meu caralho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Enéias",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caralho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dido",
+        "sentence": "Bem como Enéias acordava Dido, Salta-lhe ao pêlo, pro seguir seu fado.",
+        "start_char": 656,
+        "end_char": 660,
+        "excerpt": "Um lascivo pezinho torneado, Bispo-lhe as pernas e fiquei perdido: Vai senão quando, o meu caralho amado Bem como Enéias acordava Dido, Salta-lhe ao pêlo, pro seguir seu fado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pêlo": {
+                "syns": [
+                    "pêlos",
+                    "penugem",
+                    "penugens",
+                    "pelagem",
+                    "pelagens",
+                    "fio de cabelo",
+                    "fios de cabelo"
+                ],
+                "occurrences": [
+                    "pêlo"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acordava",
+                "child": "Dido",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dido",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,732 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "J . J . C . Macedo - Júnior Casimiro de Abreu Poéte",
+        "sentence": "A J. J. C. Macedo-Júnior Casimiro de Abreu Poéte, prends ta lyre; aigle, ouvre ta jeune aile;",
+        "start_char": -1,
+        "end_char": 50,
+        "excerpt": "",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Etoile",
+        "sentence": "Etoile, etoile, léve-toi!",
+        "start_char": 94,
+        "end_char": 100,
+        "excerpt": "A J. J. C. Macedo-Júnior Casimiro de Abreu Poéte, prends ta lyre; aigle, ouvre ta jeune aile; Etoile, etoile, léve-toi! V. Hugo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "léve-toi",
+                "child": "Etoile",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "léve-toi",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Etoile",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Etoile",
+                "child": ", etoile",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Etoile",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "etoile",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", etoile",
+                "child": "Etoile",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "etoile",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Etoile",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "etoile",
+        "sentence": "Etoile, etoile, léve-toi!",
+        "start_char": 102,
+        "end_char": 108,
+        "excerpt": "A J. J. C. Macedo-Júnior Casimiro de Abreu Poéte, prends ta lyre; aigle, ouvre ta jeune aile; Etoile, etoile, léve-toi! V. Hugo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Etoile",
+                "child": ", etoile",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Etoile",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "etoile",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", etoile",
+                "child": "Etoile",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "etoile",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Etoile",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "V . Hugo",
+        "sentence": "V. Hugo.",
+        "start_char": 119,
+        "end_char": 127,
+        "excerpt": "A J. J. C. Macedo-Júnior Casimiro de Abreu Poéte, prends ta lyre; aigle, ouvre ta jeune aile; Etoile, etoile, léve-toi! V. Hugo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o índio",
+        "sentence": "Como o índio a saudar o sol nascente, Co'o sorriso nos lábios, franco e ledo",
+        "start_char": 134,
+        "end_char": 141,
+        "excerpt": "Etoile, etoile, léve-toi! V. Hugo. Como o índio a saudar o sol nascente, Co'o sorriso nos lábios, franco e ledo",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Co'o",
+                "child": "o índio",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "Co'o",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o sol",
+                "child": "o índio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "índio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arthur",
+        "sentence": "Se ouço Arthur ao piano eu me extasio, Mas ouvindo teus hinos me arrebato E pasmo ante o cantor!",
+        "start_char": 416,
+        "end_char": 422,
+        "excerpt": "Quando se sente como eu sinto e sofro, A mente ferve e o coração palpita De glórias e de amor: Se ouço Arthur ao piano eu me extasio, Mas ouvindo teus hinos me arrebato E pasmo ante o cantor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Se ouço Arthur",
+                "child": "piano",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Arthur",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "piano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Se ouço Arthur",
+                "child": "extasio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Arthur",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "extasio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "piano",
+                "child": "Se ouço Arthur",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "piano",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Arthur",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "extasio",
+                "child": "Se ouço Arthur",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "extasio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Arthur",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cantor",
+        "sentence": "Se ouço Arthur ao piano eu me extasio, Mas ouvindo teus hinos me arrebato E pasmo ante o cantor!",
+        "start_char": 495,
+        "end_char": 503,
+        "excerpt": "Quando se sente como eu sinto e sofro, A mente ferve e o coração palpita De glórias e de amor: Se ouço Arthur ao piano eu me extasio, Mas ouvindo teus hinos me arrebato E pasmo ante o cantor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pasmo",
+                "child": "o cantor",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "pasmo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cantor",
+                "categories": [
+                    "emo",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cantor",
+                "child": "pasmo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "pasmo",
+                "categories": [
+                    "social",
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cantor",
+                "child": "me arrebato",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "arrebato",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cantor",
+                "child": "extasio",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "extasio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "menestrel",
+        "sentence": "Louvor ao menestrel!",
+        "start_char": 776,
+        "end_char": 785,
+        "excerpt": "como és bela e rica! Hinos de amores neste sec'lo bruto! Louvor ao menestrel!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Louvor",
+                "child": "menestrel",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Louvor",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "menestrel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "menestrel",
+                "child": "Louvor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "menestrel",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Louvor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cantor das açucenas",
+        "sentence": "Palmas a ti, cantor das açucenas!",
+        "start_char": 800,
+        "end_char": 819,
+        "excerpt": "Hinos de amores neste sec'lo bruto! Louvor ao menestrel! Palmas a ti, cantor das açucenas!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "André - Chénier",
+        "sentence": "Como André-Chénier, no crânio augusto",
+        "start_char": 1006,
+        "end_char": 1021,
+        "excerpt": "Quatorze primaveras nessa fronte Semelham-te um laurel! Quando tão moço, no raiar da vida, Já doce cantas como o doce aroma Das lânguidas cecéns, Podes, criança, erguer a fronte altiva! Como André-Chénier, no crânio augusto",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            },
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte",
+                    "fronte"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "irmão",
+        "sentence": "Não desmintas, irmão, este profeta, Sibarita indolente, sobre rosas Não queiras tu dormir, Se ao longe já te brilha amiga estrela",
+        "start_char": 1079,
+        "end_char": 1084,
+        "excerpt": "Como André-Chénier, no crânio augusto Alguma cousa tens! Não desmintas, irmão, este profeta, Sibarita indolente, sobre rosas Não queiras tu dormir, Se ao longe já te brilha amiga estrela",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", irmão",
+                "child": "desmintas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desminto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sib",
+        "sentence": "Não desmintas, irmão, este profeta, Sibarita indolente, sobre rosas Não queiras tu dormir, Se ao longe já te brilha amiga estrela",
+        "start_char": 1100,
+        "end_char": 1103,
+        "excerpt": "Como André-Chénier, no crânio augusto Alguma cousa tens! Não desmintas, irmão, este profeta, Sibarita indolente, sobre rosas Não queiras tu dormir, Se ao longe já te brilha amiga estrela",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "crânio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Sibarita",
+                "child": "indolente",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Sibarita",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "indolente",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sibarita",
+                "child": "desmintas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Sibarita",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desminto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu poeta",
+        "sentence": "Não manches meu poeta as vestes brancas",
+        "start_char": 1631,
+        "end_char": 1640,
+        "excerpt": "Não faças como nós; não desças louco A buscar sensações na bruta orgia Das longas saturnais; Se a lama impura salpicar-te as penas, Sacode as asas minha pomba casta E foge dos pardais. Não manches meu poeta as vestes brancas",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "manches",
+                "child": "meu poeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "manches",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o nauta",
+        "sentence": "A crença se desbota e o nauta chora Desanimado no vaivém teimoso Dos grossos vagalhões!",
+        "start_char": 1739,
+        "end_char": 1746,
+        "excerpt": "Não manches meu poeta as vestes brancas No mundo infame; mirra-se a grinalda E vão-se as ilusões! A crença se desbota e o nauta chora Desanimado no vaivém teimoso Dos grossos vagalhões!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o nauta chora",
+                "child": "desbota",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "chora",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "desbota",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vaivém",
+                "child": "o nauta chora",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vaivém",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "chora",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grossos",
+                "child": "o nauta chora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grosso",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "chora",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vagalhões",
+                "child": "o nauta chora",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "vagalhão",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "chora",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rachel",
+        "sentence": "Foge do canto da gentil sereia Que engana com sorriso de feitiços - Tão pálida Rachel!",
+        "start_char": 1884,
+        "end_char": 1890,
+        "excerpt": "No mundo infame; mirra-se a grinalda E vão-se as ilusões! A crença se desbota e o nauta chora Desanimado no vaivém teimoso Dos grossos vagalhões! Foge do canto da gentil sereia Que engana com sorriso de feitiços - Tão pálida Rachel!",
+        "gender": "female",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pálida",
+                "child": "Rachel",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "páler",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rachel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rachel",
+                "child": "Que engana",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rachel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "engano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a donzela",
+        "sentence": "Das rosas o matiz; Se a donzela cuspir nos teus amores Chora perdida essa ilusão primeira...",
+        "start_char": 2078,
+        "end_char": 2087,
+        "excerpt": "O vaso queima e beberás nos risos Da amargura o fel! Conserva na tua alma a virgindade, E tenha o coração na rica aurora Das rosas o matiz; Se a donzela cuspir nos teus amores Chora perdida essa ilusão primeira...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a donzela",
+                "child": "cuspir",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "cuspir",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Azevedo",
+        "sentence": "Não vás como Azevedo - o pobre gênio - Embrulhar-te sem dó na flor dos anos",
+        "start_char": 2284,
+        "end_char": 2291,
+        "excerpt": "não escondas no sepulcro a fronte Aos raios deste sol; Não vás como Azevedo - o pobre gênio - Embrulhar-te sem dó na flor dos anos",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vás",
+                "child": "Azevedo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vás",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Azevedo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sabiá",
+        "sentence": "A voz do sabiá!",
+        "start_char": 2723,
+        "end_char": 2728,
+        "excerpt": "Oh! canta! é doce ao triste que soluça Ouvir saudoso no cair da tarde A voz do sabiá!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A estúpida mud",
+        "sentence": "A estúpida mudez;",
+        "start_char": 2800,
+        "end_char": 2814,
+        "excerpt": "Canta! e que teus hinos d'esperança Despertem deste mundo de misérias A estúpida mudez;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Millevoye",
+        "sentence": "E dos prelúdios dessa lira ingênua Em poucos anos surgirá brilhante Millevoye - talvez!",
+        "start_char": 2886,
+        "end_char": 2895,
+        "excerpt": "e que teus hinos d'esperança Despertem deste mundo de misérias A estúpida mudez; E dos prelúdios dessa lira ingênua Em poucos anos surgirá brilhante Millevoye - talvez!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "surgirá",
+                "child": "Millevoye",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Millevoye",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Millevoye",
+                "child": "brilhante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Millevoye",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "brilhante",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

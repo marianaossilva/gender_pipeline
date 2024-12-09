@@ -1,0 +1,291 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Uma história Casimiro de Abreu",
+        "start_char": 13,
+        "end_char": 30,
+        "excerpt": "Uma história Casimiro de Abreu A brisa dizia à rosa: - \"Dá, formosa, Dá-me, linda, o teu amor; Deixa eu dormir no teu seio",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha flor",
+        "sentence": "Sem receio, Sem receio minha flor!",
+        "start_char": 146,
+        "end_char": 156,
+        "excerpt": "A brisa dizia à rosa: - \"Dá, formosa, Dá-me, linda, o teu amor; Deixa eu dormir no teu seio Sem receio, Sem receio minha flor!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "receio",
+                "child": "minha flor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "receio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha flor",
+                "child": "receio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "receio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha flor",
+                "child": "receio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "receio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Outro amante",
+        "sentence": "Outro amante, Outro amante aos sonhos meus!",
+        "start_char": 380,
+        "end_char": 392,
+        "excerpt": "Não te adoro... és inconstante... Outro amante, Outro amante aos sonhos meus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Outro amante",
+                "child": ", Outro amante",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Outro amante",
+                "child": "sonhos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Outro amante",
+                "child": "Outro amante",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sonhos",
+                "child": ", Outro amante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sonhos",
+                "child": "Outro amante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Outro amante",
+        "sentence": "Outro amante, Outro amante aos sonhos meus!",
+        "start_char": 380,
+        "end_char": 392,
+        "excerpt": "Não te adoro... és inconstante... Outro amante, Outro amante aos sonhos meus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Outro amante",
+                "child": ", Outro amante",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Outro amante",
+                "child": "sonhos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Outro amante",
+                "child": "Outro amante",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sonhos",
+                "child": ", Outro amante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sonhos",
+                "child": "Outro amante",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobre rosa",
+        "sentence": "No outro dia a pobre rosa",
+        "start_char": 582,
+        "end_char": 594,
+        "excerpt": "Que é mais forte Que é mais forte e eu amo mais! \" - No outro dia a pobre rosa",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dela",
+        "sentence": "Pobre dela!",
+        "start_char": 636,
+        "end_char": 640,
+        "excerpt": "No outro dia a pobre rosa Tão vaidosa No hastil se debruçou; Pobre dela!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

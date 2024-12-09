@@ -1,0 +1,342 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Corno Interesseiro Bocage",
+        "sentence": "Soneto do Corno Interesseiro Bocage",
+        "start_char": 10,
+        "end_char": 35,
+        "excerpt": "Soneto do Corno Interesseiro Bocage Uma noite o Scopezzi mui contente (Depois de borrifar a sacra espada Que traz de rubra fita pendurada Com cuspo, e vinho, que vomita quente):",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Corno Interesseiro Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Corno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Corno Interesseiro Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Corno",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Scopezzi",
+        "sentence": "Uma noite o Scopezzi mui contente (Depois de borrifar a sacra espada Que traz de rubra fita pendurada",
+        "start_char": 46,
+        "end_char": 56,
+        "excerpt": "Soneto do Corno Interesseiro Bocage Uma noite o Scopezzi mui contente (Depois de borrifar a sacra espada Que traz de rubra fita pendurada Com cuspo, e vinho, que vomita quente):",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "traz",
+                "child": "o Scopezzi mui",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Scopezzi",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Scopezzi mui",
+                "child": "contente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Scopezzi",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "contente",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a esposa",
+        "sentence": "Conversava co'a esposa em voz tremente Sobre a grande ventura inesperada",
+        "start_char": 192,
+        "end_char": 200,
+        "excerpt": "Uma noite o Scopezzi mui contente (Depois de borrifar a sacra espada Que traz de rubra fita pendurada Com cuspo, e vinho, que vomita quente): Conversava co'a esposa em voz tremente Sobre a grande ventura inesperada",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Plácida",
+        "sentence": "De ser a sua Plácida adorada Por um Marquês tão rico, e tão potente:",
+        "start_char": 264,
+        "end_char": 271,
+        "excerpt": "Com cuspo, e vinho, que vomita quente): Conversava co'a esposa em voz tremente Sobre a grande ventura inesperada De ser a sua Plácida adorada Por um Marquês tão rico, e tão potente:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Conversava",
+                "child": "De ser a sua Plácida",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "conversava",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Plácida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De ser a sua Plácida",
+                "child": "potente",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Plácida",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "potente",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De ser a sua Plácida",
+                "child": "Conversava",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Plácida",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "conversava",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um Marquês tão",
+                "child": "De ser a sua Plácida",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Marquês",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Plácida",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um Marquês",
+        "sentence": "De ser a sua Plácida adorada Por um Marquês tão rico, e tão potente:",
+        "start_char": 284,
+        "end_char": 294,
+        "excerpt": "Com cuspo, e vinho, que vomita quente): Conversava co'a esposa em voz tremente Sobre a grande ventura inesperada De ser a sua Plácida adorada Por um Marquês tão rico, e tão potente:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "adorada",
+                "child": "um Marquês tão",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "adorar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Marquês",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um Marquês tão",
+                "child": "rico",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Marquês",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "rico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um Marquês tão",
+                "child": "De ser a sua Plácida",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Marquês",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Plácida",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um Marquês tão",
+                "child": "Conversava",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Marquês",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "conversava",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A velha",
+        "sentence": "A velha lhe replica:",
+        "start_char": 320,
+        "end_char": 327,
+        "excerpt": "Conversava co'a esposa em voz tremente Sobre a grande ventura inesperada De ser a sua Plácida adorada Por um Marquês tão rico, e tão potente: A velha lhe replica:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moça",
+        "sentence": "Enquanto moça for, nunca o dinheiro Faltará nesta casa em quantidade.",
+        "start_char": 366,
+        "end_char": 370,
+        "excerpt": "A velha lhe replica: Isso é verdade; Enquanto moça for, nunca o dinheiro Faltará nesta casa em quantidade.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o dinheiro",
+                "child": "Enquanto moça",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "dinheiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "Enquanto moça",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "quantidade",
+                "child": "Enquanto moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "quantidade",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o tafulão",
+        "sentence": "\"Mas tu sempre és o tafulão primeiro:",
+        "start_char": 445,
+        "end_char": 454,
+        "excerpt": "Isso é verdade; Enquanto moça for, nunca o dinheiro Faltará nesta casa em quantidade. \"Mas tu sempre és o tafulão primeiro:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o tafulão",
+                "child": "primeiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tafulão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "primeiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o maior alcoviteiro",
+        "sentence": "Pois tendo cabrão sido noutra idade, És agora o maior alcoviteiro!",
+        "start_char": 511,
+        "end_char": 530,
+        "excerpt": "Enquanto moça for, nunca o dinheiro Faltará nesta casa em quantidade. \"Mas tu sempre és o tafulão primeiro: Pois tendo cabrão sido noutra idade, És agora o maior alcoviteiro!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "És",
+                "child": "o maior alcoviteiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "És",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alcoviteiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bernardo de Bonaval",
+        "sentence": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades?",
+        "start_char": 30,
+        "end_char": 49,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "- Vin atender meu amigo.",
+        "start_char": 126,
+        "end_char": 135,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "meu amigo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "asperades",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fremosinha",
+        "sentence": "- Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "start_char": 143,
+        "end_char": 153,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "- Vin atender meu amigo.",
+        "start_char": 126,
+        "end_char": 135,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "meu amigo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "asperades",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vin",
+        "sentence": "Vin atender meu amigo.",
+        "start_char": 114,
+        "end_char": 117,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "Vin",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vin",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Vin",
+                "child": "asperades",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vin",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "Vin atender meu amigo.",
+        "start_char": 126,
+        "end_char": 135,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "meu amigo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "asperades",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vin",
+        "sentence": "Vin atender meu amigo.",
+        "start_char": 114,
+        "end_char": 117,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "Vin",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vin",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Vin",
+                "child": "asperades",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vin",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "Vin atender meu amigo.",
+        "start_char": 126,
+        "end_char": 135,
+        "excerpt": "Ai, fremosinha, se ben ajades Bernardo de Bonaval - Ai fremosinha, se ben ajades, longi de vila quen asperades? - Vin atender meu amigo. - Ai, fremosinha, se gradoedes, longi de vila quen atendedes?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atender",
+                "child": "meu amigo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "atender",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "asperades",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "asperade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

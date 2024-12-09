@@ -1,0 +1,108 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 16,
+        "end_char": 33,
+        "excerpt": "Palavras no mar Casimiro de Abreu Se eu fosse amado!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a virgem",
+        "sentence": "Se exalaria Na melodia Dos sonhos meus; E louca e terna Nessa vertigem Amara a virgem Cantando a Deus!",
+        "start_char": 539,
+        "end_char": 547,
+        "excerpt": "Por mão de fada - Como a calhandra Saúda o dia, Em meigos cantos Se exalaria Na melodia Dos sonhos meus; E louca e terna Nessa vertigem Amara a virgem Cantando a Deus!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Amara",
+                "child": "a virgem",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Amara",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a virgem",
+                "child": "Amara",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Amara",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Se exalaria Na melodia Dos sonhos meus; E louca e terna Nessa vertigem Amara a virgem Cantando a Deus!",
+        "start_char": 559,
+        "end_char": 563,
+        "excerpt": "Por mão de fada - Como a calhandra Saúda o dia, Em meigos cantos Se exalaria Na melodia Dos sonhos meus; E louca e terna Nessa vertigem Amara a virgem Cantando a Deus!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Cantando",
+                "child": "a Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Cantando",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avon",
+        "sentence": "Avon - 1857",
+        "start_char": 565,
+        "end_char": 569,
+        "excerpt": "Saúda o dia, Em meigos cantos Se exalaria Na melodia Dos sonhos meus; E louca e terna Nessa vertigem Amara a virgem Cantando a Deus! Avon - 1857",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

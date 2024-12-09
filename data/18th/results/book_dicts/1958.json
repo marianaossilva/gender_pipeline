@@ -1,0 +1,3799 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "meu senhor",
+        "sentence": "-- Quem é? -- Diz que meu senhor não o conhece, respondeu o preto.",
+        "start_char": 666,
+        "end_char": 676,
+        "excerpt": "UMAS FÉRIAS VIERAM DIZER ao mestre-escola que alguém lhe queria falar. -- Quem é? -- Diz que meu senhor não o conhece, respondeu o preto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conhece",
+                "child": "meu senhor",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o preto",
+        "sentence": "-- Quem é? -- Diz que meu senhor não o conhece, respondeu o preto.",
+        "start_char": 702,
+        "end_char": 709,
+        "excerpt": "UMAS FÉRIAS VIERAM DIZER ao mestre-escola que alguém lhe queria falar. -- Quem é? -- Diz que meu senhor não o conhece, respondeu o preto.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "o preto",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "preto",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pessoa desconhecida",
+        "sentence": "Houve um movimento geral de cabeças na direção da porta do corredor, por onde devia entrar a pessoa desconhecida.",
+        "start_char": 816,
+        "end_char": 837,
+        "excerpt": "-- Quem é? -- Diz que meu senhor não o conhece, respondeu o preto. -- Que entre. Houve um movimento geral de cabeças na direção da porta do corredor, por onde devia entrar a pessoa desconhecida.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça",
+                    "cabeças"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu tio",
+        "sentence": "Todos ficaram esperando o que vinha dizer o homem, eu mais que ninguém, porque ele era meu tio, roceiro, morador em Guaratiba.",
+        "start_char": 1157,
+        "end_char": 1164,
+        "excerpt": "Éramos não sei quantos meninos na escola. Não tardou que aparecesse uma figura rude, tez queimada, cabelos compridos, sem sinal de pente, a roupa amarrotada, não me lembra bem a cor nem a fazenda, mas provavelmente era brim pardo. Todos ficaram esperando o que vinha dizer o homem, eu mais que ninguém, porque ele era meu tio, roceiro, morador em Guaratiba.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Chamava-se tio Zeca.",
+        "start_char": 1208,
+        "end_char": 1216,
+        "excerpt": "Não tardou que aparecesse uma figura rude, tez queimada, cabelos compridos, sem sinal de pente, a roupa amarrotada, não me lembra bem a cor nem a fazenda, mas provavelmente era brim pardo. Todos ficaram esperando o que vinha dizer o homem, eu mais que ninguém, porque ele era meu tio, roceiro, morador em Guaratiba. Chamava-se tio Zeca.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tio Zeca",
+        "sentence": "Tio Zeca foi ao mestre e falou-lhe baixo.",
+        "start_char": 1218,
+        "end_char": 1226,
+        "excerpt": "Todos ficaram esperando o que vinha dizer o homem, eu mais que ninguém, porque ele era meu tio, roceiro, morador em Guaratiba. Chamava-se tio Zeca. Tio Zeca foi ao mestre e falou-lhe baixo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ao mestre",
+        "sentence": "Tio Zeca foi ao mestre e falou-lhe baixo.",
+        "start_char": 1231,
+        "end_char": 1240,
+        "excerpt": "Todos ficaram esperando o que vinha dizer o homem, eu mais que ninguém, porque ele era meu tio, roceiro, morador em Guaratiba. Chamava-se tio Zeca. Tio Zeca foi ao mestre e falou-lhe baixo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O mestre",
+        "sentence": "O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo.",
+        "start_char": 1260,
+        "end_char": 1268,
+        "excerpt": "Chamava-se tio Zeca. Tio Zeca foi ao mestre e falou-lhe baixo. O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fê-lo",
+                "child": "O mestre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fê-lo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mestre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo.",
+        "start_char": 1346,
+        "end_char": 1354,
+        "excerpt": "Chamava-se tio Zeca. Tio Zeca foi ao mestre e falou-lhe baixo. O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "tio Zeca",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O mestre",
+        "sentence": "O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "start_char": 1399,
+        "end_char": 1407,
+        "excerpt": "Tio Zeca foi ao mestre e falou-lhe baixo. O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo. O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fê-lo",
+                "child": "O mestre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fê-lo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mestre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "insistiu",
+                "child": "O mestre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insistir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mestre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o mestre",
+        "sentence": "O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "start_char": 1441,
+        "end_char": 1449,
+        "excerpt": "Tio Zeca foi ao mestre e falou-lhe baixo. O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo. O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "voltando-se",
+                "child": "o mestre",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "voltandor se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mestre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sr . José Martins",
+        "sentence": "O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "start_char": 1398,
+        "end_char": 1415,
+        "excerpt": "Tio Zeca foi ao mestre e falou-lhe baixo. O mestre fê-lo sentar, olhou para mim, e creio que lhe perguntou alguma cousa, porque tio Zeca entrou a falar demorado, muito explicativo. O mestre insistiu, ele respondeu, até que o mestre, voltando-se para mim, disse alto: -- Sr. José Martins, pode sair.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "irmão de",
+        "sentence": "Um chamado de casa, o próprio tio, irmão de meu pai, que chegara na véspera de Guaratiba, era naturalmente alguma festa, passeio, qualquer cousa.",
+        "start_char": 1679,
+        "end_char": 1687,
+        "excerpt": "A minha sensação de prazer foi tal que venceu a de espanto. Tinha dez anos apenas, gostava de folgar, não gostava de aprender. Um chamado de casa, o próprio tio, irmão de meu pai, que chegara na véspera de Guaratiba, era naturalmente alguma festa, passeio, qualquer cousa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Um chamado de casa, o próprio tio, irmão de meu pai, que chegara na véspera de Guaratiba, era naturalmente alguma festa, passeio, qualquer cousa.",
+        "start_char": 1688,
+        "end_char": 1695,
+        "excerpt": "A minha sensação de prazer foi tal que venceu a de espanto. Tinha dez anos apenas, gostava de folgar, não gostava de aprender. Um chamado de casa, o próprio tio, irmão de meu pai, que chegara na véspera de Guaratiba, era naturalmente alguma festa, passeio, qualquer cousa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", irmão",
+                "child": "meu pai",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": ", irmão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": ", o próprio tio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "Um chamado",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "chamado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "festa",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "festa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "No corredor beijei a mão a tio Zeca.",
+        "start_char": 1937,
+        "end_char": 1945,
+        "excerpt": "Um chamado de casa, o próprio tio, irmão de meu pai, que chegara na véspera de Guaratiba, era naturalmente alguma festa, passeio, qualquer cousa. Corri a buscar o chapéu, meti o livro de leitura no bolso e desci as escadas da escola, um sobradinho da Rua do Senado. No corredor beijei a mão a tio Zeca.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "beijei",
+                "child": "tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "beijei",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã Felícia",
+        "sentence": "Pouco depois chegávamos ao colégio de minha irmã Felícia;",
+        "start_char": 2119,
+        "end_char": 2137,
+        "excerpt": "Na rua fui andando ao pé dele, amiudando os passos, e levantando a cara. Ele não me dizia nada, eu não me atrevia a nenhuma pergunta. Pouco depois chegávamos ao colégio de minha irmã Felícia;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os três",
+        "sentence": "disse-me que esperasse, entrou, subiu, desceram, e fomos os três caminho de casa.",
+        "start_char": 2196,
+        "end_char": 2203,
+        "excerpt": "Ele não me dizia nada, eu não me atrevia a nenhuma pergunta. Pouco depois chegávamos ao colégio de minha irmã Felícia; disse-me que esperasse, entrou, subiu, desceram, e fomos os três caminho de casa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fomos",
+                "child": "os três caminho",
+                "dep_h": "conj",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caminho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os três caminho",
+                "child": "casa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "caminho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "casa",
+                "child": "os três caminho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "caminho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Talvez anos de tio Zeca.",
+        "start_char": 2395,
+        "end_char": 2403,
+        "excerpt": "A minha alegria agora era maior. Certamente havia festa em casa, pois que íamos os dous, ela e eu; íamos na frente, trocando as nossas perguntas e conjeturas. Talvez anos de tio Zeca.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Talvez anos",
+                "child": "tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tio Zeca",
+                "child": "Talvez anos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Felícia era mais velha que eu um ano.",
+        "start_char": 2501,
+        "end_char": 2508,
+        "excerpt": "Voltei a cara para ele; vinha com os olhos no chão, provavelmente para não cair. Fomos andando. Felícia era mais velha que eu um ano.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Felícia",
+                "child": "velha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "felícia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as bone",
+        "sentence": "Uma ou outra vez parávamos, ela para admirar as bonecas à porta dos armarinhos, eu para ver, à porta das vendas, algum papagaio que descia e subia pela corrente de ferro atada ao pé.",
+        "start_char": 2846,
+        "end_char": 2853,
+        "excerpt": "Eu, botins de cordovão, já gastos. As calcinhas dela pegavam com a fita dos sapatos, as minhas calças, largas, caíam sobre o peito do pé; eram de chita. Uma ou outra vez parávamos, ela para admirar as bonecas à porta dos armarinhos, eu para ver, à porta das vendas, algum papagaio que descia e subia pela corrente de ferro atada ao pé.",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "admirar",
+                "child": "as bonecas",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "admirar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "boneca",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as bonecas",
+                "child": "Uma ou outra vez parávamos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "boneca",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "parávamos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tio Zeca",
+        "sentence": "Tio Zeca é que nos tirava do espetáculo industrial ou natural.",
+        "start_char": 3052,
+        "end_char": 3060,
+        "excerpt": "Uma ou outra vez parávamos, ela para admirar as bonecas à porta dos armarinhos, eu para ver, à porta das vendas, algum papagaio que descia e subia pela corrente de ferro atada ao pé. Geralmente, era meu conhecido, mas papagaio não cansa em tal idade. Tio Zeca é que nos tirava do espetáculo industrial ou natural.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "Tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "nós",
+        "sentence": "E nós andávamos, até que outra curiosidade nos fazia deter o passo.",
+        "start_char": 3152,
+        "end_char": 3155,
+        "excerpt": "Tio Zeca é que nos tirava do espetáculo industrial ou natural. -- Andem, dizia ele em voz sumida. E nós andávamos, até que outra curiosidade nos fazia deter o passo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Entretanto, o principal era a festa que nos esperava em casa. -- Não creio que sejam anos de tio Zeca, disse-me Felícia. --",
+        "start_char": 3311,
+        "end_char": 3319,
+        "excerpt": "-- Andem, dizia ele em voz sumida. E nós andávamos, até que outra curiosidade nos fazia deter o passo. Entretanto, o principal era a festa que nos esperava em casa. -- Não creio que sejam anos de tio Zeca, disse-me Felícia. --",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "anos",
+                "child": "tio Zeca",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tio Zeca",
+                "child": "anos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tio",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Entretanto, o principal era a festa que nos esperava em casa. -- Não creio que sejam anos de tio Zeca, disse-me Felícia. --",
+        "start_char": 3330,
+        "end_char": 3337,
+        "excerpt": "-- Andem, dizia ele em voz sumida. E nós andávamos, até que outra curiosidade nos fazia deter o passo. Entretanto, o principal era a festa que nos esperava em casa. -- Não creio que sejam anos de tio Zeca, disse-me Felícia. --",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse-me",
+                "child": "Felícia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "disse-me",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu padrinho",
+        "sentence": "-- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "start_char": 3483,
+        "end_char": 3495,
+        "excerpt": "-- Ou carrancudo. Quem faz anos tem a cara alegre. -- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "-- Então serão anos",
+                "child": "meu padrinho",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu padrinho",
+                "child": "-- Então serão anos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha madrinha",
+        "sentence": "-- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "start_char": 3508,
+        "end_char": 3522,
+        "excerpt": "-- Ou carrancudo. Quem faz anos tem a cara alegre. -- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mamãe",
+        "sentence": "-- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "start_char": 3547,
+        "end_char": 3552,
+        "excerpt": "-- Ou carrancudo. Quem faz anos tem a cara alegre. -- Então serão anos de meu padrinho... -- Ou de minha madrinha... -- Mas por que é que mamãe nos mandou para a escola? -- Talvez não soubesse. -- Há de haver jantar grande... --",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "-- Então serão anos",
+                "child": "mamãe",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a escola",
+                "child": "mamãe",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "escola",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu padrinho",
+        "sentence": "Meu padrinho era candidato a vereador; embora eu não soubesse bem o que era candidatura nem vereação, tanto ouvira falar em vitória próxima que a achei certa e ganha.",
+        "start_char": 3806,
+        "end_char": 3818,
+        "excerpt": "A sorte grande, por exemplo. Ocorreu-me também que podiam ser eleições. Meu padrinho era candidato a vereador; embora eu não soubesse bem o que era candidatura nem vereação, tanto ouvira falar em vitória próxima que a achei certa e ganha.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu padrinho",
+                "child": "candidato",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "candidato",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "candidato",
+                "child": "Meu padrinho",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "candidato",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "nós",
+        "sentence": "Imaginei bandas de música, vivas e palmas, e nós, meninos, pulando, rindo, comendo cocadas.",
+        "start_char": 4083,
+        "end_char": 4086,
+        "excerpt": "Meu padrinho era candidato a vereador; embora eu não soubesse bem o que era candidatura nem vereação, tanto ouvira falar em vitória próxima que a achei certa e ganha. Não sabia que a eleição era ao domingo, e o dia era sexta-feira. Imaginei bandas de música, vivas e palmas, e nós, meninos, pulando, rindo, comendo cocadas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meninos",
+        "sentence": "Imaginei bandas de música, vivas e palmas, e nós, meninos, pulando, rindo, comendo cocadas.",
+        "start_char": 4088,
+        "end_char": 4095,
+        "excerpt": "Meu padrinho era candidato a vereador; embora eu não soubesse bem o que era candidatura nem vereação, tanto ouvira falar em vitória próxima que a achei certa e ganha. Não sabia que a eleição era ao domingo, e o dia era sexta-feira. Imaginei bandas de música, vivas e palmas, e nós, meninos, pulando, rindo, comendo cocadas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os personagens",
+        "sentence": "Depois, os personagens, todos príncipes.",
+        "start_char": 4510,
+        "end_char": 4524,
+        "excerpt": "Tinha ido uma vez ao teatro, e voltei dormindo, mas no dia seguinte estava tão contente que morria por lá tornar, posto não houvesse entendido nada do que ouvira. Vira muita cousa, isto sim, cadeiras ricas, tronos, lanças compridas, cenas que mudavam à vista, passando de uma sala a um bosque, e do bosque a uma rua. Depois, os personagens, todos príncipes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Depois, os personagens",
+                "child": ", todos príncipes",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "personagem",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "príncipes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", todos príncipes",
+                "child": "Depois, os personagens",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "príncipes",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "personagem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As bailarinas",
+        "sentence": "As bailarinas e os bailarinos falavam com os pés e as mãos, trocando de posição e um sorriso constante na boca.",
+        "start_char": 4690,
+        "end_char": 4703,
+        "excerpt": "Era assim que chamávamos aos que vestiam calção de seda, sapato de fivela ou botas, espada, capa de veludo, gorra com pluma. Também houve bailado. As bailarinas e os bailarinos falavam com os pés e as mãos, trocando de posição e um sorriso constante na boca.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os bailarinos",
+                "child": "As bailarinas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "bailarino",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os pés",
+                "child": "As bailarinas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as mãos",
+                "child": "As bailarinas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "posição",
+                "child": "As bailarinas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "posição",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sorriso",
+                "child": "As bailarinas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "sorriso",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "boca",
+                "child": "As bailarinas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "boca",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os bailarinos",
+        "sentence": "As bailarinas e os bailarinos falavam com os pés e as mãos, trocando de posição e um sorriso constante na boca.",
+        "start_char": 4706,
+        "end_char": 4719,
+        "excerpt": "Era assim que chamávamos aos que vestiam calção de seda, sapato de fivela ou botas, espada, capa de veludo, gorra com pluma. Também houve bailado. As bailarinas e os bailarinos falavam com os pés e as mãos, trocando de posição e um sorriso constante na boca.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "falavam",
+                "child": "os bailarinos",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarino",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os bailarinos",
+                "child": "As bailarinas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "bailarino",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bailarina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Felícia, a quem comuniquei a possibilidade do espetáculo, não me pareceu gostar muito, mas também não recusou nada.",
+        "start_char": 4898,
+        "end_char": 4905,
+        "excerpt": "Depois os gritos do público e as palmas... Já duas vezes escrevi palmas; é que as conhecia bem. Felícia, a quem comuniquei a possibilidade do espetáculo, não me pareceu gostar muito, mas também não recusou nada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pareceu",
+                "child": "Felícia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "felícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a possibilidade",
+                "child": "Felícia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "possibilidade",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "felícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "espetáculo",
+                "child": "Felícia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "espetáculo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "felícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "teatrinho de bonecos",
+        "sentence": "E quem sabe se não seria em casa, teatrinho de bonecos?",
+        "start_char": 5064,
+        "end_char": 5084,
+        "excerpt": "Felícia, a quem comuniquei a possibilidade do espetáculo, não me pareceu gostar muito, mas também não recusou nada. Iria ao teatro. E quem sabe se não seria em casa, teatrinho de bonecos?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Íamos nessas conjeturas, quando tio Zeca nos disse que esperássemos; tinha parado a conversar com um sujeito.",
+        "start_char": 5118,
+        "end_char": 5126,
+        "excerpt": "Iria ao teatro. E quem sabe se não seria em casa, teatrinho de bonecos? Íamos nessas conjeturas, quando tio Zeca nos disse que esperássemos; tinha parado a conversar com um sujeito.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Felícia chamou a minha atenção para dous moleques de carapuça encarnada, que passavam carregando canas, -- o que nos lembrou as noites de Santo Antônio e S. João, já lá idas.",
+        "start_char": 5442,
+        "end_char": 5449,
+        "excerpt": "A idéia da festa, qualquer que fosse, continuou a agitar-nos, mais a mim que a ela. Imaginei trinta mil cousas, sem acabar nenhuma, tão precipitadas vinham, e tão confusas que não as distinguia, pode ser até que se repetissem. Felícia chamou a minha atenção para dous moleques de carapuça encarnada, que passavam carregando canas, -- o que nos lembrou as noites de Santo Antônio e S. João, já lá idas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "Felícia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "outros meninos",
+        "sentence": "Então falei-lhe das fogueiras do nosso quintal, das bichas que queimamos, das rodinhas, das pistolas e das danças com outros meninos.",
+        "start_char": 5735,
+        "end_char": 5749,
+        "excerpt": "Imaginei trinta mil cousas, sem acabar nenhuma, tão precipitadas vinham, e tão confusas que não as distinguia, pode ser até que se repetissem. Felícia chamou a minha atenção para dous moleques de carapuça encarnada, que passavam carregando canas, -- o que nos lembrou as noites de Santo Antônio e S. João, já lá idas. Então falei-lhe das fogueiras do nosso quintal, das bichas que queimamos, das rodinhas, das pistolas e das danças com outros meninos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pistolas",
+                "child": "outros meninos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pistola",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "menino",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outros meninos",
+                "child": "pistolas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pistola",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outros meninos",
+                "child": ", das bichas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "bicha",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outros meninos",
+                "child": "nosso quintal",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "quintal",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outros meninos",
+                "child": "fogueiras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "menino",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fogueira",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Isso não, acudiu Felícia.",
+        "start_char": 5942,
+        "end_char": 5949,
+        "excerpt": "Se houvesse agora a mesma cousa... Ah! lembrou-me que era ocasião de deitar à fogueira o livro da escola, e o dela também, com os pontos de costura que estava aprendendo. -- Isso não, acudiu Felícia.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acudiu",
+                "child": "Felícia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Papai",
+        "sentence": "-- Papai comprava outro.",
+        "start_char": 5982,
+        "end_char": 5987,
+        "excerpt": "Isso não, acudiu Felícia. -- Eu queimava o meu livro. -- Papai comprava outro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "comprava",
+                "child": "Papai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comprar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Papai",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Nisto estávamos, quando vimos tio Zeca e o desconhecido ao pé de nós.",
+        "start_char": 6115,
+        "end_char": 6123,
+        "excerpt": "Enquanto comprasse, eu ficava brincando em casa; aprender é muito aborrecido. Nisto estávamos, quando vimos tio Zeca e o desconhecido ao pé de nós.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vimos",
+                "child": "tio Zeca e o desconhecido",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o desconhecido",
+        "sentence": "Nisto estávamos, quando vimos tio Zeca e o desconhecido ao pé de nós.",
+        "start_char": 6126,
+        "end_char": 6140,
+        "excerpt": "Enquanto comprasse, eu ficava brincando em casa; aprender é muito aborrecido. Nisto estávamos, quando vimos tio Zeca e o desconhecido ao pé de nós.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vimos",
+                "child": "tio Zeca e o desconhecido",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O desconhecido",
+        "sentence": "O desconhecido pegou-nos nos queixos e levantou-nos a cara para ele, fitou-nos com seriedade, deixou-nos e despediu-se. -- Nove horas?",
+        "start_char": 6155,
+        "end_char": 6169,
+        "excerpt": "aprender é muito aborrecido. Nisto estávamos, quando vimos tio Zeca e o desconhecido ao pé de nós. O desconhecido pegou-nos nos queixos e levantou-nos a cara para ele, fitou-nos com seriedade, deixou-nos e despediu-se. -- Nove horas?",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "-- Vamos, disse-nos tio Zeca.",
+        "start_char": 6333,
+        "end_char": 6341,
+        "excerpt": "O desconhecido pegou-nos nos queixos e levantou-nos a cara para ele, fitou-nos com seriedade, deixou-nos e despediu-se. -- Nove horas? Lá estarei, disse ele. -- Vamos, disse-nos tio Zeca.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "disse-nos",
+                "child": "tio Zeca",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "dizer nós",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "aquele homem",
+        "sentence": "Quis perguntar-lhe quem era aquele homem, e até me pareceu conhecê-lo vagamente.",
+        "start_char": 6371,
+        "end_char": 6383,
+        "excerpt": "Lá estarei, disse ele. -- Vamos, disse-nos tio Zeca. Quis perguntar-lhe quem era aquele homem, e até me pareceu conhecê-lo vagamente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Felícia também.",
+        "start_char": 6424,
+        "end_char": 6431,
+        "excerpt": "-- Vamos, disse-nos tio Zeca. Quis perguntar-lhe quem era aquele homem, e até me pareceu conhecê-lo vagamente. Felícia também.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pessoa",
+        "sentence": "Nenhum de nós acertava com a pessoa; mas a promessa de lá estar às nove horas dominou o resto.",
+        "start_char": 6467,
+        "end_char": 6475,
+        "excerpt": "Quis perguntar-lhe quem era aquele homem, e até me pareceu conhecê-lo vagamente. Felícia também. Nenhum de nós acertava com a pessoa; mas a promessa de lá estar às nove horas dominou o resto.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acertava",
+                "child": "a pessoa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acertar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Como chegássemos a um rego de lama, peguei da mão de Felícia, e transpusemo-lo de um salto, tão violento que quase me caiu o livro.",
+        "start_char": 6716,
+        "end_char": 6723,
+        "excerpt": "Era festa, algum baile, conquanto às nove horas, costumássemos ir para a cama. Naturalmente, por exceção, estaríamos acordados. Como chegássemos a um rego de lama, peguei da mão de Felícia, e transpusemo-lo de um salto, tão violento que quase me caiu o livro.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "mão",
+                "child": "Felícia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Felícia",
+                "child": "mão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Felícia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Felícia",
+                "child": ", peguei",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Felícia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "peguei",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Olhei para tio Zeca, a ver o efeito do gesto;",
+        "start_char": 6806,
+        "end_char": 6814,
+        "excerpt": "Naturalmente, por exceção, estaríamos acordados. Como chegássemos a um rego de lama, peguei da mão de Felícia, e transpusemo-lo de um salto, tão violento que quase me caiu o livro. Olhei para tio Zeca, a ver o efeito do gesto;",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tio Zeca",
+        "sentence": "Tio Zeca foi ter com eles ao meio da rua, depois de dizer que esperássemos.",
+        "start_char": 7024,
+        "end_char": 7032,
+        "excerpt": "Desta vez estavam em burros, e um dos dous era mulher. Vinham da roça. Tio Zeca foi ter com eles ao meio da rua, depois de dizer que esperássemos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "Tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os animais",
+        "sentence": "Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "start_char": 7100,
+        "end_char": 7110,
+        "excerpt": "Vinham da roça. Tio Zeca foi ter com eles ao meio da rua, depois de dizer que esperássemos. Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pararam",
+                "child": "Os animais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "animal",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "start_char": 7168,
+        "end_char": 7176,
+        "excerpt": "Vinham da roça. Tio Zeca foi ter com eles ao meio da rua, depois de dizer que esperássemos. Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conhecerem",
+                "child": "a tio Zeca",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "start_char": 7188,
+        "end_char": 7195,
+        "excerpt": "Vinham da roça. Tio Zeca foi ter com eles ao meio da rua, depois de dizer que esperássemos. Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "reprovou",
+                "child": "Felícia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "reprovar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Felícia",
+                "child": "idéia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Felícia",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o casal de roceiros",
+        "sentence": "Fosse como fosse, esperamos os dous, examinando o casal de roceiros.",
+        "start_char": 7336,
+        "end_char": 7355,
+        "excerpt": "Os animais pararam, creio que de si mesmos, por também conhecerem a tio Zeca, idéia que Felícia reprovou com o gesto, e que eu defendi rindo. Teria apenas meia convicção; tudo era folgar. Fosse como fosse, esperamos os dous, examinando o casal de roceiros.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos.",
+        "start_char": 7376,
+        "end_char": 7384,
+        "excerpt": "Teria apenas meia convicção; tudo era folgar. Fosse como fosse, esperamos os dous, examinando o casal de roceiros. Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Eram ambos magros",
+                "child": ", a mulher",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "magro",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a mulher",
+                "child": "marido",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", a mulher",
+                "child": "Eram ambos magros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "magro",
+                "categories": [
+                    "outro",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": ", a mulher",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos.",
+        "start_char": 7394,
+        "end_char": 7402,
+        "excerpt": "Teria apenas meia convicção; tudo era folgar. Fosse como fosse, esperamos os dous, examinando o casal de roceiros. Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Não ouvimos o que disseram, ele e tio Zeca; vimo- lo, sim, o marido olhar para nós com ar de curiosidade, e falar à mulher, que também nos deitou os olhos, agora com pena ou cousa parecida.",
+        "start_char": 7490,
+        "end_char": 7498,
+        "excerpt": "Fosse como fosse, esperamos os dous, examinando o casal de roceiros. Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos. Não ouvimos o que disseram, ele e tio Zeca; vimo- lo, sim, o marido olhar para nós com ar de curiosidade, e falar à mulher, que também nos deitou os olhos, agora com pena ou cousa parecida.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "Não ouvimos o que disseram, ele e tio Zeca; vimo- lo, sim, o marido olhar para nós com ar de curiosidade, e falar à mulher, que também nos deitou os olhos, agora com pena ou cousa parecida.",
+        "start_char": 7515,
+        "end_char": 7523,
+        "excerpt": "Fosse como fosse, esperamos os dous, examinando o casal de roceiros. Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos. Não ouvimos o que disseram, ele e tio Zeca; vimo- lo, sim, o marido olhar para nós com ar de curiosidade, e falar à mulher, que também nos deitou os olhos, agora com pena ou cousa parecida.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o marido",
+                "child": "olhar",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "dep",
+                "pos_c": "ADJ",
+                "lemma_c": "olhar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Enfim apartaram-se, tio Zeca veio ter conosco e enfiamos para casa.",
+        "start_char": 7666,
+        "end_char": 7674,
+        "excerpt": "Eram ambos magros, a mulher mais que o marido, e também mais moça; ele tinha os cabelos grisalhos. Não ouvimos o que disseram, ele e tio Zeca; vimo- lo, sim, o marido olhar para nós com ar de curiosidade, e falar à mulher, que também nos deitou os olhos, agora com pena ou cousa parecida. Enfim apartaram-se, tio Zeca veio ter conosco e enfiamos para casa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Instintivamente paramos e voltamos a cabeça para tio Zeca.",
+        "start_char": 7905,
+        "end_char": 7913,
+        "excerpt": "A casa ficava na rua próxima, perto da esquina. Ao dobrarmos esta, vimos os portais da casa forrados de preto,-- o que nos encheu de espanto. Instintivamente paramos e voltamos a cabeça para tio Zeca.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a cabeça",
+                "child": "tio Zeca",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cabeça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tio Zeca",
+                "child": "a cabeça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cabeça",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a nós",
+        "sentence": "Este veio a nós, deu a mão a cada um e ia a dizer alguma palavra que lhe ficou na garganta; andou, levando-nos consigo.",
+        "start_char": 7925,
+        "end_char": 7930,
+        "excerpt": "Ao dobrarmos esta, vimos os portais da casa forrados de preto,-- o que nos encheu de espanto. Instintivamente paramos e voltamos a cabeça para tio Zeca. Este veio a nós, deu a mão a cada um e ia a dizer alguma palavra que lhe ficou na garganta; andou, levando-nos consigo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "garganta": {
+                "syns": [
+                    "gargantas",
+                    "gogó",
+                    "gogós"
+                ],
+                "occurrences": [
+                    "garganta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "É natural que eu tivesse a boca aberta, como Felícia.",
+        "start_char": 8286,
+        "end_char": 8293,
+        "excerpt": "Nas janelas fronteiras e laterais, cabeças aglomeradas. Houve certo rebuliço quando chegamos. É natural que eu tivesse a boca aberta, como Felícia.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça",
+                    "cabeças"
+                ],
+                "occurrences_n": 2
+            },
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tivesse",
+                "child": "Felícia",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Felícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Felícia",
+                "child": "natural",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Felícia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "natural",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tio Zeca",
+        "sentence": "Tio Zeca empurrou uma das meias portas, entramos os três, ele tornou a cerrá-la, meteu-se pelo corredor e fomos à sala de jantar e à alcova.",
+        "start_char": 8295,
+        "end_char": 8303,
+        "excerpt": "Houve certo rebuliço quando chegamos. É natural que eu tivesse a boca aberta, como Felícia. Tio Zeca empurrou uma das meias portas, entramos os três, ele tornou a cerrá-la, meteu-se pelo corredor e fomos à sala de jantar e à alcova.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "empurrou",
+                "child": "Tio Zeca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "empurrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Dentro, ao pé da cama, estava minha mãe com a cabeça entre as mãos.",
+        "start_char": 8466,
+        "end_char": 8475,
+        "excerpt": "É natural que eu tivesse a boca aberta, como Felícia. Tio Zeca empurrou uma das meias portas, entramos os três, ele tornou a cerrá-la, meteu-se pelo corredor e fomos à sala de jantar e à alcova. Dentro, ao pé da cama, estava minha mãe com a cabeça entre as mãos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "so pai",
+        "sentence": "Sabendo da nossa chegada, ergueu-se de salto, veio abraçar-nos entre lágrimas, bradando: -- Meus filhos, vosso pai morreu!",
+        "start_char": 8612,
+        "end_char": 8618,
+        "excerpt": "Tio Zeca empurrou uma das meias portas, entramos os três, ele tornou a cerrá-la, meteu-se pelo corredor e fomos à sala de jantar e à alcova. Dentro, ao pé da cama, estava minha mãe com a cabeça entre as mãos. Sabendo da nossa chegada, ergueu-se de salto, veio abraçar-nos entre lágrimas, bradando: -- Meus filhos, vosso pai morreu!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "vosso pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "morto",
+        "sentence": "morto por quê?",
+        "start_char": 8786,
+        "end_char": 8791,
+        "excerpt": "Não tive forças para andar, e teria medo de o fazer. Morto como? morto por quê?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Ouvi as palavras de minha mãe, se repetiam em mim, e os seus soluços que eram grandes.",
+        "start_char": 8946,
+        "end_char": 8955,
+        "excerpt": "morto por quê? Estas duas perguntas, se as meto aqui, é para dar seguimento à ação; naquele momento não perguntei nada a mim nem a ninguém. Ouvi as palavras de minha mãe, se repetiam em mim, e os seus soluços que eram grandes.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as palavras",
+                "child": "minha mãe",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mãe",
+                "child": "as palavras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "marido",
+        "sentence": "Ela pegou em nós e arrastou-nos para a cama, onde jazia o cadáver do marido; e fez-nos beijar-lhe a mão.",
+        "start_char": 9082,
+        "end_char": 9088,
+        "excerpt": "Estas duas perguntas, se as meto aqui, é para dar seguimento à ação; naquele momento não perguntei nada a mim nem a ninguém. Ouvi as palavras de minha mãe, se repetiam em mim, e os seus soluços que eram grandes. Ela pegou em nós e arrastou-nos para a cama, onde jazia o cadáver do marido; e fez-nos beijar-lhe a mão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o cadáver",
+                "child": "marido",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cadáver",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "marido",
+                "child": "o cadáver",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cadáver",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Tão longe estava eu daquilo que, apesar de tudo, não entendera nada a princípio; a tristeza e o silêncio das pessoas que rodeavam a cama ajudaram a explicar que meu pai morrera deveras.",
+        "start_char": 9279,
+        "end_char": 9286,
+        "excerpt": "Ouvi as palavras de minha mãe, se repetiam em mim, e os seus soluços que eram grandes. Ela pegou em nós e arrastou-nos para a cama, onde jazia o cadáver do marido; e fez-nos beijar-lhe a mão. Tão longe estava eu daquilo que, apesar de tudo, não entendera nada a princípio; a tristeza e o silêncio das pessoas que rodeavam a cama ajudaram a explicar que meu pai morrera deveras.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morrera",
+                "child": "meu pai",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "morrerar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pai",
+        "sentence": "O pai ali estava defunto, sem pulos, nem danças, nem risadas, nem bandas de música, cousas todas também defuntas.",
+        "start_char": 9608,
+        "end_char": 9613,
+        "excerpt": "Não se tratava de um dia santo, com a sua folga e recreio, não era festa, não eram as horas breves ou longas, para a gente desfiar em casa, arredada dos castigos da escola. Que essa queda de um sonho tão bonito fizesse crescer a minha dor de filho não é cousa que possa afirmar ou negar; melhor é calar. O pai ali estava defunto, sem pulos, nem danças, nem risadas, nem bandas de música, cousas todas também defuntas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O pai",
+                "child": "defunto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "defunto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo de tio Zeca",
+        "sentence": "O enterro foi no dia seguinte às nove horas da manhã, e provavelmente lá estava aquele amigo de tio Zeca que se despediu na rua, com a promessa de ir às nove horas.",
+        "start_char": 9972,
+        "end_char": 9989,
+        "excerpt": "O pai ali estava defunto, sem pulos, nem danças, nem risadas, nem bandas de música, cousas todas também defuntas. Se me houvessem dito à saída da escola por que é que me iam lá buscar, é claro que a alegria não houvera penetrado o coração, donde era agora expelida a punhadas. O enterro foi no dia seguinte às nove horas da manhã, e provavelmente lá estava aquele amigo de tio Zeca que se despediu na rua, com a promessa de ir às nove horas.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguns vultos",
+        "sentence": "Não vi as cerimônias; alguns vultos, poucos, vestidos de preto, lembra-me que vi.",
+        "start_char": 10072,
+        "end_char": 10085,
+        "excerpt": "Se me houvessem dito à saída da escola por que é que me iam lá buscar, é claro que a alegria não houvera penetrado o coração, donde era agora expelida a punhadas. O enterro foi no dia seguinte às nove horas da manhã, e provavelmente lá estava aquele amigo de tio Zeca que se despediu na rua, com a promessa de ir às nove horas. Não vi as cerimônias; alguns vultos, poucos, vestidos de preto, lembra-me que vi.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meu padrinho",
+        "sentence": "Meu padrinho, dono de um trapiche, lá estava, e a mulher também, que me levou a uma alcova dos fundos para me mostrar gravuras.",
+        "start_char": 10132,
+        "end_char": 10144,
+        "excerpt": "O enterro foi no dia seguinte às nove horas da manhã, e provavelmente lá estava aquele amigo de tio Zeca que se despediu na rua, com a promessa de ir às nove horas. Não vi as cerimônias; alguns vultos, poucos, vestidos de preto, lembra-me que vi. Meu padrinho, dono de um trapiche, lá estava, e a mulher também, que me levou a uma alcova dos fundos para me mostrar gravuras.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu padrinho",
+                "child": ", dono",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "dono",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Meu padrinho",
+                "child": ", e a mulher",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", dono",
+                "child": "Meu padrinho",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "dono",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um trapiche",
+                "child": "Meu padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "trapiche",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e a mulher",
+                "child": "Meu padrinho",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma alcova",
+                "child": "Meu padrinho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "alcova",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fundos",
+                "child": "Meu padrinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fundo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gravuras",
+                "child": "Meu padrinho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gravura",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulher",
+        "sentence": "Meu padrinho, dono de um trapiche, lá estava, e a mulher também, que me levou a uma alcova dos fundos para me mostrar gravuras.",
+        "start_char": 10180,
+        "end_char": 10188,
+        "excerpt": "O enterro foi no dia seguinte às nove horas da manhã, e provavelmente lá estava aquele amigo de tio Zeca que se despediu na rua, com a promessa de ir às nove horas. Não vi as cerimônias; alguns vultos, poucos, vestidos de preto, lembra-me que vi. Meu padrinho, dono de um trapiche, lá estava, e a mulher também, que me levou a uma alcova dos fundos para me mostrar gravuras.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu padrinho",
+                "child": ", e a mulher",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "padrinho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e a mulher",
+                "child": "Meu padrinho",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "padrinho",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Na ocasião da saída, ouvi os gritos de minha mãe, o rumor dos passos, algumas palavras abafadas de pessoas que pegavam nas alças do caixão, creio eu:-- \"vire de lado,-- mais à esquerda,-- assim, segure bem...",
+        "start_char": 10299,
+        "end_char": 10308,
+        "excerpt": "Não vi as cerimônias; alguns vultos, poucos, vestidos de preto, lembra-me que vi. Meu padrinho, dono de um trapiche, lá estava, e a mulher também, que me levou a uma alcova dos fundos para me mostrar gravuras. Na ocasião da saída, ouvi os gritos de minha mãe, o rumor dos passos, algumas palavras abafadas de pessoas que pegavam nas alças do caixão, creio eu:-- \"vire de lado,-- mais à esquerda,-- assim, segure bem...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os gritos",
+                "child": "minha mãe",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "grito",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mãe",
+                "child": "os gritos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "grito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o coche",
+        "sentence": "Depois, ao longe, o coche andando e as seges atrás dele...",
+        "start_char": 10489,
+        "end_char": 10496,
+        "excerpt": "Na ocasião da saída, ouvi os gritos de minha mãe, o rumor dos passos, algumas palavras abafadas de pessoas que pegavam nas alças do caixão, creio eu:-- \"vire de lado,-- mais à esquerda,-- assim, segure bem... \" Depois, ao longe, o coche andando e as seges atrás dele...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andando",
+                "child": "o coche",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "coche",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Lá iam meu pai e as férias!",
+        "start_char": 10537,
+        "end_char": 10544,
+        "excerpt": "\"vire de lado,-- mais à esquerda,-- assim, segure bem... \" Depois, ao longe, o coche andando e as seges atrás dele... Lá iam meu pai e as férias!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "iam",
+                "child": "meu pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "as férias",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "férias",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as férias",
+                "child": "meu pai",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "férias",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mãe",
+        "sentence": "Minha mãe chorava, cosendo o luto, entre duas visitas de pêsames.",
+        "start_char": 10689,
+        "end_char": 10698,
+        "excerpt": "Um dia de folga sem folguedo! Não, não foi um dia, mas oito, oito dias de nojo, durante os quais alguma vez me lembrei do colégio. Minha mãe chorava, cosendo o luto, entre duas visitas de pêsames.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chorava",
+                "child": "Minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Eu também chorava; não via meu pai às horas do costume, não lhe ouvia as palavras à mesa ou ao balcão, nem as carícias que dizia aos pássaros.",
+        "start_char": 10782,
+        "end_char": 10789,
+        "excerpt": "Não, não foi um dia, mas oito, oito dias de nojo, durante os quais alguma vez me lembrei do colégio. Minha mãe chorava, cosendo o luto, entre duas visitas de pêsames. Eu também chorava; não via meu pai às horas do costume, não lhe ouvia as palavras à mesa ou ao balcão, nem as carícias que dizia aos pássaros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "via",
+                "child": "meu pai",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mãe",
+        "sentence": "Minha mãe vivia calada.",
+        "start_char": 10971,
+        "end_char": 10980,
+        "excerpt": "Eu também chorava; não via meu pai às horas do costume, não lhe ouvia as palavras à mesa ou ao balcão, nem as carícias que dizia aos pássaros. Que ele era muito amigo de pássaros, e tinha três ou quatro, em gaiolas. Minha mãe vivia calada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "Minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pessoas de fora",
+        "sentence": "Quase que só falava às pessoas de fora.",
+        "start_char": 11018,
+        "end_char": 11033,
+        "excerpt": "Que ele era muito amigo de pássaros, e tinha três ou quatro, em gaiolas. Minha mãe vivia calada. Quase que só falava às pessoas de fora.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Foi assim que eu soube que meu pai morrera de apoplexia.",
+        "start_char": 11062,
+        "end_char": 11069,
+        "excerpt": "Minha mãe vivia calada. Quase que só falava às pessoas de fora. Foi assim que eu soube que meu pai morrera de apoplexia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morrera",
+                "child": "meu pai",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "morrerar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as visitas",
+        "sentence": "Ouvi esta notícia muitas vezes; as visitas perguntavam pela causa da morte, e ela referia tudo, a hora, o gesto, a ocasião: tinha ido beber água, e enchia um copo, à janela da área.",
+        "start_char": 11124,
+        "end_char": 11134,
+        "excerpt": "Quase que só falava às pessoas de fora. Foi assim que eu soube que meu pai morrera de apoplexia. Ouvi esta notícia muitas vezes; as visitas perguntavam pela causa da morte, e ela referia tudo, a hora, o gesto, a ocasião: tinha ido beber água, e enchia um copo, à janela da área.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntavam",
+                "child": "as visitas",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os meninos do colégio",
+        "sentence": "Nem por isso os meninos do colégio deixavam de vir espiar para dentro da minha memória.",
+        "start_char": 11329,
+        "end_char": 11350,
+        "excerpt": "Ouvi esta notícia muitas vezes; as visitas perguntavam pela causa da morte, e ela referia tudo, a hora, o gesto, a ocasião: tinha ido beber água, e enchia um copo, à janela da área. Tudo decorei, à força de ouvi- lo contar. Nem por isso os meninos do colégio deixavam de vir espiar para dentro da minha memória.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um deles",
+        "sentence": "Um deles chegou a perguntar-me quando é que eu voltaria.",
+        "start_char": 11404,
+        "end_char": 11412,
+        "excerpt": "Tudo decorei, à força de ouvi- lo contar. Nem por isso os meninos do colégio deixavam de vir espiar para dentro da minha memória. Um deles chegou a perguntar-me quando é que eu voltaria.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "-- Sábado, meu filho, disse minha mãe, quando lhe repeti a pergunta imaginada; a missa é sexta-feira.",
+        "start_char": 11489,
+        "end_char": 11498,
+        "excerpt": "Nem por isso os meninos do colégio deixavam de vir espiar para dentro da minha memória. Um deles chegou a perguntar-me quando é que eu voltaria. -- Sábado, meu filho, disse minha mãe, quando lhe repeti a pergunta imaginada; a missa é sexta-feira.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "marido",
+        "sentence": "Provavelmente, deu-lhe algum sentido superior, conselho do céu ou do marido.",
+        "start_char": 11881,
+        "end_char": 11887,
+        "excerpt": "Não sorria; se pudesse, sorriria de gosto ao ver que eu queria voltar mais cedo à escola. Mas, sabendo que eu não gostava de aprender, como entenderia a emenda? Provavelmente, deu-lhe algum sentido superior, conselho do céu ou do marido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "céu",
+                "child": "do marido",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do marido",
+                "child": "céu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "do marido",
+                "child": "conselho",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "conselho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Com o de descansar também não cabe, porque minha mãe fazia-me estudar, e, tanto como o estudo, aborrecia-me a atitude.",
+        "start_char": 11997,
+        "end_char": 12006,
+        "excerpt": "Provavelmente, deu-lhe algum sentido superior, conselho do céu ou do marido. Em verdade, eu não folgava, se lerdes isto com o sentido de rir. Com o de descansar também não cabe, porque minha mãe fazia-me estudar, e, tanto como o estudo, aborrecia-me a atitude.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fazia-me",
+                "child": "minha mãe",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazia-mar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "preguiçosos",
+        "sentence": "Usava um recurso que recomendo aos preguiçosos: deixava os olhos na página e abria a porta à imaginação.",
+        "start_char": 12221,
+        "end_char": 12232,
+        "excerpt": "Com o de descansar também não cabe, porque minha mãe fazia-me estudar, e, tanto como o estudo, aborrecia-me a atitude. Obrigado a estar sentado, com o livro nas mãos, a um canto ou à mesa, dava ao diabo o livro, a mesa e a cadeira. Usava um recurso que recomendo aos preguiçosos: deixava os olhos na página e abria a porta à imaginação.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "recomendo",
+                "child": "preguiçosos",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "recomendar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "preguiçoso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "preguiçosos",
+                "child": "um recurso",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "preguiçoso",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "recurso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Uma vez, como desse por mim a andar na sala sem ler, minha mãe repreendeu-me, e eu respondi que estava pensando em meu pai.",
+        "start_char": 12508,
+        "end_char": 12517,
+        "excerpt": "Usava um recurso que recomendo aos preguiçosos: deixava os olhos na página e abria a porta à imaginação. Corria a apanhar as flechas dos foguetes, a ouvir os realejos, a bailar com meninas, a cantar, a rir, a espancar de mentira ou de brincadeira, como for mais claro. Uma vez, como desse por mim a andar na sala sem ler, minha mãe repreendeu-me, e eu respondi que estava pensando em meu pai.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "minha mãe",
+                "child": "repreendeu-me",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "repreendeu-me",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "repreendeu-me",
+                "child": "minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "repreendeu-me",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Uma vez, como desse por mim a andar na sala sem ler, minha mãe repreendeu-me, e eu respondi que estava pensando em meu pai.",
+        "start_char": 12570,
+        "end_char": 12577,
+        "excerpt": "Usava um recurso que recomendo aos preguiçosos: deixava os olhos na página e abria a porta à imaginação. Corria a apanhar as flechas dos foguetes, a ouvir os realejos, a bailar com meninas, a cantar, a rir, a espancar de mentira ou de brincadeira, como for mais claro. Uma vez, como desse por mim a andar na sala sem ler, minha mãe repreendeu-me, e eu respondi que estava pensando em meu pai.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pensando",
+                "child": "meu pai",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "repreendeu-me",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "repreendeu-me",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felícia",
+        "sentence": "Felícia vivia tão triste como eu, mas confesso a minha verdade, a causa principal não era a mesma.",
+        "start_char": 12746,
+        "end_char": 12753,
+        "excerpt": "Uma vez, como desse por mim a andar na sala sem ler, minha mãe repreendeu-me, e eu respondi que estava pensando em meu pai. A explicação fê-la chorar, e, para dizer tudo, não era totalmente mentira; tinha-me lembrado o último presentinho que ele me dera, e entrei a vê-lo com o mimo na mão. Felícia vivia tão triste como eu, mas confesso a minha verdade, a causa principal não era a mesma.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "Felícia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "felícia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "Gostava de brincar, mas não sentia a ausência do brinco, não se lhe dava de acompanhar a mãe, coser com ela e uma vez fui achá-la a enxugar-lhe os olhos.",
+        "start_char": 12932,
+        "end_char": 12937,
+        "excerpt": "A explicação fê-la chorar, e, para dizer tudo, não era totalmente mentira; tinha-me lembrado o último presentinho que ele me dera, e entrei a vê-lo com o mimo na mão. Felícia vivia tão triste como eu, mas confesso a minha verdade, a causa principal não era a mesma. Gostava de brincar, mas não sentia a ausência do brinco, não se lhe dava de acompanhar a mãe, coser com ela e uma vez fui achá-la a enxugar-lhe os olhos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acompanhar",
+                "child": "a mãe",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sincero",
+        "sentence": "Sincero fui longos dias calados e reclusos.",
+        "start_char": 13230,
+        "end_char": 13237,
+        "excerpt": "Creio que ao gesto não faltava só originalidade, mas sinceridade também. Não me censurem. Sincero fui longos dias calados e reclusos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sincero",
+                "child": "dias",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "sincero",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dias",
+                "child": "Sincero",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "sincero",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o caixeiro",
+        "sentence": "Quis uma vez ir para o armarinho, que se abriu depois do enterro, onde o caixeiro continuou a servir.",
+        "start_char": 13345,
+        "end_char": 13355,
+        "excerpt": "Não me censurem. Sincero fui longos dias calados e reclusos. Quis uma vez ir para o armarinho, que se abriu depois do enterro, onde o caixeiro continuou a servir.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "o caixeiro",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caixeiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mãe",
+        "sentence": "Minha mãe sufocou este sonho pouco depois dele nascer.",
+        "start_char": 13503,
+        "end_char": 13512,
+        "excerpt": "Quis uma vez ir para o armarinho, que se abriu depois do enterro, onde o caixeiro continuou a servir. Conversaria com este, assistiria à venda de linhas e agulhas, à medição de fitas, iria à porta, à calçada, à esquina da rua... Minha mãe sufocou este sonho pouco depois dele nascer.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sufocou",
+                "child": "Minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sufocar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "escrava",
+        "sentence": "Mal chegara ao balcão, mandou-me buscar pela escrava; lá fui para o interior da casa e para o estudo.",
+        "start_char": 13603,
+        "end_char": 13610,
+        "excerpt": "Conversaria com este, assistiria à venda de linhas e agulhas, à medição de fitas, iria à porta, à calçada, à esquina da rua... Minha mãe sufocou este sonho pouco depois dele nascer. Mal chegara ao balcão, mandou-me buscar pela escrava; lá fui para o interior da casa e para o estudo.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu suposto espertador",
+        "sentence": "Senti cair-me na cara uma daquelas bolinhas de papel com que nos espertávamos uns aos outros, e fiz a minha e atirei-a ao meu suposto espertador.",
+        "start_char": 14073,
+        "end_char": 14095,
+        "excerpt": "Já então lhe tinha grandes saudades. Via de longe as caras dos meninos, os nossos gestos de troça nos bancos, e os saltos à saída. Senti cair-me na cara uma daquelas bolinhas de papel com que nos espertávamos uns aos outros, e fiz a minha e atirei-a ao meu suposto espertador.",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "atirei-a",
+                "child": "meu suposto espertador",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atirei-a",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "espertador",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "terceiro",
+        "sentence": "A bolinha, como acontecia às vezes, foi cair na cabeça de terceiro, que se desforrou depressa.",
+        "start_char": 14155,
+        "end_char": 14163,
+        "excerpt": "Via de longe as caras dos meninos, os nossos gestos de troça nos bancos, e os saltos à saída. Senti cair-me na cara uma daquelas bolinhas de papel com que nos espertávamos uns aos outros, e fiz a minha e atirei-a ao meu suposto espertador. A bolinha, como acontecia às vezes, foi cair na cabeça de terceiro, que se desforrou depressa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cabeça",
+                "child": "terceiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cabeça",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "terceiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tio Zeca",
+        "sentence": "Aquele degredo que eu deixei tão alegremente com tio Zeca parecia-me agora um céu remoto, e tinha medo de o perder.",
+        "start_char": 14343,
+        "end_char": 14351,
+        "excerpt": "Alguns, mais tímidos, limitavam-se a fazer caretas. Não era folguedo franco, mas já me valia por ele. Aquele degredo que eu deixei tão alegremente com tio Zeca parecia-me agora um céu remoto, e tinha medo de o perder.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus condisc",
+        "sentence": "Entrei vestido de preto, fui mirado com curiosidade, mas tão outro ao pé dos meus condiscípulos, que me esqueceram as férias sem gosto, e achei uma grande alegria sem férias.",
+        "start_char": 14923,
+        "end_char": 14935,
+        "excerpt": "Não era alegria completa. A total alegria foi segunda-feira, na escola. Entrei vestido de preto, fui mirado com curiosidade, mas tão outro ao pé dos meus condiscípulos, que me esqueceram as férias sem gosto, e achei uma grande alegria sem férias.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pé",
+                "child": "meus condiscípulos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condiscípulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meus condiscípulos",
+                "child": "pé",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condiscípulo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as férias",
+                "child": "meus condiscípulos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "féria",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condiscípulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gosto",
+                "child": "meus condiscípulos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "gosto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condiscípulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma grande alegria",
+                "child": "meus condiscípulos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "alegria",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condiscípulo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "férias",
+                "child": "meus condiscípulos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "férias",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condiscípulo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

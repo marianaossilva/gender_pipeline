@@ -1,0 +1,176 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 7,
+        "end_char": 24,
+        "excerpt": "O quê? Casimiro de Abreu Em que cismas, poeta",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arinda",
+        "sentence": "- Arinda!",
+        "start_char": 311,
+        "end_char": 317,
+        "excerpt": "E a mente a folhear os dias idos Que nome te recorda agora? - Arinda!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a virgem",
+        "sentence": "E se a virgem viesse agora mesmo Surgindo bela qual visão de amores, Tu, p'ra saudá-la bem do imo d'alma",
+        "start_char": 469,
+        "end_char": 477,
+        "excerpt": "E de quem são essas saudades? - Dela! E se a virgem viesse agora mesmo Surgindo bela qual visão de amores, Tu, p'ra saudá-la bem do imo d'alma",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "viesse",
+                "child": "a virgem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vier",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "poeta",
+        "sentence": "Diz-me, poeta - o que escolhias?",
+        "start_char": 577,
+        "end_char": 582,
+        "excerpt": "- Dela! E se a virgem viesse agora mesmo Surgindo bela qual visão de amores, Tu, p'ra saudá-la bem do imo d'alma Diz-me, poeta - o que escolhias?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", poeta",
+                "child": "imo",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "obl",
+                "pos_c": "ADJ",
+                "lemma_c": "imo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flores",
+        "sentence": "- Flores.",
+        "start_char": 604,
+        "end_char": 610,
+        "excerpt": "E se a virgem viesse agora mesmo Surgindo bela qual visão de amores, Tu, p'ra saudá-la bem do imo d'alma Diz-me, poeta - o que escolhias? - Flores.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu louco",
+        "sentence": "Diz-me, meu louco, o que mais tinhas?",
+        "start_char": 727,
+        "end_char": 736,
+        "excerpt": "- Flores. E se ela, farta dos aromas doces Que tem achado nos jardins divinos, Tão caprichosa machucasse as rosas... Diz-me, meu louco, o que mais tinhas?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Diz-me",
+                "child": ", meu louco",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Diz-me",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "louco",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", meu louco",
+                "child": "Diz-me",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "louco",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Diz-me",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hinos",
+        "sentence": "- Hinos!",
+        "start_char": 759,
+        "end_char": 764,
+        "excerpt": "E se ela, farta dos aromas doces Que tem achado nos jardins divinos, Tão caprichosa machucasse as rosas... Diz-me, meu louco, o que mais tinhas? - Hinos!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu poeta",
+        "sentence": "O que lhe davas, meu poeta?",
+        "start_char": 888,
+        "end_char": 897,
+        "excerpt": "- Hinos! E se, teimosa, rejeitando a lira, A fronte virgem para ti pendida, Dum beijo a paga te pedisse altiva... O que lhe davas, meu poeta?",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", meu poeta",
+                "child": "davas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "davo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

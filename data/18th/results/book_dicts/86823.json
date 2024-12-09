@@ -1,0 +1,1584 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "A uma estrangeira Castro Alves Lembrança de uma noite no mar Sens-tu",
+        "start_char": 18,
+        "end_char": 30,
+        "excerpt": "A uma estrangeira Castro Alves Lembrança de uma noite no mar Sens-tu mon coeur, comme U palpite?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Toujours",
+        "sentence": "Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant.",
+        "start_char": 188,
+        "end_char": 196,
+        "excerpt": "U palpite? Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "bien",
+                "child": "Toujours",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "bien",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Toujours",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Toujours",
+                "child": "t'aimant",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Toujours",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "t'aimant",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Toujours",
+                "child": "bien",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Toujours",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "bien",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "t'aimant",
+                "child": "Toujours",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "t'aimant",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Toujours",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chanson",
+        "sentence": "(Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "start_char": 208,
+        "end_char": 215,
+        "excerpt": "Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant. (Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(Chanson",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chanson",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "(Chanson",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chanson",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "(Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "start_char": 217,
+        "end_char": 221,
+        "excerpt": "Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant. (Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(Chanson",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chanson",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "(Chanson",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chanson",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estrang",
+        "sentence": "Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês?",
+        "start_char": 320,
+        "end_char": 327,
+        "excerpt": "(Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina? ... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Estrangeira",
+                "child": "peregrina",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Estrangeira",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "peregrina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Estrangeira",
+                "child": "Lembras-te",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Estrangeira",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Lembras-te",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "peregrina",
+                "child": "Estrangeira",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "peregrina",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrangeira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lembras-te",
+                "child": "Estrangeira",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Lembras-te",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrangeira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Inês",
+                "child": "Estrangeira",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrangeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês?",
+        "start_char": 368,
+        "end_char": 372,
+        "excerpt": "(Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina? ... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Lembras-te",
+                "child": ", Inês",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Lembras-te",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Inês",
+                "child": "Lembras-te",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Lembras-te",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Inês",
+                "child": "Estrangeira",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Estrangeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brand",
+        "sentence": "Branda noite!",
+        "start_char": 374,
+        "end_char": 379,
+        "excerpt": "... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês? Branda noite!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Branda",
+                "child": "noite",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Branda",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "noite",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus",
+        "sentence": "aquentá-las em meus beijos...",
+        "start_char": 648,
+        "end_char": 652,
+        "excerpt": "Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos...",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "longos cílios de Inês.",
+        "start_char": 710,
+        "end_char": 714,
+        "excerpt": "Oh! desejos! Oh! longos cílios de Inês.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cílios",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cílio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cílios",
+                        "child": "longos",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "longo"
+                    },
+                    {
+                        "head": "cílios",
+                        "child": "Inês",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Inês"
+                    },
+                    {
+                        "head": "Inês",
+                        "child": "cílios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Inês",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cílio"
+                    }
+                ]
+            },
+            {
+                "head": "Inês",
+                "child": "cílios",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cílio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cílios",
+                        "child": "longos",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "longo"
+                    },
+                    {
+                        "head": "cílios",
+                        "child": "Inês",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Inês"
+                    },
+                    {
+                        "head": "Inês",
+                        "child": "cílios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Inês",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cílio"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os nautas",
+        "sentence": "Na proa os nautas cantavam;",
+        "start_char": 724,
+        "end_char": 733,
+        "excerpt": "Oh! Se o era... Berço e ninho... ai, primavera! O ninho, o berço de Inês. Às vezes estremecias... Era de febre? Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos... Oh! palidez! Oh! desejos! Oh! longos cílios de Inês. Na proa os nautas cantavam;",
+        "gender": "male",
+        "pch_occurrences": {
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cantavam",
+                "child": "os nautas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "nauta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "espanhola",
+        "sentence": "Lembras-te acaso, espanhola?",
+        "start_char": 841,
+        "end_char": 850,
+        "excerpt": "Nossos beijos estalavam Como estala a castanhola. :. Lembras-te acaso, espanhola?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Acaso lembras-te, Inês?",
+        "start_char": 870,
+        "end_char": 874,
+        "excerpt": ":. Lembras-te acaso, espanhola? Acaso lembras-te, Inês?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lembras-te",
+                "child": ", Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembras-te",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha",
+        "sentence": "Tu levas minh'alma, ó filha, Nas rendas desta mantilha...",
+        "start_char": 977,
+        "end_char": 982,
+        "excerpt": "Seria vida?-Talvez! E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levas",
+                "child": ", ó filha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "leva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ó filha",
+                "child": "levas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "leva",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ó filha",
+                "child": "Tu",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Tu",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Na tua mantilha, Inês!\"",
+        "start_char": 1030,
+        "end_char": 1034,
+        "excerpt": "E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\"",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mantilha",
+                "child": "Inês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mantilha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "mantilha",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mantilha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cadiz",
+        "sentence": "De Cadiz o aroma ainda Tinhas no seio...",
+        "start_char": 1040,
+        "end_char": 1045,
+        "excerpt": "Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\" De Cadiz o aroma ainda Tinhas no seio...",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Cadiz",
+                "child": "o aroma",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Cadiz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "aroma",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cadiz",
+                "child": "Tinhas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Cadiz",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Tinhas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cadiz",
+                "child": "seio",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Cadiz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Cadiz",
+                        "child": "seio",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "Cadiz",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "seio"
+                    },
+                    {
+                        "head": "seio",
+                        "child": "Cadiz",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "seio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Cadiz"
+                    }
+                ]
+            },
+            {
+                "head": "o aroma",
+                "child": "Cadiz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "aroma",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Cadiz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tinhas",
+                "child": "Cadiz",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Tinhas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Cadiz",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seio",
+                "child": "Cadiz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Cadiz",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "Cadiz",
+                        "child": "seio",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "Cadiz",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "seio"
+                    },
+                    {
+                        "head": "seio",
+                        "child": "Cadiz",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "seio",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Cadiz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andaluzia",
+        "sentence": "De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia",
+        "start_char": 1150,
+        "end_char": 1159,
+        "excerpt": "De Cadiz o aroma ainda Tinhas no seio... Talvez! De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "As rosas",
+                "child": "Andaluzia",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "rosa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Andaluzia",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Andaluzia",
+                "child": "As rosas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Andaluzia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "rosa",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Nas lisas faces de Inês!",
+        "start_char": 1179,
+        "end_char": 1183,
+        "excerpt": "Talvez! ... Do Atlântico a vaga extensa Não era um berço? Oh! Se o era... Berço e ninho... ai, primavera! O ninho, o berço de Inês. Às vezes estremecias... Era de febre? Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos... Oh! palidez! Oh! desejos! Oh! longos cílios de Inês. Na proa os nautas cantavam; Eram saudades?... Talvez! Nossos beijos estalavam Como estala a castanhola. :. Lembras-te acaso, espanhola? Acaso lembras-te, Inês? Meus olhos nos teus morriam... Seria vida?-Talvez! E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\" De Cadiz o aroma ainda Tinhas no seio... Talvez! De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia Nas lisas faces de Inês!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", o berço",
+                "child": "Inês",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "berço",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": ", o berço",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "berço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "O ninho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ninho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cílios",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cílio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cílios",
+                        "child": "longos",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "longo"
+                    },
+                    {
+                        "head": "cílios",
+                        "child": "Inês",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Inês"
+                    },
+                    {
+                        "head": "Inês",
+                        "child": "cílios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Inês",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cílio"
+                    }
+                ]
+            },
+            {
+                "head": "Inês",
+                "child": "cílios",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cílio",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "cílios",
+                        "child": "longos",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "longo"
+                    },
+                    {
+                        "head": "cílios",
+                        "child": "Inês",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cílio",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Inês"
+                    },
+                    {
+                        "head": "Inês",
+                        "child": "cílios",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Inês",
+                        "dep_c": "ROOT",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cílio"
+                    }
+                ]
+            },
+            {
+                "head": "lembras-te",
+                "child": ", Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembras-te",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mantilha",
+                "child": "Inês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mantilha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "mantilha",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mantilha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "\"",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "punct",
+                "pos_c": "NOUN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "\"",
+                "child": "Inês",
+                "dep_h": "punct",
+                "pos_h": "NOUN",
+                "lemma_h": "\"",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Americana Do Plata",
+        "sentence": "E volvia a Americana Do Plata às vagas...",
+        "start_char": 1196,
+        "end_char": 1214,
+        "excerpt": "De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia Nas lisas faces de Inês! E volvia a Americana Do Plata às vagas...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Aos cachos escuros, belos, Aos negros cachos de Inês!",
+        "start_char": 1335,
+        "end_char": 1339,
+        "excerpt": "Talvez? E a brisa amorosa, insana Misturava os meus cabelos Aos cachos escuros, belos, Aos negros cachos de Inês!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cachos",
+                "child": "Inês",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cacho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "cachos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cacho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Inês!",
+        "start_char": 217,
+        "end_char": 221,
+        "excerpt": "Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant. (Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(Chanson",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chanson",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "(Chanson",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chanson",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Conspiradora mimosa",
+        "sentence": "Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa:",
+        "start_char": 1566,
+        "end_char": 1585,
+        "excerpt": "Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina? ... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês? Branda noite! A noite imensa Não era um ninho?-Talvez! ... Do Atlântico a vaga extensa Não era um berço? Oh! Se o era... Berço e ninho... ai, primavera! O ninho, o berço de Inês. Às vezes estremecias... Era de febre? Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos... Oh! palidez! Oh! desejos! Oh! longos cílios de Inês. Na proa os nautas cantavam; Eram saudades?... Talvez! Nossos beijos estalavam Como estala a castanhola. :. Lembras-te acaso, espanhola? Acaso lembras-te, Inês? Meus olhos nos teus morriam... Seria vida?-Talvez! E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\" De Cadiz o aroma ainda Tinhas no seio... Talvez! De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia Nas lisas faces de Inês! E volvia a Americana Do Plata às vagas... Talvez? E a brisa amorosa, insana Misturava os meus cabelos Aos cachos escuros, belos, Aos negros cachos de Inês! As estrelas acordavam Do fundo do mar... Talvez! Na proa as ondas cantavam, E a serenata divina Tu, com a ponta da botina, Marcavas no chão... Inês! Não era cumplicidade Do céu, dos mares? Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vaga amorosa",
+        "sentence": "Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa:",
+        "start_char": 1594,
+        "end_char": 1606,
+        "excerpt": "Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina? ... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês? Branda noite! A noite imensa Não era um ninho?-Talvez! ... Do Atlântico a vaga extensa Não era um berço? Oh! Se o era... Berço e ninho... ai, primavera! O ninho, o berço de Inês. Às vezes estremecias... Era de febre? Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos... Oh! palidez! Oh! desejos! Oh! longos cílios de Inês. Na proa os nautas cantavam; Eram saudades?... Talvez! Nossos beijos estalavam Como estala a castanhola. :. Lembras-te acaso, espanhola? Acaso lembras-te, Inês? Meus olhos nos teus morriam... Seria vida?-Talvez! E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\" De Cadiz o aroma ainda Tinhas no seio... Talvez! De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia Nas lisas faces de Inês! E volvia a Americana Do Plata às vagas... Talvez? E a brisa amorosa, insana Misturava os meus cabelos Aos cachos escuros, belos, Aos negros cachos de Inês! As estrelas acordavam Do fundo do mar... Talvez! Na proa as ondas cantavam, E a serenata divina Tu, com a ponta da botina, Marcavas no chão... Inês! Não era cumplicidade Do céu, dos mares? Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "\"Segreda amores a Inês!",
+        "start_char": 1626,
+        "end_char": 1630,
+        "excerpt": "Não era cumplicidade Do céu, dos mares? Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa: \"Segreda amores a Inês!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Segreda",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Segreda",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "Segreda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Segreda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Inês!",
+        "start_char": 217,
+        "end_char": 221,
+        "excerpt": "Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant. (Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(Chanson",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chanson",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "(Chanson",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chanson",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moça formosa",
+        "sentence": "Ou talvez que neste instante, Lembrando-te inda saudosa Suspires, moça formosa!...",
+        "start_char": 1908,
+        "end_char": 1920,
+        "excerpt": "Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina? ... Estrangeira, peregrina, Quem sabes?-Lembras-te, Inês? Branda noite! A noite imensa Não era um ninho?-Talvez! ... Do Atlântico a vaga extensa Não era um berço? Oh! Se o era... Berço e ninho... ai, primavera! O ninho, o berço de Inês. Às vezes estremecias... Era de febre? Talvez... Eu pegava-te as mãos frias P'ra aquentá-las em meus beijos... Oh! palidez! Oh! desejos! Oh! longos cílios de Inês. Na proa os nautas cantavam; Eram saudades?... Talvez! Nossos beijos estalavam Como estala a castanhola. :. Lembras-te acaso, espanhola? Acaso lembras-te, Inês? Meus olhos nos teus morriam... Seria vida?-Talvez! E meus prantos te diziam: \" Tu levas minh'alma, ó filha, Nas rendas desta mantilha... Na tua mantilha, Inês!\" De Cadiz o aroma ainda Tinhas no seio... Talvez! De Buenos Aires a linda, Volvendo aos lares, trazia As rosas de Andaluzia Nas lisas faces de Inês! E volvia a Americana Do Plata às vagas... Talvez? E a brisa amorosa, insana Misturava os meus cabelos Aos cachos escuros, belos, Aos negros cachos de Inês! As estrelas acordavam Do fundo do mar... Talvez! Na proa as ondas cantavam, E a serenata divina Tu, com a ponta da botina, Marcavas no chão... Inês! Não era cumplicidade Do céu, dos mares? Talvez! Dir-se-ia que a imensidade  Conspiradora mimosa Dizia à vaga amorosa: \"Segreda amores a Inês! \" E como um véu transparente, Um véu de noiva... talvez, Da lua o raio tremente Te enchia de casto brilho... E a rastos no tombadilho Cala a teus pés... Inês! E essa noite delirante Pudeste esquecer?-Talvez... Ou talvez que neste instante, Lembrando-te inda saudosa Suspires, moça formosa!...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            },
+            "cílio": {
+                "syns": [
+                    "cílios"
+                ],
+                "occurrences": [
+                    "cílio",
+                    "cílios"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face",
+                    "faces"
+                ],
+                "occurrences_n": 2
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão",
+                    "mãos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Inês!",
+        "start_char": 217,
+        "end_char": 221,
+        "excerpt": "Le tien comme il battait gaiement! Je m'en vais pourtant, ma petite, Bien loin, bien vite, Toujours t'aimant. (Chanson) Inês! nas terras distantes, Aonde vives talvez, Inda lembram-te os instantes Daquela noite divina?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "(Chanson",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Chanson",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "(Chanson",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Chanson",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

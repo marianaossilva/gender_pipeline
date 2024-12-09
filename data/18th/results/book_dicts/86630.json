@@ -1,0 +1,1202 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves",
+        "sentence": "DesesperoCastro Alves \"Crime!",
+        "start_char": 9,
+        "end_char": 21,
+        "excerpt": "DesesperoCastro Alves \"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara?",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o jaguar",
+        "sentence": "Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara?",
+        "start_char": 118,
+        "end_char": 126,
+        "excerpt": "DesesperoCastro Alves \"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara?",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Família, leis e Deus lhes coube em sorte.",
+        "start_char": 230,
+        "end_char": 234,
+        "excerpt": "Homens? Loucura! Família, leis e Deus lhes coube em sorte.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "coube",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "caber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Família",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "família",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os anjos do Senhor",
+        "sentence": "E os anjos do Senhor depois da morte.",
+        "start_char": 294,
+        "end_char": 312,
+        "excerpt": "Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pai",
+        "sentence": "O pai o embala...",
+        "start_char": 402,
+        "end_char": 407,
+        "excerpt": "\"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara? \"E nós que somos, pois? Homens? Loucura! Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "embala",
+                "child": "O pai",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "embalar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O padre",
+        "sentence": "O padre lhe abre a porta à eternidade.",
+        "start_char": 440,
+        "end_char": 447,
+        "excerpt": "O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "abre",
+                "child": "O padre",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "padre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nós",
+        "sentence": "Nós somos reptis...",
+        "start_char": 486,
+        "end_char": 489,
+        "excerpt": "\"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara? \"E nós que somos, pois? Homens? Loucura! Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade. \" Sim! Nós somos reptis...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cascavel",
+        "sentence": "A lesma é vil,  o cascavel é bravo.",
+        "start_char": 544,
+        "end_char": 554,
+        "excerpt": "Nós somos reptis... Qu'importa a espécie? A lesma é vil,  o cascavel é bravo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o cascavel",
+                "child": "bravo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cascavel",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "bravo",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o cascavel",
+                "child": "vil",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cascavel",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "vil",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ser",
+        "sentence": "Então não sabes o que é ser escravo!...",
+        "start_char": 622,
+        "end_char": 625,
+        "excerpt": "A lesma é vil,  o cascavel é bravo. E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vendida",
+        "sentence": "\"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida...",
+        "start_char": 702,
+        "end_char": 709,
+        "excerpt": "E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida...",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "alcoice",
+                "child": "seios infamados da vendida",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alcoice",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seios infamados da vendida",
+                "child": "alcoice",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "alcoice",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seios infamados da vendida",
+                "child": "escravo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filho",
+        "sentence": "Filho da perdição no berço impuro Sem leite para a boca ressequida...",
+        "start_char": 713,
+        "end_char": 718,
+        "excerpt": "Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida... Filho da perdição no berço impuro Sem leite para a boca ressequida...",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Filho",
+                "child": "perdição",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "filho",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "perdição",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perdição",
+                "child": "Filho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perdição",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "berço",
+                "child": "Filho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "berço",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "... sem Deus  o espaço!",
+        "start_char": 915,
+        "end_char": 919,
+        "excerpt": "É ver  viajante morto de cansaço A terra  sem amor! ... sem Deus  o espaço!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "... sem Deus",
+                "child": "o espaço",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espaço",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o espaço",
+                "child": "... sem Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "espaço",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dois irmãos",
+        "sentence": "Sendo dos dois irmãos pasto querido, Que o tigre come e o homem dilacera...",
+        "start_char": 1011,
+        "end_char": 1022,
+        "excerpt": "\"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara? \"E nós que somos, pois? Homens? Loucura! Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade. \" Sim! Nós somos reptis... Qu'importa a espécie? A lesma é vil,  o cascavel é bravo. E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida... Filho da perdição no berço impuro Sem leite para a boca ressequida... \"É mais tarde, nas sombras do futuro, Não descobrir estrela foragida... É ver  viajante morto de cansaço A terra  sem amor! ... sem Deus  o espaço! \" Ser escravo  é, dos homens repelido, Ser também repelido pela fera; Sendo dos dois irmãos pasto querido, Que o tigre come e o homem dilacera...",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Sendo dos dois irmãos",
+                "child": "pasto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "pasto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sendo dos dois irmãos",
+                "child": "querido",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "irmão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "querido",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o tigre",
+                "child": "Sendo dos dois irmãos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tigre",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o homem",
+                "child": "Sendo dos dois irmãos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "irmão",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Quem falou, pobre Maria, Desta palavra estúpida?",
+        "start_char": 1252,
+        "end_char": 1257,
+        "excerpt": "No berço... após no toro... após na cova!... \"Crime! Quem falou, pobre Maria, Desta palavra estúpida?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "falou",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pobre criança",
+        "sentence": "Escarnecem de ti, pobre criança!",
+        "start_char": 1353,
+        "end_char": 1366,
+        "excerpt": "... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade. \" Sim! Nós somos reptis... Qu'importa a espécie? A lesma é vil,  o cascavel é bravo. E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida... Filho da perdição no berço impuro Sem leite para a boca ressequida... \"É mais tarde, nas sombras do futuro, Não descobrir estrela foragida... É ver  viajante morto de cansaço A terra  sem amor! ... sem Deus  o espaço! \" Ser escravo  é, dos homens repelido, Ser também repelido pela fera; Sendo dos dois irmãos pasto querido, Que o tigre come e o homem dilacera... É do lodo no lodo sacudido Ver que aqui ou além nada o espera, Que em cada leito novo há mancha nova... No berço... após no toro... após na cova!... \"Crime! Quem falou, pobre Maria, Desta palavra estúpida? ... Descansa! Foram eles talvez?! ... É zombaria... Escarnecem de ti, pobre criança!",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Escarnecem",
+                "child": ", pobre criança",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Escarnecem",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "assassino",
+        "sentence": "Enquanto do assassino a fronte calma Não revela um remorso de sua alma?",
+        "start_char": 1451,
+        "end_char": 1460,
+        "excerpt": "Escarnecem de ti, pobre criança! Pois não vês que morremos todo dia, Debaixo do chicote, que não cansa? Enquanto do assassino a fronte calma Não revela um remorso de sua alma?",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "revela",
+                "child": "Enquanto do assassino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "revelar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "assassino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Enquanto do assassino",
+                "child": "fronte",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "assassino",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fronte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": [
+                    {
+                        "head": "Enquanto do assassino",
+                        "child": "fronte",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "assassino",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "fronte"
+                    },
+                    {
+                        "head": "fronte",
+                        "child": "calma",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "fronte",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "calmo"
+                    },
+                    {
+                        "head": "fronte",
+                        "child": "Enquanto do assassino",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "fronte",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "assassino"
+                    }
+                ]
+            },
+            {
+                "head": "fronte",
+                "child": "Enquanto do assassino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fronte",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "assassino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": [
+                    {
+                        "head": "Enquanto do assassino",
+                        "child": "fronte",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "assassino",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "fronte"
+                    },
+                    {
+                        "head": "fronte",
+                        "child": "calma",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "fronte",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "calmo"
+                    },
+                    {
+                        "head": "fronte",
+                        "child": "Enquanto do assassino",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "fronte",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "assassino"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os infames",
+        "sentence": "O que é verdade É que os infames tudo me roubaram...",
+        "start_char": 1561,
+        "end_char": 1571,
+        "excerpt": "Não! Tudo isto é mentira! O que é verdade É que os infames tudo me roubaram...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "roubaram",
+                "child": "os infames",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "roubar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "infame",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Maria!",
+        "start_char": 1735,
+        "end_char": 1740,
+        "excerpt": "Fatal voracidade! Nos dentes meu amor espedaçaram... Maria!",
+        "gender": "female",
+        "pch_occurrences": {
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dente"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "virgem",
+        "sentence": "O que é feito de ti, virgem sem palma?",
+        "start_char": 1792,
+        "end_char": 1798,
+        "excerpt": "Maria! Última estrela de minh'alma! O que é feito de ti, virgem sem palma?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", virgem",
+                "child": "palma",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "virgem",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "palma",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "palma",
+                "child": ", virgem",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "palma",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "virgem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Palmeira",
+        "sentence": "Palmeira  as ventanias te romperam.",
+        "start_char": 1886,
+        "end_char": 1894,
+        "excerpt": "\"Pomba  em teu ninho as serpes te morderam. Folha  rolaste no paul sombrio. Palmeira  as ventanias te romperam.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "romperam",
+                "child": "Palmeira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "romper",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "palmeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "irmã",
+        "sentence": "E tu, irmã! e mãe!",
+        "start_char": 2037,
+        "end_char": 2041,
+        "excerpt": "Corça  afogaram-te as caudais do rio. Pobre flor  no teu cálice beberam, Deixando-o depois triste e vazio... E tu, irmã! e mãe!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E tu",
+                "child": ", irmã",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", irmã",
+                "child": "E tu",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mãe",
+        "sentence": "E tu, irmã! e mãe!",
+        "start_char": 2045,
+        "end_char": 2048,
+        "excerpt": "Corça  afogaram-te as caudais do rio. Pobre flor  no teu cálice beberam, Deixando-o depois triste e vazio... E tu, irmã! e mãe!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Ó minha mãe!",
+        "start_char": 2109,
+        "end_char": 2118,
+        "excerpt": "Queres que eu guarde a faca na bainha! \" Ó minha mãe!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "már",
+        "sentence": "ó mártir africana, Que morreste de dor no cativeiro!",
+        "start_char": 2122,
+        "end_char": 2125,
+        "excerpt": "\"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara? \"E nós que somos, pois? Homens? Loucura! Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade. \" Sim! Nós somos reptis... Qu'importa a espécie? A lesma é vil,  o cascavel é bravo. E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida... Filho da perdição no berço impuro Sem leite para a boca ressequida... \"É mais tarde, nas sombras do futuro, Não descobrir estrela foragida... É ver  viajante morto de cansaço A terra  sem amor! ... sem Deus  o espaço! \" Ser escravo  é, dos homens repelido, Ser também repelido pela fera; Sendo dos dois irmãos pasto querido, Que o tigre come e o homem dilacera... É do lodo no lodo sacudido Ver que aqui ou além nada o espera, Que em cada leito novo há mancha nova... No berço... após no toro... após na cova!... \"Crime! Quem falou, pobre Maria, Desta palavra estúpida? ... Descansa! Foram eles talvez?! ... É zombaria... Escarnecem de ti, pobre criança! Pois não vês que morremos todo dia, Debaixo do chicote, que não cansa? Enquanto do assassino a fronte calma Não revela um remorso de sua alma? \" Não! Tudo isto é mentira! O que é verdade É que os infames tudo me roubaram... Esperança, trabalho, liberdade Entreguei-lhes em vão... não se fartaram. Quiseram mais... Fatal voracidade! Nos dentes meu amor espedaçaram... Maria! Última estrela de minh'alma! O que é feito de ti, virgem sem palma? \"Pomba  em teu ninho as serpes te morderam. Folha  rolaste no paul sombrio. Palmeira  as ventanias te romperam. Corça  afogaram-te as caudais do rio. Pobre flor  no teu cálice beberam, Deixando-o depois triste e vazio... E tu, irmã! e mãe! e amante minha! Queres que eu guarde a faca na bainha! \" Ó minha mãe! ó mártir africana, Que morreste de dor no cativeiro!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dentes",
+                    "dente",
+                    "dente"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tir africana",
+        "sentence": "ó mártir africana, Que morreste de dor no cativeiro!",
+        "start_char": 2125,
+        "end_char": 2137,
+        "excerpt": "\"Crime! Pois será crime se a jibóia Morde silvando a planta, que a esmagara? Pois será crime se o jaguar nos dentes Quebra do índio a pérfida taquara? \"E nós que somos, pois? Homens? Loucura! Família, leis e Deus lhes coube em sorte. A família no lar, a lei no mundo... E os anjos do Senhor depois da morte. \" Três leitos, que sucedem-se macios, Onde rolam na santa ociosidade... O pai o embala... a lei o acaricia... O padre lhe abre a porta à eternidade. \" Sim! Nós somos reptis... Qu'importa a espécie? A lesma é vil,  o cascavel é bravo. E vens falar de crimes ao cativo? Então não sabes o que é ser escravo!... \"Ser escravo  é nascer no alcoice escuro Dos seios infamados da vendida... Filho da perdição no berço impuro Sem leite para a boca ressequida... \"É mais tarde, nas sombras do futuro, Não descobrir estrela foragida... É ver  viajante morto de cansaço A terra  sem amor! ... sem Deus  o espaço! \" Ser escravo  é, dos homens repelido, Ser também repelido pela fera; Sendo dos dois irmãos pasto querido, Que o tigre come e o homem dilacera... É do lodo no lodo sacudido Ver que aqui ou além nada o espera, Que em cada leito novo há mancha nova... No berço... após no toro... após na cova!... \"Crime! Quem falou, pobre Maria, Desta palavra estúpida? ... Descansa! Foram eles talvez?! ... É zombaria... Escarnecem de ti, pobre criança! Pois não vês que morremos todo dia, Debaixo do chicote, que não cansa? Enquanto do assassino a fronte calma Não revela um remorso de sua alma? \" Não! Tudo isto é mentira! O que é verdade É que os infames tudo me roubaram... Esperança, trabalho, liberdade Entreguei-lhes em vão... não se fartaram. Quiseram mais... Fatal voracidade! Nos dentes meu amor espedaçaram... Maria! Última estrela de minh'alma! O que é feito de ti, virgem sem palma? \"Pomba  em teu ninho as serpes te morderam. Folha  rolaste no paul sombrio. Palmeira  as ventanias te romperam. Corça  afogaram-te as caudais do rio. Pobre flor  no teu cálice beberam, Deixando-o depois triste e vazio... E tu, irmã! e mãe! e amante minha! Queres que eu guarde a faca na bainha! \" Ó minha mãe! ó mártir africana, Que morreste de dor no cativeiro!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seios",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            },
+            "dente": {
+                "syns": [
+                    "dentes"
+                ],
+                "occurrences": [
+                    "dentes",
+                    "dentes",
+                    "dente",
+                    "dente"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teu filho",
+        "sentence": "Teu filho vai vingar um povo inteiro!...",
+        "start_char": 2279,
+        "end_char": 2288,
+        "excerpt": "Ai! sem quebrar aquela jura insana, Que jurei no teu leito derradeiro, No sangue desta raça ímpia, tirana Teu filho vai vingar um povo inteiro!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vingar",
+                "child": "Teu filho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vingar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "teu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Vamos, Maria!",
+        "start_char": 2327,
+        "end_char": 2332,
+        "excerpt": "sem quebrar aquela jura insana, Que jurei no teu leito derradeiro, No sangue desta raça ímpia, tirana Teu filho vai vingar um povo inteiro!... Vamos, Maria!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vamos",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "assassino",
+        "sentence": "dize-me o nome do assassino!...",
+        "start_char": 2381,
+        "end_char": 2390,
+        "excerpt": "Cumpra-se o destino... Dize! dize-me o nome do assassino!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o nome",
+                "child": "assassino",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "assassino",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "assassino",
+                "child": "o nome",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "assassino",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Virgem das Dores",
+        "sentence": "Virgem das Dores,",
+        "start_char": 2419,
+        "end_char": 2435,
+        "excerpt": "_______________ _ _ \" Virgem das Dores,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

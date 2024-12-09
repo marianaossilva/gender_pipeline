@@ -1,0 +1,421 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "No leito Casimiro de Abreu",
+        "start_char": 9,
+        "end_char": 26,
+        "excerpt": "No leito Casimiro de Abreu A M*** Se eu morresse amanhã!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A M * *",
+        "sentence": "A M***",
+        "start_char": 26,
+        "end_char": 33,
+        "excerpt": "No leito Casimiro de Abreu A M*** Se eu morresse amanhã!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A . de Azevedo I",
+        "sentence": "A. de Azevedo IEu sofro; - o corpo padece",
+        "start_char": 56,
+        "end_char": 72,
+        "excerpt": "A M*** Se eu morresse amanhã! A. de Azevedo IEu sofro; - o corpo padece",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Quisera a vida mais longa Se mais longa Deus m'a dera, Porque é linda a primavera, Porque é doce este arrebol, Porque é linda a flor dos anos",
+        "start_char": 892,
+        "end_char": 896,
+        "excerpt": "Se a morte colher-me em breve, Pede ao vento que te leve O meu suspiro final; - Será queixoso e sentido, Como da rola o gemido Nas moitas do laranjal. Quisera a vida mais longa Se mais longa Deus m'a dera, Porque é linda a primavera, Porque é doce este arrebol, Porque é linda a flor dos anos",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "longa",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "longo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "m'a",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "m'a",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas se Deus cortar-me os dias",
+        "start_char": 1024,
+        "end_char": 1028,
+        "excerpt": "Quisera a vida mais longa Se mais longa Deus m'a dera, Porque é linda a primavera, Porque é doce este arrebol, Porque é linda a flor dos anos Banhada da luz do sol! Mas se Deus cortar-me os dias",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "longa",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "longo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "m'a",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "m'a",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cortar-me",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cortar-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "teu pobre sonhador",
+        "sentence": "À memória morta ou viva Do teu pobre sonhador!",
+        "start_char": 1947,
+        "end_char": 1965,
+        "excerpt": "- E que darás compassiva Uma gota do teu pranto À memória morta ou viva Do teu pobre sonhador!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "adivinha",
+        "sentence": "Tua alma falar co'a minha Nessa linguagem do céu Que o pensamento adivinha!",
+        "start_char": 2081,
+        "end_char": 2089,
+        "excerpt": "À memória morta ou viva Do teu pobre sonhador! Bendita, bendita sejas, Se nas notas benfazejas Tua alma falar co'a minha Nessa linguagem do céu Que o pensamento adivinha!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o pensamento",
+                "child": "adivinha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "pensamento",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "adivinhar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filho da poesia",
+        "sentence": "Eu - o filho da poesia - Dormirei no meu sepulcro, Embalado em harmonia",
+        "start_char": 2096,
+        "end_char": 2113,
+        "excerpt": "Bendita, bendita sejas, Se nas notas benfazejas Tua alma falar co'a minha Nessa linguagem do céu Que o pensamento adivinha! Eu - o filho da poesia - Dormirei no meu sepulcro, Embalado em harmonia",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Branca virgem dos amores",
+        "sentence": "- Branca virgem dos amores, Toucada de murchas flores, Um longo sono nos traz;",
+        "start_char": 2215,
+        "end_char": 2239,
+        "excerpt": "Ao som do piano teu! IV Que tem a morte de feia?! - Branca virgem dos amores, Toucada de murchas flores, Um longo sono nos traz;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o triste",
+        "sentence": "E o triste que em dor anseia - Talvez morto de cansaço - Vai dormir no seu regaço Como num claustro de paz!",
+        "start_char": 2294,
+        "end_char": 2302,
+        "excerpt": "IV Que tem a morte de feia?! - Branca virgem dos amores, Toucada de murchas flores, Um longo sono nos traz; E o triste que em dor anseia - Talvez morto de cansaço - Vai dormir no seu regaço Como num claustro de paz!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dormir",
+                "child": "E o triste",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dormir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "E o triste",
+                "child": "que em dor anseia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "triste",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "anseia",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que em dor anseia",
+                "child": "E o triste",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "anseia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cansaço",
+                "child": "E o triste",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cansaço",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os filhos do erro",
+        "sentence": "E nós - os filhos do erro - Libertos deste desterro, Vamos comtigo... donzela, No branco leito de pedra, Onde a miséria não medra, Sonhar os sonhos do céu!...",
+        "start_char": 2515,
+        "end_char": 2532,
+        "excerpt": "Oh! virgem das sepulturas, Teu beijo mata as venturas Da terra, mas rasga o véu Que a eternidade nos vela; E nós - os filhos do erro - Libertos deste desterro, Vamos comtigo... donzela, No branco leito de pedra, Onde a miséria não medra, Sonhar os sonhos do céu!...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "donzela",
+        "sentence": "E nós - os filhos do erro - Libertos deste desterro, Vamos comtigo... donzela, No branco leito de pedra, Onde a miséria não medra, Sonhar os sonhos do céu!...",
+        "start_char": 2577,
+        "end_char": 2584,
+        "excerpt": "Oh! virgem das sepulturas, Teu beijo mata as venturas Da terra, mas rasga o véu Que a eternidade nos vela; E nós - os filhos do erro - Libertos deste desterro, Vamos comtigo... donzela, No branco leito de pedra, Onde a miséria não medra, Sonhar os sonhos do céu!...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sonhar",
+                "child": "donzela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Sonhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "donzela",
+                "child": "branco",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "donzela",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "branco",
+                "categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "branco",
+                "child": "donzela",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "branco",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leito",
+                "child": "donzela",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "leito",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedra",
+                "child": "donzela",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pedra",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a miséria",
+                "child": "donzela",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "miséria",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "donzela",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o morto poeta",
+        "sentence": "Tanta doçura ao luar! - Que ali o morto poeta",
+        "start_char": 2782,
+        "end_char": 2795,
+        "excerpt": "Tanta rama nos ciprestes! Tanta dor nas brancas vestes! Tanta doçura ao luar! - Que ali o morto poeta",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "- Não tenhas tu vãos temores, Pois é minh'alma, querida, Que ao desprender-se da vida - Toda saudade e amores - Vai dizer-te o extremo  adeus!",
+        "start_char": 3088,
+        "end_char": 3095,
+        "excerpt": "Comprimir a tua mão Frisando os cabelos teus; - Não tenhas tu vãos temores, Pois é minh'alma, querida, Que ao desprender-se da vida - Toda saudade e amores - Vai dizer-te o extremo  adeus!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

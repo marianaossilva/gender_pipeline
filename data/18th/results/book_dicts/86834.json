@@ -1,0 +1,747 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Coup",
+        "sentence": "Coup",
+        "start_char": 0,
+        "end_char": 4,
+        "excerpt": "Coup D'Étrier Castro Alves É preciso partir! Já na calçada Retinem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Coup D'Étrier Castro Alves",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Coup",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D ' Étrier Castro Alves",
+        "sentence": "D'Étrier Castro Alves É preciso partir!",
+        "start_char": 4,
+        "end_char": 27,
+        "excerpt": "Coup D'Étrier Castro Alves É preciso partir! Já na calçada Retinem.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "arrieiro",
+        "sentence": "as esporas do arrieiro;",
+        "start_char": 82,
+        "end_char": 90,
+        "excerpt": "D'Étrier Castro Alves É preciso partir! Já na calçada Retinem. as esporas do arrieiro;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "as esporas",
+                "child": "arrieiro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "espora",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arrieiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "arrieiro",
+                "child": "as esporas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "arrieiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "espora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cavaleiro",
+        "sentence": "Impaciente chama o cavaleiro;",
+        "start_char": 138,
+        "end_char": 149,
+        "excerpt": "as esporas do arrieiro; Da mula a ferradura tacheada Impaciente chama o cavaleiro;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chama",
+                "child": "o cavaleiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cavaleiro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sincha",
+        "sentence": "Sincha",
+        "start_char": 181,
+        "end_char": 187,
+        "excerpt": "Impaciente chama o cavaleiro; A espaços ensaiando uma toada Sincha",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o lépido tropeiro",
+        "sentence": "as bestas o lépido tropeiro...",
+        "start_char": 198,
+        "end_char": 215,
+        "excerpt": "A espaços ensaiando uma toada Sincha as bestas o lépido tropeiro...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O pajem",
+        "sentence": "Soa a celeuma alegre da partida, O pajem firma o loro e empunha a brida.",
+        "start_char": 252,
+        "end_char": 259,
+        "excerpt": "Sincha as bestas o lépido tropeiro... Soa a celeuma alegre da partida, O pajem firma o loro e empunha a brida.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "servos",
+        "sentence": "A voz dos servos pitoresca, ardente Fala de amores férvidos, singelos...",
+        "start_char": 439,
+        "end_char": 445,
+        "excerpt": "Já do largo deserto o sopro quente Mergulha perfumado em meus cabelos. Ouço das selvas a canção cadente Segredando-me incógnitos anelos. A voz dos servos pitoresca, ardente Fala de amores férvidos, singelos...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelos",
+                    "cabelo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A voz",
+                "child": "servos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "servo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "servos",
+                "child": "pitoresca",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "servo",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "pitoresca",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "servos",
+                "child": "A voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "servo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pitoresca",
+                "child": "servos",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "pitoresca",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "servo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a saturnal patíbulo",
+        "sentence": "a saturnal  patíbulo!",
+        "start_char": 836,
+        "end_char": 855,
+        "excerpt": "Onde em pântano turvo, apodrecido D'íntimas flores não rebenta um lírio... E no drama das noites do prostíbulo É mártir  alma... a saturnal  patíbulo!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Gênio",
+        "sentence": "Onde o Gênio sucumbe na asfixia",
+        "start_char": 864,
+        "end_char": 871,
+        "excerpt": "E no drama das noites do prostíbulo É mártir  alma... a saturnal  patíbulo! Onde o Gênio sucumbe na asfixia",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Musset",
+        "sentence": "Onde Musset suicida-se na orgia, E Chatterton na fome aterradora!",
+        "start_char": 931,
+        "end_char": 937,
+        "excerpt": "Onde o Gênio sucumbe na asfixia Em meio à turba alvar e zombadora; Onde Musset suicida-se na orgia, E Chatterton na fome aterradora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "suicida-se",
+                "child": "Onde Musset",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suicida-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Onde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chatterton",
+        "sentence": "Onde Musset suicida-se na orgia, E Chatterton na fome aterradora!",
+        "start_char": 961,
+        "end_char": 971,
+        "excerpt": "Onde o Gênio sucumbe na asfixia Em meio à turba alvar e zombadora; Onde Musset suicida-se na orgia, E Chatterton na fome aterradora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "suicida-se",
+                "child": "Chatterton",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suicida-se",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chatterton",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Chatterton",
+                "child": "fome",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chatterton",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fome",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "fome",
+                "child": "Chatterton",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fome",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chatterton",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Anjo - da - Guarda",
+        "sentence": "Onde, à luz de uma lâmpada sombrio, O Anjo-da-Guarda ajoelhado chora, Enquanto a cortesã lhe apanha os prantos P'ra realce dos lúbricos encantos!...",
+        "start_char": 991,
+        "end_char": 1011,
+        "excerpt": "Em meio à turba alvar e zombadora; Onde Musset suicida-se na orgia, E Chatterton na fome aterradora! Onde, à luz de uma lâmpada sombrio, O Anjo-da-Guarda ajoelhado chora, Enquanto a cortesã lhe apanha os prantos P'ra realce dos lúbricos encantos!...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Madre Natureza",
+        "sentence": "Abre-me o seio, ó Madre Natureza!",
+        "start_char": 1159,
+        "end_char": 1173,
+        "excerpt": "Onde Musset suicida-se na orgia, E Chatterton na fome aterradora! Onde, à luz de uma lâmpada sombrio, O Anjo-da-Guarda ajoelhado chora, Enquanto a cortesã lhe apanha os prantos P'ra realce dos lúbricos encantos!... Abre-me o seio, ó Madre Natureza!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o seio",
+                "child": ", ó Madre Natureza",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Madre",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ó Madre Natureza",
+                "child": "o seio",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Madre",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vaga",
+        "sentence": "Que da vaga das turbas espadana.",
+        "start_char": 1243,
+        "end_char": 1247,
+        "excerpt": "Abre-me o seio, ó Madre Natureza! Regaços da floresta americana, Acalenta-me a mádida tristeza Que da vaga das turbas espadana.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vaga",
+                "child": "espadana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vaga",
+                "dep_c": "nmod",
+                "pos_c": "ADJ",
+                "lemma_c": "espadano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "turbas",
+                "child": "vaga",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "turba",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vaga",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tro",
+        "sentence": "Troca dest'alma a fria morbideza",
+        "start_char": 1269,
+        "end_char": 1272,
+        "excerpt": "Regaços da floresta americana, Acalenta-me a mádida tristeza Que da vaga das turbas espadana. Troca dest'alma a fria morbideza",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Troca",
+                "child": "dest'alma",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Troca",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "dest'almo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Pródigo",
+        "sentence": "O Pródigo... do lar procura o trilho...",
+        "start_char": 1337,
+        "end_char": 1346,
+        "excerpt": "Nessa ubérrima seiva soberana! ... O Pródigo... do lar procura o trilho...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "procura",
+                "child": "O Pródigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pródigo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O Pródigo",
+                "child": "lar",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pródigo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "lar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lar",
+                "child": "O Pródigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "lar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pródigo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Natureza",
+        "sentence": "Natureza!",
+        "start_char": 1165,
+        "end_char": 1173,
+        "excerpt": "Onde Musset suicida-se na orgia, E Chatterton na fome aterradora! Onde, à luz de uma lâmpada sombrio, O Anjo-da-Guarda ajoelhado chora, Enquanto a cortesã lhe apanha os prantos P'ra realce dos lúbricos encantos!... Abre-me o seio, ó Madre Natureza!",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o seio",
+                "child": ", ó Madre Natureza",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Madre",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ó Madre Natureza",
+                "child": "o seio",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Madre",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Trema",
+        "sentence": "Novo alento selvagem, grandioso Trema nas cordas desta frouxa lira.",
+        "start_char": 1452,
+        "end_char": 1457,
+        "excerpt": "Natureza! Regaços da floresta americana, Acalenta-me a mádida tristeza Que da vaga das turbas espadana. Troca dest'alma a fria morbideza Nessa ubérrima seiva soberana! ... O Pródigo... do lar procura o trilho... Natureza! Eu voltei... e eu sou teu filho! Novo alento selvagem, grandioso Trema nas cordas desta frouxa lira.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Trema",
+                "child": "cordas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Trema",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "corda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cordas",
+                "child": "Trema",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "corda",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Trema",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "frouxa",
+                "child": "Trema",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "frouxa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Trema",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os monstros",
+        "sentence": "E os monstros jazem no ervaçal dormentes.",
+        "start_char": 1968,
+        "end_char": 1979,
+        "excerpt": "Onde a soidão é o magno estradivário... Onde há músc'los em fúria em cada galho, E as raízes se torcem quais serpentes... E os monstros jazem no ervaçal dormentes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "jazem",
+                "child": "os monstros",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "monstro",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Reviver",
+        "sentence": "se a fibra morta Reviver já não pode a tanto alento...",
+        "start_char": 2049,
+        "end_char": 2056,
+        "excerpt": "E os monstros jazem no ervaçal dormentes. E se eu devo expirar... se a fibra morta Reviver já não pode a tanto alento...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pode",
+                "child": "Reviver",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Reviver",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Companheiro",
+        "sentence": "Companheiro!",
+        "start_char": 2087,
+        "end_char": 2098,
+        "excerpt": "E se eu devo expirar... se a fibra morta Reviver já não pode a tanto alento... Companheiro!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E Deus para o poeta o céu desata Semeado de lágrimas de prata!",
+        "start_char": 2246,
+        "end_char": 2250,
+        "excerpt": "Melhor o inverno chora... e geme o vento. E Deus para o poeta o céu desata Semeado de lágrimas de prata!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "E Deus",
+                "child": "o poeta",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "E Deus",
+                "child": "o céu desata Semeado de lágrimas de prata",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "E Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o céu desata Semeado de lágrimas de prata",
+                "child": "E Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

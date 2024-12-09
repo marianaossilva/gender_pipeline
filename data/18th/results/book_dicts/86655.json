@@ -1,0 +1,228 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Guilherme de Castro Alves Castro Alves",
+        "sentence": "A Meu Irmão Guilherme de Castro Alves Castro Alves",
+        "start_char": 12,
+        "end_char": 50,
+        "excerpt": "A Meu Irmão Guilherme de Castro Alves Castro Alves Na cordilheira altíssima dos Andes Os Chimbolazos solitários, grandesArdem naquelas hibernais regiões.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os Chimbolazo",
+        "sentence": "Os Chimbolazos solitários, grandesArdem naquelas hibernais regiões.",
+        "start_char": 86,
+        "end_char": 99,
+        "excerpt": "A Meu Irmão Guilherme de Castro Alves Castro Alves Na cordilheira altíssima dos Andes Os Chimbolazos solitários, grandesArdem naquelas hibernais regiões.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "grandesArdem",
+                "child": "Os Chimbolazos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "grandesArdir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chimbolazos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Os Chimbolazos",
+                "child": "solitários",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chimbolazos",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "solitário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vulcão",
+        "sentence": "A escória rubra com os celeiros brancos Misturados resvalam pelo flancos Dos ombros friorentos do vulcão...",
+        "start_char": 360,
+        "end_char": 366,
+        "excerpt": "Ruge embalde c fumega a solfatera... É dos lábios sangrentos da crateraQue a avalanche vacila aos furacões. A escória rubra com os celeiros brancos Misturados resvalam pelo flancos Dos ombros friorentos do vulcão...",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "friorentos",
+                "child": "vulcão",
+                "dep_h": "acl",
+                "pos_h": "NOUN",
+                "lemma_h": "friorento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "vulcão",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vulcão",
+                "child": "friorentos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vulcão",
+                "dep_c": "acl",
+                "pos_c": "NOUN",
+                "lemma_c": "friorento",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vulcão",
+                "child": "ombros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "vulcão",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "ombro",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "resvalam",
+                        "child": "ombros",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "resvalar",
+                        "dep_c": "iobj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ombro"
+                    },
+                    {
+                        "head": "ombros",
+                        "child": "friorentos",
+                        "dep_h": "iobj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "ombro",
+                        "dep_c": "acl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "friorento"
+                    },
+                    {
+                        "head": "friorentos",
+                        "child": "ombros",
+                        "dep_h": "acl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "friorento",
+                        "dep_c": "iobj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ombro"
+                    },
+                    {
+                        "head": "vulcão",
+                        "child": "ombros",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "vulcão",
+                        "dep_c": "iobj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ombro"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Poeta",
+        "sentence": "Assim, Poeta, é tua vida imensa, Cerca-te o gelo, a morte, a indiferença...",
+        "start_char": 377,
+        "end_char": 382,
+        "excerpt": "É dos lábios sangrentos da crateraQue a avalanche vacila aos furacões. A escória rubra com os celeiros brancos Misturados resvalam pelo flancos Dos ombros friorentos do vulcão... Assim, Poeta, é tua vida imensa, Cerca-te o gelo, a morte, a indiferença...",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", Poeta",
+                "child": "vida",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "poeta",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vida",
+                "child": ", Poeta",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

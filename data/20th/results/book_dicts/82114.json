@@ -1,0 +1,1787 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Inês de Castro Bocage",
+        "sentence": "Cantata à morte de Inês de Castro Bocage",
+        "start_char": 19,
+        "end_char": 40,
+        "excerpt": "Cantata à morte de Inês de Castro Bocage As filhas do Mondego a morte escura, Longo tempo, chorando, memoraram. CAMÕES, Lusíadas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As filhas do Mondego",
+        "sentence": "As filhas do Mondego a morte escura, Longo tempo, chorando, memoraram.",
+        "start_char": 41,
+        "end_char": 61,
+        "excerpt": "Cantata à morte de Inês de Castro Bocage As filhas do Mondego a morte escura, Longo tempo, chorando, memoraram. CAMÕES, Lusíadas.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lusíadas",
+        "sentence": "CAMÕES, Lusíadas.",
+        "start_char": 120,
+        "end_char": 128,
+        "excerpt": "Cantata à morte de Inês de Castro Bocage As filhas do Mondego a morte escura, Longo tempo, chorando, memoraram. CAMÕES, Lusíadas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "CAMÕES",
+                "child": ", Lusíadas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lusíadas",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Lusíadas",
+                "child": "CAMÕES",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lusíadas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "CAMÕES",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esposo Inês",
+        "sentence": "Canto 3, cxxxv Longe do caro Esposo Inês formosa",
+        "start_char": 159,
+        "end_char": 170,
+        "excerpt": "As filhas do Mondego a morte escura, Longo tempo, chorando, memoraram. CAMÕES, Lusíadas. Canto 3, cxxxv Longe do caro Esposo Inês formosa",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "caro",
+                "child": "Esposo Inês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "caro",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Esposo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Esposo Inês",
+                "child": "caro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Esposo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "caro",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Esposo Inês",
+                "child": "Canto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Esposo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "canto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os melindrosos",
+        "sentence": "Os melindrosos, cândidos penhores Do tálamo furtivo, Os filhinhos gentis, imagem dela, No regaço da mãe serenos gozam",
+        "start_char": 247,
+        "end_char": 261,
+        "excerpt": "As amorosas faces aljofrava De mavioso pranto. Os melindrosos, cândidos penhores Do tálamo furtivo, Os filhinhos gentis, imagem dela, No regaço da mãe serenos gozam",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Os melindrosos",
+                "child": "penhores",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "melindroso",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "penhor",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "penhores",
+                "child": "Os melindrosos",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "penhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "melindroso",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os filhinhos gentis",
+        "sentence": "Os melindrosos, cândidos penhores Do tálamo furtivo, Os filhinhos gentis, imagem dela, No regaço da mãe serenos gozam",
+        "start_char": 300,
+        "end_char": 319,
+        "excerpt": "As amorosas faces aljofrava De mavioso pranto. Os melindrosos, cândidos penhores Do tálamo furtivo, Os filhinhos gentis, imagem dela, No regaço da mãe serenos gozam",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "s ternos meninos",
+        "sentence": "Que os ares embrandece, Ora enlevado afaga Com as plumas azuis o par mimoso, Ora solto, inquieto, Em leda travessura, em doce brinco, Pela amante saudosa, Pelos ternos meninos se reparte, E com ténue murmúrio vai prender-se Das áureas tranças nos anéis brilhantes.",
+        "start_char": 578,
+        "end_char": 594,
+        "excerpt": "O sono da inocência. Coro subtil de alígeros Favónios Que os ares embrandece, Ora enlevado afaga Com as plumas azuis o par mimoso, Ora solto, inquieto, Em leda travessura, em doce brinco, Pela amante saudosa, Pelos ternos meninos se reparte, E com ténue murmúrio vai prender-se Das áureas tranças nos anéis brilhantes.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tu de Inês",
+        "sentence": "O prazer da existência, Tu de Inês lacrimosa",
+        "start_char": 838,
+        "end_char": 848,
+        "excerpt": "Que os ares embrandece, Ora enlevado afaga Com as plumas azuis o par mimoso, Ora solto, inquieto, Em leda travessura, em doce brinco, Pela amante saudosa, Pelos ternos meninos se reparte, E com ténue murmúrio vai prender-se Das áureas tranças nos anéis brilhantes. Primavera louçã, quadra macia Da ternura e das flores, Que à bela Natureza o seio esmaltas, Que no prazer de Amor ao mundo apuras O prazer da existência, Tu de Inês lacrimosa",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "balde",
+        "sentence": "Debalde o rouxinol, cantor de amores, Nos versos naturais os sons varia;",
+        "start_char": 903,
+        "end_char": 908,
+        "excerpt": "O prazer da existência, Tu de Inês lacrimosa As mágoas não distrais com teus encantos. Debalde o rouxinol, cantor de amores, Nos versos naturais os sons varia;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Debalde",
+                "child": "o rouxinol",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debalde",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o rouxinol",
+        "sentence": "Debalde o rouxinol, cantor de amores, Nos versos naturais os sons varia;",
+        "start_char": 909,
+        "end_char": 919,
+        "excerpt": "O prazer da existência, Tu de Inês lacrimosa As mágoas não distrais com teus encantos. Debalde o rouxinol, cantor de amores, Nos versos naturais os sons varia;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Debalde",
+                "child": "o rouxinol",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debalde",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o rouxinol",
+                "child": ", cantor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "rouxinol",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "cantor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", cantor",
+                "child": "o rouxinol",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "cantor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amores",
+                "child": "o rouxinol",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rouxinol",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Castro",
+        "sentence": "Em vão se doira o Sol de luz mais viva, Os céus de mais pureza em vão se adornam Por divertir-te, ó Castro;",
+        "start_char": 1178,
+        "end_char": 1184,
+        "excerpt": "Debalde o rouxinol, cantor de amores, Nos versos naturais os sons varia; O límpido Mondego em vão serpeia Co'um benigno sussurro, entre boninas De lustroso matiz, almo perfume; Em vão se doira o Sol de luz mais viva, Os céus de mais pureza em vão se adornam Por divertir-te, ó Castro;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "divertir-te",
+                "child": "Castro",
+                "dep_h": "advcl",
+                "pos_h": "NOUN",
+                "lemma_h": "divertir-te",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ó",
+                "child": "Castro",
+                "dep_h": "det",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Castro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro",
+                "child": "ó",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "det",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Castro",
+                "child": "divertir-te",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Castro",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "divertir-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zéfiros",
+        "sentence": "A meiga voz dos Zéfiros, do rio, Não te convida o sono:",
+        "start_char": 1257,
+        "end_char": 1264,
+        "excerpt": "Amor enjoam, Se Amor é desgraçado. A meiga voz dos Zéfiros, do rio, Não te convida o sono:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A meiga voz",
+                "child": "Zéfiros",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Zéfiros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Zéfiros",
+                "child": "A meiga voz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Zéfiros",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os amantes",
+        "sentence": "Mas não há para ti, para os amantes",
+        "start_char": 1399,
+        "end_char": 1409,
+        "excerpt": "A meiga voz dos Zéfiros, do rio, Não te convida o sono: Só de já fatigada Na luta de amargosos pensamentos Cerras, mísera, os olhos; Mas não há para ti, para os amantes",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "há",
+                "child": ", para os amantes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amor",
+        "sentence": "Não dorme a fantasia, Amor não dorme:",
+        "start_char": 1453,
+        "end_char": 1457,
+        "excerpt": "Mas não há para ti, para os amantes Sono plácido e mudo; Não dorme a fantasia, Amor não dorme:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dorme",
+                "child": "Amor",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dormir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Ah!, que fausta visão de Inês se apossa!",
+        "start_char": 1588,
+        "end_char": 1592,
+        "excerpt": "Ou gratas ilusões, ou negros sonhos Assomando na ideia, espertam, rompem O silêncio da Morte. Ah!, que fausta visão de Inês se apossa!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "visão",
+                "child": "Inês",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "visão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "visão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "visão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "régio amador",
+        "sentence": "Junto ao régio amador se crê subida;",
+        "start_char": 1755,
+        "end_char": 1767,
+        "excerpt": "A paixão lhe afigura aos olhos d'alma! Em marmóreo salão de altas colunas, A sólio majestoso e rutilante Junto ao régio amador se crê subida;",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "coluna": {
+                "syns": [
+                    "colunas",
+                    "espinha",
+                    "espinhas",
+                    "espinha dorsal",
+                    "espinhas dorsais"
+                ],
+                "occurrences": [
+                    "coluna",
+                    "colunas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "O monstro da política se aterra E, se Inês perseguia, Inês adora.",
+        "start_char": 2088,
+        "end_char": 2092,
+        "excerpt": "Nos luzentes degraus do trono excelso Pomposos cortesãos o orgulho acurvam; A lisonja sagaz lhe adoça os lábios; O monstro da política se aterra E, se Inês perseguia, Inês adora.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aterra",
+                "child": ", se Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aterra",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", se Inês",
+                "child": "perseguia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "perseguio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adora",
+                "child": "Inês",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "adorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "O monstro da política se aterra E, se Inês perseguia, Inês adora.",
+        "start_char": 2088,
+        "end_char": 2092,
+        "excerpt": "Nos luzentes degraus do trono excelso Pomposos cortesãos o orgulho acurvam; A lisonja sagaz lhe adoça os lábios; O monstro da política se aterra E, se Inês perseguia, Inês adora.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aterra",
+                "child": ", se Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aterra",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", se Inês",
+                "child": "perseguia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "perseguio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adora",
+                "child": "Inês",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "adorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amante",
+        "sentence": "Ela escuta os extremos, Os vivas populares; vê o amante",
+        "start_char": 2163,
+        "end_char": 2171,
+        "excerpt": "A lisonja sagaz lhe adoça os lábios; O monstro da política se aterra E, se Inês perseguia, Inês adora. Ela escuta os extremos, Os vivas populares; vê o amante",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vê",
+                "child": "o amante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rainha",
+        "sentence": "Rainha esquece o que sofreu vassala:",
+        "start_char": 2310,
+        "end_char": 2316,
+        "excerpt": "O prazer a transporta, amor a encanta; Prémios, dádivas mil ao justo, ao sábio Magnânima confere; Rainha esquece o que sofreu vassala:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esquece",
+                "child": "Rainha",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "esquecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rainha",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os mortais",
+        "sentence": "De sublimes acções orna a grandeza, Felicita os mortais; do ceptro é digna, Impera em corações...",
+        "start_char": 2392,
+        "end_char": 2402,
+        "excerpt": "Prémios, dádivas mil ao justo, ao sábio Magnânima confere; Rainha esquece o que sofreu vassala: De sublimes acções orna a grandeza, Felicita os mortais; do ceptro é digna, Impera em corações...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "orna",
+                "child": "os mortais",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ornar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mortal",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os mortais",
+                "child": "digna",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mortal",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "digna",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os mortais",
+                "child": "Impera",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mortal",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Impera",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ceptro",
+                "child": "os mortais",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ceptro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mortal",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Impera",
+                "child": "os mortais",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Impera",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mortal",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "corações",
+                "child": "os mortais",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "coração",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mortal",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Céu",
+        "sentence": "Mas, Céus!",
+        "start_char": 2450,
+        "end_char": 2453,
+        "excerpt": "Rainha esquece o que sofreu vassala: De sublimes acções orna a grandeza, Felicita os mortais; do ceptro é digna, Impera em corações... Mas, Céus!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Inês sobressaltada Desperta, e de repente aos olhos turvos Da vistosa ilusão lhe foge o quadro.",
+        "start_char": 2503,
+        "end_char": 2507,
+        "excerpt": "Que estrondo O sonho encantador lhe desvanece! Inês sobressaltada Desperta, e de repente aos olhos turvos Da vistosa ilusão lhe foge o quadro.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "foge",
+                "child": "Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fugir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "Desperta",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Inês",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Desperta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": ", e de repente",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Inês",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "repente",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Desperta",
+                "child": "Inês",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Desperta",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e de repente",
+                "child": "Inês",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "repente",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "olhos",
+                "child": "Inês",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": ", e de repente",
+                        "child": "olhos",
+                        "dep_h": "conj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "repente",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "olho"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "turvos",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "turvo"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": ", e de repente",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "conj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "repente"
+                    },
+                    {
+                        "head": "olhos",
+                        "child": "Inês",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "olho",
+                        "dep_c": "nsubj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "Inês"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ministros do Furor",
+        "sentence": "Ministros do Furor, três vis algozes, De buídos punhais a dextra armada, Contra a bela infeliz, bramando, avançam.",
+        "start_char": 2599,
+        "end_char": 2617,
+        "excerpt": "O sonho encantador lhe desvanece! Inês sobressaltada Desperta, e de repente aos olhos turvos Da vistosa ilusão lhe foge o quadro. Ministros do Furor, três vis algozes, De buídos punhais a dextra armada, Contra a bela infeliz, bramando, avançam.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amante",
+        "sentence": "Os frutos da ternura ao seio aperta, Invocando a piedade, os Céus, o amante;",
+        "start_char": 2816,
+        "end_char": 2824,
+        "excerpt": "Ministros do Furor, três vis algozes, De buídos punhais a dextra armada, Contra a bela infeliz, bramando, avançam. Ela grita, ela treme, ela descora; Os frutos da ternura ao seio aperta, Invocando a piedade, os Céus, o amante;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "os Céus",
+                "child": ", o amante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Céus",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o amante",
+                "child": "os Céus",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Céus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o amante",
+                "child": "Os frutos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fruto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A vítima de",
+        "sentence": "A vítima de Amor lavada em sangue;",
+        "start_char": 2992,
+        "end_char": 3003,
+        "excerpt": "Mas de mármore aos ais, de bronze ao pranto, À suave atracção da formosura, Vós, brutos assassinos, No peito lhe enterrais os ímpios ferros. Cai nas sombras da morte A vítima de Amor lavada em sangue;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os jasmin",
+        "sentence": "As rosas, os jasmins da face amena Para sempre desbotam;",
+        "start_char": 3037,
+        "end_char": 3046,
+        "excerpt": "Cai nas sombras da morte A vítima de Amor lavada em sangue; As rosas, os jasmins da face amena Para sempre desbotam;",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desbotam",
+                "child": "os jasmins",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desbotar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "jasmim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os jasmins",
+                "child": "face",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "jasmim",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "face",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "face",
+                "child": "os jasmins",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "face",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "jasmim",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Balbucia",
+        "sentence": "E no fatal momento Balbucia, arquejando: Esposo!",
+        "start_char": 3138,
+        "end_char": 3146,
+        "excerpt": "As rosas, os jasmins da face amena Para sempre desbotam; Dos olhos se lhe some o doce lume; E no fatal momento Balbucia, arquejando: Esposo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "E no fatal momento",
+                "child": "Balbucia",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "momento",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Balbucia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Balbucia",
+                "child": "E no fatal momento",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Balbucia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esposo",
+        "sentence": "E no fatal momento Balbucia, arquejando: Esposo!",
+        "start_char": 3160,
+        "end_char": 3166,
+        "excerpt": "As rosas, os jasmins da face amena Para sempre desbotam; Dos olhos se lhe some o doce lume; E no fatal momento Balbucia, arquejando: Esposo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esposo",
+        "sentence": "Esposo!",
+        "start_char": 3160,
+        "end_char": 3166,
+        "excerpt": "As rosas, os jasmins da face amena Para sempre desbotam; Dos olhos se lhe some o doce lume; E no fatal momento Balbucia, arquejando: Esposo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os tristes inocentes",
+        "sentence": "Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro.",
+        "start_char": 3176,
+        "end_char": 3196,
+        "excerpt": "E no fatal momento Balbucia, arquejando: Esposo! Esposo! Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "triste mãe",
+        "sentence": "Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro.",
+        "start_char": 3199,
+        "end_char": 3209,
+        "excerpt": "E no fatal momento Balbucia, arquejando: Esposo! Esposo! Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Mostra a prole de Inês, e tua, ó Vénus, Igual consternação e igual beleza:",
+        "start_char": 3345,
+        "end_char": 3349,
+        "excerpt": "Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro. Ao suspiro exalado, Final suspiro da formosa extinta, Os amores acodem. Mostra a prole de Inês, e tua, ó Vénus, Igual consternação e igual beleza:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a prole",
+                "child": "Inês",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "prole",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": "a prole",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "prole",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vénus",
+        "sentence": "Mostra a prole de Inês, e tua, ó Vénus, Igual consternação e igual beleza:",
+        "start_char": 3360,
+        "end_char": 3365,
+        "excerpt": "Os tristes inocentes À triste mãe se abraçam, E soltam de agonia inútil choro. Ao suspiro exalado, Final suspiro da formosa extinta, Os amores acodem. Mostra a prole de Inês, e tua, ó Vénus, Igual consternação e igual beleza:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mostra",
+                "child": "ó Vénus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Mostra",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vénus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ó Vénus",
+                "child": ", Igual consternação",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vénus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "consternação",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ó Vénus",
+                "child": "beleza",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Vénus",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "beleza",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Igual consternação",
+                "child": "ó Vénus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "consternação",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vénus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "beleza",
+                "child": "ó Vénus",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "beleza",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vénus",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os cândidos meninos",
+        "sentence": "Uns dos outros os cândidos meninos",
+        "start_char": 3417,
+        "end_char": 3436,
+        "excerpt": "Ao suspiro exalado, Final suspiro da formosa extinta, Os amores acodem. Mostra a prole de Inês, e tua, ó Vénus, Igual consternação e igual beleza: Uns dos outros os cândidos meninos",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o infaust",
+        "sentence": "Aquele a conduzir o infausto anúncio",
+        "start_char": 3638,
+        "end_char": 3647,
+        "excerpt": "Este, raivoso, a demandar vingança No tribunal de Jove; Aquele a conduzir o infausto anúncio",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conduzir",
+                "child": "o infausto anúncio",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "conduzir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "anúncio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amante",
+        "sentence": "Ao descuidado amante.",
+        "start_char": 3671,
+        "end_char": 3677,
+        "excerpt": "No tribunal de Jove; Aquele a conduzir o infausto anúncio Ao descuidado amante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "descuidado",
+                "child": "amante",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "descuidar",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "amante",
+                "categories": [
+                    "aparencia_carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "chorar-te, Inês, na Hircânia os tigres;",
+        "start_char": 3754,
+        "end_char": 3758,
+        "excerpt": "Nas cem tubas da Fama o grão desastre Irá pelo Universo. Hão-de chorar-te, Inês, na Hircânia os tigres;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chorar-te",
+                "child": "Inês",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "chorar-te",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Inês",
+                "child": ", na Hircânia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inês",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Hircânia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", na Hircânia",
+                "child": "Inês",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Hircânia",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "monstros infernais",
+        "sentence": "Eis, atentas no horror do caso infando, Terríveis maldições dos lábios vibram Aos monstros infernais, que vão fugindo, Já c'roam de cipreste a malfadada, E, arrepelando as nítidas madeixas, Lhe urdem saudosas, lúgubres endeixas.",
+        "start_char": 4060,
+        "end_char": 4078,
+        "excerpt": "Do Mondego, que atónito recua, Do sentido Mondego as alvas filhas Em tropel doloroso Das urnas de cristal eis vêm surgindo; Eis, atentas no horror do caso infando, Terríveis maldições dos lábios vibram Aos monstros infernais, que vão fugindo, Já c'roam de cipreste a malfadada, E, arrepelando as nítidas madeixas, Lhe urdem saudosas, lúgubres endeixas.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "madeixas",
+                    "madeixa"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amores",
+        "sentence": "Morrei, Amores, Que Inês morreu.",
+        "start_char": 4348,
+        "end_char": 4354,
+        "excerpt": "Tu, Eco, as decoraste, E, cortadas dos ais, assim ressoam Nos côncavos penedos, que magoam: Toldam-se os ares, Murcham-se as flores; Morrei, Amores, Que Inês morreu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Morrei",
+                "child": ", Amores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Morrei",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amores",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Amores",
+                "child": "Morrei",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Amores",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morrei",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Morrei, Amores, Que Inês morreu.",
+        "start_char": 4360,
+        "end_char": 4364,
+        "excerpt": "Tu, Eco, as decoraste, E, cortadas dos ais, assim ressoam Nos côncavos penedos, que magoam: Toldam-se os ares, Murcham-se as flores; Morrei, Amores, Que Inês morreu.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "Que Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mísero esposo",
+        "sentence": "Mísero esposo, Desata o pranto, Que o teu encanto",
+        "start_char": 4373,
+        "end_char": 4386,
+        "excerpt": "Toldam-se os ares, Murcham-se as flores; Morrei, Amores, Que Inês morreu. Mísero esposo, Desata o pranto, Que o teu encanto",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lobos",
+        "sentence": "Aqui piaram Lobos uivaram, O chão tremeu.",
+        "start_char": 4715,
+        "end_char": 4720,
+        "excerpt": "O Númen loiro Desfaleceu. Aves sinistras Aqui piaram Lobos uivaram, O chão tremeu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "piaram",
+                "child": "Lobos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "piar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lobos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amores",
+        "sentence": "Morrei, Amores, Que Inês morreu.",
+        "start_char": 4348,
+        "end_char": 4354,
+        "excerpt": "Tu, Eco, as decoraste, E, cortadas dos ais, assim ressoam Nos côncavos penedos, que magoam: Toldam-se os ares, Murcham-se as flores; Morrei, Amores, Que Inês morreu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Morrei",
+                "child": ", Amores",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Morrei",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amores",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Amores",
+                "child": "Morrei",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Amores",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Morrei",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inês",
+        "sentence": "Morrei, Amores, Que Inês morreu.",
+        "start_char": 4360,
+        "end_char": 4364,
+        "excerpt": "Tu, Eco, as decoraste, E, cortadas dos ais, assim ressoam Nos côncavos penedos, que magoam: Toldam-se os ares, Murcham-se as flores; Morrei, Amores, Que Inês morreu.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "Que Inês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inês",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

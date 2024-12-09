@@ -1,0 +1,309 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Maria!",
+        "start_char": 30,
+        "end_char": 35,
+        "excerpt": "No barco Castro Alves  Lucas! Maria! murmuraram juntos...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "murmuraram",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmurar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "maria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a moça",
+        "sentence": "E a moça em pranto lhe caiu nos braços.",
+        "start_char": 60,
+        "end_char": 66,
+        "excerpt": "Maria! murmuraram juntos... E a moça em pranto lhe caiu nos braços.",
+        "gender": "female",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "caiu",
+                "child": "E a moça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cair",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "E a moça",
+                "child": "pranto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pranto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pranto",
+                "child": "E a moça",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pranto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "piquiá",
+        "sentence": "Assim ligou-se ao piquiá robusto...",
+        "start_char": 151,
+        "end_char": 157,
+        "excerpt": "E a moça em pranto lhe caiu nos braços. Jamais a parasita em flóreos laços Assim ligou-se ao piquiá robusto...",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço",
+                    "braços"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ligou-se",
+                "child": "piquiá",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ligour se",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "piquiá",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "piquiá",
+                "child": "robusto",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "piquiá",
+                "dep_c": "acl",
+                "pos_c": "NOUN",
+                "lemma_c": "robusto",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "robusto",
+                "child": "piquiá",
+                "dep_h": "acl",
+                "pos_h": "NOUN",
+                "lemma_h": "robusto",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "piquiá",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tépido",
+        "sentence": "Tépido aljofar o seu pranto brilha, Depois resvala no moreno seio...",
+        "start_char": 242,
+        "end_char": 248,
+        "excerpt": "Eram-lhe as tranças a cair no busto Os esparsos festões da granadilha... Tépido aljofar o seu pranto brilha, Depois resvala no moreno seio...",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "busto",
+                    "seio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o casal da rola sertaneja",
+        "sentence": "Quando o peito da virgem mais arqueja, Como o casal da rola sertaneja, Se a ventania lhe sacode o ninho.",
+        "start_char": 388,
+        "end_char": 413,
+        "excerpt": "Oh! doces horas de suave enleio! Quando o peito da virgem mais arqueja, Como o casal da rola sertaneja, Se a ventania lhe sacode o ninho.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "Maria, fala!",
+        "start_char": 601,
+        "end_char": 606,
+        "excerpt": "emanações do rio! \" Maria, fala!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Maria",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a triste",
+        "sentence": "\"  \"Que acordar sombrio\", Murmura a triste com um sorriso louco, \"",
+        "start_char": 648,
+        "end_char": 656,
+        "excerpt": "\" Maria, fala! \"  \"Que acordar sombrio\", Murmura a triste com um sorriso louco, \"",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "materno leito",
+        "sentence": "Lembrei-me os sonhos do materno leito Nesse momento divinal...",
+        "start_char": 858,
+        "end_char": 871,
+        "excerpt": "\" Maria, fala! \"  \"Que acordar sombrio\", Murmura a triste com um sorriso louco, \" No Paraíso eu descansava um pouco... Tu me fizeste despertar na vida ... \" Por que não me deixaste assim pendida Morrer co'a fronte oculta no teu peito? Lembrei-me os sonhos do materno leito Nesse momento divinal...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

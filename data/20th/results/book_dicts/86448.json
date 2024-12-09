@@ -1,0 +1,360 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "MocidadeCasimiro de Abreu Ninon",
+        "sentence": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie?",
+        "start_char": 0,
+        "end_char": 31,
+        "excerpt": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie? L'heure s'enfuit, le jour succede au jour. Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninon",
+        "sentence": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie?",
+        "start_char": 26,
+        "end_char": 31,
+        "excerpt": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie? L'heure s'enfuit, le jour succede au jour. Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "MocidadeCasimiro",
+                "child": "Abreu Ninon",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "MocidadeCasimiro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Abreu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "MocidadeCasimiro",
+                "child": ", Ninon",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "MocidadeCasimiro",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ninon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Abreu Ninon",
+                "child": "MocidadeCasimiro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Abreu",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "MocidadeCasimiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Ninon",
+                "child": "MocidadeCasimiro",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ninon",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "MocidadeCasimiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rose",
+        "sentence": "Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "start_char": 106,
+        "end_char": 110,
+        "excerpt": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie? L'heure s'enfuit, le jour succede au jour. Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rose",
+                "child": "soir",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rose",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "soir",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "demain flétrie",
+        "sentence": "Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "start_char": 120,
+        "end_char": 134,
+        "excerpt": "MocidadeCasimiro de Abreu Ninon, Ninon, que fais tu de la vie? L'heure s'enfuit, le jour succede au jour. Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Musset",
+        "sentence": "Musset.",
+        "start_char": 179,
+        "end_char": 185,
+        "excerpt": "L'heure s'enfuit, le jour succede au jour. Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?! Musset.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha da lânguida triste",
+        "sentence": "Doce filha da lânguida tristeza Ergue a fronte pendida - o sol fulgura!",
+        "start_char": 192,
+        "end_char": 216,
+        "excerpt": "Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?! Musset. Doce filha da lânguida tristeza Ergue a fronte pendida - o sol fulgura!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um amigo",
+        "sentence": "Um amigo, uma mão que nos afague;",
+        "start_char": 528,
+        "end_char": 536,
+        "excerpt": "- Não foge a rosa quando o sol a busca Antes se abrasa nos gentis fulgores. Não! - Viver é amar, é ter um dia Um amigo, uma mão que nos afague;",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Um amigo",
+                "child": ", uma mão",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Um amigo",
+                "child": "afague",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "afague",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", uma mão",
+                "child": "Um amigo",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "afague",
+                "child": "Um amigo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "afague",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Amai-vos! disse Deus criando o mundo, Amemos! - disse Adão no paraíso, Amor! - murmura o mar nos seus queixumes, Amor! - repete a terra num sorriso!",
+        "start_char": 800,
+        "end_char": 804,
+        "excerpt": "A vida é um deserto aborrecido Sem sombra doce, ou viração calmante; - Amor - é a fonte que nasceu nas pedras E mata a sede à caravana errante. Amai-vos! disse Deus criando o mundo, Amemos! - disse Adão no paraíso, Amor! - murmura o mar nos seus queixumes, Amor! - repete a terra num sorriso!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "criando",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "criar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Amai-vos! disse Deus criando o mundo, Amemos! - disse Adão no paraíso, Amor! - murmura o mar nos seus queixumes, Amor! - repete a terra num sorriso!",
+        "start_char": 838,
+        "end_char": 842,
+        "excerpt": "A vida é um deserto aborrecido Sem sombra doce, ou viração calmante; - Amor - é a fonte que nasceu nas pedras E mata a sede à caravana errante. Amai-vos! disse Deus criando o mundo, Amemos! - disse Adão no paraíso, Amor! - murmura o mar nos seus queixumes, Amor! - repete a terra num sorriso!",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha da lânguida tristeza",
+        "sentence": "Doce filha da lânguida tristeza",
+        "start_char": 192,
+        "end_char": 218,
+        "excerpt": "Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?! Musset. Doce filha da lânguida tristeza Ergue a fronte pendida - o sol fulgura!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Velho invejoso",
+        "sentence": "- Velho invejoso, a resmungar baixinho!",
+        "start_char": 1280,
+        "end_char": 1294,
+        "excerpt": "o mundo! - E que te importa o mundo? - Velho invejoso, a resmungar baixinho!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha da lânguida tristeza",
+        "sentence": "Doce filha da lânguida tristeza",
+        "start_char": 192,
+        "end_char": 218,
+        "excerpt": "Rose ce soir, demain flétrie, Comment vis-tu, toi qui n'as pas d'amour?! Musset. Doce filha da lânguida tristeza Ergue a fronte pendida - o sol fulgura!",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

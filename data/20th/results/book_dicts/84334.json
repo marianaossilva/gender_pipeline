@@ -1,0 +1,155 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rita",
+        "sentence": "A Rita?",
+        "start_char": 266,
+        "end_char": 270,
+        "excerpt": "Destapa o banco, atira o seu fuscó, Depois que ao liso cu assento dá, Diz ao outro: \"Oh amigo, como está A Rita?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Rita",
+                "child": "amigo",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Rita",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nhonhó",
+        "sentence": "O que é feito da Nhonhó?",
+        "start_char": 289,
+        "end_char": 295,
+        "excerpt": "\"Oh amigo, como está A Rita? O que é feito da Nhonhó?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "feito",
+                "child": "Nhonhó",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "Nhonhó",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pangin",
+        "sentence": "Foste a Pangin?",
+        "start_char": 327,
+        "end_char": 333,
+        "excerpt": "\" \" Vieste do Palmar? Foste a Pangin?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Russu",
+        "sentence": "Não me darás notícias da Russu, Que desde o outro dia inda a não vi?",
+        "start_char": 360,
+        "end_char": 365,
+        "excerpt": "Vieste do Palmar? Foste a Pangin? Não me darás notícias da Russu, Que desde o outro dia inda a não vi?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "notícias",
+                "child": "Russu",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "notícia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Russu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Russu",
+                "child": "notícias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Russu",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "notícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O branco",
+        "sentence": "Assim prossegue, e farto já de gu, O branco, e respeitável canarim",
+        "start_char": 441,
+        "end_char": 449,
+        "excerpt": "Não me darás notícias da Russu, Que desde o outro dia inda a não vi? \" Assim prossegue, e farto já de gu, O branco, e respeitável canarim",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "prossegue",
+                "child": "O branco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prosseguir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "branco",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O branco",
+                "child": "respeitável",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "branco",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "respeitável",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O branco",
+                "child": "canarim",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "branco",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "canarim",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

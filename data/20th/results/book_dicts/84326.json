@@ -1,0 +1,238 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Novo Aníbal",
+        "sentence": "Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \"",
+        "start_char": 62,
+        "end_char": 73,
+        "excerpt": "Soneto Napoleônico Bocage Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \" Ó capados heróis!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "capa",
+        "sentence": "Ó capados heróis!",
+        "start_char": 106,
+        "end_char": 110,
+        "excerpt": "Soneto Napoleônico Bocage Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \" Ó capados heróis!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dos heróis",
+        "sentence": "Ó capados heróis!",
+        "start_char": 110,
+        "end_char": 120,
+        "excerpt": "Soneto Napoleônico Bocage Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \" Ó capados heróis!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Purpúreo fanfarrão",
+        "sentence": "\" (aos seus exclama Purpúreo fanfarrão, papal sacrista):",
+        "start_char": 142,
+        "end_char": 160,
+        "excerpt": "Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \" Ó capados heróis! \" (aos seus exclama Purpúreo fanfarrão, papal sacrista):",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "papal sacrista",
+        "sentence": "\" (aos seus exclama Purpúreo fanfarrão, papal sacrista):",
+        "start_char": 162,
+        "end_char": 176,
+        "excerpt": "Tendo o terrível Bonaparte à vista, Novo Aníbal, que esfalfa a voz da Fama, \" Ó capados heróis! \" (aos seus exclama Purpúreo fanfarrão, papal sacrista):",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santos",
+        "sentence": "...\" Disse, e em férvido tom saúda, e chama, Santos surdos, varões por sacra lista:",
+        "start_char": 298,
+        "end_char": 304,
+        "excerpt": "O progresso estorvai da atroz conquista Que da filosofia o mal derrama? ...\" Disse, e em férvido tom saúda, e chama, Santos surdos, varões por sacra lista:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chama",
+                "child": "Santos",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Santos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Santos",
+                "child": "surdos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Santos",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "surdo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Santos",
+                "child": ", varões",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Santos",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "varão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", varões",
+                "child": "Santos",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "varão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Santos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "lista",
+                "child": "Santos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lista",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Santos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O rápido francês",
+        "sentence": "O rápido francês vai-lhe às canelas;",
+        "start_char": 445,
+        "end_char": 461,
+        "excerpt": "...\" Disse, e em férvido tom saúda, e chama, Santos surdos, varões por sacra lista: Deles em vão rogando um pio arrojo, Convulso o corpo, as faces amarelas, Cede triste vitória, que faz nojo! O rápido francês vai-lhe às canelas;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "faces",
+                    "face"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Relíquias",
+        "sentence": "ficam-lhe em despojo Relíquias, bulas, merdas, bagatelas.",
+        "start_char": 519,
+        "end_char": 528,
+        "excerpt": "O rápido francês vai-lhe às canelas; Dá, fere, mata: ficam-lhe em despojo Relíquias, bulas, merdas, bagatelas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "despojo",
+                "child": "Relíquias",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "despojo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Relíquias",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Relíquias",
+                "child": "despojo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Relíquias",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "despojo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

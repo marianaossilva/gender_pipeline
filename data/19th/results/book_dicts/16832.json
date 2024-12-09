@@ -1,0 +1,2550 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza de Lima Barreto",
+        "sentence": "O Único Assassinato de Cazuza de Lima Barreto",
+        "start_char": 49,
+        "end_char": 71,
+        "excerpt": " Universidade da Amazônia O Único Assassinato de Cazuza de Lima Barreto",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza de Lima Barreto Hildegardo Brandão",
+        "sentence": "O Único Assassinato de Cazuza de Lima Barreto Hildegardo Brandão, conhecido familiarmente por Cazuza.",
+        "start_char": 233,
+        "end_char": 274,
+        "excerpt": "A DISTÂNCIA Av. Alcindo Cacela, 287  Umarizal CEP: 66060902 Belém  Pará Fones: (91) 2103196 / 2103181  Email:  1 O Único Assassinato de Cazuza de Lima Barreto Hildegardo Brandão, conhecido familiarmente por Cazuza.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "O Único Assassinato de Cazuza de Lima Barreto Hildegardo Brandão, conhecido familiarmente por Cazuza.",
+        "start_char": 233,
+        "end_char": 239,
+        "excerpt": "A DISTÂNCIA Av. Alcindo Cacela, 287  Umarizal CEP: 66060902 Belém  Pará Fones: (91) 2103196 / 2103181  Email:  1 O Único Assassinato de Cazuza de Lima Barreto Hildegardo Brandão, conhecido familiarmente por Cazuza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "O Único Assassinato",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Assassinato",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "Lima Barreto Hildegardo Brandão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lima",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "O Único Assassinato",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Assassinato",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Lima Barreto Hildegardo Brandão",
+                "child": "Cazuza",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lima",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "conhecido",
+                "child": "Cazuza",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "O Único Assassinato",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Assassinato",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sião",
+        "sentence": "As vezes, julgavam-no inferior a certo outro, porque não tinha pasta de marroquim; outras vezes tinham-no por inferior a determinado \" antologista\" , porque semelhante autor havia, quando \" encostado\" ao Consulado do Brasil, em Paris, recebido como presente do Sião, uma bengala de legítimo junco da Índia.",
+        "start_char": 1255,
+        "end_char": 1259,
+        "excerpt": "Tentara formar-se, foi reprovado; tentara o funcionalismo, foi sempre preterido por colegas inferiores em tudo a ele, mesmo no burocracismo; fizera literatura e se, de todo, não falhou, foi devido à audácia de que se revestiu, audácia de quem \" queimou os seus navios\". Assim mesmo, todas as picuinhas lhe eram feitas. As vezes, julgavam-no inferior a certo outro, porque não tinha pasta de marroquim; outras vezes tinham-no por inferior a determinado \" antologista\" , porque semelhante autor havia, quando \" encostado\" ao Consulado do Brasil, em Paris, recebido como presente do Sião, uma bengala de legítimo junco da Índia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "presente",
+                "child": "Sião",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "presente",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sião",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sião",
+                "child": "presente",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sião",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "presente",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sião",
+                "child": "bengala",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sião",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bengala",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "do rei",
+        "sentence": "Por essas do rei e outras ele se aborreceu e resolveu retirar-se da liça.",
+        "start_char": 1311,
+        "end_char": 1317,
+        "excerpt": "Assim mesmo, todas as picuinhas lhe eram feitas. As vezes, julgavam-no inferior a certo outro, porque não tinha pasta de marroquim; outras vezes tinham-no por inferior a determinado \" antologista\" , porque semelhante autor havia, quando \" encostado\" ao Consulado do Brasil, em Paris, recebido como presente do Sião, uma bengala de legítimo junco da Índia. Por essas do rei e outras ele se aborreceu e resolveu retirar-se da liça.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um parente próximo",
+        "sentence": "Ao cinqüenta e três anos, não tinha mais um parente próximo junto de si.",
+        "start_char": 1753,
+        "end_char": 1771,
+        "excerpt": "Comprou os seus últimos livros e nunca mais apareceu na Rua do Ouvidor. Não se arrependeu nunca de sua independência e da sua honestidade intelectual. Ao cinqüenta e três anos, não tinha mais um parente próximo junto de si.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Viv",
+        "sentence": "Vivia, por assim dizer, só, tendo somente a seu lado um casal de pretos velhos, aos quais ele sustentava e dava, ainda por cima, algum dinheiro mensalmente.",
+        "start_char": 1785,
+        "end_char": 1788,
+        "excerpt": "Não se arrependeu nunca de sua independência e da sua honestidade intelectual. Ao cinqüenta e três anos, não tinha mais um parente próximo junto de si. Vivia, por assim dizer, só, tendo somente a seu lado um casal de pretos velhos, aos quais ele sustentava e dava, ainda por cima, algum dinheiro mensalmente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seu lado",
+                "child": "Vivia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "lado",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um casal",
+                "child": "Vivia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "casal",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pretos",
+                "child": "Vivia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "preto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ainda por cima",
+                "child": "Vivia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cima",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "algum dinheiro",
+                "child": "Vivia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dinheiro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vivia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um casal de pretos velhos",
+        "sentence": "Vivia, por assim dizer, só, tendo somente a seu lado um casal de pretos velhos, aos quais ele sustentava e dava, ainda por cima, algum dinheiro mensalmente.",
+        "start_char": 1838,
+        "end_char": 1863,
+        "excerpt": "Não se arrependeu nunca de sua independência e da sua honestidade intelectual. Ao cinqüenta e três anos, não tinha mais um parente próximo junto de si. Vivia, por assim dizer, só, tendo somente a seu lado um casal de pretos velhos, aos quais ele sustentava e dava, ainda por cima, algum dinheiro mensalmente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Médico",
+        "sentence": "Médico, de real capacidade, nunca o quiseram reconhecer porque ele escrevia \"propositalmente\" e não \"propositadamente\", \"de súbito\" e não - \"às súbitas\", etc., etc. Tinham sido colegas de preparatórios e, muito íntimos, dispensavam-se de usar confidências mútuas.",
+        "start_char": 2599,
+        "end_char": 2605,
+        "excerpt": "Ele fazia uma visita, uma única e sempre a mesma. Era também a um desalentado amigo seu. Médico, de real capacidade, nunca o quiseram reconhecer porque ele escrevia \"propositalmente\" e não \"propositadamente\", \"de súbito\" e não - \"às súbitas\", etc., etc. Tinham sido colegas de preparatórios e, muito íntimos, dispensavam-se de usar confidências mútuas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quiseram",
+                "child": "Médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Médico",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Médico",
+                "child": ", de real capacidade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Médico",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "capacidade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de real capacidade",
+                "child": "Médico",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "capacidade",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o outro",
+        "sentence": "Um entendia o outro, somente pelo olhar.",
+        "start_char": 2875,
+        "end_char": 2882,
+        "excerpt": "Era também a um desalentado amigo seu. Médico, de real capacidade, nunca o quiseram reconhecer porque ele escrevia \"propositalmente\" e não \"propositadamente\", \"de súbito\" e não - \"às súbitas\", etc., etc. Tinham sido colegas de preparatórios e, muito íntimos, dispensavam-se de usar confidências mútuas. Um entendia o outro, somente pelo olhar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Pelos domingos, como já foi dito, era costume de Hildegardo ir, logo pela manhã, após o café, à casa do amigo, que ficava próximo, ler lá os jornais e tomar parte no \" ajantarado\", da família.",
+        "start_char": 2953,
+        "end_char": 2963,
+        "excerpt": "Médico, de real capacidade, nunca o quiseram reconhecer porque ele escrevia \"propositalmente\" e não \"propositadamente\", \"de súbito\" e não - \"às súbitas\", etc., etc. Tinham sido colegas de preparatórios e, muito íntimos, dispensavam-se de usar confidências mútuas. Um entendia o outro, somente pelo olhar. Pelos domingos, como já foi dito, era costume de Hildegardo ir, logo pela manhã, após o café, à casa do amigo, que ficava próximo, ler lá os jornais e tomar parte no \" ajantarado\", da família.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "costume",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "costumar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hildegardo",
+                "child": "costume",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Hildegardo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "costumar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano.",
+        "start_char": 3116,
+        "end_char": 3122,
+        "excerpt": "Um entendia o outro, somente pelo olhar. Pelos domingos, como já foi dito, era costume de Hildegardo ir, logo pela manhã, após o café, à casa do amigo, que ficava próximo, ler lá os jornais e tomar parte no \" ajantarado\", da família. Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "domingo",
+                "child": "o Cazuza",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Cazuza",
+                "child": "domingo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "domingo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor Ponciano",
+        "sentence": "Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano.",
+        "start_char": 3181,
+        "end_char": 3196,
+        "excerpt": "Um entendia o outro, somente pelo olhar. Pelos domingos, como já foi dito, era costume de Hildegardo ir, logo pela manhã, após o café, à casa do amigo, que ficava próximo, ler lá os jornais e tomar parte no \" ajantarado\", da família. Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Este comprava certos jornais; e Hildegardo, outros.",
+        "start_char": 3230,
+        "end_char": 3240,
+        "excerpt": "Pelos domingos, como já foi dito, era costume de Hildegardo ir, logo pela manhã, após o café, à casa do amigo, que ficava próximo, ler lá os jornais e tomar parte no \" ajantarado\", da família. Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano. Este comprava certos jornais; e Hildegardo, outros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "costume",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "costumar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hildegardo",
+                "child": "costume",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Hildegardo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "costumar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O médico",
+        "sentence": "O médico sentava-se a uma cadeira de balanço; e o seu amigo numa dessas a que chamam de bordo ou; de lona.",
+        "start_char": 3250,
+        "end_char": 3258,
+        "excerpt": "Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano. Este comprava certos jornais; e Hildegardo, outros. O médico sentava-se a uma cadeira de balanço; e o seu amigo numa dessas a que chamam de bordo ou; de lona.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sentava-se",
+                "child": "O médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentava-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu amigo",
+        "sentence": "O médico sentava-se a uma cadeira de balanço; e o seu amigo numa dessas a que chamam de bordo ou; de lona.",
+        "start_char": 3298,
+        "end_char": 3309,
+        "excerpt": "Naquele domingo, o Cazuza, para os íntimos, foi fazer a visita habitual a seu amigo doutor Ponciano. Este comprava certos jornais; e Hildegardo, outros. O médico sentava-se a uma cadeira de balanço; e o seu amigo numa dessas a que chamam de bordo ou; de lona.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a secretária",
+        "sentence": "De permeio, ficava-lhes a secretária.",
+        "start_char": 3381,
+        "end_char": 3393,
+        "excerpt": "Este comprava certos jornais; e Hildegardo, outros. O médico sentava-se a uma cadeira de balanço; e o seu amigo numa dessas a que chamam de bordo ou; de lona. De permeio, ficava-lhes a secretária.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ficava-lhes",
+                "child": "a secretária",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficava-lhes",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "secretária",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "2  Hildegardo disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil .",
+        "start_char": 3525,
+        "end_char": 3535,
+        "excerpt": "Liam e depois conversavam. Assim fizeram, naquele domingo. 2  Hildegardo disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "2  Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o adversário",
+        "sentence": "As paixões, mesquinhas paixões políticas, exaltam os ânimos de tal modo, que uma facção não teme eliminar o adversário por meio do assassinato, às vezes o revestindo da forma mais cruel.",
+        "start_char": 3784,
+        "end_char": 3796,
+        "excerpt": "2  Hildegardo disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil . Porque ?  Mata-se à toa por dá cá aquela palha. As paixões, mesquinhas paixões políticas, exaltam os ânimos de tal modo, que uma facção não teme eliminar o adversário por meio do assassinato, às vezes o revestindo da forma mais cruel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "eliminar",
+                "child": "o adversário",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "eliminar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "capangas",
+        "sentence": "Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "start_char": 4221,
+        "end_char": 4229,
+        "excerpt": "Não é aqui, nem ali; é em todo o Brasil, mesmo às portas do Rio de Janeiro. É um horror! Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "praticados",
+                "child": "capangas",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "praticar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "capanga",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "policiais",
+        "sentence": "Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "start_char": 4274,
+        "end_char": 4283,
+        "excerpt": "Não é aqui, nem ali; é em todo o Brasil, mesmo às portas do Rio de Janeiro. É um horror! Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "praticados",
+                "child": "policiais",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "praticar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "policiais",
+                "child": "semelhantes",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "policial",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "semelhante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pessoas",
+                "child": "policiais",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pessoa",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "policiais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "governos",
+                "child": "policiais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "governo",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "policiais",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "policiais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "adversários",
+        "sentence": "Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "start_char": 4314,
+        "end_char": 4325,
+        "excerpt": "Não é aqui, nem ali; é em todo o Brasil, mesmo às portas do Rio de Janeiro. É um horror! Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pessoas",
+                "child": "adversários",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "pessoa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "governos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "governo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "adversários",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "pessoas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "semelhantes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "semelhante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "policiais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "governos",
+                "child": ", adversários",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "governo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "governos",
+                "child": "adversários",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "governo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "governos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "governo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "adversários",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "pessoas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "semelhantes",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "semelhante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", adversários",
+                "child": "policiais",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "adversários",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "pessoas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "semelhantes",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "semelhante",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "adversários",
+                "child": "policiais",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "policial",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma escolta",
+        "sentence": "Basta um boquejo, para chegar uma escolta, varejar fazendas, talar plantações, arrebanhar gado, encarcerar ou surrar gente que, pelo seu trabalho, devia merecer mais respeito.",
+        "start_char": 4416,
+        "end_char": 4427,
+        "excerpt": "É um horror! Além desses assassinatos, praticados por capangas  que nome horrível!  há os praticados pelos policiais e semelhantes nas pessoas dos adversários dos governos locais, adversários ou tidos como adversários. Basta um boquejo, para chegar uma escolta, varejar fazendas, talar plantações, arrebanhar gado, encarcerar ou surrar gente que, pelo seu trabalho, devia merecer mais respeito.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chegar",
+                "child": "uma escolta",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "escolta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "você",
+        "sentence": "Vêm as relações, os pedidos e você se alista.",
+        "start_char": 5096,
+        "end_char": 5100,
+        "excerpt": "É verdade; mas, aqui, ao menos, as naturezas delicadas se podem abster de política; mas, no interior, não. Vêm as relações, os pedidos e você se alista.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um camarada",
+        "sentence": "A estreiteza do meio impõe isso, esse obséquio a um camarada, favor que parece insignificante.",
+        "start_char": 5161,
+        "end_char": 5172,
+        "excerpt": "mas, aqui, ao menos, as naturezas delicadas se podem abster de política; mas, no interior, não. Vêm as relações, os pedidos e você se alista. A estreiteza do meio impõe isso, esse obséquio a um camarada, favor que parece insignificante.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esse obséquio",
+                "child": "um camarada",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "obséquio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "camarada",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um camarada",
+                "child": "esse obséquio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "camarada",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "obséquio",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o seu antigo chefe",
+        "sentence": "As coisas vão bem; mas, num belo dia, esse camarada, por isso ou por aquilo, rompe com o seu antigo chefe.",
+        "start_char": 5294,
+        "end_char": 5312,
+        "excerpt": "Vêm as relações, os pedidos e você se alista. A estreiteza do meio impõe isso, esse obséquio a um camarada, favor que parece insignificante. As coisas vão bem; mas, num belo dia, esse camarada, por isso ou por aquilo, rompe com o seu antigo chefe.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rompe",
+                "child": "o seu antigo chefe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "romper",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "chefe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "santo Deus",
+        "sentence": "De que me livrei, santo Deus .",
+        "start_char": 5509,
+        "end_char": 5519,
+        "excerpt": "Você, por lealdade, o segue; e eis você arriscado a levar uma estocada em urna das virilhas ou a ser assassinado a pauladas como um cão danado. E eu quis ir viver no interior ! De que me livrei, santo Deus .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os caipiras",
+        "sentence": "Quando cliniquei, no interior, já havia observado esse prurido, essa ostentação de valentia de que os caipiras gostam de fazer e que, as mais das vezes, é causa de assassinatos estúpidos.",
+        "start_char": 5697,
+        "end_char": 5708,
+        "excerpt": "De que me livrei, santo Deus . Eu já tinha dito a você que esse negócio de paz na vida da roça é história. Quando cliniquei, no interior, já havia observado esse prurido, essa ostentação de valentia de que os caipiras gostam de fazer e que, as mais das vezes, é causa de assassinatos estúpidos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gostam",
+                "child": "os caipiras",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "caipira",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os caipiras",
+                "child": "ostentação",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "caipira",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "ostentação",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça.",
+        "start_char": 6002,
+        "end_char": 6012,
+        "excerpt": "Poderia contar a você muitos casos dessa ostentação de assassinato, que parte da gente da roça, mas não vale a pena. É coisa sem valia e só pode interessar a especialistas em estudos de criminologia. Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "observou",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "observar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "esse êxodo",
+                "child": "Hildegardo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "êxodo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "população",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "população",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "campos",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "campo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as cidades",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "parte",
+                "child": "Hildegardo",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "parte",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "falta",
+                "child": "Hildegardo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "falta",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "segurança",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "segurança",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "roça",
+                "child": "Hildegardo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "roça",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "César",
+        "sentence": "Um qualquer cabo de destacamento é um César naquelas paragens  que fará então um delegado ou subdelegado É um horror!",
+        "start_char": 6177,
+        "end_char": 6182,
+        "excerpt": "É coisa sem valia e só pode interessar a especialistas em estudos de criminologia. Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça. Um qualquer cabo de destacamento é um César naquelas paragens  que fará então um delegado ou subdelegado É um horror!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Um qualquer cabo",
+                "child": "César",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "cabo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "destacamento",
+                "child": "César",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "destacamento",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "César",
+                "child": "Um qualquer cabo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "César",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cabo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "César",
+                "child": "naquelas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "César",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "naquela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "César",
+                "child": "paragens",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "César",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "paragem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "naquelas",
+                "child": "César",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "naquela",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "paragens",
+                "child": "César",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "paragem",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um delegado",
+                "child": "César",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "delegado",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "horror",
+                "child": "César",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "horror",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Os dois",
+        "sentence": "Os dois calaram-se e, silenciosos, se puseram a fumar.",
+        "start_char": 6257,
+        "end_char": 6264,
+        "excerpt": "Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça. Um qualquer cabo de destacamento é um César naquelas paragens  que fará então um delegado ou subdelegado É um horror! Os dois calaram-se e, silenciosos, se puseram a fumar.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ponciano",
+        "sentence": "Mal acabavam de fumar, Ponciano disse desalentado:",
+        "start_char": 6430,
+        "end_char": 6438,
+        "excerpt": "Os dois calaram-se e, silenciosos, se puseram a fumar. Ambos pensavam numa mesma coisa: em encontrar remédio para um tão deplorável estado de coisas. Mal acabavam de fumar, Ponciano disse desalentado:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Ponciano",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ponciano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Hildegardo secundou-o.",
+        "start_char": 6476,
+        "end_char": 6486,
+        "excerpt": "Mal acabavam de fumar, Ponciano disse desalentado: E não há remédio. Hildegardo secundou-o.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "secundou-o",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "secundou-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "start_char": 6557,
+        "end_char": 6567,
+        "excerpt": "Hildegardo secundou-o. Não acho nenhum. 3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "secundou-o",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "secundou-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leu",
+                "child": "Hildegardo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ao amigo",
+        "sentence": "3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "start_char": 6604,
+        "end_char": 6612,
+        "excerpt": "Hildegardo secundou-o. Não acho nenhum. 3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "start_char": 6622,
+        "end_char": 6626,
+        "excerpt": "Hildegardo secundou-o. Não acho nenhum. 3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "castigue",
+                "child": "Deus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "castigar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esses políticos",
+        "sentence": "Não posso compreender como esses políticos, que andam por aí, vivam satisfeitos, quando a estrada de sua ascensão é marcada por cruzes.",
+        "start_char": 6709,
+        "end_char": 6724,
+        "excerpt": "Não acho nenhum. 3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer. Não posso compreender como esses políticos, que andam por aí, vivam satisfeitos, quando a estrada de sua ascensão é marcada por cruzes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raskólnikoff",
+        "sentence": "Se porventura matasse creia que eu, a que não tem deixado passar pela cabeça sonhos de Raskólnikoff, sentiria como ele: as minhas relações com a humanidade seriam de todo outras, daí em diante.",
+        "start_char": 6905,
+        "end_char": 6917,
+        "excerpt": "3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer. Não posso compreender como esses políticos, que andam por aí, vivam satisfeitos, quando a estrada de sua ascensão é marcada por cruzes. Se porventura matasse creia que eu, a que não tem deixado passar pela cabeça sonhos de Raskólnikoff, sentiria como ele: as minhas relações com a humanidade seriam de todo outras, daí em diante.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "cabeça sonhos de Raskólnikoff",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cabeça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esses políticos",
+        "sentence": "Eu também; mas você sabe o que dizem esses políticos que sobem às alturas com dezenas de assassinatos nas costas?",
+        "start_char": 7185,
+        "end_char": 7200,
+        "excerpt": "Não haveria castigo que me tirasse semelhante remorso da consciência, fosse de que modo fosse, perpetrado o assassinato. Que acha você? Eu também; mas você sabe o que dizem esses políticos que sobem às alturas com dezenas de assassinatos nas costas?",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizem",
+                "child": "esses políticos",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "político",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alturas",
+                "child": "esses políticos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "altura",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "político",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dezenas de assassinatos",
+                "child": "esses políticos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "assassinato",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "político",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "costas",
+                "child": "esses políticos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "costa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "político",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "start_char": 7290,
+        "end_char": 7300,
+        "excerpt": "Não. Que todos nós matamos. Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "start_char": 7319,
+        "end_char": 7326,
+        "excerpt": "Não. Que todos nós matamos. Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o amigo",
+                "child": "toda a serenidade",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "serenidade",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "toda a serenidade",
+                "child": "o amigo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "serenidade",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O médico",
+        "sentence": "O médico espantou-se e exclamou:",
+        "start_char": 7385,
+        "end_char": 7393,
+        "excerpt": "Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo. Já matei também. O médico espantou-se e exclamou:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "espantou-se",
+                "child": "O médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "espantar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Você, Cazuza!",
+        "start_char": 7424,
+        "end_char": 7430,
+        "excerpt": "Já matei também. O médico espantou-se e exclamou: Você, Cazuza!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Sim, eu!  confirmou Cazuza.",
+        "start_char": 7452,
+        "end_char": 7458,
+        "excerpt": "O médico espantou-se e exclamou: Você, Cazuza! Sim, eu!  confirmou Cazuza.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "confirmou",
+                "child": "Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confirmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Tinha eu sete anos e minha mãe ainda vivia.",
+        "start_char": 7541,
+        "end_char": 7550,
+        "excerpt": "Se você ainda agora mesmo... Eu conto a coisa a você. Tinha eu sete anos e minha mãe ainda vivia.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "minha mãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Você sabe que, a bem dizer, não conheci minha mãe .",
+        "start_char": 7604,
+        "end_char": 7613,
+        "excerpt": "Eu conto a coisa a você. Tinha eu sete anos e minha mãe ainda vivia. Você sabe que, a bem dizer, não conheci minha mãe .",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "minha mãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "conheci",
+                "child": "minha mãe",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "conheci",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Só me lembro dela no caixão quando meu pai, chorando, me carregou para aspergir água benta sobre o seu cadáver.",
+        "start_char": 7656,
+        "end_char": 7663,
+        "excerpt": "Você sabe que, a bem dizer, não conheci minha mãe . Sei. Só me lembro dela no caixão quando meu pai, chorando, me carregou para aspergir água benta sobre o seu cadáver.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Só me lembro",
+                "child": "quando meu pai",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "lembro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "quando meu pai",
+                "child": "Só me lembro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "lembro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o amigo",
+        "sentence": "Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "start_char": 8251,
+        "end_char": 8258,
+        "excerpt": "Talvez fosse menos rebelde, menos sombrio e desconfiado, mais contente com a vida, se ela vivesse. Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Notando",
+                "child": "o amigo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Notando",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "o amigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "essas palavras",
+                "child": "o amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "emoção muito",
+                "child": "o amigo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "emoção",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os olhos",
+                "child": "o amigo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a confissão",
+                "child": "o amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "confissão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um apelo",
+                "child": "o amigo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "apelo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "start_char": 8263,
+        "end_char": 8269,
+        "excerpt": "Talvez fosse menos rebelde, menos sombrio e desconfiado, mais contente com a vida, se ela vivesse. Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Cazuza",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "o amigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carleto",
+        "sentence": "Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "start_char": 8394,
+        "end_char": 8401,
+        "excerpt": "Talvez fosse menos rebelde, menos sombrio e desconfiado, mais contente com a vida, se ela vivesse. Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Notando",
+                "child": "Carleto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Notando",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Carleto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "start_char": 8443,
+        "end_char": 8453,
+        "excerpt": "Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou. Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "conteve-se",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contever se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hildegardo",
+                "child": "Cazuza",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Hildegardo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "Hildegardo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "zuza",
+        "sentence": "Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "start_char": 8459,
+        "end_char": 8463,
+        "excerpt": "Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou. Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Cazuza",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "o amigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hildegardo",
+                "child": "Cazuza",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Hildegardo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "Hildegardo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Eu tinha sete anos e minha mãe ainda vivia.",
+        "start_char": 8516,
+        "end_char": 8525,
+        "excerpt": "Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou. Hildegardo ou Cazuza conteve-se e começou a narrar. Eu tinha sete anos e minha mãe ainda vivia.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "minha mãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha mãe",
+        "sentence": "Nunca mais subi a esse morro, depois da morte de minha mãe...",
+        "start_char": 8616,
+        "end_char": 8625,
+        "excerpt": "Eu tinha sete anos e minha mãe ainda vivia. Morávamos em Paula Matos... Nunca mais subi a esse morro, depois da morte de minha mãe...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "minha mãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "morte",
+                "child": "minha mãe",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mãe",
+                "child": "morte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha mãe",
+                "child": "subi",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "subi",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor Ponciano",
+        "sentence": "Conte a história, homem !  fez impaciente o doutor Ponciano.",
+        "start_char": 8673,
+        "end_char": 8688,
+        "excerpt": "Morávamos em Paula Matos... Nunca mais subi a esse morro, depois da morte de minha mãe... Conte a história, homem !  fez impaciente o doutor Ponciano.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mamãe",
+        "sentence": "\"Mamãe, mamãe!",
+        "start_char": 9128,
+        "end_char": 9133,
+        "excerpt": "Um dia, descendo a escada, distraído, no momento em que punha o pé no chão do quintal, o meu pé descalço apanhou um pinto e eu o esmaguei. Subi espavorido a escada, chorando, soluçando e gritando: \"Mamãe, mamãe!",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Mamãe,",
+                "child": "mamãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Mamãe",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mamãe",
+        "sentence": "\"Mamãe, mamãe!",
+        "start_char": 9135,
+        "end_char": 9140,
+        "excerpt": "Um dia, descendo a escada, distraído, no momento em que punha o pé no chão do quintal, o meu pé descalço apanhou um pinto e eu o esmaguei. Subi espavorido a escada, chorando, soluçando e gritando: \"Mamãe, mamãe!",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Mamãe,",
+                "child": "mamãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Mamãe",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mãe",
+        "sentence": "Minha mãe acudiu, perguntando: \"",
+        "start_char": 9219,
+        "end_char": 9228,
+        "excerpt": "Matei, matei...\" Os soluços me tomavam a fala e eu não podia acabar a frase. Minha mãe acudiu, perguntando: \"",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acudiu",
+                "child": "Minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu filho",
+        "sentence": "O que é, meu filho !",
+        "start_char": 9261,
+        "end_char": 9270,
+        "excerpt": "Os soluços me tomavam a fala e eu não podia acabar a frase. Minha mãe acudiu, perguntando: \" O que é, meu filho !",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um pinto",
+        "sentence": "Matei um pinto, com o pé.",
+        "start_char": 9328,
+        "end_char": 9336,
+        "excerpt": "Afinal, pude dizer: \" Matei um pinto, com o pé.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Matei",
+                "child": "um pinto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Matei",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pinto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minha mãe",
+        "sentence": "Minha mãe riu-se, deu-me um pouco de água de flor e mandou-me sentar a um canto:",
+        "start_char": 9389,
+        "end_char": 9398,
+        "excerpt": "Matei um pinto, com o pé. \" E contei como o caso se havia passado. Minha mãe riu-se, deu-me um pouco de água de flor e mandou-me sentar a um canto:",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Minha mãe",
+                "child": "riu-se",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "riu-se",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "riu-se",
+                "child": "Minha mãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "riu-se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cazuza",
+        "sentence": "\"Cazuza, senta-te ali, à espera da polícia.",
+        "start_char": 9471,
+        "end_char": 9477,
+        "excerpt": "\" E contei como o caso se havia passado. Minha mãe riu-se, deu-me um pouco de água de flor e mandou-me sentar a um canto: \"Cazuza, senta-te ali, à espera da polícia.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "\"",
+                "child": "Cazuza",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "\"",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "\"",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Margarida",
+        "sentence": "Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "start_char": 9781,
+        "end_char": 9795,
+        "excerpt": "\" E eu fiquei muito sossegado a Um canto, estremecendo ao menor ruído que vinha da rua, pois esperava de fato a polícia. Foi esse o único assassinato que cometi. Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Dona Margarida, mulher do doutor Ponciano,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor Ponciano",
+        "sentence": "Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "start_char": 9807,
+        "end_char": 9822,
+        "excerpt": "\" E eu fiquei muito sossegado a Um canto, estremecendo ao menor ruído que vinha da rua, pois esperava de fato a polícia. Foi esse o único assassinato que cometi. Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Dona Margarida, mulher do doutor Ponciano,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Revista Sousa Cruz",
+        "sentence": "Revista Sousa Cruz.",
+        "start_char": 9905,
+        "end_char": 9923,
+        "excerpt": "Foi esse o único assassinato que cometi. Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa. Revista Sousa Cruz.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Um renque de árvores lá longe, lá para a encosta Alberto Caeiro Escrito em 7-5-1914",
+        "start_char": 49,
+        "end_char": 63,
+        "excerpt": "Um renque de árvores lá longe, lá para a encosta Alberto Caeiro Escrito em 7-5-1914 Um renque de árvores lá longe, lá para a encosta. Mas o que é um renque de árvores?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "lá para a encosta",
+                "child": "Alberto Caeiro Escrito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "encosta",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "lá para a encosta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "encosta",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "Um renque",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "renque",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Renque",
+        "sentence": "Renque e o plural árvores não são cousas, são nomes.",
+        "start_char": 187,
+        "end_char": 193,
+        "excerpt": "Mas o que é um renque de árvores? Há árvores apenas. Renque e o plural árvores não são cousas, são nomes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o plural",
+        "sentence": "Renque e o plural árvores não são cousas, são nomes.",
+        "start_char": 196,
+        "end_char": 204,
+        "excerpt": "Mas o que é um renque de árvores? Há árvores apenas. Renque e o plural árvores não são cousas, são nomes.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "e o plural árvores",
+                "child": "cousas",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "árvore",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cousa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cousas",
+                "child": "e o plural árvores",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "cousa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "árvore",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

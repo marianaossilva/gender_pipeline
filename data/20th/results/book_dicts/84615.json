@@ -1,0 +1,129 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "O Penúltimo poema Alberto Caeiro Escrito em 7-5-1922.",
+        "start_char": 18,
+        "end_char": 32,
+        "excerpt": "O Penúltimo poema Alberto Caeiro Escrito em 7-5-1922. Também sei fazer conjecturas. Há em cada coisa aquilo que ela é que a anima.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "No animal",
+        "sentence": "No animal é um ser interior longínquo.",
+        "start_char": 178,
+        "end_char": 187,
+        "excerpt": "Há em cada coisa aquilo que ela é que a anima. Na planta está por fora e é uma ninfa pequena. No animal é um ser interior longínquo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nos deuses",
+        "sentence": "Nos deuses tem o mesmo tamanho E o mesmo espaço que o corpo E é a mesma coisa que o corpo.",
+        "start_char": 264,
+        "end_char": 274,
+        "excerpt": "No animal é um ser interior longínquo. No homem é a alma que vive com ele e é já ele. Nos deuses tem o mesmo tamanho E o mesmo espaço que o corpo E é a mesma coisa que o corpo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os deuses",
+        "sentence": "Por isso se diz que os deuses nunca morrem.",
+        "start_char": 375,
+        "end_char": 384,
+        "excerpt": "No homem é a alma que vive com ele e é já ele. Nos deuses tem o mesmo tamanho E o mesmo espaço que o corpo E é a mesma coisa que o corpo. Por isso se diz que os deuses nunca morrem.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morrem",
+                "child": "os deuses",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "morr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os deuses",
+        "sentence": "Por isso os deuses não têm corpo e alma",
+        "start_char": 408,
+        "end_char": 417,
+        "excerpt": "Nos deuses tem o mesmo tamanho E o mesmo espaço que o corpo E é a mesma coisa que o corpo. Por isso se diz que os deuses nunca morrem. Por isso os deuses não têm corpo e alma",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 3
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morrem",
+                "child": "os deuses",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "morr",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "têm",
+                "child": "os deuses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deuses",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

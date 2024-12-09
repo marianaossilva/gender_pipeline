@@ -1,0 +1,179 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Corno Choroso Bocage",
+        "sentence": "Soneto do Corno Choroso Bocage",
+        "start_char": 10,
+        "end_char": 30,
+        "excerpt": "Soneto do Corno Choroso Bocage Se o grão serralho do Sophi potente, Ou do Sultão feroz, que rege a Trácia, Mil Vênus de Geórgia, oh! da Circássia Nuas prestasse ao meu desejo ardente: Se negros brutos, que parecem gente, Ministros fossem de lasciva audácia, Inda assim do ciúme a pertinácia No peito me nutria ardor pungente:",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Circássia Nu",
+        "sentence": "Se o grão serralho do Sophi potente, Ou do Sultão feroz, que rege a Trácia, Mil Vênus de Geórgia, oh! da Circássia Nuas prestasse ao meu desejo ardente:",
+        "start_char": 136,
+        "end_char": 148,
+        "excerpt": "Soneto do Corno Choroso Bocage Se o grão serralho do Sophi potente, Ou do Sultão feroz, que rege a Trácia, Mil Vênus de Geórgia, oh! da Circássia Nuas prestasse ao meu desejo ardente: Se negros brutos, que parecem gente, Ministros fossem de lasciva audácia, Inda assim do ciúme a pertinácia No peito me nutria ardor pungente:",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "prestasse",
+                "child": "Circássia Nuas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prestar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Circássia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Natureza",
+        "sentence": "Natureza, Num país onde todos fodem tudo, Onde leis não conhece a porra tesa!",
+        "start_char": 354,
+        "end_char": 362,
+        "excerpt": "Se negros brutos, que parecem gente, Ministros fossem de lasciva audácia, Inda assim do ciúme a pertinácia No peito me nutria ardor pungente: Erraste em produzir-me, oh! Natureza, Num país onde todos fodem tudo, Onde leis não conhece a porra tesa!",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Natureza",
+                "child": ", Num país",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "natureza",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "país",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Num país",
+                "child": "Natureza",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "país",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "leis",
+                "child": "Natureza",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "lei",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a porra",
+                "child": "Natureza",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "porra",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

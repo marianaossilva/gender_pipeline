@@ -1,0 +1,332 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "S . Francisco de Assis Alberto Caeiro",
+        "sentence": "Leram-me hoje S. Francisco de Assis Alberto Caeiro Escrito em 21-5-1917.",
+        "start_char": -1,
+        "end_char": 36,
+        "excerpt": "",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "S . Francisco de Assis",
+        "sentence": "Leram-me hoje S. Francisco de Assis.",
+        "start_char": 72,
+        "end_char": 94,
+        "excerpt": "Leram-me hoje S. Francisco de Assis Alberto Caeiro Escrito em 21-5-1917. Leram-me hoje S. Francisco de Assis. Leram-me e pasmei.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Para que havia de chamar minha irmã à água, se ela não é minha irmã?",
+        "start_char": 255,
+        "end_char": 265,
+        "excerpt": "Leram-me e pasmei. Como é que um homem que gostava tanto das coisas, Nunca olhava para elas, não sabia o que elas eram? Para que havia de chamar minha irmã à água, se ela não é minha irmã?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamar",
+                "child": "minha irmã",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha irmã",
+                "child": "água",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "água",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "água",
+                "child": "minha irmã",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "água",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Para que havia de chamar minha irmã à água, se ela não é minha irmã?",
+        "start_char": 255,
+        "end_char": 265,
+        "excerpt": "Leram-me e pasmei. Como é que um homem que gostava tanto das coisas, Nunca olhava para elas, não sabia o que elas eram? Para que havia de chamar minha irmã à água, se ela não é minha irmã?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamar",
+                "child": "minha irmã",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha irmã",
+                "child": "água",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "água",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "água",
+                "child": "minha irmã",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "água",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Irmã",
+        "sentence": "Irmã, ou mãe, ou filha.",
+        "start_char": 382,
+        "end_char": 386,
+        "excerpt": "Para a sentir melhor? Sinto-a melhor bebendo-a do que chamando-lhe qualquer coisa. Irmã, ou mãe, ou filha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Irmã",
+                "child": ", ou mãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Irmã",
+                "child": ", ou filha",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ou mãe",
+                "child": "Irmã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ou filha",
+                "child": "Irmã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Irmã",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mãe",
+        "sentence": "Irmã, ou mãe, ou filha.",
+        "start_char": 391,
+        "end_char": 394,
+        "excerpt": "Para a sentir melhor? Sinto-a melhor bebendo-a do que chamando-lhe qualquer coisa. Irmã, ou mãe, ou filha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Irmã",
+                "child": ", ou mãe",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ou mãe",
+                "child": "Irmã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "filha",
+        "sentence": "Irmã, ou mãe, ou filha.",
+        "start_char": 399,
+        "end_char": 404,
+        "excerpt": "Para a sentir melhor? Sinto-a melhor bebendo-a do que chamando-lhe qualquer coisa. Irmã, ou mãe, ou filha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Irmã",
+                "child": ", ou filha",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Irmã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", ou filha",
+                "child": "Irmã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Irmã",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Se eu lhe chamar minha irmã, Ao chamar-lhe minha irmã, vejo que o não é E que se ela é a água o melhor é chamar-lhe água;",
+        "start_char": 458,
+        "end_char": 468,
+        "excerpt": "Irmã, ou mãe, ou filha. A água é a água e é bela por isso. Se eu lhe chamar minha irmã, Ao chamar-lhe minha irmã, vejo que o não é E que se ela é a água o melhor é chamar-lhe água;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamar",
+                "child": "minha irmã",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamar-lhe",
+                "child": "minha irmã",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar-lhe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha irmã",
+        "sentence": "Se eu lhe chamar minha irmã, Ao chamar-lhe minha irmã, vejo que o não é E que se ela é a água o melhor é chamar-lhe água;",
+        "start_char": 458,
+        "end_char": 468,
+        "excerpt": "Irmã, ou mãe, ou filha. A água é a água e é bela por isso. Se eu lhe chamar minha irmã, Ao chamar-lhe minha irmã, vejo que o não é E que se ela é a água o melhor é chamar-lhe água;",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamar",
+                "child": "minha irmã",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chamar-lhe",
+                "child": "minha irmã",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar-lhe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "irmã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

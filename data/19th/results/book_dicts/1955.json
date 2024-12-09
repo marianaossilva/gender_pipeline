@@ -1,0 +1,4173 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "MARC",
+        "sentence": "MARCHA FÚNEBRE",
+        "start_char": 573,
+        "end_char": 577,
+        "excerpt": "Para maiores informações, escreva para  Estamos em busca de patrocinadores e voluntários para nos ajudar a manter este projeto. Se você quer ajudar de alguma forma, mande um e-mail para  e saiba como isso é possível. MARCHA FÚNEBRE",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "O DEPUTADO Cordovil não podia pregar olho uma noite de agosto de 186...",
+        "start_char": 599,
+        "end_char": 607,
+        "excerpt": "Se você quer ajudar de alguma forma, mande um e-mail para  e saiba como isso é possível. MARCHA FÚNEBRE O DEPUTADO Cordovil não podia pregar olho uma noite de agosto de 186...",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "O DEPUTADO Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "DEPUTADO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Imperador",
+        "sentence": "Viera cedo do Cassino Fluminense, depois da retirada do Imperador, e durante o baile não tivera o mínimo incômodo moral nem físico.",
+        "start_char": 716,
+        "end_char": 725,
+        "excerpt": "MARCHA FÚNEBRE O DEPUTADO Cordovil não podia pregar olho uma noite de agosto de 186... Viera cedo do Cassino Fluminense, depois da retirada do Imperador, e durante o baile não tivera o mínimo incômodo moral nem físico.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "retirada",
+                "child": "Imperador",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "retirada",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Imperador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Imperador",
+                "child": "retirada",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Imperador",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "retirada",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um inimigo seu",
+        "sentence": "Ao contrário, a noite foi excelente, tão excelente que um inimigo seu, que padecia do coração, faleceu antes das dez horas, e a notícia chegou ao Cassino pouco depois das onze.",
+        "start_char": 847,
+        "end_char": 861,
+        "excerpt": "O DEPUTADO Cordovil não podia pregar olho uma noite de agosto de 186... Viera cedo do Cassino Fluminense, depois da retirada do Imperador, e durante o baile não tivera o mínimo incômodo moral nem físico. Ao contrário, a noite foi excelente, tão excelente que um inimigo seu, que padecia do coração, faleceu antes das dez horas, e a notícia chegou ao Cassino pouco depois das onze.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "faleceu",
+                "child": "que um inimigo seu",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "falecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "inimigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que um inimigo seu",
+                "child": "padecia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "inimigo",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "padecia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "que um inimigo seu",
+                "child": "excelente",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "inimigo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "excelente",
+                "categories": [
+                    "social",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "padecia",
+                "child": "que um inimigo seu",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "padecia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "inimigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "coração",
+                "child": "que um inimigo seu",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "coração",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "inimigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil sabia dos padecimentos do adversário.",
+        "start_char": 1285,
+        "end_char": 1293,
+        "excerpt": "Digo-te que concluis mal; não foi alegria, foi desabafo. A morte vinha de meses, era daquelas que não acabam mais, e moem, mordem, comem, trituram a pobre criatura humana. Cordovil sabia dos padecimentos do adversário.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabia",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alguns amigos",
+        "sentence": "Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos.",
+        "start_char": 1332,
+        "end_char": 1345,
+        "excerpt": "A morte vinha de meses, era daquelas que não acabam mais, e moem, mordem, comem, trituram a pobre criatura humana. Cordovil sabia dos padecimentos do adversário. Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "contar-lhe",
+                "child": "Alguns amigos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alguns amigos",
+                "child": ", para o consolar",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "consolar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", para o consolar",
+                "child": "Alguns amigos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "consolar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "injúrias",
+                "child": "Alguns amigos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "injúria",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "enfermo",
+        "sentence": "Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos.",
+        "start_char": 1423,
+        "end_char": 1430,
+        "excerpt": "A morte vinha de meses, era daquelas que não acabam mais, e moem, mordem, comem, trituram a pobre criatura humana. Cordovil sabia dos padecimentos do adversário. Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sabiam",
+                "child": "enfermo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sab",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "enfermo",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil pagava-lhes com alguma palavra de compaixão, que o alvissareiro adotava, e repetia, e era mais sincera naquele que neste.",
+        "start_char": 1570,
+        "end_char": 1578,
+        "excerpt": "Cordovil sabia dos padecimentos do adversário. Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos. Cordovil pagava-lhes com alguma palavra de compaixão, que o alvissareiro adotava, e repetia, e era mais sincera naquele que neste.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sabia",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pagava-lhes",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pagava-lhes",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o alvissareiro",
+        "sentence": "Cordovil pagava-lhes com alguma palavra de compaixão, que o alvissareiro adotava, e repetia, e era mais sincera naquele que neste.",
+        "start_char": 1628,
+        "end_char": 1642,
+        "excerpt": "Cordovil sabia dos padecimentos do adversário. Alguns amigos, para o consolar de antigas injúrias, iam contar-lhe o que viam ou sabiam do enfermo, pregado a uma cadeira de braços, vivendo as noites horrivelmente, sem que as auroras lhe trouxessem esperanças, nem as tardes desenganos. Cordovil pagava-lhes com alguma palavra de compaixão, que o alvissareiro adotava, e repetia, e era mais sincera naquele que neste.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "adotava",
+                "child": "o alvissareiro",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "adotar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alvissareiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o alvissareiro",
+                "child": "compaixão",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "alvissareiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "compaixão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o alvissareiro",
+                "child": "alguma palavra",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "alvissareiro",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil, salvo em política, não gostava do mal alheio.",
+        "start_char": 1788,
+        "end_char": 1796,
+        "excerpt": "Enfim acabara de padecer; daí o desabafo. Este sentimento pegava com a piedade humana. Cordovil, salvo em política, não gostava do mal alheio.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gostava",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "política",
+                "child": "Cordovil",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "política",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre Nosso",
+        "sentence": "\"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "start_char": 1881,
+        "end_char": 1892,
+        "excerpt": "Cordovil, salvo em política, não gostava do mal alheio. Quando rezava, ao levantar da cama: \"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "venha",
+                "child": "Padre Nosso, que estás no céu, santificado seja o teu nome,",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seus amigos",
+        "sentence": "\"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "start_char": 2145,
+        "end_char": 2156,
+        "excerpt": "Cordovil, salvo em política, não gostava do mal alheio. Quando rezava, ao levantar da cama: \"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a mesma prece",
+                "child": "seus amigos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "prece",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "aos",
+        "sentence": "\"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "start_char": 2102,
+        "end_char": 2105,
+        "excerpt": "Cordovil, salvo em política, não gostava do mal alheio. Quando rezava, ao levantar da cama: \"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte.",
+        "gender": "male",
+        "pch_occurrences": {
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "No dia seguinte, porém, a bela oração de Jesus tornava a sair dos lábios da véspera com a mesma caridade de ofício.",
+        "start_char": 2433,
+        "end_char": 2438,
+        "excerpt": "Quando rezava, ao levantar da cama: \"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte. No dia seguinte, porém, a bela oração de Jesus tornava a sair dos lábios da véspera com a mesma caridade de ofício.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a bela oração",
+                "child": "Jesus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "oração",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jesus",
+                "child": "a bela oração",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "oração",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil não ia nas águas desse amigo; perdoava deveras.",
+        "start_char": 2508,
+        "end_char": 2516,
+        "excerpt": "\"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte. No dia seguinte, porém, a bela oração de Jesus tornava a sair dos lábios da véspera com a mesma caridade de ofício. Cordovil não ia nas águas desse amigo; perdoava deveras.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ia",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pregui",
+        "sentence": "Preguiça amamenta muita virtude.",
+        "start_char": 2649,
+        "end_char": 2655,
+        "excerpt": "Cordovil não ia nas águas desse amigo; perdoava deveras. Que entrasse no perdão um tantinho de preguiça, é possível, sem aliás ser evidente. Preguiça amamenta muita virtude.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amamenta",
+                "child": "Preguiça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amamentar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Preguiça",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o deputado",
+        "sentence": "Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal.",
+        "start_char": 2749,
+        "end_char": 2759,
+        "excerpt": "Preguiça amamenta muita virtude. Sempre é alguma cousa minguar força à ação do mal. Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gostava",
+                "child": "o deputado",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deputado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o inimigo morto",
+        "sentence": "Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal.",
+        "start_char": 2800,
+        "end_char": 2815,
+        "excerpt": "Preguiça amamenta muita virtude. Sempre é alguma cousa minguar força à ação do mal. Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil.",
+        "start_char": 2946,
+        "end_char": 2954,
+        "excerpt": "Sempre é alguma cousa minguar força à ação do mal. Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal. Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "finado",
+        "sentence": "Conversaram da longa doença do finado .",
+        "start_char": 2987,
+        "end_char": 2993,
+        "excerpt": "Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal. Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil. Conversaram da longa doença do finado .",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "doença",
+                "child": "finado",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "doença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "finado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "finado",
+                "child": "doença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "finado",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "doença",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque?",
+        "start_char": 3050,
+        "end_char": 3058,
+        "excerpt": "Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil. Conversaram da longa doença do finado . Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dizendo",
+                "child": "Cordovil",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "César",
+        "sentence": "Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque?",
+        "start_char": 3085,
+        "end_char": 3090,
+        "excerpt": "Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil. Conversaram da longa doença do finado . Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "preferia",
+                "child": "César",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "preferir",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um colega",
+        "sentence": "perguntou-lhe um colega rindo.",
+        "start_char": 3174,
+        "end_char": 3183,
+        "excerpt": "Conversaram da longa doença do finado . Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque? perguntou-lhe um colega rindo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "um colega",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "colega",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil saiu do baile com sono, e foi cochilando no carro, apesar do mal calçado das ruas.",
+        "start_char": 3381,
+        "end_char": 3389,
+        "excerpt": "O parricídio, estando fora do comum, faria a tragédia mais trágica. Tudo foi assim alegre. Cordovil saiu do baile com sono, e foi cochilando no carro, apesar do mal calçado das ruas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um defunto",
+        "sentence": "Era o caso de um defunto, que duas praças de polícia estavam levantando do chão.",
+        "start_char": 3547,
+        "end_char": 3557,
+        "excerpt": "Cordovil saiu do baile com sono, e foi cochilando no carro, apesar do mal calçado das ruas. Perto de casa. sentiu parar o carro e ouviu rumor de vozes. Era o caso de um defunto, que duas praças de polícia estavam levantando do chão.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Era o caso",
+                "child": "um defunto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "caso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "defunto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um defunto",
+                "child": "Era o caso",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "defunto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "caso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duas praças",
+                "child": "um defunto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "praça",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "defunto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "polícia",
+                "child": "um defunto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "polícia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "defunto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "chão",
+                "child": "um defunto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "chão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "defunto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "lacaio",
+        "sentence": "perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. --",
+        "start_char": 3647,
+        "end_char": 3653,
+        "excerpt": "Era o caso de um defunto, que duas praças de polícia estavam levantando do chão. -- Assassinado? perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. --",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "lacaio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "lacaio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. --",
+        "start_char": 3718,
+        "end_char": 3724,
+        "excerpt": "Era o caso de um defunto, que duas praças de polícia estavam levantando do chão. -- Assassinado? perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. --",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "carater",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Este moço",
+        "sentence": "Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "start_char": 3750,
+        "end_char": 3759,
+        "excerpt": "perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. -- Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sabe",
+                "child": "Este moço",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o lacaio",
+        "sentence": "Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "start_char": 3781,
+        "end_char": 3789,
+        "excerpt": "perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. -- Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "o lacaio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "lacaio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um desconhecido",
+        "sentence": "Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "start_char": 3801,
+        "end_char": 3816,
+        "excerpt": "perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. -- Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "indicando",
+                "child": "um desconhecido",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "indicar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "desconhecido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O moço",
+        "sentence": "O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo.",
+        "start_char": 3839,
+        "end_char": 3845,
+        "excerpt": "Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros. O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aproximou-se",
+                "child": "O moço",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproximar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "moço",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o deputado",
+        "sentence": "O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo.",
+        "start_char": 3884,
+        "end_char": 3894,
+        "excerpt": "Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros. O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recusasse",
+                "child": "o deputado",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "recusar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "deputado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Um doutor",
+        "sentence": "Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\".",
+        "start_char": 4188,
+        "end_char": 4197,
+        "excerpt": "Parece que assobiava uma polca. Indo a atravessar a rua para o lado do Mangue, vi que estacou o passo, a modo que torceu o corpo, não sei bem, e caiu sem sentidos. Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "examinou",
+                "child": "Um doutor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "examinar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um sobradinho",
+                "child": "Um doutor",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sobradinho",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\".",
+        "start_char": 4252,
+        "end_char": 4259,
+        "excerpt": "Parece que assobiava uma polca. Indo a atravessar a rua para o lado do Mangue, vi que estacou o passo, a modo que torceu o corpo, não sei bem, e caiu sem sentidos. Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "examinou",
+                "child": "o homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "examinar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a patrulha",
+        "sentence": "Foi-se juntando gente, a patrulha levou muito tempo a chegar.",
+        "start_char": 4316,
+        "end_char": 4326,
+        "excerpt": "Indo a atravessar a rua para o lado do Mangue, vi que estacou o passo, a modo que torceu o corpo, não sei bem, e caiu sem sentidos. Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\". Foi-se juntando gente, a patrulha levou muito tempo a chegar.",
+        "gender": "female",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levou",
+                "child": "a patrulha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patrulha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o defunto",
+        "sentence": "Quer ver o defunto? -- Não, obrigado.",
+        "start_char": 4382,
+        "end_char": 4391,
+        "excerpt": "Foi-se juntando gente, a patrulha levou muito tempo a chegar. Agora pegou dele. Quer ver o defunto? -- Não, obrigado.",
+        "gender": "male",
+        "pch_occurrences": {
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "o defunto",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "defunto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Domingos",
+        "sentence": "Vamos, Domingos.",
+        "start_char": 4459,
+        "end_char": 4467,
+        "excerpt": "Já se pode passar? -- Pode. -- Obrigado. Vamos, Domingos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vamos",
+                "child": "Domingos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Domingos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Domingos",
+        "sentence": "Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "start_char": 4469,
+        "end_char": 4477,
+        "excerpt": "-- Pode. -- Obrigado. Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Vamos",
+                "child": "Domingos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Domingos",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "trepou",
+                "child": "Domingos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trepar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Domingos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cocheiro",
+        "sentence": "Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "start_char": 4497,
+        "end_char": 4507,
+        "excerpt": "-- Pode. -- Obrigado. Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tocou",
+                "child": "o cocheiro",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "tocar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "cocheiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "start_char": 4582,
+        "end_char": 4590,
+        "excerpt": "-- Pode. -- Obrigado. Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Cordovil",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "à Rua",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido.",
+        "start_char": 4617,
+        "end_char": 4625,
+        "excerpt": "Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil. Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Cordovil",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "à Rua",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pensando",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "desconhecido",
+        "sentence": "Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido.",
+        "start_char": 4651,
+        "end_char": 4663,
+        "excerpt": "Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil. Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "morte",
+                "child": "desconhecido",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "desconhecido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "desconhecido",
+                "child": "morte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "desconhecido",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "inimigo pessoal",
+        "sentence": "Em si mesma, era boa; comparada à do inimigo pessoal, excelente.",
+        "start_char": 4702,
+        "end_char": 4717,
+        "excerpt": "Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil. Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido. Em si mesma, era boa; comparada à do inimigo pessoal, excelente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ia a assobiar, cuidando sabe Deus em que delícia passada ou em que esperança futura; revivia o que vivera, ou antevia o que podia viver, senão quando, a morte pegou da delícia ou da esperança, e lá se foi o homem ao eterno repouso.",
+        "start_char": 4759,
+        "end_char": 4763,
+        "excerpt": "Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido. Em si mesma, era boa; comparada à do inimigo pessoal, excelente. Ia a assobiar, cuidando sabe Deus em que delícia passada ou em que esperança futura; revivia o que vivera, ou antevia o que podia viver, senão quando, a morte pegou da delícia ou da esperança, e lá se foi o homem ao eterno repouso.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ia",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ia",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "delícia",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "delícia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "delícia",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "delícia",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aterrado",
+        "sentence": "Se lhe tem acontecido no Cassino a morte do Aterrado?",
+        "start_char": 5141,
+        "end_char": 5149,
+        "excerpt": "Morreu sem dor, ou, se alguma teve, foi acaso brevíssima, como um relâmpago que deixa a escuridão mais escura. Então pôs o caso em si. Se lhe tem acontecido no Cassino a morte do Aterrado?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a morte",
+                "child": "Aterrado",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Aterrado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Aterrado",
+                "child": "a morte",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Aterrado",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o avô",
+        "sentence": "Não é que lhe faltassem noivas, -- mormente depois de perder o avô, que lhe deixou duas fazendas.",
+        "start_char": 5462,
+        "end_char": 5467,
+        "excerpt": "Podia até dizer que ele só dançou até aos vinte. Não era dado a moças, tivera um afeição única na vida, -- aos vinte e cinco anos, casou e enviuvou ao cabo de cinco semanas para não casar mais. Não é que lhe faltassem noivas, -- mormente depois de perder o avô, que lhe deixou duas fazendas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perder",
+                "child": "o avô",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "avô",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duas fazendas",
+                "child": "o avô",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "fazenda",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "avô",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não;",
+        "start_char": 6039,
+        "end_char": 6047,
+        "excerpt": "Mas se lhe tivesse sucedido morrer de repente no Cassino, ante uma valsa ou quadrilha, entre duas portas? Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não;",
+        "gender": "male",
+        "pch_occurrences": {
+            "quadril": {
+                "syns": [
+                    "quadris",
+                    "anca",
+                    "ancas"
+                ],
+                "occurrences": [
+                    "quadril"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "compôs",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "start_char": 6223,
+        "end_char": 6232,
+        "excerpt": "Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não; um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "animando",
+                "child": "os homens",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "emo",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as damas",
+        "sentence": "um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "start_char": 6242,
+        "end_char": 6250,
+        "excerpt": "Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não; um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "gender": "female",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "animando",
+                "child": "as damas",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "dama",
+                "categories": [
+                    "emo",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a orquestra",
+        "sentence": "um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "start_char": 6252,
+        "end_char": 6263,
+        "excerpt": "Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não; um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão.",
+        "gender": "female",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "animando",
+                "child": "a orquestra",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "instantes",
+                "child": "a orquestra",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "instante",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a oposição",
+                "child": "a orquestra",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "oposição",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "compasso",
+                "child": "a orquestra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "compasso",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "da confusão",
+                "child": "a orquestra",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "confusão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "César",
+        "sentence": "\"Tal qual a morte de César\", ia dizendo consigo.",
+        "start_char": 6431,
+        "end_char": 6436,
+        "excerpt": "um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão. Não faltariam braços que o levassem para um gabinete, já morto, totalmente morto. \"Tal qual a morte de César\", ia dizendo consigo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "morte",
+                "child": "César\"",
+                "dep_h": "fixed",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "César\"",
+                "child": "morte",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "César",
+                "dep_c": "fixed",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil deu consigo a rir ou a sorrir, alguma cousa que afastava o terror e deixava a sensação da liberdade.",
+        "start_char": 6580,
+        "end_char": 6588,
+        "excerpt": "Não sentiria nada. \" Cordovil deu consigo a rir ou a sorrir, alguma cousa que afastava o terror e deixava a sensação da liberdade.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o adversário",
+        "sentence": "Em verdade, antes a morte assim que após longos dias ou longos meses e anos, como o adversário que perdera algumas horas antes.",
+        "start_char": 6772,
+        "end_char": 6784,
+        "excerpt": "\"Padre Nosso, que estás no céu, santificado seja o teu nome, venha a nós o teu reino, seja feita a tua vontade, assim na terra como no céu, o pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, como nós perdoamos aos nossos devedores\"... não imitava um de seus amigos que rezava a mesma prece, sem todavia perdoar aos devedores, como dizia de língua; esse chegava a cobrar além do que eles lhe deviam, isto é, se ouvia maldizer de alguém, decorava tudo e mais alguma cousa e ia repeti-lo a outra parte. No dia seguinte, porém, a bela oração de Jesus tornava a sair dos lábios da véspera com a mesma caridade de ofício. Cordovil não ia nas águas desse amigo; perdoava deveras. Que entrasse no perdão um tantinho de preguiça, é possível, sem aliás ser evidente. Preguiça amamenta muita virtude. Sempre é alguma cousa minguar força à ação do mal. Não esqueça que o deputado só gostava do mal alheio em política, e o inimigo morto era inimigo pessoal. Quanto à causa da inimizade, não a sei eu, e o nome do homem acabou com a vida. -- Coitado! descansou, disse Cordovil. Conversaram da longa doença do finado . Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque? perguntou-lhe um colega rindo. Ao que ele, apanhando a alusão, replicou: -- Eu, se tivesse um filho, quisera morrer às mãos dele. O parricídio, estando fora do comum, faria a tragédia mais trágica. Tudo foi assim alegre. Cordovil saiu do baile com sono, e foi cochilando no carro, apesar do mal calçado das ruas. Perto de casa. sentiu parar o carro e ouviu rumor de vozes. Era o caso de um defunto, que duas praças de polícia estavam levantando do chão. -- Assassinado? perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. -- Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros. O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo. Referiu- lhe então em poucas palavras o acidente a que assistira. -- Vínhamos andando, ele adiante, eu atrás. Parece que assobiava uma polca. Indo a atravessar a rua para o lado do Mangue, vi que estacou o passo, a modo que torceu o corpo, não sei bem, e caiu sem sentidos. Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\". Foi-se juntando gente, a patrulha levou muito tempo a chegar. Agora pegou dele. Quer ver o defunto? -- Não, obrigado. Já se pode passar? -- Pode. -- Obrigado. Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil. Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido. Em si mesma, era boa; comparada à do inimigo pessoal, excelente. Ia a assobiar, cuidando sabe Deus em que delícia passada ou em que esperança futura; revivia o que vivera, ou antevia o que podia viver, senão quando, a morte pegou da delícia ou da esperança, e lá se foi o homem ao eterno repouso. Morreu sem dor, ou, se alguma teve, foi acaso brevíssima, como um relâmpago que deixa a escuridão mais escura. Então pôs o caso em si. Se lhe tem acontecido no Cassino a morte do Aterrado? Não seria dançando; os seus quarenta anos não dançavam. Podia até dizer que ele só dançou até aos vinte. Não era dado a moças, tivera um afeição única na vida, -- aos vinte e cinco anos, casou e enviuvou ao cabo de cinco semanas para não casar mais. Não é que lhe faltassem noivas, -- mormente depois de perder o avô, que lhe deixou duas fazendas. Vendeu-as ambas e passou a viver consigo, fez duas viagens à Europa, continuou a política e a sociedade. Ultimamente parecia enojado de uma e de outra, mas não tendo em que matar o tempo, não abriu mão delas. Chegou a ser ministro uma vez, creio que da Marinha, não passou de sete meses. Nem a pasta lhe deu glória, nem a demissão desgosto. Não era ambicioso, e mais puxava para a quietação que para o movimento. Mas se lhe tivesse sucedido morrer de repente no Cassino, ante uma valsa ou quadrilha, entre duas portas? Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não; um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão. Não faltariam braços que o levassem para um gabinete, já morto, totalmente morto. \"Tal qual a morte de César\", ia dizendo consigo. E logo emendou: \"Não, melhor que ela; sem ameaça, nem armas, nem sangue, uma simples queda e o fim. Não sentiria nada. \" Cordovil deu consigo a rir ou a sorrir, alguma cousa que afastava o terror e deixava a sensação da liberdade. Em verdade, antes a morte assim que após longos dias ou longos meses e anos, como o adversário que perdera algumas horas antes.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            },
+            "quadril": {
+                "syns": [
+                    "quadris",
+                    "anca",
+                    "ancas"
+                ],
+                "occurrences": [
+                    "quadril"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 3
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "meses",
+                "child": "como o adversário",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mês",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "como o adversário",
+                "child": "meses",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "como o adversário",
+                "child": "morte",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "adversário",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "algumas horas",
+                "child": "como o adversário",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "hora",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "adversário",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o aparato",
+        "sentence": "Achava-lhe um só defeito, -- o aparato.",
+        "start_char": 6986,
+        "end_char": 6995,
+        "excerpt": "Nem era morrer; era um gesto de chapéu, que se perdia no ar com a própria mão e a alma que lhe dera movimento. Um cochilo e o sono eterno. Achava-lhe um só defeito, -- o aparato.",
+        "gender": "male",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um só defeito",
+                "child": ", -- o aparato",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "defeito",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "aparato",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", -- o aparato",
+                "child": "um só defeito",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "aparato",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "defeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Imperador",
+        "sentence": "Essa morte no meio de um baile defronte do Imperador, ao som de Strauss, contada, pintada, enfeitada nas folhas públicas, essa morte pareceria de encomenda.",
+        "start_char": 7040,
+        "end_char": 7049,
+        "excerpt": "Um cochilo e o sono eterno. Achava-lhe um só defeito, -- o aparato. Essa morte no meio de um baile defronte do Imperador, ao som de Strauss, contada, pintada, enfeitada nas folhas públicas, essa morte pareceria de encomenda.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um baile",
+                "child": "Imperador",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "baile",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Imperador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Imperador",
+                "child": "um baile",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Imperador",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "baile",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Imperador",
+                "child": "meio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Imperador",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Imperador",
+                "child": "Essa morte",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Imperador",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Strauss",
+        "sentence": "Essa morte no meio de um baile defronte do Imperador, ao som de Strauss, contada, pintada, enfeitada nas folhas públicas, essa morte pareceria de encomenda.",
+        "start_char": 7061,
+        "end_char": 7068,
+        "excerpt": "Um cochilo e o sono eterno. Achava-lhe um só defeito, -- o aparato. Essa morte no meio de um baile defronte do Imperador, ao som de Strauss, contada, pintada, enfeitada nas folhas públicas, essa morte pareceria de encomenda.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", ao som",
+                "child": "Strauss",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "som",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Strauss",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Strauss",
+                "child": ", ao som",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Strauss",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Strauss",
+                "child": "meio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Strauss",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Strauss",
+                "child": "Essa morte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Strauss",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "start_char": 7525,
+        "end_char": 7533,
+        "excerpt": "O salão da Câmara, em vez do do Cassino, sem damas ou com poucas, nas tribunas. Vasto silêncio. Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pé",
+                "child": "Cordovil",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ministro",
+        "sentence": "Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "start_char": 7607,
+        "end_char": 7617,
+        "excerpt": "O salão da Câmara, em vez do do Cassino, sem damas ou com poucas, nas tribunas. Vasto silêncio. Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fitar",
+                "child": "o ministro",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o presidente",
+        "sentence": "Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "start_char": 7626,
+        "end_char": 7638,
+        "excerpt": "O salão da Câmara, em vez do do Cassino, sem damas ou com poucas, nas tribunas. Vasto silêncio. Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fitar",
+                "child": "o presidente",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "presidente",
+        "sentence": "Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ...",
+        "start_char": 8117,
+        "end_char": 8127,
+        "excerpt": "Câmara, galerias, tribunas ficariam assombradas. Muitos deputados correriam a erguê-lo; um, que era médico, verificaria a morte; não diria que fora de repente, como o do sobradinho do Aterrado, mas por outro estilo mais técnico. Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "algumas palavras",
+                "child": "presidente",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": "escolha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "escolha",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": "comissão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "comissão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": "algumas palavras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "escolha",
+                "child": "presidente",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "escolha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "comissão",
+                "child": "presidente",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "comissão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cemitério",
+                "child": "presidente",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "cemitério",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o finado",
+        "sentence": "Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ...",
+        "start_char": 8167,
+        "end_char": 8175,
+        "excerpt": "Câmara, galerias, tribunas ficariam assombradas. Muitos deputados correriam a erguê-lo; um, que era médico, verificaria a morte; não diria que fora de repente, como o do sobradinho do Aterrado, mas por outro estilo mais técnico. Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil quis rir da circunstância de imaginar além da morte, o movimento e o saimento, as próprias notícias dos jornais, que ele leu de cor e depressa.",
+        "start_char": 8193,
+        "end_char": 8201,
+        "excerpt": "Muitos deputados correriam a erguê-lo; um, que era médico, verificaria a morte; não diria que fora de repente, como o do sobradinho do Aterrado, mas por outro estilo mais técnico. Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ... Cordovil quis rir da circunstância de imaginar além da morte, o movimento e o saimento, as próprias notícias dos jornais, que ele leu de cor e depressa.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O estremeção",
+        "sentence": "O estremeção que teve fez-lhe ver que não era verdade.",
+        "start_char": 8847,
+        "end_char": 8859,
+        "excerpt": "Supôs ele que, ao abrirem-lhe a portinhola, dessem com o seu cadáver. Sairia assim de uma noite ruidosa para outra pacífica, sem conversas, nem danças, nem encontros, sem espécie alguma de luta ou resistência. O estremeção que teve fez-lhe ver que não era verdade.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fez-lhe",
+                "child": "O estremeção",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fez-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "estremeção",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Domingos",
+        "sentence": "Efetivamente, o carro entrou na chácara, estacou, e Domingos saltou da almofada para vir abrir-lhe a portinhola.",
+        "start_char": 8954,
+        "end_char": 8962,
+        "excerpt": "Sairia assim de uma noite ruidosa para outra pacífica, sem conversas, nem danças, nem encontros, sem espécie alguma de luta ou resistência. O estremeção que teve fez-lhe ver que não era verdade. Efetivamente, o carro entrou na chácara, estacou, e Domingos saltou da almofada para vir abrir-lhe a portinhola.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "saltou",
+                "child": "Domingos",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "saltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Domingos",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil desceu com as pernas e a alma vivas, e entrou pela porta lateral, onde o aguardava com um castiçal e vela acesa o escravo Florindo.",
+        "start_char": 9015,
+        "end_char": 9023,
+        "excerpt": "O estremeção que teve fez-lhe ver que não era verdade. Efetivamente, o carro entrou na chácara, estacou, e Domingos saltou da almofada para vir abrir-lhe a portinhola. Cordovil desceu com as pernas e a alma vivas, e entrou pela porta lateral, onde o aguardava com um castiçal e vela acesa o escravo Florindo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desceu",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o escravo Florindo",
+        "sentence": "Cordovil desceu com as pernas e a alma vivas, e entrou pela porta lateral, onde o aguardava com um castiçal e vela acesa o escravo Florindo.",
+        "start_char": 9136,
+        "end_char": 9154,
+        "excerpt": "O estremeção que teve fez-lhe ver que não era verdade. Efetivamente, o carro entrou na chácara, estacou, e Domingos saltou da almofada para vir abrir-lhe a portinhola. Cordovil desceu com as pernas e a alma vivas, e entrou pela porta lateral, onde o aguardava com um castiçal e vela acesa o escravo Florindo.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alguém",
+        "sentence": "Veio alguém? --",
+        "start_char": 9366,
+        "end_char": 9372,
+        "excerpt": "Em cima, ao entrar no quarto, olhou para a cama; era a mesma dos sonos quietos e demorados. -- Veio alguém? --",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o escravo",
+        "sentence": "Não, senhor, respondeu o escravo distraído, mas corrigiu logo:",
+        "start_char": 9400,
+        "end_char": 9409,
+        "excerpt": "-- Coitado! descansou, disse Cordovil. Conversaram da longa doença do finado . Também falaram das várias mortes deste mundo, dizendo Cordovil que a todas preferia a de César, não por motivo do ferro, mas por inesperada e rápida. -- Tu quoque? perguntou-lhe um colega rindo. Ao que ele, apanhando a alusão, replicou: -- Eu, se tivesse um filho, quisera morrer às mãos dele. O parricídio, estando fora do comum, faria a tragédia mais trágica. Tudo foi assim alegre. Cordovil saiu do baile com sono, e foi cochilando no carro, apesar do mal calçado das ruas. Perto de casa. sentiu parar o carro e ouviu rumor de vozes. Era o caso de um defunto, que duas praças de polícia estavam levantando do chão. -- Assassinado? perguntou ele ao lacaio, que descera da almofada para saber o que era. -- Não sei, não, senhor. -- Pergunta o que é. -- Este moço sabe como foi, disse o lacaio, indicando um desconhecido, que falava a outros. O moço aproximou-se da portinhola, antes que o deputado recusasse ouvi-lo. Referiu- lhe então em poucas palavras o acidente a que assistira. -- Vínhamos andando, ele adiante, eu atrás. Parece que assobiava uma polca. Indo a atravessar a rua para o lado do Mangue, vi que estacou o passo, a modo que torceu o corpo, não sei bem, e caiu sem sentidos. Um doutor, que chegou logo, descendo de um sobradinho, examinou o homem e disse que \"morreu de repente\". Foi-se juntando gente, a patrulha levou muito tempo a chegar. Agora pegou dele. Quer ver o defunto? -- Não, obrigado. Já se pode passar? -- Pode. -- Obrigado. Vamos, Domingos. Domingos trepou à almofada, o cocheiro tocou os animais, e o carro seguiu até à Rua de S. Cristóvão, onde morava Cordovil. Antes de chegar à casa , Cordovil foi pensando na morte do desconhecido. Em si mesma, era boa; comparada à do inimigo pessoal, excelente. Ia a assobiar, cuidando sabe Deus em que delícia passada ou em que esperança futura; revivia o que vivera, ou antevia o que podia viver, senão quando, a morte pegou da delícia ou da esperança, e lá se foi o homem ao eterno repouso. Morreu sem dor, ou, se alguma teve, foi acaso brevíssima, como um relâmpago que deixa a escuridão mais escura. Então pôs o caso em si. Se lhe tem acontecido no Cassino a morte do Aterrado? Não seria dançando; os seus quarenta anos não dançavam. Podia até dizer que ele só dançou até aos vinte. Não era dado a moças, tivera um afeição única na vida, -- aos vinte e cinco anos, casou e enviuvou ao cabo de cinco semanas para não casar mais. Não é que lhe faltassem noivas, -- mormente depois de perder o avô, que lhe deixou duas fazendas. Vendeu-as ambas e passou a viver consigo, fez duas viagens à Europa, continuou a política e a sociedade. Ultimamente parecia enojado de uma e de outra, mas não tendo em que matar o tempo, não abriu mão delas. Chegou a ser ministro uma vez, creio que da Marinha, não passou de sete meses. Nem a pasta lhe deu glória, nem a demissão desgosto. Não era ambicioso, e mais puxava para a quietação que para o movimento. Mas se lhe tivesse sucedido morrer de repente no Cassino, ante uma valsa ou quadrilha, entre duas portas? Podia ser muito bem. Cordovil compôs de imaginação a cena, ele caído de bruços ou de costas, o prazer turbado, a dança interrompida... e dali podia ser que não; um pouco de espanto apenas, outro de susto, os homens animando as damas, a orquestra continuando por instantes a oposição do compasso e da confusão. Não faltariam braços que o levassem para um gabinete, já morto, totalmente morto. \"Tal qual a morte de César\", ia dizendo consigo. E logo emendou: \"Não, melhor que ela; sem ameaça, nem armas, nem sangue, uma simples queda e o fim. Não sentiria nada. \" Cordovil deu consigo a rir ou a sorrir, alguma cousa que afastava o terror e deixava a sensação da liberdade. Em verdade, antes a morte assim que após longos dias ou longos meses e anos, como o adversário que perdera algumas horas antes. Nem era morrer; era um gesto de chapéu, que se perdia no ar com a própria mão e a alma que lhe dera movimento. Um cochilo e o sono eterno. Achava-lhe um só defeito, -- o aparato. Essa morte no meio de um baile defronte do Imperador, ao som de Strauss, contada, pintada, enfeitada nas folhas públicas, essa morte pareceria de encomenda. Paciência, uma vez que fosse repentina. Também pensou que podia ser na Câmara, no dia seguinte, ao começar o debate do orçamento. Tinha a palavra; já andava cheio de algarismos e citações. Não quis imaginar o caso, não valia a pena; mas o caso teimou e apareceu de si mesmo. O salão da Câmara, em vez do do Cassino, sem damas ou com poucas, nas tribunas. Vasto silêncio. Cordovil em pé começaria o discurso, depois de circular os olhos pela casa, fitar o ministro e fitar o presidente: \" Releve-me a Câmara que lhe tome algum tempo, serei breve, buscarei ser justo...\" Aqui uma nuvem lhe taparia os olhos, a língua pararia, o coração também, e ele cairia de golpe no chão. Câmara, galerias, tribunas ficariam assombradas. Muitos deputados correriam a erguê-lo; um, que era médico, verificaria a morte; não diria que fora de repente, como o do sobradinho do Aterrado, mas por outro estilo mais técnico. Os trabalhos seriam suspensos, depois de algumas palavras do presidente e escolha da comissão que acompanharia o finado ao cemitério ... Cordovil quis rir da circunstância de imaginar além da morte, o movimento e o saimento, as próprias notícias dos jornais, que ele leu de cor e depressa. Quis rir, mas preferia cochilar; os olhos é que, estando já perto de casa e da cama, não quiseram desperdiçar o sono, e ficaram arregalados. Então a morte, que ele imaginara pudesse ter sido no baile, antes de sair, ou no dia seguinte em plena sessão da Câmara, apareceu ali mesmo no carro. Supôs ele que, ao abrirem-lhe a portinhola, dessem com o seu cadáver. Sairia assim de uma noite ruidosa para outra pacífica, sem conversas, nem danças, nem encontros, sem espécie alguma de luta ou resistência. O estremeção que teve fez-lhe ver que não era verdade. Efetivamente, o carro entrou na chácara, estacou, e Domingos saltou da almofada para vir abrir-lhe a portinhola. Cordovil desceu com as pernas e a alma vivas, e entrou pela porta lateral, onde o aguardava com um castiçal e vela acesa o escravo Florindo. Subiu a escada, e os pés sentiam que os degraus eram deste mundo; se fossem do outro, desceriam naturalmente. Em cima, ao entrar no quarto, olhou para a cama; era a mesma dos sonos quietos e demorados. -- Veio alguém? -- Não, senhor, respondeu o escravo distraído, mas corrigiu logo:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 7
+            },
+            "quadril": {
+                "syns": [
+                    "quadris",
+                    "anca",
+                    "ancas"
+                ],
+                "occurrences": [
+                    "quadril"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão",
+                    "mão",
+                    "mão"
+                ],
+                "occurrences_n": 4
+            },
+            "perna": {
+                "syns": [
+                    "pernas"
+                ],
+                "occurrences": [
+                    "perna",
+                    "pernas"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 3
+            },
+            "junta": {
+                "syns": [
+                    "juntas"
+                ],
+                "occurrences": [
+                    "junta"
+                ],
+                "occurrences_n": 1
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            },
+            "língua": {
+                "syns": [
+                    "línguas"
+                ],
+                "occurrences": [
+                    "língua"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "o escravo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o escravo",
+                "child": "Florindo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "escravo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Florindo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Florindo",
+                "child": "o escravo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Florindo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "respondeu",
+                "child": "o escravo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhor",
+        "sentence": "Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "start_char": 9451,
+        "end_char": 9457,
+        "excerpt": "Veio alguém? -- Não, senhor, respondeu o escravo distraído, mas corrigiu logo: Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": ", senhor",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Veio",
+                "child": "senhor",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Veio",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "senhor",
+                "child": "Veio",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Veio",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "almoçou",
+                "child": "meu senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "almoçar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "domingo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "domingo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "aquele doutor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "domingo",
+                "child": "meu senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor",
+        "sentence": "Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "start_char": 9471,
+        "end_char": 9477,
+        "excerpt": "Veio alguém? -- Não, senhor, respondeu o escravo distraído, mas corrigiu logo: Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "aquele doutor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "aquele doutor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "domingo",
+                "child": "aquele doutor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu senhor",
+        "sentence": "Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "start_char": 9494,
+        "end_char": 9504,
+        "excerpt": "Veio alguém? -- Não, senhor, respondeu o escravo distraído, mas corrigiu logo: Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "almoçou",
+                "child": "meu senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "almoçar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "domingo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "domingo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "aquele doutor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "domingo",
+                "child": "meu senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu senhor",
+        "sentence": "-- Queria alguma cousa? -- Disse que vinha dar a meu senhor uma boa notícia, e deixou este bilhete -- que eu botei ao pé da cama.",
+        "start_char": 9571,
+        "end_char": 9581,
+        "excerpt": "Não, senhor, respondeu o escravo distraído, mas corrigiu logo: Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado. -- Queria alguma cousa? -- Disse que vinha dar a meu senhor uma boa notícia, e deixou este bilhete -- que eu botei ao pé da cama.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "almoçou",
+                "child": "meu senhor",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "almoçar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "domingo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "domingo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu senhor",
+                "child": "aquele doutor",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "domingo",
+                "child": "meu senhor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "domingo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "inimigo",
+        "sentence": "O bilhete referia a morte do inimigo; era de um dos amigos que usavam contar-lhe a marcha da moléstia.",
+        "start_char": 9681,
+        "end_char": 9688,
+        "excerpt": "Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado. -- Queria alguma cousa? -- Disse que vinha dar a meu senhor uma boa notícia, e deixou este bilhete -- que eu botei ao pé da cama. O bilhete referia a morte do inimigo; era de um dos amigos que usavam contar-lhe a marcha da moléstia.",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a morte",
+                "child": "inimigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "morte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "inimigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "inimigo",
+                "child": "a morte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "inimigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "morte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um dos amigos",
+        "sentence": "O bilhete referia a morte do inimigo; era de um dos amigos que usavam contar-lhe a marcha da moléstia.",
+        "start_char": 9697,
+        "end_char": 9710,
+        "excerpt": "Veio, sim, senhor; veio aquele doutor que almoçou com meu senhor domingo passado. -- Queria alguma cousa? -- Disse que vinha dar a meu senhor uma boa notícia, e deixou este bilhete -- que eu botei ao pé da cama. O bilhete referia a morte do inimigo; era de um dos amigos que usavam contar-lhe a marcha da moléstia.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o patife",
+        "sentence": "Enfim, morrera o patife.",
+        "start_char": 9850,
+        "end_char": 9858,
+        "excerpt": "O bilhete referia a morte do inimigo; era de um dos amigos que usavam contar-lhe a marcha da moléstia. Quis ser o primeiro a anunciar o desenlace, um alegrão, com um abraço apertado. Enfim, morrera o patife.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Vinha passar a noite; só ali soube que Cordovil fora ao Cassino.",
+        "start_char": 10044,
+        "end_char": 10052,
+        "excerpt": "Enfim, morrera o patife. Não disse a cousa assim por esses termos claros, mas os que empregou vinham a dar neles, acrescendo que não atribuiu esse único objeto à visita. Vinha passar a noite; só ali soube que Cordovil fora ao Cassino.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Florindo",
+        "sentence": "Ia a sair, quando lhe lembrou a morte e pediu ao Florindo que lhe deixasse escrever duas linhas.",
+        "start_char": 10119,
+        "end_char": 10127,
+        "excerpt": "Não disse a cousa assim por esses termos claros, mas os que empregou vinham a dar neles, acrescendo que não atribuiu esse único objeto à visita. Vinha passar a noite; só ali soube que Cordovil fora ao Cassino. Ia a sair, quando lhe lembrou a morte e pediu ao Florindo que lhe deixasse escrever duas linhas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pediu",
+                "child": "Florindo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Florindo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil entendeu o significado, e ainda uma vez lhe doeu a agonia do outro.",
+        "start_char": 10167,
+        "end_char": 10175,
+        "excerpt": "Vinha passar a noite; só ali soube que Cordovil fora ao Cassino. Ia a sair, quando lhe lembrou a morte e pediu ao Florindo que lhe deixasse escrever duas linhas. Cordovil entendeu o significado, e ainda uma vez lhe doeu a agonia do outro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "entendeu",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Florindo",
+        "sentence": "Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira.",
+        "start_char": 10331,
+        "end_char": 10339,
+        "excerpt": "Fez um gesto de melancolia e exclamou a meia voz: -- Coitado! Vivam as mortes súbitas! Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doutor do bilhete",
+        "sentence": "Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira.",
+        "start_char": 10375,
+        "end_char": 10392,
+        "excerpt": "Fez um gesto de melancolia e exclamou a meia voz: -- Coitado! Vivam as mortes súbitas! Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o senhor",
+        "sentence": "Nem pensou nisso; ajudou o senhor a preparar-se para dormir, ouviu as últimas ordens e despediu-se.",
+        "start_char": 10460,
+        "end_char": 10468,
+        "excerpt": "Vivam as mortes súbitas! Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira. Nem pensou nisso; ajudou o senhor a preparar-se para dormir, ouviu as últimas ordens e despediu-se.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ajudou",
+                "child": "o senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ajudar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil deitou-se.",
+        "start_char": 10535,
+        "end_char": 10543,
+        "excerpt": "Florindo, se referisse o gesto e a frase ao doutor do bilhete, talvez o fizesse arrepender da canseira. Nem pensou nisso; ajudou o senhor a preparar-se para dormir, ouviu as últimas ordens e despediu-se. Cordovil deitou-se.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deitou-se",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deitor se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "presidente",
+        "sentence": "Em parte, era a repetição das outras, a participação à Câmara, as palavras do presidente, comissão para o saimento, e o resto.",
+        "start_char": 10854,
+        "end_char": 10864,
+        "excerpt": "Teve então uma idéia, a de amanhecer morto. Esta hipótese, a melhor de todas, porque o apanharia meio morto, trouxe consigo mil fantasias que lhe arredaram o sono dos olhos. Em parte, era a repetição das outras, a participação à Câmara, as palavras do presidente, comissão para o saimento, e o resto.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", as palavras",
+                "child": "presidente",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "palavra",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": ", comissão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "comissão",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": ", e o resto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "resto",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": ", as palavras",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "presidente",
+                "child": "repetição",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presidente",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "repetição",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", comissão",
+                "child": "presidente",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "comissão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o saimento",
+                "child": "presidente",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "saimento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e o resto",
+                "child": "presidente",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "resto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "presidente",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "fâmulos",
+        "sentence": "Ouviu lástimas de amigos e de fâmulos, viu notícias impressas, todas lisonjeiras ou justas.",
+        "start_char": 10933,
+        "end_char": 10940,
+        "excerpt": "Esta hipótese, a melhor de todas, porque o apanharia meio morto, trouxe consigo mil fantasias que lhe arredaram o sono dos olhos. Em parte, era a repetição das outras, a participação à Câmara, as palavras do presidente, comissão para o saimento, e o resto. Ouviu lástimas de amigos e de fâmulos, viu notícias impressas, todas lisonjeiras ou justas.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "amigos",
+                "child": "de fâmulos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "fâmulo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de fâmulos",
+                "child": "amigos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fâmulo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de fâmulos",
+                "child": "lástimas",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "fâmulo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lástima",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil espancou as idéias fúnebres e esperou que as alegres tomassem conta dele e dançassem até cansá-lo.",
+        "start_char": 11142,
+        "end_char": 11150,
+        "excerpt": "Chamou-se ao quarto, à cama, a si mesmo: estava acordado. A lamparina deu melhor corpo à realidade. Cordovil espancou as idéias fúnebres e esperou que as alegres tomassem conta dele e dançassem até cansá-lo.",
+        "gender": "male",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "espancou",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "espancar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil cerrou os olhos com força, e fez mal, porque a força acentuou a vontade que tinha de dormir; cuidou de os afrouxar, e fez bem.",
+        "start_char": 12323,
+        "end_char": 12331,
+        "excerpt": "Ah! suspirou ele estirando o corpo cansado. Teve então uma idéia, a de amanhecer morto. Esta hipótese, a melhor de todas, porque o apanharia meio morto, trouxe consigo mil fantasias que lhe arredaram o sono dos olhos. Em parte, era a repetição das outras, a participação à Câmara, as palavras do presidente, comissão para o saimento, e o resto. Ouviu lástimas de amigos e de fâmulos, viu notícias impressas, todas lisonjeiras ou justas. Chegou a desconfiar que era já sonho. Não era. Chamou-se ao quarto, à cama, a si mesmo: estava acordado. A lamparina deu melhor corpo à realidade. Cordovil espancou as idéias fúnebres e esperou que as alegres tomassem conta dele e dançassem até cansá-lo. Tentou vencer uma visão com outra. Fez até uma cousa engenhosa, convocou os cinco sentidos, porque a memória de todos eles era aguda e fresca; foi assim evocando lances e rasgos longamente extintos. Gestos, cenas de sociedade e de família, panoramas, repassou muita cousa vista, com o aspecto do tempo diverso e remoto. Deixara de comer acepipes que outra vez lhe sabiam, como se estivesse agora a mastigá-los. Os ouvidos escutavam passos leves e pesados, cantos joviais e tristes, e palavra de todos os feitios. O tacto, o olfato, todos fizeram o seu ofício, durante um prazo que ele não calculou. Cuidou de dormir e cerrou bem os olhos. Não pôde, nem do lado direito, nem do esquerdo, de costas nem de bruços. Ergueu-se e foi ao relógio; eram três horas. Insensivelmente levou-o à orelha a ver se estava parado; estava andando, dera-lhe corda. Sim, tinha tempo de dormir um bom sono; deitou-se, cobriu a cabeça para não ver a luz. Ah! foi então que o sono tentou entrar, calado e surdo, todo cautelas, como seria a morte, se quisesse levá-lo de repente, para nunca mais. Cordovil cerrou os olhos com força, e fez mal, porque a força acentuou a vontade que tinha de dormir; cuidou de os afrouxar, e fez bem.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 6
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "orelha",
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 3
+            },
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "espancou",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "espancar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "cerrou",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cerrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil os sentia, e com os seus quis conchegá-los ainda mais...",
+        "start_char": 12623,
+        "end_char": 12631,
+        "excerpt": "Cordovil cerrou os olhos com força, e fez mal, porque a força acentuou a vontade que tinha de dormir; cuidou de os afrouxar, e fez bem. O sono, que ia a recuar, tornou atrás, e veio estirar-se ao lado deles, passando-lhe aqueles braços leves e pesados, a um tempo, que tiram à pessoa todo movimento. Cordovil os sentia, e com os seus quis conchegá-los ainda mais...",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "cerrou",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cerrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sentia",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "reformador de cansados",
+        "sentence": "Digo só o resultado do gesto, que foi arredar o sono de si, tão aborrecido ficou este reformador de cansados.",
+        "start_char": 12847,
+        "end_char": 12869,
+        "excerpt": "Cordovil os sentia, e com os seus quis conchegá-los ainda mais... A imagem não é boa, mas não tenho outra à mão nem tempo de ir buscá-la. Digo só o resultado do gesto, que foi arredar o sono de si, tão aborrecido ficou este reformador de cansados.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o sonho",
+        "sentence": "Quando parece que fala é o sonho que abre a boca à pessoa, ele não, ele é a pedra, e ainda a pedra fala, se lhe batem, como estão fazendo agora os calceteiros da minha rua.",
+        "start_char": 12999,
+        "end_char": 13006,
+        "excerpt": "perguntaria o sono, se falasse. Tu sabes que ele é mudo por essência. Quando parece que fala é o sonho que abre a boca à pessoa, ele não, ele é a pedra, e ainda a pedra fala, se lhe batem, como estão fazendo agora os calceteiros da minha rua.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "é o sonho",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a boca",
+                "child": "é o sonho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "boca",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pessoa",
+                "child": "é o sonho",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "pessoa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os calceteiros",
+        "sentence": "Quando parece que fala é o sonho que abre a boca à pessoa, ele não, ele é a pedra, e ainda a pedra fala, se lhe batem, como estão fazendo agora os calceteiros da minha rua.",
+        "start_char": 13118,
+        "end_char": 13132,
+        "excerpt": "perguntaria o sono, se falasse. Tu sabes que ele é mudo por essência. Quando parece que fala é o sonho que abre a boca à pessoa, ele não, ele é a pedra, e ainda a pedra fala, se lhe batem, como estão fazendo agora os calceteiros da minha rua.",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fazendo",
+                "child": "os calceteiros",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "calceteiro",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os calceteiros",
+                "child": "minha rua",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "calceteiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "minha rua",
+                "child": "os calceteiros",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "calceteiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil ia finalmente dormir, quando a idéia de amanhecer morto apareceu outra vez.",
+        "start_char": 13470,
+        "end_char": 13478,
+        "excerpt": "Vozes de conversa ou de pregão, rodas de carro, passos de gente, uma janela batida pelo vento, nada dessas cousas que ora ouço, animava então a rua e a noite de Cordovil. Tudo era propício ao sono. Cordovil ia finalmente dormir, quando a idéia de amanhecer morto apareceu outra vez.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a noite",
+                "child": "Cordovil",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "a noite",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "a rua",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "cousas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cousa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": ", uma janela",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "janela",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cordovil",
+                "child": "Vozes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cordovil",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Vozes",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "dormir",
+                "child": "Cordovil",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "dormir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "trabalhadores",
+        "sentence": "O céu queria clarear, alguns vultos iam passando na rua, trabalhadores e mercadores que desciam para o centro da cidade.",
+        "start_char": 13835,
+        "end_char": 13848,
+        "excerpt": "Sempre que o sono ia a grudar-lhe os olhos, a lembrança da morte os abria, até que ele sacudiu o lençol e saiu da cama. Abriu uma janela e encostou-se ao peitoril. O céu queria clarear, alguns vultos iam passando na rua, trabalhadores e mercadores que desciam para o centro da cidade.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "rua",
+                "child": ", trabalhadores",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "trabalhador",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", trabalhadores",
+                "child": "rua",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "trabalhador",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cordovil",
+        "sentence": "Cordovil sentiu um arrepio; não sabendo se era frio ou medo, foi vestir um camisão de chita, e voltou para a janela.",
+        "start_char": 13899,
+        "end_char": 13907,
+        "excerpt": "Abriu uma janela e encostou-se ao peitoril. O céu queria clarear, alguns vultos iam passando na rua, trabalhadores e mercadores que desciam para o centro da cidade. Cordovil sentiu um arrepio; não sabendo se era frio ou medo, foi vestir um camisão de chita, e voltou para a janela.",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "Cordovil",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cordovil",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o nosso homem",
+        "sentence": "Naturalmente a idéia da morte foi recuando e desapareceu de todo, enquanto o nosso homem, que suspirou por ela no Cassino, que a desejou para o dia seguinte na Câmara dos Deputados, que a encarou no carro, voltou-lhe as costas quando a viu entrar com o sono, seu irmão mais velho, -- ou mais moço não sei.",
+        "start_char": 14408,
+        "end_char": 14421,
+        "excerpt": "Homens e cousas vinham do descanso, o céu fazia economia de estrelas, apagando-as à medida que o sol ia chegando para o seu ofício. Tudo dava idéia de vida. Naturalmente a idéia da morte foi recuando e desapareceu de todo, enquanto o nosso homem, que suspirou por ela no Cassino, que a desejou para o dia seguinte na Câmara dos Deputados, que a encarou no carro, voltou-lhe as costas quando a viu entrar com o sono, seu irmão mais velho, -- ou mais moço não sei.",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "desejou",
+                "child": "o nosso homem",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "desejar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "aparencia_emo",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Cassino",
+                "child": "o nosso homem",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cassino",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu irmão mais velho",
+        "sentence": "Naturalmente a idéia da morte foi recuando e desapareceu de todo, enquanto o nosso homem, que suspirou por ela no Cassino, que a desejou para o dia seguinte na Câmara dos Deputados, que a encarou no carro, voltou-lhe as costas quando a viu entrar com o sono, seu irmão mais velho, -- ou mais moço não sei.",
+        "start_char": 14592,
+        "end_char": 14612,
+        "excerpt": "Homens e cousas vinham do descanso, o céu fazia economia de estrelas, apagando-as à medida que o sol ia chegando para o seu ofício. Tudo dava idéia de vida. Naturalmente a idéia da morte foi recuando e desapareceu de todo, enquanto o nosso homem, que suspirou por ela no Cassino, que a desejou para o dia seguinte na Câmara dos Deputados, que a encarou no carro, voltou-lhe as costas quando a viu entrar com o sono, seu irmão mais velho, -- ou mais moço não sei.",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "costa",
+                    "costas"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    }
+]

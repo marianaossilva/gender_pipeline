@@ -1,0 +1,181 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier",
+        "start_char": 18,
+        "end_char": 31,
+        "excerpt": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier Alguém te espera o amor, estrada afora, Seja o dia translúcido ou cinzento, Para extinguir a sobra e o sofrimento, Nas empedradas trilhas de quem chora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "méd",
+        "sentence": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier",
+        "start_char": 53,
+        "end_char": 56,
+        "excerpt": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier Alguém te espera o amor, estrada afora, Seja o dia translúcido ou cinzento, Para extinguir a sobra e o sofrimento, Nas empedradas trilhas de quem chora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recebido",
+                "child": "médium",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "médium",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "médium",
+                "child": "Francisco Cândido Xavier Alguém",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "médium",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Francisco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francisco Cândido Xavier Alguém",
+                "child": "médium",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Francisco",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "médium",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francisco Cândido Xavier",
+        "sentence": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier",
+        "start_char": 60,
+        "end_char": 84,
+        "excerpt": "Alguém na Estrada Auta de Souza Soneto recebido pelo médium Francisco Cândido Xavier Alguém te espera o amor, estrada afora, Seja o dia translúcido ou cinzento, Para extinguir a sobra e o sofrimento, Nas empedradas trilhas de quem chora!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "médium",
+                "child": "Francisco Cândido Xavier Alguém",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "médium",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Francisco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francisco Cândido Xavier Alguém",
+                "child": "médium",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Francisco",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "médium",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Esse alguém é Jesus que te abençoa !",
+        "start_char": 543,
+        "end_char": 548,
+        "excerpt": "... Não te detenhas! ... Vem !... O tempo é agora, Há quem te arrase ao temporal violento, E corações ao frio, à noite e ao vento Ante a descrença que se desarvora... Vem à estrada do mundo! ... Ampara e ama ! ... Esclarece e consola, alça por chama, O próprio coração fraterno e amigo !... Esse alguém é Jesus que te abençoa !",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Jesus",
+                "child": "te",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "te",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jesus",
+                "child": "abençoa",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abençoa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "te",
+                "child": "Jesus",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "te",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "abençoa",
+                "child": "Jesus",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abençoa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Mestre Amado",
+        "sentence": "E o Mestre Amado seguirá contigo !",
+        "start_char": 608,
+        "end_char": 622,
+        "excerpt": "... Não te detenhas! ... Vem !... O tempo é agora, Há quem te arrase ao temporal violento, E corações ao frio, à noite e ao vento Ante a descrença que se desarvora... Vem à estrada do mundo! ... Ampara e ama ! ... Esclarece e consola, alça por chama, O próprio coração fraterno e amigo !... Esse alguém é Jesus que te abençoa ! ... Trabalha, serve, esquece-te, perdoa E o Mestre Amado seguirá contigo !",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seguirá",
+                "child": "o Mestre Amado",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "seguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mestre",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Todos os dias agora acordo com alegria e pena Alberto Caeiro Escrito em 23-7-1930, primeira versão.",
+        "start_char": 46,
+        "end_char": 60,
+        "excerpt": "Todos os dias agora acordo com alegria e pena Alberto Caeiro Escrito em 23-7-1930, primeira versão. Todos dias agora acordo com alegria e pena. Antigamente acordava sem sensação nenhuma; acordava.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Todos os dias agora acordo com alegria e pena",
+                "child": "Alberto Caeiro Escrito",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "Todos os dias agora acordo com alegria e pena",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

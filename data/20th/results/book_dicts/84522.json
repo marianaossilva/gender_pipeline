@@ -1,0 +1,122 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "uma donzela",
+        "sentence": "Soneto do Prazer Maior Bocage Amar dentro do peito uma donzela;",
+        "start_char": 51,
+        "end_char": 62,
+        "excerpt": "Soneto do Prazer Maior Bocage Amar dentro do peito uma donzela; Jurar-lhe pelos céus a fé mais pura; Falar-lhe, conseguindo alta ventura, Depois da meia-noite na janela: Fazê-la vir abaixo, e com cautela Sentir abrir a porta, que murmura;",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os dois pimpolhos",
+        "sentence": "Beijar-lhe os vergonhosos, lindos olhos, E a boca, com prazer o mais jucundo, Apalpar-lhe de leve os dois pimpolhos:",
+        "start_char": 405,
+        "end_char": 422,
+        "excerpt": "Fazê-la vir abaixo, e com cautela Sentir abrir a porta, que murmura; Entrar pé ante pé, e com ternura Apertá-la nos braços casta e bela: Beijar-lhe os vergonhosos, lindos olhos, E a boca, com prazer o mais jucundo, Apalpar-lhe de leve os dois pimpolhos:",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "leve",
+                "child": "os dois pimpolhos",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pimpolho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os dois pimpolhos",
+                "child": ", E a boca",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pimpolho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "boca",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

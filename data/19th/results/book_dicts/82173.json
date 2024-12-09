@@ -1,0 +1,53 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Estas quatro canções, escrevi-as estando doente Alberto Caeiro",
+        "start_char": 48,
+        "end_char": 62,
+        "excerpt": "Estas quatro canções, escrevi-as estando doente Alberto Caeiro Estas quatro canções, escrevi-as estando doente. Agora ficaram escritas e não penso mais nelas.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "escrevi-as",
+                "child": "Alberto Caeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrevi-as",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os homens",
+        "sentence": "Gozemos, se pudermos, a nossa doença, Mas nunca a achemos saúde, Como os homens fazem.",
+        "start_char": 229,
+        "end_char": 238,
+        "excerpt": "Estas quatro canções, escrevi-as estando doente. Agora ficaram escritas e não penso mais nelas. Gozemos, se pudermos, a nossa doença, Mas nunca a achemos saúde, Como os homens fazem.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fazem",
+                "child": "os homens",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Gondoleiro do",
+        "sentence": "Sobre o barco dos amores , Da vida boiando flor , Douram teus olhos a fronte Do Gondoleiro do amor .",
+        "start_char": 227,
+        "end_char": 240,
+        "excerpt": "Teus olhos so negros , negros , Como as noites sem luar ... So ardentes , so profundos , Como o negrume do mar ; Sobre o barco dos amores , Da vida boiando flor , Douram teus olhos a fronte Do Gondoleiro do amor .",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "Teu sorriso uma aurora Que o horizante enrubesceu , -- Rosa aberta com o biquinho Das aves rubras do cu ;",
+        "start_char": 512,
+        "end_char": 516,
+        "excerpt": "E como em noites de Itlia Ama um canto o pescador , Bebe a harmonia em teus cantos O Gondoleiro do amor . Teu sorriso uma aurora Que o horizante enrubesceu , -- Rosa aberta com o biquinho Das aves rubras do cu ;",
+        "gender": "female",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "aberta",
+                "child": "Rosa",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rosa",
+                "child": "Teu sorriso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sorriso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um astro",
+        "sentence": "Teu amor na treva -um astro ,",
+        "start_char": 879,
+        "end_char": 887,
+        "excerpt": "O Gondoleiro do amor ! ? Teu amor na treva -um astro ,",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Teu amor",
+                "child": "-um astro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "astro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "-um astro",
+                "child": "Teu amor",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "astro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "Por isso eu te amo , querida , Quer no prazer , quer na dor ...",
+        "start_char": 972,
+        "end_char": 979,
+        "excerpt": "Teu amor na treva -um astro , No silncio uma cano , brisa-nas calmarias , abrigo-no tufo ; Por isso eu te amo , querida , Quer no prazer , quer na dor ...",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "tufo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "Rosa !",
+        "start_char": 1015,
+        "end_char": 1019,
+        "excerpt": "No silncio uma cano , brisa-nas calmarias , abrigo-no tufo ; Por isso eu te amo , querida , Quer no prazer , quer na dor ... Rosa !",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "tufo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sombra",
+        "sentence": "Sombra !",
+        "start_char": 1030,
+        "end_char": 1036,
+        "excerpt": "Rosa ! Canto ! Sombra !",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estrela",
+        "sentence": "Estrela !",
+        "start_char": 1039,
+        "end_char": 1046,
+        "excerpt": "Canto ! Sombra ! Estrela !",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gondoleiro do",
+        "sentence": "Do Gondoleiro do amor .",
+        "start_char": 227,
+        "end_char": 240,
+        "excerpt": "Teus olhos so negros , negros , Como as noites sem luar ... So ardentes , so profundos , Como o negrume do mar ; Sobre o barco dos amores , Da vida boiando flor , Douram teus olhos a fronte Do Gondoleiro do amor .",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Casimiro de Abreu",
+        "start_char": 14,
+        "end_char": 31,
+        "excerpt": "Poesia e amor Casimiro de Abreu A tarde que expira, A flor que suspira, O canto da lira, Da lua o clarão;",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A virgem incauta",
+        "sentence": "A virgem incauta, As vozes da flauta, E o canto do nauta",
+        "start_char": 261,
+        "end_char": 277,
+        "excerpt": "Da noite a harmonia Melhor que a do dia, E a viva ardentia Das águas do mar; A virgem incauta, As vozes da flauta, E o canto do nauta",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "noivos amantes",
+        "sentence": "Dos noivos amantes",
+        "start_char": 468,
+        "end_char": 482,
+        "excerpt": "Os trêmulos lumes, Da fonte os queixumes, E os meigos perfumes Que solta o vergel; As noites brilhantes, E os doces instantes Dos noivos amantes",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dalgum sabiá",
+        "sentence": "O bater do seio, Dos bosques no meio O doce gorjeio Dalgum sabiá;",
+        "start_char": 778,
+        "end_char": 790,
+        "excerpt": "A gota de orvalho Tremendo no galho Do velho carvalho, Nas folhas do ingá; O bater do seio, Dos bosques no meio O doce gorjeio Dalgum sabiá;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "gorjeio",
+                "child": "Dalgum sabiá",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "gorjeio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dalgum",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dalgum sabiá",
+                "child": "gorjeio",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dalgum",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "gorjeio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A órfã",
+        "sentence": "A órfã que chora, A flor que se cora Aos raios da aurora, No albor da manhã;",
+        "start_char": 792,
+        "end_char": 798,
+        "excerpt": "Tremendo no galho Do velho carvalho, Nas folhas do ingá; O bater do seio, Dos bosques no meio O doce gorjeio Dalgum sabiá; A órfã que chora, A flor que se cora Aos raios da aurora, No albor da manhã;",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A órfã",
+                "child": "A flor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "órfã",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A flor",
+                "child": "A órfã",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "órfã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "raios",
+                "child": "A órfã",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "raio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "órfã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aurora",
+                "child": "A órfã",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "aurora",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "órfã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "albor",
+                "child": "A órfã",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "albor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "órfã",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "manhã",
+                "child": "A órfã",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "manhã",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "órfã",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O triste",
+        "sentence": "O triste que vela Cantando à donzela",
+        "start_char": 1023,
+        "end_char": 1031,
+        "excerpt": "Os sonhos eternos, Os gozos mais ternos, Os beijos maternos E as vozes de irmã; O sino da torre Carpindo quem morre, E o rio que corre Banhando o chorão; O triste que vela Cantando à donzela",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Cantando",
+                "child": "O triste",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Cantando",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O triste",
+                "child": "vela",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "triste",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "vela",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vela",
+                "child": "O triste",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "vela",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "triste",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "à donzela",
+        "sentence": "O triste que vela Cantando à donzela",
+        "start_char": 1050,
+        "end_char": 1059,
+        "excerpt": "Os sonhos eternos, Os gozos mais ternos, Os beijos maternos E as vozes de irmã; O sino da torre Carpindo quem morre, E o rio que corre Banhando o chorão; O triste que vela Cantando à donzela",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que sobem a Deus!",
+        "start_char": 1397,
+        "end_char": 1401,
+        "excerpt": "Que a rica natura Soletra e murmura Nos hálitos seus, Da terra os encantos, Das noites os prantos, São hinos, são cantos Que sobem a Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sobem",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "cantos",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "canto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

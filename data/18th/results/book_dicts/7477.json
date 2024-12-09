@@ -1,0 +1,1837 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "E O 17 Artur Azevedo (IMPRESSÂO DA LEITURA DE UM CONTO FRANCES)",
+        "start_char": 12,
+        "end_char": 25,
+        "excerpt": "O 15 E O 17 Artur Azevedo (IMPRESSÂO DA LEITURA DE UM CONTO FRANCES) - Com efeito, Francelina!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "- Com efeito, Francelina!",
+        "start_char": 83,
+        "end_char": 93,
+        "excerpt": "O 15 E O 17 Artur Azevedo (IMPRESSÂO DA LEITURA DE UM CONTO FRANCES) - Com efeito, Francelina!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "efeito",
+                "child": "Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "efeito",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francelina",
+                "child": "efeito",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Francelina",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "efeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Não, senhora; é porque estas casas novas parecem-se todas umas com as outras, e por isso, em vez de entrar no 15, entrei no 17.",
+        "start_char": 162,
+        "end_char": 169,
+        "excerpt": "Que tempo levaste para ires ali à venda! Querias lá ficar?. - Não, senhora; é porque estas casas novas parecem-se todas umas com as outras, e por isso, em vez de entrar no 15, entrei no 17.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "patroa",
+        "sentence": "- A verdade, patroa.",
+        "start_char": 356,
+        "end_char": 362,
+        "excerpt": "Varei por ali adentro até a cozinha! - Que estás dizendo? - A verdade, patroa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "A verdade",
+                "child": ", patroa",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "verdade",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", patroa",
+                "child": "A verdade",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "verdade",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Sim, senhora.",
+        "start_char": 562,
+        "end_char": 569,
+        "excerpt": "Bom. Compraste o que tinhas de comprar? - Sim, senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Não, senhora.",
+        "start_char": 601,
+        "end_char": 608,
+        "excerpt": "- Sim, senhora. - Não falta mais nada? - Não, senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu.",
+        "start_char": 712,
+        "end_char": 722,
+        "excerpt": "Fecha a porta da rua e trata de preparar o jantar. As cinco horas estarei de volta. E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Francelina",
+        "sentence": "A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha.",
+        "start_char": 813,
+        "end_char": 825,
+        "excerpt": "As cinco horas estarei de volta. E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu. A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fechou",
+                "child": "A Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a patroa",
+        "sentence": "A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha.",
+        "start_char": 858,
+        "end_char": 866,
+        "excerpt": "As cinco horas estarei de volta. E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu. A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recomendara",
+                "child": "a patroa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "recomendarar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mulata",
+        "sentence": "Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua.",
+        "start_char": 942,
+        "end_char": 950,
+        "excerpt": "E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu. A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha. Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "a mulata",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mulata",
+                "child": "mulata",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulata",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a mulata",
+                "child": "passado",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulata",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "passar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Francelina",
+                "child": "a mulata",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Francelina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mulata",
+                "child": "a mulata",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "mulata",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua.",
+        "start_char": 954,
+        "end_char": 964,
+        "excerpt": "E D. Isabel, que já estava pronta para sair, passou para o corredor, desceu a escada e desapareceu. A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha. Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fechou",
+                "child": "A Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Francelina",
+                "child": "mulata",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Francelina",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Francelina",
+                "child": "a mulata",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Francelina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulata",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Francelina",
+                "child": "passado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Francelina",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "passar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mulata",
+                "child": "a Francelina",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "mulata",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma senhora idosa",
+        "sentence": "Correu à janela da sala de visitas para ver quem era, e deu com uma senhora idosa, bastante idosa, pequenina, curvada, esperando que lhe abrissem a porta.",
+        "start_char": 1079,
+        "end_char": 1096,
+        "excerpt": "A Francelina fechou a porta da rua, conforme a patroa lhe recomendara, e foi para a cozinha. Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua. Correu à janela da sala de visitas para ver quem era, e deu com uma senhora idosa, bastante idosa, pequenina, curvada, esperando que lhe abrissem a porta.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A criada",
+        "sentence": "A criada não a conhecia, mas pensou consigo que não haveria inconveniente em abrir a porta a uma velha, e por isso fê-la entrar.",
+        "start_char": 1170,
+        "end_char": 1178,
+        "excerpt": "Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua. Correu à janela da sala de visitas para ver quem era, e deu com uma senhora idosa, bastante idosa, pequenina, curvada, esperando que lhe abrissem a porta. A criada não a conhecia, mas pensou consigo que não haveria inconveniente em abrir a porta a uma velha, e por isso fê-la entrar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "conhecia",
+                "child": "A criada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "criado",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma velha",
+        "sentence": "A criada não a conhecia, mas pensou consigo que não haveria inconveniente em abrir a porta a uma velha, e por isso fê-la entrar.",
+        "start_char": 1263,
+        "end_char": 1272,
+        "excerpt": "Não havia passado meia hora, quando a mulata (a Francelina era mulata) ouviu bater levemente à porta da rua. Correu à janela da sala de visitas para ver quem era, e deu com uma senhora idosa, bastante idosa, pequenina, curvada, esperando que lhe abrissem a porta. A criada não a conhecia, mas pensou consigo que não haveria inconveniente em abrir a porta a uma velha, e por isso fê-la entrar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "abrir",
+                "child": "uma velha",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "rapariga",
+        "sentence": "Dá cá a mão, rapariga!",
+        "start_char": 1377,
+        "end_char": 1385,
+        "excerpt": "Ora, graças! Julguei que me deixassem ao sol durante uma hora! Dá cá a mão, rapariga!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Dá",
+                "child": "rapariga",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "rapariga",
+                "categories": [
+                    "carater",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "- Que deseja a senhora?",
+        "start_char": 1461,
+        "end_char": 1470,
+        "excerpt": "Ajuda-me a subir a escada! Bem sabes que já não tenho olhos! - Que deseja a senhora?",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "deseja",
+                "child": "a senhora",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "desejar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "aparencia_emo",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a senhora",
+                "child": "sabes",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "sabe",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "- perguntou Francelina quando chegaram à sala de visitas.",
+        "start_char": 1484,
+        "end_char": 1494,
+        "excerpt": "Bem sabes que já não tenho olhos! - Que deseja a senhora? - perguntou Francelina quando chegaram à sala de visitas.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Excus",
+        "sentence": "Excusas de falar baixo!",
+        "start_char": 1532,
+        "end_char": 1537,
+        "excerpt": "- perguntou Francelina quando chegaram à sala de visitas. - Excusas de falar baixo!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha sobrinha",
+        "sentence": "Que mania a de minha sobrinha!",
+        "start_char": 1729,
+        "end_char": 1743,
+        "excerpt": "Onde está ela? ... Já mudou de lugar! Que mania a de minha sobrinha!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mania",
+                "child": "minha sobrinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "maniar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sobrinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Francelina",
+        "sentence": "A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente.",
+        "start_char": 1787,
+        "end_char": 1799,
+        "excerpt": "Que mania a de minha sobrinha! Está sempre com os móveis daqui para ali. A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levou",
+                "child": "A Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a velhota",
+        "sentence": "A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente.",
+        "start_char": 1806,
+        "end_char": 1815,
+        "excerpt": "Que mania a de minha sobrinha! Está sempre com os móveis daqui para ali. A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levou",
+                "child": "a velhota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "velhota",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a velhota",
+                "child": "a cadeira",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "velhota",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cadeira",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a cadeira",
+                "child": "a velhota",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cadeira",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "velhota",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "balanço",
+                "child": "a velhota",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "balanço",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "velhota",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Sim, senhora!",
+        "start_char": 1947,
+        "end_char": 1954,
+        "excerpt": "Parece-me que eu não a conheço! Você é nova na casa? - Sim, senhora!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tia da sua patroa",
+        "sentence": "Sou tia da sua patroa.",
+        "start_char": 2142,
+        "end_char": 2159,
+        "excerpt": "- Estou aqui há oito dias, - Há oito dias? Então não me conhece, porque há um mês que eu cá não venho. Sou tia da sua patroa.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hem",
+        "sentence": "- Saiu.- Hem?- Saiu.- Mais alto! - Saiu.",
+        "start_char": 2185,
+        "end_char": 2188,
+        "excerpt": "Sou tia da sua patroa. Onde está ela? - Saiu.- Hem?- Saiu.- Mais alto! - Saiu.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Saiu.-",
+                "child": "Hem?-",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Saiu.-",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Hem?-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Hem?-",
+                "child": "Saiu.-",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Hem?-",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Saiu.-",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "start_char": 2332,
+        "end_char": 2342,
+        "excerpt": "Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Francelina.-",
+                "child": "Hem?-",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hem?-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francelina.-",
+                "child": "Francelina.-",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina.-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francelina.-",
+                "child": "Olha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "start_char": 2332,
+        "end_char": 2342,
+        "excerpt": "Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Francelina.-",
+                "child": "Hem?-",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hem?-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francelina.-",
+                "child": "Francelina.-",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina.-",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Francelina.-",
+                "child": "Olha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Francelina.-",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marcelina",
+        "sentence": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "start_char": 2370,
+        "end_char": 2379,
+        "excerpt": "Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Olha",
+                "child": ", Marcelina",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Olha",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marcelina",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Marcelina",
+                "child": "Olha",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Marcelina",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Olha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua patroa",
+        "sentence": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "start_char": 2521,
+        "end_char": 2531,
+        "excerpt": "Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "os chinelos",
+                "child": "sua patroa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "chinelo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua patroa",
+                "child": "os chinelos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "chinelo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Francelina",
+        "sentence": "A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "start_char": 2615,
+        "end_char": 2627,
+        "excerpt": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama. Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "A Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a velha",
+        "sentence": "A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "start_char": 2652,
+        "end_char": 2659,
+        "excerpt": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama. Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ordenou",
+                "child": "a velha",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ordenar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "start_char": 2614,
+        "end_char": 2624,
+        "excerpt": "- Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama. Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a criada",
+        "sentence": "Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe:",
+        "start_char": 2818,
+        "end_char": 2826,
+        "excerpt": "Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel. Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe:",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "disse-lhe",
+                "child": "a criada",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "disse-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "criar",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia da patroa",
+        "sentence": "A tia da patroa está dormindo lá na sala.",
+        "start_char": 2838,
+        "end_char": 2853,
+        "excerpt": "A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel. Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe: A tia da patroa está dormindo lá na sala.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minha tia",
+        "sentence": "A minha tia?",
+        "start_char": 2882,
+        "end_char": 2891,
+        "excerpt": "Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe: A tia da patroa está dormindo lá na sala. A minha tia?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tia",
+        "sentence": "- Como não tem tia?",
+        "start_char": 2930,
+        "end_char": 2933,
+        "excerpt": "A minha tia? Mas eu não tenho tia! - Como não tem tia?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "tem",
+                "child": "tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Francelina",
+        "sentence": "E a Francelina contou-lhe tudo quanto se passara.",
+        "start_char": 2937,
+        "end_char": 2949,
+        "excerpt": "Mas eu não tenho tia! - Como não tem tia? E a Francelina contou-lhe tudo quanto se passara.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "contou-lhe",
+                "child": "a Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "- exclamou D. Isabel, e correu para a sala, acompanhada pela criada.",
+        "start_char": 2996,
+        "end_char": 3006,
+        "excerpt": "E a Francelina contou-lhe tudo quanto se passara. - Ora essa! - exclamou D. Isabel, e correu para a sala, acompanhada pela criada.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criada",
+        "sentence": "- exclamou D. Isabel, e correu para a sala, acompanhada pela criada.",
+        "start_char": 3058,
+        "end_char": 3064,
+        "excerpt": "E a Francelina contou-lhe tudo quanto se passara. - Ora essa! - exclamou D. Isabel, e correu para a sala, acompanhada pela criada.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acompanhada",
+                "child": "criada",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhar",
+                "dep_c": "obl:agent",
+                "pos_c": "NOUN",
+                "lemma_c": "criada",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "criada",
+                "child": "a sala",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "criada",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sala",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A velha",
+        "sentence": "A velha dormia profundamente.",
+        "start_char": 3066,
+        "end_char": 3073,
+        "excerpt": "- Ora essa! - exclamou D. Isabel, e correu para a sala, acompanhada pela criada. A velha dormia profundamente.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "esta senhora",
+        "sentence": "- Mas eu não conheço, não sei quem é esta senhora!",
+        "start_char": 3133,
+        "end_char": 3145,
+        "excerpt": "- exclamou D. Isabel, e correu para a sala, acompanhada pela criada. A velha dormia profundamente. - Mas eu não conheço, não sei quem é esta senhora!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "E D. Isabel começou a sacudir a velha, que não acordava.",
+        "start_char": 3213,
+        "end_char": 3223,
+        "excerpt": "... Que mistério será este?... Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a velha",
+        "sentence": "E D. Isabel começou a sacudir a velha, que não acordava.",
+        "start_char": 3244,
+        "end_char": 3251,
+        "excerpt": "... Que mistério será este?... Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sacudir",
+                "child": "a velha",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "sacudir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "carater",
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Francelina",
+        "sentence": "A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda!",
+        "start_char": 3271,
+        "end_char": 3283,
+        "excerpt": "Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava. A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "A Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "patroa",
+        "sentence": "A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda!",
+        "start_char": 3329,
+        "end_char": 3335,
+        "excerpt": "Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava. A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sacuda",
+                "child": "patroa",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sacuda",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "patroa",
+                "child": "Sacuda",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sacuda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "D. Isabel sacudiu com mais força, e nada!.",
+        "start_char": 3356,
+        "end_char": 3366,
+        "excerpt": "E D. Isabel começou a sacudir a velha, que não acordava. A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda! D. Isabel sacudiu com mais força, e nada!.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "- Meu Deus!",
+        "start_char": 3406,
+        "end_char": 3410,
+        "excerpt": "A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda! D. Isabel sacudiu com mais força, e nada!. - Meu Deus!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a dona da casa",
+        "sentence": "E a dona da casa soltou um grito estridente.",
+        "start_char": 3450,
+        "end_char": 3464,
+        "excerpt": "Esta rigidez! ... Esta rigidez! ... E a dona da casa soltou um grito estridente.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "patroa",
+        "sentence": "- Que é, patroa?",
+        "start_char": 3502,
+        "end_char": 3508,
+        "excerpt": "... Já mudou de lugar! Que mania a de minha sobrinha! Está sempre com os móveis daqui para ali. A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente. - Ora, espera! Parece-me que eu não a conheço! Você é nova na casa? - Sim, senhora! Estou aqui há oito dias. - Grite!- Estou aqui há oito dias. - Grite mais alto! - Estou aqui há oito dias, - Há oito dias? Então não me conhece, porque há um mês que eu cá não venho. Sou tia da sua patroa. Onde está ela? - Saiu.- Hem?- Saiu.- Mais alto! - Saiu. - Saiu? Também aquilo não faz senão saracotear! Então agora que veio morar na cidade! Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama. Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel. Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe: A tia da patroa está dormindo lá na sala. A minha tia? Mas eu não tenho tia! - Como não tem tia? E a Francelina contou-lhe tudo quanto se passara. - Ora essa! - exclamou D. Isabel, e correu para a sala, acompanhada pela criada. A velha dormia profundamente. - Mas eu não conheço, não sei quem é esta senhora! Que quer isto dizer? ... Que mistério será este?... Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava. A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda! D. Isabel sacudiu com mais força, e nada!. - Meu Deus! Esta rigidez! ... Esta rigidez! ... E a dona da casa soltou um grito estridente. - Que é, patroa?",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tia",
+                "child": "sua patroa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "os chinelos",
+                "child": "sua patroa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "chinelo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sua patroa",
+                "child": "os chinelos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "chinelo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A tia",
+                "child": "patroa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "patroa",
+                "child": "A tia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sacuda",
+                "child": "patroa",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Sacuda",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "patroa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "patroa",
+                "child": "Sacuda",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "patroa",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Sacuda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Esta velha",
+        "sentence": "- Esta velha está morta!",
+        "start_char": 3512,
+        "end_char": 3522,
+        "excerpt": "E a dona da casa soltou um grito estridente. - Que é, patroa? - Esta velha está morta!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Esta velha",
+                "child": "morta",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "velha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "morto",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobre velhinha",
+        "sentence": "- Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor.",
+        "start_char": 3558,
+        "end_char": 3574,
+        "excerpt": "- Que é, patroa? - Esta velha está morta! - Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "- Morta?!Efetivamente, a pobre velhinha",
+                "child": ", durante o sono",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "velhinha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sono",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", durante o sono",
+                "child": "- Morta?!Efetivamente, a pobre velhinha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sono",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "velhinha",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "duas mulheres",
+        "sentence": "Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "start_char": 3659,
+        "end_char": 3672,
+        "excerpt": "- Esta velha está morta! - Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor. Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a aflição",
+                "child": "duas mulheres",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "aflição",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "duas mulheres",
+                "child": "a aflição",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "aflição",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "start_char": 3633,
+        "end_char": 3643,
+        "excerpt": "- Esta velha está morta! - Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor. Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a velha",
+        "sentence": "Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "start_char": 3767,
+        "end_char": 3774,
+        "excerpt": "- Esta velha está morta! - Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor. Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Esta velha",
+                "child": "morta",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "velha",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "morto",
+                "categories": [
+                    "aparencia",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "entrou",
+                "child": "a velha",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "velho",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a vizinha",
+        "sentence": "E pelo muro do terraço chamou a vizinha:",
+        "start_char": 3845,
+        "end_char": 3854,
+        "excerpt": "- Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor. Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17? E pelo muro do terraço chamou a vizinha:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "a vizinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "vizinha",
+        "sentence": "- Ó vizinha?",
+        "start_char": 3860,
+        "end_char": 3867,
+        "excerpt": "Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17? E pelo muro do terraço chamou a vizinha: - Ó vizinha?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "a vizinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinho",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vizinha",
+        "sentence": "Vizinha?",
+        "start_char": 3869,
+        "end_char": 3876,
+        "excerpt": "E pelo muro do terraço chamou a vizinha: - Ó vizinha? Vizinha?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A senhora",
+        "sentence": "- A senhora não tem uma tia velha, surda e catacega?",
+        "start_char": 3893,
+        "end_char": 3902,
+        "excerpt": "... Já mudou de lugar! Que mania a de minha sobrinha! Está sempre com os móveis daqui para ali. A Francelina levou a velhota para a cadeira de balanço, onde a instalou comodamente. - Ora, espera! Parece-me que eu não a conheço! Você é nova na casa? - Sim, senhora! Estou aqui há oito dias. - Grite!- Estou aqui há oito dias. - Grite mais alto! - Estou aqui há oito dias, - Há oito dias? Então não me conhece, porque há um mês que eu cá não venho. Sou tia da sua patroa. Onde está ela? - Saiu.- Hem?- Saiu.- Mais alto! - Saiu. - Saiu? Também aquilo não faz senão saracotear! Então agora que veio morar na cidade! Olha, ó... como te chamas? - Francelina.- Hem?- Francelina.- Olha, Marcelina, vai buscar uma xícara de café bem quente, com uma gotinha de conhaque, mas antes disso descalça-me estas botinas, e traze-me os chinelos da sua patroa, e também um dos travesseiros da cama. Enquanto ela não vem, vou passar pelo sono. A Francelina fez tudo quanto ordenou a velha, e deixou-a adormecida na sala, com os pés e a cabeça metidos nos chinelos e no travesseiro de D. Isabel. Quando esta chegou da rua, às cinco horas da tarde, a criada disse-lhe: A tia da patroa está dormindo lá na sala. A minha tia? Mas eu não tenho tia! - Como não tem tia? E a Francelina contou-lhe tudo quanto se passara. - Ora essa! - exclamou D. Isabel, e correu para a sala, acompanhada pela criada. A velha dormia profundamente. - Mas eu não conheço, não sei quem é esta senhora! Que quer isto dizer? ... Que mistério será este?... Vou acordá-la. E D. Isabel começou a sacudir a velha, que não acordava. A Francelina teve uma frase estúpida: - Sacuda com força, patroa, porque ela é surda! D. Isabel sacudiu com mais força, e nada!. - Meu Deus! Esta rigidez! ... Esta rigidez! ... E a dona da casa soltou um grito estridente. - Que é, patroa? - Esta velha está morta! - Morta?!Efetivamente, a pobre velhinha, durante o sono, sem se sentir, passara desta para melhor. Imagine-se a aflição das duas mulheres diante daquele cadáver misterioso; mas D. Isabel, que era inteligente, pensou: - Quem sabe se a velha não entrou no 15 pensando que era o 17? E pelo muro do terraço chamou a vizinha: - Ó vizinha? Vizinha? ... - Que é? - A senhora não tem uma tia velha, surda e catacega?",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "A senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "- Tenho, sim, senhora.",
+        "start_char": 3958,
+        "end_char": 3965,
+        "excerpt": "- Que é? - A senhora não tem uma tia velha, surda e catacega? - Tenho, sim, senhora.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "A senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tenho",
+                "child": "senhora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Isabel",
+        "sentence": "D. Isabel respirou.",
+        "start_char": 3966,
+        "end_char": 3976,
+        "excerpt": "- A senhora não tem uma tia velha, surda e catacega? - Tenho, sim, senhora. D. Isabel respirou.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a pobre velha",
+        "sentence": "Meia hora depois a pobre velha era removida para o Necrotério.",
+        "start_char": 4181,
+        "end_char": 4194,
+        "excerpt": "porque está... doente... Adoeceu aqui... Meia hora depois a pobre velha era removida para o Necrotério.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

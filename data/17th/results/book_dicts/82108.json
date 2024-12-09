@@ -1,0 +1,569 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bernardo de Bonaval",
+        "sentence": "Dissa fremosa en Bonaval assí Bernardo de Bonaval Diss'a fremosa en Bonaval assí:",
+        "start_char": 30,
+        "end_char": 49,
+        "excerpt": "Dissa fremosa en Bonaval assí Bernardo de Bonaval Diss'a fremosa en Bonaval assí: Ai Deus, u é meu amigo d'aquí, de Bonaval? Cuid'eu, coitad'é no seu coraçón, porque non foi migo na sagraçón de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Ai Deus, u é meu amigo d'aquí, de Bonaval?",
+        "start_char": 85,
+        "end_char": 89,
+        "excerpt": "Dissa fremosa en Bonaval assí Bernardo de Bonaval Diss'a fremosa en Bonaval assí: Ai Deus, u é meu amigo d'aquí, de Bonaval? Cuid'eu, coitad'é no seu coraçón, porque non foi migo na sagraçón de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ai Deus, u é meu amigo",
+                "child": "d'aquí",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "d'aquí",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ai Deus, u é meu amigo",
+                "child": ", de Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "d'aquí",
+                "child": "Ai Deus, u é meu amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "d'aquí",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de Bonaval",
+                "child": "Ai Deus, u é meu amigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonaval",
+        "sentence": "Ai Deus, u é meu amigo d'aquí, de Bonaval?",
+        "start_char": 116,
+        "end_char": 123,
+        "excerpt": "Dissa fremosa en Bonaval assí Bernardo de Bonaval Diss'a fremosa en Bonaval assí: Ai Deus, u é meu amigo d'aquí, de Bonaval? Cuid'eu, coitad'é no seu coraçón, porque non foi migo na sagraçón de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dissa",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dissa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dissa",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dissa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Dissa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bernardo",
+                "child": "Bonaval Diss'a",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bernardo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval Diss'a",
+                "child": "Bernardo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Bernardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval Diss'a",
+                "child": "Dissa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "assí",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "assí",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Dissa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "assí",
+                "child": "Bonaval",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "assí",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ai Deus, u é meu amigo",
+                "child": ", de Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de Bonaval",
+                "child": "Ai Deus, u é meu amigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sagraçón",
+                "child": "Bonaval",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sagraçón",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "sagraçón",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sagraçón",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "migo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "migo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Cuid'eu",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Cuid'eu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonaval",
+        "sentence": "Cuid'eu, coitad'é no seu coraçón, porque non foi migo na sagraçón de Bonaval.",
+        "start_char": 194,
+        "end_char": 201,
+        "excerpt": "Dissa fremosa en Bonaval assí Bernardo de Bonaval Diss'a fremosa en Bonaval assí: Ai Deus, u é meu amigo d'aquí, de Bonaval? Cuid'eu, coitad'é no seu coraçón, porque non foi migo na sagraçón de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Dissa",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dissa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dissa",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "dissa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Dissa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bernardo",
+                "child": "Bonaval Diss'a",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bernardo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval Diss'a",
+                "child": "Bernardo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Bernardo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval Diss'a",
+                "child": "Dissa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "assí",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "assí",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Dissa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dissa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "assí",
+                "child": "Bonaval",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "assí",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ai Deus, u é meu amigo",
+                "child": ", de Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", de Bonaval",
+                "child": "Ai Deus, u é meu amigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sagraçón",
+                "child": "Bonaval",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sagraçón",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "sagraçón",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sagraçón",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "migo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "migo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "Cuid'eu",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Cuid'eu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonaval",
+        "sentence": "poderei de Bonaval.",
+        "start_char": 272,
+        "end_char": 279,
+        "excerpt": "Pois eu migo seu mandado non hei, ja m'eu leda partir non poderei de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "poderei",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poderar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonaval",
+        "sentence": "Pois m'aquí seu mandado non chegou, muito vin eu máis leda ca me vou de Bonaval.",
+        "start_char": 353,
+        "end_char": 360,
+        "excerpt": "non foi migo na sagraçón de Bonaval. Pois eu migo seu mandado non hei, ja m'eu leda partir non poderei de Bonaval. Pois m'aquí seu mandado non chegou, muito vin eu máis leda ca me vou de Bonaval.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sagraçón",
+                "child": "Bonaval",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sagraçón",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "sagraçón",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sagraçón",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Bonaval",
+                "child": "migo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bonaval",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "migo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poderei",
+                "child": "Bonaval",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poderar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vou",
+                "child": "Bonaval",
+                "dep_h": "advcl",
+                "pos_h": "AUX",
+                "lemma_h": "ir",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonaval",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

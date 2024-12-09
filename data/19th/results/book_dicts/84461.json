@@ -1,0 +1,49 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "O espelho reflecte certo Alberto Caeiro",
+        "start_char": 25,
+        "end_char": 39,
+        "excerpt": "O espelho reflecte certo Alberto Caeiro O espelho reflecte certo; não erra porque não pensa. Pensar é essencialmente errar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O espelho",
+        "sentence": "O espelho reflecte certo; não erra porque não pensa.",
+        "start_char": 40,
+        "end_char": 49,
+        "excerpt": "O espelho reflecte certo Alberto Caeiro O espelho reflecte certo; não erra porque não pensa. Pensar é essencialmente errar.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "reflecte",
+                "child": "O espelho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "reflectir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espelho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "reflecte",
+                "child": "O espelho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "reflectir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "espelho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

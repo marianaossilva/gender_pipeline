@@ -1,0 +1,107 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rei",
+        "sentence": "Soneto Maçônico Bocage Turba esfaimada, multidão canina, Corja, que tem por deus ou Momo, ou Baco, Reina, e decreta nos covis de Caco Ignorância daqui, dali rapina:",
+        "start_char": 99,
+        "end_char": 102,
+        "excerpt": "Soneto Maçônico Bocage Turba esfaimada, multidão canina, Corja, que tem por deus ou Momo, ou Baco, Reina, e decreta nos covis de Caco Ignorância daqui, dali rapina: Colhe de alto sistema e lei divina Imaginário jus, com que encha o saco; Textos gagueja em vão",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caco",
+        "sentence": "Soneto Maçônico Bocage Turba esfaimada, multidão canina, Corja, que tem por deus ou Momo, ou Baco, Reina, e decreta nos covis de Caco Ignorância daqui, dali rapina:",
+        "start_char": 129,
+        "end_char": 133,
+        "excerpt": "Soneto Maçônico Bocage Turba esfaimada, multidão canina, Corja, que tem por deus ou Momo, ou Baco, Reina, e decreta nos covis de Caco Ignorância daqui, dali rapina: Colhe de alto sistema e lei divina Imaginário jus, com que encha o saco; Textos gagueja em vão",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Doutor macaco",
+        "sentence": "Doutor macaco",
+        "start_char": 260,
+        "end_char": 273,
+        "excerpt": "Colhe de alto sistema e lei divina Imaginário jus, com que encha o saco; Textos gagueja em vão Doutor macaco",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anões",
+        "sentence": "Cujo vulto é de anões, a tromba é porra!",
+        "start_char": 511,
+        "end_char": 516,
+        "excerpt": "Círculo umbroso de venais pedantes, Com torpe astúcia de maligna zorra Usurpa nome excelso, e graus flamantes: Ora mijei na súcia, inda que eu morra Corno, arrocho, bambu nos elefantes, Cujo vulto é de anões, a tromba é porra!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Cujo vulto",
+                "child": "anões",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vulto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "anão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "anões",
+                "child": "Cujo vulto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "anão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a tromba",
+                "child": "anões",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tromba",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "anão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

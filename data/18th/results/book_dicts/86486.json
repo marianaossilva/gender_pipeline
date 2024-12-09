@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rosa Murcha Casimiro de Abreu",
+        "sentence": "Rosa Murcha Casimiro de Abreu",
+        "start_char": 0,
+        "end_char": 29,
+        "excerpt": "Rosa Murcha Casimiro de Abreu Esta rosa desbotada Já tantas vezes beijada, Pálido emblema de amor; É uma folha caída",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Guanabara",
+        "sentence": "Foi num dia de Novembro: Deixava a terra natal, A minha pátria tão cara, O meu lindo Guanabara, Em busca de Portugal.",
+        "start_char": 283,
+        "end_char": 292,
+        "excerpt": "Há que tempos ! Bem me lembro... Foi num dia de Novembro: Deixava a terra natal, A minha pátria tão cara, O meu lindo Guanabara, Em busca de Portugal.",
+        "gender": "female",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "cara"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lindo",
+                "child": "Guanabara",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "lindo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Guanabara",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Guanabara",
+                "child": "lindo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Guanabara",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "lindo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dun",
+        "sentence": "Duns lábios inda inocentes",
+        "start_char": 574,
+        "end_char": 577,
+        "excerpt": "Deixava a pátria, é verdade, Ia morrer de saudade Noutros climas, noutras plagas; Mas tinha orações ferventes Duns lábios inda inocentes",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lábios",
+                "child": "Duns",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "lábio",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "duns",
+                "categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "lábios",
+                        "child": "Duns",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "duns"
+                    },
+                    {
+                        "head": "lábios",
+                        "child": "inocentes",
+                        "dep_h": "ROOT",
+                        "pos_h": "NOUN",
+                        "lemma_h": "lábio",
+                        "dep_c": "amod",
+                        "pos_c": "ADJ",
+                        "lemma_c": "inocente"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E hoje, e hoje, meu Deus?!",
+        "start_char": 649,
+        "end_char": 653,
+        "excerpt": "Duns lábios inda inocentes Enquanto cortasse as vagas. E hoje, e hoje, meu Deus?!",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a virgem formosa",
+        "sentence": "Da divindade aos arcanos Dobrando a fronte saudosa, Chorar a virgem formosa Morta na flor dos anos!",
+        "start_char": 888,
+        "end_char": 904,
+        "excerpt": "Interrogar os mistérios! Carpir o lírio pendido Pelo vento desabrido... Da divindade aos arcanos Dobrando a fronte saudosa, Chorar a virgem formosa Morta na flor dos anos!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]

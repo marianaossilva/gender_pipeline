@@ -1,0 +1,146 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Pregador Pecador Bocage",
+        "sentence": "Soneto do Pregador Pecador Bocage Bojudo fradalhão de larga venta, Abismo imundo de tabaco esturro, Doutor na asneira, na ciência burro, Com barba hirsuta, que no peito assenta:",
+        "start_char": 10,
+        "end_char": 33,
+        "excerpt": "Soneto do Pregador Pecador Bocage Bojudo fradalhão de larga venta, Abismo imundo de tabaco esturro, Doutor na asneira, na ciência burro, Com barba hirsuta, que no peito assenta: No púlpito um domingo se apresenta; Pregas nas grades espantoso murro;",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Soneto",
+                "child": "Pregador Pecador Bocage",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "soneto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pregador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Pregador Pecador Bocage",
+                "child": "Soneto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pregador",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "soneto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Doutor",
+        "sentence": "Soneto do Pregador Pecador Bocage Bojudo fradalhão de larga venta, Abismo imundo de tabaco esturro, Doutor na asneira, na ciência burro, Com barba hirsuta, que no peito assenta:",
+        "start_char": 100,
+        "end_char": 106,
+        "excerpt": "Soneto do Pregador Pecador Bocage Bojudo fradalhão de larga venta, Abismo imundo de tabaco esturro, Doutor na asneira, na ciência burro, Com barba hirsuta, que no peito assenta: No púlpito um domingo se apresenta; Pregas nas grades espantoso murro;",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "Boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "povo",
+        "sentence": "E acalmado do povo o grão sussurro",
+        "start_char": 263,
+        "end_char": 267,
+        "excerpt": "No púlpito um domingo se apresenta; Pregas nas grades espantoso murro; E acalmado do povo o grão sussurro",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acalmado",
+                "child": "povo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acalmar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "povo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "padre",
+        "sentence": "\"Não (diz uma) tu padre não me engodas:",
+        "start_char": 447,
+        "end_char": 452,
+        "excerpt": "Quatro putas mofavam de seus brados, Não qu'erendo que gritasse contra as modas Um pecador dos mais desaforados: \"Não (diz uma) tu padre não me engodas:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

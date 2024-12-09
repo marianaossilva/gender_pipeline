@@ -1,0 +1,1211 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Olavo Bilac",
+        "sentence": "Olavo Bilac Le poète est cise1eur, Le ciseleur est poète.",
+        "start_char": 16,
+        "end_char": 27,
+        "excerpt": "PROFISSÃO DE FÉ Olavo Bilac Le poète est cise1eur, Le ciseleur est poète. Victor Hugo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Victor Hugo",
+        "sentence": "Victor Hugo.",
+        "start_char": 74,
+        "end_char": 85,
+        "excerpt": "PROFISSÃO DE FÉ Olavo Bilac Le poète est cise1eur, Le ciseleur est poète. Victor Hugo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zeus Capitolino",
+        "sentence": "Não quero o Zeus Capitolino Hercúleo e belo, Talhar no mármore divino Com o camartelo.",
+        "start_char": 99,
+        "end_char": 114,
+        "excerpt": "Olavo Bilac Le poète est cise1eur, Le ciseleur est poète. Victor Hugo. Não quero o Zeus Capitolino Hercúleo e belo, Talhar no mármore divino Com o camartelo.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quero",
+                "child": "o Zeus Capitolino Hercúleo e belo, Talhar no mármore",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zeus",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Zeus Capitolino Hercúleo e belo, Talhar no mármore",
+                "child": "divino",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zeus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "divino",
+                "categories": [
+                    "aparencia_carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Erguer de Atene",
+        "sentence": "Para, brutal, Erguer de Atene o altivo porte Descomunal.",
+        "start_char": 224,
+        "end_char": 239,
+        "excerpt": "Não quero o Zeus Capitolino Hercúleo e belo, Talhar no mármore divino Com o camartelo. Que outro - não eu! - a pedra corte Para, brutal, Erguer de Atene o altivo porte Descomunal.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o ourives",
+        "sentence": "Invejo o ourives quando escrevo:",
+        "start_char": 376,
+        "end_char": 385,
+        "excerpt": "Mais que esse vulto extraordinário, Que assombra a vista, Seduz-me um leve relicário De fino artista. Invejo o ourives quando escrevo:",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Invejo",
+                "child": "o ourives",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "invejo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ourive",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O alvo cristal",
+        "sentence": "O alvo cristal, a pedra rara, O ônix prefiro.",
+        "start_char": 515,
+        "end_char": 529,
+        "excerpt": "Imito-o. E, pois, nem de Carrara A pedra firo: O alvo cristal, a pedra rara, O ônix prefiro.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o cinzel",
+        "sentence": "A pena, como em prata firme Corre o cinzel.",
+        "start_char": 641,
+        "end_char": 649,
+        "excerpt": "O alvo cristal, a pedra rara, O ônix prefiro. Por isso, corre, por servir-me, Sobre o papel A pena, como em prata firme Corre o cinzel.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Corre",
+                "child": "o cinzel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "cinzel",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Azul",
+        "sentence": "Cinge-lhe ao corpo a ampla roupagem Azul-celeste.",
+        "start_char": 736,
+        "end_char": 740,
+        "excerpt": "Corre; desenha, enfeita a imagem, A idéia veste: Cinge-lhe ao corpo a ampla roupagem Azul-celeste.",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "alte",
+        "sentence": "Torce, aprimora, alteia, lima",
+        "start_char": 767,
+        "end_char": 771,
+        "excerpt": "A idéia veste: Cinge-lhe ao corpo a ampla roupagem Azul-celeste. Torce, aprimora, alteia, lima",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Torce",
+                "child": ", alteia",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Torce",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "alteia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", alteia",
+                "child": "Torce",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "alteia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Torce",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Becerril",
+        "sentence": "De Becerril.",
+        "start_char": 1023,
+        "end_char": 1031,
+        "excerpt": "Sem um defeito: E que o lavor do verso, acaso, Por tão subtil, Possa o lavor lembrar de um vaso De Becerril.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um vaso",
+                "child": "De Becerril",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vaso",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Becerril",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De Becerril",
+                "child": "um vaso",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Becerril",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "vaso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "De Becerril",
+                "child": "um defeito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Becerril",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "defeito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deusa serena",
+        "sentence": "Minha pena Segue esta norma, Por te servir, Deusa serena, Serena Forma!",
+        "start_char": 1282,
+        "end_char": 1294,
+        "excerpt": ". Victor Hugo. Não quero o Zeus Capitolino Hercúleo e belo, Talhar no mármore divino Com o camartelo. Que outro - não eu! - a pedra corte Para, brutal, Erguer de Atene o altivo porte Descomunal. Mais que esse vulto extraordinário, Que assombra a vista, Seduz-me um leve relicário De fino artista. Invejo o ourives quando escrevo: Imito o amor Com que ele, em ouro, o alto relevo Faz de uma flor. Imito-o. E, pois, nem de Carrara A pedra firo: O alvo cristal, a pedra rara, O ônix prefiro. Por isso, corre, por servir-me, Sobre o papel A pena, como em prata firme Corre o cinzel. Corre; desenha, enfeita a imagem, A idéia veste: Cinge-lhe ao corpo a ampla roupagem Azul-celeste. Torce, aprimora, alteia, lima A frase; e, enfim, No verso de ouro engasta a rima, Como um rubim. Quero que a estrofe cristalina, Dobrada ao jeito Do ourives, saia da oficina Sem um defeito: E que o lavor do verso, acaso, Por tão subtil, Possa o lavor lembrar de um vaso De Becerril. E horas sem conto passo, mudo, O olhar atento, A trabalhar, longe de tudo O pensamento. Porque o escrever - tanta perícia, Tanta requer, Que oficio tal... nem há notícia De outro qualquer . Assim procedo. Minha pena Segue esta norma, Por te servir, Deusa serena, Serena Forma!",
+        "gender": "female",
+        "pch_occurrences": {
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deusa",
+        "sentence": "Deusa!",
+        "start_char": 1310,
+        "end_char": 1315,
+        "excerpt": "Assim procedo. Minha pena Segue esta norma, Por te servir, Deusa serena, Serena Forma! Deusa!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "servir",
+                "child": "Deusa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "servir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deusa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deusa",
+                "child": "serena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "Serena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deusa",
+                "child": ", Serena Forma",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deusa",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Serena",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Serena Forma",
+                "child": "Deusa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Serena",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deusa",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Blasfemo",
+        "sentence": "Blasfemo> em grita surda e horrendo Ímpeto, o bando Venha dos bárbaros crescendo, Vociferando... Deixa-o: que venha e uivando passe -",
+        "start_char": 1413,
+        "end_char": 1421,
+        "excerpt": "Deusa! A onda vil, que se avoluma De um torvo mar, Deixa-a crescer; e o lodo e a espuma Deixa-a rolar! Blasfemo> em grita surda e horrendo Ímpeto, o bando Venha dos bárbaros crescendo, Vociferando... Deixa-o: que venha e uivando passe -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Blasfemo",
+                "child": "grita",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Blasfemo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Blasfemo",
+                "child": ", o bando",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Blasfemo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bando",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grita",
+                "child": "Blasfemo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grita",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ímpeto",
+                "child": "Blasfemo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ímpeto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o bando",
+                "child": "Blasfemo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "bando",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Venha",
+                "child": "Blasfemo",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "venha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bárbaros",
+                "child": "Blasfemo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bárbaro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o bando",
+        "sentence": "Blasfemo> em grita surda e horrendo Ímpeto, o bando Venha dos bárbaros crescendo, Vociferando... Deixa-o: que venha e uivando passe -",
+        "start_char": 1457,
+        "end_char": 1464,
+        "excerpt": "Deusa! A onda vil, que se avoluma De um torvo mar, Deixa-a crescer; e o lodo e a espuma Deixa-a rolar! Blasfemo> em grita surda e horrendo Ímpeto, o bando Venha dos bárbaros crescendo, Vociferando... Deixa-o: que venha e uivando passe -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Blasfemo",
+                "child": ", o bando",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Blasfemo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bando",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o bando",
+                "child": "Venha",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "bando",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "venha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o bando",
+                "child": "bárbaros",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "bando",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "bárbaro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", o bando",
+                "child": "Blasfemo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "bando",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Blasfemo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Venha",
+                "child": ", o bando",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "venha",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bando",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "bárbaros",
+                "child": ", o bando",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "bárbaro",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "bando",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um vândalo",
+        "sentence": "De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "start_char": 1757,
+        "end_char": 1767,
+        "excerpt": "E, ao braço o escudo> a raiva afronta Dessa procela! Este que à frente vem, e o todo Possui minaz De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um vândalo",
+                "child": "de um visigodo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vândalo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "visigodo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um vândalo",
+                "child": "vulto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vândalo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de um visigodo",
+                "child": "um vândalo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "visigodo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Cruel",
+                "child": "um vândalo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruel",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "audaz",
+                "child": "um vândalo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "audaz",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "vulto",
+                "child": "um vândalo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vulto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ferrenho alteia",
+                "child": "um vândalo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ferrenho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", em jato",
+                "child": "um vândalo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "jato",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o amargo",
+                "child": "um vândalo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "amargo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um visigodo",
+        "sentence": "De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "start_char": 1774,
+        "end_char": 1785,
+        "excerpt": "E, ao braço o escudo> a raiva afronta Dessa procela! Este que à frente vem, e o todo Possui minaz De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um vândalo",
+                "child": "de um visigodo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vândalo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "visigodo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de um visigodo",
+                "child": ", Cruel",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "visigodo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cruel",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de um visigodo",
+                "child": "audaz",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "visigodo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "audaz",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de um visigodo",
+                "child": "um vândalo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "visigodo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Cruel",
+                "child": "de um visigodo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cruel",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "visigodo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "audaz",
+                "child": "de um visigodo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "audaz",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "visigodo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ferrenho",
+        "sentence": "De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "start_char": 1839,
+        "end_char": 1847,
+        "excerpt": "E, ao braço o escudo> a raiva afronta Dessa procela! Este que à frente vem, e o todo Possui minaz De um vândalo ou de um visigodo, Cruel e audaz; Este, que, de entre os mais, o vulto Ferrenho alteia, E, em jato, expele o amargo insulto Que te enlameia:",
+        "gender": "male",
+        "pch_occurrences": {
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braço"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vulto",
+                "child": "Ferrenho alteia",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vulto",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Ferrenho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ferrenho alteia",
+                "child": "vulto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ferrenho",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ferrenho alteia",
+                "child": "um vândalo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ferrenho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vândalo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A bruta",
+        "sentence": "A bruta mão.",
+        "start_char": 1997,
+        "end_char": 2004,
+        "excerpt": "É em vão que as forças cansa, e â luta Se atira; é em vão Que brande no ar a maça bruta A bruta mão.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "A bruta",
+                "child": "mão",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "bruta",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "mão",
+                "child": "A bruta",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "bruta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deusa",
+        "sentence": "Não morrerás, Deusa sublime!",
+        "start_char": 2024,
+        "end_char": 2029,
+        "excerpt": "Que brande no ar a maça bruta A bruta mão. Não morrerás, Deusa sublime!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O Belo",
+        "sentence": "O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "start_char": 2312,
+        "end_char": 2318,
+        "excerpt": "Ah! ver por terra, profanada, A ara partida E a Arte imortal aos pés calcada, Prostituída!... Ver derribar do eterno sólio O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "O Belo",
+                "child": ", e o som",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Belo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", e o som",
+                "child": "O Belo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "som",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ouvir",
+                "child": "O Belo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "ouvir",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "queda",
+                "child": "O Belo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "queda",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": "O Belo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "O Belo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Acropólio",
+        "sentence": "O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "start_char": 2346,
+        "end_char": 2355,
+        "excerpt": "Ah! ver por terra, profanada, A ara partida E a Arte imortal aos pés calcada, Prostituída!... Ver derribar do eterno sólio O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "queda",
+                "child": "Acropólio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "queda",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Acropólio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": ", Do Partenon",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Partenon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": "queda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "queda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": "Ouvir",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ouvir",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": ", e o som",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Acropólio",
+                "child": "O Belo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "Acropólio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Acropólio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Partenon",
+        "sentence": "O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "start_char": 2360,
+        "end_char": 2368,
+        "excerpt": "Ah! ver por terra, profanada, A ara partida E a Arte imortal aos pés calcada, Prostituída!... Ver derribar do eterno sólio O Belo, e o som Ouvir da queda do Acropólio, Do Partenon!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Acropólio",
+                "child": ", Do Partenon",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Acropólio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Partenon",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "Acropólio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Acropólio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "queda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "queda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "Ouvir",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "ouvir",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": ", e o som",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Do Partenon",
+                "child": "O Belo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Partenon",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Belo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vive",
+        "sentence": "Vive!",
+        "start_char": 2753,
+        "end_char": 2757,
+        "excerpt": "Que a minha dor nem a um amigo Inspire dó... Mas, ah! que eu fique só contigo, Contigo só! Vive!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ind",
+        "sentence": "Caia eu também, sem esperança, Porém tranqüilo, Inda, ao cair, vibrando a lança, Em prol do Estilo!",
+        "start_char": 2989,
+        "end_char": 2992,
+        "excerpt": "No altar: porém, Se inda é pequeno o sacrifício, Morra eu também! Caia eu também, sem esperança, Porém tranqüilo, Inda, ao cair, vibrando a lança, Em prol do Estilo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tranqüilo",
+                "child": ", Inda",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "tranqüilo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Inda",
+                "child": "tranqüilo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Inda",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "tranqüilo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

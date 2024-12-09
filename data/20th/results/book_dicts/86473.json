@@ -1,0 +1,253 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Orações Casimiro de Abreu",
+        "start_char": 8,
+        "end_char": 25,
+        "excerpt": "Orações Casimiro de Abreu A *",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A *",
+        "sentence": "A **",
+        "start_char": 26,
+        "end_char": 29,
+        "excerpt": "Orações Casimiro de Abreu A *",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Da férvida oração nas asas puras, E Deus recebe como um longo hosana",
+        "start_char": 108,
+        "end_char": 112,
+        "excerpt": "** * A alma, como o incenso, ao céu s'eleva Da férvida oração nas asas puras, E Deus recebe como um longo hosana",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "recebe",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "duma menina",
+        "sentence": "Dos lábios virginais duma menina.",
+        "start_char": 306,
+        "end_char": 317,
+        "excerpt": "O cântico de amor das criaturas. Do trono d'ouro que circundam anjos Sorrindo ao mundo a Virgem-Mãe s'inclina Ouvindo as vozes d'inocência bela Dos lábios virginais duma menina.",
+        "gender": "female",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábios",
+                    "lábio"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as vozes",
+                "child": "d'inocência bela Dos lábios virginais duma menina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "d'inocência",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "d'inocência bela Dos lábios virginais duma menina",
+                "child": "as vozes",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "d'inocência",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As doces",
+        "sentence": "As doces falas de tua alma santa Valem mais do que eu valho oh!",
+        "start_char": 460,
+        "end_char": 468,
+        "excerpt": "Da tarde morta o murmurar se cala Ante a prece infantil, que sobe e voa Fresca e serena qual perfume doce Das frescas rosas de gentil coroa. As doces falas de tua alma santa Valem mais do que eu valho oh!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "valho",
+                "child": "As doces falas de tua",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "valhar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "As doces falas de tua",
+                "child": "alma",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "doce",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "As doces falas de tua",
+                "child": "santa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "doce",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "santo",
+                "categories": [
+                    "carater",
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "As doces falas de tua",
+                "child": "Valem",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "doce",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Valem",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alma",
+                "child": "As doces falas de tua",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Valem",
+                "child": "As doces falas de tua",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Valem",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querubim",
+        "sentence": "querubim!",
+        "start_char": 524,
+        "end_char": 532,
+        "excerpt": "Das frescas rosas de gentil coroa. As doces falas de tua alma santa Valem mais do que eu valho oh! querubim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "u mano",
+        "sentence": "Quando rezares por teu mano Não t'esqueças também - reza por mim!",
+        "start_char": 555,
+        "end_char": 561,
+        "excerpt": "As doces falas de tua alma santa Valem mais do que eu valho oh! querubim! Quando rezares por teu mano Não t'esqueças também - reza por mim!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Quando rezares",
+                "child": "teu mano",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rezar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teu mano",
+                "child": "Quando rezares",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mano",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "rezar",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "teu mano",
+                "child": "t'esqueças",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mano",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "t'esqueças",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

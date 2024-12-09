@@ -1,0 +1,107 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Trança loura Auta de Souza",
+        "start_char": 13,
+        "end_char": 26,
+        "excerpt": "Trança loura Auta de Souza A linda trança dourada Que eu vi domingo à noitinha, Guardava a maciez amada Das penas de uma andorinha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus fez-la numa redoma",
+        "start_char": 428,
+        "end_char": 432,
+        "excerpt": "Era já noite, e, no entanto, A loura madeixa olhando, Cuidei que, cheio de encanto, O dia vinha raiando. Deus fez-la numa redoma",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "madeixa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "fez-la",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fez-la",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "madressilvas",
+        "sentence": "Das madressilvas em flor.",
+        "start_char": 510,
+        "end_char": 522,
+        "excerpt": "Deus fez-la numa redoma De beijos, de luz, de amor, E deu-lhe o sagrado aroma Das madressilvas em flor.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "deu-lhe",
+                "child": "madressilvas",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "madressilva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "madressilvas",
+                "child": "flor",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "madressilva",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flor",
+                "child": "madressilvas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "madressilva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

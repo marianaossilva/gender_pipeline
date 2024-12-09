@@ -1,0 +1,2246 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "D . MARIANA VAZ",
+        "sentence": "D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva.",
+        "start_char": 201,
+        "end_char": 216,
+        "excerpt": "Obra Completa, de Machado de Assis, vol. II, Nova Aguilar, Rio de Janeiro, 1994. D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o marido",
+        "sentence": "São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos.",
+        "start_char": 296,
+        "end_char": 304,
+        "excerpt": "II, Nova Aguilar, Rio de Janeiro, 1994. D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva. São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "faleceu",
+                "child": "o marido",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os escravos",
+        "sentence": "São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos.",
+        "start_char": 420,
+        "end_char": 431,
+        "excerpt": "II, Nova Aguilar, Rio de Janeiro, 1994. D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva. São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dançou",
+                "child": "os escravos",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dançar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "escravo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "finado Vaz",
+        "sentence": "Não me peçam grandes notícias do finado Vaz; ou, se insistem por elas, ponham os olhos na viúva.",
+        "start_char": 466,
+        "end_char": 476,
+        "excerpt": "D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva. São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos. Não me peçam grandes notícias do finado Vaz; ou, se insistem por elas, ponham os olhos na viúva.",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notícias",
+                "child": "finado Vaz",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "notícia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "finado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "finado Vaz",
+                "child": "notícias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "finado",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "notícia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Não me peçam grandes notícias do finado Vaz; ou, se insistem por elas, ponham os olhos na viúva.",
+        "start_char": 523,
+        "end_char": 528,
+        "excerpt": "D. MARIANA VAZ está no derradeiro mês do primeiro ano de viúva. São 15 de dezembro de 1880, e o marido faleceu no dia 2 de janeiro, de madrugada, depois de uma bela festa do ano-bom, em que tudo dançou na fazenda, até os escravos. Não me peçam grandes notícias do finado Vaz; ou, se insistem por elas, ponham os olhos na viúva.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ano",
+                "child": "viúva",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "ano",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "mês",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ponham",
+                "child": "viúva",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ponhar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Mariana",
+        "sentence": "Nunca mais a alegria sorriu sequer na casa que vira a felicidade e a desgraça de D. Mariana.",
+        "start_char": 587,
+        "end_char": 598,
+        "excerpt": "A tristeza do primeiro dia é a de hoje. O luto é o mesmo. Nunca mais a alegria sorriu sequer na casa que vira a felicidade e a desgraça de D. Mariana.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Preto",
+        "sentence": "Preto é que não.",
+        "start_char": 812,
+        "end_char": 817,
+        "excerpt": "Nunca mais a alegria sorriu sequer na casa que vira a felicidade e a desgraça de D. Mariana. Vinte e cinco anos, realmente, e vinte e cinco anos bonitos, não deviam andar de preto, mas cor-de-rosa ou azul, verde ou granada. Preto é que não.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "jovem Mariana",
+        "sentence": "E, todavia, é a cor dos vestidos da jovem Mariana, uma cor tão pouco ajustada aos olhos dela, não porque estes também não sejam pretos, mas por serem moralmente azuis.",
+        "start_char": 865,
+        "end_char": 878,
+        "excerpt": "Vinte e cinco anos, realmente, e vinte e cinco anos bonitos, não deviam andar de preto, mas cor-de-rosa ou azul, verde ou granada. Preto é que não. E, todavia, é a cor dos vestidos da jovem Mariana, uma cor tão pouco ajustada aos olhos dela, não porque estes também não sejam pretos, mas por serem moralmente azuis.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o filho de um fazendeiro importante",
+        "sentence": "Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva.",
+        "start_char": 1277,
+        "end_char": 1312,
+        "excerpt": "Poucos dias faltam. Mais de um cavalheiro pretende a mão dela. Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a bela viúva",
+        "sentence": "Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva.",
+        "start_char": 1373,
+        "end_char": 1385,
+        "excerpt": "Poucos dias faltam. Mais de um cavalheiro pretende a mão dela. Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva.",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "restituirá",
+                "child": "a bela viúva",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "restituir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a bela viúva",
+                "child": "é crença",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "viúvo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "crença",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O juiz municipal",
+        "sentence": "O juiz municipal, que reúne à mocidade a viuvez, propõe-se a uma troca de consolações.",
+        "start_char": 1387,
+        "end_char": 1403,
+        "excerpt": "Mais de um cavalheiro pretende a mão dela. Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva. O juiz municipal, que reúne à mocidade a viuvez, propõe-se a uma troca de consolações.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um médico",
+        "sentence": "Há um médico e um tenente-coronel indigitados como possíveis candidatos.",
+        "start_char": 1477,
+        "end_char": 1486,
+        "excerpt": "Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva. O juiz municipal, que reúne à mocidade a viuvez, propõe-se a uma troca de consolações. Há um médico e um tenente-coronel indigitados como possíveis candidatos.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Há",
+                "child": "um médico",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um médico",
+                "child": "um tenente-coronel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "médico",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "tenente-coronel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um tenente-coronel",
+                "child": "um médico",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "tenente-coronel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "candidatos",
+                "child": "um médico",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "candidato",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um tenente - coronel",
+        "sentence": "Há um médico e um tenente-coronel indigitados como possíveis candidatos.",
+        "start_char": 1473,
+        "end_char": 1493,
+        "excerpt": "Recentemente, chegou formado o filho de um fazendeiro importante da localidade; e é crença geral que ele restituirá ao mundo a bela viúva. O juiz municipal, que reúne à mocidade a viuvez, propõe-se a uma troca de consolações. Há um médico e um tenente-coronel indigitados como possíveis candidatos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Mariana",
+        "sentence": "D. Mariana deixa-os andar, e continua fiel à memória do morto.",
+        "start_char": 1565,
+        "end_char": 1576,
+        "excerpt": "Há um médico e um tenente-coronel indigitados como possíveis candidatos. Tudo vão trabalho! D. Mariana deixa-os andar, e continua fiel à memória do morto.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Mariana",
+        "sentence": "D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação.",
+        "start_char": 1833,
+        "end_char": 1844,
+        "excerpt": "Mas, como ia dizendo, estava-se no derradeiro mês do primeiro ano. Era tempo de aliviar o luto. D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma amiga",
+        "sentence": "Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas.",
+        "start_char": 1937,
+        "end_char": 1946,
+        "excerpt": "Era tempo de aliviar o luto. D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação. Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Tinha",
+                "child": "uma amiga",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "uma amiga",
+                "child": "corte",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amiga",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "corte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "corte",
+                "child": "uma amiga",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "corte",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tia dela",
+        "sentence": "Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "start_char": 2038,
+        "end_char": 2048,
+        "excerpt": "D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação. Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "juiz municipal",
+        "sentence": "Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "start_char": 2063,
+        "end_char": 2077,
+        "excerpt": "D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação. Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "start_char": 2080,
+        "end_char": 2087,
+        "excerpt": "D. Mariana cuidou seriamente em mandar arranjar alguns vestidos escuros, apropriados à situação. Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cuidou",
+                "child": "D. Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cuidar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mariana",
+                "child": "Claros",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariana",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Claros",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "claros",
+                "child": "Mariana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "claro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Claros",
+                "child": "Mariana",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Claros",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "titia",
+        "sentence": "Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "start_char": 2147,
+        "end_char": 2152,
+        "excerpt": "Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros? Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "titia",
+                "child": "Viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "titer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "uma viúva",
+        "sentence": "Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "start_char": 2165,
+        "end_char": 2174,
+        "excerpt": "Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros? Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Viúva",
+        "sentence": "Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "start_char": 2179,
+        "end_char": 2184,
+        "excerpt": "Tinha uma amiga na corte, e determinou-se a escrever-lhe, remetendo-lhe as medidas. Foi aqui que interveio a tia dela, protetora do juiz municipal:  Mariana, você por que não manda vir vestidos claros?  Claros? Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "titia",
+                "child": "Viúva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "titer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Viúva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia foi às do cabo:",
+        "start_char": 2243,
+        "end_char": 2248,
+        "excerpt": "Mas, titia, não vê que uma viúva...  Viúva, sim; mas você não vai ficar viúva toda a vida. Como não? A tia foi às do cabo:",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana, você há de casar um dia; por que não escolhe já um bom marido?",
+        "start_char": 2265,
+        "end_char": 2272,
+        "excerpt": "Como não? A tia foi às do cabo: Mariana, você há de casar um dia; por que não escolhe já um bom marido?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "cabo",
+                "child": "Mariana",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cabo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mariana",
+                "child": "cabo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariana",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cabo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dr . Costa",
+        "sentence": "Sei de um, que é o melhor de todos, um homem honesto, sério, o Dr. Costa...",
+        "start_char": 2336,
+        "end_char": 2346,
+        "excerpt": "A tia foi às do cabo: Mariana, você há de casar um dia; por que não escolhe já um bom marido? Sei de um, que é o melhor de todos, um homem honesto, sério, o Dr. Costa...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "Costa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana interrompeu-a;",
+        "start_char": 2413,
+        "end_char": 2420,
+        "excerpt": "Mariana, você há de casar um dia; por que não escolhe já um bom marido? Sei de um, que é o melhor de todos, um homem honesto, sério, o Dr. Costa... Mariana interrompeu-a;",
+        "gender": "female",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "Costa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "um dia",
+                "child": "Mariana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "já um bom marido",
+                "child": "Mariana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "marido",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "interrompeu-a",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interrompeu-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "pediu-lhe que, pelo amor de Deus, não lhe tocasse em tal assunto.",
+        "start_char": 2464,
+        "end_char": 2468,
+        "excerpt": "Sei de um, que é o melhor de todos, um homem honesto, sério, o Dr. Costa... Mariana interrompeu-a; pediu-lhe que, pelo amor de Deus, não lhe tocasse em tal assunto.",
+        "gender": "male",
+        "pch_occurrences": {
+            "costas": {
+                "syns": [
+                    "costa"
+                ],
+                "occurrences": [
+                    "Costa"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", pelo amor",
+                "child": "Deus",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": ", pelo amor",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu Fernando",
+        "sentence": "Nunca seria infiel ao \"seu Fernando\".",
+        "start_char": 2580,
+        "end_char": 2592,
+        "excerpt": "Moralmente, estava casada. O casamento dela subsistia. Nunca seria infiel ao \"seu Fernando\".",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "seu Fernando\"",
+                "child": "infiel",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Fernando",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "infiel",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia levantou os ombros; depois lembrou-lhe que fora casada duas vezes.",
+        "start_char": 2595,
+        "end_char": 2600,
+        "excerpt": "O casamento dela subsistia. Nunca seria infiel ao \"seu Fernando\". A tia levantou os ombros; depois lembrou-lhe que fora casada duas vezes.",
+        "gender": "female",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "titia",
+        "sentence": "titia!",
+        "start_char": 2672,
+        "end_char": 2677,
+        "excerpt": "A tia levantou os ombros; depois lembrou-lhe que fora casada duas vezes. Oh! titia!",
+        "gender": "female",
+        "pch_occurrences": {
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia voltou à carga, nesse dia à noite, e no outro.",
+        "start_char": 2697,
+        "end_char": 2702,
+        "excerpt": "titia! são modos de ver. A tia voltou à carga, nesse dia à noite, e no outro.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O juiz municipal",
+        "sentence": "O juiz municipal recebeu uma carta dela, dizendo que aparecesse para ver se tentava alguma cousa.",
+        "start_char": 2750,
+        "end_char": 2766,
+        "excerpt": "são modos de ver. A tia voltou à carga, nesse dia à noite, e no outro. O juiz municipal recebeu uma carta dela, dizendo que aparecesse para ver se tentava alguma cousa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana, vendo o plano concertado entre os dous, resolveu vir em pessoa à corte.",
+        "start_char": 2919,
+        "end_char": 2926,
+        "excerpt": "Ele foi. Era, na verdade, um rapaz sério, muito simpático, e distinto. Mariana, vendo o plano concertado entre os dous, resolveu vir em pessoa à corte.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "resolveu",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resolver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mariana",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia tentou dissuadi-la, mas perdeu tempo e latim.",
+        "start_char": 3000,
+        "end_char": 3005,
+        "excerpt": "Era, na verdade, um rapaz sério, muito simpático, e distinto. Mariana, vendo o plano concertado entre os dous, resolveu vir em pessoa à corte. A tia tentou dissuadi-la, mas perdeu tempo e latim.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana, além de fiel à memória do marido, era obstinada; não podia suportar a idéia de lhe imporem cousa nenhuma.",
+        "start_char": 3052,
+        "end_char": 3059,
+        "excerpt": "Mariana, vendo o plano concertado entre os dous, resolveu vir em pessoa à corte. A tia tentou dissuadi-la, mas perdeu tempo e latim. Mariana, além de fiel à memória do marido, era obstinada; não podia suportar a idéia de lhe imporem cousa nenhuma.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "resolveu",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resolver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "obstinada",
+                "child": "Mariana, além de fiel à memória do marido,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obstinar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "mariana",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia, não podendo dissuadi-la, acompanhou-a.",
+        "start_char": 3167,
+        "end_char": 3172,
+        "excerpt": "A tia tentou dissuadi-la, mas perdeu tempo e latim. Mariana, além de fiel à memória do marido, era obstinada; não podia suportar a idéia de lhe imporem cousa nenhuma. A tia, não podendo dissuadi-la, acompanhou-a.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "podendo",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a jovem viúva",
+        "sentence": "Elas acolheram a jovem viúva com muitas atenções, deram-lhe agasalho, carinhos, conselhos.",
+        "start_char": 3270,
+        "end_char": 3283,
+        "excerpt": "A tia, não podendo dissuadi-la, acompanhou-a. Na corte tinha algumas amigas e parentas. Elas acolheram a jovem viúva com muitas atenções, deram-lhe agasalho, carinhos, conselhos.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Uma prima",
+        "sentence": "Uma prima levou-a a uma das melhores modistas.",
+        "start_char": 3346,
+        "end_char": 3355,
+        "excerpt": "Na corte tinha algumas amigas e parentas. Elas acolheram a jovem viúva com muitas atenções, deram-lhe agasalho, carinhos, conselhos. Uma prima levou-a a uma das melhores modistas.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "levou-a",
+                "child": "Uma prima",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levou-a",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "prima",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Mariana",
+        "sentence": "D. Mariana disse-lhe o que queria:  sortir-se de vestidos escuros, apropriados ao estado de viúva.",
+        "start_char": 3392,
+        "end_char": 3403,
+        "excerpt": "Elas acolheram a jovem viúva com muitas atenções, deram-lhe agasalho, carinhos, conselhos. Uma prima levou-a a uma das melhores modistas. D. Mariana disse-lhe o que queria:  sortir-se de vestidos escuros, apropriados ao estado de viúva.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos.",
+        "start_char": 3782,
+        "end_char": 3789,
+        "excerpt": "Escolheu também chapéus noutra casa. Mandou fazer os chapéus, e esperou as encomendas para seguir com elas. Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Mariana",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a corte",
+        "sentence": "Achou a corte animadíssima.",
+        "start_char": 3893,
+        "end_char": 3900,
+        "excerpt": "Mandou fazer os chapéus, e esperou as encomendas para seguir com elas. Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. Achou a corte animadíssima.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Achou",
+                "child": "a corte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "corte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A prima",
+        "sentence": "A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "start_char": 3915,
+        "end_char": 3922,
+        "excerpt": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. Achou a corte animadíssima. A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "A prima",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "prima",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "start_char": 3987,
+        "end_char": 3994,
+        "excerpt": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. Achou a corte animadíssima. A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Mariana",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gostou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dous amigos do marido desta",
+        "sentence": "Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito.",
+        "start_char": 4465,
+        "end_char": 4492,
+        "excerpt": "Cerca de vinte corações palpitaram logo, com a veemência própria do caso. Mas, que poderiam eles alcançar, eles da rua, se os da própria roda da prima não alcançavam nada? Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viúva",
+        "sentence": "Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito.",
+        "start_char": 4532,
+        "end_char": 4537,
+        "excerpt": "Cerca de vinte corações palpitaram logo, com a veemência própria do caso. Mas, que poderiam eles alcançar, eles da rua, se os da própria roda da prima não alcançavam nada? Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a sua roda",
+                "child": "viúva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "roda",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "viúva",
+                "child": "a sua roda",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "roda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "prima",
+        "sentence": "Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir.",
+        "start_char": 4573,
+        "end_char": 4578,
+        "excerpt": "Mas, que poderiam eles alcançar, eles da rua, se os da própria roda da prima não alcançavam nada? Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito. Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "própria roda",
+                "child": "prima",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "roda",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "prima",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prima",
+                "child": "própria roda",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "prima",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "roda",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "opinião",
+                "child": "prima",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "opinião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "prima",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "prima",
+                "child": "opinião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "prima",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "opinião",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a fera",
+        "sentence": "Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir.",
+        "start_char": 4610,
+        "end_char": 4616,
+        "excerpt": "Mas, que poderiam eles alcançar, eles da rua, se os da própria roda da prima não alcançavam nada? Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito. Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "domasse",
+                "child": "a fera",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "domar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fera",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana chegou a ir a Petrópolis.",
+        "start_char": 4653,
+        "end_char": 4660,
+        "excerpt": "Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito. Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir. Mariana chegou a ir a Petrópolis.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "start_char": 5075,
+        "end_char": 5082,
+        "excerpt": "Mas os vestidos fizeram-se, e os chapéus enfeitaram-se. O calor começou a apertar muito; era necessário seguir para a fazenda. Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "pegou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tia",
+        "sentence": "Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "start_char": 5130,
+        "end_char": 5135,
+        "excerpt": "Mas os vestidos fizeram-se, e os chapéus enfeitaram-se. O calor começou a apertar muito; era necessário seguir para a fazenda. Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "meteu-se",
+                "child": "a tia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "meteu-se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o juiz municipal",
+        "sentence": "Parou um dia na vila, onde o juiz municipal a cumprimentou, e caminhou para casa.",
+        "start_char": 5193,
+        "end_char": 5209,
+        "excerpt": "O calor começou a apertar muito; era necessário seguir para a fazenda. Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu. Parou um dia na vila, onde o juiz municipal a cumprimentou, e caminhou para casa.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "moça",
+        "sentence": "A vida agitada da corte perpassava no espírito da moça como um espetáculo mágico.",
+        "start_char": 5391,
+        "end_char": 5395,
+        "excerpt": "Em casa, depois de descansada, e antes de dormir teve saudades da corte. Dormiu tarde e mal. A vida agitada da corte perpassava no espírito da moça como um espetáculo mágico.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "espírito",
+                "child": "moça",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "espírito",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "moça",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "moça",
+                "child": "espírito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "moça",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "os rapaz",
+        "sentence": "Ela via as damas que desciam ou subiam a Rua do Ouvidor, as lojas, os rapazes, os bonds, os carros;",
+        "start_char": 5490,
+        "end_char": 5498,
+        "excerpt": "Dormiu tarde e mal. A vida agitada da corte perpassava no espírito da moça como um espetáculo mágico. Ela via as damas que desciam ou subiam a Rua do Ouvidor, as lojas, os rapazes, os bonds, os carros;",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dous rapazes",
+        "sentence": "via as lindas chácaras dos arredores, onde a natureza se casava à civilização, lembrava-se da sala de jantar da prima, ao rés-do-chão, dando para o jardim, com dous rapazes à mesa  os tais dous que a reqüestaram à toa.",
+        "start_char": 5683,
+        "end_char": 5695,
+        "excerpt": "A vida agitada da corte perpassava no espírito da moça como um espetáculo mágico. Ela via as damas que desciam ou subiam a Rua do Ouvidor, as lojas, os rapazes, os bonds, os carros; via as lindas chácaras dos arredores, onde a natureza se casava à civilização, lembrava-se da sala de jantar da prima, ao rés-do-chão, dando para o jardim, com dous rapazes à mesa  os tais dous que a reqüestaram à toa.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o juiz municipal",
+        "sentence": "Dous dias depois, apareceu na fazenda o juiz municipal, a visitá-la.",
+        "start_char": 5826,
+        "end_char": 5842,
+        "excerpt": "via as lindas chácaras dos arredores, onde a natureza se casava à civilização, lembrava-se da sala de jantar da prima, ao rés-do-chão, dando para o jardim, com dous rapazes à mesa  os tais dous que a reqüestaram à toa. E ficava triste, custava-lhe fechar os olhos. Dous dias depois, apareceu na fazenda o juiz municipal, a visitá-la.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "D . Mariana",
+        "sentence": "D. Mariana recebeu-o com muito carinho.",
+        "start_char": 5856,
+        "end_char": 5867,
+        "excerpt": "E ficava triste, custava-lhe fechar os olhos. Dous dias depois, apareceu na fazenda o juiz municipal, a visitá-la. D. Mariana recebeu-o com muito carinho.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o juiz municipal",
+        "sentence": "Entretanto, o juiz municipal não lhe disse nada, nem com a boca nem com os olhos.",
+        "start_char": 6126,
+        "end_char": 6142,
+        "excerpt": "Era escuro, muito escuro, com fitas pretas e tristes; mas ficava-lhe tão bem! Desenhava-lhe o corpo com tanta graça, que aumentava a graça dos olhos e da boca. Entretanto, o juiz municipal não lhe disse nada, nem com a boca nem com os olhos.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade.",
+        "start_char": 6323,
+        "end_char": 6330,
+        "excerpt": "Entretanto, o juiz municipal não lhe disse nada, nem com a boca nem com os olhos. Conversaram da corte, dos esplendores da vida, dos teatros, etc.; depois, por iniciativa dele, falaram do café e dos escravos. Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dous rapazes da casa",
+        "sentence": "Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade.",
+        "start_char": 6370,
+        "end_char": 6390,
+        "excerpt": "Entretanto, o juiz municipal não lhe disse nada, nem com a boca nem com os olhos. Conversaram da corte, dos esplendores da vida, dos teatros, etc.; depois, por iniciativa dele, falaram do café e dos escravos. Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o juiz",
+        "sentence": "Dous dias depois, o juiz despediu-se; ela instou para que ele ficasse.",
+        "start_char": 6528,
+        "end_char": 6534,
+        "excerpt": "Conversaram da corte, dos esplendores da vida, dos teatros, etc.; depois, por iniciativa dele, falaram do café e dos escravos. Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade. Dous dias depois, o juiz despediu-se; ela instou para que ele ficasse.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "despediu-se",
+                "child": "o juiz",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "despediur se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "juiz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o juiz municipal",
+        "sentence": "Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana.",
+        "start_char": 6776,
+        "end_char": 6792,
+        "excerpt": "Tinha-lhe notado no colete alguma cousa análoga aos coletes da Rua do Ouvidor. Ele ficou mais dous dias; e tornaram a falar, não só do café, como de outros assuntos menos pesados. Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tia de Mariana",
+        "sentence": "Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana.",
+        "start_char": 6867,
+        "end_char": 6881,
+        "excerpt": "Tinha-lhe notado no colete alguma cousa análoga aos coletes da Rua do Ouvidor. Ele ficou mais dous dias; e tornaram a falar, não só do café, como de outros assuntos menos pesados. Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a fazendeira",
+        "sentence": "Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor.",
+        "start_char": 6919,
+        "end_char": 6931,
+        "excerpt": "Ele ficou mais dous dias; e tornaram a falar, não só do café, como de outros assuntos menos pesados. Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana. Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "achou",
+                "child": "a fazendeira",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fazendeira",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "juiz municipal",
+        "sentence": "Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor.",
+        "start_char": 6987,
+        "end_char": 7001,
+        "excerpt": "Ele ficou mais dous dias; e tornaram a falar, não só do café, como de outros assuntos menos pesados. Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana. Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O jovem magistrado",
+        "sentence": "O jovem magistrado, ou de propósito, ou casualmente, fez-se esperar; chegou tarde; Mariana, ansiosa, não pôde conter a alegria, quando ele transpôs a porteira.",
+        "start_char": 7124,
+        "end_char": 7142,
+        "excerpt": "Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor. Pareceu-lhe que sim; e durante os três dias de ausência não pensou em outra cousa. O jovem magistrado, ou de propósito, ou casualmente, fez-se esperar; chegou tarde; Mariana, ansiosa, não pôde conter a alegria, quando ele transpôs a porteira.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "O jovem magistrado, ou de propósito, ou casualmente, fez-se esperar; chegou tarde; Mariana, ansiosa, não pôde conter a alegria, quando ele transpôs a porteira.",
+        "start_char": 7207,
+        "end_char": 7214,
+        "excerpt": "Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor. Pareceu-lhe que sim; e durante os três dias de ausência não pensou em outra cousa. O jovem magistrado, ou de propósito, ou casualmente, fez-se esperar; chegou tarde; Mariana, ansiosa, não pôde conter a alegria, quando ele transpôs a porteira.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Mariana, ansiosa,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tia",
+        "sentence": "disse consigo a tia; está caída.",
+        "start_char": 7305,
+        "end_char": 7310,
+        "excerpt": "\"seu Fernando\". A tia levantou os ombros; depois lembrou-lhe que fora casada duas vezes. Oh! titia! são modos de ver. A tia voltou à carga, nesse dia à noite, e no outro. O juiz municipal recebeu uma carta dela, dizendo que aparecesse para ver se tentava alguma cousa. Ele foi. Era, na verdade, um rapaz sério, muito simpático, e distinto. Mariana, vendo o plano concertado entre os dous, resolveu vir em pessoa à corte. A tia tentou dissuadi-la, mas perdeu tempo e latim. Mariana, além de fiel à memória do marido, era obstinada; não podia suportar a idéia de lhe imporem cousa nenhuma. A tia, não podendo dissuadi-la, acompanhou-a. Na corte tinha algumas amigas e parentas. Elas acolheram a jovem viúva com muitas atenções, deram-lhe agasalho, carinhos, conselhos. Uma prima levou-a a uma das melhores modistas. D. Mariana disse-lhe o que queria:  sortir-se de vestidos escuros, apropriados ao estado de viúva. Escolheu vinte, sendo dous inteiramente pretos, doze escuros e simples para uso de casa, e seis mais enfeitados. Escolheu também chapéus noutra casa. Mandou fazer os chapéus, e esperou as encomendas para seguir com elas. Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. Achou a corte animadíssima. A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito. Ia freqüentes vezes à Rua do Ouvidor, já porque lhe era necessário provar os vestidos, já porque queria despedir-se por alguns anos de tanta cousa bonita. São as suas palavras. Na Rua do Ouvidor, onde a sua beleza era notada, correu logo que era uma viúva recente e rica. Cerca de vinte corações palpitaram logo, com a veemência própria do caso. Mas, que poderiam eles alcançar, eles da rua, se os da própria roda da prima não alcançavam nada? Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito. Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir. Mariana chegou a ir a Petrópolis. Gostou muito; era a primeira vez que lá ia, e desceu cortada de saudades. A corte consolou-a; Botafogo, Laranjeiras, Rua do Ouvidor, movimento de bonds, gás, damas e rapazes, cruzando-se, carros de toda a sorte, tudo isto lhe parecia cheio de vida e movimento. Mas os vestidos fizeram-se, e os chapéus enfeitaram-se. O calor começou a apertar muito; era necessário seguir para a fazenda. Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu. Parou um dia na vila, onde o juiz municipal a cumprimentou, e caminhou para casa. Em casa, depois de descansada, e antes de dormir teve saudades da corte. Dormiu tarde e mal. A vida agitada da corte perpassava no espírito da moça como um espetáculo mágico. Ela via as damas que desciam ou subiam a Rua do Ouvidor, as lojas, os rapazes, os bonds, os carros; via as lindas chácaras dos arredores, onde a natureza se casava à civilização, lembrava-se da sala de jantar da prima, ao rés-do-chão, dando para o jardim, com dous rapazes à mesa  os tais dous que a reqüestaram à toa. E ficava triste, custava-lhe fechar os olhos. Dous dias depois, apareceu na fazenda o juiz municipal, a visitá-la. D. Mariana recebeu-o com muito carinho. Tinha no corpo o primeiro dos vestidos de luto aliviado. Era escuro, muito escuro, com fitas pretas e tristes; mas ficava-lhe tão bem! Desenhava-lhe o corpo com tanta graça, que aumentava a graça dos olhos e da boca. Entretanto, o juiz municipal não lhe disse nada, nem com a boca nem com os olhos. Conversaram da corte, dos esplendores da vida, dos teatros, etc.; depois, por iniciativa dele, falaram do café e dos escravos. Mariana notou que ele não tinha as finezas dos dous rapazes da casa da prima, nem mesmo o tom elegante dos outros da Rua do Ouvidor; mas achou-lhe, em troca, muita distinção e gravidade. Dous dias depois, o juiz despediu-se; ela instou para que ele ficasse. Tinha-lhe notado no colete alguma cousa análoga aos coletes da Rua do Ouvidor. Ele ficou mais dous dias; e tornaram a falar, não só do café, como de outros assuntos menos pesados. Afinal, seguiu o juiz municipal, não sem prometer que voltaria três dias depois, aniversário natalício da tia de Mariana. Nunca ali se festejara tal dia; mas a fazendeira não achou outro meio de examinar bem se as gravatas do juiz municipal eram semelhantes às da Rua do Ouvidor. Pareceu-lhe que sim; e durante os três dias de ausência não pensou em outra cousa. O jovem magistrado, ou de propósito, ou casualmente, fez-se esperar; chegou tarde; Mariana, ansiosa, não pôde conter a alegria, quando ele transpôs a porteira. \" Bom! disse consigo a tia; está caída.",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 6
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 2
+            },
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido",
+                    "Ouvido",
+                    "Ouvido",
+                    "Ouvido",
+                    "Ouvido",
+                    "Ouvido",
+                    "Ouvido"
+                ],
+                "occurrences_n": 7
+            },
+            "ombro": {
+                "syns": [
+                    "ombros"
+                ],
+                "occurrences": [
+                    "ombros",
+                    "ombro"
+                ],
+                "occurrences_n": 2
+            },
+            "corpo": {
+                "syns": [
+                    "corpos"
+                ],
+                "occurrences": [
+                    "corpo",
+                    "corpo"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "meteu-se",
+                "child": "a tia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "meteu-se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "disse",
+                "child": "a tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A tia",
+        "sentence": "A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "start_char": 7371,
+        "end_char": 7376,
+        "excerpt": "\" E caída ficou. Casaram-se três meses depois. A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "acreditou",
+                "child": "A tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A tia",
+                "child": "experiente",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "experiente",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "A tia",
+                "child": "filósofa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "filósofa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "filósofa",
+                "child": "A tia",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "filósofa",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "start_char": 7430,
+        "end_char": 7437,
+        "excerpt": "\" E caída ficou. Casaram-se três meses depois. A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vindo",
+                "child": "Mariana",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Mariana",
+                "child": "viúva",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariana",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "viúvo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o jovem casal",
+        "sentence": "Parece que era assim mesmo porque o jovem casal pouco tempo depois vendeu a fazenda e veio para cá.",
+        "start_char": 7611,
+        "end_char": 7624,
+        "excerpt": "Casaram-se três meses depois. A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial. Parece que era assim mesmo porque o jovem casal pouco tempo depois vendeu a fazenda e veio para cá.",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vendeu",
+                "child": "porque o jovem casal",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "vender",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "casal",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a tia",
+        "sentence": "Outra conseqüência da vinda à corte:  a tia ficou com os vestidos.",
+        "start_char": 7715,
+        "end_char": 7720,
+        "excerpt": "A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial. Parece que era assim mesmo porque o jovem casal pouco tempo depois vendeu a fazenda e veio para cá. Outra conseqüência da vinda à corte:  a tia ficou com os vestidos.",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "Ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "a tia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Que diabo fazia Mariana com tanto vestido escuro?",
+        "start_char": 7760,
+        "end_char": 7767,
+        "excerpt": "Parece que era assim mesmo porque o jovem casal pouco tempo depois vendeu a fazenda e veio para cá. Outra conseqüência da vinda à corte:  a tia ficou com os vestidos. Que diabo fazia Mariana com tanto vestido escuro?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "fazia",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "boa velha",
+        "sentence": "Deu-os à boa velha.",
+        "start_char": 7803,
+        "end_char": 7812,
+        "excerpt": "Outra conseqüência da vinda à corte:  a tia ficou com os vestidos. Que diabo fazia Mariana com tanto vestido escuro? Deu-os à boa velha.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,625 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Castro Alves Branco",
+        "sentence": "A Uma Atriz Castro Alves Branco cisne que vagavas",
+        "start_char": 12,
+        "end_char": 31,
+        "excerpt": "A Uma Atriz Castro Alves Branco cisne que vagavas Das harmonias no mar, Pomba errante de outros climas. Vieste aos cerros pousar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pomba",
+        "sentence": "Das harmonias no mar, Pomba errante de outros climas.",
+        "start_char": 72,
+        "end_char": 77,
+        "excerpt": "A Uma Atriz Castro Alves Branco cisne que vagavas Das harmonias no mar, Pomba errante de outros climas. Vieste aos cerros pousar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Pomba",
+                "child": "errante",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "pomba",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "errante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Pomba",
+                "child": "outros climas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "pomba",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "clima",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "outros climas",
+                "child": ", Pomba",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "clima",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "pomba",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "condor",
+        "sentence": "Na voz do condor, dos mares, Das serranias, dos céus...",
+        "start_char": 166,
+        "end_char": 172,
+        "excerpt": "Inda bem. Sob os palmares Na voz do condor, dos mares, Das serranias, dos céus...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "voz",
+                "child": "condor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "condor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "condor",
+                "child": "voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "Sente o homem  que é poeta.",
+        "start_char": 218,
+        "end_char": 225,
+        "excerpt": "Sob os palmares Na voz do condor, dos mares, Das serranias, dos céus... Sente o homem  que é poeta.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sente",
+                "child": "o homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Sente",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o homem",
+                "child": "poeta",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "poeta",
+                "child": "o homem",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o profeta",
+        "sentence": "Sente o vate  que é profeta Sente o profeta  que é Deus.",
+        "start_char": 274,
+        "end_char": 283,
+        "excerpt": "Na voz do condor, dos mares, Das serranias, dos céus... Sente o homem  que é poeta. Sente o vate  que é profeta Sente o profeta  que é Deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Sente",
+                "child": "o profeta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Sente",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "profeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o profeta",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "profeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "o profeta",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "profeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Sente o vate  que é profeta Sente o profeta  que é Deus.",
+        "start_char": 291,
+        "end_char": 295,
+        "excerpt": "Na voz do condor, dos mares, Das serranias, dos céus... Sente o homem  que é poeta. Sente o vate  que é profeta Sente o profeta  que é Deus.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o profeta",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "profeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "o profeta",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "profeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "terno",
+        "sentence": "Há alguma cousa de grande Deste mundo na amplidão, Como que a face do Eterno Palpita na criação...",
+        "start_char": 368,
+        "end_char": 373,
+        "excerpt": "Sente o homem  que é poeta. Sente o vate  que é profeta Sente o profeta  que é Deus. Há alguma cousa de grande Deste mundo na amplidão, Como que a face do Eterno Palpita na criação...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "face",
+                "child": "Eterno Palpita",
+                "dep_h": "advmod",
+                "pos_h": "NOUN",
+                "lemma_h": "face",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eterno",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Eterno Palpita",
+                "child": "face",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eterno",
+                "dep_c": "advmod",
+                "pos_c": "NOUN",
+                "lemma_c": "face",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "E o homem que olha o deserto, Diz consigo: 'Deus 'stá perto Que a grandeza é o Criador\".",
+        "start_char": 440,
+        "end_char": 444,
+        "excerpt": "Sente o vate  que é profeta Sente o profeta  que é Deus. Há alguma cousa de grande Deste mundo na amplidão, Como que a face do Eterno Palpita na criação... E o homem que olha o deserto, Diz consigo: 'Deus 'stá perto Que a grandeza é o Criador\".",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o profeta",
+                "child": "Deus",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "profeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "o profeta",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "profeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "Sente",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Sente",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "stá",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "stár",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Criador",
+        "sentence": "E o homem que olha o deserto, Diz consigo: 'Deus 'stá perto Que a grandeza é o Criador\".",
+        "start_char": 473,
+        "end_char": 482,
+        "excerpt": "Sente o vate  que é profeta Sente o profeta  que é Deus. Há alguma cousa de grande Deste mundo na amplidão, Como que a face do Eterno Palpita na criação... E o homem que olha o deserto, Diz consigo: 'Deus 'stá perto Que a grandeza é o Criador\".",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "É ser tudo... é ser qual Deus...",
+        "start_char": 617,
+        "end_char": 621,
+        "excerpt": "Inda bem. Sob os palmares Na voz do condor, dos mares, Das serranias, dos céus... Sente o homem  que é poeta. Sente o vate  que é profeta Sente o profeta  que é Deus. Há alguma cousa de grande Deste mundo na amplidão, Como que a face do Eterno Palpita na criação... E o homem que olha o deserto, Diz consigo: 'Deus 'stá perto Que a grandeza é o Criador\". E, sob as paternas vistas, Larga rédeas às conquistas Pede as asas ao condor. Inda bem. A glória é isto... É ser tudo... é ser qual Deus...",
+        "gender": "male",
+        "pch_occurrences": {
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "face"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "o profeta",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "profeta",
+                "dep_c": "acl:relcl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "o profeta",
+                "dep_h": "acl:relcl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "profeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "stá",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "stár",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ser",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homens",
+        "sentence": "É ver Homens, que tremem  se tremes!",
+        "start_char": 753,
+        "end_char": 759,
+        "excerpt": "Dizer à mente  delira! A glória inda é mais: É ver Homens, que tremem  se tremes!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Homens",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homens",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "gênio",
+        "sentence": "Não basta \"Chegar, olhar e vencer\" Do gênio a maior grandeza",
+        "start_char": 1150,
+        "end_char": 1155,
+        "excerpt": "Harpa imensa feita de almas, Que rompe em hinos e palmas, Ao teu toque divinal. Mas esqueceste... Não basta \"Chegar, olhar e vencer\" Do gênio a maior grandeza",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "gênio",
+                "child": "a maior grandeza",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "gênio",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grandeza",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a maior grandeza",
+                "child": "gênio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grandeza",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "gênio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nest",
+        "sentence": "espumar-te lauréis; Nest'hora grande não sentes",
+        "start_char": 1278,
+        "end_char": 1282,
+        "excerpt": "Diz!... Quando ouves a torrente Do entusiasmo na enchente Vir espumar-te lauréis; Nest'hora grande não sentes",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Nest'hora",
+                "child": "grande",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Nest'hora",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "grande",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Nest'hora",
+                "child": "sentes",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Nest'hora",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "sente",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Inda é a glória  rainha",
+        "start_char": 1366,
+        "end_char": 1370,
+        "excerpt": "espumar-te lauréis; Nest'hora grande não sentes Longe os silvos das serpentes, Que tentam morder-te os pés? Inda é a glória  rainha",
+        "gender": "female",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Inda",
+                "child": "glória",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inda",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "glória",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "glória",
+                "child": "Inda",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "glória",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Augusto dos Anjos",
+        "sentence": "ETERNA MÁGOA Augusto dos Anjos",
+        "start_char": 13,
+        "end_char": 30,
+        "excerpt": "ETERNA MÁGOA Augusto dos Anjos O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga! Não crê em nada, pois, nada há que traga Consolo à Mágoa, a que só ele assiste.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O homem",
+        "sentence": "O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga!",
+        "start_char": 31,
+        "end_char": 38,
+        "excerpt": "ETERNA MÁGOA Augusto dos Anjos O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga! Não crê em nada, pois, nada há que traga Consolo à Mágoa, a que só ele assiste.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a praga",
+                "child": "O homem",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "praga",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o homem",
+        "sentence": "O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga!",
+        "start_char": 89,
+        "end_char": 96,
+        "excerpt": "ETERNA MÁGOA Augusto dos Anjos O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga! Não crê em nada, pois, nada há que traga Consolo à Mágoa, a que só ele assiste.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "existe",
+                "child": "o homem",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "existir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o homem",
+                "child": "triste",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "triste",
+                "categories": [
+                    "outro",
+                    "emo"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Consolo",
+        "sentence": "Não crê em nada, pois, nada há que traga Consolo à Mágoa, a que só ele assiste.",
+        "start_char": 215,
+        "end_char": 222,
+        "excerpt": "ETERNA MÁGOA Augusto dos Anjos O homem por sobre quem caiu a praga Da tristeza do Mundo, o homem que é triste Para todos os séculos existe E nunca mais o seu pesar se apaga! Não crê em nada, pois, nada há que traga Consolo à Mágoa, a que só ele assiste.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "traga",
+                "child": "Consolo",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "tragar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Consolo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Consolo",
+                "child": "traga",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Consolo",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "tragar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

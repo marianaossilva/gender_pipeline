@@ -1,0 +1,583 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Dinis",
+        "sentence": "Bom dia vi amigo Dom Dinis Cancioneiro da Biblioteca Nacional 565, Cancioneiro da Vaticana 168",
+        "start_char": 17,
+        "end_char": 26,
+        "excerpt": "Bom dia vi amigo Dom Dinis Cancioneiro da Biblioteca Nacional 565, Cancioneiro da Vaticana 168 Bom dia vi amigo pois seu mandad'hei migo, louçana. Bom dia vi amado pois migu'hei seu mandado, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "amigo",
+                "child": "Dom Dinis Cancioneiro da Biblioteca Nacional 565",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dom Dinis Cancioneiro da Biblioteca Nacional 565",
+                "child": "amigo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "seu mandad '",
+        "sentence": "Bom dia vi amigo pois seu mandad'hei migo, louçana.",
+        "start_char": 94,
+        "end_char": 106,
+        "excerpt": "Bom dia vi amigo Dom Dinis Cancioneiro da Biblioteca Nacional 565, Cancioneiro da Vaticana 168 Bom dia vi amigo pois seu mandad'hei migo, louçana. Bom dia vi amado pois migu'hei seu mandado, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "louçana",
+        "sentence": "Bom dia vi amigo pois seu mandad'hei migo, louçana.",
+        "start_char": 138,
+        "end_char": 145,
+        "excerpt": "Bom dia vi amigo Dom Dinis Cancioneiro da Biblioteca Nacional 565, Cancioneiro da Vaticana 168 Bom dia vi amigo pois seu mandad'hei migo, louçana. Bom dia vi amado pois migu'hei seu mandado, louçana.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "migo",
+                "child": "louçana",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "migo",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu mandado,",
+                "child": "louçana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mandado",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "louçana",
+        "sentence": "Bom dia vi amado pois migu'hei seu mandado, louçana.",
+        "start_char": 191,
+        "end_char": 198,
+        "excerpt": "Bom dia vi amigo Dom Dinis Cancioneiro da Biblioteca Nacional 565, Cancioneiro da Vaticana 168 Bom dia vi amigo pois seu mandad'hei migo, louçana. Bom dia vi amado pois migu'hei seu mandado, louçana.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "migo",
+                "child": "louçana",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "migo",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "seu mandado,",
+                "child": "louçana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mandado",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pois seu mandad'hei migo rogu'eu a Deus e digo, louçana.",
+        "start_char": 235,
+        "end_char": 239,
+        "excerpt": "Bom dia vi amigo pois seu mandad'hei migo, louçana. Bom dia vi amado pois migu'hei seu mandado, louçana. Pois seu mandad'hei migo rogu'eu a Deus e digo, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "rogu'eu",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "rogu'eu",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "rogu'eu",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Pois migu'hei seu mandado rogu'eu a Deus de grado, louçana.",
+        "start_char": 293,
+        "end_char": 297,
+        "excerpt": "Bom dia vi amado pois migu'hei seu mandado, louçana. Pois seu mandad'hei migo rogu'eu a Deus e digo, louçana. Pois migu'hei seu mandado rogu'eu a Deus de grado, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "rogu'eu",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "rogu'eu",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "rogu'eu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "rogu'eu",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "grado",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grado",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grado",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Rogu'eu a Deus e digo por aquel meu amigo, louçana.",
+        "start_char": 327,
+        "end_char": 331,
+        "excerpt": "Pois seu mandad'hei migo rogu'eu a Deus e digo, louçana. Pois migu'hei seu mandado rogu'eu a Deus de grado, louçana. Rogu'eu a Deus e digo por aquel meu amigo, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "rogu'eu",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "rogu'eu",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "rogu'eu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "rogu'eu",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "grado",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "iobj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grado",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grado",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rogu'eu",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Rogu'eu a Deus de grado por aquel meu amado, louçana.",
+        "start_char": 379,
+        "end_char": 383,
+        "excerpt": "Pois migu'hei seu mandado rogu'eu a Deus de grado, louçana. Rogu'eu a Deus e digo por aquel meu amigo, louçana. Rogu'eu a Deus de grado por aquel meu amado, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rogu'eu",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "grado",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "louçana",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grado",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grado",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rogu'eu",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rogu'eu",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Rogu'eu",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "grado",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "grado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "grado",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "grado",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amigo",
+        "sentence": "Por aquel meu amigo que o veja comigo, louçana.",
+        "start_char": 433,
+        "end_char": 442,
+        "excerpt": "Rogu'eu a Deus e digo por aquel meu amigo, louçana. Rogu'eu a Deus de grado por aquel meu amado, louçana. Por aquel meu amigo que o veja comigo, louçana.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "por aquel",
+                "child": "meu amigo,",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "aquel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo,",
+                "child": "louçana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "louçano",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo,",
+                "child": "por aquel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "aquel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "aquel",
+                "child": "meu amigo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "aquel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amigo",
+                "child": "aquel",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "aquel",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

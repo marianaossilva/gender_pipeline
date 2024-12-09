@@ -1,0 +1,85 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alberto Caeiro",
+        "sentence": "Todas as teorias, todos os poemas Alberto Caeiro Escrito em 11-1-1916.",
+        "start_char": 34,
+        "end_char": 48,
+        "excerpt": "Todas as teorias, todos os poemas Alberto Caeiro Escrito em 11-1-1916. Todas as teorias, todos os poemas Duram mais que esta flor. Mas isso é como o nevoeiro, que é desagradável e húmido, E maior que esta flor...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "todos os poemas",
+                "child": "Alberto Caeiro Escrito",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poema",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Alberto",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "todos os poemas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poema",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Alberto Caeiro Escrito",
+                "child": "Todas as teorias",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Alberto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "teoria",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o nevoeiro",
+        "sentence": "Mas isso é como o nevoeiro, que é desagradável e húmido, E maior que esta flor...",
+        "start_char": 147,
+        "end_char": 157,
+        "excerpt": "Todas as teorias, todos os poemas Alberto Caeiro Escrito em 11-1-1916. Todas as teorias, todos os poemas Duram mais que esta flor. Mas isso é como o nevoeiro, que é desagradável e húmido, E maior que esta flor...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "o nevoeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nevoeiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a flor",
+        "sentence": "O que importa é a flor a durar e ter tamanho...",
+        "start_char": 313,
+        "end_char": 319,
+        "excerpt": "O tamanho, a duração não têm importância nenhuma... São apenas tamanho e duração... O que importa é a flor a durar e ter tamanho...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

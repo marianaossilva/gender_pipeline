@@ -1,0 +1,336 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Gondoleiro",
+        "sentence": "Sobre o barco dos amores, Da vida boiando à flor, Douram teus olhos a fronte Do Gondoleiro do amor.",
+        "start_char": 224,
+        "end_char": 234,
+        "excerpt": "Teus olhos são negros, negros, Como as noites sem luar... São ardentes, são profundos, Como o negrume do mar; Sobre o barco dos amores, Da vida boiando à flor, Douram teus olhos a fronte Do Gondoleiro do amor.",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a fronte",
+                "child": "Gondoleiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fronte",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "gondoleiro",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gondoleiro",
+                "child": "amor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gondoleiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gondoleiro",
+                "child": "a fronte",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gondoleiro",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fronte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Gondoleiro",
+                "child": "o barco",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "gondoleiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "barco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": "Gondoleiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "gondoleiro",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cava",
+        "sentence": "Tua voz é cavatina",
+        "start_char": 254,
+        "end_char": 258,
+        "excerpt": "São ardentes, são profundos, Como o negrume do mar; Sobre o barco dos amores, Da vida boiando à flor, Douram teus olhos a fronte Do Gondoleiro do amor. Tua voz é cavatina",
+        "gender": "female",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Tua",
+                "child": "cavatina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "tua",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "cavatino",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "voz",
+                "child": "cavatina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "cavatino",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o pescador",
+        "sentence": "E como em noites de Itália Ama um canto o pescador, Bebe a harmonia em teus cantos",
+        "start_char": 387,
+        "end_char": 397,
+        "excerpt": "Tua voz é cavatina Dos palácios de Sorrento, Quando a praia beija a vaga, Quando a vaga beija o vento. E como em noites de Itália Ama um canto o pescador, Bebe a harmonia em teus cantos",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ama",
+                "child": "o pescador",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Ama",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pescador",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o pescador",
+                "child": "Ama",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pescador",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ama",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arque",
+        "sentence": "Ao tíbio clarão da lua, Que, ao murmúrio das volúpias, Arqueja, palpita nua;",
+        "start_char": 733,
+        "end_char": 738,
+        "excerpt": "O Gondoleiro do amor. Teu sorriso é uma aurora Que o horizante enrubesceu ,  Rosa aberta com o biquinho Das aves rubras do céu; Nas tempestades da vida Das rajadas no furor, Foi-se a noite, tem auroras O Gondoleiro do amor. Teu seio é vaga dourada Ao tíbio clarão da lua, Que, ao murmúrio das volúpias, Arqueja, palpita nua;",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Arqueja",
+                "child": "palpita",
+                "dep_h": "cop",
+                "pos_h": "PROPN",
+                "lemma_h": "Arqueja",
+                "dep_c": "xcomp",
+                "pos_c": "NOUN",
+                "lemma_c": "palpita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "palpita",
+                "child": "Arqueja",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "palpita",
+                "dep_c": "cop",
+                "pos_c": "PROPN",
+                "lemma_c": "Arqueja",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "Por isso eu te amo, querida, Quer no prazer, quer na dor...",
+        "start_char": 974,
+        "end_char": 981,
+        "excerpt": "? Teu amor na treva é-um astro, No silêncio uma canção, É brisa-nas calmarias, É abrigo-no tufão; Por isso eu te amo, querida, Quer no prazer, quer na dor...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa",
+        "sentence": "Rosa!",
+        "start_char": 1014,
+        "end_char": 1018,
+        "excerpt": "Teu amor na treva é-um astro, No silêncio uma canção, É brisa-nas calmarias, É abrigo-no tufão; Por isso eu te amo, querida, Quer no prazer, quer na dor... Rosa!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sombra",
+        "sentence": "Sombra!",
+        "start_char": 1027,
+        "end_char": 1033,
+        "excerpt": "Rosa! Canto! Sombra!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Estrela",
+        "sentence": "Estrela!",
+        "start_char": 1035,
+        "end_char": 1042,
+        "excerpt": "Canto! Sombra! Estrela!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gondoleiro do",
+        "sentence": "Do Gondoleiro do amor.",
+        "start_char": 224,
+        "end_char": 237,
+        "excerpt": "Teus olhos são negros, negros, Como as noites sem luar... São ardentes, são profundos, Como o negrume do mar; Sobre o barco dos amores, Da vida boiando à flor, Douram teus olhos a fronte Do Gondoleiro do amor.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olhos",
+                    "olhos",
+                    "olho",
+                    "olho"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    }
+]

@@ -1,0 +1,387 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "V . Hugo",
+        "sentence": "V. Hugo.",
+        "start_char": 67,
+        "end_char": 75,
+        "excerpt": "No jardim Casimiro de Abreu Tête sacrée! enfant aux cheveux blonds! V. Hugo.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anjo louro",
+        "sentence": "Ela estava sentada em meus joelhos E brincava comigo - o anjo louro, E passando as mãozinhas no meu rosto Sacudia rindo os seus cabelos d'ouro.",
+        "start_char": 148,
+        "end_char": 160,
+        "excerpt": "V. Hugo. CENA DOMÉSTICA. Ela estava sentada em meus joelhos E brincava comigo - o anjo louro, E passando as mãozinhas no meu rosto Sacudia rindo os seus cabelos d'ouro.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ave",
+        "sentence": "Feliz sorvia nesse olhar suave Todo o perfume dessa flor da infância, Ouvia alegre o gazear dessa ave!",
+        "start_char": 299,
+        "end_char": 302,
+        "excerpt": "Ela estava sentada em meus joelhos E brincava comigo - o anjo louro, E passando as mãozinhas no meu rosto Sacudia rindo os seus cabelos d'ouro. E eu, fitando-a, abençoava a vida! Feliz sorvia nesse olhar suave Todo o perfume dessa flor da infância, Ouvia alegre o gazear dessa ave!",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "cabelos"
+                ],
+                "occurrences_n": 2
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "joelhos",
+                    "joelho"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olhar",
+                "child": "suave",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "olhar",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "suave",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "gazear",
+                "child": "ave",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "gazear",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ave",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ave",
+                "child": "gazear",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "gazear",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a borboleta da campina",
+        "sentence": "Depois, a borboleta da campina",
+        "start_char": 383,
+        "end_char": 405,
+        "excerpt": "E eu, fitando-a, abençoava a vida! Feliz sorvia nesse olhar suave Todo o perfume dessa flor da infância, Ouvia alegre o gazear dessa ave! Depois, a borboleta da campina",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o louro anjinho",
+        "sentence": "disse o louro anjinho",
+        "start_char": 542,
+        "end_char": 557,
+        "excerpt": "Oh! como é linda! disse o louro anjinho",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mamãe",
+        "sentence": "No doce acento da virgínea fala - Mamãe me ralha se eu ficar cansada",
+        "start_char": 592,
+        "end_char": 597,
+        "excerpt": "como é linda! disse o louro anjinho No doce acento da virgínea fala - Mamãe me ralha se eu ficar cansada",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ralha",
+                "child": "Mamãe",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ralhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mamãe",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus!",
+        "start_char": 930,
+        "end_char": 934,
+        "excerpt": "Iam, vinham, à roda das acácias, Brincavam no rosal, nas violetas, E eu de longe dizia: - Que doidinhas! Meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "meu Deus!",
+        "start_char": 940,
+        "end_char": 944,
+        "excerpt": "- Que doidinhas! Meu Deus! meu Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criança",
+        "sentence": "Ri, criança, a vida é curta,",
+        "start_char": 1003,
+        "end_char": 1010,
+        "excerpt": "... Dezembro - 1858 LXIV RISOS. Ri, criança, a vida é curta,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ri",
+                "child": "criança",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ri",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viandante",
+        "sentence": "Depois... o cipreste esguio Mostra a cova ao viandante!",
+        "start_char": 1099,
+        "end_char": 1108,
+        "excerpt": "Ri, criança, a vida é curta, O sonho dura um instante. Depois... o cipreste esguio Mostra a cova ao viandante!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mostra",
+                "child": "viandante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Mostrar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viandante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Deus a parte entre seus dedos",
+        "start_char": 1166,
+        "end_char": 1170,
+        "excerpt": "A vida é triste - quem nega? - Nem vale a pena dizê-lo. Deus a parte entre seus dedos",
+        "gender": "male",
+        "pch_occurrences": {
+            "dedo": {
+                "syns": [
+                    "dedos"
+                ],
+                "occurrences": [
+                    "dedo",
+                    "dedos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Deus",
+                "child": "a parte",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "de eus",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "parte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "criança",
+        "sentence": "Ri, criança, a vida é curta,",
+        "start_char": 1003,
+        "end_char": 1010,
+        "excerpt": "... Dezembro - 1858 LXIV RISOS. Ri, criança, a vida é curta,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Ri",
+                "child": "criança",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ri",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "viandante",
+        "sentence": "Depois... o cipreste esguio Mostra a cova ao viandante!",
+        "start_char": 1099,
+        "end_char": 1108,
+        "excerpt": "Ri, criança, a vida é curta, O sonho dura um instante. Depois... o cipreste esguio Mostra a cova ao viandante!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Mostra",
+                "child": "viandante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Mostrar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "viandante",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

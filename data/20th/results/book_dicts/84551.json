@@ -1,0 +1,98 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Casimiro de Abreu",
+        "sentence": "Assim!Casimiro de Abreu",
+        "start_char": 6,
+        "end_char": 23,
+        "excerpt": "Assim!Casimiro de Abreu A M.*** Viste o lírio da campina? Lá s'inclina",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "divina",
+        "sentence": "Pois, divina, Como o lírio assim sou eu!",
+        "start_char": 132,
+        "end_char": 138,
+        "excerpt": "E murcho no hastil pendeu! - Viste o lírio da campina? Pois, divina, Como o lírio assim sou eu!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "o lírio",
+                "child": "divina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "lírio",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "divino",
+                "categories": [
+                    "aparencia_carater_social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o nauta",
+        "sentence": "Como o nauta É tão triste o meu cantar!",
+        "start_char": 275,
+        "end_char": 282,
+        "excerpt": "Nunca ouviste a voz da flauta, A dor do nauta Suspirando no alto mar? - Nunca ouviste a voz da flauta? Como o nauta É tão triste o meu cantar!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "triste",
+                "child": "o nauta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tristir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "nauta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjinho",
+        "sentence": "Pois, anjinho, Assim eu gemo, também!",
+        "start_char": 409,
+        "end_char": 416,
+        "excerpt": "No caminho Gemendo, se a noite vem? - Não viste a rola sem ninho? Pois, anjinho, Assim eu gemo, também!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "anjinho",
+                "child": "gemo",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "anjinho",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "gemo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "querida",
+        "sentence": "Pois querida Assim vai meu coração!",
+        "start_char": 533,
+        "end_char": 540,
+        "excerpt": "Não viste a barca perdida, SacudidaNas asas dalgum tufão? - Não viste a barca fendida? Pois querida Assim vai meu coração!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

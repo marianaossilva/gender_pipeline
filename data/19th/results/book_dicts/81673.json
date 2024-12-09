@@ -1,0 +1,93 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Senhor do Bomfim Auta de Souza",
+        "sentence": "Ao Senhor do Bomfim Auta de Souza",
+        "start_char": 3,
+        "end_char": 33,
+        "excerpt": "Ao Senhor do Bomfim Auta de Souza A Joaquina Felismina da Conceição. Sofrer ou morrer!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquina Felismina da Conceição",
+        "sentence": "A Joaquina Felismina da Conceição.",
+        "start_char": 36,
+        "end_char": 67,
+        "excerpt": "Ao Senhor do Bomfim Auta de Souza A Joaquina Felismina da Conceição. Sofrer ou morrer!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santa Thereza de Jesus Amado Senhor",
+        "sentence": "Santa Thereza de Jesus Amado Senhor, Meu doce Jesus, Que morres de amor Suspenso da Cruz!",
+        "start_char": 87,
+        "end_char": 122,
+        "excerpt": "A Joaquina Felismina da Conceição. Sofrer ou morrer! Santa Thereza de Jesus Amado Senhor, Meu doce Jesus, Que morres de amor Suspenso da Cruz!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Santa Thereza de Jesus Amado Senhor, Meu doce Jesus, Que morres de amor Suspenso da Cruz!",
+        "start_char": 104,
+        "end_char": 109,
+        "excerpt": "A Joaquina Felismina da Conceição. Sofrer ou morrer! Santa Thereza de Jesus Amado Senhor, Meu doce Jesus, Que morres de amor Suspenso da Cruz!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Sofrer tanto, tanto, (Senhor, sem cessar!).",
+        "start_char": 272,
+        "end_char": 278,
+        "excerpt": "Em triste amargura, Te vendo morrer, Meu lábio murmura: Eu quero sofrer! Sofrer tanto, tanto, (Senhor, sem cessar!).",
+        "gender": "male",
+        "pch_occurrences": {
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "lábio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Sofrer",
+                "child": "(Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Sofrer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor do Bomfim",
+        "sentence": "A Ti só adoro Senhor do Bomfim.",
+        "start_char": 460,
+        "end_char": 476,
+        "excerpt": "O peso da Cruz. Bem vês quanto choro, Tem pena de mim! A Ti só adoro Senhor do Bomfim.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

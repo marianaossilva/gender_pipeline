@@ -1,0 +1,961 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo",
+        "start_char": 25,
+        "end_char": 38,
+        "excerpt": "UM DON JUAN DE PROVÍNCIA Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu pai",
+        "sentence": "Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes.",
+        "start_char": 177,
+        "end_char": 184,
+        "excerpt": "UM DON JUAN DE PROVÍNCIA Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mulher",
+                "child": "meu pai",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "categories": [
+                    "outro",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "mulher",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "categories": [
+                    "social",
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": "filho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "xcomp",
+                "pos_c": "ADJ",
+                "lemma_c": "filho",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu pai",
+                "child": ", o Linhares",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Linhares",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "primo Linhares",
+        "sentence": "Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "start_char": 387,
+        "end_char": 401,
+        "excerpt": "Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua família",
+        "sentence": "Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "start_char": 407,
+        "end_char": 418,
+        "excerpt": "Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "primo",
+                "child": "de sua família",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "primo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "família",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de sua família",
+                "child": "primo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "família",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "primo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de sua família",
+                "child": "favores",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "família",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "favor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "de sua família",
+                "child": "os dias",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "família",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "senhora",
+        "sentence": "Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "start_char": 420,
+        "end_char": 427,
+        "excerpt": "Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "primo",
+                "child": ", senhora",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "primo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhora",
+                "child": "primo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "primo",
+                "categories": [
+                    "social",
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhora",
+                "child": "favores",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "favor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", senhora",
+                "child": "os dias",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "cinco senhoritas casadeiras",
+        "sentence": "Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "start_char": 430,
+        "end_char": 457,
+        "excerpt": "Artur Azevedo Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o primo Linhares",
+        "sentence": "Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "start_char": 554,
+        "end_char": 570,
+        "excerpt": "Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras. Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a senhora",
+        "sentence": "Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "start_char": 636,
+        "end_char": 645,
+        "excerpt": "Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras. Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": ", a senhora",
+                "child": "porta",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhora",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as senhoritas",
+        "sentence": "Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "start_char": 647,
+        "end_char": 660,
+        "excerpt": "Quando fui pela primeira vez àquela patriarcal cidade de província, o Linhares, que eu chamava primo, por ser filho da primeira mulher de meu pai, não quis que eu ficasse no hotel, e levou-me para sua casa, onde havia um quarto de hóspedes. Durante os dias que ali me demorei fui carinhosamente tratado, e ainda hoje sou reconhecido aos favores do primo Linhares e de sua família, senhora e cinco senhoritas casadeiras. Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer.",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "porta",
+                "child": ", as senhoritas",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "porta",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhorita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", as senhoritas",
+                "child": "porta",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "senhorita",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um rapaz moreno",
+        "sentence": "Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado.",
+        "start_char": 918,
+        "end_char": 933,
+        "excerpt": "Eu não fazia outra coisa todos os dias senão passear pela cidade, e à tarde, depois de jantar, o primo Linhares mandava colocar sete cadeiras no passeio, à porta da rua, e ele, a senhora, as senhoritas e eu sentavam-nos ao ar livre, e conversávamos até ao escurecer. Era muito divertido. Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O primo Linhares",
+        "sentence": "O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "start_char": 1037,
+        "end_char": 1053,
+        "excerpt": "Era muito divertido. Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado. O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Meninas",
+        "sentence": "O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "start_char": 1120,
+        "end_char": 1127,
+        "excerpt": "Era muito divertido. Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado. O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vão",
+                "child": "- Meninas",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Meninas",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flávio Antunes",
+        "sentence": "O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "start_char": 1156,
+        "end_char": 1170,
+        "excerpt": "Era muito divertido. Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado. O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!...",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "vem",
+                "child": "o Flávio Antunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Flávio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As cinco senhoritas",
+        "sentence": "As cinco senhoritas levantaram-se e desapareceram, correndo no interior da casa.",
+        "start_char": 1175,
+        "end_char": 1194,
+        "excerpt": "Numa das tardes em que estávamos assim, perambulando sobre os mais variados assuntos, surgiu de uma esquina, a cem passos do lugar em que nos achávamos, o vulto esguio de um rapaz moreno, de grandes bigodes, envolto numa capa espanhola e com a cabeça coberta por um grande chapéu desabado. O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!... As cinco senhoritas levantaram-se e desapareceram, correndo no interior da casa.",
+        "gender": "male",
+        "pch_occurrences": {
+            "cabeça": {
+                "syns": [
+                    "cabeças",
+                    "crânio",
+                    "crânios",
+                    "moleira",
+                    "moleiras",
+                    "cocuruto",
+                    "cocurutos"
+                ],
+                "occurrences": [
+                    "cabeça"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "levantaram-se",
+                "child": "As cinco senhoritas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantarar se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "senhorita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o primo Linhares",
+        "sentence": "E o primo Linhares explicou-me: -",
+        "start_char": 1258,
+        "end_char": 1274,
+        "excerpt": "O primo Linhares, mal que o viu, ergueu-se e disse imperiosamente às senhoritas: - Meninas, vão para dentro: vem ali o Flávio Antunes!... As cinco senhoritas levantaram-se e desapareceram, correndo no interior da casa. E o primo Linhares explicou-me: -",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flávio Antunes",
+        "sentence": "Aquele Flávio Antunes é um patife, um sedutor de senhoras casadas, um Don Juan!",
+        "start_char": 1297,
+        "end_char": 1311,
+        "excerpt": "As cinco senhoritas levantaram-se e desapareceram, correndo no interior da casa. E o primo Linhares explicou-me: - Aquele Flávio Antunes é um patife, um sedutor de senhoras casadas, um Don Juan!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "patife",
+                "child": "Aquele Flávio Antunes",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "patife",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aquele",
+                "categories": [
+                    "carater_social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Aquele Flávio Antunes",
+                "child": "explicou-me",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Aquele",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "explicou-me",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Don Juan",
+        "sentence": "Aquele Flávio Antunes é um patife, um sedutor de senhoras casadas, um Don Juan!",
+        "start_char": 1360,
+        "end_char": 1368,
+        "excerpt": "As cinco senhoritas levantaram-se e desapareceram, correndo no interior da casa. E o primo Linhares explicou-me: - Aquele Flávio Antunes é um patife, um sedutor de senhoras casadas, um Don Juan!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sedutor",
+                "child": ", um Don Juan",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "sedutor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Don",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", um Don Juan",
+                "child": "sedutor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Don",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sedutor",
+                "categories": [
+                    "aparencia_carater"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", um Don Juan",
+                "child": "explicou-me",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Don",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "explicou-me",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as pequenas",
+        "sentence": "Não consinto que as pequenas olhem para ele!...",
+        "start_char": 1391,
+        "end_char": 1402,
+        "excerpt": "Aquele Flávio Antunes é um patife, um sedutor de senhoras casadas, um Don Juan! ... Não consinto que as pequenas olhem para ele!...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pai de família",
+        "sentence": "Nenhum pai de família honrado o recebe em casa!",
+        "start_char": 1477,
+        "end_char": 1491,
+        "excerpt": "Não consinto que as pequenas olhem para ele!... Não há nesta cidade sujeito mais desmoralizado! Nenhum pai de família honrado o recebe em casa!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flávio Antunes",
+        "sentence": "E como o tal Flávio Antunes se aproximasse: - Olhe para aquele todo!",
+        "start_char": 1531,
+        "end_char": 1545,
+        "excerpt": "Não há nesta cidade sujeito mais desmoralizado! Nenhum pai de família honrado o recebe em casa! E como o tal Flávio Antunes se aproximasse: - Olhe para aquele todo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "aproximasse",
+                "child": "o tal Flávio Antunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproximar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Flávio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o transeunte",
+        "sentence": "E o transeunte, que era, efetivamente, um rapagão, passou fazendo ao primo Linhares um cumprimento, que não foi correspondido.",
+        "start_char": 1633,
+        "end_char": 1645,
+        "excerpt": "E como o tal Flávio Antunes se aproximasse: - Olhe para aquele todo! Veja! - o tipo completo do conquistador!... E o transeunte, que era, efetivamente, um rapagão, passou fazendo ao primo Linhares um cumprimento, que não foi correspondido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "um rapagão",
+                "child": "E o transeunte",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "rapagão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "transeunte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "primo",
+                "child": "E o transeunte",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "primo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "transeunte",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Linhares",
+                "child": "E o transeunte",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Linhares",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "transeunte",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um cumprimento",
+                "child": "E o transeunte",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cumprimento",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "transeunte",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "primo Linhares",
+        "sentence": "E o transeunte, que era, efetivamente, um rapagão, passou fazendo ao primo Linhares um cumprimento, que não foi correspondido.",
+        "start_char": 1700,
+        "end_char": 1714,
+        "excerpt": "E como o tal Flávio Antunes se aproximasse: - Olhe para aquele todo! Veja! - o tipo completo do conquistador!... E o transeunte, que era, efetivamente, um rapagão, passou fazendo ao primo Linhares um cumprimento, que não foi correspondido.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o primo",
+        "sentence": "Um ano depois, o primo veio ao Pio de Janeiro.",
+        "start_char": 1779,
+        "end_char": 1786,
+        "excerpt": "E o transeunte, que era, efetivamente, um rapagão, passou fazendo ao primo Linhares um cumprimento, que não foi correspondido. * * * Um ano depois, o primo veio ao Pio de Janeiro.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "o primo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "primo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flávio Antunes",
+        "sentence": "- Por um excelente rapaz - o Flávio Antunes.",
+        "start_char": 2015,
+        "end_char": 2029,
+        "excerpt": "A minha pequena mais velha foi pedida à semana passada. - Por quem? - Por um excelente rapaz - o Flávio Antunes.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Plávio Antunes",
+        "sentence": "- Perdão... mas o Plávio Antunes não era... -",
+        "start_char": 2049,
+        "end_char": 2063,
+        "excerpt": "- Por quem? - Por um excelente rapaz - o Flávio Antunes. - Perdão... mas o Plávio Antunes não era... -",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "era",
+                "child": "o Plávio Antunes",
+                "dep_h": "conj",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Plávio",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Plávio Antunes",
+                "child": "- Perdão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Plávio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Perdão",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as meninas",
+        "sentence": "Com aquela coisa de mandar as meninas para dentro todas as vezes que ele passava lá por casa, fiz-lhe um extraordinário reclame!",
+        "start_char": 2132,
+        "end_char": 2142,
+        "excerpt": "Era sim! mas que quer você? Com aquela coisa de mandar as meninas para dentro todas as vezes que ele passava lá por casa, fiz-lhe um extraordinário reclame!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "mandar",
+                "child": "as meninas",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "menina",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as meninas",
+                "child": "aquela coisa",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "menina",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "coisa",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mais velha",
+        "sentence": "Todas elas gostavam dele, e ele gostou da mais velha!",
+        "start_char": 2276,
+        "end_char": 2286,
+        "excerpt": "mas que quer você? Com aquela coisa de mandar as meninas para dentro todas as vezes que ele passava lá por casa, fiz-lhe um extraordinário reclame! Todas elas gostavam dele, e ele gostou da mais velha!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "pobre rapaz",
+        "sentence": "- Sim, mesmo porque, melhor informado, me convenci de que a má reputação do pobre rapaz era unicamente devida àquela capa espanhola e aquele chapéu desabado!",
+        "start_char": 2397,
+        "end_char": 2408,
+        "excerpt": "- Ora! Hão de ser muito felizes. - Sim, mesmo porque, melhor informado, me convenci de que a má reputação do pobre rapaz era unicamente devida àquela capa espanhola e aquele chapéu desabado!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a má reputação",
+                "child": "pobre rapaz",
+                "dep_h": "nsubj:pass",
+                "pos_h": "NOUN",
+                "lemma_h": "reputação",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pobre",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pobre rapaz",
+                "child": "a má reputação",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pobre",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "reputação",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "outros pais de família",
+        "sentence": "- Deveras?- Eram mais as nozes que as vozes, e se algumas falcatruas fez ele, coitado, foi em conseqüência do reclame que lhe fazíamos, eu e outros pais de família.",
+        "start_char": 2620,
+        "end_char": 2642,
+        "excerpt": "Hão de ser muito felizes. - Sim, mesmo porque, melhor informado, me convenci de que a má reputação do pobre rapaz era unicamente devida àquela capa espanhola e aquele chapéu desabado! - Deveras?- Eram mais as nozes que as vozes, e se algumas falcatruas fez ele, coitado, foi em conseqüência do reclame que lhe fazíamos, eu e outros pais de família.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

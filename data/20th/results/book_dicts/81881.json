@@ -1,0 +1,121 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Noites amadas Auta de Souza",
+        "start_char": 14,
+        "end_char": 27,
+        "excerpt": "Noites amadas Auta de Souza Ó noites claras de lua cheia! Em vosso seio, noites chorosas, Minhalma canta como a sereia, Vive cantando num mar de rosas;",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Minhalma",
+        "sentence": "Em vosso seio, noites chorosas, Minhalma canta como a sereia, Vive cantando num mar de rosas;",
+        "start_char": 90,
+        "end_char": 98,
+        "excerpt": "Noites amadas Auta de Souza Ó noites claras de lua cheia! Em vosso seio, noites chorosas, Minhalma canta como a sereia, Vive cantando num mar de rosas;",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "canta",
+                "child": "Minhalma",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Minhalma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Noites queridas que Deus prateia",
+        "start_char": 172,
+        "end_char": 176,
+        "excerpt": "Ó noites claras de lua cheia! Em vosso seio, noites chorosas, Minhalma canta como a sereia, Vive cantando num mar de rosas; Noites queridas que Deus prateia",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "prateia",
+                "child": "Deus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "pratear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    }
+]

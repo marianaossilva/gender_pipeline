@@ -1,0 +1,162 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Auta de Souza",
+        "sentence": "Agonia do Coração Auta de Souza \"",
+        "start_char": 18,
+        "end_char": 31,
+        "excerpt": "Agonia do Coração Auta de Souza \" Estrelas fulgem da noite em meio Lembrando círios louros a arder...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Agonia",
+                "child": "Coração Auta de Souza \"",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Agonia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Coração",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Coração Auta de Souza \"",
+                "child": "Agonia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Coração",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Agonia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Astros",
+        "sentence": "Astros!",
+        "start_char": 139,
+        "end_char": 145,
+        "excerpt": "Lembrando círios louros a arder... E eu tenho a treva dentro do seio... Astros!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Moças",
+        "sentence": "Moças!",
+        "start_char": 276,
+        "end_char": 281,
+        "excerpt": "Cantando á hora do adormecer... E o eco triste sobe ás alturas... Moças!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As mães",
+        "sentence": "As mães embalam o berço amigo, Doce esperança de seu viver...",
+        "start_char": 314,
+        "end_char": 321,
+        "excerpt": "Moças! não cantem, que eu vou morrer! As mães embalam o berço amigo, Doce esperança de seu viver...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "embalam",
+                "child": "As mães",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "embalar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mães",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "crianças",
+        "sentence": "Chorai, crianças, que eu vou morrer!",
+        "start_char": 418,
+        "end_char": 426,
+        "excerpt": "As mães embalam o berço amigo, Doce esperança de seu viver... E eu vou sozinha para o jazigo... Chorai, crianças, que eu vou morrer!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Chorai",
+                "child": "crianças",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "chorai",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "criança",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "crianças",
+                "child": "Chorai",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "criança",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "chorai",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Meu Deus! que mágoas tão dolorosas...",
+        "start_char": 651,
+        "end_char": 655,
+        "excerpt": "Aves, suspirem, que eu vou morrer! De lá do campo cheio de rosas Vem um perfume de entontecer... Meu Deus! que mágoas tão dolorosas...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flores",
+        "sentence": "Flores!",
+        "start_char": 685,
+        "end_char": 691,
+        "excerpt": "De lá do campo cheio de rosas Vem um perfume de entontecer... Meu Deus! que mágoas tão dolorosas... Flores!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

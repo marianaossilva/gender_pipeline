@@ -1,0 +1,913 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "um arcanjo errante",
+        "sentence": "Senti as asas de um arcanjo errante Roçar-me brandamente pela fronte, Como o cisne, que adeja sobre a fonte, As vezes toca a solitária flor.",
+        "start_char": 192,
+        "end_char": 210,
+        "excerpt": "Sem rosas-nos vergéis da adolescência, Sem luz d'estrela-pelo céu do amor; Senti as asas de um arcanjo errante Roçar-me brandamente pela fronte, Como o cisne, que adeja sobre a fonte, As vezes toca a solitária flor.",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "do arcanjo",
+        "sentence": "\"Quem és, pálido arcanjo!",
+        "start_char": 345,
+        "end_char": 355,
+        "excerpt": "Senti as asas de um arcanjo errante Roçar-me brandamente pela fronte, Como o cisne, que adeja sobre a fonte, As vezes toca a solitária flor. E disse então: \"Quem és, pálido arcanjo!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o poeta",
+        "sentence": "Tu, que o poeta vens erguer do pego?",
+        "start_char": 365,
+        "end_char": 372,
+        "excerpt": "E disse então: \"Quem és, pálido arcanjo! Tu, que o poeta vens erguer do pego?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "erguer",
+                "child": "o poeta",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "erguer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "vens",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "vem",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o poeta",
+                "child": "Tu",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Tu",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Milton",
+        "sentence": "tu, que Milton cego Ouvia em sua noite erma de sol?",
+        "start_char": 413,
+        "end_char": 419,
+        "excerpt": "Tu, que o poeta vens erguer do pego? Eras acaso tu, que Milton cego Ouvia em sua noite erma de sol?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Milton cego",
+                "child": "Ouvia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Milton",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "ouvia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Ouvia",
+                "child": "Milton cego",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "ouvia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Milton",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o anjo",
+        "sentence": "Quem és tu?\"\"Eu sou o gênio\", Disse-me o anjo \"vem seguir-me o passo, Quero contigo me arrojar no espaço, Onde tenho por c'roas o arrebol\".",
+        "start_char": 508,
+        "end_char": 514,
+        "excerpt": "tu, que Milton cego Ouvia em sua noite erma de sol? Quem és tu? Quem és tu?\"\"Eu sou o gênio\", Disse-me o anjo \"vem seguir-me o passo, Quero contigo me arrojar no espaço, Onde tenho por c'roas o arrebol\".",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Disse-me",
+                "child": "o anjo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Disse-me",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "anjo",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arcanjo",
+        "sentence": "\"Arcanjo!",
+        "start_char": 906,
+        "end_char": 913,
+        "excerpt": "Abaixo-via a terra-abismo em treva! Acima-o firmamento abismo em luz! \"Arcanjo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "arcanjo",
+        "sentence": "arcanjo!",
+        "start_char": 348,
+        "end_char": 355,
+        "excerpt": "Senti as asas de um arcanjo errante Roçar-me brandamente pela fronte, Como o cisne, que adeja sobre a fonte, As vezes toca a solitária flor. E disse então: \"Quem és, pálido arcanjo!",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "as asas",
+                "child": "um arcanjo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "asa",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um arcanjo",
+                "child": "errante",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "arcanjo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "errante",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "um arcanjo",
+                "child": "as asas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "arcanjo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "asa",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pálido",
+                "child": "arcanjo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "páler",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "arcanjo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mol",
+        "sentence": "Eu abro em todo o seio, que chorou, Onde a loura comédia canta alegre, Onde eu tenho o condão de um gênio infindo, Que a sombra de Molière vem sorrindo Beijar na fronte, que o Senhor beijou...",
+        "start_char": 1145,
+        "end_char": 1148,
+        "excerpt": "\"  \" Não, poeta, é o vedado paraíso, Onde os lírios mimosos do sorriso Eu abro em todo o seio, que chorou, Onde a loura comédia canta alegre, Onde eu tenho o condão de um gênio infindo, Que a sombra de Molière vem sorrindo Beijar na fronte, que o Senhor beijou...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a sombra",
+                "child": "Molière",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sombra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Molière",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Molière",
+                "child": "a sombra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Molière",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sombra",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Molière",
+                "child": "sorriso",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Molière",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sorriso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Molière",
+                "child": "os lírios",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Molière",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "lírio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Senhor",
+        "sentence": "Eu abro em todo o seio, que chorou, Onde a loura comédia canta alegre, Onde eu tenho o condão de um gênio infindo, Que a sombra de Molière vem sorrindo Beijar na fronte, que o Senhor beijou...",
+        "start_char": 1188,
+        "end_char": 1196,
+        "excerpt": "\"  \" Não, poeta, é o vedado paraíso, Onde os lírios mimosos do sorriso Eu abro em todo o seio, que chorou, Onde a loura comédia canta alegre, Onde eu tenho o condão de um gênio infindo, Que a sombra de Molière vem sorrindo Beijar na fronte, que o Senhor beijou...",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "beijou",
+                "child": "o Senhor",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "beijar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Senhor",
+                "child": "sorriso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sorriso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Senhor",
+                "child": "os lírios",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "lírio",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "anjo divino",
+        "sentence": "\" \"Onde me levas mais, anjo divino?",
+        "start_char": 1230,
+        "end_char": 1241,
+        "excerpt": "Não, poeta, é o vedado paraíso, Onde os lírios mimosos do sorriso Eu abro em todo o seio, que chorou, Onde a loura comédia canta alegre, Onde eu tenho o condão de um gênio infindo, Que a sombra de Molière vem sorrindo Beijar na fronte, que o Senhor beijou... \" \"Onde me levas mais, anjo divino?",
+        "gender": "male",
+        "pch_occurrences": {
+            "testa": {
+                "syns": [
+                    "fronte",
+                    "testas",
+                    "frontes"
+                ],
+                "occurrences": [
+                    "fronte"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mulher",
+        "sentence": "\"Mulher!",
+        "start_char": 1524,
+        "end_char": 1530,
+        "excerpt": "Mais sóis... mais mundos, e onde tudo é meu... \"Mulher!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "princesa",
+        "sentence": "Ó princesa, a razão já se me perde,",
+        "start_char": 1675,
+        "end_char": 1683,
+        "excerpt": "Aqui tudo é volúpia: A brisa morna, a sombra do arvoredo, A linfa clara, que murmura a medo, A luz que abraça a flor e o céu ao mar. Ó princesa, a razão já se me perde,",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a razão",
+                "child": "princesa",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "razão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "princesa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sila",
+        "sentence": "És a sereia da encantada Sila.",
+        "start_char": 1734,
+        "end_char": 1738,
+        "excerpt": "A brisa morna, a sombra do arvoredo, A linfa clara, que murmura a medo, A luz que abraça a flor e o céu ao mar. Ó princesa, a razão já se me perde, És a sereia da encantada Sila.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a sereia",
+                "child": "Sila",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "sereia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sila",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sila",
+                "child": "encantada",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sila",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "encantado",
+                "categories": [
+                    "emo"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sila",
+                "child": "a sereia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sila",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sereia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sila",
+                "child": "És",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sila",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "És",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Sila",
+                "child": "princesa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sila",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "princesa",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Anjo",
+        "sentence": "Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "start_char": 1740,
+        "end_char": 1744,
+        "excerpt": "Ó princesa, a razão já se me perde, És a sereia da encantada Sila. Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quisera",
+                "child": "Anjo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "quisera",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anjo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dalila",
+        "sentence": "Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "start_char": 1770,
+        "end_char": 1776,
+        "excerpt": "Ó princesa, a razão já se me perde, És a sereia da encantada Sila. Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "transformaste-te",
+                "child": "Dalila",
+                "dep_h": "advcl",
+                "pos_h": "PROPN",
+                "lemma_h": "transformaste-te",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Dalila",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dalila",
+                "child": "transformaste-te",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Dalila",
+                "dep_c": "advcl",
+                "pos_c": "PROPN",
+                "lemma_c": "transformaste-te",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sansão",
+        "sentence": "Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "start_char": 1778,
+        "end_char": 1784,
+        "excerpt": "Ó princesa, a razão já se me perde, És a sereia da encantada Sila. Anjo, que transformaste-te em Dalila, Sansão de novo te quisera amar!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quisera",
+                "child": ", Sansão de",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "quisera",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sansão",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Sansão de",
+                "child": "novo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sansão",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "novo",
+                "categories": [
+                    "aparencia"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "guia",
+        "sentence": "Já não tens asas, águia da Tessália, Maldições sobre ti...",
+        "start_char": 2020,
+        "end_char": 2024,
+        "excerpt": "Já não sinto o soprar de auras sedentas, Nem bebo a taça de um fogoso amor. Sinto que rolo em báratros profundos... Já não tens asas, águia da Tessália, Maldições sobre ti...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Já não tens",
+                "child": ", águia",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tem",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "águia",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", águia",
+                "child": "Tessália",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "águia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Tessália",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", águia",
+                "child": "Já não tens",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "águia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Tessália",
+                "child": ", águia",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Tessália",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "águia",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Onfália",
+        "sentence": "tu és Onfália, Ninguém te ergue das trevas e do horror.",
+        "start_char": 2066,
+        "end_char": 2073,
+        "excerpt": "Sinto que rolo em báratros profundos... Já não tens asas, águia da Tessália, Maldições sobre ti... tu és Onfália, Ninguém te ergue das trevas e do horror.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ninguém",
+        "sentence": "tu és Onfália, Ninguém te ergue das trevas e do horror.",
+        "start_char": 2075,
+        "end_char": 2082,
+        "excerpt": "Sinto que rolo em báratros profundos... Já não tens asas, águia da Tessália, Maldições sobre ti... tu és Onfália, Ninguém te ergue das trevas e do horror.",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jeová",
+        "sentence": "No maldito abismo, Onde caí contigo criminosa, Canta uma voz, sentida e maviosa, Que arrependida sobe a Jeová!",
+        "start_char": 2237,
+        "end_char": 2242,
+        "excerpt": "tu és Onfália, Ninguém te ergue das trevas e do horror. \"Porém silêncio! No maldito abismo, Onde caí contigo criminosa, Canta uma voz, sentida e maviosa, Que arrependida sobe a Jeová!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "sobe",
+                "child": "Jeová",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Jeová",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, p'ra quem soluça, Talvez seja algum anjo peregrino",
+        "start_char": 2260,
+        "end_char": 2266,
+        "excerpt": "Perdão! Perdão! Senhor, p'ra quem soluça, Talvez seja algum anjo peregrino",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soluça",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soluça",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eloá",
+        "sentence": "Mas não! inda eras tu, gênio divino, Também sabes chorar, como Eloá?",
+        "start_char": 2382,
+        "end_char": 2386,
+        "excerpt": "Perdão! Perdão! Senhor, p'ra quem soluça, Talvez seja algum anjo peregrino Mas não! inda eras tu, gênio divino, Também sabes chorar, como Eloá?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "chorar",
+                "child": "Eloá",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Eloá",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "serafim",
+        "sentence": "\"Não mais, ó serafim! suspende as asas!",
+        "start_char": 2401,
+        "end_char": 2408,
+        "excerpt": "Senhor, p'ra quem soluça, Talvez seja algum anjo peregrino Mas não! inda eras tu, gênio divino, Também sabes chorar, como Eloá? \"Não mais, ó serafim! suspende as asas!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "ó",
+                "child": "serafim",
+                "dep_h": "det",
+                "pos_h": "PROPN",
+                "lemma_h": "ó",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "serafim",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "serafim",
+                "child": "ó",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "serafim",
+                "dep_c": "det",
+                "pos_c": "PROPN",
+                "lemma_c": "ó",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arcanjo",
+        "sentence": "Arcanjo!",
+        "start_char": 906,
+        "end_char": 913,
+        "excerpt": "Abaixo-via a terra-abismo em treva! Acima-o firmamento abismo em luz! \"Arcanjo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arcanjo",
+        "sentence": "Arcanjo!",
+        "start_char": 906,
+        "end_char": 913,
+        "excerpt": "Abaixo-via a terra-abismo em treva! Acima-o firmamento abismo em luz! \"Arcanjo!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    }
+]

@@ -1,0 +1,2543 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Florbela Espanca",
+        "sentence": "Florbela Espanca JUNQUILHOS...",
+        "start_char": 26,
+        "end_char": 42,
+        "excerpt": "O LIVRO D'ELE (1915-1917) Florbela Espanca JUNQUILHOS... Nessa tarde mimosa de saudade",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "flor",
+        "sentence": "E como a alma, dessa florzita, Que é a minha, por ti palpita amante!",
+        "start_char": 210,
+        "end_char": 214,
+        "excerpt": "Nessa tarde mimosa de saudade Em que eu te vi partir, ó meu amor, Levaste-me a minh'alma apaixonada Nas olhas perfumadas duma flor. E como a alma, dessa florzita, Que é a minha, por ti palpita amante!",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "perfumadas",
+                "child": "flor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "perfumada",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flor",
+                "child": "perfumadas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perfumada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a alma",
+                "child": ", dessa florzita",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "florzita",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", dessa florzita",
+                "child": "a alma",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "florzita",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meus",
+        "sentence": "Dos meus olhos que morrem de saudade!",
+        "start_char": 527,
+        "end_char": 531,
+        "excerpt": "A paixão que deixou e qu'inda existe... Ai, dize-lhe que se lembre dessa tarde, Que venha aquecer-se ao brando lume Dos meus olhos que morrem de saudade!",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "lume",
+                "child": "meus olhos",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lume",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meus olhos",
+                "child": "lume",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lume",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "saudade",
+                "child": "meus olhos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "saudade",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DOCE MILAGRE",
+        "sentence": "DOCE MILAGRE",
+        "start_char": 1047,
+        "end_char": 1059,
+        "excerpt": "Se algum dia, por meu mal, A doce luz me faltar Desse teu olhar ideal, Não se esqueça Portugal De dizer ao seu luar Que à noite, me vá depor Na campa em que eu dormitar, Essa tristeza, essa dor, Essa amargura, esse amor, Que eu lia no teu olhar! DOCE MILAGRE",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Agonizo",
+        "sentence": "Agonizo",
+        "start_char": 1073,
+        "end_char": 1080,
+        "excerpt": "DOCE MILAGRE O dia chora. Agonizo",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As avezitas",
+        "sentence": "As avezitas, coitadas, 'Squeceram hoje o cantar.",
+        "start_char": 1348,
+        "end_char": 1359,
+        "excerpt": "(O dia parece um réu. Bate a chuva nas vidraças.) As avezitas, coitadas, 'Squeceram hoje o cantar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "As avezitas",
+                "child": "Squeceram",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "avezita",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Squeceram",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Squeceram",
+                "child": "As avezitas",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Squeceram",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "avezita",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Natureza",
+        "sentence": "A Natureza endoidece A cantar.",
+        "start_char": 1649,
+        "end_char": 1659,
+        "excerpt": "E o sol doirado aparece. O dia é uma gargalhada. A Natureza endoidece A cantar.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "endoidece",
+                "child": "A Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "endoidecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "natureza",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A Natureza",
+        "sentence": "A Natureza, zangada, Não quer os dias risonhos?...",
+        "start_char": 1975,
+        "end_char": 1985,
+        "excerpt": "Esses teus olhos suaves! Basta fitá-los, mimosos, Em dias assim chuvosos, Para ouvir cantar as aves! A Natureza, zangada, Não quer os dias risonhos?...",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "quer",
+                "child": "A Natureza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Natureza",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as andorinha",
+        "sentence": "O tempo vai um encanto, A Primavera 'stá linda, Voltaram as andorinhas...",
+        "start_char": 2180,
+        "end_char": 2192,
+        "excerpt": "Pra mim abre perfumada, Enche-me o peito de sonhos! CARTA PARA LONGE O tempo vai um encanto, A Primavera 'stá linda, Voltaram as andorinhas...",
+        "gender": "female",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Voltaram",
+                "child": "as andorinhas",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "Voltaram",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "andorinha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "as andorinhas",
+                "child": "encanto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "andorinha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "encanto",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "mad",
+        "sentence": "Saudades do sol, Da madressilva e da hera;",
+        "start_char": 2565,
+        "end_char": 2568,
+        "excerpt": "... Nessa tarde mimosa de saudade Em que eu te vi partir, ó meu amor, Levaste-me a minh'alma apaixonada Nas olhas perfumadas duma flor. E como a alma, dessa florzita, Que é a minha, por ti palpita amante! Oh alma doce, pequenina e branca, Conserva o teu perfume estonteante! Quando fores velha, emurchecida e triste, Recorda ao meu amor, com teu perfume A paixão que deixou e qu'inda existe... Ai, dize-lhe que se lembre dessa tarde, Que venha aquecer-se ao brando lume Dos meus olhos que morrem de saudade! O TEU OLHAR Quando fito o teu olhar, Duma tristeza fatal, Dum tão íntimo sonhar, Penso logo no luar Bendito de Portugal! O mesmo tom de tristeza, O mesmo vago sonhar, Que me traz a alma presa Às festas da Natureza E à doce luz desse olhar! Se algum dia, por meu mal, A doce luz me faltar Desse teu olhar ideal, Não se esqueça Portugal De dizer ao seu luar Que à noite, me vá depor Na campa em que eu dormitar, Essa tristeza, essa dor, Essa amargura, esse amor, Que eu lia no teu olhar! DOCE MILAGRE O dia chora. Agonizo Com ele meu doce amor. Nem a sombra dum sorriso, Na Natureza diviso, A dar-lhe vida e frescor! A triste bruma, pesada, Parece, detrás da serra Fina renda, esfarrapada, De Malines, desdobrada Em mil voltas pela terra! (O dia parece um réu. Bate a chuva nas vidraças.) As avezitas, coitadas, 'Squeceram hoje o cantar. As flores pendem, fanadas Nas finas hastes, cansadas De tanto e tanto chorar... O dia parece um réu. Bate a chuva nas vidraças. É tudo um imenso véu. Nem a terra nem o céu Se distingue. Mas tu passas... E o sol doirado aparece. O dia é uma gargalhada. A Natureza endoidece A cantar. Tudo enternece A minh'alma angustiada! Rasgam-se todos os véus As flores abrem, sorrindo. Pois se eu vejo os olhos teus A fitarem-se nos meus, Não há de tudo ser lindo?! Se eles são prodigiosos Esses teus olhos suaves! Basta fitá-los, mimosos, Em dias assim chuvosos, Para ouvir cantar as aves! A Natureza, zangada, Não quer os dias risonhos?... Tu passas... e uma alvorada Pra mim abre perfumada, Enche-me o peito de sonhos! CARTA PARA LONGE O tempo vai um encanto, A Primavera 'stá linda, Voltaram as andorinhas... E tu não voltaste ainda!... Porque me fazes sofrer? Porque te demoras tanto? A Primavera 'stá linda... O tempo vai um encanto... Tu não sabes, meu amor, Que, quem 'spera, desespera? O tempo está um encanto... E, vai linda a Primavera... Há imensas andorinhas; Cobrem a terra e o céu! Elas voltaram aos ninhos... Volta também para o teu! ... Adeus. Saudades do sol, Da madressilva e da hera;",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 6
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "olhas",
+                "child": "perfumadas",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perfumada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perfumadas",
+                "child": "olhas",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "perfumada",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "perfumadas",
+                "child": "flor",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "perfumada",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "flor",
+                "child": "perfumadas",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "flor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perfumada",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Saudades",
+                "child": "madressilva",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Saudades",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "madressilva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "madressilva",
+                "child": "da hera",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "madressilva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "hera",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "madressilva",
+                "child": "Saudades",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "madressilva",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Saudades",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "da hera",
+                "child": "madressilva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "hera",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "madressilva",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "hera",
+        "sentence": "Saudades do sol, Da madressilva e da hera;",
+        "start_char": 2582,
+        "end_char": 2586,
+        "excerpt": "... Nessa tarde mimosa de saudade Em que eu te vi partir, ó meu amor, Levaste-me a minh'alma apaixonada Nas olhas perfumadas duma flor. E como a alma, dessa florzita, Que é a minha, por ti palpita amante! Oh alma doce, pequenina e branca, Conserva o teu perfume estonteante! Quando fores velha, emurchecida e triste, Recorda ao meu amor, com teu perfume A paixão que deixou e qu'inda existe... Ai, dize-lhe que se lembre dessa tarde, Que venha aquecer-se ao brando lume Dos meus olhos que morrem de saudade! O TEU OLHAR Quando fito o teu olhar, Duma tristeza fatal, Dum tão íntimo sonhar, Penso logo no luar Bendito de Portugal! O mesmo tom de tristeza, O mesmo vago sonhar, Que me traz a alma presa Às festas da Natureza E à doce luz desse olhar! Se algum dia, por meu mal, A doce luz me faltar Desse teu olhar ideal, Não se esqueça Portugal De dizer ao seu luar Que à noite, me vá depor Na campa em que eu dormitar, Essa tristeza, essa dor, Essa amargura, esse amor, Que eu lia no teu olhar! DOCE MILAGRE O dia chora. Agonizo Com ele meu doce amor. Nem a sombra dum sorriso, Na Natureza diviso, A dar-lhe vida e frescor! A triste bruma, pesada, Parece, detrás da serra Fina renda, esfarrapada, De Malines, desdobrada Em mil voltas pela terra! (O dia parece um réu. Bate a chuva nas vidraças.) As avezitas, coitadas, 'Squeceram hoje o cantar. As flores pendem, fanadas Nas finas hastes, cansadas De tanto e tanto chorar... O dia parece um réu. Bate a chuva nas vidraças. É tudo um imenso véu. Nem a terra nem o céu Se distingue. Mas tu passas... E o sol doirado aparece. O dia é uma gargalhada. A Natureza endoidece A cantar. Tudo enternece A minh'alma angustiada! Rasgam-se todos os véus As flores abrem, sorrindo. Pois se eu vejo os olhos teus A fitarem-se nos meus, Não há de tudo ser lindo?! Se eles são prodigiosos Esses teus olhos suaves! Basta fitá-los, mimosos, Em dias assim chuvosos, Para ouvir cantar as aves! A Natureza, zangada, Não quer os dias risonhos?... Tu passas... e uma alvorada Pra mim abre perfumada, Enche-me o peito de sonhos! CARTA PARA LONGE O tempo vai um encanto, A Primavera 'stá linda, Voltaram as andorinhas... E tu não voltaste ainda!... Porque me fazes sofrer? Porque te demoras tanto? A Primavera 'stá linda... O tempo vai um encanto... Tu não sabes, meu amor, Que, quem 'spera, desespera? O tempo está um encanto... E, vai linda a Primavera... Há imensas andorinhas; Cobrem a terra e o céu! Elas voltaram aos ninhos... Volta também para o teu! ... Adeus. Saudades do sol, Da madressilva e da hera;",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 6
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "madressilva",
+                "child": "da hera",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "madressilva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "hera",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "da hera",
+                "child": "madressilva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "hera",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "madressilva",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "da hera",
+                "child": "Saudades",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "hera",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Saudades",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "' rida ,",
+        "sentence": "Mil beijos da tua q'rida, Que é tua por toda a vida.",
+        "start_char": 2637,
+        "end_char": 2645,
+        "excerpt": "Saudades do sol, Da madressilva e da hera; Respeitosos cumprimentos Do tempo e da Primavera. Mil beijos da tua q'rida, Que é tua por toda a vida.",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sozinha",
+        "sentence": "Vou pela estrada, sozinha.",
+        "start_char": 2724,
+        "end_char": 2731,
+        "excerpt": "Mil beijos da tua q'rida, Que é tua por toda a vida. TRISTE PASSEIO Vou pela estrada, sozinha.",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "estrada",
+                "child": ", sozinha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "estrada",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sozinha",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", sozinha",
+                "child": "estrada",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "sozinha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "estrada",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a toutinegra curios",
+        "sentence": "\" É a toutinegra curiosa;",
+        "start_char": 2821,
+        "end_char": 2840,
+        "excerpt": "Como está ele? Está bem? \" É a toutinegra curiosa;",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Inda não veio?",
+        "start_char": 2908,
+        "end_char": 2912,
+        "excerpt": "Nisto pergunta uma rosa: \"Então ele? Inda não veio?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Inda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o teu doce ausente",
+        "sentence": "De ver o teu doce ausente!",
+        "start_char": 3226,
+        "end_char": 3244,
+        "excerpt": "\"Que imensa mágoa me invade, Que dor o meu peito sente! Tenho uma enorme saudade! De ver o teu doce ausente!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "J . Dantas",
+        "sentence": "\" J.Dantas Tu julgas que eu não sei que tu me mentes",
+        "start_char": 3425,
+        "end_char": 3435,
+        "excerpt": "MENTIRAS \" Ai quem me dera uma feliz mentira, Que fosse uma verdade para mim! \" J.Dantas Tu julgas que eu não sei que tu me mentes",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu amor",
+        "sentence": "Ai, se o sei, meu amor!",
+        "start_char": 3614,
+        "end_char": 3622,
+        "excerpt": "Pois julgas que eu não sei o que tu sentes? Qual a imagem que alberga o peito teu? Ai, se o sei, meu amor!",
+        "gender": "male",
+        "pch_occurrences": {
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "meu amor",
+                "dep_h": "nmod",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Leste",
+        "sentence": "Leste?",
+        "start_char": 3992,
+        "end_char": 3997,
+        "excerpt": "Mas finjo-me enganada, meu encanto, Que um engano feliz vale bem mais Que um desengano que nos custa tanto! OS MEUS VERSOS Leste os meus versos? Leste?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Leste",
+                "child": "os meus versos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "leste",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "verso",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "adivinhaste",
+        "sentence": "E adivinhaste",
+        "start_char": 4001,
+        "end_char": 4012,
+        "excerpt": "OS MEUS VERSOS Leste os meus versos? Leste? E adivinhaste",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adivinhaste",
+        "sentence": "Adivinhaste?",
+        "start_char": 4122,
+        "end_char": 4133,
+        "excerpt": "O encanto supremo que os ditou? Acaso, quando os leste, imaginaste Que era o teu esse olhar que os inspirou? Adivinhaste?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "adivinhas",
+        "sentence": "Eu não posso acreditar Que adivinhasses, vês?",
+        "start_char": 4162,
+        "end_char": 4171,
+        "excerpt": "Acaso, quando os leste, imaginaste Que era o teu esse olhar que os inspirou? Adivinhaste? Eu não posso acreditar Que adivinhasses, vês?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acreditar",
+                "child": "Que adivinhasses",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "adivinhasse",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Que adivinhasses",
+                "child": ", vês",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "adivinhasse",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "vês",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", vês",
+                "child": "Que adivinhasses",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "vês",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "adivinhasse",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "doce amigo",
+        "sentence": "Meu fado, meu doce amigo",
+        "start_char": 4534,
+        "end_char": 4544,
+        "excerpt": "Aí não descubras nunca o meu segredo! [sem título] Meu fado, meu doce amigo",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "Meu fado",
+                "child": "meu doce amigo",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "fado",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu doce amigo",
+                "child": "Meu fado",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "fado",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "embora magoada: Não acredito em Deus e a Virgem Santa É uma ilusão apenas e mais nada!",
+        "start_char": 5144,
+        "end_char": 5148,
+        "excerpt": "E assim fugiram As minhas doces crenças de criança. Fiquei então sem fé; e a toda a gente Eu digo sempre. embora magoada: Não acredito em Deus e a Virgem Santa É uma ilusão apenas e mais nada!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "acredito",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acreditar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "a Virgem",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgem",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "a Virgem",
+                "child": "Deus",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Virgem",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Santa",
+                "child": "Deus",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Santa",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Virgem Santa",
+        "sentence": "embora magoada: Não acredito em Deus e a Virgem Santa É uma ilusão apenas e mais nada!",
+        "start_char": 5151,
+        "end_char": 5165,
+        "excerpt": "E assim fugiram As minhas doces crenças de criança. Fiquei então sem fé; e a toda a gente Eu digo sempre. embora magoada: Não acredito em Deus e a Virgem Santa É uma ilusão apenas e mais nada!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Virgem Santa",
+        "sentence": "Eu creio, sim, eu creio na Virgem Santa Que criou esse brilho que m'encanta!",
+        "start_char": 5330,
+        "end_char": 5342,
+        "excerpt": "Mas avisto os teus olhos, meu amor, Duma luz suavíssima de dor... E grito então ao ver esses dois céus: Eu creio, sim, eu creio na Virgem Santa Que criou esse brilho que m'encanta!",
+        "gender": "female",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Virgem Santa",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Virgem",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Eu creio, sim, creio, eu creio em Deus!",
+        "start_char": 5414,
+        "end_char": 5418,
+        "excerpt": "E grito então ao ver esses dois céus: Eu creio, sim, eu creio na Virgem Santa Que criou esse brilho que m'encanta! Eu creio, sim, creio, eu creio em Deus!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Deus",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "minh ' alma",
+        "sentence": "Um mistério que trago dentro em mim Ajuda-me, minh'alma a descobrir...",
+        "start_char": 5435,
+        "end_char": 5446,
+        "excerpt": "Eu creio, sim, creio, eu creio em Deus! MISTÉRIO D'AMOR Um mistério que trago dentro em mim Ajuda-me, minh'alma a descobrir...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Há tanto, há tanto tempo Que te não vejo, amor!",
+        "start_char": 6131,
+        "end_char": 6135,
+        "excerpt": "Como um perfume casto d'açucenas! Escreve-me! Há tanto, há tanto tempo Que te não vejo, amor!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "vejo",
+                "child": "amor",
+                "dep_h": "ccomp",
+                "pos_h": "PROPN",
+                "lemma_h": "vejo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": "vejo",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "ccomp",
+                "pos_c": "PROPN",
+                "lemma_c": "vejo",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "DOCE CERTEZ",
+        "sentence": "DOCE CERTEZA",
+        "start_char": 6962,
+        "end_char": 6973,
+        "excerpt": "Eu sei que és triste, sei. O meu olhar Descobriu o segredo, que a cantar Repoisa nos teus olhos rasos d'água! DOCE CERTEZA",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dev",
+        "sentence": "Devagarinho, Rezemos uma prece doce e triste Por alma desse sonho!",
+        "start_char": 7513,
+        "end_char": 7516,
+        "excerpt": "MORTO Nosso sonho morreu. Devagarinho, Rezemos uma prece doce e triste Por alma desse sonho!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "uma prece",
+                "child": "Devagarinho",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "prece",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "devagarinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "alma",
+                "child": "Devagarinho",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "devagarinho",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "sonho",
+                "child": "Devagarinho",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "devagarinho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "baixinho",
+        "sentence": "Vá... baixinho...",
+        "start_char": 7586,
+        "end_char": 7594,
+        "excerpt": "Nosso sonho morreu. Devagarinho, Rezemos uma prece doce e triste Por alma desse sonho! Vá... baixinho...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Por esse sonho, amor, que não existe!",
+        "start_char": 7614,
+        "end_char": 7618,
+        "excerpt": "Devagarinho, Rezemos uma prece doce e triste Por alma desse sonho! Vá... baixinho... Por esse sonho, amor, que não existe!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "esse sonho",
+                "child": "amor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "sonho",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": "esse sonho",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "sonho",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Ah, como eu te adoro, como eu te quero, amor!...",
+        "start_char": 9830,
+        "end_char": 9834,
+        "excerpt": "Odeio-te e desprezo-te. Aqui toda a minh'alma Confessa-to a rir, muito serena e calma! Ah, como eu te adoro, como eu te quero, amor!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "quero",
+                "child": ", amor",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "querar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": ", demente, alucinada, Aonde estás, amor?",
+        "start_char": 9905,
+        "end_char": 9909,
+        "excerpt": "AONDE?... Ando a chamar por ti , demente, alucinada, Aonde estás, amor?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Aonde",
+                "child": "amor",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Aonde",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": ", Aonde",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aonde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "eco",
+        "sentence": "E só a voz do eco, irônica, responde!",
+        "start_char": 9998,
+        "end_char": 10001,
+        "excerpt": "... Nessa tarde mimosa de saudade Em que eu te vi partir, ó meu amor, Levaste-me a minh'alma apaixonada Nas olhas perfumadas duma flor. E como a alma, dessa florzita, Que é a minha, por ti palpita amante! Oh alma doce, pequenina e branca, Conserva o teu perfume estonteante! Quando fores velha, emurchecida e triste, Recorda ao meu amor, com teu perfume A paixão que deixou e qu'inda existe... Ai, dize-lhe que se lembre dessa tarde, Que venha aquecer-se ao brando lume Dos meus olhos que morrem de saudade! O TEU OLHAR Quando fito o teu olhar, Duma tristeza fatal, Dum tão íntimo sonhar, Penso logo no luar Bendito de Portugal! O mesmo tom de tristeza, O mesmo vago sonhar, Que me traz a alma presa Às festas da Natureza E à doce luz desse olhar! Se algum dia, por meu mal, A doce luz me faltar Desse teu olhar ideal, Não se esqueça Portugal De dizer ao seu luar Que à noite, me vá depor Na campa em que eu dormitar, Essa tristeza, essa dor, Essa amargura, esse amor, Que eu lia no teu olhar! DOCE MILAGRE O dia chora. Agonizo Com ele meu doce amor. Nem a sombra dum sorriso, Na Natureza diviso, A dar-lhe vida e frescor! A triste bruma, pesada, Parece, detrás da serra Fina renda, esfarrapada, De Malines, desdobrada Em mil voltas pela terra! (O dia parece um réu. Bate a chuva nas vidraças.) As avezitas, coitadas, 'Squeceram hoje o cantar. As flores pendem, fanadas Nas finas hastes, cansadas De tanto e tanto chorar... O dia parece um réu. Bate a chuva nas vidraças. É tudo um imenso véu. Nem a terra nem o céu Se distingue. Mas tu passas... E o sol doirado aparece. O dia é uma gargalhada. A Natureza endoidece A cantar. Tudo enternece A minh'alma angustiada! Rasgam-se todos os véus As flores abrem, sorrindo. Pois se eu vejo os olhos teus A fitarem-se nos meus, Não há de tudo ser lindo?! Se eles são prodigiosos Esses teus olhos suaves! Basta fitá-los, mimosos, Em dias assim chuvosos, Para ouvir cantar as aves! A Natureza, zangada, Não quer os dias risonhos?... Tu passas... e uma alvorada Pra mim abre perfumada, Enche-me o peito de sonhos! CARTA PARA LONGE O tempo vai um encanto, A Primavera 'stá linda, Voltaram as andorinhas... E tu não voltaste ainda!... Porque me fazes sofrer? Porque te demoras tanto? A Primavera 'stá linda... O tempo vai um encanto... Tu não sabes, meu amor, Que, quem 'spera, desespera? O tempo está um encanto... E, vai linda a Primavera... Há imensas andorinhas; Cobrem a terra e o céu! Elas voltaram aos ninhos... Volta também para o teu! ... Adeus. Saudades do sol, Da madressilva e da hera; Respeitosos cumprimentos Do tempo e da Primavera. Mil beijos da tua q'rida, Que é tua por toda a vida. TRISTE PASSEIO Vou pela estrada, sozinha. Não me acompanha ninguém. - Num atalho, em voz mansinha: \" Como está ele? Está bem? \" É a toutinegra curiosa; Há em mim um doce enleio... Nisto pergunta uma rosa: \"Então ele? Inda não veio? \" Sinto-me triste, doente... E nem me deixam esquecê-lo! ... Nisto o sol impertinente: \"Sou um fio do seu cabelo...\" Ainda bem. É noitinha. Enfim já posso pensar! Ai, já me deixam sozinha! De repente, oiço o luar: \"Que imensa mágoa me invade, Que dor o meu peito sente! Tenho uma enorme saudade! De ver o teu doce ausente! \" Volto a casa. Que tristeza! Inda é maior minha dor... Vem depressa. A natureza Só fala de ti, amor! MENTIRAS \" Ai quem me dera uma feliz mentira, Que fosse uma verdade para mim! \" J.Dantas Tu julgas que eu não sei que tu me mentes Quando o teu doce olhar poisa no meu? Pois julgas que eu não sei o que tu sentes? Qual a imagem que alberga o peito teu? Ai, se o sei, meu amor! Eu bem distingo O bom sonho da feroz realidade... Não palpita d'amor, um coração Que anda vogando em ondas de saudade! Embora mintas bem, não te acredito; Perpassa nos teus olhos desleais, O gelo do teu peito de granito... Mas finjo-me enganada, meu encanto, Que um engano feliz vale bem mais Que um desengano que nos custa tanto! OS MEUS VERSOS Leste os meus versos? Leste? E adivinhaste O encanto supremo que os ditou? Acaso, quando os leste, imaginaste Que era o teu esse olhar que os inspirou? Adivinhaste? Eu não posso acreditar Que adivinhasses, vês? E até, sorrindo. Tu disseste para ti: \" Por um olhar Somente, embora fosse assim tão lindo, Ficar amando um homem! ... Que loucura! \" - Pois foi o teu olhar; a noite escura, - (Eu só a ti digo, e muito a medo...) Que inspirou esses versos! Teu olhar Que eu trago dentro d'alma a soluçar! Aí não descubras nunca o meu segredo! [sem título] Meu fado, meu doce amigo Meu grande consolador Eu quero ouvir-te rezar, Orações à minha dor! Só no silêncio da noite Vibrando perturbador, Quantas almas não consolas Nessa toada d'amor! Cantando p'r uma voz pura Eu quero ouvir-te também P'r uma voz que me recorde A doce voz do meu bem! Pela calada da noite Quando o luar é dolente Eu quero ouvir essa voz Docemente... docemente... AOS OLHOS D'ELE Não acredito em nada. As minhas crenças Voaram como voa a pomba mansa, Pelo azul do ar. E assim fugiram As minhas doces crenças de criança. Fiquei então sem fé; e a toda a gente Eu digo sempre. embora magoada: Não acredito em Deus e a Virgem Santa É uma ilusão apenas e mais nada! Mas avisto os teus olhos, meu amor, Duma luz suavíssima de dor... E grito então ao ver esses dois céus: Eu creio, sim, eu creio na Virgem Santa Que criou esse brilho que m'encanta! Eu creio, sim, creio, eu creio em Deus! MISTÉRIO D'AMOR Um mistério que trago dentro em mim Ajuda-me, minh'alma a descobrir... É um mistério de sonho e de luar Que ora me faz chorar, ora sorrir! Viemos tanto tempo tão amigos! E sem que o teu olhar puro toldasse A pureza do meu. E sem que um beijo As nossas bocas rubras desfolhasse! Mas um dia, uma tarde... houve um fulgor, Um olhar que brilhou... e mansamente... Ai, dize ó meu encanto, meu amor: Porque foi que somente nessa tarde Nos olhamos assim tão docemente Num grande olhar d'amor e de saudade?! ESCREVE-ME... Escreve-me! Ainda que seja só Uma palavra, uma palavra apenas, Suave como o teu nome e casta Como um perfume casto d'açucenas! Escreve-me! Há tanto, há tanto tempo Que te não vejo, amor! Meu coração Morreu já, e no mundo aos pobres mortos Ninguém nega uma frase d'oração! \" Amo-te! \" Cinco letras pequeninas, Folhas leves e tenras de boninas, Um poema d'amor e felicidade! Não queres mandar-me esta palavra apenas? Olha, manda então... brandas... serenas... Cinco pétalas roxas de saudade... O TEU SEGREDO O mundo diz-te alegre porque o riso Desabrocha em tua boca, docemente Como uma flor de luz! Meigo sorriso Que na tua boca poisa alegremente! Chama-te o mundo alegre. Ai, meu amor, Só eu inda li bem nessa alegria!... Também parece alegre a triste cor Do sol, à tarde, ao despedir-se o dia!... És triste; eu sei. Toda suavidade Tão roxa, como é roxa uma saudade É a tua alma, amor, cheia de mágoa. Eu sei que és triste, sei. O meu olhar Descobriu o segredo, que a cantar Repoisa nos teus olhos rasos d'água! DOCE CERTEZA Por essa vida fora hás de adorar Lindas mulheres, talvez; em ânsia louca, Em infinito anseio hás de beijar Estrelas d'oiro fulgindo em muita boca! Hás de guardar em cofre perfumado Cabelos d'oiro e risos de mulher, Muito beijo d'amor apaixonado; E não te lembrarás de mim sequer! .. Hás de tecer uns sonhos delicados... Hão de por muitos olhos magoados, Os teus olhos de luz andar imersos ! Mas nunca encontrarás p' la vida fora, Amor assim como este amor que chora Neste beijo d'amor que são meus versos! SONHO MORTO Nosso sonho morreu. Devagarinho, Rezemos uma prece doce e triste Por alma desse sonho! Vá... baixinho... Por esse sonho, amor, que não existe! Vamos encher-lhe o seu caixão dolente De roxas violetas; triste cor! Triste como ele, nascido ao sol poente, O nosso sonho... ai! ... reza baixo... amor... Foste tu que o mataste! E foi sorrindo, Foi sorrindo e cantando alegremente, Que tu mataste o nosso sonho lindo! Nosso sonho morreu... Reza mansinho... Ai, talvez que rezando, docemente, O nosso sonho acorde... mais baixinho... SONHANDO... É noite pura e linda. Abro a minha janela E olho suspirando o infinito céu, Fico a sonhar de leve em muita coisa bela Fico a pensar em ti e neste amor que é teu! D'olhos fechados sonho. A noite é uma elegia Cantando brandamente um sonho todo d'alma E enquanto a lua branca o linho bom desfia Eu sinto almas passar na noite linda e calma. Lá vem a tua agora... Numa carreira louca Tão perto que passou, tão perto à minha boca Nessa carreira doida, estranha e caprichosa Que a minh'alma cativa estremece, esvoaça Para seguir a tua , como a folha de rosa Segue a brisa que a beija... e a tua alma passa! ... DESEJO Quero-te ao pé de mim na hora de morrer. Quero, ao partir, levar-te, todo suavidade, Ó doce olhar de sonho, ó vida dum viver Amortalhado sempre à luz duma saudade! Quero-te junto a mim quando o meu rosto branco Se ungir da palidez sinistra do não ser, E quero ainda, amor, no meu supremo arranco Sentir junto ao meu seio teu coração bater! Que seja a tua mão tão branda como a neve Que feche o meu olhar numa carícia leve Em doce perpassar de pétala de lis... Que seja a tua boca rubra como o sangue Que feche a minha boca, a minha boca exangue!... Ah, venha a morte já que eu morrerei feliz! ... CONFISSÃO Aborreço-te muito. Em ti há qualquer cousa De frio e de gelado, de pérfido e cruel, Como um orvalho frio no tampo duma lousa, Como em doirada taça algum amargo fel. Odeio-te também. O teu olhar ideal O teu perfil suave, a tua boca linda, São belas expressões de todo o humano mal Que inunda o mar e o céu e toda a terra infinda. Desprezo-te também. Quando te ris e falas, Eu fico-me a pensar no mal que tu calas Dizendo que me queres em íntimo fervor! Odeio-te e desprezo-te. Aqui toda a minh'alma Confessa-to a rir, muito serena e calma! Ah, como eu te adoro, como eu te quero, amor!... AONDE?... Ando a chamar por ti , demente, alucinada, Aonde estás, amor? Aonde... aonde... aonde? ... O eco ao pé de mim segreda... desgraçada... E só a voz do eco, irônica, responde!",
+        "gender": "female",
+        "pch_occurrences": {
+            "cabelo": {
+                "syns": [
+                    "cabelos",
+                    "cabeleira",
+                    "cabeleiras",
+                    "juba",
+                    "jubas",
+                    "mecha",
+                    "mechas",
+                    "madeixa",
+                    "madeixas",
+                    "cabelame",
+                    "tufo",
+                    "tufos",
+                    "crina"
+                ],
+                "occurrences": [
+                    "cabelo",
+                    "Cabelo",
+                    "Cabelos"
+                ],
+                "occurrences_n": 3
+            },
+            "face": {
+                "syns": [
+                    "faces",
+                    "rosto",
+                    "rostos",
+                    "cara",
+                    "caras"
+                ],
+                "occurrences": [
+                    "rosto"
+                ],
+                "occurrences_n": 1
+            },
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "OLHO",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "OLHOS",
+                    "olhos",
+                    "olhos",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 19
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "bocas",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca",
+                    "boca"
+                ],
+                "occurrences_n": 10
+            },
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mão"
+                ],
+                "occurrences_n": 1
+            },
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pé",
+                    "pé",
+                    "pé",
+                    "pé",
+                    "pé"
+                ],
+                "occurrences_n": 5
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "seio",
+                    "peito",
+                    "peito",
+                    "peito",
+                    "peito"
+                ],
+                "occurrences_n": 5
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso",
+                    "sorriso"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Quando fores",
+                "child": ", Recorda",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "for",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Recorda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Recorda",
+                "child": "meu amor",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Recorda",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", Recorda",
+                "child": "Quando fores",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Recorda",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "for",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "meu amor",
+                "child": ", Recorda",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Recorda",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "quero",
+                "child": "recorde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "punct",
+                "pos_c": "NOUN",
+                "lemma_c": "recorde",
+                "categories": [
+                    "outro"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O eco",
+                "child": "pé",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "eco",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pé",
+                "child": "O eco",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "eco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "segreda",
+                "child": "O eco",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "segreda",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "eco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "E só a voz",
+                "child": "eco,",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "eco",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "eco,",
+                "child": "irônica",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "eco",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "irônico",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "eco,",
+                "child": "E só a voz",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "eco",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O vento",
+        "sentence": "O vento, aos meus ouvidos, soluça a murmurar;",
+        "start_char": 10066,
+        "end_char": 10073,
+        "excerpt": "Estendo os braços meus! Chamo por ti ainda! O vento, aos meus ouvidos, soluça a murmurar;",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvidos",
+                    "ouvido"
+                ],
+                "occurrences_n": 2
+            },
+            "braço": {
+                "syns": [
+                    "braços"
+                ],
+                "occurrences": [
+                    "braços",
+                    "braço"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "soluça",
+                "child": "O vento",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soluça",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vento",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "O vento",
+                "child": ", aos meus ouvidos",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ouvido",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", aos meus ouvidos",
+                "child": "O vento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ouvido",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vento",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "Aonde estás, amor?",
+        "start_char": 9905,
+        "end_char": 9909,
+        "excerpt": "AONDE?... Ando a chamar por ti , demente, alucinada, Aonde estás, amor?",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": ", Aonde",
+                "child": "amor",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Aonde",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "amor",
+                "child": ", Aonde",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amor",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aonde",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "meu cruel amante",
+        "sentence": "Bem paga ficaria, ó meu cruel amante!",
+        "start_char": 11558,
+        "end_char": 11574,
+        "excerpt": "No colo purpurino havia de trazer Desfeito no perfume o mist'rioso Oriente! Q'ria depois colher essas flores reais, Essas flores de sonho, estranhas, sensuais, E lançar-tas aos pés em perfumados molhos. Bem paga ficaria, ó meu cruel amante!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "colo"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "JOELHOS",
+        "sentence": "ORAÇÃO DE JOELHOS",
+        "start_char": 11674,
+        "end_char": 11681,
+        "excerpt": "Se, sobre elas, eu visse apenas um instante Cair como um orvalho os teus divinos olhos! ORAÇÃO DE JOELHOS",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "JOELHOS",
+                    "JOELHO"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "ORAÇÃO",
+                "child": "JOELHOS",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ORAÇÃO",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "JOELHOS",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "JOELHOS",
+                "child": "ORAÇÃO",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "JOELHOS",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ORAÇÃO",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a mãe",
+        "sentence": "Bendita seja a mãe que te gerou!",
+        "start_char": 11695,
+        "end_char": 11700,
+        "excerpt": "Cair como um orvalho os teus divinos olhos! ORAÇÃO DE JOELHOS Bendita seja a mãe que te gerou!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "joelho": {
+                "syns": [
+                    "joelhos",
+                    "articulação",
+                    "articulações"
+                ],
+                "occurrences": [
+                    "JOELHOS",
+                    "JOELHO"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benditos",
+        "sentence": "Benditos sejam todos que te amarem!",
+        "start_char": 11944,
+        "end_char": 11952,
+        "excerpt": "Bendito o berço aonde te embalou A tua ama pra te adormecer! Bendito seja o brilho do luar Da noite em que nasceste tão suave, Que deu essa candura ao teu olhar E à tua voz esse gorjeio d'ave! Benditos sejam todos que te amarem!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Parece que Jesus, doce bambino, Anda pisando as ruas da cidade...",
+        "start_char": 12249,
+        "end_char": 12254,
+        "excerpt": "AOS OLHOS D'ELE É noite de luar casto e divino. Tudo é brancura, tudo é castidade... Parece que Jesus, doce bambino, Anda pisando as ruas da cidade...",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "OLHO",
+                    "OLHOS"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Anda",
+                "child": "Jesus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "Anda",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Jesus",
+                "child": "doce",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O doce olhar",
+        "sentence": "O doce olhar saltitante...",
+        "start_char": 12835,
+        "end_char": 12847,
+        "excerpt": "Finges que não queres ver Mas sempre me vais olhando. É um olhar fugidio, Olhar que dura um instante, Mas deixa um rasto de estrelas O doce olhar saltitante...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "' alguém",
+        "sentence": "Olhar os olhos d'alguém...",
+        "start_char": 13033,
+        "end_char": 13041,
+        "excerpt": "Que eu nem o sinto passar! Quem tem uns olhos assim E quer fingir o desdém, Não pode nem um instante Olhar os olhos d'alguém...",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olho",
+                    "olhos",
+                    "olhos"
+                ],
+                "occurrences_n": 4
+            }
+        },
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a Natureza",
+        "sentence": "Ir esperar-te à tardinha Quando é doce a Natureza",
+        "start_char": 13246,
+        "end_char": 13256,
+        "excerpt": "RÚSTICA Eu q'ria ser camponesa; Ir esperar-te à tardinha Quando é doce a Natureza",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "a Natureza",
+                "child": "doce",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "Natureza",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "doce",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rapariga",
+        "sentence": "E depois se toda a gente Perguntasse: \"Que encarnada, Rapariga!",
+        "start_char": 13607,
+        "end_char": 13615,
+        "excerpt": "Levar o cântaro à fonte Deixá-lo devagarinho, E correndo pela ponte Que fica detrás do monte Ir encontrar-te sozinho... E depois quando o luar Andasse pelas estradas, D'olhos cheios do teu olhar Eu voltaria a sonhar, P'los caminhos de mãos dadas. E depois se toda a gente Perguntasse: \"Que encarnada, Rapariga!",
+        "gender": "female",
+        "pch_occurrences": {
+            "mão": {
+                "syns": [
+                    "mãos"
+                ],
+                "occurrences": [
+                    "mãos",
+                    "mão"
+                ],
+                "occurrences_n": 2
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Rapariga",
+                "child": "encarnada",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Rapariga",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "encarnado",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Rapariga",
+                "child": "Perguntasse",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Rapariga",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "perguntasse",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "O cant '",
+        "sentence": "O cant'ro ficou na fonte Mas os beijos trouxe-os eu... ?!",
+        "start_char": 13769,
+        "end_char": 13777,
+        "excerpt": "\"É do poente, Que assim me fez encarnada!\" E fitando ao longe a ponte, Com meu olhar cheio do teu, Diria a sorrir pro monte: \" O cant'ro ficou na fonte Mas os beijos trouxe-os eu... ?!",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "A prece que eu murmuro, a soluçar Ao Deus todo bondade e todo amor, É rezada de rastos no altar Onde a tristeza reza com a dor!",
+        "start_char": 14369,
+        "end_char": 14373,
+        "excerpt": "SÚPLICA A prece que eu murmuro, a soluçar Ao Deus todo bondade e todo amor, É rezada de rastos no altar Onde a tristeza reza com a dor! A minha boca reza-a comovida, Chora-a meus olhos, beija-a o meu peito Sonha-a minh' alma sempre enternecida",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "soluçar",
+                "child": "Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "soluçar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "A prece",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "deus",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "prece",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "o Deus",
+        "sentence": "Que o Deus do céu atenda a minha prece, Embora eu saiba nesta desventura",
+        "start_char": 14609,
+        "end_char": 14615,
+        "excerpt": "A minha boca reza-a comovida, Chora-a meus olhos, beija-a o meu peito Sonha-a minh' alma sempre enternecida Ao ver-te rir, ó meu Amor Perfeito.. Que o Deus do céu atenda a minha prece, Embora eu saiba nesta desventura",
+        "gender": "male",
+        "pch_occurrences": {
+            "olho": {
+                "syns": [
+                    "olhos"
+                ],
+                "occurrences": [
+                    "olho",
+                    "olhos"
+                ],
+                "occurrences_n": 2
+            },
+            "boca": {
+                "syns": [
+                    "bocas",
+                    "lábio",
+                    "lábios"
+                ],
+                "occurrences": [
+                    "boca"
+                ],
+                "occurrences_n": 1
+            },
+            "peito": {
+                "syns": [
+                    "peitos",
+                    "colo",
+                    "colos",
+                    "busto",
+                    "bustos",
+                    "seio",
+                    "seios",
+                    "torso",
+                    "torsos",
+                    "tórax",
+                    "tóraxes"
+                ],
+                "occurrences": [
+                    "peito"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "atenda",
+                "child": "o Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "atendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Deus",
+                "child": "céu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céu",
+                "child": "o Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Que Deus só ouve aquele que o merece!",
+        "start_char": 14682,
+        "end_char": 14686,
+        "excerpt": "Ao ver-te rir, ó meu Amor Perfeito.. Que o Deus do céu atenda a minha prece, Embora eu saiba nesta desventura Que Deus só ouve aquele que o merece!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atenda",
+                "child": "o Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "atendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Deus",
+                "child": "céu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céu",
+                "child": "o Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouve",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouve",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Deus",
+        "sentence": "Mas vou pedindo ao Deus de piedade, Que te conceda anos de ventura, Como dias a mim de inf'licidade!...",
+        "start_char": 14735,
+        "end_char": 14739,
+        "excerpt": "Que o Deus do céu atenda a minha prece, Embora eu saiba nesta desventura Que Deus só ouve aquele que o merece! Mas vou pedindo ao Deus de piedade, Que te conceda anos de ventura, Como dias a mim de inf'licidade!...",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "atenda",
+                "child": "o Deus",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "atendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "o Deus",
+                "child": "céu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "céu",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "céu",
+                "child": "o Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "céu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "ouve",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouve",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "pedindo",
+                "child": "Deus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Deus",
+                "child": "piedade",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Deus",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "piedade",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "piedade",
+                "child": "Deus",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "piedade",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Deus",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Beatriz Carvalho",
+        "sentence": "À Beatriz Carvalho Escuta, amor, escuta a voz que ao teu ouvido",
+        "start_char": 14832,
+        "end_char": 14848,
+        "excerpt": "Mas vou pedindo ao Deus de piedade, Que te conceda anos de ventura, Como dias a mim de inf'licidade!... ESCUTA... À Beatriz Carvalho Escuta, amor, escuta a voz que ao teu ouvido",
+        "gender": "female",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "escuta",
+                "child": "Beatriz Carvalho Escuta, amor,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escutar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Beatriz",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amigo",
+        "sentence": "Te canta uma canção na rua em que morei, Essa soturna voz há de contar-te, amigo",
+        "start_char": 14969,
+        "end_char": 14974,
+        "excerpt": "ESCUTA... À Beatriz Carvalho Escuta, amor, escuta a voz que ao teu ouvido Te canta uma canção na rua em que morei, Essa soturna voz há de contar-te, amigo",
+        "gender": "male",
+        "pch_occurrences": {
+            "orelha": {
+                "syns": [
+                    "orelhas",
+                    "ouvido",
+                    "ouvidos"
+                ],
+                "occurrences": [
+                    "ouvido"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "a voz",
+                "child": ", amigo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "voz",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "amigo",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            },
+            {
+                "head": ", amigo",
+                "child": "a voz",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amigo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "voz",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "um rei",
+        "sentence": "Assim s'envolve um rei!",
+        "start_char": 15174,
+        "end_char": 15180,
+        "excerpt": "O muito que te amei Anda pairando aí em sonho comovido A envolver-te em oiro! ... Assim s'envolve um rei!",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "s'envolve",
+                "child": "um rei",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "s'envolve",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rei",
+                "categories": [
+                    "social"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Trindade",
+        "sentence": "O sino ao longe dá Trindades",
+        "start_char": 15967,
+        "end_char": 15975,
+        "excerpt": "Talvez a olhar A mesma noite linda a refulgir... SOL POSTO Sol posto. O sino ao longe dá Trindades",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "dá",
+                "child": "Trindades",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Trindades",
+                "categories": [
+                    "carater"
+                ],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "As cigarras dolen",
+        "sentence": "As cigarras dolentes...",
+        "start_char": 16013,
+        "end_char": 16030,
+        "excerpt": "O sino ao longe dá Trindades Nas ravinas do monte andam cantando As cigarras dolentes...",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a ' strela",
+        "sentence": "Pra onde iria a 'strela?",
+        "start_char": 16618,
+        "end_char": 16628,
+        "excerpt": "Do nosso amor me lembra a suavidade... Da estrela não ficou nada no céu Do nosso sonho em ti nem a saudade! Pra onde iria a 'strela?",
+        "gender": "unknown",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flor",
+        "sentence": "Flor fugida Ao ramalhete atado no infinito...",
+        "start_char": 16644,
+        "end_char": 16648,
+        "excerpt": "Da estrela não ficou nada no céu Do nosso sonho em ti nem a saudade! Pra onde iria a 'strela? Flor fugida Ao ramalhete atado no infinito...",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "A linda estrela",
+        "sentence": "A linda estrela de fulgir bendito?",
+        "start_char": 16722,
+        "end_char": 16737,
+        "excerpt": "Flor fugida Ao ramalhete atado no infinito... Que ilusão seguiria entontecida A linda estrela de fulgir bendito?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": []
+    },
+    {
+        "class": "PESSOA",
+        "entity": "a flor",
+        "sentence": "Aonde iria, aonde iria a flor?",
+        "start_char": 16784,
+        "end_char": 16790,
+        "excerpt": "A linda estrela de fulgir bendito? ... Aonde iria, aonde iria a flor?",
+        "gender": "female",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "iria",
+                "child": "a flor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "flor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "amor",
+        "sentence": "... ai quem soubesse, amor!)",
+        "start_char": 16834,
+        "end_char": 16838,
+        "excerpt": "Aonde iria, aonde iria a flor? (Talvez, quem sabe? ... ai quem soubesse, amor!)",
+        "gender": "male",
+        "pch_occurrences": null,
+        "dependencies": [
+            {
+                "head": "soubesse",
+                "child": "amor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soubesse",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dante",
+        "sentence": "Um verso é teu olhar, Um verso é teu sorriso e os de Dante Eram o seu amor a soluçar",
+        "start_char": 17219,
+        "end_char": 17224,
+        "excerpt": "Versos!... Sei lá! Um verso é teu olhar, Um verso é teu sorriso e os de Dante Eram o seu amor a soluçar",
+        "gender": "male",
+        "pch_occurrences": {
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": [
+            {
+                "head": "Dante",
+                "child": "sorriso",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "sorriso",
+                "categories": [],
+                "pch_dependencies": []
+            },
+            {
+                "head": "Dante",
+                "child": "olhar",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "categories": [],
+                "pch_dependencies": []
+            }
+        ]
+    },
+    {
+        "class": "PESSOA",
+        "entity": "sua estremecida amante",
+        "sentence": "Aos pés da sua estremecida amante!",
+        "start_char": 17262,
+        "end_char": 17284,
+        "excerpt": "Sei lá! Um verso é teu olhar, Um verso é teu sorriso e os de Dante Eram o seu amor a soluçar Aos pés da sua estremecida amante!",
+        "gender": "unknown",
+        "pch_occurrences": {
+            "pé": {
+                "syns": [
+                    "pés"
+                ],
+                "occurrences": [
+                    "pés",
+                    "pé"
+                ],
+                "occurrences_n": 2
+            },
+            "sorriso": {
+                "syns": [
+                    "sorrisos"
+                ],
+                "occurrences": [
+                    "sorriso"
+                ],
+                "occurrences_n": 1
+            }
+        },
+        "dependencies": []
+    }
+]
