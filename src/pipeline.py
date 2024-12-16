@@ -97,7 +97,7 @@ def run_pipeline(input_folder, preprocessed_folder, output_folder, group_results
             excerpts = {book_id: [entity for entities in excerpts.values() for entity in entities]}
         
         for book_id, entities in tqdm(excerpts.items(), total=len(excerpts), desc='Cálculo de viés de gênero'):
-            gender_total_dict[book_id], overall_stats_dict[book_id], gender_bias_dict[book_id], attribute_dict[book_id] = bias_analysis(entities)            
+            gender_total_dict[book_id], overall_stats_dict[book_id], gender_bias_dict[book_id], attribute_dict[book_id] = bias_analysis(entities)        
             write_json(os.path.join(output_folder + '/gender_total', f'{book_id}.json'), gender_total_dict[book_id])
             write_json(os.path.join(output_folder + '/overall_stats', f'{book_id}.json'), overall_stats_dict[book_id])
             write_json(os.path.join(output_folder + '/gender_bias', f'{book_id}.json'), gender_bias_dict[book_id])

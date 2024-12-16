@@ -51,7 +51,7 @@ def parse_args():
 
 if __name__ == "__main__":
     
-    centutries = ['19', '20']
+    centutries = ['17', '18', '19', '20']
     for century in centutries:
         print(f'Running pipeline for century {century}')
         

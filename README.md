@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 4. Download the spaCy Portuguese model:
 ```
-python -m spacy download pt_core_news_lg
+python -m spacy download pt_core_news_sm
 ```
 
 ## Usage
